@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><Norma xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.leychile.cl/esquemas" xsi:schemaLocation="http://www.leychile.cl/esquemas http://www.leychile.cl/esquemas/EsquemaIntercambioNorma-v1-0.xsd" normaId="1209692" esTratado="no tratado" fechaVersion="2024-12-27" SchemaVersion="1.0" derogado="no derogado">
+  <Identificador fechaPromulgacion="2024-12-20" fechaPublicacion="2024-12-27">
+    <TiposNumeros>
+      <TipoNumero>
+        <Tipo>Ley</Tipo>
+        <Numero>21721</Numero>
+      </TipoNumero>
+    </TiposNumeros>
+    <Organismos>
+      <Organismo>MINISTERIO DE ENERG&#205;A</Organismo>
+    </Organismos>
+  </Identificador>
+  <Metadatos>
+    <TituloNorma>MODIFICA LA LEY GENERAL DE SERVICIOS EL&#201;CTRICOS, EN MATERIA DE TRANSMISI&#211;N EL&#201;CTRICA</TituloNorma>
+    <Materias>
+      <Materia>Ley General de Servicios El&#233;ctricos</Materia>
+      <Materia>Transmisi&#243;n El&#233;ctrica</Materia>
+      <Materia>Carbono Neutralidad</Materia>
+      <Materia>Ley de Transici&#243;n Energ&#233;tica</Materia>
+      <Materia> Comisi&#243;n Nacional de Energ&#237;a</Materia>
+      <Materia>Energ&#237;a El&#233;ctrica</Materia>
+      <Materia>Electricidad</Materia>
+      <Materia>Licitaciones de Obras de Sistemas de Transmisi&#243;n El&#233;ctrica</Materia>
+    </Materias>
+    
+    
+    <IdentificacionFuente>Diario Oficial</IdentificacionFuente>
+    <NumeroFuente>44034</NumeroFuente>
+  </Metadatos>
+  <Encabezado fechaVersion="2024-12-27" derogado="no derogado">
+    <Texto>LEY N&#218;M. 21.721
+     
+MODIFICA LA LEY GENERAL DE SERVICIOS EL&#201;CTRICOS, EN MATERIA DE TRANSMISI&#211;N EL&#201;CTRICA
+     
+     Teniendo presente que el H. Congreso Nacional ha dado su aprobaci&#243;n al siguiente
+     
+     Proyecto de ley:</Texto>
+  </Encabezado>
+  <EstructurasFuncionales>
+    <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2024-12-27" derogado="no derogado" idParte="10530118">
+      <Texto>     "Art&#237;culo &#250;nico.- Introd&#250;cense las siguientes modificaciones en el decreto con fuerza de ley N&#176; 4/20018, promulgado en 2006 y publicado en 2007, del Ministerio de Econom&#237;a, Fomento y Reconstrucci&#243;n, que fija texto refundido, coordinado y sistematizado del decreto con fuerza de ley N&#176; 1, de Miner&#237;a, de 1982, Ley General de Servicios El&#233;ctricos, en materia de energ&#237;a el&#233;ctrica:
+     
+     1. Reempl&#225;zase, en el art&#237;culo 77&#176;, la expresi&#243;n "o medios de generaci&#243;n conectados directamente" por ", medios de generaci&#243;n o sistemas de almacenamiento conectados directamente, a trav&#233;s de redes de distribuci&#243;n".
+     2. Incorp&#243;rase, en el art&#237;culo 87&#176;, el inciso s&#233;ptimo, nuevo, que se indica a continuaci&#243;n:
+     
+     "El reglamento podr&#225; establecer criterios diferenciados para la consideraci&#243;n de los objetivos se&#241;alados en el inciso segundo, para efectos de la expansi&#243;n de los sistemas de transmisi&#243;n zonal, seg&#250;n el impacto sist&#233;mico; capacidad;  ubicaci&#243;n  geogr&#225;fica;  presencia  de clientes, medios de generaci&#243;n o sistemas de almacenamiento de energ&#237;a que hagan uso del sistema de transmisi&#243;n; entre otros criterios t&#233;cnicos.".
+     
+     3. Incorp&#243;rase, en el art&#237;culo 91&#176;, el siguiente inciso cuarto, nuevo, pasando el actual inciso cuarto a ser inciso quinto, y as&#237; sucesivamente:
+     
+     "En el caso de propuestas de obras que tengan su origen en proyectos espec&#237;ficos de generaci&#243;n o sistemas de almacenamiento de energ&#237;a que a&#250;n no hayan sido declarados en construcci&#243;n, el reglamento establecer&#225; los requisitos y oportunidad para el otorgamiento de garant&#237;as de ejecuci&#243;n de los proyectos que correspondan.".
+     
+     4. Incorp&#243;rase el siguiente art&#237;culo 91&#176; bis, nuevo:
+     
+     "Art&#237;culo 91&#176; bis.- De las obras necesarias y urgentes que se excluyen del proceso de planificaci&#243;n de la transmisi&#243;n. El Ministerio de Energ&#237;a, mediante decreto exento expedido bajo la f&#243;rmula "por orden del Presidente de la Rep&#250;blica", podr&#225; disponer que se ejecuten las obras de expansi&#243;n a que se refiere el art&#237;culo 89&#176;, que deban excluirse del proceso de planificaci&#243;n de la transmisi&#243;n por ser necesarias y urgentes para el sistema, de acuerdo al procedimiento que establece el presente art&#237;culo y el reglamento.
+     La valorizaci&#243;n de la totalidad de las obras que deban excluirse del proceso de planificaci&#243;n de la transmisi&#243;n que sean decretadas en un a&#241;o calendario conforme a lo dispuesto en el presente art&#237;culo, no podr&#225; superar el 10% del valor promedio de los &#250;ltimos cinco procesos de Planificaci&#243;n de la Transmisi&#243;n, considerando sus valores referenciales, decretados conforme al art&#237;culo 92&#176;. Dentro del l&#237;mite se&#241;alado precedentemente, la valorizaci&#243;n de la totalidad de las obras nuevas que se excluyan del proceso de planificaci&#243;n no podr&#225; superar el 5% del valor promedio de los &#250;ltimos cinco procesos de Planificaci&#243;n de la Transmisi&#243;n, considerando sus valores referenciales, decretados conforme al art&#237;culo 92&#176;.
+     De oficio o a solicitud del Coordinador o del Ministerio, la Comisi&#243;n podr&#225; dar inicio a este procedimiento elaborando una propuesta preliminar, que contendr&#225;, entre otras materias que defina el reglamento, la descripci&#243;n de la obra; la justificaci&#243;n de su necesidad y urgencia; las razones que sustenten su omisi&#243;n o exclusi&#243;n del proceso de planificaci&#243;n; el plazo estimado de ejecuci&#243;n y entrada en operaci&#243;n; su valorizaci&#243;n preliminar; y la proporci&#243;n de este valor respecto al l&#237;mite indicado en el inciso precedente. Una vez elaborada la referida propuesta preliminar, ella deber&#225; contar con informe t&#233;cnico favorable del Coordinador, junto con la aprobaci&#243;n del Ministerio en cuanto a la justificaci&#243;n de la necesidad y urgencia de omitir o excluir la obra del proceso de planificaci&#243;n.
+     Posteriormente, la propuesta a que se refiere el inciso anterior deber&#225; ser publicada por la Comisi&#243;n en su sitio web y puesta en conocimiento del propietario de la obra objeto de ampliaci&#243;n, si corresponde, y de los participantes y usuarios e instituciones interesadas inscritas en el registro a que se refiere el art&#237;culo 90&#176;, para que presenten sus observaciones a la misma dentro de los cinco d&#237;as siguientes a la comunicaci&#243;n de la propuesta.
+     Dentro de los diez d&#237;as siguientes al vencimiento del plazo para presentar observaciones, la Comisi&#243;n emitir&#225; una propuesta definitiva, aceptando o rechazando fundadamente las observaciones planteadas. La referida propuesta definitiva deber&#225; contener, entre otras materias que defina el reglamento, las condiciones de ejecuci&#243;n y explotaci&#243;n de la obra; las caracter&#237;sticas t&#233;cnicas de la obra; el plazo de ejecuci&#243;n de la obra y su fecha de entrada en operaci&#243;n; su valorizaci&#243;n; y la calificaci&#243;n de la obra de expansi&#243;n dentro de alguno de los segmentos definidos en el art&#237;culo 73&#176;.
+     La propuesta definitiva a que se refiere el inciso anterior deber&#225; ser puesta en conocimiento del propietario de la obra objeto de ampliaci&#243;n, si corresponde, y de los participantes y usuarios e instituciones interesadas inscritas en el registro a que se refiere el art&#237;culo 90&#176;.
+     Dentro de los diez d&#237;as siguientes a la comunicaci&#243;n de la propuesta definitiva, los participantes y usuarios e instituciones interesadas podr&#225;n presentar sus discrepancias al Panel de Expertos, el que emitir&#225; su dictamen en un plazo m&#225;ximo de treinta d&#237;as corridos contado desde la respectiva audiencia a que hace referencia el art&#237;culo 211&#176;.
+     Para los efectos anteriores, se entender&#225; que existe discrepancia susceptible de ser sometida al dictamen del Panel, si quien hubiere formulado observaciones a la propuesta preliminar persevere en ellas con posterioridad al rechazo de las mismas por parte de la Comisi&#243;n, como tambi&#233;n, si quien no hubiere formulado observaciones a la propuesta preliminar, considere que se debe mantener su contenido, en caso de haberse modificado en la propuesta definitiva.
+     Si no se presentaren discrepancias, dentro de los tres d&#237;as siguientes al vencimiento del plazo para presentarlas, la Comisi&#243;n deber&#225; emitir su informe t&#233;cnico con la recomendaci&#243;n para el Ministerio de Energ&#237;</Texto>
+      <Metadatos>
+        <NombreParte presente="si">&#250;nico</NombreParte>
+        <TituloParte presente="no">&#160;</TituloParte>
+        
+      </Metadatos>
+    </EstructuraFuncional>
+    <EstructuraFuncional transitorio="transitorio" tipoParte="T&#237;tulo" fechaVersion="2024-12-27" derogado="no derogado" idParte="10530119">
+      <Texto>     Disposiciones Transitorias</Texto>
+      <Metadatos>
+        <NombreParte presente="no">&#160;</NombreParte>
+        <TituloParte presente="si">Disposiciones Transitorias</TituloParte>
+        
+      </Metadatos>
+      <EstructurasFuncionales>
+        <EstructuraFuncional transitorio="transitorio" tipoParte="Art&#237;culo" fechaVersion="2024-12-27" derogado="no derogado" idParte="10530120">
+          <Texto>     Art&#237;culo primero.- El Ministerio de Energ&#237;a deber&#225; dictar o modificar los reglamentos para dar aplicaci&#243;n a lo dispuesto en la presente ley, dentro del plazo de un a&#241;o contado desde su publicaci&#243;n en el Diario Oficial. Mientras los referidos reglamentos o modificaciones no entren en vigencia, dichas disposiciones se sujetar&#225;n a los plazos, requisitos y procedimientos que establece la presente ley y a las que se establezcan por resoluci&#243;n exenta de la Comisi&#243;n Nacional de Energ&#237;a, en adelante la Comisi&#243;n, dentro de un plazo de noventa d&#237;as de publicada la presente ley en el Diario Oficial.</Texto>
+          <Metadatos>
+            <NombreParte presente="si">primero</NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="transitorio" tipoParte="Art&#237;culo" fechaVersion="2024-12-27" derogado="no derogado" idParte="10530121">
+          <Texto>     Art&#237;culo segundo.- El propietario de la o las obras de ampliaci&#243;n que se encuentren adjudicadas a la fecha de la entrada en vigencia de la presente ley, en conjunto con el adjudicatario de la misma, podr&#225; solicitar a la Comisi&#243;n la revisi&#243;n del valor de inversi&#243;n adjudicado de acuerdo al mecanismo que se establece en el presente art&#237;culo y a lo dispuesto en la resoluci&#243;n que dicte la Comisi&#243;n que establezca las reglas para la implementaci&#243;n de dicho mecanismo de revisi&#243;n.
+     La solicitud deber&#225; ser presentada dentro del plazo de tres meses desde la publicaci&#243;n de la resoluci&#243;n exenta a que se refiere el art&#237;culo anterior, debiendo ser fundada, atendiendo a causas graves y calificadas no imputables al propietario o al adjudicatario de la obra de ampliaci&#243;n. Adem&#225;s, la solicitud deber&#225; contener una propuesta de V.I. de las obras y expresar la metodolog&#237;a de c&#225;lculo, junto con todos los documentos que respalden dicho valor.
+     La Comisi&#243;n podr&#225; solicitar un informe t&#233;cnico al Coordinador, el que podr&#225; requerir informaci&#243;n adicional al propietario y/o adjudicatario de la obra. La Comisi&#243;n deber&#225; emitir un informe pronunci&#225;ndose respecto de la efectividad de las causales invocadas por el solicitante y, en caso que estime procedente la modificaci&#243;n del valor de inversi&#243;n adjudicado, deber&#225; calcular el nuevo valor de inversi&#243;n (V.I.) de la obra o de las obras de ampliaci&#243;n, y por consiguiente, la Anualidad del Valor de Inversi&#243;n (A.V.I.) y el Valor Anual de la Transmisi&#243;n por Tramo (V.A.T.T.).
+     En aquellos casos que la Comisi&#243;n determine que procede la modificaci&#243;n del V.I., la determinaci&#243;n del nuevo valor de inversi&#243;n deber&#225; sujetarse a los siguientes l&#237;mites:
+     
+     i) En aquellos casos en que la solicitud se funde en la existencia de modificaciones en las caracter&#237;sticas t&#233;cnicas de las obras o la incorporaci&#243;n de elementos no previstos en el dise&#241;o original de la obra de ampliaci&#243;n, que sean estrictamente necesarios para la debida implementaci&#243;n de la obra adjudicada, el monto total de las obras que se aprueban en base a lo antes se&#241;alado, no podr&#225; superar el 20% del V.I. adjudicado.
+     ii) En todos aquellos casos que la solicitud de revisi&#243;n del V.I. se funde en aumentos en los costos del proyecto como consecuencia de situaciones no previstas en el literal anterior, el mayor valor que se autorice no podr&#225; superar el monto del V.I. adjudicado ponderado por la variaci&#243;n del &#237;ndice de precios del consumidor, entre la fecha de adjudicaci&#243;n de la obra y la fecha de solicitud de revisi&#243;n.
+     
+     Sin perjuicio de lo anterior, en aquellos casos en que la solicitud se funde en la existencia de mayores costos como consecuencia del retraso en el desarrollo de las obras, por encontrarse &#233;stas condicionadas al desarrollo de otras obras de expansi&#243;n del sistema o en instrucciones del Coordinador, en consideraci&#243;n a requerimientos del sistema el&#233;ctrico, el monto total de los mayores costos que se autoricen por este concepto no estar&#225; sujeto a los l&#237;mites antes se&#241;alados.
+     Las solicitudes podr&#225;n fundarse en una o m&#225;s de las causales antes se&#241;aladas, debiendo aplicarle los l&#237;mites correspondientes a cada una de ellas, indistintamente.
+     En caso de que la Comisi&#243;n autorice la modificaci&#243;n del V.I. de un proyecto deber&#225; remitir un informe t&#233;cnico al Ministerio de Energ&#237;a para que se fije el nuevo V.I. de la o las obras de ampliaci&#243;n, el A.V.I y el V.A.T.T. mediante decreto exento expedido bajo la f&#243;rmula "por orden del Presidente de la Rep&#250;blica".
+     Adicionalmente, el propietario de la o las obras de ampliaci&#243;n que se encuentren adjudicadas a la fecha de la entrada en vigencia de la presente ley, cuyo contrato se haya terminado de forma anticipada, se regir&#225; por las normas establecidas en el inciso final del art&#237;culo 95&#176; de la Ley General de Servicios El&#233;ctricos y podr&#225; solicitar a la Comisi&#243;n la revisi&#243;n del valor de inversi&#243;n adjudicado de acuerdo al mecanismo que establece el art&#237;culo 99&#176; de la Ley General de Servicios El&#233;ctricos.</Texto>
+          <Metadatos>
+            <NombreParte presente="si">segundo</NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="transitorio" tipoParte="Art&#237;culo" fechaVersion="2024-12-27" derogado="no derogado" idParte="10530122">
+          <Texto>     Art&#237;culo tercero.- El propietario de la o las obras de ampliaci&#243;n que se encuentren adjudicadas a la fecha de la entrada en vigencia de la presente ley, cuyo contrato se haya terminado de forma anticipada, se regir&#225; por las normas establecidas en el inciso final del art&#237;culo 95&#176; de la Ley General de Servicios El&#233;ctricos, y podr&#225; solicitar a la Comisi&#243;n la revisi&#243;n del valor de inversi&#243;n adjudicado de acuerdo al mecanismo que establece el art&#237;culo 99&#176; de la Ley General de Servicios El&#233;ctricos y a lo dispuesto en la resoluci&#243;n que dicte la Comisi&#243;n que establezca las reglas para la implementaci&#243;n de dicho mecanismo de revisi&#243;n.</Texto>
+          <Metadatos>
+            <NombreParte presente="si">tercero</NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="transitorio" tipoParte="Art&#237;culo" fechaVersion="2024-12-27" derogado="no derogado" idParte="10530123">
+          <Texto>     Art&#237;culo cuarto.- Los procesos de licitaci&#243;n de las obras de ampliaci&#243;n procedentes de planes de expansi&#243;n publicados antes de la entrada en vigencia de la presente ley, cuyo llamado a licitaci&#243;n hubiera sido convocado por el Coordinador antes de la entrada en vigencia de la misma, deber&#225;n continuar y adjudicarse por el Coordinador conforme al marco normativo existente hasta la entrada en vigencia de la presente ley. Los dem&#225;s procesos de licitaci&#243;n de las obras de ampliaci&#243;n pendientes deber&#225;n ser convocados por los propietarios de las mismas en un plazo no mayor a nueve meses desde la publicaci&#243;n de esta ley en el Diario Oficial.</Texto>
+          <Metadatos>
+            <NombreParte presente="si">cuarto</NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="transitorio" tipoParte="Art&#237;culo" fechaVersion="2024-12-27" derogado="no derogado" idParte="10530124">
+          <Texto>     Art&#237;culo quinto.- Durante los pr&#243;ximos cinco a&#241;os desde la publicaci&#243;n de la presente ley, en el marco del procedimiento establecido en el art&#237;culo 91&#176; bis de la Ley General de Servicios El&#233;ctricos, se podr&#225; considerar un monto adicional m&#225;ximo de hasta el 5%, por sobre el l&#237;mite de 10% establecido en el inciso segundo del referido art&#237;culo, a efectos que se califiquen como obras necesarias y urgentes aquellas que se encuentren ubicadas en la Regi&#243;n de &#209;uble.".</Texto>
+          <Metadatos>
+            <NombreParte presente="si">quinto</NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+      </EstructurasFuncionales>
+    </EstructuraFuncional>
+  </EstructurasFuncionales>
+  <Promulgacion fechaVersion="2024-12-27" derogado="no derogado">
+    <Texto>     Y por cuanto he tenido a bien aprobarlo y sancionarlo; por tanto, prom&#250;lguese y ll&#233;vese a efecto como Ley de la Rep&#250;blica.
+     
+     Santiago, 20 de diciembre de 2024.- GABRIEL BORIC FONT, Presidente de la Rep&#250;blica.- Diego Pardow Lorenzo, Ministro de Energ&#237;a.
+     Lo que transcribo a Ud. para su conocimiento.- Saluda atentamente a Ud., Luis Felipe Ramos Barrera, Subsecretario de Energ&#237;a.</Texto>
+  </Promulgacion>
+  
+</Norma>
