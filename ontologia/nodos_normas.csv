@@ -1,0 +1,5 @@
+id,tipo,numero,anio,organo_emisor,id_bcn,url_fuente,estado_extraccion
+ley_dfl4_2006,ley,DFL 4,2006,Ministerio de Economía,POR_COMPLETAR,POR_COMPLETAR,pendiente
+ley_20936_2016,ley,20.936,2016,Congreso Nacional,POR_COMPLETAR,POR_COMPLETAR,pendiente
+ley_21721_2024,ley,21.721,2024,Congreso Nacional,1209692,https://www.bcn.cl/leychile/navegar?idNorma=1209692,id_bcn_verificado_por_busqueda
+res_156_2025,resolucion,156 exenta,2025,Ministerio de Energía y CNE,1212350,https://www.bcn.cl/leychile/navegar?idNorma=1212350,id_bcn_verificado_por_busqueda
