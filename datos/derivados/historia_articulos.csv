@@ -317,8 +317,8 @@ articulo,id_parte,en_grafo,cobertura_historia,leyes_modificatorias_bcn,leyes_fal
 212-12,9718489,si,completa,20936,
 212-13,9718490,si,completa,20936;21472;21667;21833,
 212-14,10353401,si,completa,21667;21833,
-213,8721894,no,parcial,20273,20273
-214,8721896,no,parcial,20273,20273
+213,8721894,si,completa,20273,
+214,8721896,si,completa,20273,
 215,8721897,no,completa,,
 216,8721898,no,completa,,
 217,8721899,no,completa,,

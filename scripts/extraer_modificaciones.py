@@ -37,6 +37,7 @@ ARCHIVOS = {
     "ley_21472_2022": "ley_21472_2022__idNorma_1179524.xml",
     "ley_21667_2024": "ley_21667_2024__idNorma_1203005.xml",
     "ley_20701_2013": "ley_20701_2013__idNorma_1055073.xml",
+    "ley_20273_2008": "ley_20273_2008__idNorma_273006.xml",
     "ley_20571_2012": "ley_20571_2012__idNorma_1038211.xml",
     "ley_20220_2007": "ley_20220_2007__idNorma_264650.xml",
     "ley_20928_2016": "ley_20928_2016__idNorma_1091871.xml",
@@ -54,7 +55,7 @@ ARCHIVOS = {
 MODIFICATORIAS = {"ley_21721_2024": "art_unico", "ley_20936_2016": "art_1", "ley_21804_2026": "art_unico",
                   "ley_21505_2022": "art_unico", "ley_21582_2023": "art_10", "ley_21833_2026": "art_1",
                   "ley_21472_2022": "art_1", "ley_21667_2024": "art_primero",
-                  "ley_20701_2013": "art_unico", "ley_20571_2012": "art_unico", "ley_20220_2007": "art_unico", "ley_20928_2016": "art_unico", "ley_20999_2017": "art_2", "ley_20257_2008": "art_unico", "ley_20698_2013": "art_1", "ley_21118_2018": "art_unico", "ley_21806_2026": "art_101", "ley_21304_2021": "art_unico", "ley_21194_2019": "art_unico", "ley_20805_2015": "art_unico", "ley_20402_2009": "art_13"}
+                  "ley_20701_2013": "art_unico", "ley_20273_2008": "art_2", "ley_20571_2012": "art_unico", "ley_20220_2007": "art_unico", "ley_20928_2016": "art_unico", "ley_20999_2017": "art_2", "ley_20257_2008": "art_unico", "ley_20698_2013": "art_1", "ley_21118_2018": "art_unico", "ley_21806_2026": "art_101", "ley_21304_2021": "art_unico", "ley_21194_2019": "art_unico", "ley_20805_2015": "art_unico", "ley_20402_2009": "art_13"}
 
 VERBOS = {  # singular e impersonal plural ("Reemplázase" / "Reemplázanse")
     "reemplaza": r"reempl[aá]z(?:a|ase|anse|ese|ense)|sustit[uú]y(?:e|ese|ense)",
@@ -282,7 +283,36 @@ def numerales(texto):
         if actual is not None and (not fuera or p.startswith('"')):
             actual["citado"].append(p)
         comillas += p.count('"')
+    if not items:
+        items = literales_primer_nivel(texto)
     return items, truncado
+
+
+def literales_primer_nivel(texto):
+    """Artículo modificatorio sin numerales cuyos cambios son literales a), b)… de primer nivel (Ley 20.273,
+    art. 2°). Cada literal es un ítem con n = posición (1, 2, …) y etiqueta 'letra a)'."""
+    items, actual, comillas, k = [], None, 0, 0
+    for p in parrafos(texto):
+        fuera = comillas % 2 == 0
+        m = re.match(r"^\s*([a-zñ])\)\s+(.*)", p, re.S) if fuera and k < len(LETRAS) else None
+        if m and m.group(1) == LETRAS[k] and RE_VERBO.search(sin_citas(m.group(2))[:90]):
+            actual = {"n": k + 1, "etiqueta": f"letra {m.group(1)})", "texto": m.group(2), "literales": [],
+                      "citado": [], "todos": []}
+            items.append(actual)
+            k += 1
+            comillas = p.count('"')
+            continue
+        if actual is not None:
+            actual["todos"].append(p)
+            if not fuera or p.startswith('"'):
+                actual["citado"].append(p)
+        comillas += p.count('"')
+    return items
+
+
+def etiqueta_item(it):
+    """'N° 3' para un numeral; 'letra a)' para un literal de primer nivel."""
+    return it.get("etiqueta") or f"N° {it['n']}"
 
 
 def acciones(frase):
@@ -440,7 +470,7 @@ def extraer_ley(norma, dfl4, fecha_consulta):
             "tipo_cambio": tipo, "detalle": detalle[:300],
             "fecha_vigencia": meta["fecha_publicacion"], "base_vigencia": base,
             "fuente_url": url, "fuente_id_parte": id_parte, "fecha_consulta": fecha,
-            "estado": estado, "observaciones": " | ".join(obs), "_numeral": it["n"],
+            "estado": estado, "observaciones": " | ".join(obs), "_numeral": it["n"], "_etiqueta": etiqueta_item(it),
         })
         arts[destino] = True
 
@@ -449,7 +479,7 @@ def extraer_ley(norma, dfl4, fecha_consulta):
         filas.append({"origen": origen, "relacion": "modifica", "destino": PC, "tipo_cambio": PC,
                       "detalle": detalle[:300], "fecha_vigencia": PC, "base_vigencia": PC,
                       "fuente_url": url, "fuente_id_parte": id_parte, "fecha_consulta": fecha,
-                      "estado": "inferida", "_numeral": it["n"],
+                      "estado": "inferida", "_numeral": it["n"], "_etiqueta": etiqueta_item(it),
                       "observaciones": " | ".join(["motivo: no se pudo determinar artículo o verbo"] + obs_f)})
 
     def emitir(it, texto_hoja, etiqueta, dest_heredado):
@@ -483,7 +513,7 @@ def extraer_ley(norma, dfl4, fecha_consulta):
         dest, kind = destino_en(cab)
         acc = acciones(cab)
         tipo0 = acc[0][0] if acc else None
-        etiqueta = f"N° {it['n']}: "
+        etiqueta = f"{etiqueta_item(it)}: "
         # Inserción o sustitución de un Título completo
         mt = re.search(r"(?:\bel\s+siguiente\s+|\bel\s+)(T[íi]tulo\s+[IVXL]+(?:\s+BIS)?)", sin_citas(cab), re.I)
         # Cambios a epígrafes de Título/Capítulo/Párrafo sin artículo: la ontología no tiene nodo para
@@ -537,9 +567,9 @@ def extraer_ley(norma, dfl4, fecha_consulta):
                 d_lit = destino_en(lit["texto"])[0] or dest
                 if lit["sub"]:
                     for sub in lit["sub"]:
-                        emitir(it, sub["texto"], f"N° {it['n']} letra {lit['l']}) {sub['l']}) ", d_lit)
+                        emitir(it, sub["texto"], f"{etiqueta_item(it)} letra {lit['l']}) {sub['l']}) ", d_lit)
                 else:
-                    emitir(it, lit["texto"], f"N° {it['n']} letra {lit['l']}) ", dest)
+                    emitir(it, lit["texto"], f"{etiqueta_item(it)} letra {lit['l']}) ", dest)
             continue
         if dest and tipo0 in ("reemplaza", "agrega", "elimina"):
             emitir(it, cab, etiqueta, dest)
@@ -694,6 +724,7 @@ def historia_articulos(dfl4, arts_en_grafo):
     return out
 
 
+RE_NOTA_SIN_N = re.compile(r"Ley\s+(\d{5})\s+Art(?:\.|[íi]culo)\s*(\S+?)\s+(?:([a-zñ])\)\s+)?D\.O", re.I)
 RE_NOTA = re.compile(r"Ley\s+(\d{5})\s+Art(?:\.|[íi]culo)\s*(\S+?)\s+N[°º]\s*(\d+)", re.I)  # "Art. 1" / "Artículo 101"
 LEY_DE = {n: re.match(r"ley_(\d+)_", n).group(1) for n in MODIFICATORIAS}  # nodo -> número en notas BCN
 
@@ -714,11 +745,27 @@ def contrastar_notas(filas):
         t = t.lower().strip(",.;").rstrip("°º")  # "2º" -> "2"
         return t.replace("ú", "u")
 
+    estructura = {}  # número de ley -> "letras" / "directa" si sus ítems no son numerales
+    for r in filas:
+        e = r.get("_etiqueta") or ""
+        if e.startswith("letra") or e == "texto completo":
+            estructura[LEY_DE.get(r["origen"].split("__")[0])] = "letras" if e.startswith("letra") else "directa"
     idx = {}  # ("ley:artículo de la ley", artículo DFL 4, numeral) -> nota
     for art, ns in notas.items():
         for n in ns:
             for m in RE_NOTA.finditer(n):
                 idx.setdefault((f"{m.group(1)}:{art_ley(m.group(2))}", art, int(m.group(3))), n)
+            # Leyes sin numerales: la nota dice "Art. 2º a) D.O." (literales de primer nivel) o
+            # "Art. 2 D.O." (modificación directa, un solo ítem)
+            for m in RE_NOTA_SIN_N.finditer(n):
+                e = estructura.get(m.group(1))
+                if e == "letras" and m.group(3):
+                    num = LETRAS.index(m.group(3).lower()) + 1
+                elif e == "directa" and not m.group(3):
+                    num = 1
+                else:
+                    continue
+                idx.setdefault((f"{m.group(1)}:{art_ley(m.group(2))}", art, num), n)
     vistos, usados, sin_nota = set(), set(), set()
     for r in filas:
         norma_o = r["origen"].split("__")[0]
@@ -780,7 +827,7 @@ def marcar_superadas(filas):
         if posteriores:
             s = min(posteriores, key=lambda x: x["fecha_vigencia"])
             r["observaciones"] = " | ".join(x for x in (r["observaciones"],
-                f"superada: {s['origen'].split('__')[0]} N° {s['_numeral']} sustituyó el artículo completo "
+                f"superada: {s['origen'].split('__')[0]} {s['_etiqueta']} sustituyó el artículo completo "
                 f"({s['fecha_vigencia']}); el texto vigente no proviene de esta modificación") if x)
 
 

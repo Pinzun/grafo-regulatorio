@@ -1,0 +1,18 @@
+{
+  "id_norma": "273006",
+  "fecha_version": "2008-06-28",
+  "nombre": "Ley 20273",
+  "url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=Ley-20273_28-JUN-2008&exportar_con_notas_bcn=True&exportar_con_notas_originales=True&exportar_con_notas_al_pie=True&hddResultadoExportar=273006.2008-06-28.0.0%23",
+  "fecha_descarga": "2026-11-26",
+  "sha256_pdf": "c5e82bf74f444ac5fa055aee9d320a04dd2f07589b15628d2d46c108611ebee8",
+  "bytes": 54851,
+  "con_notas_bcn": true,
+  "conversion": {
+    "texto": {
+      "parrafos": 26,
+      "notas_bcn": 0,
+      "pdf_ley_chile": true,
+      "salida": "datos/raw/pdf/ley_20273__idNorma_273006__v2008-06-28.md"
+    }
+  }
+}

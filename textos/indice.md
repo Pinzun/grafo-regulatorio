@@ -329,8 +329,8 @@ Texto consolidado: DFL 4, versión BCN 2026-07-31. Generado por `scripts/generar
 | [210](dfl4/art_210.md) | — | Ley 20.402 (2009), Ley 20.936 (2016), Ley 20.999 (2017) | vigente |
 | [211](dfl4/art_211.md) | — | Ley 20.402 (2009), Ley 20.936 (2016) | vigente |
 | [212](dfl4/art_212.md) | — | Ley 20.402 (2009), Ley 20.936 (2016) | vigente |
-| [213](dfl4/art_213.md) | — | — ⚠️ faltan 20.273 | vigente |
-| [214](dfl4/art_214.md) | — | — ⚠️ faltan 20.273 | vigente |
+| [213](dfl4/art_213.md) | — | Ley 20.273 (2008) | vigente |
+| [214](dfl4/art_214.md) | — | Ley 20.273 (2008) | vigente |
 | [215](dfl4/art_215.md) | — | — | vigente |
 | [216](dfl4/art_216.md) | — | — | vigente |
 | [217](dfl4/art_217.md) | Derógase la facultad contenida en el decreto ley 1 | — | vigente |
@@ -377,4 +377,4 @@ Texto consolidado: DFL 4, versión BCN 2026-07-31. Generado por `scripts/generar
 
 - Artículos sin texto: ninguno.
 - Artículos cuyo texto consolidado dice solo 'Eliminado/Suprimido' sin marca de derogación en el XML BCN: 188, 189.
-- Artículos con historia incompleta (7): 34 bis (faltan 20.897); 139 bis (faltan 21.076); 146 ter (faltan 20.720); 191 bis (faltan 21.657); 193 (faltan 21.647); 213 (faltan 20.273); 214 (faltan 20.273).
+- Artículos con historia incompleta (5): 34 bis (faltan 20.897); 139 bis (faltan 21.076); 146 ter (faltan 20.720); 191 bis (faltan 21.657); 193 (faltan 21.647).

@@ -30,7 +30,7 @@ SALIDA = "textos"
 DIR_ART = os.path.join(SALIDA, "dfl4")
 RE_ENCABEZADO = re.compile(r'^"?\s*Art[íi]culo\s+(\d+)\s*[°º]?\s*(?:-\s*(\d+))?\s*(' + E.SUFIJOS + r')?\s*[°º]?\s*\.\s*-', re.I)
 RE_ELIMINADO = re.compile(r'^"?\s*Art[íi]culo\s+[^.]*?\.\s*-\s*(Eliminado|Suprimido|Derogado)\.?$', re.I)
-RE_NUMERAL = re.compile(r"^(N° \d+(?: letra [a-zñ]\)(?: [ivx]+\))?)?)")
+RE_NUMERAL = re.compile(r"^(N° \d+(?: letra [a-zñ]\)(?: (?:[ivx]+|[a-zñ]\.\d+)\))?)?|letra [a-zñ]\)|texto completo)")
 
 
 def leer(path, **kw):
@@ -204,16 +204,18 @@ def main():
             vistos = set()
             for r in filas:
                 norma_o = r["origen"].split("__")[0]
-                n = int(re.match(r"N° (\d+)", r["detalle"]).group(1)) if r["detalle"].startswith("N° ") else None
+                mn = re.match(r"N° (\d+)|letra ([a-zñ])\)|texto completo", r["detalle"])
+                n = (int(mn.group(1)) if mn.group(1) else E.LETRAS.index(mn.group(2)) + 1 if mn.group(2) else 1) if mn else None
                 if (norma_o, n) in vistos or n is None:
                     continue
                 vistos.add((norma_o, n))
                 it, fuente, url = nums[norma_o][n]
                 extracto = bloque_articulo(it, clave)
-                md += [f"### {etiqueta[norma_o]} — {art_ley(E.MODIFICATORIAS[norma_o])}, N° {n}", "",
+                md += [f"### {etiqueta[norma_o]} — {art_ley(E.MODIFICATORIAS[norma_o])}, {E.etiqueta_item(it)}", "",
                        f"*Fuente: {fuente} ({url}).*" + (" *Extracto: el numeral inserta o sustituye varios artículos; se "
                                                          "muestra solo el de este artículo.*" if extracto else ""), "",
-                       f"N° {n}. {it['texto']}", ""]
+                       (f"{it['etiqueta'].removeprefix('letra ')} {it['texto']}" if it.get("etiqueta", "").startswith("letra")
+                        else f"{E.etiqueta_item(it)}. {it['texto']}"), ""]
                 md += [p + "\n" for p in (extracto if extracto else it["todos"])]
             if not vistos:
                 md.append("*No hay texto modificatorio: el artículo no tiene modificaciones en el grafo.*")
