@@ -1,0 +1,18 @@
+{
+  "id_norma": "1055073",
+  "fecha_version": "2013-10-14",
+  "nombre": "Ley 20701",
+  "url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=Ley-20701_14-OCT-2013&exportar_con_notas_bcn=True&exportar_con_notas_originales=True&exportar_con_notas_al_pie=True&hddResultadoExportar=1055073.2013-10-14.0.0%23",
+  "fecha_descarga": "2026-11-26",
+  "sha256_pdf": "9a95df46335f77f12f1db3f286c4fd1cba1f3a6cbf7e3c0a4b2cbb169360c8da",
+  "bytes": 82149,
+  "con_notas_bcn": true,
+  "conversion": {
+    "texto": {
+      "parrafos": 145,
+      "notas_bcn": 0,
+      "pdf_ley_chile": true,
+      "salida": "datos/raw/pdf/ley_20701__idNorma_1055073__v2013-10-14.md"
+    }
+  }
+}

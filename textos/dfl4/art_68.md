@@ -4,7 +4,7 @@
 - **Versión del texto consolidado:** DFL 4 versión BCN 2026-07-31; última versión de este artículo según la BCN: 2013-10-14
 - **idParte:** 8721742 (https://www.bcn.cl/leychile/navegar?idNorma=258171&idParte=8721742)
 - **Vigencia:** vigente
-- **Cobertura de la historia:** parcial — faltan en el grafo las leyes 20.701
+- **Cobertura de la historia:** completa
 - **Bloque:** fuera del bloque de transmisión
 
 ## Texto vigente
@@ -17,10 +17,16 @@ Desde ese momento, las cuestiones que se susciten se ventilarán de acuerdo con 
 
 ## Historia de modificaciones
 
-*Sin modificaciones registradas en el grafo.*
-
-> ⚠️ Historia incompleta: la BCN anota modificaciones de las leyes 20.701, que no están en el grafo.
+- 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 23 · reemplaza · verificada · regla · idParte 9377764
 
 ## Texto modificatorio
 
-*No hay texto modificatorio: el artículo no tiene modificaciones en el grafo.*
+### Ley 20.701 de 2013 — art. único, N° 23
+
+*Fuente: XML (https://www.leychile.cl/Consulta/obtxml?opt=7&idNorma=1055073).*
+
+N° 23. Sustitúyese el artículo 68º por el siguiente:
+
+"Artículo 68º.- Los concesionarios o los dueños de las propiedades afectadas podrán reclamar del avalúo practicado por la comisión tasadora dentro del plazo de treinta días, a contar de la fecha de su notificación.
+
+Desde ese momento, las cuestiones que se susciten se ventilarán de acuerdo con las reglas establecidas en el Título XI del Libro Tercero del Código de Procedimiento Civil.".

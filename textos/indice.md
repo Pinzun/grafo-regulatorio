@@ -119,7 +119,7 @@ Texto consolidado: DFL 4, versión BCN 2026-07-31. Generado por `scripts/generar
 | [10-4](dfl4/art_10-4.md) | Definición de sistema para procesos productivos | Ley 21.804 (2026) | vigente |
 | [10-5](dfl4/art_10-5.md) | Categorización de sistemas eléctricos | Ley 21.804 (2026) | vigente |
 | [10-6](dfl4/art_10-6.md) | Cambio de categorización de un sistema eléctrico | Ley 21.804 (2026) | vigente |
-| [11](dfl4/art_11.md) | — | — ⚠️ faltan 20.402, 20.701 | vigente |
+| [11](dfl4/art_11.md) | — | Ley 20.701 (2013) ⚠️ faltan 20.402 | vigente |
 | [12](dfl4/art_12.md) | — | — | vigente |
 | [13](dfl4/art_13.md) | — | — | vigente |
 | [14](dfl4/art_14.md) | — | — | vigente |
@@ -127,31 +127,31 @@ Texto consolidado: DFL 4, versión BCN 2026-07-31. Generado por `scripts/generar
 | [16](dfl4/art_16.md) | — | — | vigente |
 | [17](dfl4/art_17.md) | — | — ⚠️ faltan 20.402 | vigente |
 | [18](dfl4/art_18.md) | — | — | vigente |
-| [19](dfl4/art_19.md) | La solicitud de concesión provisional deberá presentarse a la Superintendencia | — ⚠️ faltan 20.701 | vigente |
-| [20](dfl4/art_20.md) | — | Ley 21.582 (2023) ⚠️ faltan 20.701 | vigente |
-| [21](dfl4/art_21.md) | — | — ⚠️ faltan 20.701 | vigente |
-| [22](dfl4/art_22.md) | — | — ⚠️ faltan 20.701 | vigente |
+| [19](dfl4/art_19.md) | La solicitud de concesión provisional deberá presentarse a la Superintendencia | Ley 20.701 (2013) | vigente |
+| [20](dfl4/art_20.md) | — | Ley 20.701 (2013), Ley 21.582 (2023) | vigente |
+| [21](dfl4/art_21.md) | — | Ley 20.701 (2013) | vigente |
+| [22](dfl4/art_22.md) | — | Ley 20.701 (2013) | vigente |
 | [23](dfl4/art_23.md) | Derogado | Ley 21.582 (2023) | derogado (vigente hasta 2023-07-07) |
 | [24](dfl4/art_24.md) | — | — | vigente |
-| [25](dfl4/art_25.md) | La solicitud de concesión definitiva se presentará ante la Superintendencia con copia al D | — ⚠️ faltan 20.220, 20.402, 20.701 | vigente |
+| [25](dfl4/art_25.md) | La solicitud de concesión definitiva se presentará ante la Superintendencia con copia al D | Ley 20.701 (2013) ⚠️ faltan 20.220, 20.402 | vigente |
 | [26](dfl4/art_26.md) | — | — ⚠️ faltan 20.402 | vigente |
-| [27](dfl4/art_27.md) | — | — ⚠️ faltan 20.701 | vigente |
-| [27 bis](dfl4/art_27_bis.md) | — | — | vigente |
-| [27 ter](dfl4/art_27_ter.md) | — | — ⚠️ faltan 20.701 | vigente |
-| [28](dfl4/art_28.md) | — | — ⚠️ faltan 20.701 | vigente |
-| [29](dfl4/art_29.md) | — | Ley 21.582 (2023) ⚠️ faltan 20.701 | vigente |
+| [27](dfl4/art_27.md) | — | Ley 20.701 (2013) | vigente |
+| [27 bis](dfl4/art_27_bis.md) | — | Ley 20.701 (2013) | vigente |
+| [27 ter](dfl4/art_27_ter.md) | — | Ley 20.701 (2013) | vigente |
+| [28](dfl4/art_28.md) | — | Ley 20.701 (2013) | vigente |
+| [29](dfl4/art_29.md) | — | Ley 20.701 (2013), Ley 21.582 (2023) | vigente |
 | [30](dfl4/art_30.md) | — | — | vigente |
 | [31](dfl4/art_31.md) | Las concesiones definitivas se otorgarán por plazo indefinido | — | vigente |
-| [31 bis](dfl4/art_31_bis.md) | — | — ⚠️ faltan 20.701 | vigente |
+| [31 bis](dfl4/art_31_bis.md) | — | Ley 20.701 (2013) | vigente |
 | [32](dfl4/art_32.md) | — | — ⚠️ faltan 20.402 | vigente |
 | [33](dfl4/art_33.md) | — | — | vigente |
 | [34](dfl4/art_34.md) | — | — | vigente |
-| [34 bis](dfl4/art_34_bis.md) | — | — ⚠️ faltan 20.701, 20.897 | vigente |
+| [34 bis](dfl4/art_34_bis.md) | — | Ley 20.701 (2013) ⚠️ faltan 20.897 | vigente |
 | [35](dfl4/art_35.md) | — | — | vigente |
 | [36](dfl4/art_36.md) | — | — | vigente |
 | [37](dfl4/art_37.md) | El plazo de los permisos será fijado por la Municipalidad y no podrá exceder de treinta años | — | vigente |
 | [38](dfl4/art_38.md) | — | — | vigente |
-| [39](dfl4/art_39.md) | Las concesiones definitivas de servicio eléctrico caducarán, antes de entrar en explotación: 1 | Ley 21.582 (2023) ⚠️ faltan 20.701 | vigente |
+| [39](dfl4/art_39.md) | Las concesiones definitivas de servicio eléctrico caducarán, antes de entrar en explotación: 1 | Ley 20.701 (2013), Ley 21.582 (2023) | vigente |
 | [40](dfl4/art_40.md) | — | — | vigente |
 | [41](dfl4/art_41.md) | — | — | vigente |
 | [42](dfl4/art_42.md) | — | — | vigente |
@@ -166,7 +166,7 @@ Texto consolidado: DFL 4, versión BCN 2026-07-31. Generado por `scripts/generar
 | [51](dfl4/art_51.md) | — | — | vigente |
 | [52](dfl4/art_52.md) | — | — | vigente |
 | [53](dfl4/art_53.md) | — | — | vigente |
-| [54](dfl4/art_54.md) | — | — ⚠️ faltan 20.701 | vigente |
+| [54](dfl4/art_54.md) | — | Ley 20.701 (2013) | vigente |
 | [55](dfl4/art_55.md) | — | — | vigente |
 | [56](dfl4/art_56.md) | — | — | vigente |
 | [57](dfl4/art_57.md) | — | — | vigente |
@@ -175,14 +175,14 @@ Texto consolidado: DFL 4, versión BCN 2026-07-31. Generado por `scripts/generar
 | [60](dfl4/art_60.md) | — | — | vigente |
 | [61](dfl4/art_61.md) | — | — | vigente |
 | [62](dfl4/art_62.md) | — | Ley 21.582 (2023) | vigente |
-| [63](dfl4/art_63.md) | — | — ⚠️ faltan 20.701 | vigente |
-| [63 bis](dfl4/art_63_bis.md) | — | — ⚠️ faltan 20.701 | vigente |
-| [63 ter](dfl4/art_63_ter.md) | — | — ⚠️ faltan 20.701 | vigente |
-| [64](dfl4/art_64.md) | — | — ⚠️ faltan 20.701 | vigente |
-| [65](dfl4/art_65.md) | — | — ⚠️ faltan 20.701 | vigente |
-| [66](dfl4/art_66.md) | — | — ⚠️ faltan 20.701 | vigente |
-| [67](dfl4/art_67.md) | — | — | vigente |
-| [68](dfl4/art_68.md) | — | — ⚠️ faltan 20.701 | vigente |
+| [63](dfl4/art_63.md) | — | Ley 20.701 (2013) | vigente |
+| [63 bis](dfl4/art_63_bis.md) | — | Ley 20.701 (2013) | vigente |
+| [63 ter](dfl4/art_63_ter.md) | — | Ley 20.701 (2013) | vigente |
+| [64](dfl4/art_64.md) | — | Ley 20.701 (2013) | vigente |
+| [65](dfl4/art_65.md) | — | Ley 20.701 (2013) | vigente |
+| [66](dfl4/art_66.md) | — | Ley 20.701 (2013) | vigente |
+| [67](dfl4/art_67.md) | — | Ley 20.701 (2013) | vigente |
+| [68](dfl4/art_68.md) | — | Ley 20.701 (2013) | vigente |
 | [69](dfl4/art_69.md) | El dueño del predio sirviente tendrá derecho a que se le pague: 1 | — | vigente |
 | [70](dfl4/art_70.md) | Los terrenos ocupados se pagarán, a tasación de peritos, con veinte por ciento de aumento | — | vigente |
 | [71](dfl4/art_71.md) | — | — | vigente |
@@ -377,4 +377,4 @@ Texto consolidado: DFL 4, versión BCN 2026-07-31. Generado por `scripts/generar
 
 - Artículos sin texto: ninguno.
 - Artículos cuyo texto consolidado dice solo 'Eliminado/Suprimido' sin marca de derogación en el XML BCN: 188, 189.
-- Artículos con historia incompleta (88): 8 ter (faltan 21.194); 9 (faltan 20.402); 11 (faltan 20.402, 20.701); 17 (faltan 20.402); 19 (faltan 20.701); 20 (faltan 20.701); 21 (faltan 20.701); 22 (faltan 20.701); 25 (faltan 20.220, 20.402, 20.701); 26 (faltan 20.402); 27 (faltan 20.701); 27 ter (faltan 20.701); 28 (faltan 20.701); 29 (faltan 20.701); 31 bis (faltan 20.701); 32 (faltan 20.402); 34 bis (faltan 20.701, 20.897); 39 (faltan 20.701); 47 (faltan 20.402); 54 (faltan 20.701); 58 (faltan 20.402); 63 (faltan 20.701); 63 bis (faltan 20.701); 63 ter (faltan 20.701); 64 (faltan 20.701); 65 (faltan 20.701); 66 (faltan 20.701); 68 (faltan 20.701); 131 (faltan 20.805, 20.928); 131 bis (faltan 20.805); 131 ter (faltan 20.805); 132 (faltan 20.805, 20.928); 133 (faltan 20.220, 20.805, 21.806); 134 (faltan 20.805); 135 (faltan 20.805); 135 bis (faltan 20.805); 135 ter (faltan 20.805); 135 quater (faltan 20.805); 135 quinquies (faltan 20.805); 139 bis (faltan 21.076); 141 (faltan 21.304); 146 (faltan 20.220, 20.402); 146 bis (faltan 20.805); 146 ter (faltan 20.220, 20.720); 147 (faltan 20.402, 20.805); 149 (faltan 20.571); 149 bis (faltan 20.571, 21.118); 149 ter (faltan 21.118); 149 quater (faltan 20.571); 149 quinquies (faltan 20.571); 150 bis (faltan 20.257, 20.698); 150 ter (faltan 20.698); 151 (faltan 20.402); 157 (faltan 20.257, 20.805, 20.928); 163 (faltan 20.402); 170 (faltan 20.402); 174 bis (faltan 20.698); 178 (faltan 20.402); 182 bis (faltan 21.194); 183 (faltan 21.194); 183 bis (faltan 21.194); 184 (faltan 20.402, 20.928); 185 (faltan 21.194); 188 (faltan 21.194); 189 (faltan 21.194); 190 (faltan 20.402); 191 (faltan 20.928); 191 bis (faltan 21.657); 193 (faltan 21.194, 21.647); 203 (faltan 20.402); 206 (faltan 20.402); 207 (faltan 21.304); 207-1 (faltan 21.304); 207-2 (faltan 21.304); 207-2 bis (faltan 21.806); 207-3 (faltan 21.304, 21.806); 207-4 (faltan 21.304); 207-5 (faltan 21.304); 207-6 (faltan 21.304); 207-7 (faltan 21.806); 207-8 (faltan 21.806); 209 (faltan 20.999); 210 (faltan 20.999); 211 (faltan 20.402); 212 (faltan 20.402); 213 (faltan 20.273); 214 (faltan 20.273); 225 (faltan 20.928, 21.194).
+- Artículos con historia incompleta (70): 8 ter (faltan 21.194); 9 (faltan 20.402); 11 (faltan 20.402); 17 (faltan 20.402); 25 (faltan 20.220, 20.402); 26 (faltan 20.402); 32 (faltan 20.402); 34 bis (faltan 20.897); 47 (faltan 20.402); 58 (faltan 20.402); 131 (faltan 20.805, 20.928); 131 bis (faltan 20.805); 131 ter (faltan 20.805); 132 (faltan 20.805, 20.928); 133 (faltan 20.220, 20.805, 21.806); 134 (faltan 20.805); 135 (faltan 20.805); 135 bis (faltan 20.805); 135 ter (faltan 20.805); 135 quater (faltan 20.805); 135 quinquies (faltan 20.805); 139 bis (faltan 21.076); 141 (faltan 21.304); 146 (faltan 20.220, 20.402); 146 bis (faltan 20.805); 146 ter (faltan 20.220, 20.720); 147 (faltan 20.402, 20.805); 149 (faltan 20.571); 149 bis (faltan 20.571, 21.118); 149 ter (faltan 21.118); 149 quater (faltan 20.571); 149 quinquies (faltan 20.571); 150 bis (faltan 20.257, 20.698); 150 ter (faltan 20.698); 151 (faltan 20.402); 157 (faltan 20.257, 20.805, 20.928); 163 (faltan 20.402); 170 (faltan 20.402); 174 bis (faltan 20.698); 178 (faltan 20.402); 182 bis (faltan 21.194); 183 (faltan 21.194); 183 bis (faltan 21.194); 184 (faltan 20.402, 20.928); 185 (faltan 21.194); 188 (faltan 21.194); 189 (faltan 21.194); 190 (faltan 20.402); 191 (faltan 20.928); 191 bis (faltan 21.657); 193 (faltan 21.194, 21.647); 203 (faltan 20.402); 206 (faltan 20.402); 207 (faltan 21.304); 207-1 (faltan 21.304); 207-2 (faltan 21.304); 207-2 bis (faltan 21.806); 207-3 (faltan 21.304, 21.806); 207-4 (faltan 21.304); 207-5 (faltan 21.304); 207-6 (faltan 21.304); 207-7 (faltan 21.806); 207-8 (faltan 21.806); 209 (faltan 20.999); 210 (faltan 20.999); 211 (faltan 20.402); 212 (faltan 20.402); 213 (faltan 20.273); 214 (faltan 20.273); 225 (faltan 20.928, 21.194).

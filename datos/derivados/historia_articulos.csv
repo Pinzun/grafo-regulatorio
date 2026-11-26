@@ -17,7 +17,7 @@ articulo,id_parte,en_grafo,cobertura_historia,leyes_modificatorias_bcn,leyes_fal
 10-4,10583372,si,completa,21804,
 10-5,10583373,si,completa,21804,
 10-6,10583374,si,completa,21804,
-11,8721679,no,parcial,20402;20701,20402;20701
+11,8721679,si,parcial,20402;20701,20402
 12,8721682,no,completa,,
 13,8721683,no,completa,,
 14,8721684,no,completa,,
@@ -25,31 +25,31 @@ articulo,id_parte,en_grafo,cobertura_historia,leyes_modificatorias_bcn,leyes_fal
 16,8721686,no,completa,,
 17,8721687,no,parcial,20402,20402
 18,8721688,no,completa,,
-19,8721689,no,parcial,20701,20701
-20,8721691,si,parcial,20701;21582,20701
-21,8721692,no,parcial,20701,20701
-22,8721693,no,parcial,20701;21582,20701
+19,8721689,si,completa,20701,
+20,8721691,si,completa,20701;21582,
+21,8721692,si,completa,20701,
+22,8721693,si,completa,20701;21582,
 23,8721694,si,completa,,
 24,8721695,no,completa,,
-25,8721696,no,parcial,20220;20402;20701,20220;20402;20701
+25,8721696,si,parcial,20220;20402;20701,20220;20402
 26,8721697,no,parcial,20402,20402
-27,8721698,no,parcial,20701,20701
-27 bis,9377936,no,completa,,
-27 ter,9377937,no,parcial,20701,20701
-28,8721699,no,parcial,20701,20701
-29,8721700,si,parcial,20701;21582,20701
+27,8721698,si,completa,20701,
+27 bis,9377936,si,completa,,
+27 ter,9377937,si,completa,20701,
+28,8721699,si,completa,20701,
+29,8721700,si,completa,20701;21582,
 30,8721701,no,completa,,
 31,8721702,no,completa,,
-31 bis,9377938,no,parcial,20701,20701
+31 bis,9377938,si,completa,20701,
 32,8721703,no,parcial,20402,20402
 33,8721704,no,completa,,
 34,8721705,no,completa,,
-34 bis,9377939,no,parcial,20701;20897,20701;20897
+34 bis,9377939,si,parcial,20701;20897,20897
 35,8721706,no,completa,,
 36,8721708,no,completa,,
 37,8721709,no,completa,,
 38,8721710,no,completa,,
-39,8721711,si,parcial,20701;21582,20701
+39,8721711,si,completa,20701;21582,
 40,8721713,no,completa,,
 41,8721714,no,completa,,
 42,8721715,no,completa,,
@@ -64,7 +64,7 @@ articulo,id_parte,en_grafo,cobertura_historia,leyes_modificatorias_bcn,leyes_fal
 51,8721725,no,completa,,
 52,8721726,no,completa,,
 53,8721727,no,completa,,
-54,8721728,no,parcial,20701,20701
+54,8721728,si,completa,20701,
 55,8721729,no,completa,,
 56,8721730,no,completa,,
 57,8721731,no,completa,,
@@ -73,14 +73,14 @@ articulo,id_parte,en_grafo,cobertura_historia,leyes_modificatorias_bcn,leyes_fal
 60,8721734,no,completa,,
 61,8721735,no,completa,,
 62,8721736,si,completa,21582,
-63,8721737,no,parcial,20701,20701
-63 bis,9377940,no,parcial,20701,20701
-63 ter,9377941,no,parcial,20701,20701
-64,8721738,no,parcial,20701,20701
-65,8721739,no,parcial,20701,20701
-66,8721740,no,parcial,20701,20701
-67,8721741,no,completa,,
-68,8721742,no,parcial,20701,20701
+63,8721737,si,completa,20701,
+63 bis,9377940,si,completa,20701,
+63 ter,9377941,si,completa,20701,
+64,8721738,si,completa,20701,
+65,8721739,si,completa,20701,
+66,8721740,si,completa,20701,
+67,8721741,si,completa,,
+68,8721742,si,completa,20701,
 69,8721743,no,completa,,
 70,8721744,no,completa,,
 71,8721745,no,completa,,

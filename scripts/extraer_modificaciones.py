@@ -36,11 +36,13 @@ ARCHIVOS = {
     "ley_21833_2026": "ley_21833_2026__idNorma_1226550.xml",
     "ley_21472_2022": "ley_21472_2022__idNorma_1179524.xml",
     "ley_21667_2024": "ley_21667_2024__idNorma_1203005.xml",
+    "ley_20701_2013": "ley_20701_2013__idNorma_1055073.xml",
 }
 # Artículo de cada ley que contiene las modificaciones al DFL 4 (se valida por regex abajo).
 MODIFICATORIAS = {"ley_21721_2024": "art_unico", "ley_20936_2016": "art_1", "ley_21804_2026": "art_unico",
                   "ley_21505_2022": "art_unico", "ley_21582_2023": "art_10", "ley_21833_2026": "art_1",
-                  "ley_21472_2022": "art_1", "ley_21667_2024": "art_primero"}
+                  "ley_21472_2022": "art_1", "ley_21667_2024": "art_primero",
+                  "ley_20701_2013": "art_unico"}
 
 VERBOS = {  # singular e impersonal plural ("Reemplázase" / "Reemplázanse")
     "reemplaza": r"reempl[aá]z(?:a|ase|anse|ese|ense)|sustit[uú]y(?:e|ese|ense)",
@@ -321,7 +323,7 @@ def modifica_lgse(txt):
     t = norm_ws(txt)[:400]
     if not RE_MODIFICA_LGSE.search(t):
         return False
-    if re.search(r"de 1982", t[:200]) and not re.search(r"4,\s*de 2006", t):
+    if re.search(r"de 1982", t[:200]) and not re.search(r"N\s*[°º]\s*4(?:/20\.?018)?,\s*de 200[67]", t):
         return False  # DFL 1/1982 sin remisión al texto refundido: no se asume la numeración del DFL 4
     return True
 

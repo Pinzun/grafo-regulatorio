@@ -4,7 +4,7 @@
 - **Versión del texto consolidado:** DFL 4 versión BCN 2026-07-31; última versión de este artículo según la BCN: 2013-10-14
 - **idParte:** 8721692 (https://www.bcn.cl/leychile/navegar?idNorma=258171&idParte=8721692)
 - **Vigencia:** vigente
-- **Cobertura de la historia:** parcial — faltan en el grafo las leyes 20.701
+- **Cobertura de la historia:** completa
 - **Bloque:** fuera del bloque de transmisión
 
 ## Texto vigente
@@ -23,10 +23,27 @@ En caso de solicitarse la ampliación del área otorgada en una concesión provi
 
 ## Historia de modificaciones
 
-*Sin modificaciones registradas en el grafo.*
-
-> ⚠️ Historia incompleta: la BCN anota modificaciones de las leyes 20.701, que no están en el grafo.
+- 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 4 letra a) · agrega · verificada · regla · idParte 9377764
+- 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 4 letra b) · agrega · verificada · regla · idParte 9377764
+- 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 4 letra c) · reemplaza · verificada · regla · idParte 9377764
+- 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 4 letra d) · agrega · verificada · regla · idParte 9377764
 
 ## Texto modificatorio
 
-*No hay texto modificatorio: el artículo no tiene modificaciones en el grafo.*
+### Ley 20.701 de 2013 — art. único, N° 4
+
+*Fuente: XML (https://www.leychile.cl/Consulta/obtxml?opt=7&idNorma=1055073).*
+
+N° 4. Modifícase el artículo 21º en el siguiente sentido:
+
+a) Intercálase en el inciso primero, entre la coma que sigue a los términos "Diario Oficial" y los vocablos "se fijará", la expresión "a cuenta del solicitante,".
+
+b) Intercálase en el literal a) del inciso primero, entre la palabra "provisional" y el punto y coma que le sigue, la frase ", el que se contará desde la publicación de la resolución que la otorga".
+
+c) Reemplázase el inciso segundo por el siguiente:
+
+"Las concesiones provisionales se otorgarán por un plazo máximo de dos años, prorrogable por un nuevo período de hasta dos años. La solicitud de prórroga deberá presentarse a lo menos seis meses antes del vencimiento del plazo de la concesión cuya prórroga se solicita, y se tramitará de acuerdo a lo indicado en el artículo anterior.".
+
+d) Incorpórase el siguiente inciso tercero, nuevo:
+
+"En caso de solicitarse la ampliación del área otorgada en una concesión provisional, dicha petición se tramitará como una nueva solicitud respecto del área adicional que se pretenda afectar. La solicitud deberá acompañarse de los antecedentes relacionados con el área que se estime necesario ocupar, conforme a lo establecido en las letras c) y d) del artículo 19º precedente, entendiéndose incorporados a ella los demás antecedentes considerados para la concesión original.".

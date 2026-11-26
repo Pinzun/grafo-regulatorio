@@ -4,7 +4,7 @@
 - **Versión del texto consolidado:** DFL 4 versión BCN 2026-07-31; última versión de este artículo según la BCN: 2013-10-14
 - **idParte:** 8721679 (https://www.bcn.cl/leychile/navegar?idNorma=258171&idParte=8721679)
 - **Vigencia:** vigente
-- **Cobertura de la historia:** parcial — faltan en el grafo las leyes 20.402, 20.701
+- **Cobertura de la historia:** parcial — faltan en el grafo las leyes 20.402
 - **Bloque:** fuera del bloque de transmisión
 
 ## Texto vigente
@@ -17,10 +17,16 @@ El otorgamiento de las concesiones no eximirá al concesionario del cumplimiento
 
 ## Historia de modificaciones
 
-*Sin modificaciones registradas en el grafo.*
+- 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 1 · agrega · verificada · regla · idParte 9377764
 
-> ⚠️ Historia incompleta: la BCN anota modificaciones de las leyes 20.402, 20.701, que no están en el grafo.
+> ⚠️ Historia incompleta: la BCN anota modificaciones de las leyes 20.402, que no están en el grafo.
 
 ## Texto modificatorio
 
-*No hay texto modificatorio: el artículo no tiene modificaciones en el grafo.*
+### Ley 20.701 de 2013 — art. único, N° 1
+
+*Fuente: XML (https://www.leychile.cl/Consulta/obtxml?opt=7&idNorma=1055073).*
+
+N° 1. Incorpórase en el artículo 11º el siguiente inciso segundo:
+
+"El otorgamiento de las concesiones no eximirá al concesionario del cumplimiento de todas las normas legales y reglamentarias pertinentes, en especial las que regulan materias medioambientales.".

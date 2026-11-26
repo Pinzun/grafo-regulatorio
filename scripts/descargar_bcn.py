@@ -30,6 +30,7 @@ NORMAS = {
     "1226550": "ley_21833_2026",
     "1179524": "ley_21472_2022",
     "1203005": "ley_21667_2024",
+    "1055073": "ley_20701_2013",
 }
 URL = "https://www.leychile.cl/Consulta/obtxml?opt=7&idNorma={}"
 NS = "{http://www.leychile.cl/esquemas}"

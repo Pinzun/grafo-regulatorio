@@ -4,7 +4,7 @@
 - **Versión del texto consolidado:** DFL 4 versión BCN 2026-07-31; última versión de este artículo según la BCN: 2013-10-14
 - **idParte:** 8721689 (https://www.bcn.cl/leychile/navegar?idNorma=258171&idParte=8721689)
 - **Vigencia:** vigente
-- **Cobertura de la historia:** parcial — faltan en el grafo las leyes 20.701
+- **Cobertura de la historia:** completa
 - **Bloque:** fuera del bloque de transmisión
 
 ## Texto vigente
@@ -33,10 +33,26 @@ Si de la revisión de los antecedentes la Superintendencia advirtiera el incumpl
 
 ## Historia de modificaciones
 
-*Sin modificaciones registradas en el grafo.*
-
-> ⚠️ Historia incompleta: la BCN anota modificaciones de las leyes 20.701, que no están en el grafo.
+- 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 2 letra a) · reemplaza · verificada · regla · idParte 9377764
+- 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 2 letra b) · reemplaza · verificada · regla · idParte 9377764
+- 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 2 letra c) · agrega · verificada · regla · idParte 9377764
 
 ## Texto modificatorio
 
-*No hay texto modificatorio: el artículo no tiene modificaciones en el grafo.*
+### Ley 20.701 de 2013 — art. único, N° 2
+
+*Fuente: XML (https://www.leychile.cl/Consulta/obtxml?opt=7&idNorma=1055073).*
+
+N° 2. Modifícase el artículo 19º en el siguiente sentido:
+
+a) Reemplázase el literal d) por el siguiente:
+
+"d) En el caso de líneas de transmisión y de distribución, un trazado y la franja de seguridad adyacente, ambos preliminares, y la ubicación preliminar de las subestaciones, con indicación del área en la que se estime necesario efectuar los estudios y mediciones, cuyos vértices serán graficados mediante coordenadas UTM, indicándose el huso utilizado para estos efectos. La solicitud deberá incluir la mención precisa de la o las regiones, provincias y comunas en las cuales se efectuarán los estudios y mediciones e indicar aquellas localidades, contempladas en el último censo, que se encuentren dentro del área. La solicitud deberá incluir un mapa en que se destaque el área preliminar de la concesión solicitada.".
+
+b) Sustitúyese, en el literal e), la conjunción disyuntiva "o", entre los términos "secciones" y "para su terminación total", por la conjunción copulativa "y".
+
+c) Agréganse los siguientes incisos segundo y tercero, nuevos:
+
+"La Superintendencia tendrá un plazo de quince días, contado desde la presentación de la solicitud de concesión provisional, para revisar los antecedentes presentados por el solicitante, lo que sólo hará en base al cumplimiento de las exigencias señaladas en el inciso anterior. De cumplirse las señaladas exigencias, la Superintendencia declarará admisible la solicitud, publicando en su sitio electrónico el texto íntegro de la misma, con indicación de su fecha de presentación.
+
+Si de la revisión de los antecedentes la Superintendencia advirtiera el incumplimiento de alguna de las exigencias antes mencionadas, comunicará dicha situación al solicitante. Dicha comunicación señalará los antecedentes que hayan sido omitidos o que requieran complementarse. El solicitante deberá acompañarlos o complementarlos dentro del plazo de quince días, contado desde la notificación de la comunicación anterior, pudiendo solicitar en la oficina de partes su prórroga por un nuevo plazo de siete días, antes del vencimiento del primero. En caso que los antecedentes fueren insuficientes o no fueren presentados dentro de los correspondientes plazos, la Superintendencia desechará la solicitud de plano mediante resolución, lo que pondrá fin al procedimiento. De resultar los antecedentes suficientes, la Superintendencia declarará admisible la solicitud, publicándola en su sitio electrónico conforme a lo señalado en el inciso anterior.".

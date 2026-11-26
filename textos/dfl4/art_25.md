@@ -4,7 +4,7 @@
 - **Versión del texto consolidado:** DFL 4 versión BCN 2026-07-31; última versión de este artículo según la BCN: 2013-10-14
 - **idParte:** 8721696 (https://www.bcn.cl/leychile/navegar?idNorma=258171&idParte=8721696)
 - **Vigencia:** vigente
-- **Cobertura de la historia:** parcial — faltan en el grafo las leyes 20.220, 20.402, 20.701
+- **Cobertura de la historia:** parcial — faltan en el grafo las leyes 20.220, 20.402
 - **Bloque:** fuera del bloque de transmisión
 
 ## Texto vigente
@@ -47,10 +47,36 @@ En aquellos casos en que otras leyes requieran la calidad de concesionario para 
 
 ## Historia de modificaciones
 
-*Sin modificaciones registradas en el grafo.*
+- 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 6 letra a) · reemplaza · verificada · regla · idParte 9377764
+- 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 6 letra b) · reemplaza · verificada · regla · idParte 9377764
+- 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 6 letra b) · reemplaza · verificada · regla · idParte 9377764
+- 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 6 letra c) · agrega · verificada · regla · idParte 9377764
+- 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 6 letra c) · reemplaza · verificada · regla · idParte 9377764
+- 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 6 letra d) · agrega · verificada · regla · idParte 9377764
+- 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 6 letra e) · agrega · verificada · regla · idParte 9377764
 
-> ⚠️ Historia incompleta: la BCN anota modificaciones de las leyes 20.220, 20.402, 20.701, que no están en el grafo.
+> ⚠️ Historia incompleta: la BCN anota modificaciones de las leyes 20.220, 20.402, que no están en el grafo.
 
 ## Texto modificatorio
 
-*No hay texto modificatorio: el artículo no tiene modificaciones en el grafo.*
+### Ley 20.701 de 2013 — art. único, N° 6
+
+*Fuente: XML (https://www.leychile.cl/Consulta/obtxml?opt=7&idNorma=1055073).*
+
+N° 6. Modifícase el artículo 25º de la siguiente manera:
+
+a) Sustitúyese, en su inciso primero, la expresión "al Ministro de Energía con copia a la Superintendencia para que ésta" por la frase "ante la Superintendencia con copia al Ministerio de Energía para que aquella".
+
+b) Reemplázase, en el párrafo segundo del literal d) del inciso segundo, la coma que sigue a la palabra "referida" por un punto seguido y reemplázase la palabra "pero" que le sigue, por la locución "Sin perjuicio de lo anterior,".
+
+c) Intercálase, en la letra e) del inciso segundo, a continuación de las palabras "En el caso", la expresión "de centrales hidráulicas," y sustitúyese el término "transporte" por la palabra "transmisión".
+
+d) Intercálase en la letra h) del inciso segundo, entre la expresión "impondrán" y el punto y coma que le sigue, la frase "y, si procediere, copias autorizadas de las escrituras o documentos en que consten las servidumbres prediales voluntarias constituidas en favor del peticionario".
+
+e) Agréganse los siguientes incisos tercero, cuarto y quinto, nuevos:
+
+"La Superintendencia tendrá un plazo de quince días, contado desde la presentación de la solicitud, para revisar los antecedentes presentados por el solicitante, lo que hará sólo en base al cumplimiento de las exigencias señaladas en el inciso anterior. De cumplirse las señaladas exigencias, declarará admisible la solicitud mediante resolución, publicando en su sitio electrónico el texto íntegro de la misma, con indicación de su fecha de presentación.
+
+Si de la revisión de los antecedentes la Superintendencia advirtiera el incumplimiento de alguna de las exigencias antes mencionadas, comunicará dicha situación al solicitante. Dicha comunicación señalará los antecedentes que hayan sido omitidos o que requieran complementarse. El solicitante deberá acompañarlos o complementarlos dentro del plazo de quince días, contado desde la notificación de la comunicación anterior, pudiendo solicitar su prórroga por un nuevo plazo de siete días, antes del vencimiento del primero. En caso de que los antecedentes fueren insuficientes o no fueren presentados dentro de los correspondientes plazos, la Superintendencia desechará la solicitud de plano mediante resolución, que se informará al Ministerio de Energía, lo que pondrá fin al procedimiento. De resultar suficientes los antecedentes, la Superintendencia declarará admisible la solicitud, publicándola en su sitio electrónico conforme a lo señalado en el inciso anterior.
+
+En aquellos casos en que otras leyes requieran la calidad de concesionario para solicitar autorizaciones o permisos especiales, se entenderá que el solicitante a que se refiere el presente artículo cuenta con la calidad de concesionario para el solo efecto de iniciar los trámites que correspondan a dichas autorizaciones o permisos, debiendo acreditar que la respectiva concesión se encuentra en trámite ante la Superintendencia. Lo anterior se verificará mediante una comunicación de la Superintendencia al organismo respectivo, a petición del solicitante.".
