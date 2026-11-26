@@ -53,7 +53,7 @@
 | 212 | 20402 |
 | 225 | 20928, 21194 |
 
-Aristas por relación, estado y método: contiene/verificada/regla: 189; implementa/verificada/regla: 1; modifica/verificada/manual: 52; modifica/verificada/regla: 167
+Aristas por relación, estado y método: contiene/verificada/regla: 189; deroga/verificada/regla: 7; implementa/verificada/regla: 1; modifica/verificada/manual: 52; modifica/verificada/regla: 160
 
 ## Summary
 - 199 nodes · 409 edges · 7 communities
