@@ -1,0 +1,67 @@
+# DFL 4 — artículo 91
+
+- **Norma:** DFL 4 de 2006 (LGSE) — FIJA TEXTO REFUNDIDO, COORDINADO Y SISTEMATIZADO DEL DECRETO CON FUERZA DE LEY Nº 1, DE MINERIA, DE 1982, LEY GENERAL DE SERVICIOS ELECTRICOS, EN MATERIA DE ENERGIA ELECTRICA
+- **Versión del texto consolidado:** DFL 4 versión BCN 2026-07-31; última versión de este artículo según la BCN: 2024-12-27
+- **idParte:** 9718440 (https://www.bcn.cl/leychile/navegar?idNorma=258171&idParte=9718440)
+- **Vigencia:** vigente
+- **Cobertura de la historia:** completa
+- **Bloque:** nucleo (validado) — Título III: De los Sistemas de Transmisión Eléctrica / Capítulo II: De la Planificación Energética y de la Transmisión
+
+## Texto vigente
+
+*Fuente: XML BCN del DFL 4 (servicio de exportación de Ley Chile).*
+
+Artículo 91°.- Procedimiento de Planificación de la Transmisión. Dentro de los primeros quince días de cada año, el Coordinador deberá enviar a la Comisión una propuesta de expansión para los distintos segmentos de la transmisión, la que deberá considerar lo dispuesto en el artículo 87°, y podrá incluir los proyectos de transmisión presentados a dicho organismo por sus promotores. Los proyectos de transmisión presentados al Coordinador por sus promotores deberán contener como requisitos mínimos los siguientes: descripción del proyecto e identificación de generadores de electricidad. Estos antecedentes deberán ser validados por el Coordinador.
+
+La Comisión, dentro de los cinco días contados desde la recepción de la propuesta del Coordinador, deberá publicarla en su sitio web y deberá convocar, mediante un medio de amplia difusión pública, a una etapa de presentación de propuestas de proyectos de expansión de la transmisión. Los promotores de dichos proyectos de expansión deberán presentar a la Comisión sus propuestas fundadas dentro del plazo de sesenta días corridos desde la convocatoria, las que deberán ser publicadas en su sitio web.
+
+El reglamento establecerá los requisitos y la forma en que deberán presentarse las propuestas de expansión del Coordinador y de los promotores de proyectos.
+
+En el caso de propuestas de obras que tengan su origen en proyectos específicos de generación o sistemas de almacenamiento de energía que aún no hayan sido declarados en construcción, el reglamento establecerá los requisitos y oportunidad para el otorgamiento de garantías de ejecución de los proyectos que correspondan.
+
+En el plazo que señale el reglamento, la Comisión emitirá un informe técnico preliminar con el plan de expansión anual de la transmisión, el que deberá ser publicado en su sitio web. Dentro del plazo de diez días a contar de la recepción del informe técnico preliminar, los participantes y usuarios e instituciones interesadas podrán presentar sus observaciones a la Comisión.
+
+Dentro de los treinta días siguientes al vencimiento del plazo para presentar observaciones, la Comisión emitirá y comunicará el informe técnico final del plan de expansión anual, aceptando o rechazando fundadamente las observaciones planteadas, el que deberá ser publicado en su sitio web.
+
+Dentro de los quince días siguientes a la comunicación del informe técnico final, los participantes y usuarios e instituciones interesadas podrán presentar sus discrepancias al Panel de Expertos, el que emitirá su dictamen en un plazo máximo de cincuenta días corridos contados desde la respectiva audiencia a que hace referencia el artículo 211°.
+
+Para los efectos anteriores, se entenderá que existe discrepancia susceptible de ser sometida al dictamen del Panel, si quien hubiere formulado observaciones al informe técnico preliminar, persevere en ellas, con posterioridad al rechazo de las mismas por parte de la Comisión, como también, si quien no hubiere formulado observaciones al informe técnico preliminar, considere que se debe mantener su contenido, en caso de haberse modificado en el informe técnico final.
+
+Si no se presentaren discrepancias, dentro de los tres días siguientes al vencimiento del plazo para presentarlas, la Comisión deberá remitir al Ministerio de Energía el informe técnico definitivo con el plan de expansión anual de la transmisión. En el caso que se hubiesen presentado discrepancias, la Comisión dispondrá de quince días desde la comunicación del dictamen del Panel, para remitir al Ministerio de Energía el informe técnico definitivo con el plan de expansión anual de la transmisión, incorporando lo resuelto por el Panel.
+
+## Historia de modificaciones
+
+- 2016-07-20 · Ley 20.936 de 2016 (art. 1) · N° 4 · reemplaza · verificada · manual · idParte 9716001
+- 2024-12-27 · Ley 21.721 de 2024 (art. único) · N° 3 · agrega · verificada · regla · idParte 10530118
+
+## Texto modificatorio
+
+### Ley 20.936 de 2016 — art. 1, N° 4
+
+*Fuente: PDF (https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=Ley-20936_09-FEB-2017&exportar_con_notas_bcn=True&exportar_con_notas_originales=True&exportar_con_notas_al_pie=True&hddResultadoExportar=1092695.2017-02-09.0.0%23).* *Extracto: el numeral inserta o sustituye varios artículos; se muestra solo el de este artículo.*
+
+N° 4. Reemplázase el Título III por el siguiente:
+
+Artículo 91°.- Procedimiento de Planificación de la Transmisión. Dentro de los primeros quince días de cada año, el Coordinador deberá enviar a la Comisión una propuesta de expansión para los distintos segmentos de la transmisión, la que deberá considerar lo dispuesto en el artículo 87°, y podrá incluir los proyectos de transmisión presentados a dicho organismo por sus promotores. Los proyectos de transmisión presentados al Coordinador por sus promotores deberán contener como requisitos mínimos los siguientes: descripción del proyecto e identificación de generadores de electricidad. Estos antecedentes deberán ser validados por el Coordinador.
+
+La Comisión, dentro de los cinco días contados desde la recepción de la propuesta del Coordinador, deberá publicarla en su sitio web y deberá convocar, mediante un medio de amplia difusión pública, a una etapa de presentación de propuestas de proyectos de expansión de la transmisión. Los promotores de dichos proyectos de expansión deberán presentar a la Comisión sus propuestas fundadas dentro del plazo de sesenta días corridos desde la convocatoria, las que deberán ser publicadas en su sitio web.
+
+El reglamento establecerá los requisitos y la forma en que deberán presentarse las propuestas de expansión del Coordinador y de los promotores de proyectos.
+
+En el plazo que señale el reglamento, la Comisión emitirá un informe técnico preliminar con el plan de expansión anual de la transmisión, el que deberá ser publicado en su sitio web. Dentro del plazo de diez días a contar de la recepción del informe técnico preliminar, los participantes y usuarios e instituciones interesadas podrán presentar sus observaciones a la Comisión.
+
+Dentro de los treinta días siguientes al vencimiento del plazo para presentar observaciones, la Comisión emitirá y comunicará el informe técnico final del plan de expansión anual, aceptando o rechazando fundadamente las observaciones planteadas, el que deberá ser publicado en su sitio web.
+
+Dentro de los quince días siguientes a la comunicación del informe técnico final, los participantes y usuarios e instituciones interesadas podrán presentar sus discrepancias al Panel de Expertos, el que emitirá su dictamen en un plazo máximo de cincuenta días corridos contados desde la respectiva audiencia a que hace referencia el artículo 211°.
+
+Para los efectos anteriores, se entenderá que existe discrepancia susceptible de ser sometida al dictamen del Panel, si quien hubiere formulado observaciones al informe técnico preliminar, persevere en ellas, con posterioridad al rechazo de las mismas por parte de la Comisión, como también, si quien no hubiere formulado observaciones al informe técnico preliminar, considere que se debe mantener su contenido, en caso de haberse modificado en el informe técnico final.
+
+Si no se presentaren discrepancias, dentro de los tres días siguientes al vencimiento del plazo para presentarlas, la Comisión deberá remitir al Ministerio de Energía el informe técnico definitivo con el plan de expansión anual de la transmisión. En el caso que se hubiesen presentado discrepancias, la Comisión dispondrá de quince días desde la comunicación del dictamen del Panel, para remitir al Ministerio de Energía el informe técnico definitivo con el plan de expansión anual de la transmisión, incorporando lo resuelto por el Panel.
+
+### Ley 21.721 de 2024 — art. único, N° 3
+
+*Fuente: XML (https://www.leychile.cl/Consulta/obtxml?opt=7&idNorma=1209692).*
+
+N° 3. Incorpórase, en el artículo 91°, el siguiente inciso cuarto, nuevo, pasando el actual inciso cuarto a ser inciso quinto, y así sucesivamente:
+
+"En el caso de propuestas de obras que tengan su origen en proyectos específicos de generación o sistemas de almacenamiento de energía que aún no hayan sido declarados en construcción, el reglamento establecerá los requisitos y oportunidad para el otorgamiento de garantías de ejecución de los proyectos que correspondan.".

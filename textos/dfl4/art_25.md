@@ -1,0 +1,56 @@
+# DFL 4 — artículo 25
+
+- **Norma:** DFL 4 de 2006 (LGSE) — FIJA TEXTO REFUNDIDO, COORDINADO Y SISTEMATIZADO DEL DECRETO CON FUERZA DE LEY Nº 1, DE MINERIA, DE 1982, LEY GENERAL DE SERVICIOS ELECTRICOS, EN MATERIA DE ENERGIA ELECTRICA
+- **Versión del texto consolidado:** DFL 4 versión BCN 2026-07-31; última versión de este artículo según la BCN: 2013-10-14
+- **idParte:** 8721696 (https://www.bcn.cl/leychile/navegar?idNorma=258171&idParte=8721696)
+- **Vigencia:** vigente
+- **Cobertura de la historia:** parcial — faltan en el grafo las leyes 20.220, 20.402, 20.701
+- **Bloque:** fuera del bloque de transmisión
+
+## Texto vigente
+
+*Fuente: XML BCN del DFL 4 (servicio de exportación de Ley Chile).*
+
+Artículo 25°.- La solicitud de concesión definitiva se presentará ante la Superintendencia con copia al D.F.L. Nº 1, de Ministerio de Energía para que 1982, Minería aquella ésta ejerza sus atribuciones Art. 24º conforme a los artículos siguientes.
+
+Podrá solicitarse la concesión definitiva sin que sea necesaria la concesión provisional previa. En la solicitud se indicará:
+
+a) La identificación del peticionario;
+
+b) La clase de concesión que se solicita y el servicio a que estará destinada;
+
+c) Un plano general de las obras y una memoria explicativa de las mismas;
+
+d) En el caso de centrales hidroeléctricas, su Ley Nº 18.410 ubicación y su potencia. Se indicará el derecho de agua Art. 23º que posea el peticionario y, si procede, el trazado y D.O. 22.05.1985 capacidad de los acueductos, la ubicación y capacidad de los embalses y estanques de sobrecarga y de compensación que se construirán para la operación de la central.
+
+Se deberá acompañar, además, los planos de las obras hidráulicas autorizadas por la Dirección General de Aguas de acuerdo al Código respectivo, quedando asimismo la construcción y aprovechamiento de las obras hidráulicas regidas por el Código de Aguas, pudiendo solicitarse la concesión con los planos de las obras hidráulicas que se hubieren presentado a la Dirección General de Aguas para la autorización referida. Sin perjuicio de lo anterior, el interesado deberá acreditar a la Superintendencia que se encuentra en trámite y que se adjuntará el plano autorizado antes de la emisión del informe a que se refiere el artículo 29 de esta ley. Las servidumbres necesarias para llevar a cabo estas obras se otorgarán de acuerdo a las disposiciones de esta ley o del Código de Aguas, según corresponda;
+
+e) En el caso de centrales hidráulicas, de líneas de transmisión, de distribución y subestaciones se indicará su ubicación, con indicación de los caminos, calles y otros bienes nacionales de uso público que se ocuparán, y de las propiedades fiscales, municipales y particulares que se atravesarán;
+
+f) Los plazos para la iniciación de los trabajos y su terminación por etapas, secciones y la terminación total de las obras;
+
+g) Un presupuesto del costo de las obras;
+
+h) Los planos especiales de las servidumbres que se impondrán y, si procediere, copias autorizadas de las escrituras o documentos en que consten las servidumbres prediales voluntarias constituidas en favor del peticionario;
+
+i) Las líneas eléctricas u otras obras e instalaciones existentes que puedan ser afectadas por las obras nuevas;
+
+j) El plazo de la concesión;
+
+k) En el caso de la concesión para servicio público de distribución se indicará la zona de concesión, que como mínimo será una franja circundante de 100 metros, respecto de cada línea eléctrica según lo dispuesto en el artículo 30º.
+
+La Superintendencia tendrá un plazo de quince días, contado desde la presentación de la solicitud, para revisar los antecedentes presentados por el solicitante, lo que hará sólo en base al cumplimiento de las exigencias señaladas en el inciso anterior. De cumplirse las señaladas exigencias, declarará admisible la solicitud mediante resolución, publicando en su sitio electrónico el texto íntegro de la misma, con indicación de su fecha de presentación.
+
+Si de la revisión de los antecedentes la Superintendencia advirtiera el incumplimiento de alguna de las exigencias antes mencionadas, comunicará dicha situación al solicitante. Dicha comunicación señalará los antecedentes que hayan sido omitidos o que requieran complementarse. El solicitante deberá acompañarlos o complementarlos dentro del plazo de quince días, contado desde la notificación de la comunicación anterior, pudiendo solicitar su prórroga por un nuevo plazo de siete días, antes del vencimiento del primero. En caso de que los antecedentes fueren insuficientes o no fueren presentados dentro de los correspondientes plazos, la Superintendencia desechará la solicitud de plano mediante resolución, que se informará al Ministerio de Energía, lo que pondrá fin al procedimiento. De resultar suficientes los antecedentes, la Superintendencia declarará admisible la solicitud, publicándola en su sitio electrónico conforme a lo señalado en el inciso anterior.
+
+En aquellos casos en que otras leyes requieran la calidad de concesionario para solicitar autorizaciones o permisos especiales, se entenderá que el solicitante a que se refiere el presente artículo cuenta con la calidad de concesionario para el solo efecto de iniciar los trámites que correspondan a dichas autorizaciones o permisos, debiendo acreditar que la respectiva concesión se encuentra en trámite ante la Superintendencia. Lo anterior se verificará mediante una comunicación de la Superintendencia al organismo respectivo, a petición del solicitante.
+
+## Historia de modificaciones
+
+*Sin modificaciones registradas en el grafo.*
+
+> ⚠️ Historia incompleta: la BCN anota modificaciones de las leyes 20.220, 20.402, 20.701, que no están en el grafo.
+
+## Texto modificatorio
+
+*No hay texto modificatorio: el artículo no tiene modificaciones en el grafo.*

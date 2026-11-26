@@ -1,0 +1,38 @@
+# DFL 4 — artículo 182 bis
+
+- **Norma:** DFL 4 de 2006 (LGSE) — FIJA TEXTO REFUNDIDO, COORDINADO Y SISTEMATIZADO DEL DECRETO CON FUERZA DE LEY Nº 1, DE MINERIA, DE 1982, LEY GENERAL DE SERVICIOS ELECTRICOS, EN MATERIA DE ENERGIA ELECTRICA
+- **Versión del texto consolidado:** DFL 4 versión BCN 2026-07-31; última versión de este artículo según la BCN: 2019-12-21
+- **idParte:** 10084728 (https://www.bcn.cl/leychile/navegar?idNorma=258171&idParte=10084728)
+- **Vigencia:** vigente
+- **Cobertura de la historia:** parcial — faltan en el grafo las leyes 21.194
+- **Bloque:** fuera del bloque de transmisión
+
+## Texto vigente
+
+*Fuente: XML BCN del DFL 4 (servicio de exportación de Ley Chile).*
+
+Artículo 182 bis.- La tasa de actualización que deberá utilizarse para determinar los costos anuales de inversión de las instalaciones de distribución será calculada por la Comisión cada cuatro años, de acuerdo al procedimiento señalado en este artículo. Esta tasa será aplicable después de impuestos y para su determinación se deberá considerar el riesgo sistemático de las actividades propias de las empresas concesionarias de distribución eléctrica en relación con el mercado, la tasa de rentabilidad libre de riesgo y el premio por riesgo de mercado. En todo caso, la tasa de actualización no podrá ser inferior al seis por ciento ni superior al ocho por ciento.
+
+El riesgo sistemático señalado se define como un valor que mide o estima la variación en los ingresos de una empresa modelo eficiente de distribución eléctrica con respecto a las fluctuaciones del mercado.
+
+La tasa de rentabilidad libre de riesgo corresponderá a la tasa interna de retorno promedio ofrecida por el Banco Central de Chile o la Tesorería General de la República para un instrumento reajustable en moneda nacional. El tipo de instrumento deberá considerar las características de liquidez, estabilidad y montos transados en el mercado secundario de cada instrumento en los últimos dos años, a partir de la fecha de referencia del cálculo de la tasa de actualización, y su plazo no deberá ser inferior a cinco años. El período considerado para establecer el retorno promedio corresponderá al promedio de los seis meses previos, contados desde la fecha de referencia del cálculo de la tasa de actualización. Excepcionalmente, cuando la Comisión lo determine fundadamente, podrá considerar un periodo distinto de manera de dar mejor representatividad al instrumento elegido.
+
+El premio por riesgo de mercado se define como la diferencia entre la rentabilidad de la cartera de inversiones de mercado diversificada y la rentabilidad del instrumento libre de riesgo definida en este artículo.
+
+La información nacional o internacional que se utilice para el cálculo del valor del riesgo sistemático y del premio por riesgo deberá permitir la obtención de estimaciones confiables desde el punto de vista estadístico.
+
+La tasa de actualización, de este modo, será la tasa de rentabilidad libre de riesgo más el premio por riesgo multiplicado por el valor del riesgo sistemático.
+
+La Comisión, antes de los cinco meses del plazo señalado en el artículo 183 bis para comunicar las bases preliminares del estudio de costos, deberá licitar un estudio que defina la metodología de cálculo de la tasa de actualización y los valores de sus componentes, conforme a lo señalado en este artículo.
+
+Finalizado el estudio señalado en el inciso anterior, la Comisión emitirá un informe técnico con la tasa de actualización, cuyo valor deberá ser incorporado en las bases preliminares a que se refiere el artículo 183 bis, para efectos de ser observado por los participantes y las empresas concesionarias de distribución eléctrica, y sometido al dictamen del Panel en caso de discrepancias, con ocasión de dicho proceso. El informe técnico deberá acompañarse como antecedente en las bases preliminares señaladas.
+
+## Historia de modificaciones
+
+*Sin modificaciones registradas en el grafo.*
+
+> ⚠️ Historia incompleta: la BCN anota modificaciones de las leyes 21.194, que no están en el grafo.
+
+## Texto modificatorio
+
+*No hay texto modificatorio: el artículo no tiene modificaciones en el grafo.*
