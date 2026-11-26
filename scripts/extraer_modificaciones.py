@@ -429,15 +429,24 @@ def texto_truncado(txt):
 REVISIONES = os.path.join(ONT, "revisiones_manuales.csv")
 
 
+def leer_revisiones():
+    """Lee revisiones_manuales.csv tolerando lo que deja Excel en Windows: BOM y separador ';'."""
+    if not os.path.exists(REVISIONES):
+        return []
+    with open(REVISIONES, encoding="utf-8-sig", newline="") as f:
+        texto = f.read()
+    sep = ";" if texto.splitlines()[0].count(";") > texto.splitlines()[0].count(",") else ","
+    filas = list(csv.DictReader(texto.splitlines(), delimiter=sep))
+    return [{k.strip(): (v or "").strip() for k, v in r.items() if k} for r in filas]
+
+
 def aplicar_revisiones(filas):
     """Aplica ontologia/revisiones_manuales.csv sobre lo extraído, para que la revisión humana
     sobreviva a cada regeneración. Clave: (origen, relacion, destino); afecta a todas las filas del par.
+    accion vacía -> pendiente de revisión (no cambia nada).
     accion = confirmar -> metodo manual, estado verificada, observaciones += revisión.
     accion = descartar -> la fila se elimina de relaciones.csv."""
-    if not os.path.exists(REVISIONES):
-        return filas
-    with open(REVISIONES, encoding="utf-8") as f:
-        revs = list(csv.DictReader(f))
+    revs = leer_revisiones()
     usadas, out = set(), []
     for r in filas:
         k = (r["origen"], r["relacion"], r["destino"])
@@ -446,12 +455,16 @@ def aplicar_revisiones(filas):
             out.append(r)
             continue
         usadas.add(k)
-        if not re.match(r"revisado: .+ \d{4}-\d{2}-\d{2}", rev["revision"]):
-            raise SystemExit(f"revisiones_manuales.csv: 'revision' debe ser 'revisado: <persona> <AAAA-MM-DD>': {rev}")
-        if rev["accion"] == "descartar":
+        accion = rev.get("accion", "").lower()
+        if not accion:
+            out.append(r)
             continue
-        if rev["accion"] != "confirmar":
-            raise SystemExit(f"revisiones_manuales.csv: accion debe ser confirmar o descartar: {rev}")
+        if accion not in ("confirmar", "descartar"):
+            raise SystemExit(f"revisiones_manuales.csv: accion debe ser confirmar, descartar o vacía: {rev}")
+        if not re.match(r"revisado: .+ \d{4}-\d{2}-\d{2}", rev.get("revision", "")):
+            raise SystemExit(f"revisiones_manuales.csv: 'revision' debe ser 'revisado: <persona> <AAAA-MM-DD>': {rev}")
+        if accion == "descartar":
+            continue
         r = dict(r, metodo="manual", estado="verificada",
                  observaciones=" | ".join(x for x in (rev["revision"], rev.get("nota", ""), r["observaciones"]) if x))
         out.append(r)
