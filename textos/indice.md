@@ -146,7 +146,7 @@ Texto consolidado: DFL 4, versión BCN 2026-07-31. Generado por `scripts/generar
 | [32](dfl4/art_32.md) | — | — | vigente |
 | [33](dfl4/art_33.md) | — | Ley 20.402 (2009) | vigente |
 | [34](dfl4/art_34.md) | — | — | vigente |
-| [34 bis](dfl4/art_34_bis.md) | — | Ley 20.701 (2013) ⚠️ faltan 20.897 | vigente |
+| [34 bis](dfl4/art_34_bis.md) | — | Ley 20.701 (2013), Ley 20.897 (2016) | vigente |
 | [35](dfl4/art_35.md) | — | — | vigente |
 | [36](dfl4/art_36.md) | — | — | vigente |
 | [37](dfl4/art_37.md) | El plazo de los permisos será fijado por la Municipalidad y no podrá exceder de treinta años | — | vigente |
@@ -377,4 +377,4 @@ Texto consolidado: DFL 4, versión BCN 2026-07-31. Generado por `scripts/generar
 
 - Artículos sin texto: ninguno.
 - Artículos cuyo texto consolidado dice solo 'Eliminado/Suprimido' sin marca de derogación en el XML BCN: 188, 189.
-- Artículos con historia incompleta (4): 34 bis (faltan 20.897); 139 bis (faltan 21.076); 191 bis (faltan 21.657); 193 (faltan 21.647).
+- Artículos con historia incompleta (3): 139 bis (faltan 21.076); 191 bis (faltan 21.657); 193 (faltan 21.647).
