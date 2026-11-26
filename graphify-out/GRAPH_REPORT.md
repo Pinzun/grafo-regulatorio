@@ -3,6 +3,19 @@
 ## Corpus Check
 - Grafo generado por adaptador determinista (scripts/csv_a_graphify.py), sin extracción LLM.
 
+## Cobertura de las normas
+
+| Norma | Cobertura | Modificaciones pendientes | Artículos truncados (idParte) |
+|---|---|---|---|
+| DFL 4 de 2006 (LGSE) | parcial | 0 | 9377939;8721840 |
+| Ley 20.936 de 2016 | parcial | 66 | 9716001 |
+| Ley 21.721 de 2024 | parcial | 6 | 10530118 |
+| Res. 156 exenta de 2025 | completa | 0 | — |
+
+> **Advertencia:** 3 norma(s) con cobertura parcial. Las respuestas sobre qué artículos modificó una ley pueden estar incompletas; los candidatos pendientes están en `datos/derivados/candidatos_por_fechaversion.csv` y la causa en `docs/diagnostico_truncamiento_bcn.md`.
+
+Aristas por relación, estado y método: contiene/verificada/regla: 42; implementa/verificada/regla: 1; modifica/inferida/regla: 13; modifica/verificada/regla: 28
+
 ## Summary
 - 46 nodes · 84 edges · 3 communities
 - Extraction: 85% EXTRACTED · 15% INFERRED · 0% AMBIGUOUS · INFERRED: 13 edges (avg confidence: 0.7)
