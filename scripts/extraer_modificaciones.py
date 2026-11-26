@@ -302,6 +302,21 @@ def destinos_plurales(frase):
         r"(\d+)\s*[°º]?\s*(?:-\s*(\d+))?\s*(" + SUFIJOS + r")?", m.group(1), re.I)]
 
 
+def articulos_enumerados(frase):
+    """'Sustitúyese, en los artículos 92º, inciso primero; 94º, inciso sexto; …, y 206º, la expresión …'
+    (Ley 20.402) -> ['92', '94', …, '206']: cada número de la lista que va entre 'en los artículos' y el
+    objeto del verbo (la expresión, la frase, …). Los incisos van en palabras, así que todo número de la
+    lista es un artículo. None si la frase no trae esa lista."""
+    s = sin_citas(frase)
+    m = re.search(r"\ben\s+los\s+art[íi]culos\s+(.+?)(?=,?\s+(?:la|las|el|los)\s+(?:expresi|frase|palabra|vocablo|"
+                  r"t[ée]rmino|oraci|locuci|guarism|cifra|referencia|menci))", s, re.I)
+    if not m:
+        return None
+    arts = [clave_art(a, b, c) for a, b, c in re.findall(
+        r"(?<!\w)(\d+)\s*[°º]?\s*(?:-\s*(\d+))?\s*(" + SUFIJOS + r")?(?!\w)", m.group(1), re.I)]
+    return arts if len(arts) > 1 else None
+
+
 # ---------------------------------------------------------------- extracción
 # "Suprímese / Derógase / Elimínase el artículo X" o "los artículos X y Y" (objeto directo: el artículo
 # entero, sin inciso, frase ni número intermedio) -> relación deroga.
@@ -310,14 +325,14 @@ RE_SUPRIME_ARTICULO = re.compile(r"^\W*(?:Supr[ií]m[ae]n?se|Der[oó]g[ae]n?se|E
 
 RE_MODIFICA_LGSE = re.compile(
     r"^\W*Art[íi]culo\s+\S+?\s*\.\s*-\s*(?:Introd[uú]cense las siguientes modificaciones en|Modif[ií]case)\s+(?:el|la)\s+"
-    r"(?:decreto con fuerza de ley N\s*[°º]\s*4/20\.?018"                                   # DFL 4 (texto refundido)
+    r"(?:decreto con fuerza de ley N\s*[°º]\s*4(?:/20\.?018|,\s*del año 2007)"             # DFL 4 (texto refundido)
     r"|decreto con fuerza de ley N\s*[°º]\s*1,\s*de 1982,.{0,120}?Ley General de Servicios El[ée]ctricos"  # DFL 1/1982
     r"|ley General de Servicios El[ée]ctricos)", re.I)                                     # nombre de la ley
 
 
 def modifica_lgse(txt):
     """¿El artículo modifica la LGSE? Las leyes la nombran de tres formas: 'DFL N° 4/20.018' (Leyes 20.936,
-    21.721, 21.804, 21.833), 'DFL N° 1, de 1982, … Ley General de Servicios Eléctricos, … cuyo texto refundido
+    21.721, 21.804, 21.833) o 'DFL Nº4, del año 2007' (Ley 20.402), 'DFL N° 1, de 1982, … Ley General de Servicios Eléctricos, … cuyo texto refundido
     … fue fijado por el DFL N° 4, de 2006' (Ley 21.582) o 'ley General de Servicios Eléctricos' (Ley 21.505).
     En los tres casos el texto vigente, y su numeración, es el del DFL 4."""
     t = norm_ws(txt)[:400]
@@ -412,7 +427,7 @@ def extraer_ley(norma, dfl4, fecha_consulta):
             sin_resolver(it, etiqueta + texto_hoja)
             return
         for tipo, verbo in acc:
-            plurales = destinos_plurales(texto_hoja) if tipo == "elimina" else None
+            plurales = (destinos_plurales(texto_hoja) if tipo == "elimina" else None) or articulos_enumerados(texto_hoja)
             completo = tipo == "elimina" and bool(RE_SUPRIME_ARTICULO.match(sin_citas(texto_hoja)))
             for dd in plurales or [d]:
                 obs = ["artículo nuevo"] if kind == "nuevo" else []
@@ -700,6 +715,31 @@ def contrastar_notas(filas):
           "(contiguas:", sum("artículo contiguo" in r["observaciones"] for r in filas), ")")
 
 
+RE_SUSTITUYE_ARTICULO = re.compile(r"\]:\s*(?:Reempl[aá]z|Sustit[uú]y)\w*\s+el\s+art[íi]culo\s+\d+\s*[°º]?\s*(?:-\s*\d+)?\s*"
+                                   r"(?:" + SUFIJOS + r")?\s+por\s+el\s+siguiente", re.I)
+
+
+def marcar_superadas(filas):
+    """Una modificación queda superada si una ley posterior sustituye el artículo completo ('Reemplázase el
+    artículo X por el siguiente') o el Título que lo contiene (Ley 20.936 N° 4, Título III): el texto vigente
+    ya no proviene de ella. Es una observación de la arista, no un tipo nuevo; la arista sigue siendo
+    verdadera (la ley modificó el artículo que tenía ese número en su fecha)."""
+    sustituciones = {}
+    for r in filas:
+        if r["relacion"] == "modifica" and r["tipo_cambio"] == "reemplaza" and (
+                RE_SUSTITUYE_ARTICULO.search(r["detalle"]) or "sustituye el Título" in r["observaciones"]):
+            sustituciones.setdefault(r["destino"], []).append(r)
+    for r in filas:
+        if r["relacion"] not in ("modifica", "deroga") or r["destino"] not in sustituciones:
+            continue
+        posteriores = [s for s in sustituciones[r["destino"]] if s["fecha_vigencia"] > r["fecha_vigencia"]]
+        if posteriores:
+            s = min(posteriores, key=lambda x: x["fecha_vigencia"])
+            r["observaciones"] = " | ".join(x for x in (r["observaciones"],
+                f"superada: {s['origen'].split('__')[0]} N° {s['_numeral']} sustituyó el artículo completo "
+                f"({s['fecha_vigencia']}); el texto vigente no proviene de esta modificación") if x)
+
+
 def main():
     with open(os.path.join(RAW, "descargas.csv"), encoding="utf-8") as f:
         consultas = {r["nodo"]: r["fecha_consulta"] for r in csv.DictReader(f)}
@@ -776,6 +816,7 @@ def main():
         r["metodo"] = "regla"  # lo extraído por este script es determinista (XML + regex)
         assert r["fuente_url"] and r["fuente_id_parte"], f"relación sin fuente: {r}"
     os.makedirs("datos/derivados", exist_ok=True)
+    marcar_superadas(filas)
     contrastar_notas(filas)
     filas = aplicar_revisiones(filas)
     campos = ["origen", "relacion", "destino", "tipo_cambio", "detalle", "fecha_vigencia", "base_vigencia",

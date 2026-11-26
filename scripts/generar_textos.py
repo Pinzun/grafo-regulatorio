@@ -180,8 +180,11 @@ def main():
                     num = RE_NUMERAL.match(r["detalle"]).group(1) or "numeral POR_COMPLETAR"
                     norma_o, art_o = r["origen"].split("__")
                     tipo = "deroga" if r["relacion"] == "deroga" else r["tipo_cambio"]
+                    sup = re.search(r"superada: (\S+) N° (\d+) sustituyó el artículo completo \(([\d-]+)\)", r["observaciones"])
                     md.append(f"- {r['fecha_vigencia']} · {etiqueta.get(norma_o, norma_o)} ({art_ley(art_o)}) · {num} · "
-                              f"{tipo} · {r['estado']} · {r['metodo']} · idParte {r['fuente_id_parte']}")
+                              f"{tipo} · {r['estado']} · {r['metodo']} · idParte {r['fuente_id_parte']}"
+                              + (f" · **superada** por {etiqueta.get(sup.group(1), sup.group(1))} N° {sup.group(2)} "
+                                 f"({sup.group(3)}), que sustituyó el artículo completo" if sup else ""))
             else:
                 md.append("*Sin modificaciones registradas en el grafo.*")
             if faltan:

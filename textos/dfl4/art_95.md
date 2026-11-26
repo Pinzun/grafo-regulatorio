@@ -37,7 +37,7 @@ En caso de término anticipado del contrato adjudicado para la ejecución de una
 
 ## Historia de modificaciones
 
-- 2016-07-20 · Ley 20.936 de 2016 (art. 1) · N° 4 · reemplaza · verificada · manual · idParte 9716001
+- 2016-07-20 · Ley 20.936 de 2016 (art. 1) · N° 4 · reemplaza · verificada · manual · idParte 9716001 · **superada** por Ley 21.721 de 2024 N° 5 (2024-12-27), que sustituyó el artículo completo
 - 2024-12-27 · Ley 21.721 de 2024 (art. único) · N° 5 · reemplaza · verificada · regla · idParte 10530118
 
 ## Texto modificatorio
