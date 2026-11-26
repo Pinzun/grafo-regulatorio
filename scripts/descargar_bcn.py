@@ -15,6 +15,7 @@ import hashlib
 import os
 import sys
 import time
+import urllib.error
 import urllib.request
 import xml.etree.ElementTree as ET
 
@@ -40,15 +41,20 @@ def bajar(id_norma, intentos=6):
     if os.environ.get("BCN_API_KEY"):
         headers["api-key"] = os.environ["BCN_API_KEY"]
     for k in range(intentos):
-        with urllib.request.urlopen(urllib.request.Request(url, headers=headers), timeout=180) as r:
-            data = r.read()
+        try:
+            with urllib.request.urlopen(urllib.request.Request(url, headers=headers), timeout=180) as r:
+                data = r.read()
+        except urllib.error.HTTPError as e:
+            if e.code not in (401, 429):  # 401/429: límite de uso anónimo; se espera, no se evita
+                raise
+            data = b""
         try:
             root = ET.fromstring(data)
             if root.tag == NS + "Norma" and root.attrib.get("normaId") == id_norma:
                 return url, data
         except ET.ParseError:
             pass
-        espera = 10 * (k + 1)
+        espera = 30 * (k + 1)
         print(f"  {id_norma}: respuesta no XML (límite de uso), reintento en {espera}s", file=sys.stderr)
         time.sleep(espera)
     raise SystemExit(f"No se pudo descargar idNorma={id_norma}")
