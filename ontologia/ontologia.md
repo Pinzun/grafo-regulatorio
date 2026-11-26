@@ -17,8 +17,9 @@ Atributos de una norma: tipo, número, año, órgano emisor, fecha de publicaci�
 **cobertura**: qué tan completo está el texto descargado para el grafo.
 - `completa`: sin modificaciones pendientes y sin artículos con texto truncado.
 - `parcial`: hay modificaciones pendientes de extraer (`modificaciones_pendientes` > 0) o artículos con texto truncado en la fuente (`articulos_truncados`).
-- `modificaciones_pendientes`: número de modificaciones que la norma hizo y que no se pudieron extraer (hoy, candidatos en `datos/derivados/candidatos_por_fechaversion.csv`).
-- `articulos_truncados`: idParte de los artículos de la norma cuyo texto llega cortado.
+- `modificaciones_pendientes`: número de modificaciones que la norma hizo y que no se pudieron extraer (candidatos en `datos/derivados/candidatos_por_fechaversion.csv`).
+- `articulos_truncados`: idParte de los artículos cuyo texto llega cortado en el XML y **no** se pudo recuperar.
+- `articulos_truncados_recuperados_pdf`: idParte de los artículos cortados en el XML cuyo texto completo se tomó del PDF oficial de Ley Chile (`pdf_sha256` identifica el archivo).
 
 ### Otros nodos
 - **articulo**: unidad de trabajo real. Las modificaciones se hacen a artículos, no a normas completas. Atributos: norma contenedora, número, texto, vigente_desde, vigente_hasta.

@@ -25,6 +25,7 @@ import sys
 from collections import OrderedDict
 
 ONT = "ontologia"
+csv.field_size_limit(10_000_000)  # el art. 1 de la Ley 20.936 supera los 131.072 caracteres por defecto
 NORMA_TIPOS = None  # se llena desde la ontología
 
 
@@ -112,8 +113,12 @@ def main():
             errores.append(f"norma {n['id']}: modificaciones_pendientes '{pend}' no es un entero")
         elif (cob == "parcial") != (int(pend) > 0 or bool(trunc)):
             errores.append(f"norma {n['id']}: cobertura '{cob}' incoherente con pendientes={pend}, truncados='{trunc}'")
+        if n.get("articulos_truncados_recuperados_pdf") and not re.fullmatch(r"[0-9a-f]{64}", n.get("pdf_sha256", "")):
+            errores.append(f"norma {n['id']}: declara artículos recuperados del PDF sin pdf_sha256 válido")
         nodos[n["id"]] = {
             "id": n["id"], "label": etiquetas_norma[n["id"]], "file_type": "document",
+            "articulos_truncados_recuperados_pdf": n.get("articulos_truncados_recuperados_pdf", ""),
+            "pdf_sha256": n.get("pdf_sha256", ""),
             "cobertura": cob, "modificaciones_pendientes": int(pend) if pend.isdigit() else pend,
             "articulos_truncados": trunc,
             "source_file": "ontologia/nodos_normas.csv", "source_location": f"idNorma={n['id_bcn']}",
