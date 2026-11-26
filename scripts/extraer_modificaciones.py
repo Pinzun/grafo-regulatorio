@@ -37,6 +37,7 @@ ARCHIVOS = {
     "ley_21472_2022": "ley_21472_2022__idNorma_1179524.xml",
     "ley_21667_2024": "ley_21667_2024__idNorma_1203005.xml",
     "ley_20701_2013": "ley_20701_2013__idNorma_1055073.xml",
+    "ley_21806_2026": "ley_21806_2026__idNorma_1221118.xml",
     "ley_21304_2021": "ley_21304_2021__idNorma_1154423.xml",
     "ley_21194_2019": "ley_21194_2019__idNorma_1140301.xml",
     "ley_20805_2015": "ley_20805_2015__idNorma_1074277.xml",
@@ -46,7 +47,7 @@ ARCHIVOS = {
 MODIFICATORIAS = {"ley_21721_2024": "art_unico", "ley_20936_2016": "art_1", "ley_21804_2026": "art_unico",
                   "ley_21505_2022": "art_unico", "ley_21582_2023": "art_10", "ley_21833_2026": "art_1",
                   "ley_21472_2022": "art_1", "ley_21667_2024": "art_primero",
-                  "ley_20701_2013": "art_unico", "ley_21304_2021": "art_unico", "ley_21194_2019": "art_unico", "ley_20805_2015": "art_unico", "ley_20402_2009": "art_13"}
+                  "ley_20701_2013": "art_unico", "ley_21806_2026": "art_101", "ley_21304_2021": "art_unico", "ley_21194_2019": "art_unico", "ley_20805_2015": "art_unico", "ley_20402_2009": "art_13"}
 
 VERBOS = {  # singular e impersonal plural ("Reemplázase" / "Reemplázanse")
     "reemplaza": r"reempl[aá]z(?:a|ase|anse|ese|ense)|sustit[uú]y(?:e|ese|ense)",
@@ -661,7 +662,7 @@ def historia_articulos(dfl4, arts_en_grafo):
     return out
 
 
-RE_NOTA = re.compile(r"Ley\s+(\d{5})\s+Art\.\s*(\S+?)\s+N[°º]\s*(\d+)", re.I)
+RE_NOTA = re.compile(r"Ley\s+(\d{5})\s+Art(?:\.|[íi]culo)\s*(\S+?)\s+N[°º]\s*(\d+)", re.I)  # "Art. 1" / "Artículo 101"
 LEY_DE = {n: re.match(r"ley_(\d+)_", n).group(1) for n in MODIFICATORIAS}  # nodo -> número en notas BCN
 
 
@@ -678,7 +679,7 @@ def contrastar_notas(filas):
         i = pos.get(art)
         return [] if i is None else [orden[j] for j in (i - 1, i + 1) if 0 <= j < len(orden)]
     def art_ley(t):  # "único," / "ÚNICO" / "1" / "10," -> "unico" / "1" / "10"
-        t = t.lower().strip(",.;")
+        t = t.lower().strip(",.;").rstrip("°º")  # "2º" -> "2"
         return t.replace("ú", "u")
 
     idx = {}  # ("ley:artículo de la ley", artículo DFL 4, numeral) -> nota
@@ -842,10 +843,16 @@ def main():
     os.makedirs("datos/derivados", exist_ok=True)
     ya = {(r["origen"].split("__")[0], r["destino"]) for r in filas}
     cand = []
+    textos = {norma: texto for _, norma, _, texto in origenes}
     for norma in MODIFICATORIAS:
         fp = ident(cargar(norma))["fecha_publicacion"]
         for clave, info in dfl4.items():
             dest = id_art("ley_dfl4_2006", clave)
+            # El artículo que la ley solo nombra como ubicación de una inserción ("a continuación del artículo
+            # 207-6") cambia de fechaVersion en la BCN sin cambiar su texto: no es candidato.
+            ubic = r"(?:a continuaci[oó]n|despu[eé]s)\s+del\s+art[íi]culo\s+" + re.escape(clave).replace(r"\ ", r"\s*[°º]?\s*") + r"\s*[°º]?(?![\w-])"
+            if re.search(ubic, sin_citas(textos.get(norma, "")), re.I):
+                continue
             if info["fecha_version_bcn"] == fp and (norma, dest) not in ya:
                 cand.append({"norma_modificatoria": norma, "articulo_dfl4": dest,
                              "id_parte_dfl4": info["id_parte"], "fecha_version_bcn": info["fecha_version_bcn"],

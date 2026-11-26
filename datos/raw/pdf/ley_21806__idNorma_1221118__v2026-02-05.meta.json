@@ -1,0 +1,18 @@
+{
+  "id_norma": "1221118",
+  "fecha_version": "2026-02-05",
+  "nombre": "Ley 21806",
+  "url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=Ley-21806_05-FEB-2026&exportar_con_notas_bcn=True&exportar_con_notas_originales=True&exportar_con_notas_al_pie=True&hddResultadoExportar=1221118.2026-02-05.0.0%23",
+  "fecha_descarga": "2026-11-26",
+  "sha256_pdf": "b5ed32b49612bd6097caf32cbddcddc7f8ef2c0ba1361944c4abd4497367a558",
+  "bytes": 1087358,
+  "con_notas_bcn": true,
+  "conversion": {
+    "texto": {
+      "parrafos": 687,
+      "notas_bcn": 0,
+      "pdf_ley_chile": true,
+      "salida": "datos/raw/pdf/ley_21806__idNorma_1221118__v2026-02-05.md"
+    }
+  }
+}

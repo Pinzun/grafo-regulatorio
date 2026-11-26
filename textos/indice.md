@@ -199,7 +199,7 @@ Texto consolidado: DFL 4, versión BCN 2026-07-31. Generado por `scripts/generar
 | [131 bis](dfl4/art_131_bis.md) | — | Ley 20.805 (2015) | vigente |
 | [131 ter](dfl4/art_131_ter.md) | — | Ley 20.805 (2015) | vigente |
 | [132](dfl4/art_132.md) | — | Ley 20.805 (2015) ⚠️ faltan 20.928 | vigente |
-| [133](dfl4/art_133.md) | Las exigencias de seguridad y calidad D | Ley 20.805 (2015), Ley 20.936 (2016) ⚠️ faltan 20.220, 21.806 | vigente |
+| [133](dfl4/art_133.md) | Las exigencias de seguridad y calidad D | Ley 20.805 (2015), Ley 20.936 (2016), Ley 21.806 (2026) ⚠️ faltan 20.220 | vigente |
 | [134](dfl4/art_134.md) | — | Ley 20.805 (2015), Ley 20.936 (2016) | vigente |
 | [135](dfl4/art_135.md) | — | Ley 20.402 (2009), Ley 20.805 (2015) | vigente |
 | [135 bis](dfl4/art_135_bis.md) | — | Ley 20.805 (2015) | vigente |
@@ -317,13 +317,13 @@ Texto consolidado: DFL 4, versión BCN 2026-07-31. Generado por `scripts/generar
 | [207](dfl4/art_207.md) | — | — | vigente |
 | [207-1](dfl4/art_207-1.md) | — | Ley 21.304 (2021) | vigente |
 | [207-2](dfl4/art_207-2.md) | — | Ley 21.304 (2021), Ley 21.833 (2026) | vigente |
-| [207-2 bis](dfl4/art_207-2_bis.md) | — | — ⚠️ faltan 21.806 | vigente |
-| [207-3](dfl4/art_207-3.md) | — | Ley 21.304 (2021) ⚠️ faltan 21.806 | vigente |
+| [207-2 bis](dfl4/art_207-2_bis.md) | — | Ley 21.806 (2026) | vigente |
+| [207-3](dfl4/art_207-3.md) | — | Ley 21.304 (2021), Ley 21.806 (2026) | vigente |
 | [207-4](dfl4/art_207-4.md) | — | Ley 21.304 (2021) | vigente |
 | [207-5](dfl4/art_207-5.md) | — | Ley 21.304 (2021) | vigente |
 | [207-6](dfl4/art_207-6.md) | — | Ley 21.304 (2021) | vigente |
-| [207-7](dfl4/art_207-7.md) | — | — ⚠️ faltan 21.806 | vigente |
-| [207-8](dfl4/art_207-8.md) | — | — ⚠️ faltan 21.806 | vigente |
+| [207-7](dfl4/art_207-7.md) | — | Ley 21.806 (2026) | vigente |
+| [207-8](dfl4/art_207-8.md) | — | Ley 21.806 (2026) | vigente |
 | [208](dfl4/art_208.md) | — | Ley 20.936 (2016) | vigente |
 | [209](dfl4/art_209.md) | — | — ⚠️ faltan 20.999 | vigente |
 | [210](dfl4/art_210.md) | — | Ley 20.402 (2009), Ley 20.936 (2016) ⚠️ faltan 20.999 | vigente |
@@ -377,4 +377,4 @@ Texto consolidado: DFL 4, versión BCN 2026-07-31. Generado por `scripts/generar
 
 - Artículos sin texto: ninguno.
 - Artículos cuyo texto consolidado dice solo 'Eliminado/Suprimido' sin marca de derogación en el XML BCN: 188, 189.
-- Artículos con historia incompleta (30): 25 (faltan 20.220); 34 bis (faltan 20.897); 131 (faltan 20.928); 132 (faltan 20.928); 133 (faltan 20.220, 21.806); 139 bis (faltan 21.076); 146 (faltan 20.220); 146 ter (faltan 20.220, 20.720); 149 (faltan 20.571); 149 bis (faltan 20.571, 21.118); 149 ter (faltan 21.118); 149 quater (faltan 20.571); 149 quinquies (faltan 20.571); 150 bis (faltan 20.257, 20.698); 150 ter (faltan 20.698); 157 (faltan 20.257, 20.928); 174 bis (faltan 20.698); 184 (faltan 20.928); 191 (faltan 20.928); 191 bis (faltan 21.657); 193 (faltan 21.647); 207-2 bis (faltan 21.806); 207-3 (faltan 21.806); 207-7 (faltan 21.806); 207-8 (faltan 21.806); 209 (faltan 20.999); 210 (faltan 20.999); 213 (faltan 20.273); 214 (faltan 20.273); 225 (faltan 20.928).
+- Artículos con historia incompleta (26): 25 (faltan 20.220); 34 bis (faltan 20.897); 131 (faltan 20.928); 132 (faltan 20.928); 133 (faltan 20.220); 139 bis (faltan 21.076); 146 (faltan 20.220); 146 ter (faltan 20.220, 20.720); 149 (faltan 20.571); 149 bis (faltan 20.571, 21.118); 149 ter (faltan 21.118); 149 quater (faltan 20.571); 149 quinquies (faltan 20.571); 150 bis (faltan 20.257, 20.698); 150 ter (faltan 20.698); 157 (faltan 20.257, 20.928); 174 bis (faltan 20.698); 184 (faltan 20.928); 191 (faltan 20.928); 191 bis (faltan 21.657); 193 (faltan 21.647); 209 (faltan 20.999); 210 (faltan 20.999); 213 (faltan 20.273); 214 (faltan 20.273); 225 (faltan 20.928).

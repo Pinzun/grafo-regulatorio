@@ -4,7 +4,7 @@
 - **Versión del texto consolidado:** DFL 4 versión BCN 2026-07-31; última versión de este artículo según la BCN: 2026-02-05
 - **idParte:** 10582499 (https://www.bcn.cl/leychile/navegar?idNorma=258171&idParte=10582499)
 - **Vigencia:** vigente
-- **Cobertura de la historia:** parcial — faltan en el grafo las leyes 21.806
+- **Cobertura de la historia:** completa
 - **Bloque:** fuera del bloque de transmisión
 
 ## Texto vigente
@@ -17,10 +17,16 @@ Asimismo, las empresas deberán habilitar y mantener operativa una línea telef�
 
 ## Historia de modificaciones
 
-*Sin modificaciones registradas en el grafo.*
-
-> ⚠️ Historia incompleta: la BCN anota modificaciones de las leyes 21.806, que no están en el grafo.
+- 2026-02-05 · Ley 21.806 de 2026 (art. 101) · N° 2 · agrega · verificada · regla · idParte 10582354
 
 ## Texto modificatorio
 
-*No hay texto modificatorio: el artículo no tiene modificaciones en el grafo.*
+### Ley 21.806 de 2026 — art. 101, N° 2
+
+*Fuente: XML (https://www.leychile.cl/Consulta/obtxml?opt=7&idNorma=1221118).*
+
+N° 2. Agrégase a continuación del artículo 207-2, el siguiente artículo 207-2 bis:
+
+"Artículo 207-2 bis.- Las empresas concesionarias deberán mantener actualizado el registro de clientes electrodependientes de su zona de concesión, debiendo verificar y reportar dicha información a la Superintendencia de Electricidad y Combustibles quincenalmente.
+
+Asimismo, las empresas deberán habilitar y mantener operativa una línea telefónica de atención prioritaria en sus centros de contacto, exclusiva para la atención de requerimientos relacionados con el suministro eléctrico de personas electrodependientes, incluyendo cuando el equipo de respaldo presente fallas, garantizando su disponibilidad permanente y respuesta oportuna.".
