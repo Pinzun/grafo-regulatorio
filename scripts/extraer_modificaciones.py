@@ -555,6 +555,44 @@ def notas_bcn_dfl4():
     return notas, orden
 
 
+RE_LEY_NOTA = re.compile(r"\b(?:Ley|LEY)\s+N?[°º]?\s*(\d{2}\.?\d{3})\b(.{0,60})")
+
+
+def historia_articulos(dfl4, arts_en_grafo):
+    """Cobertura de la historia de cada artículo permanente del DFL 4, según sus notas BCN.
+    Cuentan las leyes publicadas después del DFL 4 (las anteriores, como la 19.940 o la 20.018, ya
+    venían incorporadas en el texto refundido). Un artículo tiene historia completa si todas esas
+    leyes están en el grafo como normas modificatorias. Escribe datos/derivados/historia_articulos.csv
+    para todos los artículos y devuelve {clave: fila}.
+    Límite conocido: algunas notas BCN caen en el artículo contiguo, lo que puede dar un 'parcial' de
+    más; nunca un 'completa' que contradiga las notas."""
+    notas, _ = notas_bcn_dfl4()
+    corte = ident(cargar("ley_dfl4_2006"))["fecha_publicacion"]
+    en_grafo = {LEY_DE[n] for n in MODIFICATORIAS}
+    fechas, por_art = {}, {}
+    for art, ns in notas.items():
+        for n in ns:
+            for m in RE_LEY_NOTA.finditer(n):
+                ley = m.group(1).replace(".", "")
+                d = re.search(r"D\.O\.?\s*(\d{2})\.(\d{2})\.(\d{4})", m.group(2))
+                if d:
+                    fechas.setdefault(ley, f"{d.group(3)}-{d.group(2)}-{d.group(1)}")
+                por_art.setdefault(art, set()).add(ley)
+    out = {}
+    for art in dfl4:
+        leyes = sorted((l for l in por_art.get(art, ()) if fechas.get(l, "9999") > corte), key=int)
+        falt = [l for l in leyes if l not in en_grafo]
+        out[art] = {"articulo": art, "id_parte": dfl4[art]["id_parte"], "en_grafo": "si" if art in arts_en_grafo else "no",
+                    "leyes_modificatorias_bcn": ";".join(leyes), "leyes_faltantes": ";".join(falt),
+                    "cobertura_historia": "parcial" if falt else "completa"}
+    with open("datos/derivados/historia_articulos.csv", "w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=["articulo", "id_parte", "en_grafo", "cobertura_historia",
+                                          "leyes_modificatorias_bcn", "leyes_faltantes"])
+        w.writeheader()
+        w.writerows(out.values())
+    return out
+
+
 RE_NOTA = re.compile(r"Ley\s+(\d{5})\s+Art\.\s*(\S+?)\s+N[°º]\s*(\d+)", re.I)
 LEY_DE = {n: re.match(r"ley_(\d+)_", n).group(1) for n in MODIFICATORIAS}  # nodo -> número en notas BCN
 
@@ -638,11 +676,15 @@ def main():
 
     # nodos_articulos.csv
     ca = ["id", "tipo", "norma_contenedora", "numero", "id_parte", "url_fuente", "fecha_version_bcn",
-          "vigente_desde", "vigente_hasta", "derogado", "estado_extraccion", "texto"]
+          "vigente_desde", "vigente_hasta", "derogado", "estado_extraccion",
+          "cobertura_historia", "leyes_modificatorias_bcn", "leyes_faltantes", "texto"]
+    historia = historia_articulos(dfl4, arts_dfl4)
     nodos = []
     for (origen, norma, idp, texto), res in zip(origenes, resumenes):
+        num = MODIFICATORIAS[norma].removeprefix("art_")
         nodos.append({"id": origen, "tipo": "articulo", "norma_contenedora": norma,
-                      "numero": "único" if origen.endswith("unico") else "1", "id_parte": idp,
+                      "numero": "único" if num == "unico" else num, "id_parte": idp,
+                      "cobertura_historia": "", "leyes_modificatorias_bcn": "", "leyes_faltantes": "",
                       "url_fuente": f"https://www.bcn.cl/leychile/navegar?idNorma={ident(cargar(norma))['id_bcn']}&idParte={idp}",
                       "fecha_version_bcn": res["fecha_version_bcn"], "vigente_desde": PC, "vigente_hasta": "",
                       "derogado": res["derogado"],
@@ -659,6 +701,9 @@ def main():
             "vigente_desde": PC, "vigente_hasta": info["fecha_derogacion"] if info else PC,
             "derogado": info["derogado"] if info else PC,
             "estado_extraccion": "xml_bcn_texto_vigente" if info else "no_encontrado_en_xml",
+            "cobertura_historia": historia[a]["cobertura_historia"] if a in historia else PC,
+            "leyes_modificatorias_bcn": historia[a]["leyes_modificatorias_bcn"] if a in historia else PC,
+            "leyes_faltantes": historia[a]["leyes_faltantes"] if a in historia else PC,
             "texto": info["texto"] if info else PC,
         })
     with open(os.path.join(ONT, "nodos_articulos.csv"), "w", newline="", encoding="utf-8") as f:
