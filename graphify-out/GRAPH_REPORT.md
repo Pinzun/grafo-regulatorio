@@ -16,6 +16,43 @@
 | Ley 21.582 de 2023 | completa | 0 | — |
 | Ley 21.833 de 2026 | completa | 0 | — |
 
+## Cobertura de la historia por artículo
+
+151 de 181 artículos del DFL 4 en el grafo tienen historia completa (todas las leyes posteriores al DFL 4 que la BCN anota en el artículo están en el grafo). Detalle de todo el DFL 4 en `datos/derivados/historia_articulos.csv`.
+
+| Artículo | Leyes que faltan |
+|---|---|
+| 8 ter | 21194 |
+| 20 | 20701 |
+| 29 | 20701 |
+| 39 | 20701 |
+| 133 | 20220, 20805, 21806 |
+| 134 | 20805 |
+| 135 quinquies | 20805 |
+| 135 ter | 20805 |
+| 146 ter | 20220, 20720 |
+| 147 | 20402, 20805 |
+| 149 | 20571 |
+| 149 bis | 20571, 21118 |
+| 149 quater | 20571 |
+| 149 ter | 21118 |
+| 150 bis | 20257, 20698 |
+| 150 ter | 20698 |
+| 157 | 20257, 20805, 20928 |
+| 163 | 20402 |
+| 170 | 20402 |
+| 178 | 20402 |
+| 183 | 21194 |
+| 184 | 20402, 20928 |
+| 191 | 20928 |
+| 207-2 | 21304 |
+| 210 | 20999 |
+| 211 | 20402 |
+| 212 | 20402 |
+| 212-13 | 21472, 21667 |
+| 212-14 | 21667 |
+| 225 | 20928, 21194 |
+
 Aristas por relación, estado y método: contiene/verificada/regla: 187; implementa/verificada/regla: 1; modifica/verificada/manual: 52; modifica/verificada/regla: 163
 
 ## Summary
@@ -39,7 +76,7 @@ Aristas por relación, estado y método: contiene/verificada/regla: 187; impleme
 4. `Ley 21.721 de 2024 — art. único` - 11 edges
 5. `Ley 21.833 de 2026 — art. 1` - 9 edges
 6. `Ley 21.505 de 2022 — art. único` - 8 edges
-7. `Ley 21.582 de 2023 — art. 1` - 8 edges
+7. `Ley 21.582 de 2023 — art. 10` - 8 edges
 8. `DFL 4 de 2006 (LGSE) — art. 157` - 4 edges
 9. `DFL 4 de 2006 (LGSE) — art. 163` - 4 edges
 10. `DFL 4 de 2006 (LGSE) — art. 225` - 4 edges
@@ -76,7 +113,7 @@ Nodes (13): Ley 21.721 de 2024, Ley 21.721 de 2024 — art. único, DFL 4 de 200
 
 ### Community 4 - "Ley 21.582 de 2023 | DFL 4 de 2006 (LGSE): arts. 20…98"
 Cohesion: 0.22
-Nodes (9): Ley 21.582 de 2023, Ley 21.582 de 2023 — art. 1, DFL 4 de 2006 (LGSE) — art. 20, DFL 4 de 2006 (LGSE) — art. 23, DFL 4 de 2006 (LGSE) — art. 29, DFL 4 de 2006 (LGSE) — art. 39, DFL 4 de 2006 (LGSE) — art. 62, DFL 4 de 2006 (LGSE) — art. 97 (+1 more)
+Nodes (9): Ley 21.582 de 2023, Ley 21.582 de 2023 — art. 10, DFL 4 de 2006 (LGSE) — art. 20, DFL 4 de 2006 (LGSE) — art. 23, DFL 4 de 2006 (LGSE) — art. 29, DFL 4 de 2006 (LGSE) — art. 39, DFL 4 de 2006 (LGSE) — art. 62, DFL 4 de 2006 (LGSE) — art. 97 (+1 more)
 
 ### Community 5 - "Ley 21.833 de 2026 | DFL 4 de 2006 (LGSE): arts. 72-9…212-14"
 Cohesion: 0.22
