@@ -301,6 +301,11 @@ def destinos_plurales(frase):
 
 
 # ---------------------------------------------------------------- extracción
+# "Suprímese / Derógase / Elimínase el artículo X" o "los artículos X y Y" (objeto directo: el artículo
+# entero, sin inciso, frase ni número intermedio) -> relación deroga.
+RE_SUPRIME_ARTICULO = re.compile(r"^\W*(?:Supr[ií]m[ae]n?se|Der[oó]g[ae]n?se|Elim[ií]n[ae]n?se)\s+(?:el|los)\s+art[íi]culos?\s+\d", re.I)
+
+
 RE_MODIFICA_LGSE = re.compile(
     r"^\W*Art[íi]culo\s+\S+?\s*\.\s*-\s*(?:Introd[uú]cense las siguientes modificaciones en|Modif[ií]case)\s+(?:el|la)\s+"
     r"(?:decreto con fuerza de ley N\s*[°º]\s*4/20\.?018"                                   # DFL 4 (texto refundido)
@@ -351,7 +356,7 @@ def extraer_ley(norma, dfl4, fecha_consulta):
         return pdf["url"], pdf["fecha"], [f"texto del PDF oficial Ley Chile (sha256 {pdf['sha256'][:12]}…); "
                                           "el XML BCN está truncado en este punto"]
 
-    def fila(it, destino, tipo, detalle, estado, obs):
+    def fila(it, destino, tipo, detalle, estado, obs, relacion="modifica"):
         url, fecha, obs_f = fuente(it)
         obs = list(obs) + obs_f
         info = dfl4.get(destino)
@@ -368,7 +373,7 @@ def extraer_ley(norma, dfl4, fecha_consulta):
         else:
             base = "fecha_publicacion (la norma no fija vigencia especial para este artículo)"
         filas.append({
-            "origen": origen, "relacion": "modifica", "destino": id_art("ley_dfl4_2006", destino),
+            "origen": origen, "relacion": relacion, "destino": id_art("ley_dfl4_2006", destino),
             "tipo_cambio": tipo, "detalle": detalle[:300],
             "fecha_vigencia": meta["fecha_publicacion"], "base_vigencia": base,
             "fuente_url": url, "fuente_id_parte": id_parte, "fecha_consulta": fecha,
@@ -393,9 +398,22 @@ def extraer_ley(norma, dfl4, fecha_consulta):
             return
         for tipo, verbo in acc:
             plurales = destinos_plurales(texto_hoja) if tipo == "elimina" else None
+            completo = tipo == "elimina" and bool(RE_SUPRIME_ARTICULO.match(sin_citas(texto_hoja)))
             for dd in plurales or [d]:
                 obs = ["artículo nuevo"] if kind == "nuevo" else []
-                fila(it, dd, tipo, f"{etiqueta}[{verbo}]: {texto_hoja}", "verificada", obs)
+                if not completo:
+                    fila(it, dd, tipo, f"{etiqueta}[{verbo}]: {texto_hoja}", "verificada", obs)
+                    continue
+                # Supresión de un artículo completo -> deroga. Se exige que el XML del DFL 4 lo marque
+                # derogado; si las dos fuentes no coinciden, queda inferida con el motivo.
+                info = dfl4.get(dd, {})
+                if info.get("derogado") == "derogado":
+                    obs.append("el XML BCN del DFL 4 marca el artículo como derogado")
+                    fila(it, dd, tipo, f"{etiqueta}[{verbo}]: {texto_hoja}", "verificada", obs, relacion="deroga")
+                else:
+                    obs.append(f"motivo: el texto suprime el artículo completo, pero el XML BCN del DFL 4 lo marca "
+                               f"'{info.get('derogado', 'no encontrado')}' (¿restablecido o renumerado después?)")
+                    fila(it, dd, tipo, f"{etiqueta}[{verbo}]: {texto_hoja}", "inferida", obs, relacion="deroga")
 
     for it in items:
         cab = it["texto"]
@@ -631,7 +649,7 @@ def contrastar_notas(filas):
     for r in filas:
         norma_o = r["origen"].split("__")[0]
         ley = LEY_DE.get(norma_o)
-        if r["relacion"] != "modifica" or not ley or r["destino"] == PC:
+        if r["relacion"] not in ("modifica", "deroga") or not ley or r["destino"] == PC:
             continue
         ley = f"{ley}:{MODIFICATORIAS[norma_o].removeprefix('art_')}"  # incluye el artículo de la ley
         art = r["destino"].split("__art_")[1].replace("_", " ")
@@ -688,6 +706,8 @@ def main():
           "vigente_desde", "vigente_hasta", "derogado", "estado_extraccion",
           "cobertura_historia", "leyes_modificatorias_bcn", "leyes_faltantes", "texto"]
     historia = historia_articulos(dfl4, arts_dfl4)
+    derogado_en = {r["destino"].split("__art_")[1].replace("_", " "): r["fecha_vigencia"]
+                   for r in filas if r["relacion"] == "deroga" and r["estado"] == "verificada"}
     nodos = []
     for (origen, norma, idp, texto), res in zip(origenes, resumenes):
         num = MODIFICATORIAS[norma].removeprefix("art_")
@@ -707,7 +727,9 @@ def main():
             "numero": a, "id_parte": info["id_parte"] if info else PC,
             "url_fuente": f"https://www.bcn.cl/leychile/navegar?idNorma=258171&idParte={info['id_parte']}" if info else PC,
             "fecha_version_bcn": info["fecha_version_bcn"] if info else PC,
-            "vigente_desde": PC, "vigente_hasta": info["fecha_derogacion"] if info else PC,
+            "vigente_desde": PC,
+            # vigente_hasta: fecha de vigencia de la arista deroga verificada; si no hay, la FechaDerogacion del XML
+            "vigente_hasta": derogado_en.get(a) or (info["fecha_derogacion"] if info else PC),
             "derogado": info["derogado"] if info else PC,
             "estado_extraccion": "xml_bcn_texto_vigente" if info else "no_encontrado_en_xml",
             "cobertura_historia": historia[a]["cobertura_historia"] if a in historia else PC,
