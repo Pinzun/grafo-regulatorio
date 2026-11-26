@@ -143,6 +143,8 @@ def main():
                 errores.append(f"nodo {a['id']}: cobertura_historia '{ch}' incoherente con leyes_faltantes='{falt}'")
         # El aviso va en source_location porque es lo que muestran `graphify explain` y `query`
         loc = f"idParte={a['id_parte']}"
+        if a.get("derogado") == "derogado":
+            loc += f" · DEROGADO (vigente hasta {a['vigente_hasta']})" if a.get("vigente_hasta") else " · DEROGADO"
         if ch == "parcial":
             loc += " · HISTORIA INCOMPLETA: faltan leyes " + ", ".join(f"{l[:2]}.{l[2:]}" for l in falt.split(";"))
         elif ch == "completa":
