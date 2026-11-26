@@ -29,10 +29,11 @@ ARCHIVOS = {
     "ley_dfl4_2006": "ley_dfl4_2006__idNorma_258171.xml",
     "ley_20936_2016": "ley_20936_2016__idNorma_1092695.xml",
     "ley_21721_2024": "ley_21721_2024__idNorma_1209692.xml",
+    "ley_21804_2026": "ley_21804_2026__idNorma_1221363.xml",
     "res_156_2025": "res_156_2025__idNorma_1212350.xml",
 }
 # Artículo de cada ley que contiene las modificaciones al DFL 4 (se valida por regex abajo).
-MODIFICATORIAS = {"ley_21721_2024": "art_unico", "ley_20936_2016": "art_1"}
+MODIFICATORIAS = {"ley_21721_2024": "art_unico", "ley_20936_2016": "art_1", "ley_21804_2026": "art_unico"}
 
 VERBOS = {  # singular e impersonal plural ("Reemplázase" / "Reemplázanse")
     "reemplaza": r"reempl[aá]z(?:a|ase|anse|ese|ense)|sustit[uú]y(?:e|ese|ense)",
@@ -151,6 +152,7 @@ def vigencia_de(clave, reglas):
 
 # ---------------------------------------------------------------- texto completo desde el PDF oficial
 PDF_DIR = "datos/raw/pdf"
+NO_ARTICULO = []  # modificaciones que no recaen en un artículo (p. ej. epígrafes de capítulos)
 LETRAS = "abcdefghijklmnñopqrstuvwxyz"
 ROMANOS = ["i", "ii", "iii", "iv", "v", "vi", "vii", "viii", "ix", "x", "xi", "xii"]
 
@@ -202,20 +204,34 @@ def numerales(texto):
     items, actual, lit, comillas, esperado = [], None, None, 0, 1
     texto = re.sub(r'^\s*"', "", texto, count=1)  # comilla envolvente del artículo modificatorio
     truncado = not re.search(r'[.;:"”]\s*$', texto)
+    previo = ""
     for p in parrafos(texto):
         fuera = comillas % 2 == 0
-        m = RE_ITEM.match(p) if fuera else None
+        # Resincronización: algunos textos abren comillas en cada artículo insertado y cierran solo al
+        # final (Ley 21.804 N° 32), lo que desbalancea la paridad. Si el párrafo trae exactamente el
+        # numeral correlativo esperado y el anterior cierra comillas, es un numeral de primer nivel.
+        cierra_previo = bool(re.search(r'"\s*[.;]?\s*$', previo))
+        m = RE_ITEM.match(p) if (fuera or cierra_previo) else None
+        if m and not fuera and int(m.group(1)) != esperado:
+            m = None
+        previo = p
         if m and int(m.group(1)) == esperado and (
-                RE_VERBO.search(sin_citas(m.group(2))[:90]) or re.match(r"En (el|los) art[íi]culos?\b", m.group(2))):
-            actual = {"n": esperado, "texto": m.group(2), "literales": [], "citado": []}
+                RE_VERBO.search(sin_citas(m.group(2))[:90])
+                or (re.match(r"En\s", m.group(2)) and m.group(2).rstrip().endswith(":") and RE_ART.search(m.group(2)))):
+            # "todos": cada párrafo del numeral, para hallar encabezados "Artículo X.-" insertados aunque
+            # las comillas del texto oficial estén desbalanceadas
+            actual = {"n": esperado, "texto": m.group(2), "literales": [], "citado": [], "todos": []}
             items.append(actual)
             lit, esperado = None, esperado + 1
-            comillas += p.count('"')
+            comillas = p.count('"')  # se reinicia la paridad en cada numeral de primer nivel
             continue
+        if actual is not None:
+            actual["todos"].append(p)
         # literal "a)"; sub-literal romano "i)" o "i." (las letras siempre llevan paréntesis)
-        ml = re.match(r"^\s*([a-zñ]\)|[ivx]+[.)])\s+(.*)", p, re.S) if (fuera and actual) else None
+        # tolera la errata "a )" (espacio antes del paréntesis) presente en el texto oficial
+        ml = re.match(r"^\s*([a-zñ]\s?\)|[ivx]+[.)])\s+(.*)", p, re.S) if (fuera and actual) else None
         if ml and (RE_VERBO.search(sin_citas(ml.group(2))[:90]) or ml.group(2).rstrip().endswith(":")):
-            tok = ml.group(1)[:-1]
+            tok = ml.group(1)[:-1].strip()
             if ml.group(1).endswith(".") and tok not in ROMANOS:
                 tok = None
             sig_letra = LETRAS[LETRAS.index(actual["literales"][-1]["l"]) + 1] if actual["literales"] else "a"
@@ -355,17 +371,40 @@ def extraer_ley(norma, dfl4, fecha_consulta):
         tipo0 = acc[0][0] if acc else None
         etiqueta = f"N° {it['n']}: "
         # Inserción o sustitución de un Título completo
-        mt = re.search(r"(?:el\s+siguiente\s+|el\s+)(T[íi]tulo\s+[IVXL]+(?:\s+BIS)?)", sin_citas(cab), re.I)
+        mt = re.search(r"(?:\bel\s+siguiente\s+|\bel\s+)(T[íi]tulo\s+[IVXL]+(?:\s+BIS)?)", sin_citas(cab), re.I)
+        # Cambios a epígrafes de Título/Capítulo/Párrafo sin artículo: la ontología no tiene nodo para
+        # ellos; se registran aparte en lugar de perderse.
+        if dest is None and not mt and re.search(r"\bep[íi]grafe\b|\bCap[íi]tulo\b|\bT[íi]tulo\b|\bP[áa]rrafo\b", sin_citas(cab), re.I):
+            NO_ARTICULO.append({"norma": norma, "numeral": it["n"], "id_parte": id_parte,
+                                "tipo_cambio": tipo0 or PC, "texto": cab[:300]})
+            continue
+        # "los siguientes artículos X a Y" / "X y Y": inserción de varios artículos nuevos
+        plural = re.search(r"\blos\s+siguientes\s+art[íi]culos\b", sin_citas(cab), re.I)
+        if plural and not mt and tipo0 == "agrega":
+            nuevos = []
+            for p in it["todos"]:
+                m = re.match(r'"?\s*' + RE_ART.pattern + r"\s*[°º]?\s*\.\s*-", p, re.I)
+                if m:
+                    nuevos.append(clave_art(*m.groups()))
+            for a in nuevos:
+                fila(it, a, "agrega", etiqueta + cab, "verificada", ["artículo nuevo (inserción de varios artículos)"])
+            if not nuevos:
+                sin_resolver(it, etiqueta + cab)
+            continue
         if mt and (dest is None or kind != "nuevo"):
             titulo = mt.group(1)
             arts_cit = []
-            for p in it["citado"]:
+            for p in it["todos"]:
                 m = re.match(r'"?\s*' + RE_ART.pattern + r"\s*[°º]?\s*\.\s*-", p, re.I)
                 if m:
                     arts_cit.append(clave_art(*m.groups()))
+            if not arts_cit:  # cambio a un Título sin artículos reconocibles: no se pierde en silencio
+                NO_ARTICULO.append({"norma": norma, "numeral": it["n"], "id_parte": id_parte,
+                                    "tipo_cambio": tipo0 or PC, "texto": cab[:300]})
+                continue
             for i, a in enumerate(arts_cit):
                 ultimo = truncado and it is items[-1] and i == len(arts_cit) - 1
-                if tipo0 == "agrega" and re.search(r"nuevo", sin_citas(cab), re.I):
+                if tipo0 == "agrega":  # "Intercálase / Incorpórase el siguiente Título …": inserción
                     obs = [f"artículo contenido en el {titulo} nuevo que se intercala"]
                     if ultimo:
                         obs.append("texto del artículo truncado en la fuente")
@@ -493,7 +532,7 @@ def notas_bcn_dfl4():
 
 
 RE_NOTA = re.compile(r"Ley\s+(\d{5})\s+Art\.\s*(\S+?)\s+N[°º]\s*(\d+)", re.I)
-LEY_DE = {"ley_20936_2016": "20936", "ley_21721_2024": "21721"}
+LEY_DE = {n: re.match(r"ley_(\d+)_", n).group(1) for n in MODIFICATORIAS}  # nodo -> número en notas BCN
 
 
 def contrastar_notas(filas):
@@ -556,7 +595,7 @@ def main():
         consultas = {r["nodo"]: r["fecha_consulta"] for r in csv.DictReader(f)}
     dfl4 = indice_dfl4()
     filas, arts_dfl4, origenes, resumenes = [], [], [], []
-    for norma in ("ley_21721_2024", "ley_20936_2016"):
+    for norma in MODIFICATORIAS:
         fs, arts, origen, idp, texto, res = extraer_ley(norma, dfl4, consultas[norma])
         filas += fs
         arts_dfl4 += [a for a in arts if a not in arts_dfl4]
@@ -630,7 +669,7 @@ def main():
     os.makedirs("datos/derivados", exist_ok=True)
     ya = {(r["origen"].split("__")[0], r["destino"]) for r in filas}
     cand = []
-    for norma in ("ley_21721_2024", "ley_20936_2016"):
+    for norma in MODIFICATORIAS:
         fp = ident(cargar(norma))["fecha_publicacion"]
         for clave, info in dfl4.items():
             dest = id_art("ley_dfl4_2006", clave)
@@ -645,6 +684,11 @@ def main():
         w.writeheader()
         w.writerows(cand)
     pendientes = Counter(c["norma_modificatoria"] for c in cand)
+    with open("datos/derivados/modificaciones_no_articulo.csv", "w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=["norma", "numeral", "id_parte", "tipo_cambio", "texto"])
+        w.writeheader()
+        w.writerows(NO_ARTICULO)
+    print("modificaciones que no recaen en artículos:", [(x["norma"], x["numeral"]) for x in NO_ARTICULO])
     print("candidatos por fechaVersion:", dict(pendientes))
 
     # nodos_normas.csv: completar desde el XML, conservando columnas existentes
