@@ -1,0 +1,18 @@
+{
+  "id_norma": "1199483",
+  "fecha_version": "2026-02-05",
+  "nombre": "Ley 21647",
+  "url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=Ley-21647_05-FEB-2026&exportar_con_notas_bcn=True&exportar_con_notas_originales=True&exportar_con_notas_al_pie=True&hddResultadoExportar=1199483.2026-02-05.0.0%23",
+  "fecha_descarga": "2026-11-26",
+  "sha256_pdf": "5e7e1e3906ea1395e720a6f80c98f923dccdb0f68ff1eb88ab8f10c416083b15",
+  "bytes": 301259,
+  "con_notas_bcn": true,
+  "conversion": {
+    "texto": {
+      "parrafos": 462,
+      "notas_bcn": 8,
+      "pdf_ley_chile": true,
+      "salida": "datos/raw/pdf/ley_21647__idNorma_1199483__v2026-02-05.md"
+    }
+  }
+}

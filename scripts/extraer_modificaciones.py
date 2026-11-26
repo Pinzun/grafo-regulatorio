@@ -37,6 +37,7 @@ ARCHIVOS = {
     "ley_21472_2022": "ley_21472_2022__idNorma_1179524.xml",
     "ley_21667_2024": "ley_21667_2024__idNorma_1203005.xml",
     "ley_20701_2013": "ley_20701_2013__idNorma_1055073.xml",
+    "ley_21647_2023": "ley_21647_2023__idNorma_1199483.xml",
     "ley_21657_2024": "ley_21657_2024__idNorma_1201175.xml",
     "ley_21076_2018": "ley_21076_2018__idNorma_1115627.xml",
     "ley_20897_2016": "ley_20897_2016__idNorma_1087315.xml",
@@ -59,7 +60,7 @@ ARCHIVOS = {
 MODIFICATORIAS = {"ley_21721_2024": "art_unico", "ley_20936_2016": "art_1", "ley_21804_2026": "art_unico",
                   "ley_21505_2022": "art_unico", "ley_21582_2023": "art_10", "ley_21833_2026": "art_1",
                   "ley_21472_2022": "art_1", "ley_21667_2024": "art_primero",
-                  "ley_20701_2013": "art_unico", "ley_21657_2024": "art_unico", "ley_21076_2018": "art_unico", "ley_20897_2016": "art_2", "ley_20720_2014": "art_391", "ley_20273_2008": "art_2", "ley_20571_2012": "art_unico", "ley_20220_2007": "art_unico", "ley_20928_2016": "art_unico", "ley_20999_2017": "art_2", "ley_20257_2008": "art_unico", "ley_20698_2013": "art_1", "ley_21118_2018": "art_unico", "ley_21806_2026": "art_101", "ley_21304_2021": "art_unico", "ley_21194_2019": "art_unico", "ley_20805_2015": "art_unico", "ley_20402_2009": "art_13"}
+                  "ley_20701_2013": "art_unico", "ley_21647_2023": "art_88", "ley_21657_2024": "art_unico", "ley_21076_2018": "art_unico", "ley_20897_2016": "art_2", "ley_20720_2014": "art_391", "ley_20273_2008": "art_2", "ley_20571_2012": "art_unico", "ley_20220_2007": "art_unico", "ley_20928_2016": "art_unico", "ley_20999_2017": "art_2", "ley_20257_2008": "art_unico", "ley_20698_2013": "art_1", "ley_21118_2018": "art_unico", "ley_21806_2026": "art_101", "ley_21304_2021": "art_unico", "ley_21194_2019": "art_unico", "ley_20805_2015": "art_unico", "ley_20402_2009": "art_13"}
 
 VERBOS = {  # singular e impersonal plural ("Reemplázase" / "Reemplázanse")
     "reemplaza": r"reempl[aá]z(?:a|ase|anse|ese|ense)|sustit[uú]y(?:e|ese|ense)",
@@ -180,6 +181,7 @@ def vigencia_de(clave, reglas):
 # ---------------------------------------------------------------- texto completo desde el PDF oficial
 PDF_DIR = "datos/raw/pdf"
 NO_ARTICULO = []  # modificaciones que no recaen en un artículo (p. ej. epígrafes de capítulos)
+TRANSITORIOS_INSERTADOS = set()  # (norma, nombre) de artículos transitorios que inserta una ley (no son nodos)
 LETRAS = "abcdefghijklmnñopqrstuvwxyz"
 ROMANOS = ["i", "ii", "iii", "iv", "v", "vi", "vii", "viii", "ix", "x", "xi", "xii"]
 
@@ -402,7 +404,7 @@ RE_MODIFICA_LGSE = re.compile(
     r"|(?:Introd[uú]|Incorp[oó]r)\w+ las siguientes modificaciones en el art[íi]culo [^,:]{1,25}? del"  # Ley 20.720
     r"|Agr[eé]g\w+ [^:]{1,120}?\bal art[íi]culo [^,:]{1,25}? del"                             # Ley 20.897
     r"|Modif[ií]case)\s+(?:el\s+|la\s+)?"
-    r"(?:decreto con fuerza de ley N\s*[°º]\s*4(?:/20\.?018|,\s*del año 2007|,\s*de 2007"  # DFL 4 (texto refundido)
+    r"(?:decreto con fuerza de ley N\s*[°º]\s*4(?:/20\.?018|,\s*del año 2007|,\s*de 2007|,\s*de 2018"  # DFL 4 (texto refundido)
     r"|,\s*del Ministerio de Econom[íi]a, Fomento y Reconstrucci[óo]n, (?:promulgado el año 2006|de 2007))"
     r"|decreto con fuerza de ley N\s*[°º]\s*1,\s*de 1982,.{0,120}?Ley General de Servicios El[ée]ctricos"  # DFL 1/1982
     r"|ley General de Servicios El[ée]ctricos)", re.I)                                     # nombre de la ley
@@ -419,6 +421,8 @@ def modifica_lgse(txt):
       - 'Incorpóranse las siguientes modificaciones en el artículo 146 ter del DFL Nº 4, …' (Ley 20.720);
       - 'Agréganse los siguientes incisos … al artículo 34º bis del DFL Nº 4/20.018, …' (Ley 20.897);
       - 'Incorpórase en el DFL N° 4/20.018, de 2006, … el siguiente artículo 139 bis' (Ley 21.076);
+      - 'DFL N° 4, de 2018, que fija el texto refundido … del DFL N° 1, de Minería, de 1982, Ley General de
+        Servicios Eléctricos' (Ley 21.647, art. 88: el año es errata de la ley; el resto identifica la LGSE);
       - 'DFL N° 1, de 1982, … Ley General de Servicios Eléctricos, … cuyo texto refundido … fue fijado por
         el DFL N° 4, de 2006 / de 2007 / 4/20.018, de 2006' (Leyes 21.582, 20.701, 20.805);
       - 'ley General de Servicios Eléctricos' (Ley 21.505).
@@ -426,7 +430,7 @@ def modifica_lgse(txt):
     t = norm_ws(txt)[:400]
     if not RE_MODIFICA_LGSE.search(t):
         return False
-    if re.search(r"de 1982", t[:200]) and not re.search(r"N\s*[°º]\s*4(?:/20\.?018)?,\s*de 200[67]", t):
+    if re.search(r"de 1982", t[:200]) and not re.search(r"N\s*[°º]\s*4(?:/20\.?018)?,\s*de (?:200[67]|2018)", t):
         return False  # DFL 1/1982 sin remisión al texto refundido: no se asume la numeración del DFL 4
     return True
 
@@ -554,6 +558,16 @@ def extraer_ley(norma, dfl4, fecha_consulta):
         if dest is None and not mt and re.search(r"\bep[íi]grafe\b|\bCap[íi]tulo\b|\bT[íi]tulo\b|\bP[áa]rrafo\b", sin_citas(cab), re.I):
             NO_ARTICULO.append({"norma": norma, "numeral": it["n"], "id_parte": id_parte,
                                 "tipo_cambio": tipo0 or PC, "texto": cab[:300]})
+            continue
+        # Artículo transitorio del DFL 4 ("Agrégase el siguiente artículo transitorio:", Ley 21.647): no es
+        # nodo artículo de la ontología; se registra aparte.
+        if dest is None and re.search(r"\bart[íi]culos?\s+(?:\w+\s+)?transitorios?\b", sin_citas(cab), re.I):
+            NO_ARTICULO.append({"norma": norma, "numeral": it["n"], "id_parte": id_parte,
+                                "tipo_cambio": tipo0 or PC, "texto": cab[:300]})
+            for p in it["todos"]:  # "Artículo trigésimo.-": no es candidato aunque la BCN no lo marque transitorio
+                mt_ = re.match(r'"?\s*Art[íi]culo\s+(\w+)\s*\.\s*-', p)
+                if mt_:
+                    TRANSITORIOS_INSERTADOS.add((norma, mt_.group(1).lower().replace("á", "a")))
             continue
         # "los siguientes artículos X a Y" / "X y Y": inserción de varios artículos nuevos
         # o "Incorpóranse, como artículos 149 bis, 149 ter, … y 149 quinquies, los siguientes:" (Ley 20.571)
@@ -963,7 +977,7 @@ def main():
             # El artículo que la ley solo nombra como ubicación de una inserción ("a continuación del artículo
             # 207-6") cambia de fechaVersion en la BCN sin cambiar su texto: no es candidato.
             ubic = r"(?:a continuaci[oó]n|despu[eé]s)\s+del\s+art[íi]culo\s+" + re.escape(clave).replace(r"\ ", r"\s*[°º]?\s*") + r"\s*[°º]?(?![\w-])"
-            if re.search(ubic, sin_citas(textos.get(norma, "")), re.I):
+            if re.search(ubic, sin_citas(textos.get(norma, "")), re.I) or (norma, clave) in TRANSITORIOS_INSERTADOS:
                 continue
             if info["fecha_version_bcn"] == fp and (norma, dest) not in ya:
                 cand.append({"norma_modificatoria": norma, "articulo_dfl4": dest,

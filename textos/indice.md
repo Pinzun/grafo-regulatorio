@@ -299,7 +299,7 @@ Texto consolidado: DFL 4, versión BCN 2026-07-31. Generado por `scripts/generar
 | [191](dfl4/art_191.md) | — | Ley 20.928 (2016), Ley 21.804 (2026) | vigente |
 | [191 bis](dfl4/art_191_bis.md) | — | Ley 21.657 (2024) | vigente |
 | [192](dfl4/art_192.md) | — | — | vigente |
-| [193](dfl4/art_193.md) | — | Ley 21.194 (2019) ⚠️ faltan 21.647 | vigente |
+| [193](dfl4/art_193.md) | — | Ley 21.194 (2019), Ley 21.647 (2023) | vigente |
 | [194](dfl4/art_194.md) | — | — | vigente |
 | [195](dfl4/art_195.md) | — | — | vigente |
 | [196](dfl4/art_196.md) | — | — | vigente |
@@ -377,4 +377,4 @@ Texto consolidado: DFL 4, versión BCN 2026-07-31. Generado por `scripts/generar
 
 - Artículos sin texto: ninguno.
 - Artículos cuyo texto consolidado dice solo 'Eliminado/Suprimido' sin marca de derogación en el XML BCN: 188, 189.
-- Artículos con historia incompleta (1): 193 (faltan 21.647).
+- Artículos con historia incompleta (0): ninguno.
