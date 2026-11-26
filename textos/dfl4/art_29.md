@@ -6,6 +6,7 @@
 - **Vigencia:** vigente
 - **Cobertura de la historia:** completa
 - **Bloque:** fuera del bloque de transmisión
+- **Nodo en el grafo:** [DFL 4 de 2006 (LGSE) — art. 29](../../graphify-out/obsidian/DFL%204%20de%202006%20%28LGSE%29%20%E2%80%94%20art.%2029.md)
 
 ## Texto vigente
 
@@ -27,12 +28,12 @@ La división a que se refiere este artículo no afectará en modo alguno la proh
 
 ## Historia de modificaciones
 
-- vigencia: 2009-12-03 · Ley 20.402 de 2009 (art. 13) · N° 2 · reemplaza · verificada · regla · idParte 8811980
-- vigencia: 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 11 letra a) · elimina · verificada · regla · idParte 9377764
-- vigencia: 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 11 letra a) · reemplaza · verificada · regla · idParte 9377764
-- vigencia: 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 11 letra b) · reemplaza · verificada · regla · idParte 9377764
-- vigencia: 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 11 letra c) · agrega · verificada · regla · idParte 9377764
-- vigencia: 2023-07-07 · Ley 21.582 de 2023 (art. 10) · N° 3 · reemplaza · verificada · regla · idParte 10442092
+- vigencia: 2009-12-03 · [Ley 20.402 de 2009](../../graphify-out/obsidian/Ley%2020.402%20de%202009.md) ([art. 13](../../graphify-out/obsidian/Ley%2020.402%20de%202009%20%E2%80%94%20art.%2013.md)) · N° 2 · reemplaza · verificada · regla · idParte 8811980
+- vigencia: 2013-10-14 · [Ley 20.701 de 2013](../../graphify-out/obsidian/Ley%2020.701%20de%202013.md) ([art. único](../../graphify-out/obsidian/Ley%2020.701%20de%202013%20%E2%80%94%20art.%20%C3%BAnico.md)) · N° 11 letra a) · elimina · verificada · regla · idParte 9377764
+- vigencia: 2013-10-14 · [Ley 20.701 de 2013](../../graphify-out/obsidian/Ley%2020.701%20de%202013.md) ([art. único](../../graphify-out/obsidian/Ley%2020.701%20de%202013%20%E2%80%94%20art.%20%C3%BAnico.md)) · N° 11 letra a) · reemplaza · verificada · regla · idParte 9377764
+- vigencia: 2013-10-14 · [Ley 20.701 de 2013](../../graphify-out/obsidian/Ley%2020.701%20de%202013.md) ([art. único](../../graphify-out/obsidian/Ley%2020.701%20de%202013%20%E2%80%94%20art.%20%C3%BAnico.md)) · N° 11 letra b) · reemplaza · verificada · regla · idParte 9377764
+- vigencia: 2013-10-14 · [Ley 20.701 de 2013](../../graphify-out/obsidian/Ley%2020.701%20de%202013.md) ([art. único](../../graphify-out/obsidian/Ley%2020.701%20de%202013%20%E2%80%94%20art.%20%C3%BAnico.md)) · N° 11 letra c) · agrega · verificada · regla · idParte 9377764
+- vigencia: 2023-07-07 · [Ley 21.582 de 2023](../../graphify-out/obsidian/Ley%2021.582%20de%202023.md) ([art. 10](../../graphify-out/obsidian/Ley%2021.582%20de%202023%20%E2%80%94%20art.%2010.md)) · N° 3 · reemplaza · verificada · regla · idParte 10442092
 
 ## Texto modificatorio
 

@@ -6,6 +6,7 @@
 - **Vigencia:** vigente
 - **Cobertura de la historia:** completa
 - **Bloque:** fuera del bloque de transmisión
+- **Nodo en el grafo:** [DFL 4 de 2006 (LGSE) — art. 146 ter](../../graphify-out/obsidian/DFL%204%20de%202006%20%28LGSE%29%20%E2%80%94%20art.%20146%20ter.md)
 
 ## Texto vigente
 
@@ -35,19 +36,19 @@ Lo dispuesto en este artículo se aplicará, asimismo, a aquellos casos en que e
 
 ## Historia de modificaciones
 
-- vigencia: 2007-09-14 · Ley 20.220 de 2007 (art. único) · N° 4 · agrega · verificada · regla · idParte 7353232
-- vigencia: 2014-01-09 · Ley 20.720 de 2014 (art. 391) · N° 1 · reemplaza · verificada · regla · idParte 9399130
-- vigencia: 2014-01-09 · Ley 20.720 de 2014 (art. 391) · N° 2 · reemplaza · verificada · regla · idParte 9399130
-- vigencia: 2014-01-09 · Ley 20.720 de 2014 (art. 391) · N° 3 · reemplaza · verificada · regla · idParte 9399130
-- vigencia: 2014-01-09 · Ley 20.720 de 2014 (art. 391) · N° 4 · reemplaza · verificada · regla · idParte 9399130
-- vigencia: 2014-01-09 · Ley 20.720 de 2014 (art. 391) · N° 5 · reemplaza · verificada · regla · idParte 9399130
-- vigencia: 2014-01-09 · Ley 20.720 de 2014 (art. 391) · N° 6 letra a) · reemplaza · verificada · regla · idParte 9399130
-- vigencia: 2014-01-09 · Ley 20.720 de 2014 (art. 391) · N° 6 letra b) · reemplaza · verificada · regla · idParte 9399130
-- vigencia: 2014-01-09 · Ley 20.720 de 2014 (art. 391) · N° 6 letra c) · reemplaza · verificada · regla · idParte 9399130
-- vigencia: 2014-01-09 · Ley 20.720 de 2014 (art. 391) · N° 7 letra a) · reemplaza · verificada · regla · idParte 9399130
-- vigencia: 2014-01-09 · Ley 20.720 de 2014 (art. 391) · N° 7 letra b) · reemplaza · verificada · regla · idParte 9399130
-- vigencia: 2014-01-09 · Ley 20.720 de 2014 (art. 391) · N° 8 · reemplaza · verificada · regla · idParte 9399130
-- vigencia: 2016-07-20 · Ley 20.936 de 2016 (art. 1) · N° 12 · reemplaza · verificada · regla · idParte 9716001
+- vigencia: 2007-09-14 · [Ley 20.220 de 2007](../../graphify-out/obsidian/Ley%2020.220%20de%202007.md) ([art. único](../../graphify-out/obsidian/Ley%2020.220%20de%202007%20%E2%80%94%20art.%20%C3%BAnico.md)) · N° 4 · agrega · verificada · regla · idParte 7353232
+- vigencia: 2014-01-09 · [Ley 20.720 de 2014](../../graphify-out/obsidian/Ley%2020.720%20de%202014.md) ([art. 391](../../graphify-out/obsidian/Ley%2020.720%20de%202014%20%E2%80%94%20art.%20391.md)) · N° 1 · reemplaza · verificada · regla · idParte 9399130
+- vigencia: 2014-01-09 · [Ley 20.720 de 2014](../../graphify-out/obsidian/Ley%2020.720%20de%202014.md) ([art. 391](../../graphify-out/obsidian/Ley%2020.720%20de%202014%20%E2%80%94%20art.%20391.md)) · N° 2 · reemplaza · verificada · regla · idParte 9399130
+- vigencia: 2014-01-09 · [Ley 20.720 de 2014](../../graphify-out/obsidian/Ley%2020.720%20de%202014.md) ([art. 391](../../graphify-out/obsidian/Ley%2020.720%20de%202014%20%E2%80%94%20art.%20391.md)) · N° 3 · reemplaza · verificada · regla · idParte 9399130
+- vigencia: 2014-01-09 · [Ley 20.720 de 2014](../../graphify-out/obsidian/Ley%2020.720%20de%202014.md) ([art. 391](../../graphify-out/obsidian/Ley%2020.720%20de%202014%20%E2%80%94%20art.%20391.md)) · N° 4 · reemplaza · verificada · regla · idParte 9399130
+- vigencia: 2014-01-09 · [Ley 20.720 de 2014](../../graphify-out/obsidian/Ley%2020.720%20de%202014.md) ([art. 391](../../graphify-out/obsidian/Ley%2020.720%20de%202014%20%E2%80%94%20art.%20391.md)) · N° 5 · reemplaza · verificada · regla · idParte 9399130
+- vigencia: 2014-01-09 · [Ley 20.720 de 2014](../../graphify-out/obsidian/Ley%2020.720%20de%202014.md) ([art. 391](../../graphify-out/obsidian/Ley%2020.720%20de%202014%20%E2%80%94%20art.%20391.md)) · N° 6 letra a) · reemplaza · verificada · regla · idParte 9399130
+- vigencia: 2014-01-09 · [Ley 20.720 de 2014](../../graphify-out/obsidian/Ley%2020.720%20de%202014.md) ([art. 391](../../graphify-out/obsidian/Ley%2020.720%20de%202014%20%E2%80%94%20art.%20391.md)) · N° 6 letra b) · reemplaza · verificada · regla · idParte 9399130
+- vigencia: 2014-01-09 · [Ley 20.720 de 2014](../../graphify-out/obsidian/Ley%2020.720%20de%202014.md) ([art. 391](../../graphify-out/obsidian/Ley%2020.720%20de%202014%20%E2%80%94%20art.%20391.md)) · N° 6 letra c) · reemplaza · verificada · regla · idParte 9399130
+- vigencia: 2014-01-09 · [Ley 20.720 de 2014](../../graphify-out/obsidian/Ley%2020.720%20de%202014.md) ([art. 391](../../graphify-out/obsidian/Ley%2020.720%20de%202014%20%E2%80%94%20art.%20391.md)) · N° 7 letra a) · reemplaza · verificada · regla · idParte 9399130
+- vigencia: 2014-01-09 · [Ley 20.720 de 2014](../../graphify-out/obsidian/Ley%2020.720%20de%202014.md) ([art. 391](../../graphify-out/obsidian/Ley%2020.720%20de%202014%20%E2%80%94%20art.%20391.md)) · N° 7 letra b) · reemplaza · verificada · regla · idParte 9399130
+- vigencia: 2014-01-09 · [Ley 20.720 de 2014](../../graphify-out/obsidian/Ley%2020.720%20de%202014.md) ([art. 391](../../graphify-out/obsidian/Ley%2020.720%20de%202014%20%E2%80%94%20art.%20391.md)) · N° 8 · reemplaza · verificada · regla · idParte 9399130
+- vigencia: 2016-07-20 · [Ley 20.936 de 2016](../../graphify-out/obsidian/Ley%2020.936%20de%202016.md) ([art. 1](../../graphify-out/obsidian/Ley%2020.936%20de%202016%20%E2%80%94%20art.%201.md)) · N° 12 · reemplaza · verificada · regla · idParte 9716001
 
 ## Texto modificatorio
 

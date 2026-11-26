@@ -6,6 +6,7 @@
 - **Vigencia:** vigente
 - **Cobertura de la historia:** completa
 - **Bloque:** fuera del bloque de transmisión
+- **Nodo en el grafo:** [DFL 4 de 2006 (LGSE) — art. 150 ter](../../graphify-out/obsidian/DFL%204%20de%202006%20%28LGSE%29%20%E2%80%94%20art.%20150%20ter.md)
 
 ## Texto vigente
 
@@ -119,16 +120,16 @@ Las valorizaciones de energía mencionadas, así como la determinación de trans
 
 ## Historia de modificaciones
 
-- vigencia: 2013-10-22 · Ley 20.698 de 2013 (art. 1) · N° 2 · agrega · verificada · regla · idParte 9380017
-- vigencia: 2016-07-20 · Ley 20.936 de 2016 (art. 1) · N° 18 letra a) · reemplaza · verificada · regla · idParte 9716001
-- vigencia: 2016-07-20 · Ley 20.936 de 2016 (art. 1) · N° 18 letra b) · reemplaza · verificada · regla · idParte 9716001
-- vigencia: 2016-07-20 · Ley 20.936 de 2016 (art. 1) · N° 18 letra c) · reemplaza · verificada · regla · idParte 9716001
-- vigencia: 2016-07-20 · Ley 20.936 de 2016 (art. 1) · N° 18 letra d) i) · reemplaza · verificada · regla · idParte 9716001
-- vigencia: 2016-07-20 · Ley 20.936 de 2016 (art. 1) · N° 18 letra d) ii) · reemplaza · verificada · regla · idParte 9716001
-- vigencia: 2016-07-20 · Ley 20.936 de 2016 (art. 1) · N° 18 letra e) · reemplaza · verificada · regla · idParte 9716001
-- vigencia: 2026-02-13 · Ley 21.804 de 2026 (art. único) · N° 13 letra a) · reemplaza · verificada · regla · idParte 10583265
-- vigencia: 2026-02-13 · Ley 21.804 de 2026 (art. único) · N° 13 letra b) · elimina · verificada · regla · idParte 10583265
-- vigencia: 2026-02-13 · Ley 21.804 de 2026 (art. único) · N° 13 letra c) · reemplaza · verificada · regla · idParte 10583265
+- vigencia: 2013-10-22 · [Ley 20.698 de 2013](../../graphify-out/obsidian/Ley%2020.698%20de%202013.md) ([art. 1](../../graphify-out/obsidian/Ley%2020.698%20de%202013%20%E2%80%94%20art.%201.md)) · N° 2 · agrega · verificada · regla · idParte 9380017
+- vigencia: 2016-07-20 · [Ley 20.936 de 2016](../../graphify-out/obsidian/Ley%2020.936%20de%202016.md) ([art. 1](../../graphify-out/obsidian/Ley%2020.936%20de%202016%20%E2%80%94%20art.%201.md)) · N° 18 letra a) · reemplaza · verificada · regla · idParte 9716001
+- vigencia: 2016-07-20 · [Ley 20.936 de 2016](../../graphify-out/obsidian/Ley%2020.936%20de%202016.md) ([art. 1](../../graphify-out/obsidian/Ley%2020.936%20de%202016%20%E2%80%94%20art.%201.md)) · N° 18 letra b) · reemplaza · verificada · regla · idParte 9716001
+- vigencia: 2016-07-20 · [Ley 20.936 de 2016](../../graphify-out/obsidian/Ley%2020.936%20de%202016.md) ([art. 1](../../graphify-out/obsidian/Ley%2020.936%20de%202016%20%E2%80%94%20art.%201.md)) · N° 18 letra c) · reemplaza · verificada · regla · idParte 9716001
+- vigencia: 2016-07-20 · [Ley 20.936 de 2016](../../graphify-out/obsidian/Ley%2020.936%20de%202016.md) ([art. 1](../../graphify-out/obsidian/Ley%2020.936%20de%202016%20%E2%80%94%20art.%201.md)) · N° 18 letra d) i) · reemplaza · verificada · regla · idParte 9716001
+- vigencia: 2016-07-20 · [Ley 20.936 de 2016](../../graphify-out/obsidian/Ley%2020.936%20de%202016.md) ([art. 1](../../graphify-out/obsidian/Ley%2020.936%20de%202016%20%E2%80%94%20art.%201.md)) · N° 18 letra d) ii) · reemplaza · verificada · regla · idParte 9716001
+- vigencia: 2016-07-20 · [Ley 20.936 de 2016](../../graphify-out/obsidian/Ley%2020.936%20de%202016.md) ([art. 1](../../graphify-out/obsidian/Ley%2020.936%20de%202016%20%E2%80%94%20art.%201.md)) · N° 18 letra e) · reemplaza · verificada · regla · idParte 9716001
+- vigencia: 2026-02-13 · [Ley 21.804 de 2026](../../graphify-out/obsidian/Ley%2021.804%20de%202026.md) ([art. único](../../graphify-out/obsidian/Ley%2021.804%20de%202026%20%E2%80%94%20art.%20%C3%BAnico.md)) · N° 13 letra a) · reemplaza · verificada · regla · idParte 10583265
+- vigencia: 2026-02-13 · [Ley 21.804 de 2026](../../graphify-out/obsidian/Ley%2021.804%20de%202026.md) ([art. único](../../graphify-out/obsidian/Ley%2021.804%20de%202026%20%E2%80%94%20art.%20%C3%BAnico.md)) · N° 13 letra b) · elimina · verificada · regla · idParte 10583265
+- vigencia: 2026-02-13 · [Ley 21.804 de 2026](../../graphify-out/obsidian/Ley%2021.804%20de%202026.md) ([art. único](../../graphify-out/obsidian/Ley%2021.804%20de%202026%20%E2%80%94%20art.%20%C3%BAnico.md)) · N° 13 letra c) · reemplaza · verificada · regla · idParte 10583265
 
 ## Texto modificatorio
 

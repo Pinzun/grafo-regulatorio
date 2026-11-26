@@ -6,6 +6,7 @@
 - **Vigencia:** vigente
 - **Cobertura de la historia:** completa
 - **Bloque:** nucleo (validado) — Título III: De los Sistemas de Transmisión Eléctrica / Capítulo II: De la Planificación Energética y de la Transmisión
+- **Nodo en el grafo:** [DFL 4 de 2006 (LGSE) — art. 85](../../graphify-out/obsidian/DFL%204%20de%202006%20%28LGSE%29%20%E2%80%94%20art.%2085.md)
 
 ## Texto vigente
 
@@ -21,9 +22,9 @@ El reglamento establecerá los criterios y aspectos metodológicos a ser conside
 
 ## Historia de modificaciones
 
-- vigencia: 2016-07-20 · Ley 20.936 de 2016 (art. 1) · N° 4 · reemplaza · verificada · manual · idParte 9716001
+- vigencia: 2016-07-20 · [Ley 20.936 de 2016](../../graphify-out/obsidian/Ley%2020.936%20de%202016.md) ([art. 1](../../graphify-out/obsidian/Ley%2020.936%20de%202016%20%E2%80%94%20art.%201.md)) · N° 4 · reemplaza · verificada · manual · idParte 9716001
   - Revisión: confirmada (revisado: pinzunza 2026-11-25)
-- vigencia: 2026-02-13 · Ley 21.804 de 2026 (art. único) · N° 7 · elimina · verificada · regla · idParte 10583265
+- vigencia: 2026-02-13 · [Ley 21.804 de 2026](../../graphify-out/obsidian/Ley%2021.804%20de%202026.md) ([art. único](../../graphify-out/obsidian/Ley%2021.804%20de%202026%20%E2%80%94%20art.%20%C3%BAnico.md)) · N° 7 · elimina · verificada · regla · idParte 10583265
 
 ## Texto modificatorio
 

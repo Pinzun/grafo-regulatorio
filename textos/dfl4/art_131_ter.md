@@ -6,6 +6,7 @@
 - **Vigencia:** vigente
 - **Cobertura de la historia:** completa
 - **Bloque:** fuera del bloque de transmisión
+- **Nodo en el grafo:** [DFL 4 de 2006 (LGSE) — art. 131 ter](../../graphify-out/obsidian/DFL%204%20de%202006%20%28LGSE%29%20%E2%80%94%20art.%20131%20ter.md)
 
 ## Texto vigente
 
@@ -21,7 +22,7 @@ El informe final contemplará, además, una proyección de los procesos de licit
 
 ## Historia de modificaciones
 
-- vigencia: 2015-01-29 · Ley 20.805 de 2015 (art. único) · N° 4 · agrega · verificada · regla · idParte 9555456
+- vigencia: 2015-01-29 · [Ley 20.805 de 2015](../../graphify-out/obsidian/Ley%2020.805%20de%202015.md) ([art. único](../../graphify-out/obsidian/Ley%2020.805%20de%202015%20%E2%80%94%20art.%20%C3%BAnico.md)) · N° 4 · agrega · verificada · regla · idParte 9555456
 
 ## Texto modificatorio
 

@@ -6,6 +6,7 @@
 - **Vigencia:** vigente
 - **Cobertura de la historia:** completa
 - **Bloque:** fuera del bloque de transmisión
+- **Nodo en el grafo:** [DFL 4 de 2006 (LGSE) — art. 149 bis](../../graphify-out/obsidian/DFL%204%20de%202006%20%28LGSE%29%20%E2%80%94%20art.%20149%20bis.md)
 
 ## Texto vigente
 
@@ -35,32 +36,32 @@ Las obras adicionales y adecuaciones que sean necesarias para permitir la conexi
 
 ## Historia de modificaciones
 
-- vigencia: 2012-03-22 · Ley 20.571 de 2012 (art. único) · N° 2 · agrega · verificada · regla · idParte 9243750
-- vigencia: 2018-11-17 · Ley 21.118 de 2018 (art. único) · N° 1 letra a) · agrega · verificada · regla · idParte 9968877
-- vigencia: 2018-11-17 · Ley 21.118 de 2018 (art. único) · N° 1 letra b) · agrega · verificada · regla · idParte 9968877
-- vigencia: 2018-11-17 · Ley 21.118 de 2018 (art. único) · N° 1 letra c) i) · agrega · verificada · regla · idParte 9968877
-- vigencia: 2018-11-17 · Ley 21.118 de 2018 (art. único) · N° 1 letra c) ii) · elimina · verificada · regla · idParte 9968877
-- vigencia: 2018-11-17 · Ley 21.118 de 2018 (art. único) · N° 1 letra d) · reemplaza · verificada · regla · idParte 9968877
-- vigencia: 2018-11-17 · Ley 21.118 de 2018 (art. único) · N° 1 letra e) · agrega · verificada · regla · idParte 9968877
-- vigencia: 2018-11-17 · Ley 21.118 de 2018 (art. único) · N° 1 letra f) i) · agrega · verificada · regla · idParte 9968877
-- vigencia: 2018-11-17 · Ley 21.118 de 2018 (art. único) · N° 1 letra f) ii) · agrega · verificada · regla · idParte 9968877
-- vigencia: 2018-11-17 · Ley 21.118 de 2018 (art. único) · N° 1 letra g) i) · agrega · verificada · regla · idParte 9968877
-- vigencia: 2018-11-17 · Ley 21.118 de 2018 (art. único) · N° 1 letra g) ii) · reemplaza · verificada · regla · idParte 9968877
-- vigencia: 2018-11-17 · Ley 21.118 de 2018 (art. único) · N° 1 letra g) iii) · agrega · verificada · regla · idParte 9968877
-- vigencia: 2018-11-17 · Ley 21.118 de 2018 (art. único) · N° 1 letra g) iv) · agrega · verificada · regla · idParte 9968877
-- vigencia: 2022-11-21 · Ley 21.505 de 2022 (art. único) · N° 5 letra a) i) · agrega · verificada · regla · idParte 10380148
-- vigencia: 2022-11-21 · Ley 21.505 de 2022 (art. único) · N° 5 letra a) ii) · agrega · verificada · regla · idParte 10380148
-- vigencia: 2022-11-21 · Ley 21.505 de 2022 (art. único) · N° 5 letra b) i) · agrega · verificada · regla · idParte 10380148
-- vigencia: 2022-11-21 · Ley 21.505 de 2022 (art. único) · N° 5 letra b) ii) · agrega · verificada · regla · idParte 10380148
-- vigencia: 2022-11-21 · Ley 21.505 de 2022 (art. único) · N° 5 letra c) · agrega · verificada · regla · idParte 10380148
-- vigencia: 2022-11-21 · Ley 21.505 de 2022 (art. único) · N° 5 letra d) · agrega · verificada · regla · idParte 10380148
-- vigencia: 2022-11-21 · Ley 21.505 de 2022 (art. único) · N° 5 letra e) i) · agrega · verificada · regla · idParte 10380148
-- vigencia: 2022-11-21 · Ley 21.505 de 2022 (art. único) · N° 5 letra e) ii) · agrega · verificada · regla · idParte 10380148
-- vigencia: 2022-11-21 · Ley 21.505 de 2022 (art. único) · N° 5 letra f) · agrega · verificada · regla · idParte 10380148
-- vigencia: 2022-11-21 · Ley 21.505 de 2022 (art. único) · N° 5 letra g) · agrega · verificada · regla · idParte 10380148
-- vigencia: 2022-11-21 · Ley 21.505 de 2022 (art. único) · N° 5 letra h) i) · agrega · verificada · regla · idParte 10380148
-- vigencia: 2022-11-21 · Ley 21.505 de 2022 (art. único) · N° 5 letra h) ii) · agrega · verificada · regla · idParte 10380148
-- vigencia: 2022-11-21 · Ley 21.505 de 2022 (art. único) · N° 5 letra h) iii) · agrega · verificada · regla · idParte 10380148
+- vigencia: 2012-03-22 · [Ley 20.571 de 2012](../../graphify-out/obsidian/Ley%2020.571%20de%202012.md) ([art. único](../../graphify-out/obsidian/Ley%2020.571%20de%202012%20%E2%80%94%20art.%20%C3%BAnico.md)) · N° 2 · agrega · verificada · regla · idParte 9243750
+- vigencia: 2018-11-17 · [Ley 21.118 de 2018](../../graphify-out/obsidian/Ley%2021.118%20de%202018.md) ([art. único](../../graphify-out/obsidian/Ley%2021.118%20de%202018%20%E2%80%94%20art.%20%C3%BAnico.md)) · N° 1 letra a) · agrega · verificada · regla · idParte 9968877
+- vigencia: 2018-11-17 · [Ley 21.118 de 2018](../../graphify-out/obsidian/Ley%2021.118%20de%202018.md) ([art. único](../../graphify-out/obsidian/Ley%2021.118%20de%202018%20%E2%80%94%20art.%20%C3%BAnico.md)) · N° 1 letra b) · agrega · verificada · regla · idParte 9968877
+- vigencia: 2018-11-17 · [Ley 21.118 de 2018](../../graphify-out/obsidian/Ley%2021.118%20de%202018.md) ([art. único](../../graphify-out/obsidian/Ley%2021.118%20de%202018%20%E2%80%94%20art.%20%C3%BAnico.md)) · N° 1 letra c) i) · agrega · verificada · regla · idParte 9968877
+- vigencia: 2018-11-17 · [Ley 21.118 de 2018](../../graphify-out/obsidian/Ley%2021.118%20de%202018.md) ([art. único](../../graphify-out/obsidian/Ley%2021.118%20de%202018%20%E2%80%94%20art.%20%C3%BAnico.md)) · N° 1 letra c) ii) · elimina · verificada · regla · idParte 9968877
+- vigencia: 2018-11-17 · [Ley 21.118 de 2018](../../graphify-out/obsidian/Ley%2021.118%20de%202018.md) ([art. único](../../graphify-out/obsidian/Ley%2021.118%20de%202018%20%E2%80%94%20art.%20%C3%BAnico.md)) · N° 1 letra d) · reemplaza · verificada · regla · idParte 9968877
+- vigencia: 2018-11-17 · [Ley 21.118 de 2018](../../graphify-out/obsidian/Ley%2021.118%20de%202018.md) ([art. único](../../graphify-out/obsidian/Ley%2021.118%20de%202018%20%E2%80%94%20art.%20%C3%BAnico.md)) · N° 1 letra e) · agrega · verificada · regla · idParte 9968877
+- vigencia: 2018-11-17 · [Ley 21.118 de 2018](../../graphify-out/obsidian/Ley%2021.118%20de%202018.md) ([art. único](../../graphify-out/obsidian/Ley%2021.118%20de%202018%20%E2%80%94%20art.%20%C3%BAnico.md)) · N° 1 letra f) i) · agrega · verificada · regla · idParte 9968877
+- vigencia: 2018-11-17 · [Ley 21.118 de 2018](../../graphify-out/obsidian/Ley%2021.118%20de%202018.md) ([art. único](../../graphify-out/obsidian/Ley%2021.118%20de%202018%20%E2%80%94%20art.%20%C3%BAnico.md)) · N° 1 letra f) ii) · agrega · verificada · regla · idParte 9968877
+- vigencia: 2018-11-17 · [Ley 21.118 de 2018](../../graphify-out/obsidian/Ley%2021.118%20de%202018.md) ([art. único](../../graphify-out/obsidian/Ley%2021.118%20de%202018%20%E2%80%94%20art.%20%C3%BAnico.md)) · N° 1 letra g) i) · agrega · verificada · regla · idParte 9968877
+- vigencia: 2018-11-17 · [Ley 21.118 de 2018](../../graphify-out/obsidian/Ley%2021.118%20de%202018.md) ([art. único](../../graphify-out/obsidian/Ley%2021.118%20de%202018%20%E2%80%94%20art.%20%C3%BAnico.md)) · N° 1 letra g) ii) · reemplaza · verificada · regla · idParte 9968877
+- vigencia: 2018-11-17 · [Ley 21.118 de 2018](../../graphify-out/obsidian/Ley%2021.118%20de%202018.md) ([art. único](../../graphify-out/obsidian/Ley%2021.118%20de%202018%20%E2%80%94%20art.%20%C3%BAnico.md)) · N° 1 letra g) iii) · agrega · verificada · regla · idParte 9968877
+- vigencia: 2018-11-17 · [Ley 21.118 de 2018](../../graphify-out/obsidian/Ley%2021.118%20de%202018.md) ([art. único](../../graphify-out/obsidian/Ley%2021.118%20de%202018%20%E2%80%94%20art.%20%C3%BAnico.md)) · N° 1 letra g) iv) · agrega · verificada · regla · idParte 9968877
+- vigencia: 2022-11-21 · [Ley 21.505 de 2022](../../graphify-out/obsidian/Ley%2021.505%20de%202022.md) ([art. único](../../graphify-out/obsidian/Ley%2021.505%20de%202022%20%E2%80%94%20art.%20%C3%BAnico.md)) · N° 5 letra a) i) · agrega · verificada · regla · idParte 10380148
+- vigencia: 2022-11-21 · [Ley 21.505 de 2022](../../graphify-out/obsidian/Ley%2021.505%20de%202022.md) ([art. único](../../graphify-out/obsidian/Ley%2021.505%20de%202022%20%E2%80%94%20art.%20%C3%BAnico.md)) · N° 5 letra a) ii) · agrega · verificada · regla · idParte 10380148
+- vigencia: 2022-11-21 · [Ley 21.505 de 2022](../../graphify-out/obsidian/Ley%2021.505%20de%202022.md) ([art. único](../../graphify-out/obsidian/Ley%2021.505%20de%202022%20%E2%80%94%20art.%20%C3%BAnico.md)) · N° 5 letra b) i) · agrega · verificada · regla · idParte 10380148
+- vigencia: 2022-11-21 · [Ley 21.505 de 2022](../../graphify-out/obsidian/Ley%2021.505%20de%202022.md) ([art. único](../../graphify-out/obsidian/Ley%2021.505%20de%202022%20%E2%80%94%20art.%20%C3%BAnico.md)) · N° 5 letra b) ii) · agrega · verificada · regla · idParte 10380148
+- vigencia: 2022-11-21 · [Ley 21.505 de 2022](../../graphify-out/obsidian/Ley%2021.505%20de%202022.md) ([art. único](../../graphify-out/obsidian/Ley%2021.505%20de%202022%20%E2%80%94%20art.%20%C3%BAnico.md)) · N° 5 letra c) · agrega · verificada · regla · idParte 10380148
+- vigencia: 2022-11-21 · [Ley 21.505 de 2022](../../graphify-out/obsidian/Ley%2021.505%20de%202022.md) ([art. único](../../graphify-out/obsidian/Ley%2021.505%20de%202022%20%E2%80%94%20art.%20%C3%BAnico.md)) · N° 5 letra d) · agrega · verificada · regla · idParte 10380148
+- vigencia: 2022-11-21 · [Ley 21.505 de 2022](../../graphify-out/obsidian/Ley%2021.505%20de%202022.md) ([art. único](../../graphify-out/obsidian/Ley%2021.505%20de%202022%20%E2%80%94%20art.%20%C3%BAnico.md)) · N° 5 letra e) i) · agrega · verificada · regla · idParte 10380148
+- vigencia: 2022-11-21 · [Ley 21.505 de 2022](../../graphify-out/obsidian/Ley%2021.505%20de%202022.md) ([art. único](../../graphify-out/obsidian/Ley%2021.505%20de%202022%20%E2%80%94%20art.%20%C3%BAnico.md)) · N° 5 letra e) ii) · agrega · verificada · regla · idParte 10380148
+- vigencia: 2022-11-21 · [Ley 21.505 de 2022](../../graphify-out/obsidian/Ley%2021.505%20de%202022.md) ([art. único](../../graphify-out/obsidian/Ley%2021.505%20de%202022%20%E2%80%94%20art.%20%C3%BAnico.md)) · N° 5 letra f) · agrega · verificada · regla · idParte 10380148
+- vigencia: 2022-11-21 · [Ley 21.505 de 2022](../../graphify-out/obsidian/Ley%2021.505%20de%202022.md) ([art. único](../../graphify-out/obsidian/Ley%2021.505%20de%202022%20%E2%80%94%20art.%20%C3%BAnico.md)) · N° 5 letra g) · agrega · verificada · regla · idParte 10380148
+- vigencia: 2022-11-21 · [Ley 21.505 de 2022](../../graphify-out/obsidian/Ley%2021.505%20de%202022.md) ([art. único](../../graphify-out/obsidian/Ley%2021.505%20de%202022%20%E2%80%94%20art.%20%C3%BAnico.md)) · N° 5 letra h) i) · agrega · verificada · regla · idParte 10380148
+- vigencia: 2022-11-21 · [Ley 21.505 de 2022](../../graphify-out/obsidian/Ley%2021.505%20de%202022.md) ([art. único](../../graphify-out/obsidian/Ley%2021.505%20de%202022%20%E2%80%94%20art.%20%C3%BAnico.md)) · N° 5 letra h) ii) · agrega · verificada · regla · idParte 10380148
+- vigencia: 2022-11-21 · [Ley 21.505 de 2022](../../graphify-out/obsidian/Ley%2021.505%20de%202022.md) ([art. único](../../graphify-out/obsidian/Ley%2021.505%20de%202022%20%E2%80%94%20art.%20%C3%BAnico.md)) · N° 5 letra h) iii) · agrega · verificada · regla · idParte 10380148
 
 ## Texto modificatorio
 

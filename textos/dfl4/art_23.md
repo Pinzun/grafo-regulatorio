@@ -6,6 +6,7 @@
 - **Vigencia:** derogado (vigente hasta 2023-07-07)
 - **Cobertura de la historia:** completa
 - **Bloque:** fuera del bloque de transmisión
+- **Nodo en el grafo:** [DFL 4 de 2006 (LGSE) — art. 23](../../graphify-out/obsidian/DFL%204%20de%202006%20%28LGSE%29%20%E2%80%94%20art.%2023.md)
 
 ## Texto vigente
 
@@ -15,7 +16,7 @@ Artículo 23°.- Derogado.
 
 ## Historia de modificaciones
 
-- vigencia: 2023-07-07 · Ley 21.582 de 2023 (art. 10) · N° 2 · deroga · verificada · regla · idParte 10442092
+- vigencia: 2023-07-07 · [Ley 21.582 de 2023](../../graphify-out/obsidian/Ley%2021.582%20de%202023.md) ([art. 10](../../graphify-out/obsidian/Ley%2021.582%20de%202023%20%E2%80%94%20art.%2010.md)) · N° 2 · deroga · verificada · regla · idParte 10442092
 
 ## Texto modificatorio
 

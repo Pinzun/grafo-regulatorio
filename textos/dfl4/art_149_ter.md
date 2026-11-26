@@ -6,6 +6,7 @@
 - **Vigencia:** vigente
 - **Cobertura de la historia:** completa
 - **Bloque:** fuera del bloque de transmisión
+- **Nodo en el grafo:** [DFL 4 de 2006 (LGSE) — art. 149 ter](../../graphify-out/obsidian/DFL%204%20de%202006%20%28LGSE%29%20%E2%80%94%20art.%20149%20ter.md)
 
 ## Texto vigente
 
@@ -35,14 +36,14 @@ Los remanentes, debidamente reajustados de acuerdo al índice de precios al cons
 
 ## Historia de modificaciones
 
-- vigencia: 2012-03-22 · Ley 20.571 de 2012 (art. único) · N° 2 · agrega · verificada · regla · idParte 9243750 · **superada** por Ley 21.118 de 2018 N° 2 (2018-11-17), que sustituyó el artículo completo
-- vigencia: 2018-11-17 · Ley 21.118 de 2018 (art. único) · N° 2 · reemplaza · verificada · regla · idParte 9968877
-- vigencia: 2022-11-21 · Ley 21.505 de 2022 (art. único) · N° 6 letra a) i) · agrega · verificada · regla · idParte 10380148
-- vigencia: 2022-11-21 · Ley 21.505 de 2022 (art. único) · N° 6 letra a) ii) · agrega · verificada · regla · idParte 10380148
-- vigencia: 2022-11-21 · Ley 21.505 de 2022 (art. único) · N° 6 letra a) iii) · agrega · verificada · regla · idParte 10380148
-- vigencia: 2022-11-21 · Ley 21.505 de 2022 (art. único) · N° 6 letra b) · agrega · verificada · regla · idParte 10380148
-- vigencia: 2022-11-21 · Ley 21.505 de 2022 (art. único) · N° 6 letra c) · agrega · verificada · regla · idParte 10380148
-- vigencia: 2026-02-13 · Ley 21.804 de 2026 (art. único) · N° 10 · reemplaza · verificada · regla · idParte 10583265
+- vigencia: 2012-03-22 · [Ley 20.571 de 2012](../../graphify-out/obsidian/Ley%2020.571%20de%202012.md) ([art. único](../../graphify-out/obsidian/Ley%2020.571%20de%202012%20%E2%80%94%20art.%20%C3%BAnico.md)) · N° 2 · agrega · verificada · regla · idParte 9243750 · **superada** por Ley 21.118 de 2018 N° 2 (2018-11-17), que sustituyó el artículo completo
+- vigencia: 2018-11-17 · [Ley 21.118 de 2018](../../graphify-out/obsidian/Ley%2021.118%20de%202018.md) ([art. único](../../graphify-out/obsidian/Ley%2021.118%20de%202018%20%E2%80%94%20art.%20%C3%BAnico.md)) · N° 2 · reemplaza · verificada · regla · idParte 9968877
+- vigencia: 2022-11-21 · [Ley 21.505 de 2022](../../graphify-out/obsidian/Ley%2021.505%20de%202022.md) ([art. único](../../graphify-out/obsidian/Ley%2021.505%20de%202022%20%E2%80%94%20art.%20%C3%BAnico.md)) · N° 6 letra a) i) · agrega · verificada · regla · idParte 10380148
+- vigencia: 2022-11-21 · [Ley 21.505 de 2022](../../graphify-out/obsidian/Ley%2021.505%20de%202022.md) ([art. único](../../graphify-out/obsidian/Ley%2021.505%20de%202022%20%E2%80%94%20art.%20%C3%BAnico.md)) · N° 6 letra a) ii) · agrega · verificada · regla · idParte 10380148
+- vigencia: 2022-11-21 · [Ley 21.505 de 2022](../../graphify-out/obsidian/Ley%2021.505%20de%202022.md) ([art. único](../../graphify-out/obsidian/Ley%2021.505%20de%202022%20%E2%80%94%20art.%20%C3%BAnico.md)) · N° 6 letra a) iii) · agrega · verificada · regla · idParte 10380148
+- vigencia: 2022-11-21 · [Ley 21.505 de 2022](../../graphify-out/obsidian/Ley%2021.505%20de%202022.md) ([art. único](../../graphify-out/obsidian/Ley%2021.505%20de%202022%20%E2%80%94%20art.%20%C3%BAnico.md)) · N° 6 letra b) · agrega · verificada · regla · idParte 10380148
+- vigencia: 2022-11-21 · [Ley 21.505 de 2022](../../graphify-out/obsidian/Ley%2021.505%20de%202022.md) ([art. único](../../graphify-out/obsidian/Ley%2021.505%20de%202022%20%E2%80%94%20art.%20%C3%BAnico.md)) · N° 6 letra c) · agrega · verificada · regla · idParte 10380148
+- vigencia: 2026-02-13 · [Ley 21.804 de 2026](../../graphify-out/obsidian/Ley%2021.804%20de%202026.md) ([art. único](../../graphify-out/obsidian/Ley%2021.804%20de%202026%20%E2%80%94%20art.%20%C3%BAnico.md)) · N° 10 · reemplaza · verificada · regla · idParte 10583265
 
 ## Texto modificatorio
 

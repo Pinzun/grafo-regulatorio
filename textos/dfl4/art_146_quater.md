@@ -6,6 +6,7 @@
 - **Vigencia:** derogado (vigente hasta 2016-07-20)
 - **Cobertura de la historia:** completa
 - **Bloque:** fuera del bloque de transmisión
+- **Nodo en el grafo:** [DFL 4 de 2006 (LGSE) — art. 146 quater](../../graphify-out/obsidian/DFL%204%20de%202006%20%28LGSE%29%20%E2%80%94%20art.%20146%20quater.md)
 
 ## Texto vigente
 
@@ -15,8 +16,8 @@ Artículo 146º quáter.- Suprimido.
 
 ## Historia de modificaciones
 
-- vigencia: 2007-09-14 · Ley 20.220 de 2007 (art. único) · N° 4 · agrega · verificada · regla · idParte 7353232
-- vigencia: 2016-07-20 · Ley 20.936 de 2016 (art. 1) · N° 13 · deroga · verificada · regla · idParte 9716001
+- vigencia: 2007-09-14 · [Ley 20.220 de 2007](../../graphify-out/obsidian/Ley%2020.220%20de%202007.md) ([art. único](../../graphify-out/obsidian/Ley%2020.220%20de%202007%20%E2%80%94%20art.%20%C3%BAnico.md)) · N° 4 · agrega · verificada · regla · idParte 7353232
+- vigencia: 2016-07-20 · [Ley 20.936 de 2016](../../graphify-out/obsidian/Ley%2020.936%20de%202016.md) ([art. 1](../../graphify-out/obsidian/Ley%2020.936%20de%202016%20%E2%80%94%20art.%201.md)) · N° 13 · deroga · verificada · regla · idParte 9716001
 
 ## Texto modificatorio
 

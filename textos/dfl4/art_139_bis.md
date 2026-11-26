@@ -6,6 +6,7 @@
 - **Vigencia:** vigente
 - **Cobertura de la historia:** completa
 - **Bloque:** fuera del bloque de transmisión
+- **Nodo en el grafo:** [DFL 4 de 2006 (LGSE) — art. 139 bis](../../graphify-out/obsidian/DFL%204%20de%202006%20%28LGSE%29%20%E2%80%94%20art.%20139%20bis.md)
 
 ## Texto vigente
 
@@ -15,7 +16,7 @@ Artículo 139 bis.- El empalme y el medidor son parte de la red de distribución
 
 ## Historia de modificaciones
 
-- vigencia: 2018-02-27 · Ley 21.076 de 2018 (art. único) · texto completo · agrega · verificada · regla · idParte 9890706
+- vigencia: 2018-02-27 · [Ley 21.076 de 2018](../../graphify-out/obsidian/Ley%2021.076%20de%202018.md) ([art. único](../../graphify-out/obsidian/Ley%2021.076%20de%202018%20%E2%80%94%20art.%20%C3%BAnico.md)) · texto completo · agrega · verificada · regla · idParte 9890706
 
 ## Texto modificatorio
 

@@ -6,6 +6,7 @@
 - **Vigencia:** vigente
 - **Cobertura de la historia:** completa
 - **Bloque:** fuera del bloque de transmisión
+- **Nodo en el grafo:** [DFL 4 de 2006 (LGSE) — art. 34 bis](../../graphify-out/obsidian/DFL%204%20de%202006%20%28LGSE%29%20%E2%80%94%20art.%2034%20bis.md)
 
 ## Texto vigente
 
@@ -25,8 +26,8 @@ Los efectos de la orden de paralización y,o suspensión de las obras no podrán
 
 ## Historia de modificaciones
 
-- vigencia: 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 13 · agrega · verificada · regla · idParte 9377764
-- vigencia: 2016-02-05 · Ley 20.897 de 2016 (art. 2) · texto completo · agrega · verificada · regla · idParte 9673750
+- vigencia: 2013-10-14 · [Ley 20.701 de 2013](../../graphify-out/obsidian/Ley%2020.701%20de%202013.md) ([art. único](../../graphify-out/obsidian/Ley%2020.701%20de%202013%20%E2%80%94%20art.%20%C3%BAnico.md)) · N° 13 · agrega · verificada · regla · idParte 9377764
+- vigencia: 2016-02-05 · [Ley 20.897 de 2016](../../graphify-out/obsidian/Ley%2020.897%20de%202016.md) ([art. 2](../../graphify-out/obsidian/Ley%2020.897%20de%202016%20%E2%80%94%20art.%202.md)) · texto completo · agrega · verificada · regla · idParte 9673750
 
 ## Texto modificatorio
 

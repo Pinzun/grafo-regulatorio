@@ -6,6 +6,7 @@
 - **Vigencia:** vigente
 - **Cobertura de la historia:** completa
 - **Bloque:** fuera del bloque de transmisión
+- **Nodo en el grafo:** [DFL 4 de 2006 (LGSE) — art. 63 ter](../../graphify-out/obsidian/DFL%204%20de%202006%20%28LGSE%29%20%E2%80%94%20art.%2063%20ter.md)
 
 ## Texto vigente
 
@@ -21,7 +22,7 @@ En caso que por cualquiera causa deba efectuarse una nueva tasación y el monto 
 
 ## Historia de modificaciones
 
-- vigencia: 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 18 · agrega · verificada · regla · idParte 9377764
+- vigencia: 2013-10-14 · [Ley 20.701 de 2013](../../graphify-out/obsidian/Ley%2020.701%20de%202013.md) ([art. único](../../graphify-out/obsidian/Ley%2020.701%20de%202013%20%E2%80%94%20art.%20%C3%BAnico.md)) · N° 18 · agrega · verificada · regla · idParte 9377764
 
 ## Texto modificatorio
 

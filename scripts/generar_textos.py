@@ -8,7 +8,8 @@ Salidas:
                                "Historia de modificaciones" (una línea por fila de relaciones.csv que llega
                                al artículo, ordenada y rotulada por "vigencia: AAAA-MM-DD"; si la arista fue
                                inferida, una línea "Revisión: pendiente/confirmada/descartada" según
-                               ontologia/revisiones_manuales.csv) y "Texto modificatorio" (numeral literal de
+                               ontologia/revisiones_manuales.csv; la ley y su artículo enlazan a sus notas
+                               en graphify-out/obsidian/) y "Texto modificatorio" (numeral literal de
                                cada ley, del mismo texto XML/PDF que usó el extractor).
   textos/indice.md             una fila por artículo (bloque de transmisión validado primero, luego el resto)
                                y la sección "Leyes": una fila por norma del grafo.
@@ -23,6 +24,7 @@ import os
 import re
 import sys
 from collections import defaultdict
+from urllib.parse import quote
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import extraer_modificaciones as E  # noqa: E402
@@ -36,6 +38,18 @@ RE_ELIMINADO = re.compile(r'^"?\s*Art[íi]culo\s+[^.]*?\.\s*-\s*(Eliminado|Supri
 RE_NUMERAL = re.compile(r"^(N° \d+(?: letra [a-zñ]\)(?: (?:[ivx]+|[a-zñ]\.\d+)\))?)?|letra [a-zñ]\)|texto completo)")
 # Nota de la columna "Nota de cobertura" de la tabla de leyes del índice (obligatoria si la norma es parcial)
 NOTAS_COBERTURA = {"ley_20402_2009": "art. 2 modifica el DL 2.224, no la LGSE; su texto no está cargado"}
+
+
+BOVEDA = "graphify-out/obsidian"  # notas de Obsidian, una por nodo (construir_grafo.py: graphify export obsidian)
+
+
+def enlace_nodo(texto, nota):
+    """[texto](ruta a la nota de Obsidian del nodo `nota`) desde textos/dfl4/. La nota debe existir: los textos
+    se generan después de exportar la bóveda."""
+    ruta = os.path.join(BOVEDA, nota + ".md")
+    if not os.path.exists(ruta):
+        raise SystemExit(f"falta la nota de Obsidian {ruta!r} (correr scripts/construir_grafo.py)")
+    return f"[{texto}](../../{quote(ruta)})"
 
 
 def estado_revision(r, revisiones):
@@ -261,7 +275,10 @@ def main():
                   f"- **idParte:** {info['id_parte']} (https://www.bcn.cl/leychile/navegar?idNorma=258171&idParte={info['id_parte']})",
                   f"- **Vigencia:** {vigencia}",
                   f"- **Cobertura de la historia:** {cob}" + (f" — faltan en el grafo las leyes {', '.join(faltan)}" if faltan else ""),
-                  f"- **Bloque:** {txt_bloque}", "",
+                  f"- **Bloque:** {txt_bloque}",
+                  f"- **Nodo en el grafo:** " + (enlace_nodo(f"{etiqueta['ley_dfl4_2006']} — art. {clave}",
+                                                             f"{etiqueta['ley_dfl4_2006']} — art. {clave}")
+                                                 if nodo else "no es nodo (ninguna ley lo modificó)"), "",
                   "## Texto vigente", "", f"*Fuente: {fuente_texto}.*", "", texto or "*(sin texto)*", "",
                   ]
             tablas_md, estados = seccion_tablas(info, f"ley_dfl4_2006__art_{clave.replace(' ', '_')}", imagenes,
@@ -273,7 +290,9 @@ def main():
                     norma_o, art_o = r["origen"].split("__")
                     tipo = "deroga" if r["relacion"] == "deroga" else r["tipo_cambio"]
                     sup = re.search(r"superada: (\S+) (.+?) sustituyó el artículo completo \(([\d-]+)\)", r["observaciones"])
-                    md.append(f"- vigencia: {r['fecha_vigencia']} · {etiqueta.get(norma_o, norma_o)} ({art_ley(art_o)}) · "
+                    ley_o = etiqueta.get(norma_o, norma_o)
+                    md.append(f"- vigencia: {r['fecha_vigencia']} · {enlace_nodo(ley_o, ley_o)} "
+                              f"({enlace_nodo(art_ley(art_o), f'{ley_o} — {art_ley(art_o)}')}) · "
                               f"{num} · {tipo} · {r['estado']} · {r['metodo']} · idParte {r['fuente_id_parte']}"
                               + (f" · **superada** por {etiqueta.get(sup.group(1), sup.group(1))} {sup.group(2)} "
                                  f"({sup.group(3)}), que sustituyó el artículo completo" if sup else ""))

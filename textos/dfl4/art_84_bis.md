@@ -6,6 +6,7 @@
 - **Vigencia:** vigente
 - **Cobertura de la historia:** completa
 - **Bloque:** nucleo (validado) — Título III: De los Sistemas de Transmisión Eléctrica / Capítulo II: De la Planificación Energética y de la Transmisión
+- **Nodo en el grafo:** [DFL 4 de 2006 (LGSE) — art. 84 bis](../../graphify-out/obsidian/DFL%204%20de%202006%20%28LGSE%29%20%E2%80%94%20art.%2084%20bis.md)
 
 ## Texto vigente
 
@@ -21,7 +22,7 @@ El reglamento establecerá el procedimiento, contenidos y materias necesarias pa
 
 ## Historia de modificaciones
 
-- vigencia: 2026-02-13 · Ley 21.804 de 2026 (art. único) · N° 6 · agrega · verificada · regla · idParte 10583265
+- vigencia: 2026-02-13 · [Ley 21.804 de 2026](../../graphify-out/obsidian/Ley%2021.804%20de%202026.md) ([art. único](../../graphify-out/obsidian/Ley%2021.804%20de%202026%20%E2%80%94%20art.%20%C3%BAnico.md)) · N° 6 · agrega · verificada · regla · idParte 10583265
 
 ## Texto modificatorio
 

@@ -6,6 +6,7 @@
 - **Vigencia:** vigente
 - **Cobertura de la historia:** completa
 - **Bloque:** fuera del bloque de transmisión
+- **Nodo en el grafo:** [DFL 4 de 2006 (LGSE) — art. 146 bis](../../graphify-out/obsidian/DFL%204%20de%202006%20%28LGSE%29%20%E2%80%94%20art.%20146%20bis.md)
 
 ## Texto vigente
 
@@ -17,8 +18,8 @@ Asimismo, una vez iniciado cualquier tipo de juicio entre las partes de un contr
 
 ## Historia de modificaciones
 
-- vigencia: 2007-09-14 · Ley 20.220 de 2007 (art. único) · N° 4 · agrega · verificada · regla · idParte 7353232
-- vigencia: 2015-01-29 · Ley 20.805 de 2015 (art. único) · N° 13 · agrega · verificada · regla · idParte 9555456
+- vigencia: 2007-09-14 · [Ley 20.220 de 2007](../../graphify-out/obsidian/Ley%2020.220%20de%202007.md) ([art. único](../../graphify-out/obsidian/Ley%2020.220%20de%202007%20%E2%80%94%20art.%20%C3%BAnico.md)) · N° 4 · agrega · verificada · regla · idParte 7353232
+- vigencia: 2015-01-29 · [Ley 20.805 de 2015](../../graphify-out/obsidian/Ley%2020.805%20de%202015.md) ([art. único](../../graphify-out/obsidian/Ley%2020.805%20de%202015%20%E2%80%94%20art.%20%C3%BAnico.md)) · N° 13 · agrega · verificada · regla · idParte 9555456
 
 ## Texto modificatorio
 

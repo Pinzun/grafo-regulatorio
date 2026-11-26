@@ -6,6 +6,7 @@
 - **Vigencia:** vigente
 - **Cobertura de la historia:** completa
 - **Bloque:** nucleo (validado) — Título III: De los Sistemas de Transmisión Eléctrica / Capítulo I: Generalidades
+- **Nodo en el grafo:** [DFL 4 de 2006 (LGSE) — art. 79](../../graphify-out/obsidian/DFL%204%20de%202006%20%28LGSE%29%20%E2%80%94%20art.%2079.md)
 
 ## Texto vigente
 
@@ -27,9 +28,9 @@ Sin perjuicio de las atribuciones de los demás organismos contemplados en la le
 
 ## Historia de modificaciones
 
-- vigencia: 2008-04-01 · Ley 20.257 de 2008 (art. único) · N° 1 · agrega · verificada · regla · idParte 8021629 · **superada** por Ley 20.936 de 2016 N° 4 (2016-07-20), que sustituyó el artículo completo
-- vigencia: 2008-04-01 · Ley 20.257 de 2008 (art. único) · N° 1 · reemplaza · verificada · regla · idParte 8021629 · **superada** por Ley 20.936 de 2016 N° 4 (2016-07-20), que sustituyó el artículo completo
-- vigencia: 2016-07-20 · Ley 20.936 de 2016 (art. 1) · N° 4 · reemplaza · verificada · manual · idParte 9716001
+- vigencia: 2008-04-01 · [Ley 20.257 de 2008](../../graphify-out/obsidian/Ley%2020.257%20de%202008.md) ([art. único](../../graphify-out/obsidian/Ley%2020.257%20de%202008%20%E2%80%94%20art.%20%C3%BAnico.md)) · N° 1 · agrega · verificada · regla · idParte 8021629 · **superada** por Ley 20.936 de 2016 N° 4 (2016-07-20), que sustituyó el artículo completo
+- vigencia: 2008-04-01 · [Ley 20.257 de 2008](../../graphify-out/obsidian/Ley%2020.257%20de%202008.md) ([art. único](../../graphify-out/obsidian/Ley%2020.257%20de%202008%20%E2%80%94%20art.%20%C3%BAnico.md)) · N° 1 · reemplaza · verificada · regla · idParte 8021629 · **superada** por Ley 20.936 de 2016 N° 4 (2016-07-20), que sustituyó el artículo completo
+- vigencia: 2016-07-20 · [Ley 20.936 de 2016](../../graphify-out/obsidian/Ley%2020.936%20de%202016.md) ([art. 1](../../graphify-out/obsidian/Ley%2020.936%20de%202016%20%E2%80%94%20art.%201.md)) · N° 4 · reemplaza · verificada · manual · idParte 9716001
   - Revisión: confirmada (revisado: pinzunza 2026-11-25)
 
 ## Texto modificatorio

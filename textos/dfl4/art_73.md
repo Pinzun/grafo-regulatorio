@@ -6,6 +6,7 @@
 - **Vigencia:** vigente
 - **Cobertura de la historia:** completa
 - **Bloque:** nucleo (validado) — Título III: De los Sistemas de Transmisión Eléctrica / Capítulo I: Generalidades
+- **Nodo en el grafo:** [DFL 4 de 2006 (LGSE) — art. 73](../../graphify-out/obsidian/DFL%204%20de%202006%20%28LGSE%29%20%E2%80%94%20art.%2073.md)
 
 ## Texto vigente
 
@@ -21,8 +22,8 @@ El reglamento establecerá las materias necesarias para la debida y eficaz imple
 
 ## Historia de modificaciones
 
-- vigencia: 2009-12-03 · Ley 20.402 de 2009 (art. 13) · N° 10 · reemplaza · verificada · regla · idParte 8811980 · **superada** por Ley 20.936 de 2016 N° 4 (2016-07-20), que sustituyó el artículo completo
-- vigencia: 2016-07-20 · Ley 20.936 de 2016 (art. 1) · N° 4 · reemplaza · verificada · manual · idParte 9716001
+- vigencia: 2009-12-03 · [Ley 20.402 de 2009](../../graphify-out/obsidian/Ley%2020.402%20de%202009.md) ([art. 13](../../graphify-out/obsidian/Ley%2020.402%20de%202009%20%E2%80%94%20art.%2013.md)) · N° 10 · reemplaza · verificada · regla · idParte 8811980 · **superada** por Ley 20.936 de 2016 N° 4 (2016-07-20), que sustituyó el artículo completo
+- vigencia: 2016-07-20 · [Ley 20.936 de 2016](../../graphify-out/obsidian/Ley%2020.936%20de%202016.md) ([art. 1](../../graphify-out/obsidian/Ley%2020.936%20de%202016%20%E2%80%94%20art.%201.md)) · N° 4 · reemplaza · verificada · manual · idParte 9716001
   - Revisión: confirmada (revisado: pinzunza 2026-11-25)
 
 ## Texto modificatorio

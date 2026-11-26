@@ -6,6 +6,7 @@
 - **Vigencia:** vigente
 - **Cobertura de la historia:** completa
 - **Bloque:** nucleo (validado) — Título III: De los Sistemas de Transmisión Eléctrica / Capítulo II: De la Planificación Energética y de la Transmisión
+- **Nodo en el grafo:** [DFL 4 de 2006 (LGSE) — art. 97](../../graphify-out/obsidian/DFL%204%20de%202006%20%28LGSE%29%20%E2%80%94%20art.%2097.md)
 
 ## Texto vigente
 
@@ -27,11 +28,11 @@ A efectos de la inscripción en los registros conservatorios correspondientes de
 
 ## Historia de modificaciones
 
-- vigencia: 2009-12-03 · Ley 20.402 de 2009 (art. 13) · N° 7 · reemplaza · verificada · regla · idParte 8811980 · **superada** por Ley 20.936 de 2016 N° 4 (2016-07-20), que sustituyó el artículo completo
-- vigencia: 2016-07-20 · Ley 20.936 de 2016 (art. 1) · N° 4 · reemplaza · verificada · manual · idParte 9716001
+- vigencia: 2009-12-03 · [Ley 20.402 de 2009](../../graphify-out/obsidian/Ley%2020.402%20de%202009.md) ([art. 13](../../graphify-out/obsidian/Ley%2020.402%20de%202009%20%E2%80%94%20art.%2013.md)) · N° 7 · reemplaza · verificada · regla · idParte 8811980 · **superada** por Ley 20.936 de 2016 N° 4 (2016-07-20), que sustituyó el artículo completo
+- vigencia: 2016-07-20 · [Ley 20.936 de 2016](../../graphify-out/obsidian/Ley%2020.936%20de%202016.md) ([art. 1](../../graphify-out/obsidian/Ley%2020.936%20de%202016%20%E2%80%94%20art.%201.md)) · N° 4 · reemplaza · verificada · manual · idParte 9716001
   - Revisión: confirmada (revisado: pinzunza 2026-11-25)
-- vigencia: 2023-07-07 · Ley 21.582 de 2023 (art. 10) · N° 6 letra a) · elimina · verificada · regla · idParte 10442092
-- vigencia: 2023-07-07 · Ley 21.582 de 2023 (art. 10) · N° 6 letra b) · agrega · verificada · regla · idParte 10442092
+- vigencia: 2023-07-07 · [Ley 21.582 de 2023](../../graphify-out/obsidian/Ley%2021.582%20de%202023.md) ([art. 10](../../graphify-out/obsidian/Ley%2021.582%20de%202023%20%E2%80%94%20art.%2010.md)) · N° 6 letra a) · elimina · verificada · regla · idParte 10442092
+- vigencia: 2023-07-07 · [Ley 21.582 de 2023](../../graphify-out/obsidian/Ley%2021.582%20de%202023.md) ([art. 10](../../graphify-out/obsidian/Ley%2021.582%20de%202023%20%E2%80%94%20art.%2010.md)) · N° 6 letra b) · agrega · verificada · regla · idParte 10442092
 
 ## Texto modificatorio
 

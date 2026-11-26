@@ -6,6 +6,7 @@
 - **Vigencia:** vigente
 - **Cobertura de la historia:** completa
 - **Bloque:** fuera del bloque de transmisión
+- **Nodo en el grafo:** [DFL 4 de 2006 (LGSE) — art. 64](../../graphify-out/obsidian/DFL%204%20de%202006%20%28LGSE%29%20%E2%80%94%20art.%2064.md)
 
 ## Texto vigente
 
@@ -19,8 +20,8 @@ Sin perjuicio de la multa indicada en el inciso anterior, en caso que la comisi�
 
 ## Historia de modificaciones
 
-- vigencia: 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 19 letra a) · reemplaza · verificada · regla · idParte 9377764
-- vigencia: 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 19 letra b) · agrega · verificada · regla · idParte 9377764
+- vigencia: 2013-10-14 · [Ley 20.701 de 2013](../../graphify-out/obsidian/Ley%2020.701%20de%202013.md) ([art. único](../../graphify-out/obsidian/Ley%2020.701%20de%202013%20%E2%80%94%20art.%20%C3%BAnico.md)) · N° 19 letra a) · reemplaza · verificada · regla · idParte 9377764
+- vigencia: 2013-10-14 · [Ley 20.701 de 2013](../../graphify-out/obsidian/Ley%2020.701%20de%202013.md) ([art. único](../../graphify-out/obsidian/Ley%2020.701%20de%202013%20%E2%80%94%20art.%20%C3%BAnico.md)) · N° 19 letra b) · agrega · verificada · regla · idParte 9377764
 
 ## Texto modificatorio
 

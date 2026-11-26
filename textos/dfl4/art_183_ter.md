@@ -6,6 +6,7 @@
 - **Vigencia:** vigente
 - **Cobertura de la historia:** completa
 - **Bloque:** fuera del bloque de transmisión
+- **Nodo en el grafo:** [DFL 4 de 2006 (LGSE) — art. 183 ter](../../graphify-out/obsidian/DFL%204%20de%202006%20%28LGSE%29%20%E2%80%94%20art.%20183%20ter.md)
 
 ## Texto vigente
 
@@ -29,7 +30,7 @@ Un reglamento del Ministerio de Energía regulará las materias necesarias para 
 
 ## Historia de modificaciones
 
-- vigencia: 2026-07-31 · Ley 21.833 de 2026 (art. 1) · N° 5 · agrega · verificada · regla · idParte 10604103
+- vigencia: 2026-07-31 · [Ley 21.833 de 2026](../../graphify-out/obsidian/Ley%2021.833%20de%202026.md) ([art. 1](../../graphify-out/obsidian/Ley%2021.833%20de%202026%20%E2%80%94%20art.%201.md)) · N° 5 · agrega · verificada · regla · idParte 10604103
 
 ## Texto modificatorio
 

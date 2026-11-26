@@ -6,6 +6,7 @@
 - **Vigencia:** vigente
 - **Cobertura de la historia:** completa
 - **Bloque:** fuera del bloque de transmisión
+- **Nodo en el grafo:** [DFL 4 de 2006 (LGSE) — art. 176 bis](../../graphify-out/obsidian/DFL%204%20de%202006%20%28LGSE%29%20%E2%80%94%20art.%20176%20bis.md)
 
 ## Texto vigente
 
@@ -21,7 +22,7 @@ La Comisión considerará la lista de los proyectos inscritos en el registro ele
 
 ## Historia de modificaciones
 
-- vigencia: 2026-02-13 · Ley 21.804 de 2026 (art. único) · N° 26 · agrega · verificada · regla · idParte 10583265
+- vigencia: 2026-02-13 · [Ley 21.804 de 2026](../../graphify-out/obsidian/Ley%2021.804%20de%202026.md) ([art. único](../../graphify-out/obsidian/Ley%2021.804%20de%202026%20%E2%80%94%20art.%20%C3%BAnico.md)) · N° 26 · agrega · verificada · regla · idParte 10583265
 
 ## Texto modificatorio
 

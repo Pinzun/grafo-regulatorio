@@ -6,6 +6,7 @@
 - **Vigencia:** vigente
 - **Cobertura de la historia:** completa
 - **Bloque:** fuera del bloque de transmisión
+- **Nodo en el grafo:** [DFL 4 de 2006 (LGSE) — art. 149 quater](../../graphify-out/obsidian/DFL%204%20de%202006%20%28LGSE%29%20%E2%80%94%20art.%20149%20quater.md)
 
 ## Texto vigente
 
@@ -19,10 +20,10 @@ El certificado de inyecciones leídas constituirá título suficiente para acred
 
 ## Historia de modificaciones
 
-- vigencia: 2012-03-22 · Ley 20.571 de 2012 (art. único) · N° 2 · agrega · verificada · regla · idParte 9243750
-- vigencia: 2016-07-20 · Ley 20.936 de 2016 (art. 1) · N° 15 · reemplaza · verificada · regla · idParte 9716001
-- vigencia: 2026-02-13 · Ley 21.804 de 2026 (art. único) · N° 11 letra a) · reemplaza · verificada · regla · idParte 10583265
-- vigencia: 2026-02-13 · Ley 21.804 de 2026 (art. único) · N° 11 letra b) · reemplaza · verificada · regla · idParte 10583265
+- vigencia: 2012-03-22 · [Ley 20.571 de 2012](../../graphify-out/obsidian/Ley%2020.571%20de%202012.md) ([art. único](../../graphify-out/obsidian/Ley%2020.571%20de%202012%20%E2%80%94%20art.%20%C3%BAnico.md)) · N° 2 · agrega · verificada · regla · idParte 9243750
+- vigencia: 2016-07-20 · [Ley 20.936 de 2016](../../graphify-out/obsidian/Ley%2020.936%20de%202016.md) ([art. 1](../../graphify-out/obsidian/Ley%2020.936%20de%202016%20%E2%80%94%20art.%201.md)) · N° 15 · reemplaza · verificada · regla · idParte 9716001
+- vigencia: 2026-02-13 · [Ley 21.804 de 2026](../../graphify-out/obsidian/Ley%2021.804%20de%202026.md) ([art. único](../../graphify-out/obsidian/Ley%2021.804%20de%202026%20%E2%80%94%20art.%20%C3%BAnico.md)) · N° 11 letra a) · reemplaza · verificada · regla · idParte 10583265
+- vigencia: 2026-02-13 · [Ley 21.804 de 2026](../../graphify-out/obsidian/Ley%2021.804%20de%202026.md) ([art. único](../../graphify-out/obsidian/Ley%2021.804%20de%202026%20%E2%80%94%20art.%20%C3%BAnico.md)) · N° 11 letra b) · reemplaza · verificada · regla · idParte 10583265
 
 ## Texto modificatorio
 

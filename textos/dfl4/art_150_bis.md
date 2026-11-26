@@ -6,6 +6,7 @@
 - **Vigencia:** vigente
 - **Cobertura de la historia:** completa
 - **Bloque:** fuera del bloque de transmisión
+- **Nodo en el grafo:** [DFL 4 de 2006 (LGSE) — art. 150 bis](../../graphify-out/obsidian/DFL%204%20de%202006%20%28LGSE%29%20%E2%80%94%20art.%20150%20bis.md)
 
 ## Texto vigente
 
@@ -41,21 +42,21 @@ Donde FP es el factor proporcional antes señalado y PM es la potencia máxima d
 
 ## Historia de modificaciones
 
-- vigencia: 2008-04-01 · Ley 20.257 de 2008 (art. único) · N° 2 · agrega · verificada · regla · idParte 8021629
-- vigencia: 2013-10-22 · Ley 20.698 de 2013 (art. 1) · N° 1 letra a) · reemplaza · verificada · regla · idParte 9380017
-- vigencia: 2013-10-22 · Ley 20.698 de 2013 (art. 1) · N° 1 letra b) · agrega · verificada · regla · idParte 9380017
-- vigencia: 2016-07-20 · Ley 20.936 de 2016 (art. 1) · N° 17 letra a) · reemplaza · verificada · regla · idParte 9716001
-- vigencia: 2016-07-20 · Ley 20.936 de 2016 (art. 1) · N° 17 letra b) · reemplaza · verificada · regla · idParte 9716001
-- vigencia: 2016-07-20 · Ley 20.936 de 2016 (art. 1) · N° 17 letra c) · reemplaza · verificada · regla · idParte 9716001
-- vigencia: 2016-07-20 · Ley 20.936 de 2016 (art. 1) · N° 17 letra d) · reemplaza · verificada · regla · idParte 9716001
-- vigencia: 2016-07-20 · Ley 20.936 de 2016 (art. 1) · N° 17 letra e) i) · reemplaza · verificada · regla · idParte 9716001
-- vigencia: 2016-07-20 · Ley 20.936 de 2016 (art. 1) · N° 17 letra e) ii) · reemplaza · verificada · regla · idParte 9716001
-- vigencia: 2026-02-13 · Ley 21.804 de 2026 (art. único) · N° 12 letra a) i) · reemplaza · verificada · regla · idParte 10583265
-- vigencia: 2026-02-13 · Ley 21.804 de 2026 (art. único) · N° 12 letra a) ii) · reemplaza · verificada · regla · idParte 10583265
-- vigencia: 2026-02-13 · Ley 21.804 de 2026 (art. único) · N° 12 letra b) · reemplaza · verificada · regla · idParte 10583265
-- vigencia: 2026-02-13 · Ley 21.804 de 2026 (art. único) · N° 12 letra c) · elimina · verificada · regla · idParte 10583265
-- vigencia: 2026-02-13 · Ley 21.804 de 2026 (art. único) · N° 12 letra d) i) · reemplaza · verificada · regla · idParte 10583265
-- vigencia: 2026-02-13 · Ley 21.804 de 2026 (art. único) · N° 12 letra d) ii) · elimina · verificada · regla · idParte 10583265
+- vigencia: 2008-04-01 · [Ley 20.257 de 2008](../../graphify-out/obsidian/Ley%2020.257%20de%202008.md) ([art. único](../../graphify-out/obsidian/Ley%2020.257%20de%202008%20%E2%80%94%20art.%20%C3%BAnico.md)) · N° 2 · agrega · verificada · regla · idParte 8021629
+- vigencia: 2013-10-22 · [Ley 20.698 de 2013](../../graphify-out/obsidian/Ley%2020.698%20de%202013.md) ([art. 1](../../graphify-out/obsidian/Ley%2020.698%20de%202013%20%E2%80%94%20art.%201.md)) · N° 1 letra a) · reemplaza · verificada · regla · idParte 9380017
+- vigencia: 2013-10-22 · [Ley 20.698 de 2013](../../graphify-out/obsidian/Ley%2020.698%20de%202013.md) ([art. 1](../../graphify-out/obsidian/Ley%2020.698%20de%202013%20%E2%80%94%20art.%201.md)) · N° 1 letra b) · agrega · verificada · regla · idParte 9380017
+- vigencia: 2016-07-20 · [Ley 20.936 de 2016](../../graphify-out/obsidian/Ley%2020.936%20de%202016.md) ([art. 1](../../graphify-out/obsidian/Ley%2020.936%20de%202016%20%E2%80%94%20art.%201.md)) · N° 17 letra a) · reemplaza · verificada · regla · idParte 9716001
+- vigencia: 2016-07-20 · [Ley 20.936 de 2016](../../graphify-out/obsidian/Ley%2020.936%20de%202016.md) ([art. 1](../../graphify-out/obsidian/Ley%2020.936%20de%202016%20%E2%80%94%20art.%201.md)) · N° 17 letra b) · reemplaza · verificada · regla · idParte 9716001
+- vigencia: 2016-07-20 · [Ley 20.936 de 2016](../../graphify-out/obsidian/Ley%2020.936%20de%202016.md) ([art. 1](../../graphify-out/obsidian/Ley%2020.936%20de%202016%20%E2%80%94%20art.%201.md)) · N° 17 letra c) · reemplaza · verificada · regla · idParte 9716001
+- vigencia: 2016-07-20 · [Ley 20.936 de 2016](../../graphify-out/obsidian/Ley%2020.936%20de%202016.md) ([art. 1](../../graphify-out/obsidian/Ley%2020.936%20de%202016%20%E2%80%94%20art.%201.md)) · N° 17 letra d) · reemplaza · verificada · regla · idParte 9716001
+- vigencia: 2016-07-20 · [Ley 20.936 de 2016](../../graphify-out/obsidian/Ley%2020.936%20de%202016.md) ([art. 1](../../graphify-out/obsidian/Ley%2020.936%20de%202016%20%E2%80%94%20art.%201.md)) · N° 17 letra e) i) · reemplaza · verificada · regla · idParte 9716001
+- vigencia: 2016-07-20 · [Ley 20.936 de 2016](../../graphify-out/obsidian/Ley%2020.936%20de%202016.md) ([art. 1](../../graphify-out/obsidian/Ley%2020.936%20de%202016%20%E2%80%94%20art.%201.md)) · N° 17 letra e) ii) · reemplaza · verificada · regla · idParte 9716001
+- vigencia: 2026-02-13 · [Ley 21.804 de 2026](../../graphify-out/obsidian/Ley%2021.804%20de%202026.md) ([art. único](../../graphify-out/obsidian/Ley%2021.804%20de%202026%20%E2%80%94%20art.%20%C3%BAnico.md)) · N° 12 letra a) i) · reemplaza · verificada · regla · idParte 10583265
+- vigencia: 2026-02-13 · [Ley 21.804 de 2026](../../graphify-out/obsidian/Ley%2021.804%20de%202026.md) ([art. único](../../graphify-out/obsidian/Ley%2021.804%20de%202026%20%E2%80%94%20art.%20%C3%BAnico.md)) · N° 12 letra a) ii) · reemplaza · verificada · regla · idParte 10583265
+- vigencia: 2026-02-13 · [Ley 21.804 de 2026](../../graphify-out/obsidian/Ley%2021.804%20de%202026.md) ([art. único](../../graphify-out/obsidian/Ley%2021.804%20de%202026%20%E2%80%94%20art.%20%C3%BAnico.md)) · N° 12 letra b) · reemplaza · verificada · regla · idParte 10583265
+- vigencia: 2026-02-13 · [Ley 21.804 de 2026](../../graphify-out/obsidian/Ley%2021.804%20de%202026.md) ([art. único](../../graphify-out/obsidian/Ley%2021.804%20de%202026%20%E2%80%94%20art.%20%C3%BAnico.md)) · N° 12 letra c) · elimina · verificada · regla · idParte 10583265
+- vigencia: 2026-02-13 · [Ley 21.804 de 2026](../../graphify-out/obsidian/Ley%2021.804%20de%202026.md) ([art. único](../../graphify-out/obsidian/Ley%2021.804%20de%202026%20%E2%80%94%20art.%20%C3%BAnico.md)) · N° 12 letra d) i) · reemplaza · verificada · regla · idParte 10583265
+- vigencia: 2026-02-13 · [Ley 21.804 de 2026](../../graphify-out/obsidian/Ley%2021.804%20de%202026.md) ([art. único](../../graphify-out/obsidian/Ley%2021.804%20de%202026%20%E2%80%94%20art.%20%C3%BAnico.md)) · N° 12 letra d) ii) · elimina · verificada · regla · idParte 10583265
 
 ## Texto modificatorio
 

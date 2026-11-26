@@ -6,6 +6,7 @@
 - **Vigencia:** vigente
 - **Cobertura de la historia:** completa
 - **Bloque:** fuera del bloque de transmisión
+- **Nodo en el grafo:** [DFL 4 de 2006 (LGSE) — art. 135 ter](../../graphify-out/obsidian/DFL%204%20de%202006%20%28LGSE%29%20%E2%80%94%20art.%20135%20ter.md)
 
 ## Texto vigente
 
@@ -25,8 +26,8 @@ En caso que el suministrador adjudicado y contratado vea retrasada la interconex
 
 ## Historia de modificaciones
 
-- vigencia: 2015-01-29 · Ley 20.805 de 2015 (art. único) · N° 10 · agrega · verificada · regla · idParte 9555456
-- vigencia: 2016-07-20 · Ley 20.936 de 2016 (art. 1) · N° 9 · reemplaza · verificada · regla · idParte 9716001
+- vigencia: 2015-01-29 · [Ley 20.805 de 2015](../../graphify-out/obsidian/Ley%2020.805%20de%202015.md) ([art. único](../../graphify-out/obsidian/Ley%2020.805%20de%202015%20%E2%80%94%20art.%20%C3%BAnico.md)) · N° 10 · agrega · verificada · regla · idParte 9555456
+- vigencia: 2016-07-20 · [Ley 20.936 de 2016](../../graphify-out/obsidian/Ley%2020.936%20de%202016.md) ([art. 1](../../graphify-out/obsidian/Ley%2020.936%20de%202016%20%E2%80%94%20art.%201.md)) · N° 9 · reemplaza · verificada · regla · idParte 9716001
 
 ## Texto modificatorio
 

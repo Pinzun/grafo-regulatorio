@@ -6,6 +6,7 @@
 - **Vigencia:** vigente
 - **Cobertura de la historia:** completa
 - **Bloque:** nucleo (validado) — Título III: De los Sistemas de Transmisión Eléctrica / Capítulo II: De la Planificación Energética y de la Transmisión
+- **Nodo en el grafo:** [DFL 4 de 2006 (LGSE) — art. 91 bis](../../graphify-out/obsidian/DFL%204%20de%202006%20%28LGSE%29%20%E2%80%94%20art.%2091%20bis.md)
 
 ## Texto vigente
 
@@ -75,7 +76,7 @@ El reglamento desarrollará las demás materias, requisitos, condiciones y proce
 
 ## Historia de modificaciones
 
-- vigencia: 2024-12-27 · Ley 21.721 de 2024 (art. único) · N° 4 · agrega · verificada · regla · idParte 10530118
+- vigencia: 2024-12-27 · [Ley 21.721 de 2024](../../graphify-out/obsidian/Ley%2021.721%20de%202024.md) ([art. único](../../graphify-out/obsidian/Ley%2021.721%20de%202024%20%E2%80%94%20art.%20%C3%BAnico.md)) · N° 4 · agrega · verificada · regla · idParte 10530118
 
 - Otra relación: Res. 156 exenta de 2025 **implementa** este artículo (verificada, regla, idParte 10544467).
 

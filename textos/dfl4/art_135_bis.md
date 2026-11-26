@@ -6,6 +6,7 @@
 - **Vigencia:** vigente
 - **Cobertura de la historia:** completa
 - **Bloque:** fuera del bloque de transmisión
+- **Nodo en el grafo:** [DFL 4 de 2006 (LGSE) — art. 135 bis](../../graphify-out/obsidian/DFL%204%20de%202006%20%28LGSE%29%20%E2%80%94%20art.%20135%20bis.md)
 
 ## Texto vigente
 
@@ -15,7 +16,7 @@ Artículo 135º bis.- En los casos debidamente justificados en el informe final 
 
 ## Historia de modificaciones
 
-- vigencia: 2015-01-29 · Ley 20.805 de 2015 (art. único) · N° 9 · agrega · verificada · regla · idParte 9555456
+- vigencia: 2015-01-29 · [Ley 20.805 de 2015](../../graphify-out/obsidian/Ley%2020.805%20de%202015.md) ([art. único](../../graphify-out/obsidian/Ley%2020.805%20de%202015%20%E2%80%94%20art.%20%C3%BAnico.md)) · N° 9 · agrega · verificada · regla · idParte 9555456
 
 ## Texto modificatorio
 

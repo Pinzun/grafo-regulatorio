@@ -6,6 +6,7 @@
 - **Vigencia:** vigente
 - **Cobertura de la historia:** completa
 - **Bloque:** fuera del bloque de transmisión
+- **Nodo en el grafo:** [DFL 4 de 2006 (LGSE) — art. 149 quinquies](../../graphify-out/obsidian/DFL%204%20de%202006%20%28LGSE%29%20%E2%80%94%20art.%20149%20quinquies.md)
 
 ## Texto vigente
 
@@ -21,7 +22,7 @@ El Servicio de Impuestos Internos establecerá mediante resolución, la forma y 
 
 ## Historia de modificaciones
 
-- vigencia: 2012-03-22 · Ley 20.571 de 2012 (art. único) · N° 2 · agrega · verificada · regla · idParte 9243750
+- vigencia: 2012-03-22 · [Ley 20.571 de 2012](../../graphify-out/obsidian/Ley%2020.571%20de%202012.md) ([art. único](../../graphify-out/obsidian/Ley%2020.571%20de%202012%20%E2%80%94%20art.%20%C3%BAnico.md)) · N° 2 · agrega · verificada · regla · idParte 9243750
 
 ## Texto modificatorio
 

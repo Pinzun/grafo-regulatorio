@@ -6,6 +6,7 @@
 - **Vigencia:** vigente
 - **Cobertura de la historia:** completa
 - **Bloque:** fuera del bloque de transmisión
+- **Nodo en el grafo:** [DFL 4 de 2006 (LGSE) — art. 21](../../graphify-out/obsidian/DFL%204%20de%202006%20%28LGSE%29%20%E2%80%94%20art.%2021.md)
 
 ## Texto vigente
 
@@ -23,10 +24,10 @@ En caso de solicitarse la ampliación del área otorgada en una concesión provi
 
 ## Historia de modificaciones
 
-- vigencia: 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 4 letra a) · agrega · verificada · regla · idParte 9377764
-- vigencia: 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 4 letra b) · agrega · verificada · regla · idParte 9377764
-- vigencia: 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 4 letra c) · reemplaza · verificada · regla · idParte 9377764
-- vigencia: 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 4 letra d) · agrega · verificada · regla · idParte 9377764
+- vigencia: 2013-10-14 · [Ley 20.701 de 2013](../../graphify-out/obsidian/Ley%2020.701%20de%202013.md) ([art. único](../../graphify-out/obsidian/Ley%2020.701%20de%202013%20%E2%80%94%20art.%20%C3%BAnico.md)) · N° 4 letra a) · agrega · verificada · regla · idParte 9377764
+- vigencia: 2013-10-14 · [Ley 20.701 de 2013](../../graphify-out/obsidian/Ley%2020.701%20de%202013.md) ([art. único](../../graphify-out/obsidian/Ley%2020.701%20de%202013%20%E2%80%94%20art.%20%C3%BAnico.md)) · N° 4 letra b) · agrega · verificada · regla · idParte 9377764
+- vigencia: 2013-10-14 · [Ley 20.701 de 2013](../../graphify-out/obsidian/Ley%2020.701%20de%202013.md) ([art. único](../../graphify-out/obsidian/Ley%2020.701%20de%202013%20%E2%80%94%20art.%20%C3%BAnico.md)) · N° 4 letra c) · reemplaza · verificada · regla · idParte 9377764
+- vigencia: 2013-10-14 · [Ley 20.701 de 2013](../../graphify-out/obsidian/Ley%2020.701%20de%202013.md) ([art. único](../../graphify-out/obsidian/Ley%2020.701%20de%202013%20%E2%80%94%20art.%20%C3%BAnico.md)) · N° 4 letra d) · agrega · verificada · regla · idParte 9377764
 
 ## Texto modificatorio
 

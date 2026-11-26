@@ -6,6 +6,7 @@
 - **Vigencia:** vigente
 - **Cobertura de la historia:** completa
 - **Bloque:** fuera del bloque de transmisión
+- **Nodo en el grafo:** [DFL 4 de 2006 (LGSE) — art. 47](../../graphify-out/obsidian/DFL%204%20de%202006%20%28LGSE%29%20%E2%80%94%20art.%2047.md)
 
 ## Texto vigente
 
@@ -25,8 +26,8 @@ El Presidente de la República podrá declarar la caducidad de una concesión po
 
 ## Historia de modificaciones
 
-- vigencia: 2009-12-03 · Ley 20.402 de 2009 (art. 13) · N° 5 · reemplaza · verificada · regla · idParte 8811980
-- vigencia: 2009-12-03 · Ley 20.402 de 2009 (art. 13) · N° 8 · reemplaza · verificada · regla · idParte 8811980
+- vigencia: 2009-12-03 · [Ley 20.402 de 2009](../../graphify-out/obsidian/Ley%2020.402%20de%202009.md) ([art. 13](../../graphify-out/obsidian/Ley%2020.402%20de%202009%20%E2%80%94%20art.%2013.md)) · N° 5 · reemplaza · verificada · regla · idParte 8811980
+- vigencia: 2009-12-03 · [Ley 20.402 de 2009](../../graphify-out/obsidian/Ley%2020.402%20de%202009.md) ([art. 13](../../graphify-out/obsidian/Ley%2020.402%20de%202009%20%E2%80%94%20art.%2013.md)) · N° 8 · reemplaza · verificada · regla · idParte 8811980
 
 ## Texto modificatorio
 

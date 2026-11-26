@@ -6,6 +6,7 @@
 - **Vigencia:** vigente
 - **Cobertura de la historia:** completa
 - **Bloque:** nucleo (validado) — Título III: De los Sistemas de Transmisión Eléctrica / Capítulo II: De la Planificación Energética y de la Transmisión
+- **Nodo en el grafo:** [DFL 4 de 2006 (LGSE) — art. 91](../../graphify-out/obsidian/DFL%204%20de%202006%20%28LGSE%29%20%E2%80%94%20art.%2091.md)
 
 ## Texto vigente
 
@@ -31,9 +32,9 @@ Si no se presentaren discrepancias, dentro de los tres días siguientes al venci
 
 ## Historia de modificaciones
 
-- vigencia: 2016-07-20 · Ley 20.936 de 2016 (art. 1) · N° 4 · reemplaza · verificada · manual · idParte 9716001
+- vigencia: 2016-07-20 · [Ley 20.936 de 2016](../../graphify-out/obsidian/Ley%2020.936%20de%202016.md) ([art. 1](../../graphify-out/obsidian/Ley%2020.936%20de%202016%20%E2%80%94%20art.%201.md)) · N° 4 · reemplaza · verificada · manual · idParte 9716001
   - Revisión: confirmada (revisado: pinzunza 2026-11-25)
-- vigencia: 2024-12-27 · Ley 21.721 de 2024 (art. único) · N° 3 · agrega · verificada · regla · idParte 10530118
+- vigencia: 2024-12-27 · [Ley 21.721 de 2024](../../graphify-out/obsidian/Ley%2021.721%20de%202024.md) ([art. único](../../graphify-out/obsidian/Ley%2021.721%20de%202024%20%E2%80%94%20art.%20%C3%BAnico.md)) · N° 3 · agrega · verificada · regla · idParte 10530118
 
 ## Texto modificatorio
 

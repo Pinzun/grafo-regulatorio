@@ -6,6 +6,7 @@
 - **Vigencia:** vigente
 - **Cobertura de la historia:** completa
 - **Bloque:** fuera del bloque de transmisión
+- **Nodo en el grafo:** [DFL 4 de 2006 (LGSE) — art. 182 bis](../../graphify-out/obsidian/DFL%204%20de%202006%20%28LGSE%29%20%E2%80%94%20art.%20182%20bis.md)
 
 ## Texto vigente
 
@@ -29,7 +30,7 @@ Finalizado el estudio señalado en el inciso anterior, la Comisión emitirá un 
 
 ## Historia de modificaciones
 
-- vigencia: 2019-12-21 · Ley 21.194 de 2019 (art. único) · N° 3 · agrega · verificada · regla · idParte 10083975
+- vigencia: 2019-12-21 · [Ley 21.194 de 2019](../../graphify-out/obsidian/Ley%2021.194%20de%202019.md) ([art. único](../../graphify-out/obsidian/Ley%2021.194%20de%202019%20%E2%80%94%20art.%20%C3%BAnico.md)) · N° 3 · agrega · verificada · regla · idParte 10083975
 
 ## Texto modificatorio
 

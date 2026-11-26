@@ -6,6 +6,7 @@
 - **Vigencia:** vigente
 - **Cobertura de la historia:** completa
 - **Bloque:** revisar (sin validar) — TITULO I Disposiciones Generales
+- **Nodo en el grafo:** [DFL 4 de 2006 (LGSE) — art. 7](../../graphify-out/obsidian/DFL%204%20de%202006%20%28LGSE%29%20%E2%80%94%20art.%207.md)
 
 ## Texto vigente
 
@@ -31,12 +32,12 @@ En todo caso, los propietarios de dichas instalaciones deberán constituir socie
 
 ## Historia de modificaciones
 
-- vigencia: 2016-07-20 · Ley 20.936 de 2016 (art. 1) · N° 1 letra a) · reemplaza · verificada · regla · idParte 9716001
-- vigencia: 2016-07-20 · Ley 20.936 de 2016 (art. 1) · N° 1 letra b) · agrega · verificada · regla · idParte 9716001
-- vigencia: 2016-07-20 · Ley 20.936 de 2016 (art. 1) · N° 1 letra b) · reemplaza · verificada · regla · idParte 9716001
-- vigencia: 2016-07-20 · Ley 20.936 de 2016 (art. 1) · N° 1 letra c) · reemplaza · verificada · regla · idParte 9716001
-- vigencia: 2016-07-20 · Ley 20.936 de 2016 (art. 1) · N° 1 letra d) · reemplaza · verificada · regla · idParte 9716001
-- vigencia: 2016-07-20 · Ley 20.936 de 2016 (art. 1) · N° 1 letra e) · reemplaza · verificada · regla · idParte 9716001
+- vigencia: 2016-07-20 · [Ley 20.936 de 2016](../../graphify-out/obsidian/Ley%2020.936%20de%202016.md) ([art. 1](../../graphify-out/obsidian/Ley%2020.936%20de%202016%20%E2%80%94%20art.%201.md)) · N° 1 letra a) · reemplaza · verificada · regla · idParte 9716001
+- vigencia: 2016-07-20 · [Ley 20.936 de 2016](../../graphify-out/obsidian/Ley%2020.936%20de%202016.md) ([art. 1](../../graphify-out/obsidian/Ley%2020.936%20de%202016%20%E2%80%94%20art.%201.md)) · N° 1 letra b) · agrega · verificada · regla · idParte 9716001
+- vigencia: 2016-07-20 · [Ley 20.936 de 2016](../../graphify-out/obsidian/Ley%2020.936%20de%202016.md) ([art. 1](../../graphify-out/obsidian/Ley%2020.936%20de%202016%20%E2%80%94%20art.%201.md)) · N° 1 letra b) · reemplaza · verificada · regla · idParte 9716001
+- vigencia: 2016-07-20 · [Ley 20.936 de 2016](../../graphify-out/obsidian/Ley%2020.936%20de%202016.md) ([art. 1](../../graphify-out/obsidian/Ley%2020.936%20de%202016%20%E2%80%94%20art.%201.md)) · N° 1 letra c) · reemplaza · verificada · regla · idParte 9716001
+- vigencia: 2016-07-20 · [Ley 20.936 de 2016](../../graphify-out/obsidian/Ley%2020.936%20de%202016.md) ([art. 1](../../graphify-out/obsidian/Ley%2020.936%20de%202016%20%E2%80%94%20art.%201.md)) · N° 1 letra d) · reemplaza · verificada · regla · idParte 9716001
+- vigencia: 2016-07-20 · [Ley 20.936 de 2016](../../graphify-out/obsidian/Ley%2020.936%20de%202016.md) ([art. 1](../../graphify-out/obsidian/Ley%2020.936%20de%202016%20%E2%80%94%20art.%201.md)) · N° 1 letra e) · reemplaza · verificada · regla · idParte 9716001
 
 ## Texto modificatorio
 

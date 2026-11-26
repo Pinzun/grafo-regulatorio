@@ -6,6 +6,7 @@
 - **Vigencia:** vigente
 - **Cobertura de la historia:** completa
 - **Bloque:** fuera del bloque de transmisión
+- **Nodo en el grafo:** [DFL 4 de 2006 (LGSE) — art. 191 bis](../../graphify-out/obsidian/DFL%204%20de%202006%20%28LGSE%29%20%E2%80%94%20art.%20191%20bis.md)
 
 ## Texto vigente
 
@@ -17,7 +18,7 @@ Los referidos descuentos deberán ser contabilizados por la Comisión Nacional d
 
 ## Historia de modificaciones
 
-- vigencia: 2024-02-19 · Ley 21.657 de 2024 (art. único) · texto completo · agrega · verificada · regla · idParte 10490290
+- vigencia: 2024-02-19 · [Ley 21.657 de 2024](../../graphify-out/obsidian/Ley%2021.657%20de%202024.md) ([art. único](../../graphify-out/obsidian/Ley%2021.657%20de%202024%20%E2%80%94%20art.%20%C3%BAnico.md)) · texto completo · agrega · verificada · regla · idParte 10490290
 
 ## Texto modificatorio
 

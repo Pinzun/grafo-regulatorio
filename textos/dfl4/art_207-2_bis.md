@@ -6,6 +6,7 @@
 - **Vigencia:** vigente
 - **Cobertura de la historia:** completa
 - **Bloque:** fuera del bloque de transmisión
+- **Nodo en el grafo:** [DFL 4 de 2006 (LGSE) — art. 207-2 bis](../../graphify-out/obsidian/DFL%204%20de%202006%20%28LGSE%29%20%E2%80%94%20art.%20207-2%20bis.md)
 
 ## Texto vigente
 
@@ -17,7 +18,7 @@ Asimismo, las empresas deberán habilitar y mantener operativa una línea telef�
 
 ## Historia de modificaciones
 
-- vigencia: 2026-02-05 · Ley 21.806 de 2026 (art. 101) · N° 2 · agrega · verificada · regla · idParte 10582354
+- vigencia: 2026-02-05 · [Ley 21.806 de 2026](../../graphify-out/obsidian/Ley%2021.806%20de%202026.md) ([art. 101](../../graphify-out/obsidian/Ley%2021.806%20de%202026%20%E2%80%94%20art.%20101.md)) · N° 2 · agrega · verificada · regla · idParte 10582354
 
 ## Texto modificatorio
 
