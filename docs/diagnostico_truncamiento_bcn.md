@@ -50,7 +50,10 @@ misma `fechaVersion` del XML, y se convierte a Markdown leyendo su capa de texto
 - Fidelidad: todos los artículos completos del XML aparecen literalmente en la Markdown, salvo 3 del
   DFL 4, que se explican por defectos de origen.
 
-Pendiente: adaptar `scripts/extraer_modificaciones.py` para usar el PDF cuando el XML esté truncado.
+Implementado en `scripts/extraer_modificaciones.py`: cuando el XML está truncado, usa el artículo del
+PDF (verifica que el XML sea prefijo exacto del PDF) y cita el PDF solo en los numerales que no caben en
+el XML. Resultado: 0 modificaciones pendientes; 204 de 205 aristas `modifica` corroboradas por notas BCN
+del DFL 4 (`datos/derivados/contraste_notas_bcn.csv`).
 
 ## Otras vías legítimas
 

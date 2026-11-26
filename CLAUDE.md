@@ -4,20 +4,16 @@ Grafo de conocimiento de normativa eléctrica chilena: DFL 4 (LGSE), Ley 20.936,
 Res. Ex. 156/2025. La fuente de verdad es `ontologia/ontologia.md`: no inventes tipos de nodo ni de
 relación; si hace falta uno nuevo, pregúntalo.
 
-## ⚠️ Cobertura parcial
+## Cobertura
 
-El XML de la BCN trunca algunos artículos (ver `docs/diagnostico_truncamiento_bcn.md`). Hoy:
+Las 4 normas tienen hoy `cobertura` completa. Los artículos que el XML de la BCN trunca se toman del
+PDF oficial (`datos/raw/pdf/`, ver `docs/diagnostico_truncamiento_bcn.md`), y cada arista indica en
+`fuente_url` si salió del XML o del PDF. Si una norma nueva queda `parcial` (atributo `cobertura` del
+nodo), **adviértelo siempre** al responder qué artículos modificó, y menciona los candidatos de
+`datos/derivados/candidatos_por_fechaversion.csv`, que no son aristas.
 
-| Norma | Cobertura | Pendientes |
-|---|---|---|
-| Ley 21.721 | parcial | 6 modificaciones al DFL 4 sin extraer |
-| Ley 20.936 | parcial | 66 modificaciones al DFL 4 sin extraer |
-| DFL 4 | parcial | 0 pendientes; arts. 34 bis y 161 con texto truncado |
-| Res. Ex. 156 | completa | — |
-
-Al responder "qué artículos modificó X", **advierte siempre si la norma tiene cobertura parcial**
-(atributo `cobertura` del nodo) y menciona los candidatos de
-`datos/derivados/candidatos_por_fechaversion.csv`, que **no** son aristas del grafo.
+Las 52 aristas `modifica` de la Ley 20.936 sobre los arts. 73-122 son `inferida`: el N° 4 sustituye el
+Título III completo y no dice qué artículo reemplaza a cuál. Dilo al citarlas.
 
 ## Cómo consultar el grafo (`graphify-out/graph.json`)
 
@@ -33,6 +29,9 @@ Usa `.venv/bin/graphify` con los nombres de nodo exactos (etiquetas), por ejempl
   palabras, y una pregunta amplia devuelve casi todo el grafo. No la uses para preguntas sobre relaciones.
 - Una norma llega a sus artículos por `contiene`, y sus artículos a los del DFL 4 por `modifica`. Para
   "qué modificó la Ley X", parte del nodo de su artículo modificatorio (`… — art. único`, `… — art. 1`).
+- **Preguntas de intersección** ("artículos tocados por ambas leyes"): `path` muestra solo un camino
+  aunque avise "N equal-length routes"; para la lista completa compara los `explain --all` de ambos artículos
+  modificatorios.
 - Lee los atributos de la arista: `estado` (verificada/inferida), `metodo` (regla/llm/manual),
   `observaciones` (motivo si es inferida) y `source_location` (idParte en la BCN). Cita idParte al responder.
 
