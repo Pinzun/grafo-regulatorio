@@ -98,9 +98,21 @@ Se regeneran solos con `construir_grafo.py`; no los edites a mano.
 La etiqueta de la modificación es `N° k` (numeral), `letra a)` (Ley 20.273, literales sin numerales) o
 `texto completo` (Leyes 20.897, 21.076, 21.657: el artículo modificatorio es un solo cambio).
 
-El XML BCN incrusta algunas tablas como imagen dentro de `<Texto>` (DFL 4 art. 157, Ley 20.928): el texto
-leído se corta ahí sin señal. `cortado_en_imagen()` lo detecta y el texto se toma del PDF (la tabla tampoco
-está como texto en el PDF). Prueba: `python3 -I tests/test_cortes_tabla.py`.
+El XML BCN incrusta algunas tablas como imagen dentro de `<Texto>`: el texto leído se corta ahí sin señal.
+`cortado_en_imagen()` lo detecta y el texto se toma del PDF (la tabla tampoco está como texto en el PDF).
+Prueba: `python3 -I tests/test_cortes_tabla.py`.
+
+**Tablas como imagen.** 15 imágenes (13 distintas) en 10 artículos: DFL 4 art. 157 (2, las mismas de la
+Ley 20.928 art. único), Ley 20.936 art. vigesimoquinto (3), Ley 21.647 arts. 28 y 52, Ley 21.806 arts. 8, 44,
+58, 60 (2) y 63. Están en `datos/raw/imagenes/<norma>__art_<n>__img<k>.jpg` (`imagenes.csv`). Cada una se
+transcribió en dos pasadas independientes en `datos/derivados/transcripciones/`: `*.ocr.md` (OCR
+determinista) y `*.vision.md` (lectura visual con LLM; es la que se usa). Las diferencias celda por celda
+están en `datos/derivados/transcripciones_discrepancias.csv`. Las transcripciones aparecen en la sección
+"Tabla (transcripción)" de `textos/dfl4/art_157.md` y dentro del `texto` de los nodos (marcadas
+`[Tabla k: transcripción …]`). Son **automáticas, sin validar** hasta que el usuario agregue la fila en
+`ontologia/transcripciones_validadas.csv` (`articulo,imagen,revisado: <persona> <AAAA-MM-DD>`). Al citar
+una tabla, di su estado y remite a la imagen original. '←' / '↑' = celda combinada con la de la
+izquierda / la de arriba.
 
 El "artículo trigésimo" del DFL 4 es un transitorio que agregó la Ley 21.647 N° 2, aunque el XML BCN lo marca
 `no transitorio`: no es nodo y su inserción está en `modificaciones_no_articulo.csv`.
@@ -138,6 +150,11 @@ python3 -I scripts/preparar_revision.py        # agrega aristas inferidas nuevas
 .venv/bin/python scripts/construir_grafo.py    # valida, construye el grafo y regenera bloque y textos/
 .venv/bin/graphify export html                 # graphify-out/graph.html
 ```
+
+Tablas como imagen (solo si cambian los XML): `python3 -I scripts/extraer_imagenes.py`, luego
+`~/envs/ocr/bin/python -I scripts/transcribir_ocr.py` (pasada OCR; necesita numpy, Pillow y tesseract spa),
+escribir a mano o con un LLM la pasada `*.vision.md` de cada imagen nueva y correr
+`python3 -I scripts/comparar_transcripciones.py`. Después, regenerar el grafo.
 
 `construir_grafo.py` se detiene si alguna fila viola la ontología (tipos, extremos, método, estado,
 fuente, cobertura de la norma o cobertura de la historia del artículo). Commits pequeños y con mensaje claro.
