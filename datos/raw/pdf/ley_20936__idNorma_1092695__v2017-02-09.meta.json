@@ -1,0 +1,19 @@
+{
+  "id_norma": "1092695",
+  "fecha_version": "2017-02-09",
+  "nombre": "Ley 20936",
+  "url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=Ley-20936_09-FEB-2017&exportar_con_notas_bcn=True&exportar_con_notas_originales=True&exportar_con_notas_al_pie=True&hddResultadoExportar=1092695.2017-02-09.0.0%23",
+  "fecha_descarga": "2026-11-25",
+  "sha256_pdf": "be23d3e4f13c27f32e5dd8b6ecd27f545bdbb200e87a55a1bdaee9e9938f3b46",
+  "bytes": 486340,
+  "con_notas_bcn": true,
+  "conversion": {
+    "texto": {
+      "parrafos": 762,
+      "notas_bcn": 2,
+      "pdf_ley_chile": true,
+      "salida": "ley_20936__idNorma_1092695__v2017-02-09.md"
+    }
+  },
+  "conversor": "doc2md (motor texto, PyMuPDF; notas BCN por columna x≈458)"
+}

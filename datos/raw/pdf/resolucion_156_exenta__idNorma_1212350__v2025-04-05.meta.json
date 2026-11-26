@@ -1,0 +1,19 @@
+{
+  "id_norma": "1212350",
+  "fecha_version": "2025-04-05",
+  "nombre": "Resolucion 156 exenta",
+  "url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=Resolucion-156-exenta_05-ABR-2025&exportar_con_notas_bcn=True&exportar_con_notas_originales=True&exportar_con_notas_al_pie=True&hddResultadoExportar=1212350.2025-04-05.0.0%23",
+  "fecha_descarga": "2026-11-25",
+  "sha256_pdf": "8afea5e13c2dfcaab785a93a8b284d620f5455315abf9c4bfe70fc5e56059d17",
+  "bytes": 76506,
+  "con_notas_bcn": true,
+  "conversion": {
+    "texto": {
+      "parrafos": 122,
+      "notas_bcn": 0,
+      "pdf_ley_chile": true,
+      "salida": "resolucion_156_exenta__idNorma_1212350__v2025-04-05.md"
+    }
+  },
+  "conversor": "doc2md (motor texto, PyMuPDF; notas BCN por columna x≈458)"
+}

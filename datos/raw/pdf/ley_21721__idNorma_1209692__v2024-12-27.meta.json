@@ -1,0 +1,19 @@
+{
+  "id_norma": "1209692",
+  "fecha_version": "2024-12-27",
+  "nombre": "Ley 21721",
+  "url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=Ley-21721_27-DIC-2024&exportar_con_notas_bcn=True&exportar_con_notas_originales=True&exportar_con_notas_al_pie=True&hddResultadoExportar=1209692.2024-12-27.0.0%23",
+  "fecha_descarga": "2026-11-25",
+  "sha256_pdf": "73eec23402740a6804b1d7739275dae8ed1872d7579ffff677c8a19cfdfb4b2f",
+  "bytes": 73517,
+  "con_notas_bcn": true,
+  "conversion": {
+    "texto": {
+      "parrafos": 106,
+      "notas_bcn": 0,
+      "pdf_ley_chile": true,
+      "salida": "ley_21721__idNorma_1209692__v2024-12-27.md"
+    }
+  },
+  "conversor": "doc2md (motor texto, PyMuPDF; notas BCN por columna x≈458)"
+}
