@@ -41,7 +41,9 @@ Usa `.venv/bin/graphify` con los nombres de nodo exactos (etiquetas), por ejempl
   sobrescribiría `graph.json` con relaciones fuera de la ontología. El grafo se construye solo con los
   scripts de abajo. Para consultar, usa explain/path/query sobre el grafo existente.
 - No edites `ontologia/relaciones.csv` a mano: se regenera. Las revisiones humanas van en
-  `ontologia/revisiones_manuales.csv` (confirmar/descartar, con `revisado: <persona> <AAAA-MM-DD>`).
+  `ontologia/revisiones_manuales.csv`, que `scripts/preparar_revision.py` llena con las aristas inferidas
+  (`accion` vacía = pendiente; `confirmar`/`descartar` + `revisado: <persona> <AAAA-MM-DD>`). Se puede
+  editar en Excel: el extractor acepta `;` o `,` y BOM.
 - No rellenes datos de memoria: si no está en el texto descargado, usa `POR_COMPLETAR`.
 - No intentes saltarte el límite de uso de la BCN ni automatizar la web de Ley Chile (usa JavaScript).
 - Las propuestas de `datos/propuestas/regula_propuestas.csv` (metodo llm) no se cargan sin aprobación.
