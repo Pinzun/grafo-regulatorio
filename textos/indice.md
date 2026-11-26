@@ -219,7 +219,7 @@ Texto consolidado: DFL 4, versión BCN 2026-07-31. Generado por `scripts/generar
 | [145](dfl4/art_145.md) | — | — | vigente |
 | [146](dfl4/art_146.md) | — | Ley 20.402 (2009) | vigente |
 | [146 bis](dfl4/art_146_bis.md) | — | Ley 20.220 (2007), Ley 20.805 (2015) | vigente |
-| [146 ter](dfl4/art_146_ter.md) | — | Ley 20.220 (2007), Ley 20.936 (2016) ⚠️ faltan 20.720 | vigente |
+| [146 ter](dfl4/art_146_ter.md) | — | Ley 20.220 (2007), Ley 20.720 (2014), Ley 20.936 (2016) | vigente |
 | [146 quater](dfl4/art_146_quater.md) | Suprimido | Ley 20.220 (2007), Ley 20.936 (2016) | derogado (vigente hasta 2016-07-20) |
 | [147](dfl4/art_147.md) | — | Ley 20.402 (2009), Ley 20.805 (2015), Ley 21.804 (2026) | vigente |
 | [148](dfl4/art_148.md) | — | — | vigente |
@@ -377,4 +377,4 @@ Texto consolidado: DFL 4, versión BCN 2026-07-31. Generado por `scripts/generar
 
 - Artículos sin texto: ninguno.
 - Artículos cuyo texto consolidado dice solo 'Eliminado/Suprimido' sin marca de derogación en el XML BCN: 188, 189.
-- Artículos con historia incompleta (5): 34 bis (faltan 20.897); 139 bis (faltan 21.076); 146 ter (faltan 20.720); 191 bis (faltan 21.657); 193 (faltan 21.647).
+- Artículos con historia incompleta (4): 34 bis (faltan 20.897); 139 bis (faltan 21.076); 191 bis (faltan 21.657); 193 (faltan 21.647).

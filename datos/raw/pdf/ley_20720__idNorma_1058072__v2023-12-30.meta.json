@@ -1,0 +1,18 @@
+{
+  "id_norma": "1058072",
+  "fecha_version": "2023-12-30",
+  "nombre": "Ley 20720",
+  "url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=Ley-20720_30-DIC-2023&exportar_con_notas_bcn=True&exportar_con_notas_originales=True&exportar_con_notas_al_pie=True&hddResultadoExportar=1058072.2023-12-30.0.0%23",
+  "fecha_descarga": "2026-11-26",
+  "sha256_pdf": "7a764588b4a2fac57430cf127c3a8a4e478f53590bac6b0db62f39b6a9d77924",
+  "bytes": 674059,
+  "con_notas_bcn": true,
+  "conversion": {
+    "texto": {
+      "parrafos": 2051,
+      "notas_bcn": 200,
+      "pdf_ley_chile": true,
+      "salida": "datos/raw/pdf/ley_20720__idNorma_1058072__v2023-12-30.md"
+    }
+  }
+}

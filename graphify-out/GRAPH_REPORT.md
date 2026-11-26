@@ -31,23 +31,23 @@
 | Ley 20.220 de 2007 | completa | 0 | — |
 | Ley 20.571 de 2012 | completa | 0 | — |
 | Ley 20.273 de 2008 | completa | 0 | — |
+| Ley 20.720 de 2014 | completa | 0 | — |
 
 > **Advertencia:** 1 norma(s) con cobertura parcial. Las respuestas sobre qué artículos modificó una ley pueden estar incompletas; los candidatos pendientes están en `datos/derivados/candidatos_por_fechaversion.csv` y la causa en `docs/diagnostico_truncamiento_bcn.md`.
 
 ## Cobertura de la historia por artículo
 
-239 de 242 artículos del DFL 4 en el grafo tienen historia completa (todas las leyes posteriores al DFL 4 que la BCN anota en el artículo están en el grafo). Detalle de todo el DFL 4 en `datos/derivados/historia_articulos.csv`.
+240 de 242 artículos del DFL 4 en el grafo tienen historia completa (todas las leyes posteriores al DFL 4 que la BCN anota en el artículo están en el grafo). Detalle de todo el DFL 4 en `datos/derivados/historia_articulos.csv`.
 
 | Artículo | Leyes que faltan |
 |---|---|
 | 34 bis | 20897 |
-| 146 ter | 20720 |
 | 193 | 21647 |
 
-Aristas por relación, estado y método: contiene/verificada/regla: 264; deroga/inferida/regla: 2; deroga/verificada/regla: 7; implementa/verificada/regla: 1; modifica/verificada/manual: 52; modifica/verificada/regla: 292
+Aristas por relación, estado y método: contiene/verificada/regla: 265; deroga/inferida/regla: 2; deroga/verificada/regla: 7; implementa/verificada/regla: 1; modifica/verificada/manual: 52; modifica/verificada/regla: 293
 
 ## Summary
-- 288 nodes · 618 edges · 15 communities
+- 290 nodes · 620 edges · 15 communities
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS · INFERRED: 2 edges (avg confidence: 0.7)
 - Token cost: 0 input · 0 output
 
@@ -56,16 +56,16 @@ Aristas por relación, estado y método: contiene/verificada/regla: 264; deroga/
 - Ley 21.804 de 2026 | DFL 4 de 2006 (LGSE): arts. 10-1…199 bis
 - Ley 20.701 de 2013 + Ley 21.582 de 2023 | DFL 4 de 2006 (LGSE): arts. 11…98
 - Ley 20.402 de 2009 | DFL 4 de 2006 (LGSE): arts. 9…220
-- Ley 20.220 de 2007 + Ley 20.805 de 2015 | DFL 4 de 2006 (LGSE): arts. 27…147
+- Ley 20.257 de 2008 + Ley 20.805 de 2015 + Ley 20.928 de 2016 | DFL 4 de 2006 (LGSE): arts.
 - Ley 20.936 de 2016 | DFL 4 de 2006 (LGSE): arts. 7…225
 - Ley 21.304 de 2021 + Ley 21.806 de 2026 | DFL 4 de 2006 (LGSE): arts. 141…207-8
 - Ley 20.571 de 2012 + Ley 21.118 de 2018 + Ley 21.505 de 2022 | DFL 4 de 2006 (LGSE): arts.
 - Ley 21.721 de 2024 + Res. 156 exenta de 2025 | DFL 4 de 2006 (LGSE): arts. 77…115
 - Ley 21.194 de 2019 | DFL 4 de 2006 (LGSE): arts. 8 ter…193
 - Ley 21.472 de 2022 + Ley 21.667 de 2024 + Ley 21.833 de 2026 | DFL 4 de 2006 (LGSE): arts.
-- Ley 20.257 de 2008 + Ley 20.698 de 2013 | DFL 4 de 2006 (LGSE): arts. 79…174 bis
+- Ley 20.220 de 2007 + Ley 20.720 de 2014 | DFL 4 de 2006 (LGSE): arts. 27…146 ter
 - Ley 20.273 de 2008 | DFL 4 de 2006 (LGSE): arts. 213…214
-- Ley 20.928 de 2016 | DFL 4 de 2006 (LGSE): arts. 157…191
+- Ley 20.698 de 2013 | DFL 4 de 2006 (LGSE): arts. 150 bis…174 bis
 - Ley 20.999 de 2017 | DFL 4 de 2006 (LGSE): arts. 209…210
 
 ## God Nodes (most connected - your core abstractions)
@@ -100,7 +100,7 @@ Nodes (62): DFL 4 de 2006 (LGSE), DFL 4 de 2006 (LGSE) — art. 100, DFL 4 de 20
 
 ### Community 1 - "Ley 21.804 de 2026 | DFL 4 de 2006 (LGSE): arts. 10-1…199 bis"
 Cohesion: 0.04
-Nodes (47): Ley 21.804 de 2026, Ley 21.804 de 2026 — art. único, DFL 4 de 2006 (LGSE) — art. 10-1, DFL 4 de 2006 (LGSE) — art. 10-2, DFL 4 de 2006 (LGSE) — art. 10-3, DFL 4 de 2006 (LGSE) — art. 10-4, DFL 4 de 2006 (LGSE) — art. 10-5, DFL 4 de 2006 (LGSE) — art. 10-6 (+39 more)
+Nodes (48): Ley 21.804 de 2026, Ley 21.804 de 2026 — art. único, DFL 4 de 2006 (LGSE) — art. 10-1, DFL 4 de 2006 (LGSE) — art. 10-2, DFL 4 de 2006 (LGSE) — art. 10-3, DFL 4 de 2006 (LGSE) — art. 10-4, DFL 4 de 2006 (LGSE) — art. 10-5, DFL 4 de 2006 (LGSE) — art. 10-6 (+40 more)
 
 ### Community 2 - "Ley 20.701 de 2013 + Ley 21.582 de 2023 | DFL 4 de 2006 (LGSE): arts. 11…98"
 Cohesion: 0.07
@@ -108,11 +108,11 @@ Nodes (30): Ley 20.701 de 2013, Ley 20.701 de 2013 — art. único, Ley 21.582 d
 
 ### Community 3 - "Ley 20.402 de 2009 | DFL 4 de 2006 (LGSE): arts. 9…220"
 Cohesion: 0.07
-Nodes (28): Ley 20.402 de 2009, Ley 20.402 de 2009 — art. 13, DFL 4 de 2006 (LGSE) — art. 112, DFL 4 de 2006 (LGSE) — art. 137, DFL 4 de 2006 (LGSE) — art. 146, DFL 4 de 2006 (LGSE) — art. 150, DFL 4 de 2006 (LGSE) — art. 151, DFL 4 de 2006 (LGSE) — art. 152 (+20 more)
+Nodes (27): Ley 20.402 de 2009, Ley 20.402 de 2009 — art. 13, DFL 4 de 2006 (LGSE) — art. 112, DFL 4 de 2006 (LGSE) — art. 137, DFL 4 de 2006 (LGSE) — art. 146, DFL 4 de 2006 (LGSE) — art. 150, DFL 4 de 2006 (LGSE) — art. 151, DFL 4 de 2006 (LGSE) — art. 152 (+19 more)
 
-### Community 4 - "Ley 20.220 de 2007 + Ley 20.805 de 2015 | DFL 4 de 2006 (LGSE): arts. 27…147"
+### Community 4 - "Ley 20.257 de 2008 + Ley 20.805 de 2015 + Ley 20.928 de 2016 | DFL 4 de 2006 (LGSE): arts."
 Cohesion: 0.10
-Nodes (21): Ley 20.220 de 2007, Ley 20.220 de 2007 — art. único, Ley 20.805 de 2015, Ley 20.805 de 2015 — art. único, DFL 4 de 2006 (LGSE) — art. 108, DFL 4 de 2006 (LGSE) — art. 131, DFL 4 de 2006 (LGSE) — art. 131 bis, DFL 4 de 2006 (LGSE) — art. 131 ter (+13 more)
+Nodes (22): Ley 20.257 de 2008, Ley 20.257 de 2008 — art. único, Ley 20.805 de 2015, Ley 20.805 de 2015 — art. único, Ley 20.928 de 2016, Ley 20.928 de 2016 — art. único, DFL 4 de 2006 (LGSE) — art. 108, DFL 4 de 2006 (LGSE) — art. 131 (+14 more)
 
 ### Community 5 - "Ley 20.936 de 2016 | DFL 4 de 2006 (LGSE): arts. 7…225"
 Cohesion: 0.11
@@ -138,40 +138,40 @@ Nodes (12): Ley 21.194 de 2019, Ley 21.194 de 2019 — art. único, DFL 4 de 200
 Cohesion: 0.24
 Nodes (10): Ley 21.472 de 2022, Ley 21.472 de 2022 — art. 1, Ley 21.667 de 2024, Ley 21.667 de 2024 — art. primero, Ley 21.833 de 2026, Ley 21.833 de 2026 — art. 1, DFL 4 de 2006 (LGSE) — art. 183 ter, DFL 4 de 2006 (LGSE) — art. 212-13 (+2 more)
 
-### Community 11 - "Ley 20.257 de 2008 + Ley 20.698 de 2013 | DFL 4 de 2006 (LGSE): arts. 79…174 bis"
-Cohesion: 0.29
-Nodes (7): Ley 20.257 de 2008, Ley 20.257 de 2008 — art. único, Ley 20.698 de 2013, Ley 20.698 de 2013 — art. 1, DFL 4 de 2006 (LGSE) — art. 150 bis, DFL 4 de 2006 (LGSE) — art. 174 bis, DFL 4 de 2006 (LGSE) — art. 79
+### Community 11 - "Ley 20.220 de 2007 + Ley 20.720 de 2014 | DFL 4 de 2006 (LGSE): arts. 27…146 ter"
+Cohesion: 0.25
+Nodes (8): Ley 20.220 de 2007, Ley 20.220 de 2007 — art. único, Ley 20.720 de 2014, Ley 20.720 de 2014 — art. 391, DFL 4 de 2006 (LGSE) — art. 146 bis, DFL 4 de 2006 (LGSE) — art. 146 quater, DFL 4 de 2006 (LGSE) — art. 146 ter, DFL 4 de 2006 (LGSE) — art. 27
 
 ### Community 12 - "Ley 20.273 de 2008 | DFL 4 de 2006 (LGSE): arts. 213…214"
 Cohesion: 0.50
 Nodes (4): Ley 20.273 de 2008, Ley 20.273 de 2008 — art. 2, DFL 4 de 2006 (LGSE) — art. 213, DFL 4 de 2006 (LGSE) — art. 214
 
-### Community 13 - "Ley 20.928 de 2016 | DFL 4 de 2006 (LGSE): arts. 157…191"
+### Community 13 - "Ley 20.698 de 2013 | DFL 4 de 2006 (LGSE): arts. 150 bis…174 bis"
 Cohesion: 0.50
-Nodes (4): Ley 20.928 de 2016, Ley 20.928 de 2016 — art. único, DFL 4 de 2006 (LGSE) — art. 157, DFL 4 de 2006 (LGSE) — art. 191
+Nodes (4): Ley 20.698 de 2013, Ley 20.698 de 2013 — art. 1, DFL 4 de 2006 (LGSE) — art. 150 bis, DFL 4 de 2006 (LGSE) — art. 174 bis
 
 ### Community 14 - "Ley 20.999 de 2017 | DFL 4 de 2006 (LGSE): arts. 209…210"
 Cohesion: 0.50
 Nodes (4): Ley 20.999 de 2017, Ley 20.999 de 2017 — art. 2, DFL 4 de 2006 (LGSE) — art. 209, DFL 4 de 2006 (LGSE) — art. 210
 
 ## Knowledge Gaps
-- **23 isolated node(s):** `Ley 20.936 de 2016`, `Ley 21.721 de 2024`, `Res. 156 exenta de 2025`, `Ley 21.804 de 2026`, `Ley 21.505 de 2022` (+18 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 23 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **24 isolated node(s):** `Ley 20.936 de 2016`, `Ley 21.721 de 2024`, `Res. 156 exenta de 2025`, `Ley 21.804 de 2026`, `Ley 21.505 de 2022` (+19 more)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 24 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `Ley 20.936 de 2016 — art. 1` connect `Ley 20.936 de 2016 | DFL 4 de 2006 (LGSE): arts. 7…225` to `DFL 4 de 2006 (LGSE) | DFL 4 de 2006 (LGSE): arts. 8 bis…223`, `Ley 21.804 de 2026 | DFL 4 de 2006 (LGSE): arts. 10-1…199 bis`, `Ley 20.701 de 2013 + Ley 21.582 de 2023 | DFL 4 de 2006 (LGSE): arts. 11…98`, `Ley 20.402 de 2009 | DFL 4 de 2006 (LGSE): arts. 9…220`, `Ley 20.220 de 2007 + Ley 20.805 de 2015 | DFL 4 de 2006 (LGSE): arts. 27…147`, `Ley 20.571 de 2012 + Ley 21.118 de 2018 + Ley 21.505 de 2022 | DFL 4 de 2006 (LGSE): arts.`, `Ley 21.721 de 2024 + Res. 156 exenta de 2025 | DFL 4 de 2006 (LGSE): arts. 77…115`, `Ley 21.472 de 2022 + Ley 21.667 de 2024 + Ley 21.833 de 2026 | DFL 4 de 2006 (LGSE): arts.`, `Ley 20.257 de 2008 + Ley 20.698 de 2013 | DFL 4 de 2006 (LGSE): arts. 79…174 bis`, `Ley 20.928 de 2016 | DFL 4 de 2006 (LGSE): arts. 157…191`, `Ley 20.999 de 2017 | DFL 4 de 2006 (LGSE): arts. 209…210`?**
+- **Why does `Ley 20.936 de 2016 — art. 1` connect `Ley 20.936 de 2016 | DFL 4 de 2006 (LGSE): arts. 7…225` to `DFL 4 de 2006 (LGSE) | DFL 4 de 2006 (LGSE): arts. 8 bis…223`, `Ley 21.804 de 2026 | DFL 4 de 2006 (LGSE): arts. 10-1…199 bis`, `Ley 20.701 de 2013 + Ley 21.582 de 2023 | DFL 4 de 2006 (LGSE): arts. 11…98`, `Ley 20.402 de 2009 | DFL 4 de 2006 (LGSE): arts. 9…220`, `Ley 20.257 de 2008 + Ley 20.805 de 2015 + Ley 20.928 de 2016 | DFL 4 de 2006 (LGSE): arts.`, `Ley 20.571 de 2012 + Ley 21.118 de 2018 + Ley 21.505 de 2022 | DFL 4 de 2006 (LGSE): arts.`, `Ley 21.721 de 2024 + Res. 156 exenta de 2025 | DFL 4 de 2006 (LGSE): arts. 77…115`, `Ley 21.472 de 2022 + Ley 21.667 de 2024 + Ley 21.833 de 2026 | DFL 4 de 2006 (LGSE): arts.`, `Ley 20.220 de 2007 + Ley 20.720 de 2014 | DFL 4 de 2006 (LGSE): arts. 27…146 ter`, `Ley 20.698 de 2013 | DFL 4 de 2006 (LGSE): arts. 150 bis…174 bis`, `Ley 20.999 de 2017 | DFL 4 de 2006 (LGSE): arts. 209…210`?**
   _High betweenness centrality (0.002) - this node is a cross-community bridge._
 - **What connects `Ley 20.936 de 2016`, `Ley 21.721 de 2024`, `Res. 156 exenta de 2025` to the rest of the system?**
-  _23 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _24 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `DFL 4 de 2006 (LGSE) | DFL 4 de 2006 (LGSE): arts. 8 bis…223` be split into smaller, more focused modules?**
   _Cohesion score 0.03225806451612903 - nodes in this community are weakly interconnected._
-- **Why does `Ley 21.804 de 2026 — art. único` connect `Ley 21.804 de 2026 | DFL 4 de 2006 (LGSE): arts. 10-1…199 bis` to `Ley 20.402 de 2009 | DFL 4 de 2006 (LGSE): arts. 9…220`, `Ley 20.220 de 2007 + Ley 20.805 de 2015 | DFL 4 de 2006 (LGSE): arts. 27…147`, `Ley 20.936 de 2016 | DFL 4 de 2006 (LGSE): arts. 7…225`, `Ley 20.571 de 2012 + Ley 21.118 de 2018 + Ley 21.505 de 2022 | DFL 4 de 2006 (LGSE): arts.`, `Ley 21.194 de 2019 | DFL 4 de 2006 (LGSE): arts. 8 ter…193`, `Ley 20.257 de 2008 + Ley 20.698 de 2013 | DFL 4 de 2006 (LGSE): arts. 79…174 bis`, `Ley 20.928 de 2016 | DFL 4 de 2006 (LGSE): arts. 157…191`?**
+- **Why does `Ley 21.804 de 2026 — art. único` connect `Ley 21.804 de 2026 | DFL 4 de 2006 (LGSE): arts. 10-1…199 bis` to `Ley 20.402 de 2009 | DFL 4 de 2006 (LGSE): arts. 9…220`, `Ley 20.257 de 2008 + Ley 20.805 de 2015 + Ley 20.928 de 2016 | DFL 4 de 2006 (LGSE): arts.`, `Ley 20.936 de 2016 | DFL 4 de 2006 (LGSE): arts. 7…225`, `Ley 20.571 de 2012 + Ley 21.118 de 2018 + Ley 21.505 de 2022 | DFL 4 de 2006 (LGSE): arts.`, `Ley 21.194 de 2019 | DFL 4 de 2006 (LGSE): arts. 8 ter…193`, `Ley 20.698 de 2013 | DFL 4 de 2006 (LGSE): arts. 150 bis…174 bis`?**
   _High betweenness centrality (0.001) - this node is a cross-community bridge._
 - **Should `Ley 21.804 de 2026 | DFL 4 de 2006 (LGSE): arts. 10-1…199 bis` be split into smaller, more focused modules?**
-  _Cohesion score 0.0425531914893617 - nodes in this community are weakly interconnected._
-- **Why does `Ley 20.402 de 2009 — art. 13` connect `Ley 20.402 de 2009 | DFL 4 de 2006 (LGSE): arts. 9…220` to `Ley 21.804 de 2026 | DFL 4 de 2006 (LGSE): arts. 10-1…199 bis`, `Ley 20.701 de 2013 + Ley 21.582 de 2023 | DFL 4 de 2006 (LGSE): arts. 11…98`, `Ley 20.220 de 2007 + Ley 20.805 de 2015 | DFL 4 de 2006 (LGSE): arts. 27…147`, `Ley 20.936 de 2016 | DFL 4 de 2006 (LGSE): arts. 7…225`, `Ley 21.721 de 2024 + Res. 156 exenta de 2025 | DFL 4 de 2006 (LGSE): arts. 77…115`, `Ley 21.194 de 2019 | DFL 4 de 2006 (LGSE): arts. 8 ter…193`, `Ley 20.999 de 2017 | DFL 4 de 2006 (LGSE): arts. 209…210`?**
+  _Cohesion score 0.041666666666666664 - nodes in this community are weakly interconnected._
+- **Why does `Ley 20.402 de 2009 — art. 13` connect `Ley 20.402 de 2009 | DFL 4 de 2006 (LGSE): arts. 9…220` to `Ley 21.804 de 2026 | DFL 4 de 2006 (LGSE): arts. 10-1…199 bis`, `Ley 20.701 de 2013 + Ley 21.582 de 2023 | DFL 4 de 2006 (LGSE): arts. 11…98`, `Ley 20.257 de 2008 + Ley 20.805 de 2015 + Ley 20.928 de 2016 | DFL 4 de 2006 (LGSE): arts.`, `Ley 20.936 de 2016 | DFL 4 de 2006 (LGSE): arts. 7…225`, `Ley 21.721 de 2024 + Res. 156 exenta de 2025 | DFL 4 de 2006 (LGSE): arts. 77…115`, `Ley 21.194 de 2019 | DFL 4 de 2006 (LGSE): arts. 8 ter…193`, `Ley 20.999 de 2017 | DFL 4 de 2006 (LGSE): arts. 209…210`?**
   _High betweenness centrality (0.001) - this node is a cross-community bridge._
 - **Should `Ley 20.701 de 2013 + Ley 21.582 de 2023 | DFL 4 de 2006 (LGSE): arts. 11…98` be split into smaller, more focused modules?**
   _Cohesion score 0.07126436781609195 - nodes in this community are weakly interconnected._

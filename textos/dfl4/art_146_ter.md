@@ -4,7 +4,7 @@
 - **Versión del texto consolidado:** DFL 4 versión BCN 2026-07-31; última versión de este artículo según la BCN: 2016-07-20
 - **idParte:** 8721941 (https://www.bcn.cl/leychile/navegar?idNorma=258171&idParte=8721941)
 - **Vigencia:** vigente
-- **Cobertura de la historia:** parcial — faltan en el grafo las leyes 20.720
+- **Cobertura de la historia:** completa
 - **Bloque:** fuera del bloque de transmisión
 
 ## Texto vigente
@@ -36,9 +36,18 @@ Lo dispuesto en este artículo se aplicará, asimismo, a aquellos casos en que e
 ## Historia de modificaciones
 
 - 2007-09-14 · Ley 20.220 de 2007 (art. único) · N° 4 · agrega · verificada · regla · idParte 7353232
+- 2014-01-09 · Ley 20.720 de 2014 (art. 391) · N° 1 · reemplaza · verificada · regla · idParte 9399130
+- 2014-01-09 · Ley 20.720 de 2014 (art. 391) · N° 2 · reemplaza · verificada · regla · idParte 9399130
+- 2014-01-09 · Ley 20.720 de 2014 (art. 391) · N° 3 · reemplaza · verificada · regla · idParte 9399130
+- 2014-01-09 · Ley 20.720 de 2014 (art. 391) · N° 4 · reemplaza · verificada · regla · idParte 9399130
+- 2014-01-09 · Ley 20.720 de 2014 (art. 391) · N° 5 · reemplaza · verificada · regla · idParte 9399130
+- 2014-01-09 · Ley 20.720 de 2014 (art. 391) · N° 6 letra a) · reemplaza · verificada · regla · idParte 9399130
+- 2014-01-09 · Ley 20.720 de 2014 (art. 391) · N° 6 letra b) · reemplaza · verificada · regla · idParte 9399130
+- 2014-01-09 · Ley 20.720 de 2014 (art. 391) · N° 6 letra c) · reemplaza · verificada · regla · idParte 9399130
+- 2014-01-09 · Ley 20.720 de 2014 (art. 391) · N° 7 letra a) · reemplaza · verificada · regla · idParte 9399130
+- 2014-01-09 · Ley 20.720 de 2014 (art. 391) · N° 7 letra b) · reemplaza · verificada · regla · idParte 9399130
+- 2014-01-09 · Ley 20.720 de 2014 (art. 391) · N° 8 · reemplaza · verificada · regla · idParte 9399130
 - 2016-07-20 · Ley 20.936 de 2016 (art. 1) · N° 12 · reemplaza · verificada · regla · idParte 9716001
-
-> ⚠️ Historia incompleta: la BCN anota modificaciones de las leyes 20.720, que no están en el grafo.
 
 ## Texto modificatorio
 
@@ -69,6 +78,74 @@ En caso que los bienes se enajenen mediante el mecanismo previsto en el artícul
 En caso que se hubiere acordado enajenar la unidad económica mediante el mecanismo establecido en el artículo 124 del Libro IV del Código de Comercio o mediante licitación pública, y, pese a haberse ofrecido conforme a las bases no se presentaren interesados, se procederá a ofrecerla nuevamente, pudiendo, en tal caso, rebajarse el precio hasta los dos tercios del fijado en aquéllas. Con todo, si se introducen otras modificaciones a las bases en este segundo llamamiento, deberá procederse conforme lo dispone este artículo. Si en una segunda oportunidad tampoco hubiere interesados, continuará la realización de los bienes conforme a las normas pertinentes del Libro IV del Código de Comercio.
 
 Lo dispuesto en este artículo se aplicará, asimismo, a aquellos casos en que la quiebra de una empresa generadora, transmisora o distribuidora se produzca sin estar precedida de una solicitud de quiebra, debiendo el juez, en tal caso, solicitar el informe al que se refiere el inciso segundo, previo a la declaración de quiebra.
+
+### Ley 20.720 de 2014 — art. 391, N° 1
+
+*Fuente: XML (https://www.leychile.cl/Consulta/obtxml?opt=7&idNorma=1058072).*
+
+N° 1. Reemplázanse, en el inciso primero, las palabras iniciales "La quiebra" por "El procedimiento concursal de liquidación", y la frase final "en el Libro IV del Código de Comercio, intitulado "De las Quiebras".", por "en la Ley de Reorganización y Liquidación de Activos de Empresas y Personas.".
+
+### Ley 20.720 de 2014 — art. 391, N° 2
+
+*Fuente: XML (https://www.leychile.cl/Consulta/obtxml?opt=7&idNorma=1058072).*
+
+N° 2. Sustitúyense los incisos segundo, tercero y cuarto, por los siguientes:
+
+"Inmediatamente después de presentada una solicitud de inicio de un procedimiento concursal de liquidación de una empresa generadora, transmisora o distribuidora de energía eléctrica, el secretario del tribunal deberá notificarla a la Superintendencia y a la Comisión, a la brevedad posible, pudiendo hacerlo por sí, o encomendando a otro ministro de fe, para que el tribunal se pronuncie sobre ella previo informe de los organismos indicados, el que deberá señalar si la liquidación concursal compromete o no los objetivos a los que se refiere el artículo 137 o la suficiencia de un sistema eléctrico. Si los compromete, la Superintendencia propondrá al tribunal la designación de un administrador provisional de entre aquellas personas naturales o jurídicas que se encuentren inscritas en un registro público que mantendrá la Superintendencia para tal efecto. El Reglamento establecerá los requisitos y condiciones para integrar el registro público al que se refiere este artículo, junto con las causales de exclusión del mismo. El tribunal también podrá solicitar informe a la Superintendencia de Insolvencia y Reemprendimiento respecto de las materias de su competencia.
+
+De encontrarse comprometidos los objetivos referidos en el artículo 137º o la suficiencia de un sistema eléctrico, la resolución de liquidación ordenará la continuación definitiva de las actividades económicas del deudor, junto con designar al administrador provisional de los bienes comprometidos en la continuación definitiva de actividades económicas del deudor y fijará la remuneración del administrador provisional, la que no podrá exceder en un 50% a la remuneración promedio que percibe un gerente general de empresas del mismo giro, según lo informado por la Superintendencia. Tan pronto asuma su cargo, el administrador provisional deberá levantar un inventario de los activos de la empresa sometida a un procedimiento concursal de liquidación que quedarán comprendidos en la continuación definitiva de actividades económicas del deudor, el que se agregará a los autos una vez aprobado por la Superintendencia. Lo anterior no obsta a los derechos que la ley otorga a la junta de acreedores y a terceros en materia de confección de inventario y de determinación de los bienes materia de la continuación definitiva de actividades económicas del deudor. Cualquier discrepancia u oposición respecto al inventario de activos que quedarán comprendidos en la continuación definitiva de actividades económicas del deudor será resuelta por el juez del procedimiento concursal de liquidación según lo dispuesto en el artículo 3º de la Ley de Reorganización y Liquidación de Activos de Empresas y Personas, quien deberá garantizar que los bienes que queden comprendidos en la continuación definitiva de actividades económicas del deudor permitan el cumplimiento de los objetivos a los que se refiere el artículo 137º y el resguardo de la suficiencia del sistema, para lo cual la Superintendencia y la Comisión remitirán al juez un inventario de los activos que se consideren suficientes a tal efecto. Cuando la continuación definitiva de actividades económicas del deudor comprendiere bienes constituidos en prenda o hipoteca o afectos al derecho legal de retención, se suspenderá el derecho de los acreedores hipotecarios, prendarios y retencionarios para iniciar o proseguir en forma separada las acciones dirigidas a obtener la realización de los bienes comprendidos en la continuación definitiva de actividades económicas del deudor, afectos a la seguridad de sus créditos.
+
+El administrador provisional de los bienes comprendidos en la continuación definitiva de actividades económicas tendrá todas las facultades propias del giro ordinario de la empresa de que se trate, que la ley o sus estatutos señalan al directorio y a sus gerentes. Por su parte, el liquidador tendrá sobre dicha administración las facultades que indica la Ley de Reorganización y Liquidación de Activos de Empresas y Personas, sin perjuicio de las atribuciones que le confiere la ley como administrador de los bienes del deudor sometido a un procedimiento concursal de liquidación no comprendidos en la continuación definitiva de actividades económicas. Será aplicable al administrador provisional lo dispuesto en la Ley de Reorganización y Liquidación de Activos de Empresas y Personas.".
+
+### Ley 20.720 de 2014 — art. 391, N° 3
+
+*Fuente: XML (https://www.leychile.cl/Consulta/obtxml?opt=7&idNorma=1058072).*
+
+N° 3. Sustitúyense, en el inciso quinto, la expresión "síndicos" por "liquidadores", y la frase "los números 1 al 4 del artículo 17 o los numerales 1, 2 y 3 del artículo 24, ambos del Libro IV del Código de Comercio", por la que sigue: "los números 1) al 4) del artículo 17 o los numerales 1), 2), 3) y 4) del artículo 21 de la Ley de Reorganización y Liquidación de Activos de Empresas y Personas".
+
+### Ley 20.720 de 2014 — art. 391, N° 4
+
+*Fuente: XML (https://www.leychile.cl/Consulta/obtxml?opt=7&idNorma=1058072).*
+
+N° 4. Reemplázanse, en el inciso sexto, las expresiones "síndico" por "liquidador"; "de la quiebra" por "del procedimiento concursal de liquidación", y "Superintendencia de Quiebras" por "Superintendencia de Insolvencia y Reemprendimiento".
+
+### Ley 20.720 de 2014 — art. 391, N° 5
+
+*Fuente: XML (https://www.leychile.cl/Consulta/obtxml?opt=7&idNorma=1058072).*
+
+N° 5. Sustitúyese el inciso octavo por el siguiente:
+
+"Los activos que han quedado comprendidos en la continuación definitiva de actividades económicas deberán enajenarse como unidad económica, salvo que los acreedores que reúnan más de la mitad del pasivo con derecho a voto soliciten al juez del procedimiento concursal de liquidación lo contrario, debiendo éste resolver con audiencia de la Superintendencia y de la Comisión a fin de no comprometer los objetivos referidos en el inciso segundo de este artículo. Esta enajenación deberá verificarse dentro de un plazo no superior a dieciocho meses contado desde que la resolución de liquidación cause ejecutoria. La enajenación de los activos como unidad económica podrá llevarse a cabo mediante cualquiera de los mecanismos a los que se refieren los artículos 207 y siguientes de la Ley de Reorganización y Liquidación de Activos de Empresas y Personas. El mecanismo, como así también las bases o condiciones de dicha enajenación como unidad económica, deberán ser acordadas por la junta de acreedores con el voto favorable de los acreedores que reúnan más de la mitad del pasivo del deudor y, en su caso, de acuerdo a lo establecido en el artículo 217 y siguientes de la Ley de Reorganización y Liquidación de Activos de Empresas y Personas.".
+
+### Ley 20.720 de 2014 — art. 391, N° 6
+
+*Fuente: XML (https://www.leychile.cl/Consulta/obtxml?opt=7&idNorma=1058072).*
+
+N° 6. Introdúcense las siguientes modificaciones en el inciso noveno:
+
+a) Reemplázase la mención "en el artículo 124 y siguientes del Libro IV del Código de Comercio", por "en los artículos 217 y siguientes de la Ley de Reorganización y Liquidación de Activos de Empresas y Personas".
+
+b) Sustitúyese la referencia al "artículo 125 del Libro IV del Código de Comercio" por otra al "artículo 217 de la Ley de Reorganización y Liquidación de Activos de Empresas y Personas".
+
+c) Reemplázase la frase "juez de la quiebra según lo dispuesto en el artículo 5º del Libro IV del Código de Comercio", por la siguiente "juez del procedimiento concursal de liquidación, según lo dispuesto en el artículo 3º de la Ley de Reorganización y Liquidación de Activos de Empresas y Personas".
+
+### Ley 20.720 de 2014 — art. 391, N° 7
+
+*Fuente: XML (https://www.leychile.cl/Consulta/obtxml?opt=7&idNorma=1058072).*
+
+N° 7. Modifícase el inciso décimo del modo que sigue::
+
+a) Reemplázase la frase "en el artículo 124 del Libro IV del Código de Comercio", por "en los artículos 217 y siguientes de la Ley de Reorganización y Liquidación de Activos de Empresas y Personas".
+
+b) Sustitúyese la frase final "normas pertinentes del Libro IV del Código de Comercio.", por "normas pertinentes contenidas en la Ley de Reorganización y Liquidación de Activos de Empresas y Personas.".
+
+### Ley 20.720 de 2014 — art. 391, N° 8
+
+*Fuente: XML (https://www.leychile.cl/Consulta/obtxml?opt=7&idNorma=1058072).*
+
+N° 8. Reemplázase el inciso undécimo por el siguiente:
+
+"Lo dispuesto en este artículo se aplicará, asimismo, a aquellos casos en que el procedimiento concursal de liquidación de una empresa generadora, transmisora o distribuidora se produzca sin estar precedida de una solicitud de inicio del procedimiento concursal de liquidación, debiendo el juez, en tal caso, solicitar el informe al que se refiere el inciso segundo, previo a la resolución de liquidación.".
 
 ### Ley 20.936 de 2016 — art. 1, N° 12
 
