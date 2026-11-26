@@ -134,9 +134,24 @@ def main():
         if a["id"] in nodos:
             errores.append(f"nodo duplicado: {a['id']}")
         base = etiquetas_norma.get(a["norma_contenedora"], a["norma_contenedora"])
+        # Cobertura de la historia (solo artículos del DFL 4, que es la norma modificada)
+        ch, falt = a.get("cobertura_historia", ""), a.get("leyes_faltantes", "")
+        if a["norma_contenedora"] == "ley_dfl4_2006":
+            if ch not in coberturas:
+                errores.append(f"nodo {a['id']}: cobertura_historia '{ch}' no válida (válidas: {sorted(coberturas)})")
+            elif (ch == "parcial") != bool(falt):
+                errores.append(f"nodo {a['id']}: cobertura_historia '{ch}' incoherente con leyes_faltantes='{falt}'")
+        # El aviso va en source_location porque es lo que muestran `graphify explain` y `query`
+        loc = f"idParte={a['id_parte']}"
+        if ch == "parcial":
+            loc += " · HISTORIA INCOMPLETA: faltan leyes " + ", ".join(f"{l[:2]}.{l[2:]}" for l in falt.split(";"))
+        elif ch == "completa":
+            loc += " · historia completa"
         nodos[a["id"]] = {
             "id": a["id"], "label": f"{base} — art. {a['numero']}", "file_type": "document",
-            "source_file": "ontologia/nodos_articulos.csv", "source_location": f"idParte={a['id_parte']}",
+            "cobertura_historia": ch, "leyes_modificatorias_bcn": a.get("leyes_modificatorias_bcn", ""),
+            "leyes_faltantes": falt,
+            "source_file": "ontologia/nodos_articulos.csv", "source_location": loc,
             "source_url": a["url_fuente"], "captured_at": None, "author": None, "contributor": None,
             "tipo": a["tipo"], "norma_contenedora": a["norma_contenedora"], "numero": a["numero"],
             "id_parte": a["id_parte"], "fecha_version_bcn": a["fecha_version_bcn"],

@@ -65,6 +65,18 @@ def insertar_cobertura(report, G):
                      "`datos/derivados/candidatos_por_fechaversion.csv` y la causa en "
                      "`docs/diagnostico_truncamiento_bcn.md`.")
         filas.append("")
+    # Historia por artículo del DFL 4 (notas BCN): leyes posteriores al DFL 4 que no están en el grafo
+    arts = [d for _, d in G.nodes(data=True) if d.get("norma_contenedora") == "ley_dfl4_2006"]
+    parc = [d for d in arts if d.get("cobertura_historia") == "parcial"]
+    filas += ["## Cobertura de la historia por artículo", "",
+              f"{len(arts) - len(parc)} de {len(arts)} artículos del DFL 4 en el grafo tienen historia completa "
+              "(todas las leyes posteriores al DFL 4 que la BCN anota en el artículo están en el grafo). "
+              "Detalle de todo el DFL 4 en `datos/derivados/historia_articulos.csv`.", ""]
+    if parc:
+        filas += ["| Artículo | Leyes que faltan |", "|---|---|"]
+        clave = lambda d: [int(x) if x.isdigit() else x for x in d["numero"].replace(" ", "-").split("-")]
+        filas += [f"| {d['numero']} | {d['leyes_faltantes'].replace(';', ', ')} |" for d in sorted(parc, key=clave)]
+        filas.append("")
     metodos = Counter((d["relation"], d.get("estado"), d.get("metodo")) for _, _, d in G.edges(data=True))
     filas += ["Aristas por relación, estado y método: " +
               "; ".join(f"{r}/{e}/{m}: {c}" for (r, e, m), c in sorted(metodos.items())), "", ""]
