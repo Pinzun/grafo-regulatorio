@@ -37,6 +37,7 @@ ARCHIVOS = {
     "ley_21472_2022": "ley_21472_2022__idNorma_1179524.xml",
     "ley_21667_2024": "ley_21667_2024__idNorma_1203005.xml",
     "ley_20701_2013": "ley_20701_2013__idNorma_1055073.xml",
+    "ley_21304_2021": "ley_21304_2021__idNorma_1154423.xml",
     "ley_21194_2019": "ley_21194_2019__idNorma_1140301.xml",
     "ley_20805_2015": "ley_20805_2015__idNorma_1074277.xml",
     "ley_20402_2009": "ley_20402_2009__idNorma_1008692.xml",
@@ -45,11 +46,11 @@ ARCHIVOS = {
 MODIFICATORIAS = {"ley_21721_2024": "art_unico", "ley_20936_2016": "art_1", "ley_21804_2026": "art_unico",
                   "ley_21505_2022": "art_unico", "ley_21582_2023": "art_10", "ley_21833_2026": "art_1",
                   "ley_21472_2022": "art_1", "ley_21667_2024": "art_primero",
-                  "ley_20701_2013": "art_unico", "ley_21194_2019": "art_unico", "ley_20805_2015": "art_unico", "ley_20402_2009": "art_13"}
+                  "ley_20701_2013": "art_unico", "ley_21304_2021": "art_unico", "ley_21194_2019": "art_unico", "ley_20805_2015": "art_unico", "ley_20402_2009": "art_13"}
 
 VERBOS = {  # singular e impersonal plural ("Reemplázase" / "Reemplázanse")
     "reemplaza": r"reempl[aá]z(?:a|ase|anse|ese|ense)|sustit[uú]y(?:e|ese|ense)",
-    "agrega": r"agr[eé]g(?:a|ase|anse|uese|uense)|incorp[oó]r(?:a|ase|anse|ese|ense)|interc[aá]l(?:a|ase|anse|ese|ense)|a[nñ][aá]d(?:e|ese|ense)|introd[uú]c(?:e|ese|ense)",
+    "agrega": r"agr[eé]g(?:a|ase|anse|uese|uense)|incorp[oó]r(?:a|ase|anse|ese|ense)|interc[aá]l(?:a|ase|anse|ese|ense)|a[nñ][aá]d(?:e|ese|ense)|introd[uú]c(?:e|ese|ense)|ins[eé]rt(?:a|ase|anse|ese|ense)",
     "elimina": r"elim[ií]n(?:a|ase|anse|ese|ense)|supr[ií]m(?:e|ese|ense)|der[oó]g(?:a|ase|anse|uese|uense)",
     "modifica_contenedor": r"modif[ií]c(?:a|ase|anse|ese|ense)",
 }
@@ -329,17 +330,22 @@ RE_SUPRIME_ARTICULO = re.compile(r"^\W*(?:Supr[ií]m[ae]n?se|Der[oó]g[ae]n?se|E
 
 
 RE_MODIFICA_LGSE = re.compile(
-    r"^\W*Art[íi]culo\s+\S+?\s*\.\s*-\s*(?:Introd[uú]cense las siguientes modificaciones en|Modif[ií]case)\s+(?:el|la)\s+"
-    r"(?:decreto con fuerza de ley N\s*[°º]\s*4(?:/20\.?018|,\s*del año 2007)"             # DFL 4 (texto refundido)
+    r"^\W*Art[íi]culo\s+\S+?\s*\.\s*-\s*(?:Introd[uú]cense las siguientes (?:modificaciones|enmiendas) en|Modif[ií]case)\s+(?:el|la)\s+"
+    r"(?:decreto con fuerza de ley N\s*[°º]\s*4(?:/20\.?018|,\s*del año 2007"             # DFL 4 (texto refundido)
+    r"|,\s*del Ministerio de Econom[íi]a, Fomento y Reconstrucci[óo]n, promulgado el año 2006)"
     r"|decreto con fuerza de ley N\s*[°º]\s*1,\s*de 1982,.{0,120}?Ley General de Servicios El[ée]ctricos"  # DFL 1/1982
     r"|ley General de Servicios El[ée]ctricos)", re.I)                                     # nombre de la ley
 
 
 def modifica_lgse(txt):
-    """¿El artículo modifica la LGSE? Las leyes la nombran de tres formas: 'DFL N° 4/20.018' (Leyes 20.936,
-    21.721, 21.804, 21.833) o 'DFL Nº4, del año 2007' (Ley 20.402), 'DFL N° 1, de 1982, … Ley General de Servicios Eléctricos, … cuyo texto refundido
-    … fue fijado por el DFL N° 4, de 2006' (Ley 21.582) o 'ley General de Servicios Eléctricos' (Ley 21.505).
-    En los tres casos el texto vigente, y su numeración, es el del DFL 4."""
+    """¿El artículo modifica la LGSE? Las leyes la nombran de varias formas:
+      - 'DFL N° 4/20.018' (Leyes 20.936, 21.194, 21.721, 21.804, 21.833);
+      - 'DFL Nº4, del año 2007' (Ley 20.402);
+      - 'DFL N° 4, del Ministerio de Economía…, promulgado el año 2006' (Ley 21.304, '… enmiendas en');
+      - 'DFL N° 1, de 1982, … Ley General de Servicios Eléctricos, … cuyo texto refundido … fue fijado por
+        el DFL N° 4, de 2006 / de 2007 / 4/20.018, de 2006' (Leyes 21.582, 20.701, 20.805);
+      - 'ley General de Servicios Eléctricos' (Ley 21.505).
+    En todos los casos el texto vigente, y su numeración, es el del DFL 4."""
     t = norm_ws(txt)[:400]
     if not RE_MODIFICA_LGSE.search(t):
         return False

@@ -186,7 +186,7 @@ articulo,id_parte,en_grafo,cobertura_historia,leyes_modificatorias_bcn,leyes_fal
 139,8721815,no,completa,,
 139 bis,9891079,no,parcial,21076,21076
 140,8721816,no,completa,,
-141,8721817,no,parcial,21304,21304
+141,8721817,si,completa,21304,
 142,8721818,no,completa,,
 143,8721819,no,completa,,
 144,8721820,no,completa,,
@@ -288,14 +288,14 @@ articulo,id_parte,en_grafo,cobertura_historia,leyes_modificatorias_bcn,leyes_fal
 204,8721884,no,completa,,
 205,8721885,no,completa,,
 206,8721886,si,completa,20402,
-207,8721887,no,parcial,21304,21304
-207-1,10191770,no,parcial,21304,21304
-207-2,10191769,si,parcial,21304;21833,21304
+207,8721887,no,completa,21304,
+207-1,10191770,si,completa,21304,
+207-2,10191769,si,completa,21304;21833,
 207-2 bis,10582499,no,parcial,21806,21806
-207-3,10191771,no,parcial,21304;21806,21304;21806
-207-4,10191772,no,parcial,21304,21304
-207-5,10191773,no,parcial,21304,21304
-207-6,10191774,no,parcial,21304,21304
+207-3,10191771,si,parcial,21304;21806,21806
+207-4,10191772,si,completa,21304,
+207-5,10191773,si,completa,21304,
+207-6,10191774,si,completa,21304,
 207-7,10582500,no,parcial,21806,21806
 207-8,10582501,no,parcial,21806,21806
 208,8721888,si,completa,20936,
