@@ -31,9 +31,13 @@ ARCHIVOS = {
     "ley_21721_2024": "ley_21721_2024__idNorma_1209692.xml",
     "ley_21804_2026": "ley_21804_2026__idNorma_1221363.xml",
     "res_156_2025": "res_156_2025__idNorma_1212350.xml",
+    "ley_21505_2022": "ley_21505_2022__idNorma_1184572.xml",
+    "ley_21582_2023": "ley_21582_2023__idNorma_1194043.xml",
+    "ley_21833_2026": "ley_21833_2026__idNorma_1226550.xml",
 }
 # Artículo de cada ley que contiene las modificaciones al DFL 4 (se valida por regex abajo).
-MODIFICATORIAS = {"ley_21721_2024": "art_unico", "ley_20936_2016": "art_1", "ley_21804_2026": "art_unico"}
+MODIFICATORIAS = {"ley_21721_2024": "art_unico", "ley_20936_2016": "art_1", "ley_21804_2026": "art_unico",
+                  "ley_21505_2022": "art_unico", "ley_21582_2023": "art_10", "ley_21833_2026": "art_1"}
 
 VERBOS = {  # singular e impersonal plural ("Reemplázase" / "Reemplázanse")
     "reemplaza": r"reempl[aá]z(?:a|ase|anse|ese|ense)|sustit[uú]y(?:e|ese|ense)",
@@ -236,7 +240,8 @@ def numerales(texto):
                 tok = None
             sig_letra = LETRAS[LETRAS.index(actual["literales"][-1]["l"]) + 1] if actual["literales"] else "a"
             sig_romano = ROMANOS[len(lit["sub"])] if lit is not None and len(lit["sub"]) < len(ROMANOS) else None
-            if tok == sig_letra and not (lit is not None and lit["sub"] and tok == sig_romano):
+            solo_romano = ml.group(1).endswith(".")  # "i." con punto siempre es romano (Ley 21.505 N° 5 h)
+            if tok == sig_letra and not solo_romano and not (lit is not None and lit["sub"] and tok == sig_romano):
                 lit = {"l": tok, "texto": ml.group(2), "sub": []}
                 actual["literales"].append(lit)
                 comillas += p.count('"')
@@ -287,13 +292,32 @@ def destinos_plurales(frase):
 
 
 # ---------------------------------------------------------------- extracción
+RE_MODIFICA_LGSE = re.compile(
+    r"^\W*Art[íi]culo\s+\S+?\s*\.\s*-\s*(?:Introd[uú]cense las siguientes modificaciones en|Modif[ií]case)\s+(?:el|la)\s+"
+    r"(?:decreto con fuerza de ley N\s*[°º]\s*4/20\.?018"                                   # DFL 4 (texto refundido)
+    r"|decreto con fuerza de ley N\s*[°º]\s*1,\s*de 1982,.{0,120}?Ley General de Servicios El[ée]ctricos"  # DFL 1/1982
+    r"|ley General de Servicios El[ée]ctricos)", re.I)                                     # nombre de la ley
+
+
+def modifica_lgse(txt):
+    """¿El artículo modifica la LGSE? Las leyes la nombran de tres formas: 'DFL N° 4/20.018' (Leyes 20.936,
+    21.721, 21.804, 21.833), 'DFL N° 1, de 1982, … Ley General de Servicios Eléctricos, … cuyo texto refundido
+    … fue fijado por el DFL N° 4, de 2006' (Ley 21.582) o 'ley General de Servicios Eléctricos' (Ley 21.505).
+    En los tres casos el texto vigente, y su numeración, es el del DFL 4."""
+    t = norm_ws(txt)[:400]
+    if not RE_MODIFICA_LGSE.search(t):
+        return False
+    if re.search(r"de 1982", t[:200]) and not re.search(r"4,\s*de 2006", t):
+        return False  # DFL 1/1982 sin remisión al texto refundido: no se asume la numeración del DFL 4
+    return True
+
+
 def extraer_ley(norma, dfl4, fecha_consulta):
     root = cargar(norma)
     meta = ident(root)
     todas = list(partes(root))
     k = next(n for n, (ef, txt, _) in enumerate(todas)
-             if re.search(r"Introd[uú]cense las siguientes modificaciones en el decreto con fuerza de ley N\s*°\s*4/20\.?018",
-                          norm_ws(txt)[:250]))
+             if ef.attrib.get("tipoParte") == "Artículo" and modifica_lgse(txt))
     parte = todas[k][0]
     texto_xml = parte.findtext(NS + "Texto")
     texto_sig = todas[k + 1][1] if k + 1 < len(todas) else ""
@@ -547,16 +571,22 @@ def contrastar_notas(filas):
     def vecinos(art):
         i = pos.get(art)
         return [] if i is None else [orden[j] for j in (i - 1, i + 1) if 0 <= j < len(orden)]
-    idx = {}  # (ley, articulo, numeral) -> nota
+    def art_ley(t):  # "único," / "ÚNICO" / "1" / "10," -> "unico" / "1" / "10"
+        t = t.lower().strip(",.;")
+        return t.replace("ú", "u")
+
+    idx = {}  # ("ley:artículo de la ley", artículo DFL 4, numeral) -> nota
     for art, ns in notas.items():
         for n in ns:
             for m in RE_NOTA.finditer(n):
-                idx.setdefault((m.group(1), art, int(m.group(3))), n)
+                idx.setdefault((f"{m.group(1)}:{art_ley(m.group(2))}", art, int(m.group(3))), n)
     vistos, usados, sin_nota = set(), set(), set()
     for r in filas:
-        ley = LEY_DE.get(r["origen"].split("__")[0])
+        norma_o = r["origen"].split("__")[0]
+        ley = LEY_DE.get(norma_o)
         if r["relacion"] != "modifica" or not ley or r["destino"] == PC:
             continue
+        ley = f"{ley}:{MODIFICATORIAS[norma_o].removeprefix('art_')}"  # incluye el artículo de la ley
         art = r["destino"].split("__art_")[1].replace("_", " ")
         k = (ley, art, r.get("_numeral"))
         vistos.add(k)
@@ -573,7 +603,7 @@ def contrastar_notas(filas):
                 sin_nota.add(k)
     out = []
     for (ley, art, num), n in sorted(idx.items(), key=lambda kv: (kv[0][0], kv[0][2], kv[0][1])):
-        if ley in LEY_DE.values() and (ley, art, num) not in usados:
+        if ley.split(":")[0] in LEY_DE.values() and (ley, art, num) not in usados:
             out.append({"ley": ley, "articulo_dfl4": art, "numeral": num, "tipo": "nota_sin_arista",
                         "nota_bcn": n, "comentario": "la BCN anota este cambio y no se extrajo arista; revisar"})
     for (ley, art, num) in sorted(sin_nota, key=lambda k: (k[0], k[2] or 0, k[1])):
