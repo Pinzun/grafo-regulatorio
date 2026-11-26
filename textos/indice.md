@@ -237,7 +237,7 @@ Texto consolidado: DFL 4, versión BCN 2026-07-31. Generado por `scripts/generar
 | [154](dfl4/art_154.md) | — | — | vigente | — |
 | [155](dfl4/art_155.md) | En el sistema eléctrico nacional y en los sistemas medianos se distinguirán dos niveles de precios sujetos a fijación: 1 | Ley 20.936 (2016), Ley 21.804 (2026) | vigente | — |
 | [156](dfl4/art_156.md) | — | — | vigente | — |
-| [157](dfl4/art_157.md) | — | Ley 20.257 (2008), Ley 20.805 (2015), Ley 20.928 (2016), Ley 20.936 (2016), Ley 21.804 (2026), Ley 21.833 (2026) | vigente | 2: 2 automática(s), sin validar |
+| [157](dfl4/art_157.md) | — | Ley 20.257 (2008), Ley 20.805 (2015), Ley 20.928 (2016), Ley 20.936 (2016), Ley 21.804 (2026), Ley 21.833 (2026) | vigente | 2: validadas |
 | [158](dfl4/art_158.md) | — | Ley 20.402 (2009), Ley 20.936 (2016), Ley 21.804 (2026) | vigente | — |
 | [159](dfl4/art_159.md) | — | Ley 21.804 (2026) | vigente | — |
 | [160](dfl4/art_160.md) | Los precios de nudo de corto plazo definidos en el artículo 162º deberán ser fijados semestralmente | Ley 20.936 (2016) | vigente | — |
@@ -375,7 +375,7 @@ Texto consolidado: DFL 4, versión BCN 2026-07-31. Generado por `scripts/generar
 
 ## Avisos
 
-- Artículos con tablas incrustadas como imagen, transcritas (sección 'Tabla (transcripción)'): 157 (2 tabla(s), 0 validada(s)). Estado según ontologia/transcripciones_validadas.csv.
+- Artículos con tablas incrustadas como imagen, transcritas (sección 'Tabla (transcripción)'): 157 (2 tabla(s), 2 validada(s)). Estado según ontologia/transcripciones_validadas.csv.
 - Artículos sin texto: ninguno.
 - Artículos cuyo texto consolidado dice solo 'Eliminado/Suprimido' sin marca de derogación en el XML BCN: 188, 189.
 - Artículos con historia incompleta (0): ninguno.
