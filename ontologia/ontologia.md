@@ -32,7 +32,7 @@ Atributos de una norma: tipo, número, año, órgano emisor, fecha de publicaci�
 ## Tipos de relación
 
 - **modifica**: una norma cambia un artículo de otra. Guardar fecha de vigencia del cambio.
-- **deroga**: elimina una norma o un artículo.
+- **deroga**: elimina una norma o un artículo completo ("Suprímese / Derógase / Elimínase el artículo X"). Es `verificada` si el XML BCN de la norma modificada marca el artículo `derogado`; si no coinciden, `inferida` con motivo. El nodo derogado lleva en `vigente_hasta` la fecha de vigencia de la derogación. Las supresiones parciales (un inciso, una frase, un número) son `modifica` con `tipo_cambio` = `elimina`.
 - **reglamenta**: de un nivel al inmediato superior: reglamento -> ley, norma_tecnica -> reglamento.
 - **implementa**: una resolución implementa un artículo o una norma. Ejemplo: Resolución Exenta 156 implementa art. 91 bis de la Ley 21.721 / LGSE.
 - **cita**: una norma menciona a otra sin cambiarla.
