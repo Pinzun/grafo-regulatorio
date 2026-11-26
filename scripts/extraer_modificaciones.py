@@ -660,6 +660,81 @@ def cortado_en_imagen(ef):
     return t is not None and any(c.tag.endswith("ArchivoBinario") for c in t)
 
 
+# ---------------------------------------------------------------- tablas incrustadas como imagen
+IMAGENES_CSV = "datos/raw/imagenes/imagenes.csv"          # scripts/extraer_imagenes.py
+TRANSCRIPCIONES = "datos/derivados/transcripciones"         # <imagen>.vision.md (pasada 2) y .ocr.md (pasada 1)
+VALIDADAS = os.path.join(ONT, "transcripciones_validadas.csv")
+RE_REVISADO = re.compile(r"^revisado: \S+ \d{4}-\d{2}-\d{2}$")
+
+
+def imagenes_por_parte():
+    """{idParte: [fila de imagenes.csv, …] en orden k}."""
+    if not os.path.exists(IMAGENES_CSV):
+        return {}
+    out = {}
+    with open(IMAGENES_CSV, encoding="utf-8") as f:
+        for r in csv.DictReader(f):
+            out.setdefault(r["id_parte"], []).append(r)
+    return {k: sorted(v, key=lambda r: int(r["k"])) for k, v in out.items()}
+
+
+def transcripciones_validadas():
+    """{(artículo, imagen): 'revisado: <persona> <AAAA-MM-DD>'} de ontologia/transcripciones_validadas.csv
+    (acepta ',' o ';' y BOM, como revisiones_manuales.csv). Una fila con 'revisado' mal escrito detiene."""
+    if not os.path.exists(VALIDADAS):
+        return {}
+    with open(VALIDADAS, encoding="utf-8-sig") as f:
+        texto = f.read()
+    lineas = texto.splitlines()
+    if not lineas:
+        return {}
+    sep = ";" if lineas[0].count(";") > lineas[0].count(",") else ","
+    out = {}
+    for r in csv.DictReader(lineas, delimiter=sep):
+        if not any((v or "").strip() for v in r.values()):
+            continue
+        rev = (r.get("revisado") or "").strip()
+        if not RE_REVISADO.match(rev):
+            raise SystemExit(f"{VALIDADAS}: 'revisado' debe ser 'revisado: <persona> <AAAA-MM-DD>': {r}")
+        out[(r["articulo"].strip(), r["imagen"].strip())] = rev
+    return out
+
+
+def estado_transcripcion(articulo, imagen, validadas=None):
+    """'validada (revisado: …)' si está en transcripciones_validadas.csv; si no, 'automática, sin validar'."""
+    validadas = transcripciones_validadas() if validadas is None else validadas
+    rev = validadas.get((articulo, imagen))
+    return f"validada ({rev})" if rev else "automática, sin validar"
+
+
+def tabla_transcrita(imagen):
+    """Tabla Markdown de la pasada 2 (lectura visual) de la imagen, o None si no está transcrita."""
+    path = os.path.join(TRANSCRIPCIONES, imagen[:-4] + ".vision.md")
+    if not os.path.exists(path):
+        return None
+    with open(path, encoding="utf-8") as f:
+        return f.read().strip()
+
+
+def texto_con_transcripciones(ef, articulo, validadas=None):
+    """Texto completo de una parte cuyo <Texto> trae imágenes: el texto del XML antes, entre y después de
+    cada imagen (la cola de los elementos, que findtext() no devuelve) con la transcripción de cada tabla en
+    su lugar, marcada con su estado. Sin transcripción, deja POR_COMPLETAR."""
+    t = ef.find(NS + "Texto")
+    imgs = imagenes_por_parte().get(ef.attrib["idParte"], [])
+    partes_ = [norm_ws(t.text or "")]
+    k = 0
+    for c in t:
+        if c.tag.endswith("ArchivoBinario"):
+            img = imgs[k]["archivo"] if k < len(imgs) else PC
+            k += 1
+            tabla = tabla_transcrita(img) if img != PC else None
+            partes_.append(f"[Tabla {k}: transcripción {estado_transcripcion(articulo, img, validadas)} de la imagen "
+                           f"datos/raw/imagenes/{img}]\n{tabla or PC}")
+        partes_.append(norm_ws(c.tail or ""))
+    return "\n".join(p for p in partes_ if p)
+
+
 def texto_truncado(txt):
     """Firma del corte observado en la BCN (docs/diagnostico_truncamiento_bcn.md): el texto termina
     a mitad de palabra, sin puntuación final, justo después de una letra acentuada (p. ej. 'Energí')."""

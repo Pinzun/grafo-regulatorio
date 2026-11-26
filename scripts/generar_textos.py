@@ -90,6 +90,38 @@ def texto_vigente(txt, siguiente, pdf_dfl4, cortado_en_imagen=False):
     return "\n\n".join(E.parrafos(txt)), "XML BCN del DFL 4 (servicio de exportación de Ley Chile)"
 
 
+def seccion_tablas(info, articulo, imagenes, validadas, discrepancias, por_sha):
+    """Sección 'Tabla (transcripción)' de un artículo cuyo texto trae tablas como imagen, y el estado de cada
+    una ([(imagen, estado)]). Muestra la pasada 2 (lectura visual) con enlace a la imagen original."""
+    imgs = imagenes.get(info["id_parte"], [])
+    if not imgs:
+        return [], []
+    md = ["## Tabla (transcripción)", "",
+          "*El texto oficial trae estas tablas como imagen (ni el XML ni el PDF las tienen como texto). Se "
+          "transcribieron en dos pasadas independientes, OCR determinista (`scripts/transcribir_ocr.py`) y lectura "
+          "visual con un LLM, comparadas celda por celda (`datos/derivados/transcripciones_discrepancias.csv`); se "
+          "muestra la lectura visual. '←' = celda combinada con la de la izquierda; '↑' = con la de arriba. Una "
+          "transcripción automática no es texto oficial: verifíquela contra la imagen antes de citarla.*", ""]
+    estados = []
+    for r in imgs:
+        img = r["archivo"]
+        estado = E.estado_transcripcion(articulo, img, validadas)
+        estados.append((img, estado))
+        disc = discrepancias.get(img, [])
+        md += [f"### Tabla {r['k']} — imagen original: [{img}](../../datos/raw/imagenes/{img})", "",
+               f"- **Estado:** {estado}",
+               f"- **Ubicación en el artículo:** después de «…{r['texto_previo'][-90:]}»",
+               f"- **Discrepancias OCR / lectura visual:** {len(disc)} celda(s)"
+               + (": " + "; ".join(f"fila {d['fila']} col. {d['columna']}: OCR «{d['pasada1_ocr']}» / visual "
+                                   f"«{d['pasada2_vision']}»" for d in disc[:8]) + (" …" if len(disc) > 8 else "")
+                  if disc else "")]
+        iguales = [x for x in por_sha.get(r["sha256"], []) if x != img]
+        if iguales:
+            md.append(f"- **Misma imagen (sha256) en:** {', '.join(iguales)}")
+        md += ["", E.tabla_transcrita(img) or "*(sin transcripción: POR_COMPLETAR)*", ""]
+    return md, estados
+
+
 def numerales_por_ley():
     """{norma: {n: (item, fuente, url)}} leídos del mismo texto que usó el extractor."""
     out = {}
@@ -136,6 +168,15 @@ def main():
         elif r["relacion"] != "contiene":  # contiene (DFL 4 -> artículo) no aporta a la historia
             otras[k].append(r)
     nums = numerales_por_ley()
+    imagenes = E.imagenes_por_parte()
+    validadas = E.transcripciones_validadas()
+    discrepancias, por_sha = defaultdict(list), defaultdict(list)
+    if os.path.exists("datos/derivados/transcripciones_discrepancias.csv"):
+        for d in leer("datos/derivados/transcripciones_discrepancias.csv"):
+            discrepancias[d["imagen"]].append(d)
+    for rs in imagenes.values():
+        for r in rs:
+            por_sha[r["sha256"]].append(r["archivo"])
 
     os.makedirs(DIR_ART, exist_ok=True)
     escritos, filas_indice, avisos = set(), [], defaultdict(list)
@@ -179,7 +220,10 @@ def main():
                   f"- **Cobertura de la historia:** {cob}" + (f" — faltan en el grafo las leyes {', '.join(faltan)}" if faltan else ""),
                   f"- **Bloque:** {txt_bloque}", "",
                   "## Texto vigente", "", f"*Fuente: {fuente_texto}.*", "", texto or "*(sin texto)*", "",
-                  "## Historia de modificaciones", ""]
+                  ]
+            tablas_md, estados = seccion_tablas(info, f"ley_dfl4_2006__art_{clave.replace(' ', '_')}", imagenes,
+                                                validadas, discrepancias, por_sha)
+            md += tablas_md + ["## Historia de modificaciones", ""]
             if filas:
                 for r in filas:
                     num = RE_NUMERAL.match(r["detalle"]).group(1) or "numeral POR_COMPLETAR"
@@ -234,7 +278,10 @@ def main():
                 avisos["historia_incompleta"].append(f"{clave} (faltan {', '.join(faltan)})")
             leyes = sorted({etiqueta[r["origen"].split("__")[0]].replace(" de ", " (").replace("(LGSE)", "") + ")"
                             for r in filas}, key=lambda s: re.sub(r"\D", "", s))
-            filas_indice.append((grupo, b, clave, epigrafe, leyes, faltan, vigencia, nombre))
+            if estados:
+                val = sum(e.startswith("validada") for _, e in estados)
+                avisos["tablas"].append(f"{clave} ({len(estados)} tabla(s), {val} validada(s))")
+            filas_indice.append((grupo, b, clave, epigrafe, leyes, faltan, vigencia, nombre, estados))
 
     for viejo in glob.glob(os.path.join(DIR_ART, "art_*.md")):
         if os.path.basename(viejo) not in escritos:
@@ -242,18 +289,27 @@ def main():
 
     ix = ["# Índice de artículos del DFL 4 (LGSE)", "",
           f"Texto consolidado: DFL 4, versión BCN {version_dfl4}. Generado por `scripts/generar_textos.py` desde "
-          "los CSV de la ontología y los textos descargados (sin LLM). Primero el bloque de transmisión validado, "
+          "los CSV de la ontología y los textos descargados (sin LLM; la única excepción son las transcripciones de "
+          "tablas incrustadas como imagen, marcadas como tales). Primero el bloque de transmisión validado, "
           "luego el resto de los artículos permanentes.", ""]
     for grupo, titulo in (("bloque", "Bloque de transmisión (validado)"), ("resto", "Resto del DFL 4")):
         sel = [f for f in filas_indice if f[0] == grupo]
-        ix += [f"## {titulo} ({len(sel)} artículos)", "", "| Art. | Epígrafe | Leyes que lo modificaron | Vigencia |", "|---|---|---|---|"]
-        for _, b, clave, ep, leyes, faltan, vig, nombre in sel:
+        ix += [f"## {titulo} ({len(sel)} artículos)", "",
+               "| Art. | Epígrafe | Leyes que lo modificaron | Vigencia | Tablas (transcripción) |", "|---|---|---|---|---|"]
+        for _, b, clave, ep, leyes, faltan, vig, nombre, estados in sel:
             ley_txt = ", ".join(leyes) or "—"
             if faltan:
                 ley_txt += f" ⚠️ faltan {', '.join(faltan)}"
-            ix.append(f"| [{clave}](dfl4/{nombre}) | {ep.replace('|', '/') or '—'} | {ley_txt} | {vig} |")
+            tab = "—"
+            if estados:
+                val = sum(e.startswith("validada") for _, e in estados)
+                tab = f"{len(estados)}: " + ("validadas" if val == len(estados) else
+                                             f"{len(estados) - val} automática(s), sin validar")
+            ix.append(f"| [{clave}](dfl4/{nombre}) | {ep.replace('|', '/') or '—'} | {ley_txt} | {vig} | {tab} |")
         ix.append("")
     ix += ["## Avisos", ""]
+    ix.append(f"- Artículos con tablas incrustadas como imagen, transcritas (sección 'Tabla (transcripción)'): "
+              f"{'; '.join(avisos['tablas']) or 'ninguno'}. Estado según ontologia/transcripciones_validadas.csv.")
     ix.append(f"- Artículos sin texto: {', '.join(avisos['sin_texto']) or 'ninguno'}.")
     ix.append(f"- Artículos cuyo texto consolidado dice solo 'Eliminado/Suprimido' sin marca de derogación en el XML BCN: "
               f"{', '.join(avisos['eliminado_sin_marca']) or 'ninguno'}.")
