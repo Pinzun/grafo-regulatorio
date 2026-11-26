@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><Norma xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.leychile.cl/esquemas" xsi:schemaLocation="http://www.leychile.cl/esquemas http://www.leychile.cl/esquemas/EsquemaIntercambioNorma-v1-0.xsd" normaId="1201175" esTratado="no tratado" fechaVersion="2024-02-19" SchemaVersion="1.0" derogado="no derogado">
+  <Identificador fechaPromulgacion="2024-02-05" fechaPublicacion="2024-02-19">
+    <TiposNumeros>
+      <TipoNumero>
+        <Tipo>Ley</Tipo>
+        <Numero>21657</Numero>
+      </TipoNumero>
+    </TiposNumeros>
+    <Organismos>
+      <Organismo>MINISTERIO DE ENERG&#205;A</Organismo>
+    </Organismos>
+  </Identificador>
+  <Metadatos>
+    <TituloNorma>MODIFICA LA LEY GENERAL DE SERVICIOS EL&#201;CTRICOS, EN MATERIA DE COBRO DE TARIFA EL&#201;CTRICA PARA SERVICIOS SANITARIOS RURALES</TituloNorma>
+    <Materias>
+      <Materia>Servicios Sanitarios Rurales</Materia>
+      <Materia>Tarifas El&#233;ctricas</Materia>
+    </Materias>
+    
+    
+    <IdentificacionFuente>Diario Oficial</IdentificacionFuente>
+    <NumeroFuente> 43780-B</NumeroFuente>
+  </Metadatos>
+  <Encabezado fechaVersion="2024-02-19" derogado="no derogado">
+    <Texto>
+
+LEY N&#218;M. 21.657
+
+MODIFICA LA LEY GENERAL DE SERVICIOS EL&#201;CTRICOS, EN MATERIA DE COBRO DE TARIFA EL&#201;CTRICA PARA SERVICIOS SANITARIOS RURALES
+
+     Teniendo presente que el H. Congreso Nacional ha dado su aprobaci&#243;n al siguiente proyecto de ley que tuvo su origen en moci&#243;n de las diputadas Nathalie Castillo Rojas, Mar&#237;a Candelaria Acevedo S&#225;ez, Mar&#237;a Francisca Bello Campos, Carolina Marz&#225;n Pinto, Emilia Nuyado Ancapich&#250;n y Marisela Santib&#225;&#241;ez Novoa, y de los diputados H&#233;ctor Barr&#237;a Angulo, Alejandro Bernales Maldonado, Mat&#237;as Ram&#237;rez Pascal y Nelson Venegas Salazar,
+
+     Proyecto de ley:</Texto>
+  </Encabezado>
+  <EstructurasFuncionales>
+    <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2024-02-19" derogado="no derogado" idParte="10490290">
+      <Texto>
+     "Art&#237;culo &#250;nico.- Incorp&#243;rase en el decreto con fuerza de ley N&#176; 4/20018, de 2006, del Ministerio de Econom&#237;a, Fomento y Reconstrucci&#243;n, que fija texto refundido, coordinado y sistematizado del decreto con fuerza de ley N&#186; 1, de Miner&#237;a, de 1982, Ley General de Servicios El&#233;ctricos, en materia de energ&#237;a el&#233;ctrica, a continuaci&#243;n del art&#237;culo 191, el siguiente art&#237;culo 191 bis:
+
+     "Art&#237;culo 191 bis.- En el caso de los operadores de servicios sanitarios rurales que cumplan con los requisitos para ser licenciatarios conforme al art&#237;culo 13 de la ley N&#176; 20.998, que regula los Servicios Sanitarios Rurales, se les aplicar&#225; un descuento equivalente al monto a facturar por concepto de precio nudo de la potencia de punta al que hace referencia el numeral 1 del art&#237;culo 155. Dicho descuento se ver&#225; reflejado en la respectiva facturaci&#243;n, de acuerdo con el art&#237;culo 198.
+     Los referidos descuentos deber&#225;n ser contabilizados por la Comisi&#243;n Nacional de Energ&#237;a, a efectos de incorporar dichos montos en la fijaci&#243;n de precios a que se refiere el art&#237;culo 158, los que luego ser&#225;n traspasados a las empresas concesionarias de distribuci&#243;n. La Comisi&#243;n, mediante resoluci&#243;n exenta, establecer&#225; las reglas necesarias para la implementaci&#243;n y operaci&#243;n de lo dispuesto en este inciso.".</Texto>
+      <Metadatos>
+        <NombreParte presente="si">&#250;nico</NombreParte>
+        <TituloParte presente="no">&#160;</TituloParte>
+        
+      </Metadatos>
+    </EstructuraFuncional>
+    <EstructuraFuncional transitorio="transitorio" tipoParte="Art&#237;culo" fechaVersion="2024-02-19" derogado="no derogado" idParte="10490291">
+      <Texto>
+     Art&#237;culo transitorio.- Los descuentos a que se refiere el art&#237;culo 191 bis, incorporado en la Ley General de Servicios El&#233;ctricos por el art&#237;culo &#250;nico de esta ley, deber&#225;n efectuarse por las respectivas empresas concesionarias desde su publicaci&#243;n en el Diario Oficial.
+     Por su parte, la contabilizaci&#243;n de dichos descuentos ser&#225; efectuada por la Comisi&#243;n Nacional de Energ&#237;a, a efectos de su traspaso a las referidas concesionarias de distribuci&#243;n, en la primera fijaci&#243;n de precios de nudo promedio correspondiente al a&#241;o 2024.".</Texto>
+      <Metadatos>
+        <NombreParte presente="no">&#160;</NombreParte>
+        <TituloParte presente="no">&#160;</TituloParte>
+        
+      </Metadatos>
+    </EstructuraFuncional>
+  </EstructurasFuncionales>
+  <Promulgacion fechaVersion="2024-02-19" derogado="no derogado">
+    <Texto>     Y por cuanto he tenido a bien aprobarlo y sancionarlo; por tanto, prom&#250;lguese y ll&#233;vese a efecto como Ley de la Rep&#250;blica.
+
+     Santiago, 5 de febrero de 2024.- GABRIEL BORIC FONT, Presidente de la Rep&#250;blica.- Luis Felipe Ramos Barrera, Ministro de Energ&#237;a (S).- Jessica L&#243;pez Saffie, Ministra de Obras P&#250;blicas.
+     Lo que transcribo para su conocimiento.- Saluda atentamente a Ud., Luis Felipe Andr&#233;s Ramos Barrera, Subsecretario de Energ&#237;a.</Texto>
+  </Promulgacion>
+  
+</Norma>

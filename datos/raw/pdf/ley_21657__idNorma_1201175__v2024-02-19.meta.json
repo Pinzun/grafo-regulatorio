@@ -1,0 +1,18 @@
+{
+  "id_norma": "1201175",
+  "fecha_version": "2024-02-19",
+  "nombre": "Ley 21657",
+  "url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=Ley-21657_19-FEB-2024&exportar_con_notas_bcn=True&exportar_con_notas_originales=True&exportar_con_notas_al_pie=True&hddResultadoExportar=1201175.2024-02-19.0.0%23",
+  "fecha_descarga": "2026-11-26",
+  "sha256_pdf": "9c24b86eb37441310d9c6639ac92d8f95a68dc2bc60a78ba149ae9a43e3f5d03",
+  "bytes": 51871,
+  "con_notas_bcn": true,
+  "conversion": {
+    "texto": {
+      "parrafos": 11,
+      "notas_bcn": 0,
+      "pdf_ley_chile": true,
+      "salida": "datos/raw/pdf/ley_21657__idNorma_1201175__v2024-02-19.md"
+    }
+  }
+}
