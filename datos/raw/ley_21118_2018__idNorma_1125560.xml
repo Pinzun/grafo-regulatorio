@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?><Norma xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.leychile.cl/esquemas" xsi:schemaLocation="http://www.leychile.cl/esquemas http://www.leychile.cl/esquemas/EsquemaIntercambioNorma-v1-0.xsd" normaId="1125560" esTratado="no tratado" fechaVersion="2018-11-17" SchemaVersion="1.0" derogado="no derogado">
+  <Identificador fechaPromulgacion="2018-11-09" fechaPublicacion="2018-11-17">
+    <TiposNumeros>
+      <TipoNumero>
+        <Tipo>Ley</Tipo>
+        <Numero>21118</Numero>
+      </TipoNumero>
+    </TiposNumeros>
+    <Organismos>
+      <Organismo>MINISTERIO DE ENERG&#205;A</Organismo>
+    </Organismos>
+  </Identificador>
+  <Metadatos>
+    <TituloNorma>MODIFICA LA LEY GENERAL DE SERVICIOS EL&#201;CTRICOS, CON EL FIN DE INCENTIVAR EL DESARROLLO DE LAS GENERADORAS RESIDENCIALES</TituloNorma>
+    <Materias>
+      <Materia>Energ&#237;a Convencional</Materia>
+      <Materia>Energ&#237;a Renovable</Materia>
+      <Materia>Panel Fotovoltaico</Materia>
+      <Materia>Energ&#237;a Electrica</Materia>
+      <Materia>Sistema de Generaci&#243;n Residencial</Materia>
+      <Materia>Generaci&#243;n Residencial</Materia>
+    </Materias>
+    <NombresUsoComun>
+      <NombreUsoComun>&#160;</NombreUsoComun>
+    </NombresUsoComun>
+    
+    <IdentificacionFuente>Diario Oficial</IdentificacionFuente>
+    <NumeroFuente>42207</NumeroFuente>
+  </Metadatos>
+  <Encabezado fechaVersion="2018-11-17" derogado="no derogado">
+    <Texto>
+LEY N&#218;M. 21.118
+
+MODIFICA LA LEY GENERAL DE SERVICIOS EL&#201;CTRICOS, CON EL FIN DE INCENTIVAR EL DESARROLLO DE LAS GENERADORAS RESIDENCIALES
+
+     Teniendo presente que el H. Congreso Nacional ha dado su aprobaci&#243;n al siguiente proyecto de ley, originado en una moci&#243;n de las Honorables senadoras se&#241;oras Isabel Allende Bussi y Ximena Rinc&#243;n Gonz&#225;lez, y de los exsenadores se&#241;ores Jos&#233; Antonio G&#243;mez Urrutia, Antonio Horvath Kiss y Baldo Prokurica Prokurica,
+
+     Proyecto de ley:</Texto>
+  </Encabezado>
+  <EstructurasFuncionales>
+    <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2018-11-17" derogado="no derogado" idParte="9968877">
+      <Texto>
+
+     "Art&#237;culo &#250;nico.- Introd&#250;cense las siguientes enmiendas en el decreto con fuerza de ley N&#176; 4, del Ministerio de Econom&#237;a, Fomento y Reconstrucci&#243;n, promulgado el a&#241;o 2006 y publicado el a&#241;o 2007, que fija el texto refundido, coordinado y sistematizado de la Ley General de Servicios El&#233;ctricos:
+
+     1) Modif&#237;case el art&#237;culo 149 bis, en los siguientes t&#233;rminos:
+
+     a) Interc&#225;lase, en el inciso primero, luego de la expresi&#243;n "eficiente,", la frase "de manera individual o colectiva,".
+     b) Incorp&#243;ranse los siguientes incisos segundo y tercero, nuevos, pasando los actuales incisos segundo a noveno ser incisos cuarto a und&#233;cimo, respectivamente:
+
+     "Los usuarios finales sujetos a fijaci&#243;n de precios que se agrupen para ejercer el derecho se&#241;alado en el inciso anterior deber&#225;n estar conectados a las redes de distribuci&#243;n del mismo concesionario de servicio p&#250;blico de distribuci&#243;n y acreditar la propiedad conjunta del equipamiento de generaci&#243;n el&#233;ctrica. Dichos usuarios deber&#225;n suscribir un contrato con las menciones m&#237;nimas establecidas en el reglamento, entre las que se deber&#225;n considerar, al menos, la identificaci&#243;n completa de todos los usuarios, sus domicilios, la participaci&#243;n de cada uno de ellos en la propiedad del equipamiento de generaci&#243;n, el nombre del representante de los usuarios ante la concesionaria y las reglas de repartici&#243;n de las inyecciones.
+     Asimismo, el reglamento definir&#225; los requisitos y condiciones m&#237;nimas que deber&#225; cumplir el conjunto de usuarios a los que se refiere el inciso anterior, tales como los requisitos para acreditar la propiedad del equipamiento de generaci&#243;n, en la que ninguno de los usuarios podr&#225; ejercer una posici&#243;n dominante respecto de los otros; los requisitos m&#237;nimos que deber&#225;n cumplir las reglas de repartici&#243;n de las inyecciones, y el porcentaje m&#237;nimo o m&#225;ximo de inyecciones que un usuario en particular puede recibir.".
+
+     c) Efect&#250;anse en el inciso tercero, que pasa a ser quinto, las enmiendas que siguen:
+
+     i. Interc&#225;lase, a continuaci&#243;n de la expresi&#243;n "inyecciones;", la conjunci&#243;n copulativa "y".
+     ii. Elim&#237;nase la frase "; y la capacidad instalada permitida por cada usuario final y por el conjunto de dichos usuarios en una misma red de distribuci&#243;n o en cierto sector de &#233;sta".
+
+     d) Reempl&#225;zase el inciso cuarto, que pasa a ser sexto, por el siguiente:
+
+     "La capacidad instalada y la inyecci&#243;n de excedentes permitidas por cada usuario final y por el conjunto de esos usuarios en una misma red de distribuci&#243;n, o en cierto sector de &#233;sta, se determinar&#225;n seg&#250;n criterios de seguridad operacional, de configuraci&#243;n y uso eficiente de la red de distribuci&#243;n o de ciertos sectores de &#233;sta, entre otros, seg&#250;n lo que determine el reglamento. El procedimiento de c&#225;lculo de la capacidad antes mencionada y los requerimientos t&#233;cnicos espec&#237;ficos para su implementaci&#243;n ser&#225;n determinados por la norma t&#233;cnica respectiva. La capacidad instalada por cada inmueble o instalaci&#243;n de un cliente o usuario final no podr&#225; superar los 300 kilowatts.".
+
+     e) Interc&#225;lase en el inciso quinto, que pasa a ser s&#233;ptimo, a continuaci&#243;n de la expresi&#243;n "establecidas por el reglamento", la frase "y la normativa vigente".
+     f) Modif&#237;case el inciso s&#233;ptimo, que pasa a ser noveno, de la manera que sigue:
+
+     i. Interc&#225;lase, despu&#233;s de la frase "deber&#225;n ser descontadas de", la siguiente: "los cargos por suministro el&#233;ctrico de".
+     ii. Agr&#233;gase la siguiente oraci&#243;n final: "En el caso de inyecciones de energ&#237;a valorizadas de acuerdo a lo se&#241;alado, provenientes de equipamientos de generaci&#243;n de energ&#237;a el&#233;ctrica de propiedad conjunta, &#233;stas deber&#225;n ser descontadas de los cargos de suministro el&#233;ctrico de las facturaciones de los propietarios del equipamiento, de acuerdo al mecanismo se&#241;alado en el presente inciso y seg&#250;n las reglas de repartici&#243;n de inyecciones que hayan sido informadas a la concesionaria en el correspondiente contrato.".
+
+     g) Efect&#250;anse en el inciso octavo, que pasa a ser d&#233;cimo, las siguientes enmiendas:
+
+     i. Interc&#225;lase, a continuaci&#243;n de la palabra "medidor", la frase "o del equipamiento de generaci&#243;n, la regla de repartici&#243;n de inyecciones a la que se refiere el inciso anterior, en caso que corresponda".
+     ii. Sustit&#250;yese la expresi&#243;n "el mecanismo de pago" por "el destino".
+     iii. Incorp&#243;rase, luego de la expresi&#243;n "y su periodicidad,", lo siguiente: "el mecanismo de pago en caso que corresponda,".
+     iv. Agr&#233;gase, despu&#233;s de la locuci&#243;n "que establezca el reglamento", la frase "y la normativa vigente".
+
+     2) Reempl&#225;zase el art&#237;culo 149 ter por el siguiente:
+
+     "Art&#237;culo 149 ter.- Los remanentes de inyecciones de energ&#237;a valorizados conforme a lo indicado en el art&#237;culo precedente que, transcurrido el plazo se&#241;alado en el contrato, no hayan podido ser descontados de los cargos de las facturaciones correspondientes, podr&#225;n, a voluntad del cliente, ser descontados de los cargos por suministro el&#233;ctrico correspondientes a inmuebles o instalaciones de propiedad del mismo cliente, conectadas a las redes de distribuci&#243;n del mismo concesionario de servicio p&#250;blico de distribuci&#243;n. El reglamento determinar&#225; el procedimiento y los requerimientos para acreditar la propiedad de un inmueble o instalaci&#243;n para los fines establecidos en el presente inciso.
+     No obstante lo anterior, los clientes podr&#225;n optar a recibir un pago por parte de la empresa distribuidora por los remanentes de inyecciones de energ&#237;a valorizados conforme a lo indicado en el art&#237;culo precedente que, transcurrido el plazo se&#241;alado en el contrato, no hayan podido ser descontados de los cargos de las facturaciones correspondientes, siempre que se cumplan las siguientes condiciones copulativas:
+
+     a) Que los remanentes no provengan de un equipamiento de generaci&#243;n el&#233;ctrica asociado a un inmueble o instalaci&#243;n vinculada a las disposiciones establecidas en el inciso segundo del art&#237;culo 149 bis.
+     b) Que los remanentes no provengan de un equipamiento de generaci&#243;n el&#233;ctrica asociado a un inmueble o instalaci&#243;n vinculada al mecanismo se&#241;alado en el inciso primero del presente art&#237;culo, salvo que estos inmuebles o instalaciones pertenezcan a una persona jur&#237;dica sin fines de lucro.
+     c) Que el equipamiento de generaci&#243;n el&#233;ctrica haya sido dimensionado para que, en condiciones normales de funcionamiento y en una base de tiempo anual, sus inyecciones de energ&#237;a no produzcan remanentes que no puedan ser descontados de las facturaciones del o los inmuebles o instalaciones a los que &#233;ste se encuentre asociado, de acuerdo al procedimiento y los requisitos que establezca el reglamento.
+     d) Que los remanentes no tengan su origen en incrementos en la capacidad de generaci&#243;n que no hayan cumplido con la condici&#243;n anterior.
+
+     En el caso que los remanentes tengan su origen en equipamiento de generaci&#243;n correspondientes a inmuebles o instalaciones de clientes residenciales con potencia conectada inferior o igual a 20 kW o de personas jur&#237;dicas sin fines de lucro con potencia conectada inferior o igual a 50 kW, no ser&#225; necesario cumplir con las exigencias de los literales c) y d) para que el cliente pueda optar al pago mencionado en el inciso anterior.
+     El reglamento establecer&#225; la manera de acreditar el cumplimiento de los requisitos anteriores, junto con la informaci&#243;n que deber&#225; utilizarse para este fin y los mecanismos de actualizaci&#243;n de la misma.
+     En caso de que sea necesario realizar mediciones de consumos o generaci&#243;n del cliente, &#233;stas deber&#225;n ser ejecutadas de acuerdo con la normativa vigente por la empresa distribuidora, con cargo al solicitante, en las condiciones que se definan en el reglamento.
+     Para los efectos del pago, la concesionaria deber&#225; remitir al cliente un documento nominativo representativo de las obligaciones de dinero emanadas de las inyecciones no descontadas, salvo que dicho cliente haya optado por otro mecanismo de pago en el contrato respectivo.
+     Los remanentes, debidamente reajustados de acuerdo al &#237;ndice de precios al consumidor, que tras cinco a&#241;os desde el a&#241;o calendario en que fueron generados por el usuario a&#250;n no hayan podido ser descontados de los cargos de suministro de la facturaci&#243;n correspondiente o pagados al mismo, deber&#225;n ser informados por las empresas distribuidoras a la Comisi&#243;n y al usuario que los hubiere generado, de acuerdo a los procedimientos, plazos y formatos establecidos en el reglamento. Estos remanentes ser&#225;n utilizados en la comuna donde se emplaza el equipamiento de generaci&#243;n para la determinaci&#243;n de los cargos y descuentos a los que se refieren el inciso cuarto del art&#237;culo 157. En el caso de los sistemas el&#233;ctricos cuya capacidad instalada de generaci&#243;n sea inferior a 200 megawatts y superior a 1.500 kilowatts, los remanentes antes se&#241;alados deber&#225;n ser incorporados en las tarifas traspasables a cliente final con la periodicidad y forma que determine el reglamento.".</Texto>
+      <Metadatos>
+        <NombreParte presente="si">&#218;NICO</NombreParte>
+        <TituloParte presente="no">&#160;</TituloParte>
+        
+      </Metadatos>
+    </EstructuraFuncional>
+    <EstructuraFuncional transitorio="no transitorio" tipoParte="Disposici&#243;n Transitoria" fechaVersion="2018-11-17" derogado="no derogado" idParte="9968878">
+      <Texto>
+
+     Disposiciones Transitorias</Texto>
+      <Metadatos>
+        <NombreParte presente="no">&#160;</NombreParte>
+        <TituloParte presente="si">Disposiciones Transitorias</TituloParte>
+        
+      </Metadatos>
+      <EstructurasFuncionales>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2018-11-17" derogado="no derogado" idParte="9968879">
+          <Texto>
+     Art&#237;culo primero.- Los remanentes de inyecciones de energ&#237;a valorizados que provengan de equipamientos de generaci&#243;n conectados de acuerdo a lo establecido en el art&#237;culo 149 bis hasta la entrada en vigencia de esta ley, y que, transcurrido el plazo se&#241;alado en el contrato de conexi&#243;n al que se refiere dicho art&#237;culo, no hayan podido ser descontados de las facturaciones correspondientes, deber&#225;n ser pagados al cliente por la concesionaria de servicio p&#250;blico de distribuci&#243;n respectiva. Para tales efectos, la concesionaria deber&#225; remitir al titular un documento nominativo representativo de las obligaciones de dinero emanadas de las inyecciones no descontadas, salvo que el cliente haya optado por otro mecanismo de pago en el contrato respectivo.</Texto>
+          <Metadatos>
+            <NombreParte presente="si">PRIMERO</NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2018-11-17" derogado="no derogado" idParte="9968880">
+          <Texto>
+
+     Art&#237;culo segundo.- El derecho al pago a que se refiere el inciso segundo del art&#237;culo 149 ter de la Ley General de Servicios El&#233;ctricos, y el derecho a inyectar energ&#237;a a partir de equipamientos de generaci&#243;n de propiedad conjunta a los que se refieren los incisos segundo y tercero del art&#237;culo 149 bis de la mencionada ley, quedar&#225;n supeditados a la entrada en vigencia del reglamento a que aluden dichos incisos.</Texto>
+          <Metadatos>
+            <NombreParte presente="si">SEGUNDO</NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2018-11-17" derogado="no derogado" idParte="9968881">
+          <Texto>
+
+     Art&#237;culo tercero .- Durante el tercer a&#241;o desde la entrada en vigencia de esta ley, el Ministerio de Energ&#237;a deber&#225; evaluar la implementaci&#243;n y aplicaci&#243;n de este cuerpo normativo en relaci&#243;n al aumento o disminuci&#243;n de usuarios finales que dispongan para su propio consumo de equipamiento de generaci&#243;n de energ&#237;a el&#233;ctrica por medios renovables no convencionales o de instalaciones de cogeneraci&#243;n eficiente.
+     El informe de evaluaci&#243;n deber&#225; ser remitido a la Comisi&#243;n de Miner&#237;a y Energ&#237;a de la C&#225;mara de Diputados.</Texto>
+          <Metadatos>
+            <NombreParte presente="si">TERCERO</NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2018-11-17" derogado="no derogado" idParte="9968882">
+          <Texto>
+
+     Art&#237;culo cuarto .- Dentro del plazo de ocho meses contado desde la publicaci&#243;n de la presente ley en el Diario Oficial, se deber&#225; dictar el reglamento que establezca las disposiciones necesarias para su ejecuci&#243;n.".</Texto>
+          <Metadatos>
+            <NombreParte presente="si">CUARTO</NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+      </EstructurasFuncionales>
+    </EstructuraFuncional>
+  </EstructurasFuncionales>
+  <Promulgacion fechaVersion="2018-11-17" derogado="no derogado">
+    <Texto>
+
+     Y por cuanto he tenido a bien aprobarlo y sancionarlo; por tanto prom&#250;lguese y ll&#233;vese a efecto como Ley de la Rep&#250;blica.
+
+     Santiago, 9 de noviembre de 2018.- SEBASTI&#193;N PI&#209;ERA ECHENIQUE, Presidente de la Rep&#250;blica.- Susana Jim&#233;nez Schuster, Ministra de Energ&#237;a.- Felipe Larra&#237;n Bascu&#241;&#225;n, Ministro de Hacienda.
+     Lo que transcribo a Ud. para su conocimiento.- Saluda Atte. a Ud., Marcelo Mardones Osorio, Jefe Divisi&#243;n Jur&#237;dica, Subsecretar&#237;a de Energ&#237;a. </Texto>
+  </Promulgacion>
+  
+</Norma>

@@ -198,8 +198,8 @@ articulo,id_parte,en_grafo,cobertura_historia,leyes_modificatorias_bcn,leyes_fal
 147,8721823,si,completa,20402;20805;21804,
 148,8721826,no,completa,,
 149,8721827,si,parcial,20571;20936;21505,20571
-149 bis,9243785,si,parcial,20571;21118;21505,20571;21118
-149 ter,9243786,si,parcial,21118;21505,21118
+149 bis,9243785,si,parcial,20571;21118;21505,20571
+149 ter,9243786,si,completa,21118;21505,
 149 quater,9243787,si,parcial,20571;20936;21804,20571
 149 quinquies,9243788,no,parcial,20571;20936,20571
 150,8721828,si,completa,,

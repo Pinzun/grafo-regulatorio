@@ -224,8 +224,8 @@ Texto consolidado: DFL 4, versión BCN 2026-07-31. Generado por `scripts/generar
 | [147](dfl4/art_147.md) | — | Ley 20.402 (2009), Ley 20.805 (2015), Ley 21.804 (2026) | vigente |
 | [148](dfl4/art_148.md) | — | — | vigente |
 | [149](dfl4/art_149.md) | — | Ley 20.936 (2016), Ley 21.505 (2022) ⚠️ faltan 20.571 | vigente |
-| [149 bis](dfl4/art_149_bis.md) | — | Ley 21.505 (2022) ⚠️ faltan 20.571, 21.118 | vigente |
-| [149 ter](dfl4/art_149_ter.md) | — | Ley 21.505 (2022), Ley 21.804 (2026) ⚠️ faltan 21.118 | vigente |
+| [149 bis](dfl4/art_149_bis.md) | — | Ley 21.118 (2018), Ley 21.505 (2022) ⚠️ faltan 20.571 | vigente |
+| [149 ter](dfl4/art_149_ter.md) | — | Ley 21.118 (2018), Ley 21.505 (2022), Ley 21.804 (2026) | vigente |
 | [149 quater](dfl4/art_149_quater.md) | — | Ley 20.936 (2016), Ley 21.804 (2026) ⚠️ faltan 20.571 | vigente |
 | [149 quinquies](dfl4/art_149_quinquies.md) | — | — ⚠️ faltan 20.571 | vigente |
 | [150](dfl4/art_150.md) | Eliminado | Ley 20.402 (2009), Ley 20.936 (2016) | derogado (vigente hasta 2016-07-20) |
@@ -377,4 +377,4 @@ Texto consolidado: DFL 4, versión BCN 2026-07-31. Generado por `scripts/generar
 
 - Artículos sin texto: ninguno.
 - Artículos cuyo texto consolidado dice solo 'Eliminado/Suprimido' sin marca de derogación en el XML BCN: 188, 189.
-- Artículos con historia incompleta (26): 25 (faltan 20.220); 34 bis (faltan 20.897); 131 (faltan 20.928); 132 (faltan 20.928); 133 (faltan 20.220); 139 bis (faltan 21.076); 146 (faltan 20.220); 146 ter (faltan 20.220, 20.720); 149 (faltan 20.571); 149 bis (faltan 20.571, 21.118); 149 ter (faltan 21.118); 149 quater (faltan 20.571); 149 quinquies (faltan 20.571); 150 bis (faltan 20.257, 20.698); 150 ter (faltan 20.698); 157 (faltan 20.257, 20.928); 174 bis (faltan 20.698); 184 (faltan 20.928); 191 (faltan 20.928); 191 bis (faltan 21.657); 193 (faltan 21.647); 209 (faltan 20.999); 210 (faltan 20.999); 213 (faltan 20.273); 214 (faltan 20.273); 225 (faltan 20.928).
+- Artículos con historia incompleta (25): 25 (faltan 20.220); 34 bis (faltan 20.897); 131 (faltan 20.928); 132 (faltan 20.928); 133 (faltan 20.220); 139 bis (faltan 21.076); 146 (faltan 20.220); 146 ter (faltan 20.220, 20.720); 149 (faltan 20.571); 149 bis (faltan 20.571); 149 quater (faltan 20.571); 149 quinquies (faltan 20.571); 150 bis (faltan 20.257, 20.698); 150 ter (faltan 20.698); 157 (faltan 20.257, 20.928); 174 bis (faltan 20.698); 184 (faltan 20.928); 191 (faltan 20.928); 191 bis (faltan 21.657); 193 (faltan 21.647); 209 (faltan 20.999); 210 (faltan 20.999); 213 (faltan 20.273); 214 (faltan 20.273); 225 (faltan 20.928).

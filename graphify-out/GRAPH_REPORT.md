@@ -23,12 +23,13 @@
 | Ley 21.194 de 2019 | completa | 0 | — |
 | Ley 21.304 de 2021 | completa | 0 | — |
 | Ley 21.806 de 2026 | completa | 0 | — |
+| Ley 21.118 de 2018 | completa | 0 | — |
 
 > **Advertencia:** 1 norma(s) con cobertura parcial. Las respuestas sobre qué artículos modificó una ley pueden estar incompletas; los candidatos pendientes están en `datos/derivados/candidatos_por_fechaversion.csv` y la causa en `docs/diagnostico_truncamiento_bcn.md`.
 
 ## Cobertura de la historia por artículo
 
-218 de 237 artículos del DFL 4 en el grafo tienen historia completa (todas las leyes posteriores al DFL 4 que la BCN anota en el artículo están en el grafo). Detalle de todo el DFL 4 en `datos/derivados/historia_articulos.csv`.
+219 de 237 artículos del DFL 4 en el grafo tienen historia completa (todas las leyes posteriores al DFL 4 que la BCN anota en el artículo están en el grafo). Detalle de todo el DFL 4 en `datos/derivados/historia_articulos.csv`.
 
 | Artículo | Leyes que faltan |
 |---|---|
@@ -40,9 +41,8 @@
 | 146 | 20220 |
 | 146 ter | 20220, 20720 |
 | 149 | 20571 |
-| 149 bis | 20571, 21118 |
+| 149 bis | 20571 |
 | 149 quater | 20571 |
-| 149 ter | 21118 |
 | 150 bis | 20257, 20698 |
 | 150 ter | 20698 |
 | 157 | 20257, 20928 |
@@ -52,10 +52,10 @@
 | 210 | 20999 |
 | 225 | 20928 |
 
-Aristas por relación, estado y método: contiene/verificada/regla: 251; deroga/inferida/regla: 2; deroga/verificada/regla: 7; implementa/verificada/regla: 1; modifica/verificada/manual: 52; modifica/verificada/regla: 262
+Aristas por relación, estado y método: contiene/verificada/regla: 252; deroga/inferida/regla: 2; deroga/verificada/regla: 7; implementa/verificada/regla: 1; modifica/verificada/manual: 52; modifica/verificada/regla: 264
 
 ## Summary
-- 267 nodes · 575 edges · 11 communities
+- 269 nodes · 578 edges · 11 communities
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS · INFERRED: 2 edges (avg confidence: 0.7)
 - Token cost: 0 input · 0 output
 
@@ -69,8 +69,8 @@ Aristas por relación, estado y método: contiene/verificada/regla: 251; deroga/
 - Ley 21.304 de 2021 + Ley 21.806 de 2026 | DFL 4 de 2006 (LGSE): arts. 141…207-8
 - Ley 21.721 de 2024 + Res. 156 exenta de 2025 | DFL 4 de 2006 (LGSE): arts. 77…115
 - Ley 21.194 de 2019 | DFL 4 de 2006 (LGSE): arts. 8 ter…193
+- Ley 21.118 de 2018 + Ley 21.505 de 2022 | DFL 4 de 2006 (LGSE): arts. 72-2…149 ter
 - Ley 21.472 de 2022 + Ley 21.667 de 2024 + Ley 21.833 de 2026 | DFL 4 de 2006 (LGSE): arts.
-- Ley 21.505 de 2022 | DFL 4 de 2006 (LGSE): arts. 72-2…149 ter
 
 ## God Nodes (most connected - your core abstractions)
 1. `DFL 4 de 2006 (LGSE)` - 237 edges
@@ -134,28 +134,28 @@ Nodes (13): Ley 21.721 de 2024, Ley 21.721 de 2024 — art. único, DFL 4 de 200
 Cohesion: 0.17
 Nodes (12): Ley 21.194 de 2019, Ley 21.194 de 2019 — art. único, DFL 4 de 2006 (LGSE) — art. 182, DFL 4 de 2006 (LGSE) — art. 182 bis, DFL 4 de 2006 (LGSE) — art. 183, DFL 4 de 2006 (LGSE) — art. 183 bis, DFL 4 de 2006 (LGSE) — art. 185, DFL 4 de 2006 (LGSE) — art. 187 (+4 more)
 
-### Community 9 - "Ley 21.472 de 2022 + Ley 21.667 de 2024 + Ley 21.833 de 2026 | DFL 4 de 2006 (LGSE): arts."
+### Community 9 - "Ley 21.118 de 2018 + Ley 21.505 de 2022 | DFL 4 de 2006 (LGSE): arts. 72-2…149 ter"
+Cohesion: 0.22
+Nodes (10): Ley 21.118 de 2018, Ley 21.118 de 2018 — art. único, Ley 21.505 de 2022, Ley 21.505 de 2022 — art. único, DFL 4 de 2006 (LGSE) — art. 149, DFL 4 de 2006 (LGSE) — art. 149 bis, DFL 4 de 2006 (LGSE) — art. 149 ter, DFL 4 de 2006 (LGSE) — art. 72-17 (+2 more)
+
+### Community 10 - "Ley 21.472 de 2022 + Ley 21.667 de 2024 + Ley 21.833 de 2026 | DFL 4 de 2006 (LGSE): arts."
 Cohesion: 0.24
 Nodes (10): Ley 21.472 de 2022, Ley 21.472 de 2022 — art. 1, Ley 21.667 de 2024, Ley 21.667 de 2024 — art. primero, Ley 21.833 de 2026, Ley 21.833 de 2026 — art. 1, DFL 4 de 2006 (LGSE) — art. 183 ter, DFL 4 de 2006 (LGSE) — art. 212-13 (+2 more)
 
-### Community 10 - "Ley 21.505 de 2022 | DFL 4 de 2006 (LGSE): arts. 72-2…149 ter"
-Cohesion: 0.25
-Nodes (8): Ley 21.505 de 2022, Ley 21.505 de 2022 — art. único, DFL 4 de 2006 (LGSE) — art. 149, DFL 4 de 2006 (LGSE) — art. 149 bis, DFL 4 de 2006 (LGSE) — art. 149 ter, DFL 4 de 2006 (LGSE) — art. 72-17, DFL 4 de 2006 (LGSE) — art. 72-18, DFL 4 de 2006 (LGSE) — art. 72-2
-
 ## Knowledge Gaps
-- **15 isolated node(s):** `Ley 20.936 de 2016`, `Ley 21.721 de 2024`, `Res. 156 exenta de 2025`, `Ley 21.804 de 2026`, `Ley 21.505 de 2022` (+10 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 15 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **16 isolated node(s):** `Ley 20.936 de 2016`, `Ley 21.721 de 2024`, `Res. 156 exenta de 2025`, `Ley 21.804 de 2026`, `Ley 21.505 de 2022` (+11 more)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 16 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `Ley 20.936 de 2016 — art. 1` connect `Ley 20.936 de 2016 | DFL 4 de 2006 (LGSE): arts. 7…225` to `DFL 4 de 2006 (LGSE) | DFL 4 de 2006 (LGSE): arts. 8 bis…212-12`, `Ley 21.804 de 2026 | DFL 4 de 2006 (LGSE): arts. 10-1…199 bis`, `Ley 20.701 de 2013 + Ley 21.582 de 2023 | DFL 4 de 2006 (LGSE): arts. 11…98`, `Ley 20.402 de 2009 | DFL 4 de 2006 (LGSE): arts. 9…220`, `Ley 20.805 de 2015 | DFL 4 de 2006 (LGSE): arts. 108…147`, `Ley 21.721 de 2024 + Res. 156 exenta de 2025 | DFL 4 de 2006 (LGSE): arts. 77…115`, `Ley 21.472 de 2022 + Ley 21.667 de 2024 + Ley 21.833 de 2026 | DFL 4 de 2006 (LGSE): arts.`, `Ley 21.505 de 2022 | DFL 4 de 2006 (LGSE): arts. 72-2…149 ter`?**
+- **Why does `Ley 20.936 de 2016 — art. 1` connect `Ley 20.936 de 2016 | DFL 4 de 2006 (LGSE): arts. 7…225` to `DFL 4 de 2006 (LGSE) | DFL 4 de 2006 (LGSE): arts. 8 bis…212-12`, `Ley 21.804 de 2026 | DFL 4 de 2006 (LGSE): arts. 10-1…199 bis`, `Ley 20.701 de 2013 + Ley 21.582 de 2023 | DFL 4 de 2006 (LGSE): arts. 11…98`, `Ley 20.402 de 2009 | DFL 4 de 2006 (LGSE): arts. 9…220`, `Ley 20.805 de 2015 | DFL 4 de 2006 (LGSE): arts. 108…147`, `Ley 21.721 de 2024 + Res. 156 exenta de 2025 | DFL 4 de 2006 (LGSE): arts. 77…115`, `Ley 21.118 de 2018 + Ley 21.505 de 2022 | DFL 4 de 2006 (LGSE): arts. 72-2…149 ter`, `Ley 21.472 de 2022 + Ley 21.667 de 2024 + Ley 21.833 de 2026 | DFL 4 de 2006 (LGSE): arts.`?**
   _High betweenness centrality (0.002) - this node is a cross-community bridge._
 - **What connects `Ley 20.936 de 2016`, `Ley 21.721 de 2024`, `Res. 156 exenta de 2025` to the rest of the system?**
-  _15 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _16 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `DFL 4 de 2006 (LGSE) | DFL 4 de 2006 (LGSE): arts. 8 bis…212-12` be split into smaller, more focused modules?**
   _Cohesion score 0.031746031746031744 - nodes in this community are weakly interconnected._
-- **Why does `Ley 21.804 de 2026 — art. único` connect `Ley 21.804 de 2026 | DFL 4 de 2006 (LGSE): arts. 10-1…199 bis` to `Ley 20.402 de 2009 | DFL 4 de 2006 (LGSE): arts. 9…220`, `Ley 20.936 de 2016 | DFL 4 de 2006 (LGSE): arts. 7…225`, `Ley 20.805 de 2015 | DFL 4 de 2006 (LGSE): arts. 108…147`, `Ley 21.194 de 2019 | DFL 4 de 2006 (LGSE): arts. 8 ter…193`, `Ley 21.505 de 2022 | DFL 4 de 2006 (LGSE): arts. 72-2…149 ter`?**
+- **Why does `Ley 21.804 de 2026 — art. único` connect `Ley 21.804 de 2026 | DFL 4 de 2006 (LGSE): arts. 10-1…199 bis` to `Ley 20.402 de 2009 | DFL 4 de 2006 (LGSE): arts. 9…220`, `Ley 20.936 de 2016 | DFL 4 de 2006 (LGSE): arts. 7…225`, `Ley 20.805 de 2015 | DFL 4 de 2006 (LGSE): arts. 108…147`, `Ley 21.194 de 2019 | DFL 4 de 2006 (LGSE): arts. 8 ter…193`, `Ley 21.118 de 2018 + Ley 21.505 de 2022 | DFL 4 de 2006 (LGSE): arts. 72-2…149 ter`?**
   _High betweenness centrality (0.001) - this node is a cross-community bridge._
 - **Should `Ley 21.804 de 2026 | DFL 4 de 2006 (LGSE): arts. 10-1…199 bis` be split into smaller, more focused modules?**
   _Cohesion score 0.04 - nodes in this community are weakly interconnected._
