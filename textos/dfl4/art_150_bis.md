@@ -4,7 +4,7 @@
 - **Versión del texto consolidado:** DFL 4 versión BCN 2026-07-31; última versión de este artículo según la BCN: 2026-02-13
 - **idParte:** 8721943 (https://www.bcn.cl/leychile/navegar?idNorma=258171&idParte=8721943)
 - **Vigencia:** vigente
-- **Cobertura de la historia:** parcial — faltan en el grafo las leyes 20.257, 20.698
+- **Cobertura de la historia:** parcial — faltan en el grafo las leyes 20.257
 - **Bloque:** fuera del bloque de transmisión
 
 ## Texto vigente
@@ -41,6 +41,8 @@ Donde FP es el factor proporcional antes señalado y PM es la potencia máxima d
 
 ## Historia de modificaciones
 
+- 2013-10-22 · Ley 20.698 de 2013 (art. 1) · N° 1 letra a) · reemplaza · verificada · regla · idParte 9380017
+- 2013-10-22 · Ley 20.698 de 2013 (art. 1) · N° 1 letra b) · agrega · verificada · regla · idParte 9380017
 - 2016-07-20 · Ley 20.936 de 2016 (art. 1) · N° 17 letra a) · reemplaza · verificada · regla · idParte 9716001
 - 2016-07-20 · Ley 20.936 de 2016 (art. 1) · N° 17 letra b) · reemplaza · verificada · regla · idParte 9716001
 - 2016-07-20 · Ley 20.936 de 2016 (art. 1) · N° 17 letra c) · reemplaza · verificada · regla · idParte 9716001
@@ -54,9 +56,31 @@ Donde FP es el factor proporcional antes señalado y PM es la potencia máxima d
 - 2026-02-13 · Ley 21.804 de 2026 (art. único) · N° 12 letra d) i) · reemplaza · verificada · regla · idParte 10583265
 - 2026-02-13 · Ley 21.804 de 2026 (art. único) · N° 12 letra d) ii) · elimina · verificada · regla · idParte 10583265
 
-> ⚠️ Historia incompleta: la BCN anota modificaciones de las leyes 20.257, 20.698, que no están en el grafo.
+> ⚠️ Historia incompleta: la BCN anota modificaciones de las leyes 20.257, que no están en el grafo.
 
 ## Texto modificatorio
+
+### Ley 20.698 de 2013 — art. 1, N° 1
+
+*Fuente: XML (https://www.leychile.cl/Consulta/obtxml?opt=7&idNorma=1055402).*
+
+N° 1. En el artículo 150 bis:
+
+a) Reemplázase, en el inciso primero, el guarismo "10%"
+
+por "20%".
+
+b) Agrégase, en el inciso sexto, la siguiente oración
+
+final: "Asimismo, las señaladas Direcciones de
+
+Peajes llevarán un registro público de todas las
+
+transferencias y valores de los certificados de
+
+energías renovables no convencionales emitidos por
+
+dicha Dirección.".
 
 ### Ley 20.936 de 2016 — art. 1, N° 17
 

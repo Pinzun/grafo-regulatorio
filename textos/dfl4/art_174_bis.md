@@ -4,7 +4,7 @@
 - **Versión del texto consolidado:** DFL 4 versión BCN 2026-07-31; última versión de este artículo según la BCN: 2013-10-22
 - **idParte:** 9380043 (https://www.bcn.cl/leychile/navegar?idNorma=258171&idParte=9380043)
 - **Vigencia:** vigente
-- **Cobertura de la historia:** parcial — faltan en el grafo las leyes 20.698
+- **Cobertura de la historia:** completa
 - **Bloque:** fuera del bloque de transmisión
 
 ## Texto vigente
@@ -15,10 +15,14 @@ Artículo 174 bis.- Los planes de expansión de las instalaciones de generación
 
 ## Historia de modificaciones
 
-*Sin modificaciones registradas en el grafo.*
-
-> ⚠️ Historia incompleta: la BCN anota modificaciones de las leyes 20.698, que no están en el grafo.
+- 2013-10-22 · Ley 20.698 de 2013 (art. 1) · N° 3 · agrega · verificada · regla · idParte 9380017
 
 ## Texto modificatorio
 
-*No hay texto modificatorio: el artículo no tiene modificaciones en el grafo.*
+### Ley 20.698 de 2013 — art. 1, N° 3
+
+*Fuente: XML (https://www.leychile.cl/Consulta/obtxml?opt=7&idNorma=1055402).*
+
+N° 3. Agrégase el siguiente artículo 174 bis:
+
+"Artículo 174 bis.- Los planes de expansión de las instalaciones de generación de cada sistema mediano deberán contemplar proyectos de medios de generación renovables no convencionales, los que deberán priorizarse en relación a otras fuentes de energía primaria considerando una expansión eficiente del sistema.".

@@ -1,0 +1,18 @@
+{
+  "id_norma": "1055402",
+  "fecha_version": "2013-10-22",
+  "nombre": "Ley 20698",
+  "url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=Ley-20698_22-OCT-2013&exportar_con_notas_bcn=True&exportar_con_notas_originales=True&exportar_con_notas_al_pie=True&hddResultadoExportar=1055402.2013-10-22.0.0%23",
+  "fecha_descarga": "2026-11-26",
+  "sha256_pdf": "5b6ff86180e3722f64f31777b5117da5d2cc5bd166aaf7020407a3774eaa20dd",
+  "bytes": 61161,
+  "con_notas_bcn": true,
+  "conversion": {
+    "texto": {
+      "parrafos": 72,
+      "notas_bcn": 0,
+      "pdf_ley_chile": true,
+      "salida": "datos/raw/pdf/ley_20698__idNorma_1055402__v2013-10-22.md"
+    }
+  }
+}
