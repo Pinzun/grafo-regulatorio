@@ -1,0 +1,4076 @@
+{
+  "nodes": [
+    {
+      "id": "g0",
+      "type": "group",
+      "label": "DFL 4 de 2006 (LGSE) | DFL 4 de 2006 (LGSE): arts. 8 bis\u2026223",
+      "x": 0,
+      "y": 0,
+      "width": 1760,
+      "height": 920,
+      "color": "1"
+    },
+    {
+      "id": "n_ley_dfl4_2006",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE).md",
+      "x": 20,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_100",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 100.md",
+      "x": 220,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_101",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 101.md",
+      "x": 420,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_103",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 103.md",
+      "x": 620,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_104",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 104.md",
+      "x": 820,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_105",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 105.md",
+      "x": 1020,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_106",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 106.md",
+      "x": 1220,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_107",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 107.md",
+      "x": 1420,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_110",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 110.md",
+      "x": 20,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_111",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 111.md",
+      "x": 220,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_113",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 113.md",
+      "x": 420,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_114_bis",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 114 bis.md",
+      "x": 620,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_116",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 116.md",
+      "x": 820,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_117",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 117.md",
+      "x": 1020,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_118",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 118.md",
+      "x": 1220,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_119",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 119.md",
+      "x": 1420,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_120",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 120.md",
+      "x": 20,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_121",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 121.md",
+      "x": 220,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_122",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 122.md",
+      "x": 420,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_123",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 123.md",
+      "x": 620,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_138",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 138.md",
+      "x": 820,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_165",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 165.md",
+      "x": 1020,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_181",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 181.md",
+      "x": 1220,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_208",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 208.md",
+      "x": 1420,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_212-1",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 212-1.md",
+      "x": 20,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_212-10",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 212-10.md",
+      "x": 220,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_212-11",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 212-11.md",
+      "x": 420,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_212-12",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 212-12.md",
+      "x": 620,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_212-3",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 212-3.md",
+      "x": 820,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_212-4",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 212-4.md",
+      "x": 1020,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_212-5",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 212-5.md",
+      "x": 1220,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_212-6",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 212-6.md",
+      "x": 1420,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_212-7",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 212-7.md",
+      "x": 20,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_212-8",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 212-8.md",
+      "x": 220,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_212-9",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 212-9.md",
+      "x": 420,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_223",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 223.md",
+      "x": 620,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_72-11",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 72-11.md",
+      "x": 820,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_72-12",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 72-12.md",
+      "x": 1020,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_72-13",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 72-13.md",
+      "x": 1220,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_72-14",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 72-14.md",
+      "x": 1420,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_72-15",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 72-15.md",
+      "x": 20,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_72-16",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 72-16.md",
+      "x": 220,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_72-19",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 72-19.md",
+      "x": 420,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_72-20",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 72-20.md",
+      "x": 620,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_72-21",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 72-21.md",
+      "x": 820,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_72-22",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 72-22.md",
+      "x": 1020,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_72-3",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 72-3.md",
+      "x": 1220,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_72-4",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 72-4.md",
+      "x": 1420,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_72-5",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 72-5.md",
+      "x": 20,
+      "y": 560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_72-6",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 72-6.md",
+      "x": 220,
+      "y": 560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_72-7",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 72-7.md",
+      "x": 420,
+      "y": 560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_76",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 76.md",
+      "x": 620,
+      "y": 560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_78",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 78.md",
+      "x": 820,
+      "y": 560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_8_bis",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 8 bis.md",
+      "x": 1020,
+      "y": 560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_80",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 80.md",
+      "x": 1220,
+      "y": 560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_82",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 82.md",
+      "x": 1420,
+      "y": 560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_84",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 84.md",
+      "x": 20,
+      "y": 640,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_88",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 88.md",
+      "x": 220,
+      "y": 640,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_89",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 89.md",
+      "x": 420,
+      "y": 640,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_90",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 90.md",
+      "x": 620,
+      "y": 640,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_93",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 93.md",
+      "x": 820,
+      "y": 640,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_99_bis",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 99 bis.md",
+      "x": 1020,
+      "y": 640,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g1",
+      "type": "group",
+      "label": "Ley 21.804 de 2026 | DFL 4 de 2006 (LGSE): arts. 10-1\u2026199 bis",
+      "x": 1840,
+      "y": 0,
+      "width": 1540,
+      "height": 820,
+      "color": "2"
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_10-1",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 10-1.md",
+      "x": 1860,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_10-2",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 10-2.md",
+      "x": 2060,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_10-3",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 10-3.md",
+      "x": 2260,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_10-4",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 10-4.md",
+      "x": 2460,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_10-5",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 10-5.md",
+      "x": 2660,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_10-6",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 10-6.md",
+      "x": 2860,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_130",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 130.md",
+      "x": 3060,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_149_quater",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 149 quater.md",
+      "x": 1860,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_159",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 159.md",
+      "x": 2060,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_163",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 163.md",
+      "x": 2260,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_173",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 173.md",
+      "x": 2460,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_173_bis",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 173 bis.md",
+      "x": 2660,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_174",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 174.md",
+      "x": 2860,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_175",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 175.md",
+      "x": 3060,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_176",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 176.md",
+      "x": 1860,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_176_bis",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 176 bis.md",
+      "x": 2060,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_176_quater",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 176 quater.md",
+      "x": 2260,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_176_ter",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 176 ter.md",
+      "x": 2460,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_177",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 177.md",
+      "x": 2660,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_177_bis",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 177 bis.md",
+      "x": 2860,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_177_quater",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 177 quater.md",
+      "x": 3060,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_177_quinquies",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 177 quinquies.md",
+      "x": 1860,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_177_ter",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 177 ter.md",
+      "x": 2060,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_179",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 179.md",
+      "x": 2260,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_180",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 180.md",
+      "x": 2460,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_180-1",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 180-1.md",
+      "x": 2660,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_180-10",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 180-10.md",
+      "x": 2860,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_180-11",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 180-11.md",
+      "x": 3060,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_180-12",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 180-12.md",
+      "x": 1860,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_180-13",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 180-13.md",
+      "x": 2060,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_180-2",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 180-2.md",
+      "x": 2260,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_180-3",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 180-3.md",
+      "x": 2460,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_180-4",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 180-4.md",
+      "x": 2660,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_180-5",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 180-5.md",
+      "x": 2860,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_180-6",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 180-6.md",
+      "x": 3060,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_180-7",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 180-7.md",
+      "x": 1860,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_180-8",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 180-8.md",
+      "x": 2060,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_180-9",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 180-9.md",
+      "x": 2260,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_199",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 199.md",
+      "x": 2460,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_199_bis",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 199 bis.md",
+      "x": 2660,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_72-1",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 72-1.md",
+      "x": 2860,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_72-10",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 72-10.md",
+      "x": 3060,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_83",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 83.md",
+      "x": 1860,
+      "y": 560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_84_bis",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 84 bis.md",
+      "x": 2060,
+      "y": 560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_85",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 85.md",
+      "x": 2260,
+      "y": 560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_21804_2026",
+      "type": "file",
+      "file": "Ley 21.804 de 2026.md",
+      "x": 2460,
+      "y": 560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_21804_2026__art_unico",
+      "type": "file",
+      "file": "Ley 21.804 de 2026 \u2014 art. \u00fanico.md",
+      "x": 2660,
+      "y": 560,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g2",
+      "type": "group",
+      "label": "Ley 20.701 de 2013 + Ley 20.897 de 2016 + Ley 21.582 de 2023 | DFL 4 de 2006 (LGSE): arts.",
+      "x": 3460,
+      "y": 0,
+      "width": 1320,
+      "height": 720,
+      "color": "3"
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_11",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 11.md",
+      "x": 3480,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_19",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 19.md",
+      "x": 3680,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_20",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 20.md",
+      "x": 3880,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_21",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 21.md",
+      "x": 4080,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_22",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 22.md",
+      "x": 4280,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_23",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 23.md",
+      "x": 4480,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_25",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 25.md",
+      "x": 3480,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_27_bis",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 27 bis.md",
+      "x": 3680,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_27_ter",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 27 ter.md",
+      "x": 3880,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_28",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 28.md",
+      "x": 4080,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_29",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 29.md",
+      "x": 4280,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_31_bis",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 31 bis.md",
+      "x": 4480,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_34_bis",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 34 bis.md",
+      "x": 3480,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_39",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 39.md",
+      "x": 3680,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_54",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 54.md",
+      "x": 3880,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_62",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 62.md",
+      "x": 4080,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_63",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 63.md",
+      "x": 4280,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_63_bis",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 63 bis.md",
+      "x": 4480,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_63_ter",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 63 ter.md",
+      "x": 3480,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_64",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 64.md",
+      "x": 3680,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_65",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 65.md",
+      "x": 3880,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_66",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 66.md",
+      "x": 4080,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_67",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 67.md",
+      "x": 4280,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_68",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 68.md",
+      "x": 4480,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_97",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 97.md",
+      "x": 3480,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_98",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 98.md",
+      "x": 3680,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_20701_2013",
+      "type": "file",
+      "file": "Ley 20.701 de 2013.md",
+      "x": 3880,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_20701_2013__art_unico",
+      "type": "file",
+      "file": "Ley 20.701 de 2013 \u2014 art. \u00fanico.md",
+      "x": 4080,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_20897_2016",
+      "type": "file",
+      "file": "Ley 20.897 de 2016.md",
+      "x": 4280,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_20897_2016__art_2",
+      "type": "file",
+      "file": "Ley 20.897 de 2016 \u2014 art. 2.md",
+      "x": 4480,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_21582_2023",
+      "type": "file",
+      "file": "Ley 21.582 de 2023.md",
+      "x": 3480,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_21582_2023__art_10",
+      "type": "file",
+      "file": "Ley 21.582 de 2023 \u2014 art. 10.md",
+      "x": 3680,
+      "y": 480,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g3",
+      "type": "group",
+      "label": "Ley 20.402 de 2009 | DFL 4 de 2006 (LGSE): arts. 9\u2026220",
+      "x": 4860,
+      "y": 0,
+      "width": 1320,
+      "height": 620,
+      "color": "4"
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_112",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 112.md",
+      "x": 4880,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_137",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 137.md",
+      "x": 5080,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_146",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 146.md",
+      "x": 5280,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_150",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 150.md",
+      "x": 5480,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_151",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 151.md",
+      "x": 5680,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_152",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 152.md",
+      "x": 5880,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_169",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 169.md",
+      "x": 4880,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_17",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 17.md",
+      "x": 5080,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_170",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 170.md",
+      "x": 5280,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_178",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 178.md",
+      "x": 5480,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_184",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 184.md",
+      "x": 5680,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_190",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 190.md",
+      "x": 5880,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_203",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 203.md",
+      "x": 4880,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_206",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 206.md",
+      "x": 5080,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_212",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 212.md",
+      "x": 5280,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_220",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 220.md",
+      "x": 5480,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_26",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 26.md",
+      "x": 5680,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_33",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 33.md",
+      "x": 5880,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_47",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 47.md",
+      "x": 4880,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_59",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 59.md",
+      "x": 5080,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_73",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 73.md",
+      "x": 5280,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_74",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 74.md",
+      "x": 5480,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_75",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 75.md",
+      "x": 5680,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_9",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 9.md",
+      "x": 5880,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_92",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 92.md",
+      "x": 4880,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_94",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 94.md",
+      "x": 5080,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_20402_2009",
+      "type": "file",
+      "file": "Ley 20.402 de 2009.md",
+      "x": 5280,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_20402_2009__art_13",
+      "type": "file",
+      "file": "Ley 20.402 de 2009 \u2014 art. 13.md",
+      "x": 5480,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g4",
+      "type": "group",
+      "label": "Ley 21.304 de 2021 + Ley 21.472 de 2022 + Ley 21.667 de 2024 + Ley 21.806 de 2026 + Ley 21",
+      "x": 6260,
+      "y": 0,
+      "width": 1100,
+      "height": 620,
+      "color": "5"
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_141",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 141.md",
+      "x": 6280,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_183_ter",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 183 ter.md",
+      "x": 6480,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_207-1",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 207-1.md",
+      "x": 6680,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_207-2",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 207-2.md",
+      "x": 6880,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_207-2_bis",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 207-2 bis.md",
+      "x": 7080,
+      "y": 80,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_207-3",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 207-3.md",
+      "x": 6280,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_207-4",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 207-4.md",
+      "x": 6480,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_207-5",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 207-5.md",
+      "x": 6680,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_207-6",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 207-6.md",
+      "x": 6880,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_207-7",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 207-7.md",
+      "x": 7080,
+      "y": 160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_207-8",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 207-8.md",
+      "x": 6280,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_212-13",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 212-13.md",
+      "x": 6480,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_212-14",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 212-14.md",
+      "x": 6680,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_72-9",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 72-9.md",
+      "x": 6880,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_21304_2021",
+      "type": "file",
+      "file": "Ley 21.304 de 2021.md",
+      "x": 7080,
+      "y": 240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_21304_2021__art_unico",
+      "type": "file",
+      "file": "Ley 21.304 de 2021 \u2014 art. \u00fanico.md",
+      "x": 6280,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_21472_2022",
+      "type": "file",
+      "file": "Ley 21.472 de 2022.md",
+      "x": 6480,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_21472_2022__art_1",
+      "type": "file",
+      "file": "Ley 21.472 de 2022 \u2014 art. 1.md",
+      "x": 6680,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_21667_2024",
+      "type": "file",
+      "file": "Ley 21.667 de 2024.md",
+      "x": 6880,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_21667_2024__art_primero",
+      "type": "file",
+      "file": "Ley 21.667 de 2024 \u2014 art. primero.md",
+      "x": 7080,
+      "y": 320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_21806_2026",
+      "type": "file",
+      "file": "Ley 21.806 de 2026.md",
+      "x": 6280,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_21806_2026__art_101",
+      "type": "file",
+      "file": "Ley 21.806 de 2026 \u2014 art. 101.md",
+      "x": 6480,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_21833_2026",
+      "type": "file",
+      "file": "Ley 21.833 de 2026.md",
+      "x": 6680,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_21833_2026__art_1",
+      "type": "file",
+      "file": "Ley 21.833 de 2026 \u2014 art. 1.md",
+      "x": 6880,
+      "y": 400,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g5",
+      "type": "group",
+      "label": "Ley 20.220 de 2007 + Ley 20.805 de 2015 | DFL 4 de 2006 (LGSE): arts. 27\u2026147",
+      "x": 0,
+      "y": 1000,
+      "width": 1100,
+      "height": 520,
+      "color": "6"
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_108",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 108.md",
+      "x": 20,
+      "y": 1080,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_131",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 131.md",
+      "x": 220,
+      "y": 1080,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_131_bis",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 131 bis.md",
+      "x": 420,
+      "y": 1080,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_131_ter",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 131 ter.md",
+      "x": 620,
+      "y": 1080,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_132",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 132.md",
+      "x": 820,
+      "y": 1080,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_133",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 133.md",
+      "x": 20,
+      "y": 1160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_134",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 134.md",
+      "x": 220,
+      "y": 1160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_135",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 135.md",
+      "x": 420,
+      "y": 1160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_135_bis",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 135 bis.md",
+      "x": 620,
+      "y": 1160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_135_quater",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 135 quater.md",
+      "x": 820,
+      "y": 1160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_135_quinquies",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 135 quinquies.md",
+      "x": 20,
+      "y": 1240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_135_ter",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 135 ter.md",
+      "x": 220,
+      "y": 1240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_146_bis",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 146 bis.md",
+      "x": 420,
+      "y": 1240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_146_quater",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 146 quater.md",
+      "x": 620,
+      "y": 1240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_147",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 147.md",
+      "x": 820,
+      "y": 1240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_27",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 27.md",
+      "x": 20,
+      "y": 1320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_20220_2007",
+      "type": "file",
+      "file": "Ley 20.220 de 2007.md",
+      "x": 220,
+      "y": 1320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_20220_2007__art_unico",
+      "type": "file",
+      "file": "Ley 20.220 de 2007 \u2014 art. \u00fanico.md",
+      "x": 420,
+      "y": 1320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_20805_2015",
+      "type": "file",
+      "file": "Ley 20.805 de 2015.md",
+      "x": 620,
+      "y": 1320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_20805_2015__art_unico",
+      "type": "file",
+      "file": "Ley 20.805 de 2015 \u2014 art. \u00fanico.md",
+      "x": 820,
+      "y": 1320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g6",
+      "type": "group",
+      "label": "Ley 20.936 de 2016 | DFL 4 de 2006 (LGSE): arts. 7\u2026225",
+      "x": 1840,
+      "y": 1000,
+      "width": 1100,
+      "height": 520,
+      "color": "1"
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_109",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 109.md",
+      "x": 1860,
+      "y": 1080,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_128",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 128.md",
+      "x": 2060,
+      "y": 1080,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_150_ter",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 150 ter.md",
+      "x": 2260,
+      "y": 1080,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_155",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 155.md",
+      "x": 2460,
+      "y": 1080,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_158",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 158.md",
+      "x": 2660,
+      "y": 1080,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_160",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 160.md",
+      "x": 1860,
+      "y": 1160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_162",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 162.md",
+      "x": 2060,
+      "y": 1160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_166",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 166.md",
+      "x": 2260,
+      "y": 1160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_167",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 167.md",
+      "x": 2460,
+      "y": 1160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_171",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 171.md",
+      "x": 2660,
+      "y": 1160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_211",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 211.md",
+      "x": 1860,
+      "y": 1240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_212-2",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 212-2.md",
+      "x": 2060,
+      "y": 1240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_225",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 225.md",
+      "x": 2260,
+      "y": 1240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_7",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 7.md",
+      "x": 2460,
+      "y": 1240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_72-8",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 72-8.md",
+      "x": 2660,
+      "y": 1240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_81",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 81.md",
+      "x": 1860,
+      "y": 1320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_86",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 86.md",
+      "x": 2060,
+      "y": 1320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_20936_2016",
+      "type": "file",
+      "file": "Ley 20.936 de 2016.md",
+      "x": 2260,
+      "y": 1320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_20936_2016__art_1",
+      "type": "file",
+      "file": "Ley 20.936 de 2016 \u2014 art. 1.md",
+      "x": 2460,
+      "y": 1320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g7",
+      "type": "group",
+      "label": "Ley 21.194 de 2019 + Ley 21.647 de 2023 | DFL 4 de 2006 (LGSE): arts. 8 ter\u2026193",
+      "x": 3460,
+      "y": 1000,
+      "width": 880,
+      "height": 520,
+      "color": "2"
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_182",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 182.md",
+      "x": 3480,
+      "y": 1080,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_182_bis",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 182 bis.md",
+      "x": 3680,
+      "y": 1080,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_183",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 183.md",
+      "x": 3880,
+      "y": 1080,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_183_bis",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 183 bis.md",
+      "x": 4080,
+      "y": 1080,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_185",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 185.md",
+      "x": 3480,
+      "y": 1160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_187",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 187.md",
+      "x": 3680,
+      "y": 1160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_188",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 188.md",
+      "x": 3880,
+      "y": 1160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_189",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 189.md",
+      "x": 4080,
+      "y": 1160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_193",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 193.md",
+      "x": 3480,
+      "y": 1240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_8_ter",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 8 ter.md",
+      "x": 3680,
+      "y": 1240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_21194_2019",
+      "type": "file",
+      "file": "Ley 21.194 de 2019.md",
+      "x": 3880,
+      "y": 1240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_21194_2019__art_unico",
+      "type": "file",
+      "file": "Ley 21.194 de 2019 \u2014 art. \u00fanico.md",
+      "x": 4080,
+      "y": 1240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_21647_2023",
+      "type": "file",
+      "file": "Ley 21.647 de 2023.md",
+      "x": 3480,
+      "y": 1320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_21647_2023__art_88",
+      "type": "file",
+      "file": "Ley 21.647 de 2023 \u2014 art. 88.md",
+      "x": 3680,
+      "y": 1320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g8",
+      "type": "group",
+      "label": "Ley 20.571 de 2012 + Ley 21.118 de 2018 + Ley 21.505 de 2022 | DFL 4 de 2006 (LGSE): arts.",
+      "x": 4860,
+      "y": 1000,
+      "width": 880,
+      "height": 520,
+      "color": "3"
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_149",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 149.md",
+      "x": 4880,
+      "y": 1080,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_149_bis",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 149 bis.md",
+      "x": 5080,
+      "y": 1080,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_149_quinquies",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 149 quinquies.md",
+      "x": 5280,
+      "y": 1080,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_149_ter",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 149 ter.md",
+      "x": 5480,
+      "y": 1080,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_72-17",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 72-17.md",
+      "x": 4880,
+      "y": 1160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_72-18",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 72-18.md",
+      "x": 5080,
+      "y": 1160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_72-2",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 72-2.md",
+      "x": 5280,
+      "y": 1160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_20571_2012",
+      "type": "file",
+      "file": "Ley 20.571 de 2012.md",
+      "x": 5480,
+      "y": 1160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_20571_2012__art_unico",
+      "type": "file",
+      "file": "Ley 20.571 de 2012 \u2014 art. \u00fanico.md",
+      "x": 4880,
+      "y": 1240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_21118_2018",
+      "type": "file",
+      "file": "Ley 21.118 de 2018.md",
+      "x": 5080,
+      "y": 1240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_21118_2018__art_unico",
+      "type": "file",
+      "file": "Ley 21.118 de 2018 \u2014 art. \u00fanico.md",
+      "x": 5280,
+      "y": 1240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_21505_2022",
+      "type": "file",
+      "file": "Ley 21.505 de 2022.md",
+      "x": 5480,
+      "y": 1240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_21505_2022__art_unico",
+      "type": "file",
+      "file": "Ley 21.505 de 2022 \u2014 art. \u00fanico.md",
+      "x": 4880,
+      "y": 1320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g9",
+      "type": "group",
+      "label": "Ley 21.721 de 2024 + Res. 156 exenta de 2025 | DFL 4 de 2006 (LGSE): arts. 77\u2026115",
+      "x": 6260,
+      "y": 1000,
+      "width": 880,
+      "height": 520,
+      "color": "4"
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_102",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 102.md",
+      "x": 6280,
+      "y": 1080,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_114",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 114.md",
+      "x": 6480,
+      "y": 1080,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_115",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 115.md",
+      "x": 6680,
+      "y": 1080,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_77",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 77.md",
+      "x": 6880,
+      "y": 1080,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_87",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 87.md",
+      "x": 6280,
+      "y": 1160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_91",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 91.md",
+      "x": 6480,
+      "y": 1160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_91_bis",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 91 bis.md",
+      "x": 6680,
+      "y": 1160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_95",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 95.md",
+      "x": 6880,
+      "y": 1160,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_96",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 96.md",
+      "x": 6280,
+      "y": 1240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_99",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 99.md",
+      "x": 6480,
+      "y": 1240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_21721_2024",
+      "type": "file",
+      "file": "Ley 21.721 de 2024.md",
+      "x": 6680,
+      "y": 1240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_21721_2024__art_unico",
+      "type": "file",
+      "file": "Ley 21.721 de 2024 \u2014 art. \u00fanico.md",
+      "x": 6880,
+      "y": 1240,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_res_156_2025",
+      "type": "file",
+      "file": "Res. 156 exenta de 2025.md",
+      "x": 6280,
+      "y": 1320,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g10",
+      "type": "group",
+      "label": "Ley 20.257 de 2008 + Ley 20.698 de 2013 | DFL 4 de 2006 (LGSE): arts. 79\u2026174 bis",
+      "x": 0,
+      "y": 1600,
+      "width": 660,
+      "height": 420,
+      "color": "5"
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_150_bis",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 150 bis.md",
+      "x": 20,
+      "y": 1680,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_174_bis",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 174 bis.md",
+      "x": 220,
+      "y": 1680,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_79",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 79.md",
+      "x": 420,
+      "y": 1680,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_20257_2008",
+      "type": "file",
+      "file": "Ley 20.257 de 2008.md",
+      "x": 20,
+      "y": 1760,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_20257_2008__art_unico",
+      "type": "file",
+      "file": "Ley 20.257 de 2008 \u2014 art. \u00fanico.md",
+      "x": 220,
+      "y": 1760,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_20698_2013",
+      "type": "file",
+      "file": "Ley 20.698 de 2013.md",
+      "x": 420,
+      "y": 1760,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_20698_2013__art_1",
+      "type": "file",
+      "file": "Ley 20.698 de 2013 \u2014 art. 1.md",
+      "x": 20,
+      "y": 1840,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g11",
+      "type": "group",
+      "label": "Ley 20.273 de 2008 | DFL 4 de 2006 (LGSE): arts. 213\u2026214",
+      "x": 1840,
+      "y": 1600,
+      "width": 600,
+      "height": 400,
+      "color": "6"
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_213",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 213.md",
+      "x": 1860,
+      "y": 1680,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_214",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 214.md",
+      "x": 2060,
+      "y": 1680,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_20273_2008",
+      "type": "file",
+      "file": "Ley 20.273 de 2008.md",
+      "x": 1860,
+      "y": 1760,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_20273_2008__art_2",
+      "type": "file",
+      "file": "Ley 20.273 de 2008 \u2014 art. 2.md",
+      "x": 2060,
+      "y": 1760,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g12",
+      "type": "group",
+      "label": "Ley 20.928 de 2016 | DFL 4 de 2006 (LGSE): arts. 157\u2026191",
+      "x": 3460,
+      "y": 1600,
+      "width": 600,
+      "height": 400,
+      "color": "1"
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_157",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 157.md",
+      "x": 3480,
+      "y": 1680,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_191",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 191.md",
+      "x": 3680,
+      "y": 1680,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_20928_2016",
+      "type": "file",
+      "file": "Ley 20.928 de 2016.md",
+      "x": 3480,
+      "y": 1760,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_20928_2016__art_unico",
+      "type": "file",
+      "file": "Ley 20.928 de 2016 \u2014 art. \u00fanico.md",
+      "x": 3680,
+      "y": 1760,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g13",
+      "type": "group",
+      "label": "Ley 20.999 de 2017 | DFL 4 de 2006 (LGSE): arts. 209\u2026210",
+      "x": 4860,
+      "y": 1600,
+      "width": 600,
+      "height": 400,
+      "color": "2"
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_209",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 209.md",
+      "x": 4880,
+      "y": 1680,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_210",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 210.md",
+      "x": 5080,
+      "y": 1680,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_20999_2017",
+      "type": "file",
+      "file": "Ley 20.999 de 2017.md",
+      "x": 4880,
+      "y": 1760,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_20999_2017__art_2",
+      "type": "file",
+      "file": "Ley 20.999 de 2017 \u2014 art. 2.md",
+      "x": 5080,
+      "y": 1760,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g14",
+      "type": "group",
+      "label": "Ley 20.720 de 2014 | Ley 20.720 de 2014: art. 391",
+      "x": 6260,
+      "y": 1600,
+      "width": 600,
+      "height": 400,
+      "color": "3"
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_146_ter",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 146 ter.md",
+      "x": 6280,
+      "y": 1680,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_20720_2014",
+      "type": "file",
+      "file": "Ley 20.720 de 2014.md",
+      "x": 6480,
+      "y": 1680,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_20720_2014__art_391",
+      "type": "file",
+      "file": "Ley 20.720 de 2014 \u2014 art. 391.md",
+      "x": 6280,
+      "y": 1760,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g15",
+      "type": "group",
+      "label": "Ley 21.076 de 2018 | Ley 21.076 de 2018: art. \u00fanico",
+      "x": 0,
+      "y": 2100,
+      "width": 600,
+      "height": 400,
+      "color": "4"
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_139_bis",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 139 bis.md",
+      "x": 20,
+      "y": 2180,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_21076_2018",
+      "type": "file",
+      "file": "Ley 21.076 de 2018.md",
+      "x": 220,
+      "y": 2180,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_21076_2018__art_unico",
+      "type": "file",
+      "file": "Ley 21.076 de 2018 \u2014 art. \u00fanico.md",
+      "x": 20,
+      "y": 2260,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "g16",
+      "type": "group",
+      "label": "Ley 21.657 de 2024 | Ley 21.657 de 2024: art. \u00fanico",
+      "x": 1840,
+      "y": 2100,
+      "width": 600,
+      "height": 400,
+      "color": "5"
+    },
+    {
+      "id": "n_ley_dfl4_2006__art_191_bis",
+      "type": "file",
+      "file": "DFL 4 de 2006 (LGSE) \u2014 art. 191 bis.md",
+      "x": 1860,
+      "y": 2180,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_21657_2024",
+      "type": "file",
+      "file": "Ley 21.657 de 2024.md",
+      "x": 2060,
+      "y": 2180,
+      "width": 180,
+      "height": 60
+    },
+    {
+      "id": "n_ley_21657_2024__art_unico",
+      "type": "file",
+      "file": "Ley 21.657 de 2024 \u2014 art. \u00fanico.md",
+      "x": 1860,
+      "y": 2260,
+      "width": 180,
+      "height": 60
+    }
+  ],
+  "edges": [
+    {
+      "id": "e_ley_21505_2022__art_unico_ley_dfl4_2006__art_149_bis",
+      "fromNode": "n_ley_21505_2022__art_unico",
+      "toNode": "n_ley_dfl4_2006__art_149_bis",
+      "label": "modifica [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_21118_2018__art_unico_ley_dfl4_2006__art_149_bis",
+      "fromNode": "n_ley_21118_2018__art_unico",
+      "toNode": "n_ley_dfl4_2006__art_149_bis",
+      "label": "modifica [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_20720_2014__art_391_ley_dfl4_2006__art_146_ter",
+      "fromNode": "n_ley_20720_2014__art_391",
+      "toNode": "n_ley_dfl4_2006__art_146_ter",
+      "label": "modifica [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_20936_2016__art_1_ley_dfl4_2006__art_162",
+      "fromNode": "n_ley_20936_2016__art_1",
+      "toNode": "n_ley_dfl4_2006__art_162",
+      "label": "modifica [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_21505_2022__art_unico_ley_dfl4_2006__art_149",
+      "fromNode": "n_ley_21505_2022__art_unico",
+      "toNode": "n_ley_dfl4_2006__art_149",
+      "label": "modifica [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_21804_2026__art_unico_ley_dfl4_2006__art_176",
+      "fromNode": "n_ley_21804_2026__art_unico",
+      "toNode": "n_ley_dfl4_2006__art_176",
+      "label": "modifica [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_21721_2024__art_unico_ley_dfl4_2006__art_96",
+      "fromNode": "n_ley_21721_2024__art_unico",
+      "toNode": "n_ley_dfl4_2006__art_96",
+      "label": "modifica [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_20701_2013__art_unico_ley_dfl4_2006__art_25",
+      "fromNode": "n_ley_20701_2013__art_unico",
+      "toNode": "n_ley_dfl4_2006__art_25",
+      "label": "modifica [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_20936_2016__art_1_ley_dfl4_2006__art_171",
+      "fromNode": "n_ley_20936_2016__art_1",
+      "toNode": "n_ley_dfl4_2006__art_171",
+      "label": "modifica [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_21194_2019__art_unico_ley_dfl4_2006__art_185",
+      "fromNode": "n_ley_21194_2019__art_unico",
+      "toNode": "n_ley_dfl4_2006__art_185",
+      "label": "modifica [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_21804_2026__art_unico_ley_dfl4_2006__art_150_bis",
+      "fromNode": "n_ley_21804_2026__art_unico",
+      "toNode": "n_ley_dfl4_2006__art_150_bis",
+      "label": "modifica [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_21804_2026__art_unico_ley_dfl4_2006__art_157",
+      "fromNode": "n_ley_21804_2026__art_unico",
+      "toNode": "n_ley_dfl4_2006__art_157",
+      "label": "modifica [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_20701_2013__art_unico_ley_dfl4_2006__art_20",
+      "fromNode": "n_ley_20701_2013__art_unico",
+      "toNode": "n_ley_dfl4_2006__art_20",
+      "label": "modifica [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_21667_2024__art_primero_ley_dfl4_2006__art_212-14",
+      "fromNode": "n_ley_21667_2024__art_primero",
+      "toNode": "n_ley_dfl4_2006__art_212-14",
+      "label": "modifica [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_20805_2015__art_unico_ley_dfl4_2006__art_133",
+      "fromNode": "n_ley_20805_2015__art_unico",
+      "toNode": "n_ley_dfl4_2006__art_133",
+      "label": "modifica [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_20936_2016__art_1_ley_dfl4_2006__art_7",
+      "fromNode": "n_ley_20936_2016__art_1",
+      "toNode": "n_ley_dfl4_2006__art_7",
+      "label": "modifica [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_20936_2016__art_1_ley_dfl4_2006__art_150_bis",
+      "fromNode": "n_ley_20936_2016__art_1",
+      "toNode": "n_ley_dfl4_2006__art_150_bis",
+      "label": "modifica [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_20936_2016__art_1_ley_dfl4_2006__art_150_ter",
+      "fromNode": "n_ley_20936_2016__art_1",
+      "toNode": "n_ley_dfl4_2006__art_150_ter",
+      "label": "modifica [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_20936_2016__art_1_ley_dfl4_2006__art_211",
+      "fromNode": "n_ley_20936_2016__art_1",
+      "toNode": "n_ley_dfl4_2006__art_211",
+      "label": "modifica [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_21804_2026__art_unico_ley_dfl4_2006__art_191",
+      "fromNode": "n_ley_21804_2026__art_unico",
+      "toNode": "n_ley_dfl4_2006__art_191",
+      "label": "modifica [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_20936_2016__art_1_ley_dfl4_2006__art_158",
+      "fromNode": "n_ley_20936_2016__art_1",
+      "toNode": "n_ley_dfl4_2006__art_158",
+      "label": "modifica [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_21505_2022__art_unico_ley_dfl4_2006__art_149_ter",
+      "fromNode": "n_ley_21505_2022__art_unico",
+      "toNode": "n_ley_dfl4_2006__art_149_ter",
+      "label": "modifica [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_20701_2013__art_unico_ley_dfl4_2006__art_29",
+      "fromNode": "n_ley_20701_2013__art_unico",
+      "toNode": "n_ley_dfl4_2006__art_29",
+      "label": "modifica [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_20701_2013__art_unico_ley_dfl4_2006__art_21",
+      "fromNode": "n_ley_20701_2013__art_unico",
+      "toNode": "n_ley_dfl4_2006__art_21",
+      "label": "modifica [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_21667_2024__art_primero_ley_dfl4_2006__art_212-13",
+      "fromNode": "n_ley_21667_2024__art_primero",
+      "toNode": "n_ley_dfl4_2006__art_212-13",
+      "label": "modifica [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_21833_2026__art_1_ley_dfl4_2006__art_212-14",
+      "fromNode": "n_ley_21833_2026__art_1",
+      "toNode": "n_ley_dfl4_2006__art_212-14",
+      "label": "modifica [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_20805_2015__art_unico_ley_dfl4_2006__art_157",
+      "fromNode": "n_ley_20805_2015__art_unico",
+      "toNode": "n_ley_dfl4_2006__art_157",
+      "label": "modifica [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_20936_2016__art_1_ley_dfl4_2006__art_149",
+      "fromNode": "n_ley_20936_2016__art_1",
+      "toNode": "n_ley_dfl4_2006__art_149",
+      "label": "modifica [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_20936_2016__art_1_ley_dfl4_2006__art_157",
+      "fromNode": "n_ley_20936_2016__art_1",
+      "toNode": "n_ley_dfl4_2006__art_157",
+      "label": "modifica [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_20936_2016__art_1_ley_dfl4_2006__art_225",
+      "fromNode": "n_ley_20936_2016__art_1",
+      "toNode": "n_ley_dfl4_2006__art_225",
+      "label": "modifica [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_21721_2024__art_unico_ley_dfl4_2006__art_99",
+      "fromNode": "n_ley_21721_2024__art_unico",
+      "toNode": "n_ley_dfl4_2006__art_99",
+      "label": "modifica [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_21804_2026__art_unico_ley_dfl4_2006__art_150_ter",
+      "fromNode": "n_ley_21804_2026__art_unico",
+      "toNode": "n_ley_dfl4_2006__art_150_ter",
+      "label": "modifica [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_21804_2026__art_unico_ley_dfl4_2006__art_180",
+      "fromNode": "n_ley_21804_2026__art_unico",
+      "toNode": "n_ley_dfl4_2006__art_180",
+      "label": "modifica [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_21804_2026__art_unico_ley_dfl4_2006__art_83",
+      "fromNode": "n_ley_21804_2026__art_unico",
+      "toNode": "n_ley_dfl4_2006__art_83",
+      "label": "modifica [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_21804_2026__art_unico_ley_dfl4_2006__art_130",
+      "fromNode": "n_ley_21804_2026__art_unico",
+      "toNode": "n_ley_dfl4_2006__art_130",
+      "label": "modifica [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_20928_2016__art_unico_ley_dfl4_2006__art_157",
+      "fromNode": "n_ley_20928_2016__art_unico",
+      "toNode": "n_ley_dfl4_2006__art_157",
+      "label": "modifica [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_20999_2017__art_2_ley_dfl4_2006__art_209",
+      "fromNode": "n_ley_20999_2017__art_2",
+      "toNode": "n_ley_dfl4_2006__art_209",
+      "label": "modifica [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_20701_2013__art_unico_ley_dfl4_2006__art_19",
+      "fromNode": "n_ley_20701_2013__art_unico",
+      "toNode": "n_ley_dfl4_2006__art_19",
+      "label": "modifica [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_20701_2013__art_unico_ley_dfl4_2006__art_22",
+      "fromNode": "n_ley_20701_2013__art_unico",
+      "toNode": "n_ley_dfl4_2006__art_22",
+      "label": "modifica [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_20402_2009__art_13_ley_dfl4_2006__art_212",
+      "fromNode": "n_ley_20402_2009__art_13",
+      "toNode": "n_ley_dfl4_2006__art_212",
+      "label": "modifica [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_20402_2009__art_13_ley_dfl4_2006__art_94",
+      "fromNode": "n_ley_20402_2009__art_13",
+      "toNode": "n_ley_dfl4_2006__art_94",
+      "label": "modifica [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_20220_2007__art_unico_ley_dfl4_2006__art_27",
+      "fromNode": "n_ley_20220_2007__art_unico",
+      "toNode": "n_ley_dfl4_2006__art_27",
+      "label": "modifica [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_20805_2015__art_unico_ley_dfl4_2006__art_147",
+      "fromNode": "n_ley_20805_2015__art_unico",
+      "toNode": "n_ley_dfl4_2006__art_147",
+      "label": "modifica [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_20936_2016__art_1_ley_dfl4_2006__art_155",
+      "fromNode": "n_ley_20936_2016__art_1",
+      "toNode": "n_ley_dfl4_2006__art_155",
+      "label": "modifica [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_20936_2016__art_1_ley_dfl4_2006__art_160",
+      "fromNode": "n_ley_20936_2016__art_1",
+      "toNode": "n_ley_dfl4_2006__art_160",
+      "label": "modifica [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_21721_2024__art_unico_ley_dfl4_2006__art_114",
+      "fromNode": "n_ley_21721_2024__art_unico",
+      "toNode": "n_ley_dfl4_2006__art_114",
+      "label": "modifica [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_21804_2026__art_unico_ley_dfl4_2006__art_149_quater",
+      "fromNode": "n_ley_21804_2026__art_unico",
+      "toNode": "n_ley_dfl4_2006__art_149_quater",
+      "label": "modifica [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_21804_2026__art_unico_ley_dfl4_2006__art_158",
+      "fromNode": "n_ley_21804_2026__art_unico",
+      "toNode": "n_ley_dfl4_2006__art_158",
+      "label": "modifica [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_21804_2026__art_unico_ley_dfl4_2006__art_159",
+      "fromNode": "n_ley_21804_2026__art_unico",
+      "toNode": "n_ley_dfl4_2006__art_159",
+      "label": "modifica [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_21804_2026__art_unico_ley_dfl4_2006__art_163",
+      "fromNode": "n_ley_21804_2026__art_unico",
+      "toNode": "n_ley_dfl4_2006__art_163",
+      "label": "modifica [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_21804_2026__art_unico_ley_dfl4_2006__art_173",
+      "fromNode": "n_ley_21804_2026__art_unico",
+      "toNode": "n_ley_dfl4_2006__art_173",
+      "label": "modifica [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_21804_2026__art_unico_ley_dfl4_2006__art_174",
+      "fromNode": "n_ley_21804_2026__art_unico",
+      "toNode": "n_ley_dfl4_2006__art_174",
+      "label": "modifica [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_21804_2026__art_unico_ley_dfl4_2006__art_72-1",
+      "fromNode": "n_ley_21804_2026__art_unico",
+      "toNode": "n_ley_dfl4_2006__art_72-1",
+      "label": "modifica [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_21804_2026__art_unico_ley_dfl4_2006__art_225",
+      "fromNode": "n_ley_21804_2026__art_unico",
+      "toNode": "n_ley_dfl4_2006__art_225",
+      "label": "modifica [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_21804_2026__art_unico_ley_dfl4_2006__art_147",
+      "fromNode": "n_ley_21804_2026__art_unico",
+      "toNode": "n_ley_dfl4_2006__art_147",
+      "label": "modifica [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_20257_2008__art_unico_ley_dfl4_2006__art_79",
+      "fromNode": "n_ley_20257_2008__art_unico",
+      "toNode": "n_ley_dfl4_2006__art_79",
+      "label": "modifica [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_20698_2013__art_1_ley_dfl4_2006__art_150_bis",
+      "fromNode": "n_ley_20698_2013__art_1",
+      "toNode": "n_ley_dfl4_2006__art_150_bis",
+      "label": "modifica [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_20701_2013__art_unico_ley_dfl4_2006__art_64",
+      "fromNode": "n_ley_20701_2013__art_unico",
+      "toNode": "n_ley_dfl4_2006__art_64",
+      "label": "modifica [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_20701_2013__art_unico_ley_dfl4_2006__art_65",
+      "fromNode": "n_ley_20701_2013__art_unico",
+      "toNode": "n_ley_dfl4_2006__art_65",
+      "label": "modifica [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_21582_2023__art_10_ley_dfl4_2006__art_62",
+      "fromNode": "n_ley_21582_2023__art_10",
+      "toNode": "n_ley_dfl4_2006__art_62",
+      "label": "modifica [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_21582_2023__art_10_ley_dfl4_2006__art_97",
+      "fromNode": "n_ley_21582_2023__art_10",
+      "toNode": "n_ley_dfl4_2006__art_97",
+      "label": "modifica [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_20402_2009__art_13_ley_dfl4_2006__art_137",
+      "fromNode": "n_ley_20402_2009__art_13",
+      "toNode": "n_ley_dfl4_2006__art_137",
+      "label": "modifica [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_20402_2009__art_13_ley_dfl4_2006__art_92",
+      "fromNode": "n_ley_20402_2009__art_13",
+      "toNode": "n_ley_dfl4_2006__art_92",
+      "label": "modifica [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_20402_2009__art_13_ley_dfl4_2006__art_112",
+      "fromNode": "n_ley_20402_2009__art_13",
+      "toNode": "n_ley_dfl4_2006__art_112",
+      "label": "modifica [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_20402_2009__art_13_ley_dfl4_2006__art_178",
+      "fromNode": "n_ley_20402_2009__art_13",
+      "toNode": "n_ley_dfl4_2006__art_178",
+      "label": "modifica [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_20402_2009__art_13_ley_dfl4_2006__art_47",
+      "fromNode": "n_ley_20402_2009__art_13",
+      "toNode": "n_ley_dfl4_2006__art_47",
+      "label": "modifica [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_20402_2009__art_13_ley_dfl4_2006__art_99",
+      "fromNode": "n_ley_20402_2009__art_13",
+      "toNode": "n_ley_dfl4_2006__art_99",
+      "label": "modifica [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_20936_2016__art_1_ley_dfl4_2006__art_166",
+      "fromNode": "n_ley_20936_2016__art_1",
+      "toNode": "n_ley_dfl4_2006__art_166",
+      "label": "modifica [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_20936_2016__art_1_ley_dfl4_2006__art_167",
+      "fromNode": "n_ley_20936_2016__art_1",
+      "toNode": "n_ley_dfl4_2006__art_167",
+      "label": "modifica [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_20936_2016__art_1_ley_dfl4_2006__art_212",
+      "fromNode": "n_ley_20936_2016__art_1",
+      "toNode": "n_ley_dfl4_2006__art_212",
+      "label": "modifica [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_20936_2016__art_1_ley_dfl4_2006__art_128",
+      "fromNode": "n_ley_20936_2016__art_1",
+      "toNode": "n_ley_dfl4_2006__art_128",
+      "label": "modifica [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_21194_2019__art_unico_ley_dfl4_2006__art_193",
+      "fromNode": "n_ley_21194_2019__art_unico",
+      "toNode": "n_ley_dfl4_2006__art_193",
+      "label": "modifica [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_21505_2022__art_unico_ley_dfl4_2006__art_72-17",
+      "fromNode": "n_ley_21505_2022__art_unico",
+      "toNode": "n_ley_dfl4_2006__art_72-17",
+      "label": "modifica [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_21721_2024__art_unico_ley_dfl4_2006__art_115",
+      "fromNode": "n_ley_21721_2024__art_unico",
+      "toNode": "n_ley_dfl4_2006__art_115",
+      "label": "modifica [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_21721_2024__art_unico_ley_dfl4_2006__art_102",
+      "fromNode": "n_ley_21721_2024__art_unico",
+      "toNode": "n_ley_dfl4_2006__art_102",
+      "label": "modifica [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_8_ter",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_8_ter",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_182_bis",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_182_bis",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_183_bis",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_183_bis",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_207-2",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_207-2",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_207-1",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_207-1",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_207-3",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_207-3",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_207-4",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_207-4",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_207-5",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_207-5",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_207-6",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_207-6",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_212-14",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_212-14",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_191_bis",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_191_bis",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_91_bis",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_91_bis",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_207-2_bis",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_207-2_bis",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_207-7",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_207-7",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_207-8",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_207-8",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_10-1",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_10-1",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_10-2",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_10-2",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_10-3",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_10-3",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_10-4",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_10-4",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_10-5",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_10-5",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_10-6",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_10-6",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_84_bis",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_84_bis",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_173_bis",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_173_bis",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_176_bis",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_176_bis",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_176_ter",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_176_ter",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_176_quater",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_176_quater",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_177_bis",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_177_bis",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_177_ter",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_177_ter",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_177_quater",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_177_quater",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_177_quinquies",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_177_quinquies",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_180-1",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_180-1",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_180-2",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_180-2",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_180-3",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_180-3",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_180-4",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_180-4",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_180-5",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_180-5",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_180-6",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_180-6",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_180-7",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_180-7",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_180-8",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_180-8",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_180-9",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_180-9",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_180-10",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_180-10",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_180-11",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_180-11",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_180-12",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_180-12",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_180-13",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_180-13",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_199_bis",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_199_bis",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_183_ter",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_183_ter",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_7",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_7",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_9",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_9",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_11",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_11",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_17",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_17",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_19",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_19",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_20",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_20",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_21",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_21",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_22",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_22",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_23",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_23",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_25",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_25",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_26",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_26",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_27",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_27",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_28",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_28",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_29",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_29",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_33",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_33",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_39",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_39",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_47",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_47",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_54",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_54",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_59",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_59",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_62",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_62",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_63",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_63",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_64",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_64",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_65",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_65",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_66",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_66",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_67",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_67",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_68",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_68",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_123",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_123",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_128",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_128",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_130",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_130",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_131",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_131",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_132",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_132",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_133",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_133",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_134",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_134",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_135",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_135",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_137",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_137",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_138",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_138",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_141",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_141",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_146",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_146",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_147",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_147",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_149",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_149",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_150",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_150",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_151",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_151",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_152",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_152",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_155",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_155",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_157",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_157",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_158",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_158",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_159",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_159",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_160",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_160",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_162",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_162",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_163",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_163",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_165",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_165",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_166",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_166",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_167",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_167",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_169",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_169",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_170",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_170",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_171",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_171",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_173",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_173",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_174",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_174",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_175",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_175",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_176",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_176",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_177",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_177",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_178",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_178",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_179",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_179",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_180",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_180",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_181",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_181",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_182",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_182",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_183",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_183",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_184",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_184",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_185",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_185",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_187",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_187",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_188",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_188",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_189",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_189",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_190",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_190",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_191",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_191",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_193",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_193",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_199",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_199",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_203",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_203",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_206",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_206",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_208",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_208",
+      "label": "contiene [EXTRACTED]"
+    },
+    {
+      "id": "e_ley_dfl4_2006_ley_dfl4_2006__art_209",
+      "fromNode": "n_ley_dfl4_2006",
+      "toNode": "n_ley_dfl4_2006__art_209",
+      "label": "contiene [EXTRACTED]"
+    }
+  ]
+}

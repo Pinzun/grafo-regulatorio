@@ -4,7 +4,8 @@ Uso (desde la raíz del repo, con el Python del .venv donde está graphifyy):
     .venv/bin/python scripts/construir_grafo.py
     .venv/bin/graphify export html     # visualización graphify-out/graph.html
 
-Al final regenera datos/derivados/bloque_transmision.csv y textos/ (scripts/generar_textos.py).
+Al final exporta la bóveda de Obsidian (graphify-out/obsidian/, una nota por nodo y un enlace por arista) y
+regenera datos/derivados/bloque_transmision.csv y textos/ (scripts/generar_textos.py, que enlaza a esas notas).
 
 Pasos: valida y convierte con scripts/csv_a_graphify.py -> build_from_json(directed=True,
 dedup=False) -> comunidades -> graph.json + GRAPH_REPORT.md.
@@ -13,6 +14,7 @@ dedup=False: todos los nodos vienen del mismo CSV y Graphify, por defecto, fusio
 (archivo, etiqueta); los ids de la ontología ya son canónicos.
 """
 import json
+import shutil
 import subprocess
 import sys
 from collections import Counter
@@ -126,6 +128,17 @@ def main():
     print("Relaciones:", dict(Counter(d["relation"] for _, _, d in G.edges(data=True))))
     for cid, lab in labels.items():
         print(f"  comunidad {cid}: {lab} ({len(communities[cid])} nodos)")
+
+    # Bóveda de Obsidian: una nota por nodo, un enlace por arista (graphify export obsidian). Se borra y se
+    # rehace para que no queden notas de nodos que ya no existen. Determinista; no se edita a mano.
+    boveda = OUT / "obsidian"
+    if boveda.exists():
+        shutil.rmtree(boveda)
+    r = subprocess.run([str(Path(sys.executable).parent / "graphify"), "export", "obsidian", "--dir", str(boveda)],
+                       cwd=RAIZ, capture_output=True, text=True)
+    if r.returncode:
+        raise SystemExit(f"graphify export obsidian falló: {r.stderr}")
+    print(f"Obsidian: {sum(1 for _ in boveda.glob('*.md'))} notas en {boveda.relative_to(RAIZ)}/")
 
     # Textos por artículo: se regeneran junto con el grafo, desde los mismos CSV (primero el bloque,
     # del que dependen). Sin LLM.

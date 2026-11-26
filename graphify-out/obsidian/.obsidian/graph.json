@@ -1,0 +1,123 @@
+{
+  "colorGroups": [
+    {
+      "query": "tag:#community/DFL_4_de_2006_LGSE__DFL_4_de_2006_LGSE_arts_8_bis223",
+      "color": {
+        "a": 1,
+        "rgb": 5142951
+      }
+    },
+    {
+      "query": "tag:#community/Ley_21804_de_2026__DFL_4_de_2006_LGSE_arts_10-1199_bis",
+      "color": {
+        "a": 1,
+        "rgb": 15896107
+      }
+    },
+    {
+      "query": "tag:#community/Ley_20701_de_2013__Ley_20897_de_2016__Ley_21582_de_2023__DFL_4_de_2006_LGSE_arts",
+      "color": {
+        "a": 1,
+        "rgb": 14767961
+      }
+    },
+    {
+      "query": "tag:#community/Ley_20402_de_2009__DFL_4_de_2006_LGSE_arts_9220",
+      "color": {
+        "a": 1,
+        "rgb": 7780274
+      }
+    },
+    {
+      "query": "tag:#community/Ley_21304_de_2021__Ley_21472_de_2022__Ley_21667_de_2024__Ley_21806_de_2026__Ley_21",
+      "color": {
+        "a": 1,
+        "rgb": 5873999
+      }
+    },
+    {
+      "query": "tag:#community/Ley_20220_de_2007__Ley_20805_de_2015__DFL_4_de_2006_LGSE_arts_27147",
+      "color": {
+        "a": 1,
+        "rgb": 15583560
+      }
+    },
+    {
+      "query": "tag:#community/Ley_20936_de_2016__DFL_4_de_2006_LGSE_arts_7225",
+      "color": {
+        "a": 1,
+        "rgb": 11565729
+      }
+    },
+    {
+      "query": "tag:#community/Ley_21194_de_2019__Ley_21647_de_2023__DFL_4_de_2006_LGSE_arts_8_ter193",
+      "color": {
+        "a": 1,
+        "rgb": 16752039
+      }
+    },
+    {
+      "query": "tag:#community/Ley_20571_de_2012__Ley_21118_de_2018__Ley_21505_de_2022__DFL_4_de_2006_LGSE_arts",
+      "color": {
+        "a": 1,
+        "rgb": 10253663
+      }
+    },
+    {
+      "query": "tag:#community/Ley_21721_de_2024__Res_156_exenta_de_2025__DFL_4_de_2006_LGSE_arts_77115",
+      "color": {
+        "a": 1,
+        "rgb": 12234924
+      }
+    },
+    {
+      "query": "tag:#community/Ley_20257_de_2008__Ley_20698_de_2013__DFL_4_de_2006_LGSE_arts_79174_bis",
+      "color": {
+        "a": 1,
+        "rgb": 5142951
+      }
+    },
+    {
+      "query": "tag:#community/Ley_20273_de_2008__DFL_4_de_2006_LGSE_arts_213214",
+      "color": {
+        "a": 1,
+        "rgb": 15896107
+      }
+    },
+    {
+      "query": "tag:#community/Ley_20928_de_2016__DFL_4_de_2006_LGSE_arts_157191",
+      "color": {
+        "a": 1,
+        "rgb": 14767961
+      }
+    },
+    {
+      "query": "tag:#community/Ley_20999_de_2017__DFL_4_de_2006_LGSE_arts_209210",
+      "color": {
+        "a": 1,
+        "rgb": 7780274
+      }
+    },
+    {
+      "query": "tag:#community/Ley_20720_de_2014__Ley_20720_de_2014_art_391",
+      "color": {
+        "a": 1,
+        "rgb": 5873999
+      }
+    },
+    {
+      "query": "tag:#community/Ley_21076_de_2018__Ley_21076_de_2018_art_\u00fanico",
+      "color": {
+        "a": 1,
+        "rgb": 15583560
+      }
+    },
+    {
+      "query": "tag:#community/Ley_21657_de_2024__Ley_21657_de_2024_art_\u00fanico",
+      "color": {
+        "a": 1,
+        "rgb": 11565729
+      }
+    }
+  ]
+}

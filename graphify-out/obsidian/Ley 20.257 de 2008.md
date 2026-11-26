@@ -1,0 +1,17 @@
+---
+source_file: "ontologia/nodos_normas.csv"
+type: "document"
+community: "Ley 20.257 de 2008 + Ley 20.698 de 2013 | DFL 4 de 2006 (LGSE): arts. 79…174 bis"
+location: "idNorma=270212"
+tags:
+  - graphify/document
+  - graphify/EXTRACTED
+  - community/Ley_20257_de_2008__Ley_20698_de_2013__DFL_4_de_2006_LGSE_arts_79174_bis
+---
+
+# Ley 20.257 de 2008
+
+## Connections
+- [[Ley 20.257 de 2008 — art. único]] - `contiene` [EXTRACTED]
+
+#graphify/document #graphify/EXTRACTED #community/Ley_20257_de_2008__Ley_20698_de_2013__DFL_4_de_2006_LGSE_arts_79174_bis
