@@ -47,6 +47,14 @@ Usa `.venv/bin/graphify` con los nombres de nodo exactos (etiquetas), por ejempl
 - No intentes saltarte el límite de uso de la BCN ni automatizar la web de Ley Chile (usa JavaScript).
 - Las propuestas de `datos/propuestas/regula_propuestas.csv` (metodo llm) no se cargan sin aprobación.
 
+## Texto completo (PDF)
+
+Cuando el XML venga truncado, el texto completo está en `datos/raw/pdf/*.md`, convertido desde el PDF
+oficial de Ley Chile con `doc2md bcn <idNorma> --fecha <fechaVersion> --salida datos/raw/pdf --registro
+datos/raw/pdf/descargas_pdf.csv`. En esos archivos, las líneas `> [nota BCN] …` son las notas al margen
+de la BCN, no texto de la norma. Usa siempre el motor `texto` (determinista) para extraer aristas;
+marker queda solo para documentos escaneados.
+
 ## Regenerar
 
 ```bash

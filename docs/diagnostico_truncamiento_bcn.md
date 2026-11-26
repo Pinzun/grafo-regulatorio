@@ -36,7 +36,23 @@ confirmarlo desde fuera: la causa exacta solo la puede confirmar la BCN.
 No se comprobó si la página web de Ley Chile muestra el texto completo, porque la página se arma con
 JavaScript y el usuario pidió no usarla de forma automatizada.
 
-## Qué se puede hacer (vías legítimas)
+## Solución adoptada (2026-11-25): PDF oficial de Ley Chile
+
+El PDF que entrega el botón "Descargar" de Ley Chile **trae el texto completo** en los cuatro casos. Se
+descarga con `doc2md bcn <idNorma>` (ver `~/proyectos/ocr_libros/README.md`) a `datos/raw/pdf/`, con la
+misma `fechaVersion` del XML, y se convierte a Markdown leyendo su capa de texto (sin OCR ni IA).
+
+- Ley 21.721: el PDF tiene los numerales 1 a 10. Los numerales 5 a 10 (arts. 95, 96, 99, 102, 114 y 115)
+  son exactamente los 6 candidatos por `fechaVersion`.
+- Ley 20.936: el artículo 1° tiene los numerales 1) a 41).
+- DFL 4: los arts. 34 bis y 161 están completos, y el PDF trae las notas al margen de la BCN con la
+  norma que modificó cada artículo (fuente literal para `modifica`).
+- Fidelidad: todos los artículos completos del XML aparecen literalmente en la Markdown, salvo 3 del
+  DFL 4, que se explican por defectos de origen.
+
+Pendiente: adaptar `scripts/extraer_modificaciones.py` para usar el PDF cuando el XML esté truncado.
+
+## Otras vías legítimas
 
 1. **Informar el error a la BCN.** Incluir idNorma, idParte y la palabra donde se corta (tabla de arriba).
    Es la única vía para corregirlo en el origen.
