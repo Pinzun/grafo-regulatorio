@@ -133,9 +133,9 @@ Texto consolidado: DFL 4, versión BCN 2026-07-31. Generado por `scripts/generar
 | [22](dfl4/art_22.md) | — | Ley 20.701 (2013) | vigente |
 | [23](dfl4/art_23.md) | Derogado | Ley 21.582 (2023) | derogado (vigente hasta 2023-07-07) |
 | [24](dfl4/art_24.md) | — | — | vigente |
-| [25](dfl4/art_25.md) | La solicitud de concesión definitiva se presentará ante la Superintendencia con copia al D | Ley 20.402 (2009), Ley 20.701 (2013) ⚠️ faltan 20.220 | vigente |
+| [25](dfl4/art_25.md) | La solicitud de concesión definitiva se presentará ante la Superintendencia con copia al D | Ley 20.220 (2007), Ley 20.402 (2009), Ley 20.701 (2013) | vigente |
 | [26](dfl4/art_26.md) | — | Ley 20.402 (2009) | vigente |
-| [27](dfl4/art_27.md) | — | Ley 20.701 (2013) | vigente |
+| [27](dfl4/art_27.md) | — | Ley 20.220 (2007), Ley 20.701 (2013) | vigente |
 | [27 bis](dfl4/art_27_bis.md) | — | Ley 20.701 (2013) | vigente |
 | [27 ter](dfl4/art_27_ter.md) | — | Ley 20.701 (2013) | vigente |
 | [28](dfl4/art_28.md) | — | Ley 20.701 (2013) | vigente |
@@ -199,7 +199,7 @@ Texto consolidado: DFL 4, versión BCN 2026-07-31. Generado por `scripts/generar
 | [131 bis](dfl4/art_131_bis.md) | — | Ley 20.805 (2015) | vigente |
 | [131 ter](dfl4/art_131_ter.md) | — | Ley 20.805 (2015) | vigente |
 | [132](dfl4/art_132.md) | — | Ley 20.805 (2015), Ley 20.928 (2016) | vigente |
-| [133](dfl4/art_133.md) | Las exigencias de seguridad y calidad D | Ley 20.805 (2015), Ley 20.936 (2016), Ley 21.806 (2026) ⚠️ faltan 20.220 | vigente |
+| [133](dfl4/art_133.md) | Las exigencias de seguridad y calidad D | Ley 20.220 (2007), Ley 20.805 (2015), Ley 20.936 (2016), Ley 21.806 (2026) | vigente |
 | [134](dfl4/art_134.md) | — | Ley 20.805 (2015), Ley 20.936 (2016) | vigente |
 | [135](dfl4/art_135.md) | — | Ley 20.402 (2009), Ley 20.805 (2015) | vigente |
 | [135 bis](dfl4/art_135_bis.md) | — | Ley 20.805 (2015) | vigente |
@@ -217,10 +217,10 @@ Texto consolidado: DFL 4, versión BCN 2026-07-31. Generado por `scripts/generar
 | [143](dfl4/art_143.md) | — | — | vigente |
 | [144](dfl4/art_144.md) | — | — | vigente |
 | [145](dfl4/art_145.md) | — | — | vigente |
-| [146](dfl4/art_146.md) | — | Ley 20.402 (2009) ⚠️ faltan 20.220 | vigente |
-| [146 bis](dfl4/art_146_bis.md) | — | Ley 20.805 (2015) | vigente |
-| [146 ter](dfl4/art_146_ter.md) | — | Ley 20.936 (2016) ⚠️ faltan 20.220, 20.720 | vigente |
-| [146 quater](dfl4/art_146_quater.md) | Suprimido | Ley 20.936 (2016) | derogado (vigente hasta 2016-07-20) |
+| [146](dfl4/art_146.md) | — | Ley 20.402 (2009) | vigente |
+| [146 bis](dfl4/art_146_bis.md) | — | Ley 20.220 (2007), Ley 20.805 (2015) | vigente |
+| [146 ter](dfl4/art_146_ter.md) | — | Ley 20.220 (2007), Ley 20.936 (2016) ⚠️ faltan 20.720 | vigente |
+| [146 quater](dfl4/art_146_quater.md) | Suprimido | Ley 20.220 (2007), Ley 20.936 (2016) | derogado (vigente hasta 2016-07-20) |
 | [147](dfl4/art_147.md) | — | Ley 20.402 (2009), Ley 20.805 (2015), Ley 21.804 (2026) | vigente |
 | [148](dfl4/art_148.md) | — | — | vigente |
 | [149](dfl4/art_149.md) | — | Ley 20.936 (2016), Ley 21.505 (2022) ⚠️ faltan 20.571 | vigente |
@@ -377,4 +377,4 @@ Texto consolidado: DFL 4, versión BCN 2026-07-31. Generado por `scripts/generar
 
 - Artículos sin texto: ninguno.
 - Artículos cuyo texto consolidado dice solo 'Eliminado/Suprimido' sin marca de derogación en el XML BCN: 188, 189.
-- Artículos con historia incompleta (14): 25 (faltan 20.220); 34 bis (faltan 20.897); 133 (faltan 20.220); 139 bis (faltan 21.076); 146 (faltan 20.220); 146 ter (faltan 20.220, 20.720); 149 (faltan 20.571); 149 bis (faltan 20.571); 149 quater (faltan 20.571); 149 quinquies (faltan 20.571); 191 bis (faltan 21.657); 193 (faltan 21.647); 213 (faltan 20.273); 214 (faltan 20.273).
+- Artículos con historia incompleta (11): 34 bis (faltan 20.897); 139 bis (faltan 21.076); 146 ter (faltan 20.720); 149 (faltan 20.571); 149 bis (faltan 20.571); 149 quater (faltan 20.571); 149 quinquies (faltan 20.571); 191 bis (faltan 21.657); 193 (faltan 21.647); 213 (faltan 20.273); 214 (faltan 20.273).

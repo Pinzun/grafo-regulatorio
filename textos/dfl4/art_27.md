@@ -23,9 +23,28 @@ El solicitante deberá demostrar la circunstancia de haberse efectuado la notifi
 
 ## Historia de modificaciones
 
+- 2007-09-14 · Ley 20.220 de 2007 (art. único) · N° 2 letra a) · agrega · verificada · regla · idParte 7353232 · **superada** por Ley 20.701 de 2013 N° 7 (2013-10-14), que sustituyó el artículo completo
+- 2007-09-14 · Ley 20.220 de 2007 (art. único) · N° 2 letra a) · agrega · verificada · regla · idParte 7353232 · **superada** por Ley 20.701 de 2013 N° 7 (2013-10-14), que sustituyó el artículo completo
+- 2007-09-14 · Ley 20.220 de 2007 (art. único) · N° 2 letra b) · reemplaza · verificada · regla · idParte 7353232 · **superada** por Ley 20.701 de 2013 N° 7 (2013-10-14), que sustituyó el artículo completo
 - 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 7 · reemplaza · verificada · regla · idParte 9377764
 
 ## Texto modificatorio
+
+### Ley 20.220 de 2007 — art. único, N° 2
+
+*Fuente: XML (https://www.leychile.cl/Consulta/obtxml?opt=7&idNorma=264650).*
+
+N° 2. Modifícase el artículo 27º, de la siguiente forma:
+
+a) En el inciso primero:
+
+a.1) Intercálase entre el vocablo "Municipalidad" y la conjunción disyuntiva "o" que le sigue, la expresión ", certificación notarial".
+
+a.2) Agrégase, a continuación del punto aparte (.), que pasa a ser punto seguido (.), la siguiente oración: "En la certificación notarial señalada precedentemente, deberá constar que los planos de las servidumbres referidas fueron puestos en conocimiento de los afectados.".
+
+b) Sustitúyese el inciso tercero por el siguiente:
+
+"Los afectados que hubieren formulado observaciones u oposiciones respecto de los planos señalados en el inciso primero, se tendrán por notificados, para todos los efectos legales, de la solicitud de servidumbre respectiva.".
 
 ### Ley 20.701 de 2013 — art. único, N° 7
 

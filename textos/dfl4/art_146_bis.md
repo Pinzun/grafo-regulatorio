@@ -17,9 +17,18 @@ Asimismo, una vez iniciado cualquier tipo de juicio entre las partes de un contr
 
 ## Historia de modificaciones
 
+- 2007-09-14 · Ley 20.220 de 2007 (art. único) · N° 4 · agrega · verificada · regla · idParte 7353232
 - 2015-01-29 · Ley 20.805 de 2015 (art. único) · N° 13 · agrega · verificada · regla · idParte 9555456
 
 ## Texto modificatorio
+
+### Ley 20.220 de 2007 — art. único, N° 4
+
+*Fuente: XML (https://www.leychile.cl/Consulta/obtxml?opt=7&idNorma=264650).* *Extracto: el numeral inserta o sustituye varios artículos; se muestra solo el de este artículo.*
+
+N° 4. Agréganse, a continuación del artículo 146°, los siguientes artículos 146° bis, 146° ter y 146º quáter, nuevos:
+
+"Artículo 146º bis.- En todos los juicios que se inicien con el objeto de poner término a un contrato de suministro eléctrico que haya sido suscrito entre una empresa generadora y una empresa concesionaria de servicio público de distribución para abastecer a clientes regulados del sistema respectivo, la Superintendencia deberá hacerse parte en los mismos, con el objeto de aportar todos los antecedentes necesarios para resguardar las condiciones del suministro a los clientes regulados concernidos, correspondiéndole al juez disponer que la notificación al demandado sea coetánea a la de la Superintendencia.
 
 ### Ley 20.805 de 2015 — art. único, N° 13
 

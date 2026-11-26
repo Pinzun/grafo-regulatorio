@@ -31,7 +31,7 @@ articulo,id_parte,en_grafo,cobertura_historia,leyes_modificatorias_bcn,leyes_fal
 22,8721693,si,completa,20701;21582,
 23,8721694,si,completa,,
 24,8721695,no,completa,,
-25,8721696,si,parcial,20220;20402;20701,20220
+25,8721696,si,completa,20220;20402;20701,
 26,8721697,si,completa,20402,
 27,8721698,si,completa,20701,
 27 bis,9377936,si,completa,,
@@ -173,7 +173,7 @@ articulo,id_parte,en_grafo,cobertura_historia,leyes_modificatorias_bcn,leyes_fal
 131 bis,9555672,si,completa,20805,
 131 ter,9555673,si,completa,20805,
 132,8721808,si,completa,20805;20928,
-133,8721809,si,parcial,20220;20805;20936;21806,20220
+133,8721809,si,completa,20220;20805;20936;21806,
 134,8721810,si,completa,20805;20936,
 135,8721811,si,completa,20805,
 135 bis,9555674,si,completa,20805,
@@ -191,9 +191,9 @@ articulo,id_parte,en_grafo,cobertura_historia,leyes_modificatorias_bcn,leyes_fal
 143,8721819,no,completa,,
 144,8721820,no,completa,,
 145,8721821,no,completa,,
-146,8721822,si,parcial,20220;20402,20220
+146,8721822,si,completa,20220;20402,
 146 bis,8721940,si,completa,20805,
-146 ter,8721941,si,parcial,20220;20720;20936,20220;20720
+146 ter,8721941,si,parcial,20220;20720;20936,20720
 146 quater,8721942,si,completa,20936,
 147,8721823,si,completa,20402;20805;21804,
 148,8721826,no,completa,,

@@ -4,7 +4,7 @@
 - **Versión del texto consolidado:** DFL 4 versión BCN 2026-07-31; última versión de este artículo según la BCN: 2013-10-14
 - **idParte:** 8721696 (https://www.bcn.cl/leychile/navegar?idNorma=258171&idParte=8721696)
 - **Vigencia:** vigente
-- **Cobertura de la historia:** parcial — faltan en el grafo las leyes 20.220
+- **Cobertura de la historia:** completa
 - **Bloque:** fuera del bloque de transmisión
 
 ## Texto vigente
@@ -47,6 +47,7 @@ En aquellos casos en que otras leyes requieran la calidad de concesionario para 
 
 ## Historia de modificaciones
 
+- 2007-09-14 · Ley 20.220 de 2007 (art. único) · N° 1 · agrega · verificada · regla · idParte 7353232
 - 2009-12-03 · Ley 20.402 de 2009 (art. 13) · N° 2 · reemplaza · verificada · regla · idParte 8811980
 - 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 6 letra a) · reemplaza · verificada · regla · idParte 9377764
 - 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 6 letra b) · reemplaza · verificada · regla · idParte 9377764
@@ -56,9 +57,13 @@ En aquellos casos en que otras leyes requieran la calidad de concesionario para 
 - 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 6 letra d) · agrega · verificada · regla · idParte 9377764
 - 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 6 letra e) · agrega · verificada · regla · idParte 9377764
 
-> ⚠️ Historia incompleta: la BCN anota modificaciones de las leyes 20.220, que no están en el grafo.
-
 ## Texto modificatorio
+
+### Ley 20.220 de 2007 — art. único, N° 1
+
+*Fuente: XML (https://www.leychile.cl/Consulta/obtxml?opt=7&idNorma=264650).*
+
+N° 1. Intercálase, en el inciso primero del artículo 25º, entre la palabra "Reconstrucción" y el punto aparte (.) que le sigue, la frase ", con copia a la Superintendencia para que ésta ejerza sus atribuciones conforme a los artículos siguientes", y, en el párrafo segundo de la letra d) de su inciso tercero, a continuación de la frase "regidas por el Código de Aguas", el siguiente texto: ", pudiendo solicitarse la concesión con los planos de las obras hidráulicas que se hubieren presentado a la Dirección General de Aguas para la autorización referida, pero el interesado deberá acreditar a la Superintendencia que se encuentra en trámite y que se adjuntará el plano autorizado antes de la emisión del informe a que se refiere el artículo 29º de esta ley".
 
 ### Ley 20.402 de 2009 — art. 13, N° 2
 

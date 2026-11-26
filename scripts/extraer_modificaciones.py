@@ -37,6 +37,7 @@ ARCHIVOS = {
     "ley_21472_2022": "ley_21472_2022__idNorma_1179524.xml",
     "ley_21667_2024": "ley_21667_2024__idNorma_1203005.xml",
     "ley_20701_2013": "ley_20701_2013__idNorma_1055073.xml",
+    "ley_20220_2007": "ley_20220_2007__idNorma_264650.xml",
     "ley_20928_2016": "ley_20928_2016__idNorma_1091871.xml",
     "ley_20999_2017": "ley_20999_2017__idNorma_1099982.xml",
     "ley_20257_2008": "ley_20257_2008__idNorma_270212.xml",
@@ -52,7 +53,7 @@ ARCHIVOS = {
 MODIFICATORIAS = {"ley_21721_2024": "art_unico", "ley_20936_2016": "art_1", "ley_21804_2026": "art_unico",
                   "ley_21505_2022": "art_unico", "ley_21582_2023": "art_10", "ley_21833_2026": "art_1",
                   "ley_21472_2022": "art_1", "ley_21667_2024": "art_primero",
-                  "ley_20701_2013": "art_unico", "ley_20928_2016": "art_unico", "ley_20999_2017": "art_2", "ley_20257_2008": "art_unico", "ley_20698_2013": "art_1", "ley_21118_2018": "art_unico", "ley_21806_2026": "art_101", "ley_21304_2021": "art_unico", "ley_21194_2019": "art_unico", "ley_20805_2015": "art_unico", "ley_20402_2009": "art_13"}
+                  "ley_20701_2013": "art_unico", "ley_20220_2007": "art_unico", "ley_20928_2016": "art_unico", "ley_20999_2017": "art_2", "ley_20257_2008": "art_unico", "ley_20698_2013": "art_1", "ley_21118_2018": "art_unico", "ley_21806_2026": "art_101", "ley_21304_2021": "art_unico", "ley_21194_2019": "art_unico", "ley_20805_2015": "art_unico", "ley_20402_2009": "art_13"}
 
 VERBOS = {  # singular e impersonal plural ("Reemplázase" / "Reemplázanse")
     "reemplaza": r"reempl[aá]z(?:a|ase|anse|ese|ense)|sustit[uú]y(?:e|ese|ense)",
@@ -253,6 +254,12 @@ def numerales(texto):
         # estilo de las letras (")" en casi todas las leyes, "." en la 21.667); un romano usa el otro estilo
         # o sigue a otros romanos. Así "h) … i." (21.505) es romano y "a. b. c." (21.667) son letras.
         # Tolera la errata "a )" (espacio antes del paréntesis) presente en el texto oficial.
+        # Sub-literal "a.1)", "a.2)" del literal a) (Ley 20.220)
+        ms = re.match(r"^\s*([a-zñ])\.(\d+)\)\s+(.*)", p, re.S) if (fuera and lit is not None) else None
+        if ms and ms.group(1) == lit["l"] and int(ms.group(2)) == len(lit["sub"]) + 1:
+            lit["sub"].append({"l": f"{ms.group(1)}.{ms.group(2)}", "texto": ms.group(3)})
+            comillas += p.count('"')
+            continue
         ml = re.match(r"^\s*([a-zñ]\s?[.)]|[ivx]+[.)])\s+(.*)", p, re.S) if (fuera and actual) else None
         if ml and (RE_VERBO.search(sin_citas(ml.group(2))[:90]) or ml.group(2).rstrip().endswith(":")):
             tok, punt = ml.group(1)[:-1].strip(), ml.group(1)[-1]
@@ -339,7 +346,8 @@ RE_SUPRIME_ARTICULO = re.compile(r"^\W*(?:Supr[ií]m[ae]n?se|Der[oó]g[ae]n?se|E
 RE_MODIFICA_LGSE = re.compile(
     r"^\W*Art[íi]culo\s+\S+?\s*\.\s*-\s*(?:Introd[uú]cense las siguientes (?:modificaciones|enmiendas) en"
     r"|Introd[uú]cense,?\s+en"                                                              # Leyes 20.698, 20.257
-    r"|Modif[ií]case)\s+(?:el|la)\s+"
+    r"|Incorp[oó]ranse\s+al?"                                                               # Ley 20.220
+    r"|Modif[ií]case)\s+(?:el\s+|la\s+)?"
     r"(?:decreto con fuerza de ley N\s*[°º]\s*4(?:/20\.?018|,\s*del año 2007|,\s*de 2007"  # DFL 4 (texto refundido)
     r"|,\s*del Ministerio de Econom[íi]a, Fomento y Reconstrucci[óo]n, (?:promulgado el año 2006|de 2007))"
     r"|decreto con fuerza de ley N\s*[°º]\s*1,\s*de 1982,.{0,120}?Ley General de Servicios El[ée]ctricos"  # DFL 1/1982
@@ -353,6 +361,7 @@ def modifica_lgse(txt):
       - 'DFL N° 4, del Ministerio de Economía…, promulgado el año 2006' (Ley 21.304, '… enmiendas en');
       - 'Introdúcense, en el DFL Nº 4, del Ministerio de Economía…, de 2007' (Ley 20.698);
       - 'Introdúcense en el DFL N° 4, de 2007, del Ministerio de Economía…' (Ley 20.257);
+      - 'Incorpóranse al DFL Nº 4, del Ministerio de Economía…, de 2007, … las siguientes modificaciones' (Ley 20.220);
       - 'DFL N° 1, de 1982, … Ley General de Servicios Eléctricos, … cuyo texto refundido … fue fijado por
         el DFL N° 4, de 2006 / de 2007 / 4/20.018, de 2006' (Leyes 21.582, 20.701, 20.805);
       - 'ley General de Servicios Eléctricos' (Ley 21.505).
