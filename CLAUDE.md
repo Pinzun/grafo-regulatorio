@@ -98,6 +98,14 @@ archivos (`indice.md` en el centro, y los PDF convertidos y las transcripciones 
 enlaces). Los `textos/dfl4/art_<n>.md` enlazan a estas notas: la línea "Nodo en el grafo" del encabezado y,
 en la historia, la ley y su artículo modificatorio.
 
+## Skill de Claude (`dist/grafo-regulatorio.zip`)
+
+`scripts/empaquetar_skill.py` arma el skill: `SKILL.md` (instrucciones + versión del repo y fecha del commit),
+`indice.md`, `dfl4/art_*.md` (copias de `textos/` con los enlaces que salen del paquete en texto plano) y
+`limites.md` (qué no cubre; cobertura parcial, tablas sin validar y aristas pendientes leídas de los CSV).
+Determinista: el mismo commit da el mismo zip. Correrlo después de `construir_grafo.py` y de hacer commit, para
+que la versión del repo corresponda a los textos.
+
 ## Textos por artículo (`textos/`)
 
 `textos/dfl4/art_<número>.md` (p. ej. `art_91_bis.md`, `art_72-1.md`) trae, por artículo del DFL 4:
@@ -165,6 +173,7 @@ python3 -I scripts/extraer_modificaciones.py   # XML/PDF -> relaciones.csv, nodo
 python3 -I scripts/preparar_revision.py        # agrega aristas inferidas nuevas a revisiones_manuales.csv
 .venv/bin/python scripts/construir_grafo.py    # valida, construye el grafo y regenera bloque y textos/
 .venv/bin/graphify export html                 # graphify-out/graph.html
+python3 -I scripts/empaquetar_skill.py         # dist/grafo-regulatorio.zip: skill de Claude (no se versiona)
 ```
 
 Tablas como imagen (solo si cambian los XML): `python3 -I scripts/extraer_imagenes.py`, luego
