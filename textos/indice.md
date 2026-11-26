@@ -325,8 +325,8 @@ Texto consolidado: DFL 4, versión BCN 2026-07-31. Generado por `scripts/generar
 | [207-7](dfl4/art_207-7.md) | — | Ley 21.806 (2026) | vigente |
 | [207-8](dfl4/art_207-8.md) | — | Ley 21.806 (2026) | vigente |
 | [208](dfl4/art_208.md) | — | Ley 20.936 (2016) | vigente |
-| [209](dfl4/art_209.md) | — | — ⚠️ faltan 20.999 | vigente |
-| [210](dfl4/art_210.md) | — | Ley 20.402 (2009), Ley 20.936 (2016) ⚠️ faltan 20.999 | vigente |
+| [209](dfl4/art_209.md) | — | Ley 20.999 (2017) | vigente |
+| [210](dfl4/art_210.md) | — | Ley 20.402 (2009), Ley 20.936 (2016), Ley 20.999 (2017) | vigente |
 | [211](dfl4/art_211.md) | — | Ley 20.402 (2009), Ley 20.936 (2016) | vigente |
 | [212](dfl4/art_212.md) | — | Ley 20.402 (2009), Ley 20.936 (2016) | vigente |
 | [213](dfl4/art_213.md) | — | — ⚠️ faltan 20.273 | vigente |
@@ -377,4 +377,4 @@ Texto consolidado: DFL 4, versión BCN 2026-07-31. Generado por `scripts/generar
 
 - Artículos sin texto: ninguno.
 - Artículos cuyo texto consolidado dice solo 'Eliminado/Suprimido' sin marca de derogación en el XML BCN: 188, 189.
-- Artículos con historia incompleta (22): 25 (faltan 20.220); 34 bis (faltan 20.897); 131 (faltan 20.928); 132 (faltan 20.928); 133 (faltan 20.220); 139 bis (faltan 21.076); 146 (faltan 20.220); 146 ter (faltan 20.220, 20.720); 149 (faltan 20.571); 149 bis (faltan 20.571); 149 quater (faltan 20.571); 149 quinquies (faltan 20.571); 157 (faltan 20.928); 184 (faltan 20.928); 191 (faltan 20.928); 191 bis (faltan 21.657); 193 (faltan 21.647); 209 (faltan 20.999); 210 (faltan 20.999); 213 (faltan 20.273); 214 (faltan 20.273); 225 (faltan 20.928).
+- Artículos con historia incompleta (20): 25 (faltan 20.220); 34 bis (faltan 20.897); 131 (faltan 20.928); 132 (faltan 20.928); 133 (faltan 20.220); 139 bis (faltan 21.076); 146 (faltan 20.220); 146 ter (faltan 20.220, 20.720); 149 (faltan 20.571); 149 bis (faltan 20.571); 149 quater (faltan 20.571); 149 quinquies (faltan 20.571); 157 (faltan 20.928); 184 (faltan 20.928); 191 (faltan 20.928); 191 bis (faltan 21.657); 193 (faltan 21.647); 213 (faltan 20.273); 214 (faltan 20.273); 225 (faltan 20.928).

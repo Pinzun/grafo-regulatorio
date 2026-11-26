@@ -1,0 +1,18 @@
+{
+  "id_norma": "1099982",
+  "fecha_version": "2017-02-09",
+  "nombre": "Ley 20999",
+  "url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=Ley-20999_09-FEB-2017&exportar_con_notas_bcn=True&exportar_con_notas_originales=True&exportar_con_notas_al_pie=True&hddResultadoExportar=1099982.2017-02-09.0.0%23",
+  "fecha_descarga": "2026-11-26",
+  "sha256_pdf": "aff64f0bbe0257f1d45fc5a8cd2bcbb06e623f1aa254c304637631ce664357c8",
+  "bytes": 159162,
+  "con_notas_bcn": true,
+  "conversion": {
+    "texto": {
+      "parrafos": 404,
+      "notas_bcn": 0,
+      "pdf_ley_chile": true,
+      "salida": "datos/raw/pdf/ley_20999__idNorma_1099982__v2017-02-09.md"
+    }
+  }
+}

@@ -37,6 +37,7 @@ ARCHIVOS = {
     "ley_21472_2022": "ley_21472_2022__idNorma_1179524.xml",
     "ley_21667_2024": "ley_21667_2024__idNorma_1203005.xml",
     "ley_20701_2013": "ley_20701_2013__idNorma_1055073.xml",
+    "ley_20999_2017": "ley_20999_2017__idNorma_1099982.xml",
     "ley_20257_2008": "ley_20257_2008__idNorma_270212.xml",
     "ley_20698_2013": "ley_20698_2013__idNorma_1055402.xml",
     "ley_21118_2018": "ley_21118_2018__idNorma_1125560.xml",
@@ -50,7 +51,7 @@ ARCHIVOS = {
 MODIFICATORIAS = {"ley_21721_2024": "art_unico", "ley_20936_2016": "art_1", "ley_21804_2026": "art_unico",
                   "ley_21505_2022": "art_unico", "ley_21582_2023": "art_10", "ley_21833_2026": "art_1",
                   "ley_21472_2022": "art_1", "ley_21667_2024": "art_primero",
-                  "ley_20701_2013": "art_unico", "ley_20257_2008": "art_unico", "ley_20698_2013": "art_1", "ley_21118_2018": "art_unico", "ley_21806_2026": "art_101", "ley_21304_2021": "art_unico", "ley_21194_2019": "art_unico", "ley_20805_2015": "art_unico", "ley_20402_2009": "art_13"}
+                  "ley_20701_2013": "art_unico", "ley_20999_2017": "art_2", "ley_20257_2008": "art_unico", "ley_20698_2013": "art_1", "ley_21118_2018": "art_unico", "ley_21806_2026": "art_101", "ley_21304_2021": "art_unico", "ley_21194_2019": "art_unico", "ley_20805_2015": "art_unico", "ley_20402_2009": "art_13"}
 
 VERBOS = {  # singular e impersonal plural ("Reemplázase" / "Reemplázanse")
     "reemplaza": r"reempl[aá]z(?:a|ase|anse|ese|ense)|sustit[uú]y(?:e|ese|ense)",
