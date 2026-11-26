@@ -1,8 +1,9 @@
-# Ontología del grafo de conocimiento regulatorio (versión 0.3, piloto)
+# Ontología del grafo de conocimiento regulatorio (versión 0.4, piloto)
 
 Dominio: normativa del sector eléctrico chileno. Fecha de la definición: 2026-11-25.
 Cambios v0.2 (2026-11-25): nueva relación `contiene`; redefinición de `inferida`; columna `metodo`; tablas legibles por máquina.
 Cambios v0.3 (2026-11-25): atributo `cobertura` de las normas; valor `manual` en `metodo`.
+Cambios v0.4 (2026-11-25): atributo `cobertura_historia` de los artículos.
 
 ## Tipos de nodo
 
@@ -22,7 +23,8 @@ Atributos de una norma: tipo, número, año, órgano emisor, fecha de publicaci�
 - `articulos_truncados_recuperados_pdf`: idParte de los artículos cortados en el XML cuyo texto completo se tomó del PDF oficial de Ley Chile (`pdf_sha256` identifica el archivo).
 
 ### Otros nodos
-- **articulo**: unidad de trabajo real. Las modificaciones se hacen a artículos, no a normas completas. Atributos: norma contenedora, número, texto, vigente_desde, vigente_hasta.
+- **articulo**: unidad de trabajo real. Las modificaciones se hacen a artículos, no a normas completas. Atributos: norma contenedora, número, texto, vigente_desde, vigente_hasta, cobertura_historia.
+  - **cobertura_historia** (artículos del DFL 4): `completa` si todas las leyes posteriores al DFL 4 que la BCN anota en el artículo están en el grafo; `parcial` si falta alguna (`leyes_faltantes`). `leyes_modificatorias_bcn` lista las anotadas. Las leyes anteriores a la publicación del DFL 4 (2007-02-05) no cuentan: su contenido ya está en el texto refundido. Usa los mismos valores de la tabla de cobertura.
 - **organo**: Ministerio de Energía, CNE, Coordinador Eléctrico Nacional, etc.
 - **instrumento**: plan de expansión, listado de obras necesarias y urgentes, etc.
 - **concepto**: transmisión, obras necesarias y urgentes, tarifas, etc.
