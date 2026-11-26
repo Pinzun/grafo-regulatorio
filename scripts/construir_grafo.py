@@ -47,6 +47,31 @@ def etiqueta_comunidad(G, miembros):
     return " | ".join(partes)[:90] or "Comunidad"
 
 
+def insertar_cobertura(report, G):
+    """Agrega al reporte, antes de '## Summary', la cobertura de cada norma y los métodos de las aristas."""
+    filas = ["## Cobertura de las normas", "",
+             "| Norma | Cobertura | Modificaciones pendientes | Artículos truncados (idParte) |", "|---|---|---|---|"]
+    parciales = 0
+    for n, d in G.nodes(data=True):
+        if d.get("tipo") == "articulo":
+            continue
+        parciales += d.get("cobertura") == "parcial"
+        filas.append(f"| {d['label']} | {d.get('cobertura')} | {d.get('modificaciones_pendientes')} | "
+                     f"{d.get('articulos_truncados') or '—'} |")
+    filas.append("")
+    if parciales:
+        filas.append(f"> **Advertencia:** {parciales} norma(s) con cobertura parcial. Las respuestas sobre qué "
+                     "artículos modificó una ley pueden estar incompletas; los candidatos pendientes están en "
+                     "`datos/derivados/candidatos_por_fechaversion.csv` y la causa en "
+                     "`docs/diagnostico_truncamiento_bcn.md`.")
+        filas.append("")
+    metodos = Counter((d["relation"], d.get("estado"), d.get("metodo")) for _, _, d in G.edges(data=True))
+    filas += ["Aristas por relación, estado y método: " +
+              "; ".join(f"{r}/{e}/{m}: {c}" for (r, e, m), c in sorted(metodos.items())), "", ""]
+    marca = "## Summary"
+    return report.replace(marca, "\n".join(filas) + marca, 1) if marca in report else report + "\n" + "\n".join(filas)
+
+
 def main():
     OUT.mkdir(exist_ok=True)
     r = subprocess.run([sys.executable, "-I", str(RAIZ / "scripts/csv_a_graphify.py"), str(EXTRACT)], cwd=RAIZ)
@@ -76,6 +101,7 @@ def main():
                  "warning": "Grafo generado por adaptador determinista (scripts/csv_a_graphify.py), sin extracción LLM."}
     report = generate(G, communities, cohesion, labels, gods, surprises, detection,
                       {"input": 0, "output": 0}, str(RAIZ), suggested_questions=questions)
+    report = insertar_cobertura(report, G)
     (OUT / "GRAPH_REPORT.md").write_text(report, encoding="utf-8")
     (OUT / ".graphify_labels.json").write_text(json.dumps({str(k): v for k, v in labels.items()},
                                                           ensure_ascii=False), encoding="utf-8")
