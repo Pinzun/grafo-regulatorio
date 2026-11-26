@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?><Norma xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.leychile.cl/esquemas" xsi:schemaLocation="http://www.leychile.cl/esquemas http://www.leychile.cl/esquemas/EsquemaIntercambioNorma-v1-0.xsd" normaId="1221363" esTratado="no tratado" fechaVersion="2026-02-13" SchemaVersion="1.0" derogado="no derogado">
+  <Identificador fechaPromulgacion="2026-02-02" fechaPublicacion="2026-02-13">
+    <TiposNumeros>
+      <TipoNumero>
+        <Tipo>Ley</Tipo>
+        <Numero>21804</Numero>
+      </TipoNumero>
+    </TiposNumeros>
+    <Organismos>
+      <Organismo>MINISTERIO DE ENERG&#205;A</Organismo>
+    </Organismos>
+  </Identificador>
+  <Metadatos>
+    <TituloNorma>PERFECCIONA LOS SISTEMAS MEDIANOS EN LA LEY GENERAL DE SERVICIOS EL&#201;CTRICOS</TituloNorma>
+    <Materias>
+      <Materia>Ley General de Servicios El&#233;ctricos</Materia>
+      <Materia>Sistemas El&#233;ctricos</Materia>
+      <Materia>Energ&#237;a El&#233;ctrica</Materia>
+      <Materia>Sistema El&#233;ctrico Nacional</Materia>
+      <Materia>Interconexi&#243;n El&#233;ctrica</Materia>
+      <Materia>Tarificaci&#243;n El&#233;ctrica</Materia>
+      <Materia>Subsidios El&#233;ctricos Regionales</Materia>
+    </Materias>
+    
+    
+    <IdentificacionFuente>Diario Oficial</IdentificacionFuente>
+    <NumeroFuente>44375</NumeroFuente>
+  </Metadatos>
+  <Encabezado fechaVersion="2026-02-13" derogado="no derogado">
+    <Texto>LEY N&#218;M. 21.804
+    
+PERFECCIONA LOS SISTEMAS MEDIANOS EN LA LEY GENERAL DE SERVICIOS EL&#201;CTRICOS
+    
+     Teniendo presente que el H. Congreso Nacional ha dado su aprobaci&#243;n al siguiente
+    
+     Proyecto de ley:</Texto>
+  </Encabezado>
+  <EstructurasFuncionales>
+    <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-02-13" derogado="no derogado" idParte="10583265">
+      <Texto>     "Art&#237;culo &#250;nico.- Introd&#250;cense las siguientes modificaciones en el decreto con fuerza de ley N&#176; 4/20.018, de 2006, del Ministerio de Econom&#237;a, Fomento y Reconstrucci&#243;n, que fija texto refundido, coordinado y sistematizado del decreto con fuerza de ley N&#176; 1, de Miner&#237;a, de 1982, Ley General de Servicios El&#233;ctricos, en materia de energ&#237;a el&#233;ctrica:
+     
+     1. Incorp&#243;rase en el inciso segundo del art&#237;culo 8 ter, a continuaci&#243;n de la expresi&#243;n "empresas concesionarias de distribuci&#243;n", la siguiente frase: "que operen &#250;nicamente en los sistemas medianos, en los sistemas aislados para peque&#241;os consumidores y aquellas".
+     2. Incorp&#243;ranse, a continuaci&#243;n del art&#237;culo 10&#176;, el siguiente T&#237;tulo I bis, y los art&#237;culos 10-1, 10-2, 10-3, 10-4, 10-5 y 10-6, que lo componen:
+     
+     "T&#237;tulo I bis
+     De los sistemas el&#233;ctricos y su categorizaci&#243;n
+     
+     Art&#237;culo 10-1.- Definici&#243;n de sistema el&#233;ctrico nacional. Es el sistema el&#233;ctrico interconectado &#250;nico, destinado a cubrir la mayor parte de la demanda de clientes regulados y libres del pa&#237;s y que permite conformar un mercado el&#233;ctrico com&#250;n.
+     
+     Art&#237;culo 10-2.- Definici&#243;n de sistema mediano. Es el sistema el&#233;ctrico con capacidad instalada de generaci&#243;n superior a 1500 kilowatts, que se encuentra desconectado del sistema el&#233;ctrico nacional, y est&#225; destinado a suministrar energ&#237;a a clientes libres y regulados, para el cual se establecen est&#225;ndares regulatorios y normativos espec&#237;ficos, de acuerdo al inciso tercero del art&#237;culo 173.
+     
+     Art&#237;culo 10-3.- Definici&#243;n de sistema aislado para peque&#241;os consumidores. Es el sistema el&#233;ctrico con capacidad instalada de generaci&#243;n inferior o igual a 1.500 kilowatts, que se encuentra desconectado del sistema el&#233;ctrico nacional, y est&#225; destinado esencialmente a suministrar electricidad para actividades domiciliarias o comerciales de localidades que, por su ubicaci&#243;n, nivel de demanda u otras caracter&#237;sticas particulares no resulta pertinente ni favorable someterlos a los est&#225;ndares normativos de un sistema mediano.
+     Sin perjuicio de lo anterior, en caso de que estos sistemas superen la capacidad instalada de generaci&#243;n indicada en el inciso anterior, se mantendr&#225;n en dicha categor&#237;a mientras la Comisi&#243;n establezca el plan se&#241;alado en el art&#237;culo 10-6 y &#233;ste se encuentre en ejecuci&#243;n.
+     
+     Art&#237;culo 10-4.- Definici&#243;n de sistema para procesos productivos. Es el sistema el&#233;ctrico destinado esencialmente a abastecer los consumos asociados a la producci&#243;n de bienes y productos. Estos sistemas no necesariamente se encuentran interconectados al sistema el&#233;ctrico nacional o a un sistema mediano, pero su interconexi&#243;n con estos &#250;ltimos podr&#225; habilitarse a trav&#233;s de la solicitud de uso de acceso abierto o mediante el proceso de planificaci&#243;n, conforme a las disposiciones reglamentarias aplicables.
+     
+     Art&#237;culo 10-5.- Categorizaci&#243;n de sistemas el&#233;ctricos. Los sistemas el&#233;ctricos que no se encuentren interconectados al sistema el&#233;ctrico nacional ser&#225;n categorizados por la Comisi&#243;n como sistema mediano, sistema aislado para peque&#241;os consumidores o sistema para procesos productivos, de acuerdo a las caracter&#237;sticas establecidas en los art&#237;culos 10-2, 10-3 y 10-4, y en conformidad a lo que establezca el reglamento y dem&#225;s normativa vigente.
+     Cada cinco a&#241;os la Comisi&#243;n, mediante un proceso transparente, p&#250;blico y participativo, categorizar&#225; los sistemas el&#233;ctricos que hay en el pa&#237;s que no se encuentren interconectados al sistema el&#233;ctrico nacional. Finalizado este proceso, la Comisi&#243;n dictar&#225; una resoluci&#243;n exenta que establecer&#225;, fundadamente, la categorizaci&#243;n respectiva.
+     Sin perjuicio de lo anterior, la resoluci&#243;n exenta indicada en el inciso precedente podr&#225; ser actualizada en caso de que la Comisi&#243;n lo determine de manera fundada.
+     Los plazos, condiciones, etapas y dem&#225;s requisitos del proceso de categorizaci&#243;n de los sistemas el&#233;ctricos y su actualizaci&#243;n, cuando corresponda, ser&#225;n establecidos en el reglamento, junto con los criterios y otras consideraciones necesarias para llevar adelante el proceso.
+     
+     Art&#237;culo 10-6.- Cambio de categorizaci&#243;n de un sistema el&#233;ctrico. Si un sistema el&#233;ctrico cambia de categorizaci&#243;n en virtud del proceso descrito en el art&#237;culo anterior deber&#225; cumplir con los requerimientos que exija la regulaci&#243;n de la nueva categorizaci&#243;n de forma progresiva, de acuerdo al plan que para tal efecto establezca la Comisi&#243;n.
+     El reglamento regular&#225; las materias necesarias para la debida implementaci&#243;n del presente art&#237;culo.".
+     
+     3. En el art&#237;culo 72&#176;-1:
+     
+     a) Reempl&#225;zanse los incisos segundo y tercero por los siguientes:
+     
+     "En el caso del sistema el&#233;ctrico nacional esta coordinaci&#243;n deber&#225; efectuarse a trav&#233;s del Coordinador, de acuerdo con las normas t&#233;cnicas que determinen la Comisi&#243;n, la presente ley y la reglamentaci&#243;n pertinente.
+     En el caso de los sistemas medianos, la coordinaci&#243;n de las instalaciones deber&#225; realizarse entre las empresas que operan en cada uno de los sistemas de acuerdo a lo dispuesto en el art&#237;culo 173 bis. Sin perjuicio de lo anterior, el Coordinador deber&#225; realizar la programaci&#243;n de la operaci&#243;n de los sistemas medianos en que haya m&#225;s de una empresa generadora, conforme a la ley, el reglamento y las normas t&#233;cnicas. En dicho caso, las empresas que operan estos sistemas medianos deber&#225;n sujetarse a la programaci&#243;n que realice el Coordinador y deber&#225;n proporcionarle toda la informaci&#243;n que para tal efecto les requiera.".
+     
+     b) Reempl&#225;zase en el inciso cuarto la expresi&#243;n "sistema el&#233;ctrico" por "sistema el&#233;ctrico nacional".
+     
+     4. Interc&#225;lase en el inciso primero del art&#237;culo 72&#176;-10, entre la expresi&#243;n "mercado el&#233;ctrico" y el punto y aparte, la siguiente frase: ", tanto en el sistema el&#233;ctrico nacional como en los sistemas medianos".
+     
+     5. En el art&#237;culo 83&#176;:
+     
+     a) Interc&#225;lase en el inciso primero, entre la expresi&#243;n "treinta a&#241;os" y el punto y aparte, la siguiente frase: ", respecto al sistema el&#233;ctrico nacional y a los sistemas medianos".
+     b) En el inciso segundo:
+     
+        i. Incorp&#243;rase, a continuaci&#243;n de la frase "El proceso de planificaci&#243;n energ&#233;tica deber&#225; incluir", la siguiente: ", seg&#250;n corresponda,".
+        ii. Reempl&#225;zase la palabra "considerando" por la frase "de acuerdo a las especificidades del sistema el&#233;ctrico nacional y de los sistemas medianos,".
+     
+     6. Incorp&#243;rase, a continuaci&#243;n del art&#237;culo 84&#176;, el siguiente art&#237;culo 84 bis:
+     
+     "Art&#237;culo 84 bis.- Planes estrat&#233;gicos de energ&#237;a en regiones. El Ministerio de Energ&#237;a deber&#225; dictar los planes estrat&#233;gicos de energ&#237;a para cada una de las regiones del pa&#237;s. Estos planes son instrumentos que orientan el desarrollo energ&#233;tico de la regi&#243;n, con un enfoque territorial, y que deben ser considerados en los an&#225;lisis de los distintos instrumentos del proceso de planificaci&#243;n energ&#233;tica de largo plazo definido en el art&#237;culo 83&#176;.
+     Los planes estrat&#233;gicos de energ&#237;a aplicar&#225;n la evaluaci&#243;n ambiental estrat&#233;gica, conforme a lo establecido en el P&#225;rrafo 1&#176; bis del T&#237;tulo II de la ley N&#176; 19.300, sobre Bases Generales del Medio Ambiente.
+     Previo a la aprobaci&#243;n de cada plan, se requerir&#225; el informe del Comit&#233; Regional de Cambio Clim&#225;tico respectivo, el que deber&#225; pronunciarse sobre la coherencia de aqu&#233;l con los instrumentos de gesti&#243;n del cambio clim&#225;tico correspondientes. El informe se deber&#225; evacuar dentro del plazo de treinta d&#237;as, contado desde la recepci&#243;n de la solicitud. Transcurrido dicho plazo, sin que se haya emitido el informe, el Ministerio de Energ&#237;a podr&#225; continuar con la tramitaci&#243;n del plan respectivo.
+     El reglamento establecer&#225; el procedimiento, contenidos y materias necesarias para el desarrollo de los planes estrat&#233;gicos de energ&#237;a en regiones.".
+     
+     7. Elim&#237;nase en el inciso segundo del art&#237;culo 85&#176; la siguiente frase: ", ubicadas en las regiones en las que se emplaza el Sistema El&#233;ctrico Nacional,".
+     
+     8. En el art&#237;culo 130&#176;:
+     
+     a) En el inciso primero:
+     
+        i. Sustit&#250;yese la frase "sistemas cuyo tama&#241;o es superior a 1.500 kilowatts en capacidad instalada de generaci&#243;n," por "el sistema el&#233;ctrico nacional y en los sistemas medianos,".
+        ii. Reempl&#225;zase la expresi&#243;n "los reglamentos" por la frase "el reglamento y las correspondientes normas t&#233;cnicas".
+     
+     b) Reempl&#225;zase en el inciso segundo la frase "sistemas cuyo tama&#241;o es inferior o igual a 1.500 kilowatts en capacidad instalada de generaci&#243;n" por "sistemas aislados para peque&#241;os consumidores".
+     
+     9. En el inciso primero del art&#237;culo 147&#176;:
+     
+     a) Reempl&#225;zase en el numeral 2 la frase "sistemas el&#233;ctricos de tama&#241;o superior a 1.500 kilowatts en capacidad instalada de generaci&#243;n" por "el sistema el&#233;ctrico nacional y en los sistemas medianos".
+     b) Reempl&#225;zase en el numeral 3 la frase "de sistemas el&#233;ctricos de tama&#241;o superior a 1.500 kilowatts en capacidad instalada de generaci&#243;n" por "del sistema el&#233;ctrico nacional y en los sistemas medianos".
+     
+     10. Sustit&#250;yese en el inciso final del art&#237;culo 149&#176; ter la frase "sistemas el&#233;ctricos cuya capacidad instalada de generaci&#243;n sea inferior a 200 megawatts y superior a 1.500 kilowatts," por "sistemas medianos,".
+     11. En el art&#237;culo 149&#176; qu&#225;ter:
+     
+     a) Reempl&#225;zase en el inciso primero la frase "los sistemas el&#233;ctricos con capacidad instalada superior a 200 megawatts" por "el sistema el&#233;ctrico nacional".
+     b) Sustit&#250;yese en el inciso final la frase "ese u otro sistema el&#233;ctrico." por "el sistema el&#233;ctrico nacional.".
+     
+     12. En el art&#237;culo 150&#176; bis:
+     
+     a) En el inciso primero:
+     
+        i. Reempl&#225;zase la frase "los sistemas el&#233;ctricos con capacidad instalada superior a 200 megawatts" por "el sistema el&#233;ctrico nacional".
+        ii. Sustit&#250;yese la expresi&#243;n "cualquiera de dichos sistemas" por "dicho sistema".
+     
+     b) Reempl&#225;zase en el inciso segundo la frase "a los sistemas el&#233;ctricos" por "al sistema el&#233;ctrico nacional".
+     
+     c) Elim&#237;nase en el inciso tercero la frase ", los que podr&#225;n realizarse incluso entre empresas de diferentes sistemas el&#233;ctricos".
+     
+     d) En inciso sexto:
+     
+        i. Reempl&#225;zase la frase "de los sistemas el&#233;ctricos mayores a 200 megawatts deber&#225;n coordinarse y" por el vocablo "deber&#225;".
+        ii. Elim&#237;nase la expresi&#243;n "por dicha Direcci&#243;n".
+     
+     13. En el art&#237;culo 150 ter:
+     
+     a) Reempl&#225;zase en el inciso primero el t&#233;rmino "quo" por la palabra "que".
+     b) Supr&#237;mese el inciso noveno.
+     c) Reempl&#225;zase en el inciso d&#233;cimo la expresi&#243;n "sistema el&#233;ctrico respectivo." por "sistema el&#233;ctrico nacional.".
+     
+     14. Sustit&#250;yese en el inciso segundo del art&#237;culo 152&#176; la expresi&#243;n "sistemas el&#233;ctricos de m&#225;s de 1.500 kilowatts de capacidad instalada en generaci&#243;n," por "el sistema el&#233;ctrico nacional y en los sistemas medianos".
+     15. Reempl&#225;zase el ep&#237;grafe del Cap&#237;tulo II del T&#237;tulo V por el siguiente: "De los precios m&#225;ximos en el sistema el&#233;ctrico nacional y en los sistemas medianos".
+     16. Reempl&#225;zase en el encabezamiento del inciso primero del art&#237;culo 155&#176; la expresi&#243;n "los sistemas el&#233;ctricos cuyo tama&#241;o es superior a 1.500 kilowatts en capacidad instalada de generaci&#243;n" por "el sistema el&#233;ctrico nacional y en los sistemas medianos".
+     17. En el art&#237;culo 157&#176;:
+     
+     a) Reempl&#225;zanse los incisos primero y segundo por los siguientes:
+     
+     "Art&#237;culo 157.- Los concesionarios de servicio p&#250;blico de distribuci&#243;n deber&#225;n traspasar a sus clientes finales sometidos a regulaci&#243;n de precios, los precios de generaci&#243;n que resulten de promediar los precios vigentes para dichos suministros conforme a sus contratos o al decreto respectivo para el caso de los sistemas medianos. El promedio se obtendr&#225; al ponderar los precios por la cantidad de energ&#237;a correspondiente. El reglamento establecer&#225; el mecanismo de traspaso de dichos precios promedio a los clientes sometidos a regulaci&#243;n de precios, con resguardo de la debida coherencia entre la facturaci&#243;n de los contratos de suministro en los puntos de compra y los retiros f&#237;sicos asociados a dichos contratos, y la tarificaci&#243;n de los segmentos de transmisi&#243;n. Las diferencias que resulten de la aplicaci&#243;n de lo se&#241;alado precedentemente deber&#225;n incorporarse en los precios traspasables a clientes sometidos a regulaci&#243;n de precios, a trav&#233;s de los correspondientes decretos tarifarios.
+     Si el precio promedio de energ&#237;a de una concesionaria, determinado para la totalidad de su zona de concesi&#243;n, sobrepasa en m&#225;s del 5% el promedio ponderado del precio de energ&#237;a para todas las concesionarias del sistema el&#233;ctrico nacional y de los sistemas medianos, el precio promedio de tal concesionaria deber&#225; ajustarse de modo de suprimir dicho exceso, el que ser&#225; absorbido en los precios promedio de los dem&#225;s concesionarios que operan en el sistema el&#233;ctrico nacional, a prorrata de las respectivas energ&#237;as suministradas para clientes regulados. Para efectos de la comparaci&#243;n se&#241;alada, los precios promedio deber&#225;n referirse a una misma subestaci&#243;n el&#233;ctrica en el sistema el&#233;ctrico nacional y en los sistemas medianos, seg&#250;n corresponda.".
+     
+     b) Reempl&#225;zase en el inciso tercero la frase "los sistemas el&#233;ctricos con capacidad instalada superior a 200 megawatts," por "el sistema el&#233;ctrico nacional,".
+     c) En el encabezamiento del inciso quinto:
+    
+        i. Reempl&#225;zase la frase "a los sistemas de capacidad instalada superior a 200 megawatts," por "al sistema el&#233;ctrico nacional,".
+        ii. Interc&#225;lase, entre la palabra "generaci&#243;n" y el punto que le sigue, la frase "que se emplacen en el sistema el&#233;ctrico nacional".
+     
+     d) Sustit&#250;yese en el inciso sexto la locuci&#243;n "de cada CDEC" por "del Coordinador".
+     e) Reempl&#225;zase en el inciso final la expresi&#243;n "los CDEC" por "el Coordinador".
+     
+     18. En el art&#237;culo 158&#176;:
+     
+     a) Interc&#225;lase en el inciso tercero, entre las frases "Los concesionarios de servicio p&#250;blico de distribuci&#243;n" y "pagar&#225;n a sus suministradores", lo siguiente: "del sistema el&#233;ctrico nacional".
+     b ) A&#241;&#225;dese el siguiente inciso final, nuevo:
+     
+     "Los concesionarios que presten servicio p&#250;blico de distribuci&#243;n en los sistemas medianos se regir&#225;n por lo dispuesto en los art&#237;culos 178 y siguientes, respecto de dicho sistema.".
+     
+     19. En el art&#237;culo 159&#176;:
+     
+     a ) Reempl&#225;zase en el inciso primero la frase "En los sistemas el&#233;ctricos de capacidad instalada de generaci&#243;n igual o superior a 200 megawatts," por "En el sistema el&#233;ctrico nacional,".
+     b) Sustit&#250;yese el inciso segundo por el siguiente:
+     
+     "En los sistemas medianos, los precios de nudo se calcular&#225;n sobre la base del costo incremental de desarrollo y los costos totales de largo plazo para los segmentos de generaci&#243;n y transmisi&#243;n, seg&#250;n corresponda, de sistemas eficientemente dimensionados. Asimismo, el c&#225;lculo deber&#225; propender al desarrollo &#243;ptimo de las inversiones y considerar la incorporaci&#243;n de energ&#237;as renovables y almacenamiento, para el cumplimiento de los objetivos de eficiencia econ&#243;mica, competencia y seguridad. Todo lo anterior, con el fin de operar las instalaciones de modo de preservar la seguridad del servicio en dichos sistemas, y garantizar la operaci&#243;n m&#225;s econ&#243;mica para el conjunto de las instalaciones del correspondiente sistema mediano.".
+     
+     20. En el art&#237;culo 163&#176;:
+     
+     a ) Reempl&#225;zase en el inciso segundo la expresi&#243;n "El d&#233;ficit" por la frase "En el caso del sistema el&#233;ctrico nacional, el d&#233;ficit".
+     b ) Incorp&#243;ranse los siguientes incisos noveno y d&#233;cimo:
+     
+     "En los sistemas medianos el reglamento establecer&#225; las disposiciones necesarias para hacer frente al racionamiento, as&#237; como las condiciones de oferta de generaci&#243;n a partir de las cuales &#233;ste deba decretarse, tales como fallas prolongadas de centrales el&#233;ctricas o situaciones de sequ&#237;a, entre otras razones, las que en ning&#250;n caso podr&#225;n ser calificadas como fuerza mayor o caso fortuito.
+     Asimismo, el decreto que dicte el Ministerio se&#241;alar&#225;, en base a un informe previo de la Comisi&#243;n Nacional de Energ&#237;a, el monto del pago por cada kilowatt-hora de d&#233;ficit, en consistencia con la metodolog&#237;a se&#241;alada en el inciso s&#233;ptimo y en la dem&#225;s normativa vigente, las otras condiciones que deber&#225;n aplicar las empresas generadoras para el c&#225;lculo o registro de los d&#233;ficits, y los montos y procedimientos que aplicar&#225;n las empresas distribuidoras para traspasar a su vez los montos recibidos a sus clientes finales.".
+     
+     21. En el art&#237;culo 173&#176;:
+     
+     a) Reempl&#225;zase el inciso primero por el siguiente:
+     
+     "Art&#237;culo 173.- Planificaci&#243;n de los sistemas medianos. La planificaci&#243;n de los sistemas medianos deber&#225; propender al desarrollo &#243;ptimo de las inversiones, y considerar la incorporaci&#243;n de energ&#237;as renovables y almacenamiento, para el cumplimiento de los objetivos de eficiencia econ&#243;mica, competencia y seguridad. Lo anterior, con el fin de operar las instalaciones de modo de preservar la seguridad del servicio en dicho sistema, y garantizar la operaci&#243;n m&#225;s econ&#243;mica para el conjunto de sus instalaciones.".
+     
+     b) Incorp&#243;rase el siguiente inciso segundo, nuevo, pasando el actual inciso segundo a ser tercero, y as&#237; sucesivamente:
+     
+     "Durante la etapa de planificaci&#243;n, la Comisi&#243;n podr&#225; considerar inversiones para transformar generaci&#243;n t&#233;rmica existente en generaci&#243;n basada en combustibles neutros en emisiones de di&#243;xido de carbono (CO2) equivalente, de acuerdo con lo que establezca el reglamento.".
+     
+     c. Supr&#237;mese el inciso final.
+     
+     22. Incorp&#243;rase, a continuaci&#243;n del art&#237;culo 173, el siguiente art&#237;culo 173 bis:
+     
+     "Art&#237;culo 173 bis.- De la obligaci&#243;n de coordinarse en los sistemas medianos. Si en un sistema mediano hay m&#225;s de una empresa generadora o de sistema de almacenamiento, deber&#225;n operarse todas las instalaciones interconectadas en forma coordinada, de modo de garantizar el cumplimiento de los objetivos asociados a la operaci&#243;n de las instalaciones establecidos en el art&#237;culo precedente, a trav&#233;s de un Comit&#233; Coordinador. El reglamento establecer&#225; las normas que se requieran para cumplir con la operaci&#243;n y administraci&#243;n de dicho sistema en las condiciones se&#241;aladas en este art&#237;culo. Si surgen controversias entre las empresas que operan en los sistemas medianos respecto de la operaci&#243;n y administraci&#243;n de dicho sistema, &#233;stas ser&#225;n resueltas por el Panel de Expertos, el que deber&#225; emitir su dictamen dentro del plazo de treinta d&#237;as, contado desde la respectiva audiencia a que hace referencia el art&#237;culo 211&#176;.".
+     
+     23. En el art&#237;culo 174&#176;:
+     
+     a) Reempl&#225;zase el inciso primero por el siguiente:
+     
+     "Art&#237;culo 174.- Planes de expansi&#243;n y precios regulados. Los planes de expansi&#243;n de las instalaciones de generaci&#243;n, almacenamiento y de transmisi&#243;n y los precios de nudo de energ&#237;a y potencia a nivel de generaci&#243;n y de transmisi&#243;n de cada sistema mediano se determinar&#225;n, conjuntamente, cada cuatro a&#241;os, mediante la elaboraci&#243;n del estudio t&#233;cnico establecido en los art&#237;culos siguientes, y cuyo proceso de elaboraci&#243;n ser&#225; dirigido y coordinado por la Comisi&#243;n.".
+     
+     b) Incorp&#243;rase el siguiente inciso segundo, nuevo, pasando el actual inciso segundo a ser tercero, y as&#237; sucesivamente:
+     
+     "Los precios se&#241;alados se calcular&#225;n sobre la base del costo incremental de desarrollo y del costo total de largo plazo de los segmentos de generaci&#243;n y transmisi&#243;n, seg&#250;n corresponda, de sistemas eficientemente dimensionados, para abastecer la totalidad de la demanda, habida consideraci&#243;n de los objetivos que indica el art&#237;culo 173.".
+     
+     24. Reempl&#225;zase el art&#237;culo 175&#176; por el siguiente:
+     
+     "Art&#237;culo 175.- Costos incrementales de desarrollo y costos totales de largo plazo. Los costos incrementales de desarrollo y los costos totales de largo plazo de los segmentos de generaci&#243;n y de transmisi&#243;n se calcular&#225;n, respectivamente, para un conjunto eficiente de instalaciones de generaci&#243;n y transmisi&#243;n que permitan abastecer la demanda total proyectada en cada sistema mediano, en funci&#243;n de los objetivos se&#241;alados en el art&#237;culo 173. El reglamento establecer&#225; la metodolog&#237;a detallada de c&#225;lculo de costos y de proyecci&#243;n de demanda, y las caracter&#237;sticas de las bases del estudio que deber&#225; realizarse para la fijaci&#243;n de precios a nivel de generaci&#243;n y transmisi&#243;n.".
+     
+     25. En el art&#237;culo 176&#176;:
+     
+     a) En el inciso primero:
+     
+        i. Interc&#225;lase, al inicio del art&#237;culo, entre la expresi&#243;n "Art&#237;culo 176&#176;.-" y la frase "El costo incremental de desarrollo" lo siguiente: "Determinaci&#243;n del costo incremental de desarrollo y el costo total de largo plazo.".
+        ii. Reempl&#225;zase la palabra "minimizan" por la frase "permiten cumplir con los objetivos se&#241;alados en el art&#237;culo 173, y minimizan".
+        iii. Sustit&#250;yese la conjunci&#243;n "y", que se encuentra entre las palabras "operaci&#243;n" y "mantenimiento", por una coma.
+        iv. Interc&#225;lase, entre el vocablo "mantenimiento" y la frase "del sistema para el per&#237;odo de planificaci&#243;n", lo siguiente: "y energ&#237;a no suministrada".
+     
+     b) A&#241;&#225;dese en el inciso segundo la siguiente oraci&#243;n final: "En este proceso se deber&#225; considerar tambi&#233;n la planificaci&#243;n energ&#233;tica de largo plazo que desarrolle el Ministerio de Energ&#237;a, a que se refiere el art&#237;culo 83&#176;, de acuerdo a los procedimientos que defina el reglamento.".
+     c) Incorp&#243;rase el siguiente inciso tercero, nuevo, pasando el actual inciso tercero a ser inciso cuarto:
+     
+     "Adicionalmente, el plan de expansi&#243;n podr&#225; considerar requerimientos de infraestructura asociada a modificaciones, refuerzos o adecuaciones en redes de distribuci&#243;n, en aquellos casos en que se demuestre que esta soluci&#243;n es factible t&#233;cnicamente y sea econ&#243;micamente m&#225;s conveniente que la construcci&#243;n de infraestructura nueva. La remuneraci&#243;n de estas modificaciones, refuerzos o adecuaciones deber&#225; evitar en todo momento el doble pago de servicios o de infraestructura.".
+     
+     d) Interc&#225;lase en el actual inciso tercero, que pasa a ser inciso cuarto, entre la voz "servicio" y el punto que le sigue, la siguiente frase: ", en consideraci&#243;n a los principios de eficiencia econ&#243;mica, competencia y seguridad se&#241;alados en el art&#237;culo 173".
+     e) Agr&#233;gase el siguiente inciso final, nuevo:
+     
+     "En la determinaci&#243;n del costo total de largo plazo se deber&#225;n incluir aquellas obras contenidas en los planes de expansi&#243;n &#243;ptimos en generaci&#243;n, transmisi&#243;n y modificaciones, refuerzos o adecuaciones en redes de distribuci&#243;n decretados en procesos anteriores, que cumplan con la condici&#243;n de incorporar medios de generaci&#243;n renovables no convencionales a los sistemas, y conforme a lo indicado en el art&#237;culo 179&#176;, junto con el valor de inversi&#243;n identificado en el respectivo decreto tarifario, actualizado a la fecha del c&#225;lculo, de acuerdo a la f&#243;rmula de indexaci&#243;n se&#241;alada en el mismo decreto. Lo anterior, solo en el evento que dichas obras: hayan sido ejecutadas; se encuentren en ejecuci&#243;n conforme a los plazos e hitos definidos en el respectivo decreto; o se encuentren en la hip&#243;tesis se&#241;alada en el inciso final del art&#237;culo 180 y corresponda a alguno de los procesos tarifarios siguientes.".
+     
+     26. Incorp&#243;ranse, a continuaci&#243;n del art&#237;culo 176&#176;, los siguientes art&#237;culos 176 bis, 176 ter y 176 qu&#225;ter:
+     
+     "Art&#237;culo 176 bis.- Registro de proyectos de generaci&#243;n y transmisi&#243;n en sistemas medianos. La Comisi&#243;n deber&#225; crear y administrar un registro electr&#243;nico por cada uno de los sistemas medianos existentes, a efectos de que los promotores que tengan inter&#233;s en desarrollar proyectos de generaci&#243;n, almacenamiento o transmisi&#243;n en los respectivos sistemas realicen su inscripci&#243;n, para ser considerados en el desarrollo del estudio se&#241;alado en el art&#237;culo 174.
+     Para efectos de inscribirse en el registro antes se&#241;alado, los promotores de proyectos deber&#225;n presentar los antecedentes y respaldos t&#233;cnicos, econ&#243;micos y de financiamiento que justifiquen su propuesta, y deber&#225;n ajustarse a los formatos y requisitos que establezca la Comisi&#243;n, conforme a lo dispuesto en el reglamento.
+     Desde el momento de la incorporaci&#243;n de un proyecto en el registro electr&#243;nico, ser&#225; responsabilidad de los promotores actualizar semestralmente, en los meses de enero y julio de cada a&#241;o, el avance en el desarrollo de &#233;ste conforme al cronograma presentado. La actualizaci&#243;n de la informaci&#243;n en dichos t&#233;rminos permitir&#225; al promotor del proyecto renovar su calidad de integrante del registro electr&#243;nico para el semestre siguiente al mes en que se recibi&#243; la actualizaci&#243;n. Si ello no ocurre, el promotor del proyecto dejar&#225; de integrar el se&#241;alado registro electr&#243;nico.
+     La Comisi&#243;n considerar&#225; la lista de los proyectos inscritos en el registro electr&#243;nico que cumplan con los requisitos definidos en la ley y en el reglamento, y que cuenten con resoluci&#243;n de calificaci&#243;n ambiental si corresponde, para efectos de que sean incorporados en el desarrollo del estudio de planificaci&#243;n y tarificaci&#243;n. El reglamento establecer&#225; los dem&#225;s requisitos que deber&#225;n cumplir los proyectos para ser incorporados en la referida lista.
+     
+     Art&#237;culo 176 ter.- Proyecciones de demanda y deber de informaci&#243;n en sistemas medianos. La proyecci&#243;n de demanda, libre y regulada, en cada uno de los sistemas medianos, para la totalidad de sus puntos de retiro y para todo el horizonte de planificaci&#243;n, deber&#225; ser realizada por la Comisi&#243;n, conforme a lo se&#241;alado en el reglamento, y considerar&#225; como insumo las proyecciones de demanda energ&#233;tica que son resultado del proceso de planificaci&#243;n energ&#233;tica de largo plazo, de acuerdo con lo establecido en el art&#237;culo 83&#176;. Las empresas distribuidoras y quienes operen en los sistemas medianos deber&#225;n informar a la Comisi&#243;n las proyecciones de demanda de sus clientes libres y regulados, y entregar la informaci&#243;n de forma detallada y justificada, as&#237; como los supuestos y metodolog&#237;as utilizadas, en la oportunidad y conforme a los formatos que disponga la Comisi&#243;n.
+    
+     Art&#237;culo 176 qu&#225;ter.- Participantes, usuarios e instituciones interesadas en sistemas medianos. La Comisi&#243;n administrar&#225; un registro p&#250;blico de participaci&#243;n ciudadana, en el que se podr&#225;n inscribir las empresas generadoras, transmisoras y distribuidoras que operan en los sistemas medianos, en adelante los "participantes", y toda persona natural o jur&#237;dica con inter&#233;s en participar en el proceso de planificaci&#243;n y tarificaci&#243;n de los sistemas medianos, en adelante "usuarios e instituciones interesadas".
+     Los participantes y los usuarios e instituciones interesadas podr&#225;n participar del proceso y estudio de planificaci&#243;n y tarificaci&#243;n de los sistemas medianos conforme a las normas contenidas en los art&#237;culos siguientes y en el reglamento.
+     El reglamento deber&#225; especificar el procedimiento o tr&#225;mite a trav&#233;s del cual se har&#225; el llamado a los usuarios e instituciones interesadas a inscribirse, y la informaci&#243;n que &#233;stos deber&#225;n presentar para su registro. Asimismo, establecer&#225; los medios y la forma en que la Comisi&#243;n har&#225; p&#250;blico los distintos documentos sometidos a un proceso de participaci&#243;n ciudadana, la oportunidad y la forma de entregar sus observaciones, y el mecanismo de actualizaci&#243;n del registro. En todo caso, los antecedentes que solicite la autoridad para constituir dicho registro deber&#225;n estar dirigidos a acreditar la representaci&#243;n, el inter&#233;s y la correcta identificaci&#243;n de cada usuario o entidad, y no podr&#225;n representar discriminaci&#243;n de ninguna especie.
+     Los promotores de proyectos de generaci&#243;n y transmisi&#243;n que se encuentren inscritos en el registro mencionado en el art&#237;culo 176 bis, en adelante "los promotores de proyectos", se entender&#225;n autom&#225;ticamente inscritos en el registro de que trata este art&#237;culo.
+     Las notificaciones y comunicaciones a los participantes, usuarios e instituciones interesadas y a los promotores de proyectos podr&#225;n efectuarse a trav&#233;s de medios electr&#243;nicos, de acuerdo con la informaci&#243;n que contenga el registro.
+     El Ministerio de Energ&#237;a y la Comisi&#243;n deber&#225;n velar por la participaci&#243;n ciudadana en los sistemas medianos. Para ello otorgar&#225;n las facilidades necesarias mediante la entrega de informaci&#243;n y difusi&#243;n de los procesos tarifarios.".
+     
+     27. Reempl&#225;zase el art&#237;culo 177&#176; por el siguiente:
+     
+     "Art&#237;culo 177.- Bases t&#233;cnicas y administrativas del estudio. A m&#225;s tardar veinticuatro meses antes del t&#233;rmino del per&#237;odo de vigencia de los decretos que fijan los precios de generaci&#243;n y transmisi&#243;n, la Comisi&#243;n deber&#225; poner en conocimiento de los participantes, de los usuarios e instituciones interesadas y de los promotores de proyectos, las bases t&#233;cnicas y administrativas preliminares del estudio para la determinaci&#243;n de los planes de expansi&#243;n de las instalaciones de generaci&#243;n, almacenamiento y de transmisi&#243;n y para el c&#225;lculo del costo incremental de desarrollo y el costo total de largo plazo de los segmentos de generaci&#243;n y de transmisi&#243;n de los sistemas medianos. Dicho estudio ser&#225; realizado por una empresa consultora contratada por la Comisi&#243;n, de conformidad con lo dispuesto en la ley, en el reglamento y en las bases t&#233;cnicas y administrativas.
+     El reglamento definir&#225; el contenido de las bases t&#233;cnicas y administrativas preliminares del estudio. Adicionalmente, determinar&#225; los criterios de selecci&#243;n de las propuestas del consultor para su realizaci&#243;n, las garant&#237;as que &#233;ste deber&#225; rendir para asegurar su oferta y su correcta realizaci&#243;n, incompatibilidades y todas las dem&#225;s condiciones, etapas del estudio y obligaciones del referido consultor que deban formar parte de las bases administrativas y t&#233;cnicas. Asimismo, el reglamento determinar&#225; las garant&#237;as que deber&#225;n entregar los promotores de proyectos para asegurar su integridad y seriedad, as&#237; como para garantizar su correcta y oportuna ejecuci&#243;n. Los montos, condiciones y oportunidades en que deban ser entregados ser&#225;n definidas en las bases administrativas y t&#233;cnicas.
+     Los participantes, los usuarios e instituciones interesadas y los promotores de proyectos podr&#225;n efectuar observaciones a las bases t&#233;cnicas y administrativas preliminares dentro de los quince d&#237;as siguientes a la fecha de su recepci&#243;n. La Comisi&#243;n acoger&#225; o rechazar&#225; fundadamente las observaciones y comunicar&#225; las bases finales dentro de los quince d&#237;as siguientes al vencimiento del plazo para presentar observaciones.
+     Si se mantienen controversias, los participantes, los usuarios e instituciones interesadas y los promotores de proyectos podr&#225;n presentar sus discrepancias al Panel de Expertos, en un plazo m&#225;ximo de diez d&#237;as, contado desde la recepci&#243;n de las bases finales. El Panel de Expertos dispondr&#225; de veinte d&#237;as para realizar la audiencia p&#250;blica, contado desde el vencimiento del plazo para la presentaci&#243;n de discrepancias. Luego, el Panel de Expertos deber&#225; emitir su dictamen dentro del plazo de treinta d&#237;as, contado desde la respectiva audiencia a que hace referencia el art&#237;culo 211&#176;.
+     Para los efectos anteriores, se entender&#225; que existe discrepancia susceptible de ser sometida al dictamen del Panel de Expertos, si quien ha formulado observaciones a las bases t&#233;cnicas y administrativas preliminares persevera en ellas, con posterioridad a su rechazo por parte de la Comisi&#243;n y, tambi&#233;n, si quien no ha formulado observaciones a las bases t&#233;cnicas y administrativas preliminares, considera que se debe mantener su contenido, en caso de haberse modificado en las bases t&#233;cnicas y administrativas finales.
+     Transcurrido el plazo para formular discrepancias ante el Panel de Expertos o una vez resueltas &#233;stas, la Comisi&#243;n deber&#225; formalizar las bases t&#233;cnicas y administrativas definitivas dentro de los siguientes quince d&#237;as, a trav&#233;s de una resoluci&#243;n que se publicar&#225; en el Diario Oficial y en un diario de circulaci&#243;n nacional o regional, y se comunicar&#225; a los participantes, a los usuarios e instituciones interesadas y a los promotores de proyectos. Asimismo, deber&#225; publicarse en el sitio web de la Comisi&#243;n.".
+     
+     28. Incorp&#243;ranse, a continuaci&#243;n del art&#237;culo 177, los siguientes art&#237;culos 177 bis, 177 ter, 177 qu&#225;ter y 177 quinquies:
+     
+     "Art&#237;culo 177 bis.- Licitaci&#243;n y adjudicaci&#243;n del estudio. El estudio de planificaci&#243;n y tarificaci&#243;n de los sistemas medianos ser&#225; licitado y adjudicado por la Comisi&#243;n de conformidad con lo dispuesto en la presente ley, en el reglamento y en las bases t&#233;cnicas y administrativas antes referidas. El estudio ser&#225; supervisado por un comit&#233; integrado por dos representantes del Ministerio de Energ&#237;a, dos de la Comisi&#243;n, dos representantes de las empresas que operen los sistemas medianos y dos representantes del conjunto de los promotores de proyectos. El comit&#233; ser&#225; presidido por uno de los representantes de la Comisi&#243;n.
+     La Comisi&#243;n realizar&#225; el llamado a licitaci&#243;n y proceder&#225; a la adjudicaci&#243;n y firma del contrato. El reglamento determinar&#225; las funciones del comit&#233; se&#241;alado en el inciso anterior y establecer&#225; el procedimiento para su constituci&#243;n y funcionamiento.
+     El estudio deber&#225; identificar el plan de expansi&#243;n de los segmentos de generaci&#243;n y de transmisi&#243;n correspondiente a cada sistema mediano, y los respectivos costos incrementales de desarrollo y costos totales de largo plazo de cada uno de los segmentos, en la forma que indique el reglamento y las bases respectivas. El estudio deber&#225; ejecutarse dentro del plazo establecido en las bases administrativas, el que no podr&#225; ser superior a siete meses, a partir de la total tramitaci&#243;n del acto administrativo que aprueba el contrato con el consultor.
+     
+     Art&#237;culo 177 ter.- Financiamiento del estudio de planificaci&#243;n y tarificaci&#243;n de los sistemas medianos. Las empresas que operen en los sistemas medianos deber&#225;n concurrir al pago del estudio de planificaci&#243;n y tarificaci&#243;n de los respectivos sistemas, conforme a lo dispuesto en el reglamento. El valor resultante del proceso de adjudicaci&#243;n del estudio de planificaci&#243;n y tarificaci&#243;n de los sistemas medianos ser&#225; incorporado en el proceso de valorizaci&#243;n a prorrata de la capacidad instalada de generaci&#243;n de las empresas que operen en cada sistema mediano, de acuerdo con lo que establezca el reglamento.
+     
+     Art&#237;culo 177 qu&#225;ter.- Resultados del estudio y audiencia p&#250;blica. La empresa adjudicataria del estudio de planificaci&#243;n y tarificaci&#243;n presentar&#225; sus resultados al comit&#233; se&#241;alado en el art&#237;culo 177 bis, e indicar&#225;, a lo menos, los planes de expansi&#243;n, los costos por segmento, las f&#243;rmulas de indexaci&#243;n propuestas y los rangos de validez de las hip&#243;tesis t&#233;cnicas y econ&#243;micas que sustentan los costos determinados por segmento y por sistema mediano.
+     El reglamento y las bases del estudio de planificaci&#243;n y tarificaci&#243;n establecer&#225;n la forma y contenido de los antecedentes que deber&#225;n ser aportados por parte de la empresa adjudicataria del estudio para efectos de respaldar los resultados, los que deber&#225;n permitir la reproducci&#243;n de &#233;stos.
+     Una vez recibido conforme el estudio de planificaci&#243;n y tarificaci&#243;n de los sistemas medianos por parte del comit&#233; se&#241;alado en el art&#237;culo 177 bis, la Comisi&#243;n convocar&#225;, a lo menos, a una audiencia p&#250;blica a los participantes, a los usuarios e instituciones interesadas y a los promotores de proyectos, en la que la empresa adjudicataria del estudio deber&#225; exponer sus resultados.
+     El reglamento establecer&#225; el procedimiento y las dem&#225;s normas a que se sujetar&#225;n las audiencias p&#250;blicas que deban realizarse de conformidad al presente art&#237;culo, as&#237; como la forma y oportunidad en la que los participantes podr&#225;n formular sus observaciones.
+     
+     Art&#237;culo 177 quinquies.- Informe t&#233;cnico preliminar. Una vez realizada la &#250;ltima instancia de audiencia p&#250;blica se&#241;alada en el art&#237;culo anterior, la Comisi&#243;n dispondr&#225; del plazo de tres meses para revisar el estudio de planificaci&#243;n y tarificaci&#243;n, efectuar las correcciones que estime pertinentes, elaborar el informe t&#233;cnico preliminar y estructurar las tarifas correspondientes, y tendr&#225; como antecedente las observaciones presentadas en la o las audiencias. La Comisi&#243;n deber&#225; remitir, a trav&#233;s de medios electr&#243;nicos, el mencionado informe t&#233;cnico preliminar, y las f&#243;rmulas tarifarias respectivas, a los participantes, a los usuarios e instituciones interesadas y a los promotores de proyectos.
+     A partir de la recepci&#243;n del informe t&#233;cnico preliminar, los participantes, los usuarios e instituciones interesadas y los promotores de proyectos dispondr&#225;n de quince d&#237;as para presentar sus observaciones a la Comisi&#243;n, por los medios electr&#243;nicos que &#233;sta determine al efecto.
+     Dentro de los veinte d&#237;as siguientes al vencimiento del plazo para presentar observaciones, la Comisi&#243;n emitir&#225; y comunicar&#225; por v&#237;a electr&#243;nica el informe t&#233;cnico final, con la aceptaci&#243;n o el rechazo de las observaciones planteadas.
+     Dentro de los diez d&#237;as siguientes a la comunicaci&#243;n del informe final, los participantes, los usuarios e instituciones interesadas y los promotores de proyectos podr&#225;n presentar sus discrepancias al Panel de Expertos. &#201;ste realizar&#225; la audiencia p&#250;blica dentro de los treinta d&#237;as desde que le sea informada la discrepancia, y emitir&#225; su dictamen en el plazo de treinta d&#237;as contado desde la celebraci&#243;n de la audiencia referida en el art&#237;culo 211&#176;.
+     Para los efectos anteriores, se entender&#225; que existe discrepancia susceptible de ser sometida al dictamen del Panel de Expertos, si quien ha formulado observaciones al informe t&#233;cnico preliminar, persevera en ellas, con posterioridad a su rechazo por parte de la Comisi&#243;n y, tambi&#233;n, si quien no ha formulado observaciones t&#233;cnicas al informe t&#233;cnico preliminar, considera que se debe mantener su contenido, en caso de haberse modificado en el informe t&#233;cnico final.".
+     
+     29. En el art&#237;culo 178&#176;:
+     
+     a) Reempl&#225;zanse los incisos primero y segundo por los siguientes:
+     
+     "Art&#237;culo 178.- Informe t&#233;cnico definitivo y decreto tarifario. Dentro de los cinco d&#237;as siguientes al vencimiento del plazo para presentar discrepancias sin que se hayan presentado o dentro de los veinte d&#237;as siguientes desde que el Panel de Expertos haya emitido su dictamen en caso de haberse presentado, la Comisi&#243;n deber&#225; remitir al Ministerio de Energ&#237;a el informe t&#233;cnico definitivo con las tarifas para el siguiente per&#237;odo, as&#237; como los planes de expansi&#243;n en los segmentos de generaci&#243;n, transmisi&#243;n y modificaciones, refuerzos o adecuaciones en redes de distribuci&#243;n de los respectivos sistemas medianos, los responsables de ejecutar las obras, el valor de inversi&#243;n de los medios de generaci&#243;n renovables no convencionales que ser&#225;n parte del plan de expansi&#243;n, sus f&#243;rmulas de indexaci&#243;n y los rangos de validez de las hip&#243;tesis t&#233;cnicas y econ&#243;micas que sustentan el plan de expansi&#243;n a que se refiere el art&#237;culo 174.
+     El Ministro de Energ&#237;a, mediante decreto supremo expedido bajo la f&#243;rmula "por orden del Presidente de la Rep&#250;blica", fijar&#225; para cada sistema mediano las tarifas de generaci&#243;n y de transmisi&#243;n, sus f&#243;rmulas de indexaci&#243;n para el per&#237;odo siguiente y las respectivas condiciones de aplicaci&#243;n. A su vez, el decreto establecer&#225; los planes de expansi&#243;n en los segmentos de generaci&#243;n, transmisi&#243;n, las modificaciones, refuerzos o adecuaciones en redes de distribuci&#243;n de acuerdo a lo indicado en el art&#237;culo 176&#176;, los responsables de ejecutar las obras, el valor de inversi&#243;n de medios de generaci&#243;n renovables no convencionales, y sus respectivas f&#243;rmulas de indexaci&#243;n. Dicho decreto deber&#225; ser dictado dentro de los siguientes treinta d&#237;as de recibido el informe t&#233;cnico definitivo de la Comisi&#243;n. Una vez publicado el decreto en el Diario Oficial ser&#225; aplicable lo dispuesto en el inciso segundo del art&#237;culo 190&#176;.".
+     
+     b. Elim&#237;nase el inciso final.
+     
+     30. Reempl&#225;zase el art&#237;culo 179&#176; por el siguiente:
+     
+     "Art&#237;culo 179.- Planes de expansi&#243;n. Los planes de expansi&#243;n de los segmentos de generaci&#243;n y transmisi&#243;n se&#241;alados en el decreto al que hace menci&#243;n el art&#237;culo 178, y las modificaciones, refuerzos o adecuaciones a las redes de distribuci&#243;n que se determinen conforme al inciso tercero del art&#237;culo 176&#176;, tendr&#225;n car&#225;cter de obligatorios, y deber&#225;n ejecutarse conforme al tipo, dimensionamiento y plazos que se definan en el decreto, sin perjuicio de lo se&#241;alado en el inciso final del art&#237;culo 180.
+     En particular, para aquellas unidades que forman parte de los medios de generaci&#243;n renovables no convencionales y para sistemas de almacenamiento de energ&#237;a, el valor de inversi&#243;n de las obras indicadas en el plan de expansi&#243;n del decreto se&#241;alado en el art&#237;culo anterior y sus correspondientes f&#243;rmulas de indexaci&#243;n, ser&#225;n incluidos en la determinaci&#243;n del costo total de largo plazo del proceso en curso y de los tres procesos tarifarios siguientes, a partir de la fecha de entrada en operaci&#243;n indicada en el decreto correspondiente. Lo anterior, siempre y cuando las obras: hayan sido efectivamente ejecutadas; se encuentren en proceso de ser ejecutadas cumpliendo con los plazos e hitos definidos en el respectivo decreto; o se encuentren en la hip&#243;tesis se&#241;alada en el inciso final del art&#237;culo 180.
+     La realizaci&#243;n de un estudio interper&#237;odos no ser&#225; considerada como un proceso tarifario para los efectos del c&#243;mputo de los siguientes tres procesos indicados en el inciso anterior.".
+     
+     31. En el art&#237;culo 180&#176;:
+     
+     a) Sustit&#250;yense los incisos primero y segundo por los siguientes:
+     
+     "Art&#237;culo 180.- Actualizaci&#243;n interper&#237;odos. El informe t&#233;cnico que dio origen a los planes se&#241;alados en el art&#237;culo anterior establecer&#225;, en su oportunidad, el rango de validez de las hip&#243;tesis t&#233;cnicas y econ&#243;micas que sustenten la conveniencia de la implementaci&#243;n de estos planes en la forma, dimensi&#243;n y plazos establecidos.
+     Dentro de la vigencia de un decreto tarifario la Comisi&#243;n, de oficio o a solicitud fundada de las empresas que se encuentren operando en el correspondiente sistema mediano, podr&#225; actualizar lo indicado en el decreto tarifario al que hace menci&#243;n el art&#237;culo 178, en aquellos casos en que se produzcan desviaciones relevantes en las condiciones de oferta o de demanda o que se ubiquen fuera de las tolerancias establecidas conforme a lo se&#241;alado en el inciso precedente, caso en el cual las nuevas tarifas y sus correspondientes f&#243;rmulas de indexaci&#243;n, as&#237; como los planes de expansi&#243;n resultantes de dicha actualizaci&#243;n, tendr&#225;n vigencia hasta el t&#233;rmino del cuadrienio en curso. El reglamento establecer&#225; el procedimiento, los plazos y las dem&#225;s materias necesarias para el adecuado desarrollo del procedimiento de actualizaci&#243;n regulado en este art&#237;culo.".
+     
+     b) Incorp&#243;rase el siguiente inciso tercero, nuevo:
+     
+     "Para efectos de lo se&#241;alado en el inciso precedente, la actualizaci&#243;n de los par&#225;metros tarifarios, y los nuevos planes de expansi&#243;n, ser&#225;n calculados por la Comisi&#243;n mediante un informe t&#233;cnico y fijados mediante decreto expedido por el Ministerio de Energ&#237;a, bajo la f&#243;rmula "por orden del Presidente de la Rep&#250;blica".".
+     
+     c) Reempl&#225;zase en el actual inciso tercero, que ha pasado a ser inciso cuarto, la expresi&#243;n "plan de expansi&#243;n" por "decreto vigente se&#241;alado en el art&#237;culo 178".
+     
+     32. Incorp&#243;ranse, a continuaci&#243;n del art&#237;culo 180, los siguientes art&#237;culos 180-1 a 180-13:
+     
+     "Art&#237;culo 180-1.- Acceso abierto y procedimientos de conexi&#243;n en sistemas medianos. El Coordinador deber&#225; otorgar permiso de conexi&#243;n a nuevos proyectos en los sistemas medianos obligados a coordinarse de acuerdo a lo establecido en el art&#237;culo 173 bis, cuando &#233;stos lo soliciten en subestaciones existentes o futuras, conforme lo que disponga el reglamento.
+     Las empresas que operen instalaciones de distribuci&#243;n o transmisi&#243;n en un sistema mediano deber&#225;n permitir la conexi&#243;n de nuevos proyectos a sus instalaciones, cuando &#233;stos se conecten a ellas mediante l&#237;neas propias o de terceros, conforme a lo que disponga la respectiva norma t&#233;cnica.
+     Las discrepancias que surjan con motivo de la aplicaci&#243;n del r&#233;gimen de acceso abierto establecido en el presente art&#237;culo ser&#225;n sometidas al dictamen del Panel de Expertos, el que deber&#225; resolver dentro de los quince d&#237;as siguientes de celebrada la audiencia de que trata el art&#237;culo 211&#176;.
+
+     "Art&#237;culo 180-2.- Acceso abierto y procedimientos de conexi&#243;n a sistemas para procesos productivos, por parte de terceros bajo modalidad de sistemas con capacidad instalada menor a 1.500 kilowatts, sistemas medianos o el sistema el&#233;ctrico nacional. Los sistemas para procesos productivos est&#225;n sometidos a un r&#233;gimen de acceso abierto.
+     As&#237;, terceros podr&#225;n solicitar la conexi&#243;n a sistemas para procesos productivos bajo condiciones t&#233;cnicas y econ&#243;micas no discriminatorias, de acuerdo a la normativa vigente. En este caso, el Coordinador deber&#225;&#769; otorgar permiso de conexi&#243;n a quienes soliciten acceso a dichos sistemas, conforme a lo dispuesto por el reglamento. Los detalles sobre l&#237;mites, tarificaci&#243;n u otros aspectos t&#233;cnicos y econ&#243;micos del r&#233;gimen de acceso abierto quedar&#225;n sujetos a lo establecido en la regulaci&#243;n reglamentaria pertinente. El reglamento establecer&#225; las materias necesarias para la debida implementaci&#243;n del presente art&#237;culo.
+     Las discrepancias que surjan en relaci&#243;n con el acceso abierto y la interconexi&#243;n de los sistemas para procesos productivos con sistemas con capacidad instalada menor a 1.500 kilowatts, sistemas medianos o el sistema el&#233;ctrico nacional ser&#225;n resueltas por el Panel de Expertos. &#201;ste deber&#225; dictaminar en el plazo m&#225;ximo de quince d&#237;as h&#225;biles desde la celebraci&#243;n de la audiencia se&#241;alada en el art&#237;culo 211.
+     
+     Art&#237;culo 180-3.- Interconexi&#243;n de instalaciones a los sistemas medianos. Toda unidad generadora o sistema de almacenamiento deber&#225; comunicar por escrito a la Comisi&#243;n su fecha de interconexi&#243;n al sistema mediano respectivo, con una anticipaci&#243;n no inferior a seis meses, y remitir copia de dicha comunicaci&#243;n a la Superintendencia, al Coordinador y al Comit&#233; Coordinador si corresponde. En el caso de las instalaciones de transmisi&#243;n se deber&#225; cumplir con la misma obligaci&#243;n. Igual plazo y procedimiento aplicar&#225; para el retiro, modificaci&#243;n, desconexi&#243;n o cese de operaciones, que no sea por fallas o mantenimiento, de una central o instalaci&#243;n de transmisi&#243;n.
+     En casos calificados, y previo informe de seguridad del Comit&#233; Coordinador o de la empresa que opere en el respectivo sistema mediano, la Comisi&#243;n podr&#225; eximir a una empresa del cumplimiento de los plazos y fechas se&#241;aladas. Asimismo, la Comisi&#243;n podr&#225; prorrogar hasta por seis meses el plazo se&#241;alado, en caso de determinar que el retiro, modificaci&#243;n, desconexi&#243;n o el cese de operaciones puede generar riesgo para la seguridad del sistema, previo informe de seguridad del Comit&#233; Coordinador o de la empresa que opere el respectivo sistema mediano.
+     
+     Art&#237;culo 180-4.- Interconexi&#243;n de dos o m&#225;s sistemas medianos. La Comisi&#243;n podr&#225; incorporar en la planificaci&#243;n de los sistemas medianos la interconexi&#243;n de dos o m&#225;s de dichos sistemas. En el caso de presentarse una iniciativa privada de transmisi&#243;n para la se&#241;alada interconexi&#243;n, &#233;sta deber&#225; ser analizada en el estudio al que se refiere el art&#237;culo 174. Si son considerados en el plan de expansi&#243;n, los proyectos deber&#225;n ser incorporados en el desarrollo de los sistemas el&#233;ctricos respectivos, en virtud de lo se&#241;alado en el art&#237;culo 179, y el decreto respectivo deber&#225; definir las condiciones asociadas a la transici&#243;n para la correcta integraci&#243;n de los sistemas medianos que se interconecten.
+     
+     Art&#237;culo 180-5.- Otras interconexiones entre sistemas el&#233;ctricos. En cualquier otro caso de interconexi&#243;n entre sistemas el&#233;ctricos, distinto del se&#241;alado en el art&#237;culo precedente, la Comisi&#243;n deber&#225; elaborar un informe t&#233;cnico y se&#241;alar si se trata de una interconexi&#243;n de inter&#233;s privado o de servicio p&#250;blico destinada al abastecimiento de la demanda.
+     El Ministerio deber&#225; dictar el correspondiente decreto bajo la f&#243;rmula "por orden del Presidente de la Rep&#250;blica", e indicar el tipo de instalaciones de que se trata y, adem&#225;s, deber&#225; definir las condiciones asociadas a la transici&#243;n, al acceso abierto, a la remuneraci&#243;n y pago de las correspondientes instalaciones. Si se trata de una interconexi&#243;n nacional privada &#233;sta se regir&#225; por su respectivo contrato.
+     El reglamento establecer&#225; las materias necesarias para la debida implementaci&#243;n del presente art&#237;culo.
+     
+     Art&#237;culo 180-6.- Interconexi&#243;n internacional. Cuando una interconexi&#243;n internacional de servicio p&#250;blico interconecte instalaciones correspondientes a alg&#250;n sistema mediano, dicha instalaci&#243;n ser&#225; remunerada por los clientes finales del sistema el&#233;ctrico nacional a partir del cargo de transmisi&#243;n y por un nuevo cargo de transmisi&#243;n aplicado al correspondiente sistema mediano, de acuerdo a lo que disponga el reglamento.
+     
+     Art&#237;culo 180-7.- Licitaciones de suministro en sistemas medianos. La Comisi&#243;n, en concordancia con los objetivos de eficiencia econ&#243;mica, competencia y seguridad que establece la ley para la planificaci&#243;n de los sistemas medianos, podr&#225; considerar la realizaci&#243;n de licitaciones p&#250;blicas de suministro necesarias para abastecer la demanda de los sistemas medianos, mediante procesos p&#250;blicos, transparentes y no discriminatorios.
+     Para efectos de determinar la procedencia de las licitaciones a que se refiere el inciso precedente, la Comisi&#243;n deber&#225; considerar las caracter&#237;sticas del correspondiente sistema mediano, la proyecci&#243;n de la demanda, los proyectos inscritos en el Registro de Proyectos de Generaci&#243;n y Transmisi&#243;n, el incentivo de nuevas tecnolog&#237;as, el reemplazo de centrales o cualquier otra consideraci&#243;n debidamente fundada en un informe t&#233;cnico, que justifique la realizaci&#243;n de un proceso licitatorio.
+     
+     Art&#237;culo 180-8.- Observaciones al informe t&#233;cnico de licitaci&#243;n. Las concesionarias de servicio p&#250;blico de distribuci&#243;n, las empresas generadoras y aquellos usuarios e instituciones interesadas, que se encuentren inscritas en el registro de usuarios e instituciones interesadas que abrir&#225; la Comisi&#243;n, de acuerdo a lo que disponga el reglamento, y que tengan inter&#233;s directo o eventual en el proceso de licitaci&#243;n se&#241;alado en el art&#237;culo anterior, podr&#225;n realizar observaciones de car&#225;cter t&#233;cnico al referido informe en un plazo no superior a quince d&#237;as, contado desde su publicaci&#243;n, de acuerdo a los formatos, requisitos y condiciones que establezca el reglamento.
+     Dentro del plazo de treinta d&#237;as, contado desde el vencimiento del plazo para presentar las observaciones, la Comisi&#243;n deber&#225; dar respuesta fundada a ellas y proceder a la rectificaci&#243;n del informe si corresponde. La Comisi&#243;n deber&#225; notificar el referido informe por medios electr&#243;nicos, el que deber&#225; contener las modificaciones pertinentes producto de las observaciones que hayan sido acogidas.
+     Dentro del plazo de quince d&#237;as, contado desde la notificaci&#243;n a que se refiere el inciso anterior, podr&#225;n ser sometidas al dictamen del Panel de Expertos las discrepancias que se produzcan en relaci&#243;n con las proyecciones de demanda contenidas en el informe, y aqu&#233;l deber&#225; resolver conforme a lo dispuesto en el art&#237;culo 211&#176;. La Comisi&#243;n deber&#225; elaborar el informe final de acuerdo a lo dictaminado por el Panel de Expertos, dentro del plazo de quince d&#237;as.
+     
+     Art&#237;culo 180-9.- Bases de licitaci&#243;n de suministro. Si corresponde, la Comisi&#243;n deber&#225; elaborar las bases de licitaci&#243;n de suministro de energ&#237;a para el correspondiente sistema mediano, las que remitir&#225;, a trav&#233;s de medios electr&#243;nicos, a las concesionarias de distribuci&#243;n licitantes, a efectos de que &#233;stas efect&#250;en las observaciones que estimen pertinentes.
+     La Comisi&#243;n establecer&#225; en las bases las condiciones de la licitaci&#243;n, y se&#241;alar&#225;, a lo menos, la cantidad de energ&#237;a a licitar; los bloques de suministro requeridos para tal efecto; el per&#237;odo de suministro que debe cubrir la oferta, el cual no podr&#225; ser superior a veinte a&#241;os; los puntos del sistema el&#233;ctrico en el cual se efectuar&#225; el suministro; las condiciones, criterios y metodolog&#237;as que ser&#225;n empleados para realizar la evaluaci&#243;n econ&#243;mica de las ofertas y un contrato tipo de suministro de energ&#237;a para servicio p&#250;blico de distribuci&#243;n, que regir&#225; las relaciones entre la concesionaria de distribuci&#243;n y la empresa generadora adjudicataria respectiva.
+     El reglamento establecer&#225; los plazos, procedimientos y condiciones necesarias para la debida implementaci&#243;n del presente art&#237;culo y, adem&#225;s, determinar&#225; los requisitos y las condiciones para ser oferente, las garant&#237;as que &#233;ste deba rendir para asegurar el cumplimiento de su oferta y del contrato de suministro que se suscriba, y toda otra garant&#237;a para el debido resguardo del proceso.
+     
+     Art&#237;culo 180-10.- Valor m&#225;ximo de las ofertas. En cada licitaci&#243;n el valor m&#225;ximo de las ofertas de energ&#237;a para cada bloque de suministro ser&#225; fijado por la Comisi&#243;n, en un acto administrativo separado de car&#225;cter reservado, que permanecer&#225; en secreto hasta la apertura de las ofertas respectivas, momento en el cual el acto administrativo perder&#225; el car&#225;cter de reservado. Con todo, dicho valor m&#225;ximo deber&#225; ser fundado y definirse en virtud del bloque de suministro de energ&#237;a licitado.
+     
+     Art&#237;culo 180-11.- Adjudicaci&#243;n y contrato de suministro. Las empresas concesionarias de distribuci&#243;n deber&#225;n adjudicar la licitaci&#243;n a aquellas ofertas m&#225;s econ&#243;micas, de acuerdo a las condiciones establecidas en las bases de licitaci&#243;n para su evaluaci&#243;n, y deber&#225;n comunicar a la Comisi&#243;n la evaluaci&#243;n y la adjudicaci&#243;n de las ofertas, para los efectos de su formalizaci&#243;n a trav&#233;s del correspondiente acto administrativo.
+     El contrato tipo de suministro incorporado en las bases de licitaci&#243;n deber&#225; ser suscrito por la concesionaria de distribuci&#243;n y su suministrador, por escritura p&#250;blica, previa aprobaci&#243;n de la Comisi&#243;n mediante resoluci&#243;n exenta, y una copia autorizada ser&#225; registrada en la Superintendencia. Asimismo, las modificaciones que se introduzcan en los contratos deber&#225;n ser aprobadas por la Comisi&#243;n.
+     
+     Art&#237;culo 180-12.- Precio nudo promedio del sistema mediano. El total de la energ&#237;a que deber&#225;n facturar el o los suministradores adjudicados en la correspondiente licitaci&#243;n a una distribuidora, ser&#225; igual a la energ&#237;a efectivamente inyectada por dicho generador en el per&#237;odo de facturaci&#243;n, de acuerdo a los requisitos y condiciones que establezca el reglamento.
+     El precio medio que resulte de la adjudicaci&#243;n, calculado de acuerdo a lo que establezca el reglamento, ser&#225; traspasado a los clientes finales de los sistemas medianos mediante una componente adicional agregada al precio de nudo resultante del proceso de tarificaci&#243;n, a que hace referencia el art&#237;culo 178, y formar&#225; un nuevo precio de nudo denominado precio de nudo promedio del sistema mediano. Con ocasi&#243;n del c&#225;lculo a que se refiere el art&#237;culo 157, de acuerdo a lo que establezca el reglamento, la Comisi&#243;n deber&#225; incorporar ajustes y recargos derivados de indexaciones, desbalances producto de la demanda proyectada u otros.
+     
+     Art&#237;culo 180-13.- Incorporaci&#243;n de nuevas plantas de generaci&#243;n. Las nuevas plantas de generaci&#243;n comprometidas producto de las licitaciones deber&#225;n incorporarse en el plan de expansi&#243;n y en el plan de reposici&#243;n eficiente, a fin de evitar el doble pago, de forma que estas instalaciones sean consideradas para efectos de las expansiones necesarias del sistema, y que su costo no quede reflejado en el precio de nudo resultante del proceso de tarificaci&#243;n.".
+     
+     33. En el art&#237;culo 191&#176;:
+     
+     a) En el inciso segundo:
+     
+        i. Reempl&#225;zase la frase "conjunto de los sistemas el&#233;ctricos con capacidad instalada superior a 1.500 kilowatts," por "sistema el&#233;ctrico nacional y en los sistemas medianos,".
+        ii. Reempl&#225;zase la frase "En caso que dichas tarifas" por lo siguiente: "Para aquellos usuarios residenciales cuyas tarifas, calculadas sobre la base del consumo tipo".
+        iii. Supr&#237;mese la palabra "todos", que sigue a la frase "Las diferencias ser&#225;n absorbidas progresivamente por".
+        iv. Reempl&#225;zase la frase "que est&#233;n bajo el promedio se&#241;alado, con excepci&#243;n" por lo siguiente: "con las excepciones de aquellos suministros no residenciales ubicados en comunas beneficiadas con la aplicaci&#243;n de este mecanismo, siempre y cuando sean abastecidos por la misma empresa distribuidora que los usuarios residenciales beneficiados; y".
+     
+     b) Reempl&#225;zanse en el inciso tercero las expresiones "los CDEC respectivos," y "los CDEC" por "el Coordinador".
+     
+     34. Reempl&#225;zase el ep&#237;grafe del Cap&#237;tulo III del T&#237;tulo V por el siguiente: "De los precios m&#225;ximos en los sistemas aislados para peque&#241;os consumidores".
+     35. Sustit&#250;yese en el art&#237;culo 199&#176; la frase "sistemas el&#233;ctricos cuyo tama&#241;o es igual o inferior a 1.500 kilowatts en capacidad instalada de generaci&#243;n" por "sistemas aislados para peque&#241;os consumidores".
+     36. Incorp&#243;rase, a continuaci&#243;n del art&#237;culo 199&#176;, el siguiente art&#237;culo 199 bis:
+     
+     "Art&#237;culo 199 bis.- Los Gobiernos Regionales podr&#225;n destinar recursos para el financiamiento de subsidios para la operaci&#243;n, que permitan la continuidad del suministro el&#233;ctrico en los sistemas aislados para peque&#241;os consumidores.
+     Los Gobiernos Regionales podr&#225;n utilizar la tarifa regulada de referencia para efectos de determinar el monto de los recursos a transferir. La tarifa regulada de referencia ("TRR") corresponder&#225; a:
+     
+     a) La menor opci&#243;n tarifaria BT1, de acuerdo al decreto tarifario vigente en dicha &#233;poca, en todos sus componentes, sin considerar el cargo fijo mensual, aplicada a los usuarios finales se&#241;alados en el n&#250;mero 1 del art&#237;culo 147&#176;, en la comuna donde est&#225; ubicado el sistema aislado para peque&#241;os consumidores.
+     b) Si la comuna no cuenta con usuarios finales se&#241;alados en el n&#250;mero 1 del art&#237;culo 147&#176;, la TRR corresponder&#225; a la menor opci&#243;n tarifaria BT1 en todos sus componentes, sin considerar el cargo fijo mensual, aplicada a los usuarios finales de la comuna donde est&#225; ubicada la localidad geogr&#225;ficamente m&#225;s cercana al sistema de autogeneraci&#243;n de energ&#237;a el&#233;ctrica, que pertenezca a la provincia en donde est&#225; ubicado el referido sistema.
+     c) Si la provincia no cuenta con usuarios finales se&#241;alados en el n&#250;mero 1 del art&#237;culo 147&#176;, la TRR corresponder&#225; a la menor opci&#243;n tarifaria BT1 en todos sus componentes, sin considerar el cargo fijo mensual, aplicada a los usuarios finales de la comuna donde est&#225; ubicada la localidad geogr&#225;ficamente m&#225;s cercana al sistema aislado para peque&#241;os consumidores, que pertenezca a la regi&#243;n en donde est&#225; ubicado el sistema.
+     d) En aquellos casos donde exista un acuerdo tarifario firmado entre el alcalde de la municipalidad respectiva y la empresa que entrega el suministro el&#233;ctrico y/o exista un convenio de operaci&#243;n con el Gobierno Regional respectivo, la TRR corresponder&#225; a lo establecido en los instrumentos ya se&#241;alados.
+     
+     La transferencia de recursos a la cual se refiere el presente art&#237;culo se realizar&#225; de conformidad a lo dispuesto en las leyes de presupuestos del sector p&#250;blico respectivas.".
+     
+     37. En el art&#237;culo 225&#176;:
+     
+     a) Reempl&#225;zanse los literales a) y b) por los siguientes:
+     
+     "a) Sistema el&#233;ctrico: conjunto de instalaciones de centrales el&#233;ctricas generadoras, sistemas de almacenamiento, l&#237;neas de transporte, subestaciones el&#233;ctricas y redes de distribuci&#243;n, interconectadas entre s&#237;, que permite generar, almacenar, transportar y distribuir energ&#237;a el&#233;ctrica.
+     b) Autoproductor: Todo propietario, arrendatario, usufructuario o quien explote a cualquier t&#237;tulo centrales generadoras, cuya generaci&#243;n de energ&#237;a el&#233;ctrica ocurra como resultado o con el objetivo de abastecer los consumos asociados a procesos productivos propios o de terceros, en el mismo punto de conexi&#243;n a la red, y que puedan tener excedentes de energ&#237;a para ser inyectados al sistema el&#233;ctrico.".
+     
+     b) Sustit&#250;yense la expresi&#243;n "ad)", la segunda vez que aparece, y las expresiones "ae)" y "af)", por "ae)", "af)" y "ag)", respectivamente.</Texto>
+      <Metadatos>
+        <NombreParte presente="si">&#250;nico</NombreParte>
+        <TituloParte presente="no">&#160;</TituloParte>
+        
+      </Metadatos>
+    </EstructuraFuncional>
+    <EstructuraFuncional transitorio="no transitorio" tipoParte="T&#237;tulo" fechaVersion="2026-02-13" derogado="no derogado" idParte="10583318">
+      <Texto>     
+     DISPOSICIONES TRANSITORIAS</Texto>
+      <Metadatos>
+        <NombreParte presente="no">&#160;</NombreParte>
+        <TituloParte presente="si">DISPOSICIONES TRANSITORIAS</TituloParte>
+        
+      </Metadatos>
+      <EstructurasFuncionales>
+        <EstructuraFuncional transitorio="transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-02-13" derogado="no derogado" idParte="10583319">
+          <Texto>     
+     Art&#237;culo primero.- Dentro del plazo de doce meses, contado desde la publicaci&#243;n de la presente ley en el Diario Oficial, se deber&#225;n dictar los reglamentos que establezcan las disposiciones necesarias para su ejecuci&#243;n. Mientras los referidos reglamentos no entren en vigencia, dichas disposiciones se sujetar&#225;n en cuanto a los plazos, requisitos y condiciones a las disposiciones de esta ley y a las que se establezcan por resoluci&#243;n exenta de la Comisi&#243;n.
+     La resoluci&#243;n exenta a que hace referencia el inciso anterior permanecer&#225; vigente hasta la entrada en vigencia de los referidos reglamentos.
+     Los procedimientos tarifarios de los sistemas medianos iniciados con anterioridad a la publicaci&#243;n de la presente ley se regir&#225;n por las normas vigentes a la fecha de su inicio.</Texto>
+          <Metadatos>
+            <NombreParte presente="si">primero</NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-02-13" derogado="no derogado" idParte="10583320">
+          <Texto>     
+     Art&#237;culo segundo.- Dentro de los seis meses siguientes a la publicaci&#243;n del reglamento se&#241;alado en los art&#237;culos 10-5 y 10-6, que el numeral 2 del art&#237;culo &#250;nico del presente proyecto de ley incorpora en el decreto con fuerza de ley N&#176; 4/20.018, de 2006, del Ministerio de Econom&#237;a, Fomento y Reconstrucci&#243;n, la Comisi&#243;n deber&#225; dar inicio al primer proceso de categorizaci&#243;n de los sistemas el&#233;ctricos se&#241;alado en dichos art&#237;culos. Mientras ello no ocurra, los actuales sistemas medianos y sistemas aislados para peque&#241;os consumidores seguir&#225;n rigi&#233;ndose por la normativa correspondiente.
+     Si la categorizaci&#243;n de los sistemas el&#233;ctricos no se ha realizado a la fecha que corresponda dar inicio al nuevo proceso tarifario de los sistemas medianos, &#233;ste se aplicar&#225; a los actuales sistemas medianos de acuerdo a lo dispuesto en la presente ley.</Texto>
+          <Metadatos>
+            <NombreParte presente="si">segundo</NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-02-13" derogado="no derogado" idParte="10583321">
+          <Texto>     
+     Art&#237;culo tercero.- Desde la fecha de publicaci&#243;n de la presente ley en el Diario Oficial hasta la finalizaci&#243;n del proceso de categorizaci&#243;n de sistemas el&#233;ctricos al cual se refiere el art&#237;culo segundo transitorio precedente, los Gobiernos Regionales podr&#225;n destinar recursos para el financiamiento de subsidios a la operaci&#243;n, que permitan la continuidad del suministro el&#233;ctrico de aquellos sistemas el&#233;ctricos cuyo tama&#241;o sea igual o inferior a 1.500 kilowatts de capacidad instalada de generaci&#243;n, o para aquellos que hayan superado dicha capacidad, en la medida que sean autorizados por resoluci&#243;n exenta del Ministerio de Energ&#237;a. Dicha resoluci&#243;n deber&#225; contener una tarifa de referencia regulada de acuerdo a las reglas establecidas en el inciso segundo del art&#237;culo 199 bis incorporado por el numeral 36 del art&#237;culo &#250;nico del presente proyecto de ley en el decreto con fuerza de ley N&#176; 4/20.018, de 2006, del Ministerio de Econom&#237;a, Fomento y Reconstrucci&#243;n.
+     Para la aplicaci&#243;n del inciso anterior, el Ministerio de Energ&#237;a, mediante decreto exento, establecer&#225; el procedimiento, requisitos, condiciones, vigencia y plazo, para efectos de dictar la resoluci&#243;n exenta de autorizaci&#243;n previamente indicada.</Texto>
+          <Metadatos>
+            <NombreParte presente="si">tercero</NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-02-13" derogado="no derogado" idParte="10583322">
+          <Texto>     
+     Art&#237;culo cuarto.- El mayor gasto fiscal que irrogue la aplicaci&#243;n de esta ley durante su primer a&#241;o presupuestario de vigencia se financiar&#225; con cargo al presupuesto del Ministerio de Energ&#237;a, y en lo que falte, el Ministerio de Hacienda podr&#225; suplementarlo con cargo a los recursos de la partida del Tesoro P&#250;blico de la Ley de Presupuestos del Sector P&#250;blico. En los a&#241;os siguientes se estar&#225; a lo dispuesto en la respectiva Ley de Presupuestos.".</Texto>
+          <Metadatos>
+            <NombreParte presente="si">cuarto</NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+      </EstructurasFuncionales>
+    </EstructuraFuncional>
+  </EstructurasFuncionales>
+  <Promulgacion fechaVersion="2026-02-13" derogado="no derogado">
+    <Texto>     Habi&#233;ndose cumplido con lo establecido en el N&#186; 1 del Art&#237;culo 93 de la Constituci&#243;n Pol&#237;tica de la Rep&#250;blica y por cuanto he tenido a bien aprobarlo y sancionarlo; por tanto, prom&#250;lguese y ll&#233;vese a efecto como Ley de la Rep&#250;blica.
+     
+     Santiago, 2 de febrero de 2026.- GABRIEL BORIC FONT, Presidente de la Rep&#250;blica.- &#193;lvaro Garc&#237;a Hurtado, Ministro de Energ&#237;a.- &#193;lvaro Elizalde Soto, Ministro del Interior.- &#193;lvaro Garc&#237;a Hurtado, Ministro de Econom&#237;a, Fomento y Turismo.
+     Lo que transcribo para su conocimiento.- Saluda atentamente a Ud., Luis Felipe Andr&#233;s Ramos Barrera, Subsecretario de Energ&#237;a (S), Subsecretar&#237;a de Energ&#237;a.</Texto>
+  </Promulgacion>
+  <Anexos>
+    <Anexo fechaVersion="2026-02-13" derogado="no derogado" idParte="10583267" transitorio="no transitorio">
+      <Metadatos>
+        <Titulo>Proyecto de ley que perfecciona los sistemas medianos en la Ley General de Servicios El&#233;ctricos, correspondiente al Bolet&#237;n N&#186; 16.627-08</Titulo>
+        
+      </Metadatos>
+      <Texto>     
+     Tribunal Constitucional
+
+Proyecto de ley que perfecciona los sistemas medianos en la Ley General de Servicios El&#233;ctricos, correspondiente al Bolet&#237;n N&#186; 16.627-08
+     
+     El Secretario Abogado interino del Tribunal Constitucional, quien suscribe, certifica que la Honorable C&#225;mara de Diputadas y Diputados envi&#243; el proyecto enunciado en el rubro, aprobado por el Congreso Nacional, a fin de que este Tribunal ejerza el control de constitucionalidad respecto del art&#237;culo 199 bis, contenido en el numeral 36 de su art&#237;culo &#250;nico, y del inciso primero de su art&#237;culo tercero transitorio del proyecto de ley; y por sentencia de 29 de enero de 2026, en los autos Rol N&#186; 17.298-26-CPR.
+     
+     Se declara:
+     
+     I. Que las siguientes disposiciones contenidas en el art&#237;culo &#250;nico del proyecto de ley que modifica el decreto con fuerza de ley N&#176; 4/20.018, de 2006, del Ministerio De Econom&#237;a, Fomento Y Reconstrucci&#243;n, que fija texto refundido, coordinado y sistematizado del decreto con fuerza de ley N&#176; 1, de Miner&#237;a, de 1982, Ley General de Servicios El&#233;ctricos, en materia de energ&#237;a el&#233;ctrica, son conformes con la Constituci&#243;n Pol&#237;tica de la Rep&#250;blica:
+     
+     - Literal b) del numeral 29, que elimina el inciso final de su art&#237;culo 178&#176;.
+     - Incisos primero y segundo, en la frase "Los Gobiernos Regionales podr&#225;n utilizar la tarifa regulada de referencia para efectos de determinar el monto de los recursos a transferir", del nuevo art&#237;culo 199 bis, incorporado en el numeral 36.
+     
+     II. Que no se emite pronunciamiento, en examen preventivo de constitucionalidad, de las restantes disposiciones del proyecto de ley por no versar sobre materias que inciden en Ley Org&#225;nica Constitucional.
+     
+     Santiago, 30 de Enero de 2026.- Sebasti&#225;n Andr&#233;s L&#243;pez Magnasco, Secretario Abogado (i), Tribunal Constitucional.
+ </Texto>
+    </Anexo>
+  </Anexos>
+</Norma>

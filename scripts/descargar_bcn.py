@@ -1,6 +1,7 @@
 """Descarga el XML crudo de las normas del piloto desde el servicio de exportación de Ley Chile (BCN).
 
-Uso: python3 -I scripts/descargar_bcn.py [directorio_destino]
+Uso: python3 -I scripts/descargar_bcn.py [directorio_destino] [idNorma ...]
+     Sin idNorma descarga todas; con idNorma solo esas (las demás filas de descargas.csv se conservan).
 
 - Endpoint: https://www.leychile.cl/Consulta/obtxml?opt=7&idNorma=<id>
 - El servicio aplica un límite de uso anónimo (responde una página HTML "API-KEY" en vez de XML);
@@ -22,6 +23,7 @@ NORMAS = {
     "1092695": "ley_20936_2016",
     "1209692": "ley_21721_2024",
     "1212350": "res_156_2025",
+    "1221363": "ley_21804_2026",
 }
 URL = "https://www.leychile.cl/Consulta/obtxml?opt=7&idNorma={}"
 NS = "{http://www.leychile.cl/esquemas}"
@@ -49,9 +51,19 @@ def bajar(id_norma, intentos=6):
 
 def main():
     destino = sys.argv[1] if len(sys.argv) > 1 else "datos/raw"
+    pedidas = sys.argv[2:] or list(NORMAS)
+    desconocidas = [i for i in pedidas if i not in NORMAS]
+    if desconocidas:
+        raise SystemExit(f"idNorma sin nodo en NORMAS: {desconocidas}")
     os.makedirs(destino, exist_ok=True)
+    reg = os.path.join(destino, "descargas.csv")
+    previas = []
+    if os.path.exists(reg):
+        with open(reg, encoding="utf-8") as f:
+            previas = [r for r in csv.DictReader(f) if r["id_norma"] not in pedidas]
     filas = []
-    for id_norma, nodo in NORMAS.items():
+    for id_norma in pedidas:
+        nodo = NORMAS[id_norma]
         url, data = bajar(id_norma)
         nombre = f"{nodo}__idNorma_{id_norma}.xml"
         with open(os.path.join(destino, nombre), "wb") as f:
@@ -62,10 +74,12 @@ def main():
             "sha256": hashlib.sha256(data).hexdigest(), "bytes": len(data),
         })
         print(f"OK {nombre} ({len(data)} bytes)")
-    with open(os.path.join(destino, "descargas.csv"), "w", newline="", encoding="utf-8") as f:
+    orden = list(NORMAS)
+    todas = sorted(previas + filas, key=lambda r: orden.index(r["id_norma"]) if r["id_norma"] in orden else 99)
+    with open(reg, "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=list(filas[0]))
         w.writeheader()
-        w.writerows(filas)
+        w.writerows(todas)
 
 
 if __name__ == "__main__":
