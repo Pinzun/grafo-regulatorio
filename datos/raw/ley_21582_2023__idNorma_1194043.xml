@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?><Norma xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.leychile.cl/esquemas" xsi:schemaLocation="http://www.leychile.cl/esquemas http://www.leychile.cl/esquemas/EsquemaIntercambioNorma-v1-0.xsd" normaId="1194043" esTratado="no tratado" fechaVersion="2023-07-07" SchemaVersion="1.0" derogado="no derogado">
+  <Identificador fechaPromulgacion="2023-06-20" fechaPublicacion="2023-07-07">
+    <TiposNumeros>
+      <TipoNumero>
+        <Tipo>Ley</Tipo>
+        <Numero>21582</Numero>
+      </TipoNumero>
+    </TiposNumeros>
+    <Organismos>
+      <Organismo>MINISTERIO DE JUSTICIA Y DERECHOS HUMANOS</Organismo>
+    </Organismos>
+  </Identificador>
+  <Metadatos>
+    <TituloNorma>SUPRIME O MODIFICA LA INTERVENCI&#211;N DE NOTARIOS EN TR&#193;MITES, ACTUACIONES Y GESTIONES DETERMINADAS</TituloNorma>
+    <Materias>
+      <Materia>Notarios</Materia>
+      <Materia>Desnotarizaci&#243;n</Materia>
+      <Materia>Firma Electr&#243;nica Avanzada</Materia>
+    </Materias>
+    <NombresUsoComun>
+      <NombreUsoComun>&#160;</NombreUsoComun>
+    </NombresUsoComun>
+    
+    <IdentificacionFuente>Diario Oficial</IdentificacionFuente>
+    <NumeroFuente>43595</NumeroFuente>
+  </Metadatos>
+  <Encabezado fechaVersion="2023-07-07" derogado="no derogado">
+    <Texto>
+LEY N&#218;M. 21.582
+
+SUPRIME O MODIFICA LA INTERVENCI&#211;N DE NOTARIOS EN TR&#193;MITES, ACTUACIONES Y GESTIONES DETERMINADAS
+
+     Teniendo presente que el H. Congreso Nacional ha dado su aprobaci&#243;n al siguiente
+
+     Proyecto de ley:</Texto>
+  </Encabezado>
+  <EstructurasFuncionales>
+    <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-07-07" derogado="no derogado" idParte="10442083">
+      <Texto>
+     "Art&#237;culo 1.- Los organismos del Estado no podr&#225;n exigir la presentaci&#243;n de autorizaciones notariales de firmas en documentos otorgados en soporte de papel o electr&#243;nico, para la ejecuci&#243;n de tr&#225;mites que deban realizarse ante &#233;stos, salvo que dicha autorizaci&#243;n sea expresamente requerida por mandato legal o reglamentario.</Texto>
+      <Metadatos>
+        <NombreParte presente="si">1 </NombreParte>
+        <TituloParte presente="no">&#160;</TituloParte>
+        
+      </Metadatos>
+    </EstructuraFuncional>
+    <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-07-07" derogado="no derogado" idParte="10442084">
+      <Texto>
+     Art&#237;culo 2.- Elim&#237;nase en el inciso cuarto del art&#237;culo 162 del decreto con fuerza de ley N&#176; 458, de 1975, del Ministerio de Vivienda y Urbanismo, Ley General de Urbanismo y Construcciones, la siguiente oraci&#243;n: "El permiso de alteraci&#243;n o reparaci&#243;n, una vez aprobado por la Direcci&#243;n de Obras Municipales, deber&#225; reducirse a escritura p&#250;blica en la forma y condiciones que determina el art&#237;culo 18&#176; del decreto con fuerza de ley N&#176; 2, de 1959.".</Texto>
+      <Metadatos>
+        <NombreParte presente="si">2 </NombreParte>
+        <TituloParte presente="no">&#160;</TituloParte>
+        
+      </Metadatos>
+    </EstructuraFuncional>
+    <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-07-07" derogado="no derogado" idParte="10442085">
+      <Texto>
+     Art&#237;culo 3.- Modif&#237;case el decreto con fuerza de ley N&#176; 323, de  1931, del Ministerio del Interior, Ley de Servicios de Gas, de la siguiente forma:
+
+     1. Elim&#237;nase en el inciso segundo del art&#237;culo 7 la frase "y reducirse a escritura p&#250;blica dentro de los treinta d&#237;as siguientes a la fecha de su publicaci&#243;n".
+
+     2. En el art&#237;culo 18:
+
+     a) Supr&#237;mese el inciso primero, pasando el actual inciso segundo a ser inciso primero y as&#237; sucesivamente.
+     b) Reempl&#225;zase en el inciso final la palabra "segundo" por "primero".
+
+     3. Sustit&#250;yese en el art&#237;culo 22-A la frase "de reducci&#243;n a escritura p&#250;blica" por "de publicaci&#243;n en el Diario Oficial".</Texto>
+      <Metadatos>
+        <NombreParte presente="si">3 </NombreParte>
+        <TituloParte presente="no">&#160;</TituloParte>
+        
+      </Metadatos>
+    </EstructuraFuncional>
+    <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-07-07" derogado="no derogado" idParte="10442086">
+      <Texto>
+     Art&#237;culo 4.- Elim&#237;nase en el inciso tercero del art&#237;culo 204 del decreto con fuerza de ley N&#176; 213, de 1953, del Ministerio de Hacienda, sobre Ordenanza de Aduanas, cuyo texto refundido, coordinado y sistematizado fue fijado por el decreto con fuerza de ley N&#176; 30, de 2004, del Ministerio de Hacienda, la frase ", cuyo poder deber&#225; constar en escritura p&#250;blica,".</Texto>
+      <Metadatos>
+        <NombreParte presente="si">4 </NombreParte>
+        <TituloParte presente="no">&#160;</TituloParte>
+        
+      </Metadatos>
+    </EstructuraFuncional>
+    <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-07-07" derogado="no derogado" idParte="10442087">
+      <Texto>
+     Art&#237;culo 5.- Reempl&#225;zase el numeral 2 del art&#237;culo 122 de la ley N&#176; 20.720, que sustituye el r&#233;gimen concursal vigente por una ley de reorganizaci&#243;n y liquidaci&#243;n de empresas y personas, y perfecciona el rol de la superintendencia del ramo, por el siguiente:
+
+     "2. Prueba confesional: el escrito de oposici&#243;n deber&#225; acompa&#241;ar el pliego de posiciones. Si el acreedor solicitante es una persona jur&#237;dica podr&#225; comparecer cualquier persona habilitada a nombre del representante legal, siempre que exhiba el d&#237;a de la diligencia la respectiva delegaci&#243;n. En la delegaci&#243;n, que se efectuar&#225; por escrito, deber&#225; constar la autorizaci&#243;n notarial de la firma o su suscripci&#243;n mediante firma electr&#243;nica avanzada, y la facultad de absolver posiciones a nombre del demandante.".</Texto>
+      <Metadatos>
+        <NombreParte presente="si">5 </NombreParte>
+        <TituloParte presente="no">&#160;</TituloParte>
+        
+      </Metadatos>
+    </EstructuraFuncional>
+    <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-07-07" derogado="no derogado" idParte="10442088">
+      <Texto>
+     Art&#237;culo 6.- Modif&#237;case la ley N&#176; 20.019, que regula las Sociedades An&#243;nimas Deportivas Profesionales, de la siguiente forma:
+
+     1. Reempl&#225;zase en el inciso primero del art&#237;culo 5 la frase "tambi&#233;n reducido a escritura p&#250;blica", por "otorgado por escrito, y deber&#225; constar en el respectivo instrumento la autorizaci&#243;n notarial de la firma o suscribirse &#233;ste a trav&#233;s de documento electr&#243;nico suscrito mediante firma electr&#243;nica avanzada".
+
+     2. Reempl&#225;zase el art&#237;culo 27 por el siguiente:
+
+     "Art&#237;culo 27.- El acta de la asamblea dar&#225; testimonio de los miembros que asistieron, de los reclamos que se hayan formulado, y deber&#225; reducirse a escritura p&#250;blica.".</Texto>
+      <Metadatos>
+        <NombreParte presente="si">6 </NombreParte>
+        <TituloParte presente="no">&#160;</TituloParte>
+        
+      </Metadatos>
+    </EstructuraFuncional>
+    <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-07-07" derogado="no derogado" idParte="10442089">
+      <Texto>
+     Art&#237;culo 7.- Reempl&#225;zase en el inciso segundo del art&#237;culo 28 de la ley N&#176; 19.542, que moderniza el sector portuario estatal, la frase "prestadas ante Notario P&#250;blico" por la siguiente: ", cuyas firmas deber&#225;n encontrarse autorizadas ante notario o haber sido otorgadas a trav&#233;s de firma electr&#243;nica avanzada".</Texto>
+      <Metadatos>
+        <NombreParte presente="si">7 </NombreParte>
+        <TituloParte presente="no">&#160;</TituloParte>
+        
+      </Metadatos>
+    </EstructuraFuncional>
+    <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-07-07" derogado="no derogado" idParte="10442090">
+      <Texto>
+     Art&#237;culo 8.- Modif&#237;case la Ley General de Cooperativas, cuyo texto refundido, concordado y sistematizado fue fijado por el art&#237;culo &#250;nico del decreto con fuerza de ley N&#186; 5, de 2003, del Ministerio de Econom&#237;a, Fomento y Reconstrucci&#243;n, en el sentido siguiente:
+
+     1. Interc&#225;lase en el inciso cuarto del art&#237;culo 22, a continuaci&#243;n de la palabra "notario" y antes del punto y aparte, la expresi&#243;n ", o suscrito mediante firma electr&#243;nica avanzada".
+
+     2. Interc&#225;lase en el art&#237;culo 36, entre la expresi&#243;n "copia autorizada" y la expresi&#243;n "del acta del Consejo de Administraci&#243;n", la expresi&#243;n ", o suscrita mediante firma electr&#243;nica avanzada,".
+
+     3. Interc&#225;lase en el inciso primero del art&#237;culo 76, entre la voz "notario" y la expresi&#243;n ", en el que deber&#225; constar la fecha", la expresi&#243;n ", o suscrito mediante firma electr&#243;nica avanzada".</Texto>
+      <Metadatos>
+        <NombreParte presente="si">8 </NombreParte>
+        <TituloParte presente="no">&#160;</TituloParte>
+        
+      </Metadatos>
+    </EstructuraFuncional>
+    <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-07-07" derogado="no derogado" idParte="10442091">
+      <Texto>
+     Art&#237;culo 9.- Modif&#237;case la ley N&#176; 18.892, General de Pesca y Acuicultura, cuyo texto refundido, coordinado y sistematizado fue fijado por el decreto N&#186; 430, de 1991, del Ministerio de Econom&#237;a, Fomento y Reconstrucci&#243;n de la siguiente forma:
+
+     1. Interc&#225;lase en el inciso primero del art&#237;culo 55 E, a continuaci&#243;n de la expresi&#243;n "notario p&#250;blico" y antes del punto y seguido, la frase "o suscrito mediante firma electr&#243;nica avanzada por los representantes de todas las organizaciones de pescadores involucradas".
+
+     2. Interc&#225;lase en el inciso cuarto del art&#237;culo 146, a continuaci&#243;n de la voz "notar&#237;a" y antes de la coma que le sigue, la expresi&#243;n "o suscrito mediante firma electr&#243;nica avanzada".</Texto>
+      <Metadatos>
+        <NombreParte presente="si">9 </NombreParte>
+        <TituloParte presente="no">&#160;</TituloParte>
+        
+      </Metadatos>
+    </EstructuraFuncional>
+    <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-07-07" derogado="no derogado" idParte="10442092">
+      <Texto>
+     Art&#237;culo 10.- Modif&#237;case el decreto con fuerza de ley N&#176; 1, de 1982, del Ministerio de Miner&#237;a, Ley General de Servicios El&#233;ctricos, en materia de energ&#237;a el&#233;ctrica, cuyo texto refundido, coordinado y sistematizado fue fijado por el decreto con fuerza de ley N&#176; 4, de 2006, del Ministerio de Econom&#237;a, Fomento y Reconstrucci&#243;n, en el siguiente sentido:
+
+     1. Elim&#237;nase en el inciso final del art&#237;culo 20 la siguiente oraci&#243;n: "La resoluci&#243;n que dicte la Superintendencia ser&#225; reducida a escritura p&#250;blica.".
+
+     2. Supr&#237;mese el art&#237;culo 23.
+
+     3. Reempl&#225;zase en el inciso tercero del art&#237;culo 29 la frase "y deber&#225; ser reducido a escritura p&#250;blica por el concesionario antes de quince d&#237;as contados desde esta &#250;ltima publicaci&#243;n" por la siguiente: ", y deber&#225; esta &#250;ltima efectuarse dentro del plazo de quince d&#237;as contado desde la total tramitaci&#243;n del decreto".
+
+     4. Elim&#237;nase el numeral 1 del art&#237;culo 39, pasando el actual numeral 2 a ser el nuevo numeral 1 y as&#237; sucesivamente.
+
+     5. En el art&#237;culo 62:
+
+     a) Reempl&#225;zase la expresi&#243;n "reducci&#243;n a escritura p&#250;blica" por la frase "publicaci&#243;n en el Diario Oficial".
+     b) Incorp&#243;rase el siguiente inciso segundo:
+
+     "A efectos de la inscripci&#243;n de las servidumbres indicadas en el inciso anterior en los registros conservatorios correspondientes, bastar&#225; con la exhibici&#243;n del decreto de concesi&#243;n suscrito con firma electr&#243;nica avanzada de acuerdo a lo dispuesto en la ley N&#176; 19.799, o con la exhibici&#243;n de su copia debidamente autorizada por el ministro de fe del Ministerio de Energ&#237;a.".
+
+     6. En el art&#237;culo 97:
+
+     a) Elim&#237;nase en su inciso quinto la frase "lo deber&#225; reducir a escritura p&#250;blica, a su costo. A partir de la fecha de reducci&#243;n a escritura p&#250;blica, el titular del proyecto".
+     b) Incorp&#243;rase el siguiente inciso final:
+
+     "A efectos de la inscripci&#243;n en los registros conservatorios correspondientes de las servidumbres constituidas mediante el decreto se&#241;alado en este art&#237;culo, bastar&#225; con la exhibici&#243;n del decreto suscrito con firma electr&#243;nica avanzada de acuerdo a lo dispuesto en la ley N&#176; 19.799, o con la exhibici&#243;n de su copia debidamente autorizada por el Ministro de fe del Ministerio de Energ&#237;a.".
+
+     7. Reempl&#225;zase en el inciso segundo del art&#237;culo 98 la frase "y reducido a escritura p&#250;blica en los t&#233;rminos y condiciones se&#241;alados en dicho art&#237;culo" por la siguiente: "en los t&#233;rminos y condiciones se&#241;alados en dicho art&#237;culo. Dicho decreto servir&#225; de t&#237;tulo suficiente para requerir las inscripciones que procedan en los registros conservatorios respectivos, conforme a lo indicado en el inciso final del art&#237;culo precedente".</Texto>
+      <Metadatos>
+        <NombreParte presente="si">10 </NombreParte>
+        <TituloParte presente="no">&#160;</TituloParte>
+        
+      </Metadatos>
+    </EstructuraFuncional>
+    <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-07-07" derogado="no derogado" idParte="10442093">
+      <Texto>
+     Art&#237;culo 11.- Modif&#237;case el C&#243;digo de Aguas, de la siguiente forma:
+
+     1. Sustit&#250;yese el inciso segundo del art&#237;culo 162 por el siguiente:
+
+     "En virtud de la resoluci&#243;n que acepte una solicitud se deber&#225;n practicar las inscripciones, anotaciones y cancelaciones que procedan, en el Registro de Aguas del Conservador de Bienes Ra&#237;ces. Se agregar&#225; a estas inscripciones el tiempo de las reemplazadas.".
+
+     2. Reempl&#225;zase el inciso segundo del art&#237;culo 223 por el siguiente:
+
+     "El mandato deber&#225; ser otorgado por escrito, y constar&#225; en el respectivo instrumento la autorizaci&#243;n notarial de la firma o suscribirse &#233;ste a trav&#233;s de firma electr&#243;nica avanzada. Si el mandato se otorga a otro comunero, bastar&#225; una carta poder simple.".</Texto>
+      <Metadatos>
+        <NombreParte presente="si">11 </NombreParte>
+        <TituloParte presente="no">&#160;</TituloParte>
+        
+      </Metadatos>
+    </EstructuraFuncional>
+    <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-07-07" derogado="no derogado" idParte="10442094">
+      <Texto>
+    Art&#237;culo 12.- Sustit&#250;yese en el art&#237;culo 22 de la ley N&#186; 18.834, sobre Estatuto Administrativo, la expresi&#243;n "en original o en copia autentificada ante Notario" por "en original, copia autentificada ante Notario o a trav&#233;s de documento electr&#243;nico suscrito con las formalidades que en cada caso exija la ley".</Texto>
+      <Metadatos>
+        <NombreParte presente="si">12 </NombreParte>
+        <TituloParte presente="no">&#160;</TituloParte>
+        
+      </Metadatos>
+    </EstructuraFuncional>
+    <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-07-07" derogado="no derogado" idParte="10442095">
+      <Texto>
+     Art&#237;culo 13.- Reempl&#225;zase en el art&#237;culo 20 de la ley N&#186; 18.883, que Aprueba el Estatuto Administrativo para Funcionarios Municipales, la expresi&#243;n "en original o en copia autentificada ante Notario" por "en original, copia autentificada ante Notario o a trav&#233;s de documento electr&#243;nico suscrito con las formalidades que en cada caso exija la ley".</Texto>
+      <Metadatos>
+        <NombreParte presente="si">13 </NombreParte>
+        <TituloParte presente="no">&#160;</TituloParte>
+        
+      </Metadatos>
+    </EstructuraFuncional>
+    <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-07-07" derogado="no derogado" idParte="10442096">
+      <Texto>
+     Art&#237;culo 14.- Incorp&#243;rase en el art&#237;culo 13 de la ley N&#186; 19.880, que establece bases de los procedimientos administrativos que rigen los actos de los &#243;rganos de la Administraci&#243;n del Estado, el siguiente inciso segundo, nuevo, pasando los actuales incisos segundo y tercero a ser incisos tercero y cuarto, respectivamente:
+
+     "Quienes desempe&#241;en cargos en la Administraci&#243;n no podr&#225;n exigir la presentaci&#243;n de autorizaciones notariales de firmas en documentos otorgados en soporte de papel o electr&#243;nico, salvo que dicha autorizaci&#243;n sea expresamente requerida por mandato legal o reglamentario.".</Texto>
+      <Metadatos>
+        <NombreParte presente="si">14 </NombreParte>
+        <TituloParte presente="no">&#160;</TituloParte>
+        
+      </Metadatos>
+    </EstructuraFuncional>
+    <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2023-07-07" derogado="no derogado" idParte="10442097">
+      <Texto>
+     Art&#237;culo 15.- Reempl&#225;zase en el inciso tercero del art&#237;culo 169 de la ley N&#186; 18.700, org&#225;nica constitucional sobre Votaciones Populares y Escrutinios, cuyo texto refundido, coordinado y sistematizado fue fijado por el decreto con fuerza de ley N&#176; 2, de 2017, del Ministerio Secretar&#237;a General de la Presidencia, la frase "un poder autorizado ante notario" por "un poder simple".".</Texto>
+      <Metadatos>
+        <NombreParte presente="si">15 </NombreParte>
+        <TituloParte presente="no">&#160;</TituloParte>
+        
+      </Metadatos>
+    </EstructuraFuncional>
+  </EstructurasFuncionales>
+  <Promulgacion fechaVersion="2023-07-07" derogado="no derogado">
+    <Texto>     Y por cuanto he tenido a bien aprobarlo y sancionarlo; por tanto, prom&#250;lguese y ll&#233;vese a efecto como Ley de la Rep&#250;blica.
+
+     Santiago, 20 de junio de 2023.- GABRIEL BORIC FONT, Presidente de la Rep&#250;blica.- Luis Cordero Vega, Ministro de Justicia y Derechos Humanos.
+     Lo que transcribo a Ud. para su conocimiento.- Saluda atentamente a Ud., Jaime Gajardo Falc&#243;n, Subsecretario de Justicia.</Texto>
+  </Promulgacion>
+  
+</Norma>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><Norma xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.leychile.cl/esquemas" xsi:schemaLocation="http://www.leychile.cl/esquemas http://www.leychile.cl/esquemas/EsquemaIntercambioNorma-v1-0.xsd" normaId="1184572" esTratado="no tratado" fechaVersion="2022-11-21" SchemaVersion="1.0" derogado="no derogado">
+  <Identificador fechaPromulgacion="2022-11-08" fechaPublicacion="2022-11-21">
+    <TiposNumeros>
+      <TipoNumero>
+        <Tipo>Ley</Tipo>
+        <Numero>21505</Numero>
+      </TipoNumero>
+    </TiposNumeros>
+    <Organismos>
+      <Organismo>MINISTERIO DE ENERG&#205;A</Organismo>
+    </Organismos>
+  </Identificador>
+  <Metadatos>
+    <TituloNorma>PROMUEVE EL ALMACENAMIENTO DE ENERG&#205;A EL&#201;CTRICA Y LA ELECTROMOVILIDAD</TituloNorma>
+    <Materias>
+      <Materia>Electromovilidad</Materia>
+      <Materia>Energ&#237;a El&#233;ctrica</Materia>
+      <Materia>Distribuci&#243;n de Energ&#237;a El&#233;ctrica</Materia>
+      <Materia>Almacenamiento de Energ&#237;a El&#233;ctrica</Materia>
+    </Materias>
+    <NombresUsoComun>
+      <NombreUsoComun>&#160;</NombreUsoComun>
+    </NombresUsoComun>
+    
+    <IdentificacionFuente>Diario Oficial</IdentificacionFuente>
+    <NumeroFuente>43406</NumeroFuente>
+  </Metadatos>
+  <Encabezado fechaVersion="2022-11-21" derogado="no derogado">
+    <Texto>
+LEY N&#218;M. 21.505
+      
+PROMUEVE EL ALMACENAMIENTO DE ENERG&#205;A EL&#201;CTRICA Y LA ELECTROMOVILIDAD
+      
+     Teniendo presente que el H. Congreso Nacional ha dado su aprobaci&#243;n al siguiente
+      
+     Proyecto de ley:</Texto>
+  </Encabezado>
+  <EstructurasFuncionales>
+    <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2022-11-21" derogado="no derogado" idParte="10380148">
+      <Texto>     "Art&#237;culo &#250;nico.- Introd&#250;cense las siguientes modificaciones en la ley General de Servicios El&#233;ctricos cuyo texto refundido, coordinado y sistematizado fue fijado por el decreto con fuerza de ley N&#176; 4/20.018, de 2006, del Ministerio de Econom&#237;a, Fomento y Reconstrucci&#243;n:
+      
+     1. Interc&#225;lase, en el inciso segundo del art&#237;culo 72&#176;-2, a continuaci&#243;n de la frase "Son tambi&#233;n coordinados los medios de generaci&#243;n" la expresi&#243;n "y sistemas de almacenamiento".
+     2. En el art&#237;culo 72&#176;-17:
+      
+     a) Agr&#233;gase en el inciso primero, a continuaci&#243;n de la palabra "generaci&#243;n" lo siguiente: ", almacenamiento".
+     b) Agr&#233;gase en el inciso final, a continuaci&#243;n de la palabra "generaci&#243;n" la expresi&#243;n "y sistemas de almacenamiento".
+      
+     3. Incorp&#243;rase en el inciso primero del art&#237;culo 72&#176;-18, a continuaci&#243;n de la frase "unidades del parque generador" la frase ", sistemas de almacenamiento".
+     4. En el art&#237;culo 149&#176;:
+      
+     a) En el inciso segundo:
+      
+     i. Agr&#233;gase a continuaci&#243;n de la frase "que posean medios de generaci&#243;n" lo siguiente: ", sistemas de almacenamiento u otras instalaciones que inyecten energ&#237;a,".
+     ii. Sustit&#250;yese la palabra "operados" por "operadas".
+      
+     b) Agr&#233;gase en el inciso cuarto, luego de la frase "que poseen medios de generaci&#243;n" la frase ", sistemas de almacenamiento u otras instalaciones con capacidad de inyectar energ&#237;a al sistema el&#233;ctrico, seg&#250;n corresponda,".
+     c) En el inciso quinto:
+      
+     i. Interc&#225;lase, entre las frases "Todo propietario de medios de generaci&#243;n" y "sincronizados al sistema el&#233;ctrico", la frase "o sistemas de almacenamiento, seg&#250;n corresponda,".
+     ii. Interc&#225;lase entre las frases "los medios de generaci&#243;n" y "se&#241;alados se conecten directamente a instalaciones del sistema nacional", la expresi&#243;n "o sistemas de almacenamiento".
+     iii. Interc&#225;lase, entre las frases "energ&#237;a inyectada por medios de generaci&#243;n" y "cuyos excedentes de potencia suministrables al sistema el&#233;ctrico", la expresi&#243;n "o sistemas de almacenamiento".
+      
+     d) En el inciso sexto:
+      
+     i. Interc&#225;lase entre las frases "instalaciones de distribuci&#243;n correspondientes de los medios de generaci&#243;n" y "cuyos excedentes de potencia", la frase "o sistemas de almacenamiento".
+     ii. Interc&#225;</Texto>
+      <Metadatos>
+        <NombreParte presente="si">&#250;nico</NombreParte>
+        <TituloParte presente="no">&#160;</TituloParte>
+        
+      </Metadatos>
+    </EstructuraFuncional>
+    <EstructuraFuncional transitorio="transitorio" tipoParte="T&#237;tulo" fechaVersion="2022-11-21" derogado="no derogado" idParte="10380149">
+      <Texto>     DISPOSICIONES TRANSITORIAS
+      </Texto>
+      <Metadatos>
+        <NombreParte presente="no">&#160;</NombreParte>
+        <TituloParte presente="si">DISPOSICIONES TRANSITORIAS</TituloParte>
+        
+      </Metadatos>
+      <EstructurasFuncionales>
+        <EstructuraFuncional transitorio="transitorio" tipoParte="Art&#237;culo" fechaVersion="2022-11-21" derogado="no derogado" idParte="10380150">
+          <Texto>     Art&#237;culo primero.- El Ministerio de Energ&#237;a deber&#225; dictar los reglamentos de que trata la presente ley, dentro del plazo de un a&#241;o contado desde su publicaci&#243;n en el Diario Oficial.
+      </Texto>
+          <Metadatos>
+            <NombreParte presente="si">primero</NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="transitorio" tipoParte="Art&#237;culo" fechaVersion="2022-11-21" derogado="no derogado" idParte="10380151">
+          <Texto>     Art&#237;culo segundo.- Sin perjuicio de lo se&#241;alado en el p&#225;rrafo final del literal a) del art&#237;culo 12 del decreto ley N&#176; 3.063, de 1979, sobre rentas municipales, cuyo texto refundido y sistematizado fue fijado por el decreto N&#176; 2.385, de 1996, del Ministerio del Interior, los veh&#237;culos el&#233;ctricos e h&#237;bridos con recarga el&#233;ctrica exterior, as&#237; como tambi&#233;n otros calificados como cero emisiones por resoluci&#243;n exenta del Ministerio de Energ&#237;a, cuyo a&#241;o de fabricaci&#243;n corresponda al de la publicaci&#243;n de la ley, a los posteriores o al a&#241;o anterior a ella, estar&#225;n exentos del pago del impuesto anual por permiso de circulaci&#243;n dentro del plazo de dos a&#241;os contados desde el 1 de febrero posterior a la publicaci&#243;n de la presente ley.
+     Una vez cumplido el referido plazo de dos a&#241;os, durante los seis a&#241;os siguientes, los veh&#237;culos el&#233;ctricos e h&#237;bridos con recarga el&#233;ctrica exterior, as&#237; como tambi&#233;n otros calificados como cero emisiones por resoluci&#243;n exenta del Ministerio de Energ&#237;a, cuyo a&#241;o de fabricaci&#243;n corresponda al de la publicaci&#243;n de la ley, a los posteriores o al a&#241;o anterior a ella, pagar&#225;n un porcentaje del impuesto anual por permiso de circulaci&#243;n de la siguiente forma: (i) durante el tercer y cuarto a&#241;o, pagar&#225;n un 25% del impuesto anual por permiso de circulaci&#243;n; (ii) durante el quinto y sexto a&#241;o, pagar&#225;n el 50% del impuesto anual por permiso de circulaci&#243;n; y (iii) durante el s&#233;ptimo y octavo a&#241;o, pagar&#225;n el 75% del impuesto anual por permiso de circulaci&#243;n.
+     Para la aplicaci&#243;n de lo se&#241;alado en el presente art&#237;culo, el Servicio de Impuestos Internos deber&#225; calcular anualmente el impuesto anual por permiso de circulaci&#243;n aplicando los porcentajes de exenci&#243;n antes indicados. Dichos valores deber&#225;n ser publicados en el Diario Oficial u otro diario de circulaci&#243;n nacional que determine dicho Servicio, junto con la lista indicada en el pen&#250;ltimo p&#225;rrafo del literal a) del art&#237;culo 12 mencionado en el inciso primero de este art&#237;culo.
+      </Texto>
+          <Metadatos>
+            <NombreParte presente="si">segundo</NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="transitorio" tipoParte="Art&#237;culo" fechaVersion="2022-11-21" derogado="no derogado" idParte="10380152">
+          <Texto>     Art&#237;culo tercero transitorio.- El mayor gasto fiscal que represente la aplicaci&#243;n de esta ley se financiar&#225; con los recursos que se establezcan en las respectivas leyes de presupuestos del sector p&#250;blico.".</Texto>
+          <Metadatos>
+            <NombreParte presente="si">tercero</NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+      </EstructurasFuncionales>
+    </EstructuraFuncional>
+  </EstructurasFuncionales>
+  <Promulgacion fechaVersion="2022-11-21" derogado="no derogado">
+    <Texto>     Y por cuanto he tenido a bien aprobarlo y sancionarlo; por tanto, prom&#250;lguese y ll&#233;vese a efecto como Ley de la Rep&#250;blica.
+      
+     Santiago, 8 de noviembre de 2022.- GABRIEL BORIC FONT, Presidente de la Rep&#250;blica.- Diego Pardow Lorenzo, Ministro de Energ&#237;a.- Carolina Toh&#225; Morales, Ministra del Interior y Seguridad P&#250;blica.- Mario Marcel Cullell, Ministro de Hacienda.
+     Lo que transcribo a Ud. para su conocimiento.- Saluda Atte. a Ud., Julio Andr&#233;s Esteban Maturana Franca, Subsecretario de Energ&#237;a.</Texto>
+  </Promulgacion>
+  
+</Norma>
