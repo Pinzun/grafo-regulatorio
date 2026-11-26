@@ -9,17 +9,28 @@ relación; si hace falta uno nuevo, pregúntalo.
 
 ## Cobertura
 
-Las 4 normas tienen hoy `cobertura` completa. Los artículos que el XML de la BCN trunca se toman del
+Las 10 normas del grafo tienen hoy `cobertura` completa. Los artículos que el XML de la BCN trunca se toman del
 PDF oficial (`datos/raw/pdf/`, ver `docs/diagnostico_truncamiento_bcn.md`), y cada arista indica en
 `fuente_url` si salió del XML o del PDF. Si una norma nueva queda `parcial` (atributo `cobertura` del
 nodo), **adviértelo siempre** al responder qué artículos modificó, y menciona los candidatos de
 `datos/derivados/candidatos_por_fechaversion.csv`, que no son aristas.
 
 Los arts. 73-122 del DFL 4 tienen su texto base en la Ley 20.936 (el N° 4 sustituye el Título III
-completo); 52 aristas `metodo=manual`, revisadas por el usuario el 2026-11-25. Varios fueron modificados
-después por otras leyes (en el piloto, la Ley 21.721: arts. 77, 87, 91, 95, 96, 99, 102, 114 y 115; según las
-notas BCN también otras leyes). La Ley 21.804 modifica los arts. 72-1, 72-10, 83, 84 bis y 85 de
-transmisión y gran parte del régimen de sistemas medianos (Título I bis, arts. 130-199 bis, 225).
+completo); 52 aristas `metodo=manual`, revisadas por el usuario el 2026-11-25. Modificaciones posteriores
+en el bloque de transmisión:
+
+| Ley | Artículos del bloque que modifica |
+|---|---|
+| 21.472 (2022) | 212-13, 212-14 (lo crea) |
+| 21.505 (2022) | 72-2, 72-17, 72-18 |
+| 21.582 (2023) | 97, 98 |
+| 21.667 (2024) | 212-13, 212-14 |
+| 21.721 (2024) | 77, 87, 91, 91 bis (lo crea), 95, 96, 99, 102, 114, 115 |
+| 21.804 (2026) | 72-1, 72-10, 83, 84 bis, 85 |
+| 21.833 (2026) | 72-9, 212-13, 212-14 |
+
+Varias de esas leyes modifican también artículos fuera del bloque (p. ej. la 21.804, el régimen de
+sistemas medianos; la 21.582, concesiones y servidumbres).
 
 Cada artículo del DFL 4 tiene `cobertura_historia` (atributo del nodo, también visible en
 `source_location`, que muestra `graphify explain`): si dice **HISTORIA INCOMPLETA**, advierte qué leyes
@@ -31,8 +42,13 @@ Títulos II bis y VI bis (relacionados, 36 arts.), todos con historia completa. 
 Los cambios que no recaen en un artículo (p. ej. epígrafes de capítulos) no son aristas: están en
 `datos/derivados/modificaciones_no_articulo.csv`.
 
-Un artículo puede tener varias aristas `modifica` entrantes, una por ley. Para su historia, ordénalas por
-el atributo `fecha_vigencia` de la arista (está en `graph.json`; `explain` no lo muestra).
+Un artículo puede tener varias aristas `modifica` (y a lo más una `deroga`) entrantes, una por ley. Para
+su historia, ordénalas por el atributo `fecha_vigencia` de la arista (está en `graph.json`; `explain` no lo
+muestra).
+
+Otros archivos derivados útiles: `datos/derivados/historia_articulos.csv` (cobertura de la historia de
+todo el DFL 4) y `datos/derivados/contraste_notas_bcn.csv` (diferencias entre aristas y notas BCN; p. ej.
+la BCN atribuye el cambio al art. 157 a la Ley 21.833 Art. 3, pero lo hace su Art. 1).
 
 ## Cómo consultar el grafo (`graphify-out/graph.json`)
 
@@ -46,8 +62,10 @@ Usa `.venv/bin/graphify` con los nombres de nodo exactos (etiquetas), por ejempl
 - **`query` busca solo en las etiquetas de los nodos** y no filtra por tipo de relación. Una pregunta
   temática ("obras necesarias y urgentes") no encuentra nada si ninguna etiqueta contiene esas
   palabras, y una pregunta amplia devuelve casi todo el grafo. No la uses para preguntas sobre relaciones.
-- Una norma llega a sus artículos por `contiene`, y sus artículos a los del DFL 4 por `modifica`. Para
-  "qué modificó la Ley X", parte del nodo de su artículo modificatorio (`… — art. único`, `… — art. 1`).
+- Una norma llega a sus artículos por `contiene`, y sus artículos a los del DFL 4 por `modifica` o
+  `deroga`. Para "qué modificó la Ley X", parte del nodo de su artículo modificatorio:
+  `art. único` (21.721, 21.804, 21.505), `art. 1` (20.936, 21.472, 21.833), `art. 10` (21.582) y
+  `art. primero` (21.667); por ejemplo `"Ley 21.667 de 2024 — art. primero"`.
 - **Preguntas de intersección** ("artículos tocados por ambas leyes"): `path` muestra solo un camino
   aunque avise "N equal-length routes"; para la lista completa compara los `explain --all` de ambos artículos
   modificatorios.
@@ -82,11 +100,25 @@ marker queda solo para documentos escaneados.
 ## Regenerar
 
 ```bash
-python3 -I scripts/descargar_bcn.py            # solo si hay que volver a descargar (cambia sha256 y fecha)
-python3 -I scripts/extraer_modificaciones.py   # XML -> relaciones.csv, nodos_*.csv, candidatos
+python3 -I scripts/extraer_modificaciones.py   # XML/PDF -> relaciones.csv, nodos_*.csv, derivados
+python3 -I scripts/preparar_revision.py        # agrega aristas inferidas nuevas a revisiones_manuales.csv
+python3 -I scripts/bloque_transmision.py       # actualiza el bloque (conserva la validación del usuario)
 .venv/bin/python scripts/construir_grafo.py    # valida contra la ontología y construye el grafo
 .venv/bin/graphify export html                 # graphify-out/graph.html
 ```
 
 `construir_grafo.py` se detiene si alguna fila viola la ontología (tipos, extremos, método, estado,
-fuente o cobertura). Commits pequeños y con mensaje claro.
+fuente, cobertura de la norma o cobertura de la historia del artículo). Commits pequeños y con mensaje claro.
+
+## Agregar una ley modificatoria
+
+1. idNorma desde el servicio oficial, nunca de memoria: `https://www.leychile.cl/Consulta/obtxml?opt=7&idLey=<número>`
+   (verificar tipo, número y fechas en el XML).
+2. Agregarla a `NORMAS` en `scripts/descargar_bcn.py` y descargar solo esa:
+   `python3 -I scripts/descargar_bcn.py datos/raw <idNorma>` (no vuelve a bajar las demás).
+3. PDF oficial: `doc2md bcn <idNorma> --fecha <fechaVersion> --nombre "Ley NNNNN" --salida datos/raw/pdf --registro datos/raw/pdf/descargas_pdf.csv`.
+4. En `scripts/extraer_modificaciones.py`: `ARCHIVOS` y `MODIFICATORIAS` (artículo que modifica la LGSE);
+   agregar la fila en `ontologia/nodos_normas.csv` (el extractor completa el resto).
+5. Regenerar y revisar: numerales extraídos vs. notas BCN, filas sin resolver (deben ser 0) y **regresión**:
+   las aristas de las leyes anteriores deben quedar idénticas. Cada ley suele traer un patrón de redacción
+   nuevo; ajustarlo en el parser sin romper los anteriores.
