@@ -169,10 +169,10 @@ articulo,id_parte,en_grafo,cobertura_historia,leyes_modificatorias_bcn,leyes_fal
 128,8721804,si,completa,20936,
 129,8721805,no,completa,,
 130,8721806,si,completa,,
-131,8721807,si,parcial,20805;20928;21804,20928
+131,8721807,si,completa,20805;20928;21804,
 131 bis,9555672,si,completa,20805,
 131 ter,9555673,si,completa,20805,
-132,8721808,si,parcial,20805;20928,20928
+132,8721808,si,completa,20805;20928,
 133,8721809,si,parcial,20220;20805;20936;21806,20220
 134,8721810,si,completa,20805;20936,
 135,8721811,si,completa,20805,
@@ -211,7 +211,7 @@ articulo,id_parte,en_grafo,cobertura_historia,leyes_modificatorias_bcn,leyes_fal
 154,8721832,no,completa,21804,
 155,8721833,si,completa,20936;21804,
 156,8721835,no,completa,,
-157,8721836,si,parcial,20257;20805;20928;20936;21804;21833,20928
+157,8721836,si,completa,20257;20805;20928;20936;21804;21833,
 158,8721837,si,completa,20936;21804,
 159,8721838,si,completa,21804,
 160,8721839,si,completa,,
@@ -263,14 +263,14 @@ articulo,id_parte,en_grafo,cobertura_historia,leyes_modificatorias_bcn,leyes_fal
 183,8721862,si,completa,21194;21833,
 183 bis,10084729,si,completa,21194,
 183 ter,10604197,si,completa,21833,
-184,8721863,si,parcial,20402;20928;20936,20928
+184,8721863,si,completa,20402;20928;20936,
 185,8721864,si,completa,21194,
 186,8721865,no,completa,,
 187,8721866,si,completa,,
 188,8721867,si,completa,21194,
 189,8721868,si,completa,21194,
 190,8721869,si,completa,20402,
-191,8721870,si,parcial,20928;21804,20928
+191,8721870,si,completa,20928;21804,
 191 bis,10490325,no,parcial,21657,21657
 192,8721871,no,completa,,
 193,8721872,si,parcial,21194;21647,21647
@@ -329,7 +329,7 @@ articulo,id_parte,en_grafo,cobertura_historia,leyes_modificatorias_bcn,leyes_fal
 222,8721905,no,completa,,
 223,8721906,si,completa,20936,
 224,8721907,no,completa,,
-225,8721908,si,parcial,20928;20936;21194;21804,20928
+225,8721908,si,completa,20928;20936;21194;21804,
 1 transitorio,8721909,no,completa,,
 2 transitorio,8721911,no,completa,,
 3 transitorio,8721912,no,completa,,

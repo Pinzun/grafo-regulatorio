@@ -37,6 +37,7 @@ ARCHIVOS = {
     "ley_21472_2022": "ley_21472_2022__idNorma_1179524.xml",
     "ley_21667_2024": "ley_21667_2024__idNorma_1203005.xml",
     "ley_20701_2013": "ley_20701_2013__idNorma_1055073.xml",
+    "ley_20928_2016": "ley_20928_2016__idNorma_1091871.xml",
     "ley_20999_2017": "ley_20999_2017__idNorma_1099982.xml",
     "ley_20257_2008": "ley_20257_2008__idNorma_270212.xml",
     "ley_20698_2013": "ley_20698_2013__idNorma_1055402.xml",
@@ -51,7 +52,7 @@ ARCHIVOS = {
 MODIFICATORIAS = {"ley_21721_2024": "art_unico", "ley_20936_2016": "art_1", "ley_21804_2026": "art_unico",
                   "ley_21505_2022": "art_unico", "ley_21582_2023": "art_10", "ley_21833_2026": "art_1",
                   "ley_21472_2022": "art_1", "ley_21667_2024": "art_primero",
-                  "ley_20701_2013": "art_unico", "ley_20999_2017": "art_2", "ley_20257_2008": "art_unico", "ley_20698_2013": "art_1", "ley_21118_2018": "art_unico", "ley_21806_2026": "art_101", "ley_21304_2021": "art_unico", "ley_21194_2019": "art_unico", "ley_20805_2015": "art_unico", "ley_20402_2009": "art_13"}
+                  "ley_20701_2013": "art_unico", "ley_20928_2016": "art_unico", "ley_20999_2017": "art_2", "ley_20257_2008": "art_unico", "ley_20698_2013": "art_1", "ley_21118_2018": "art_unico", "ley_21806_2026": "art_101", "ley_21304_2021": "art_unico", "ley_21194_2019": "art_unico", "ley_20805_2015": "art_unico", "ley_20402_2009": "art_13"}
 
 VERBOS = {  # singular e impersonal plural ("Reemplázase" / "Reemplázanse")
     "reemplaza": r"reempl[aá]z(?:a|ase|anse|ese|ense)|sustit[uú]y(?:e|ese|ense)",
@@ -132,6 +133,7 @@ def indice_dfl4():
             "id_parte": ef.attrib["idParte"], "fecha_version_bcn": ef.attrib.get("fechaVersion", PC),
             "derogado": ef.attrib.get("derogado", PC),
             "fecha_derogacion": "; ".join(x.text for x in ef.iter(NS + "FechaDerogacion") if x.text),
+            "cortado_en_imagen": cortado_en_imagen(ef),
             "texto": norm_ws(txt),
         }
     return idx
@@ -375,6 +377,7 @@ def texto_modificatorio(norma):
     texto_sig = todas[k + 1][1] if k + 1 < len(todas) else ""
     meta = ident(root)
     _, truncado_xml = numerales(texto_xml)
+    truncado_xml = truncado_xml or cortado_en_imagen(parte)
     pdf = pdf_de(meta["id_bcn"]) if truncado_xml else None
     texto = articulo_en_pdf(pdf["cuerpo"], texto_xml, texto_sig) if pdf else None
     return {"root": root, "meta": meta, "parte": parte, "texto_xml": texto_xml, "truncado_xml": truncado_xml,
@@ -559,6 +562,15 @@ def implementa_res156(fecha_consulta):
 
 
 # ---------------------------------------------------------------- escritura
+def cortado_en_imagen(ef):
+    """¿El <Texto> de la parte trae una imagen incrustada (<aem:ArchivoBinario>, p. ej. una tabla)? Entonces
+    findtext() devuelve solo el texto anterior a la imagen y el resto queda en la cola del elemento: el texto
+    leído termina en ':' ('…de acuerdo a la siguiente escala:') y texto_truncado() no lo nota. Se trata como
+    truncado y el texto completo se toma del PDF oficial (Ley 20.928 art. único, DFL 4 art. 157)."""
+    t = ef.find(NS + "Texto")
+    return t is not None and any(c.tag.endswith("ArchivoBinario") for c in t)
+
+
 def texto_truncado(txt):
     """Firma del corte observado en la BCN (docs/diagnostico_truncamiento_bcn.md): el texto termina
     a mitad de palabra, sin puntuación final, justo después de una letra acentuada (p. ej. 'Energí')."""
@@ -894,7 +906,7 @@ def main():
         pdf_letras = solo_letras(pdf["cuerpo"]) if pdf else ""
         trunc, recup = [], []
         for ef, txt, _ in partes(root):
-            if ef.attrib.get("tipoParte") == "Artículo" and texto_truncado(txt):
+            if ef.attrib.get("tipoParte") == "Artículo" and (texto_truncado(txt) or cortado_en_imagen(ef)):
                 # recuperado si el texto truncado del XML aparece en el PDF oficial (que lo continúa)
                 (recup if pdf and solo_letras(txt) in pdf_letras else trunc).append(ef.attrib["idParte"])
         pend = pendientes.get(n["id"], 0)

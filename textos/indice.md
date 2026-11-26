@@ -195,10 +195,10 @@ Texto consolidado: DFL 4, versión BCN 2026-07-31. Generado por `scripts/generar
 | [128](dfl4/art_128.md) | — | Ley 20.936 (2016) | vigente |
 | [129](dfl4/art_129.md) | — | — | vigente |
 | [130](dfl4/art_130.md) | — | Ley 21.804 (2026) | vigente |
-| [131](dfl4/art_131.md) | — | Ley 20.805 (2015) ⚠️ faltan 20.928 | vigente |
+| [131](dfl4/art_131.md) | — | Ley 20.805 (2015), Ley 20.928 (2016) | vigente |
 | [131 bis](dfl4/art_131_bis.md) | — | Ley 20.805 (2015) | vigente |
 | [131 ter](dfl4/art_131_ter.md) | — | Ley 20.805 (2015) | vigente |
-| [132](dfl4/art_132.md) | — | Ley 20.805 (2015) ⚠️ faltan 20.928 | vigente |
+| [132](dfl4/art_132.md) | — | Ley 20.805 (2015), Ley 20.928 (2016) | vigente |
 | [133](dfl4/art_133.md) | Las exigencias de seguridad y calidad D | Ley 20.805 (2015), Ley 20.936 (2016), Ley 21.806 (2026) ⚠️ faltan 20.220 | vigente |
 | [134](dfl4/art_134.md) | — | Ley 20.805 (2015), Ley 20.936 (2016) | vigente |
 | [135](dfl4/art_135.md) | — | Ley 20.402 (2009), Ley 20.805 (2015) | vigente |
@@ -237,7 +237,7 @@ Texto consolidado: DFL 4, versión BCN 2026-07-31. Generado por `scripts/generar
 | [154](dfl4/art_154.md) | — | — | vigente |
 | [155](dfl4/art_155.md) | En el sistema eléctrico nacional y en los sistemas medianos se distinguirán dos niveles de precios sujetos a fijación: 1 | Ley 20.936 (2016), Ley 21.804 (2026) | vigente |
 | [156](dfl4/art_156.md) | — | — | vigente |
-| [157](dfl4/art_157.md) | — | Ley 20.257 (2008), Ley 20.805 (2015), Ley 20.936 (2016), Ley 21.804 (2026), Ley 21.833 (2026) ⚠️ faltan 20.928 | vigente |
+| [157](dfl4/art_157.md) | — | Ley 20.257 (2008), Ley 20.805 (2015), Ley 20.928 (2016), Ley 20.936 (2016), Ley 21.804 (2026), Ley 21.833 (2026) | vigente |
 | [158](dfl4/art_158.md) | — | Ley 20.402 (2009), Ley 20.936 (2016), Ley 21.804 (2026) | vigente |
 | [159](dfl4/art_159.md) | — | Ley 21.804 (2026) | vigente |
 | [160](dfl4/art_160.md) | Los precios de nudo de corto plazo definidos en el artículo 162º deberán ser fijados semestralmente | Ley 20.936 (2016) | vigente |
@@ -289,14 +289,14 @@ Texto consolidado: DFL 4, versión BCN 2026-07-31. Generado por `scripts/generar
 | [183](dfl4/art_183.md) | — | Ley 21.194 (2019), Ley 21.833 (2026) | vigente |
 | [183 bis](dfl4/art_183_bis.md) | — | Ley 21.194 (2019) | vigente |
 | [183 ter](dfl4/art_183_ter.md) | — | Ley 21.833 (2026) | vigente |
-| [184](dfl4/art_184.md) | — | Ley 20.402 (2009), Ley 20.936 (2016) ⚠️ faltan 20.928 | vigente |
+| [184](dfl4/art_184.md) | — | Ley 20.402 (2009), Ley 20.928 (2016), Ley 20.936 (2016) | vigente |
 | [185](dfl4/art_185.md) | — | Ley 21.194 (2019) | vigente |
 | [186](dfl4/art_186.md) | — | — | vigente |
 | [187](dfl4/art_187.md) | — | Ley 21.194 (2019) | vigente |
 | [188](dfl4/art_188.md) | Eliminado | Ley 21.194 (2019) | eliminado según el texto consolidado (el XML BCN no lo marca derogado; arista deroga inferida de Ley 21.194 de 2019, vigente hasta 2019-12-21) |
 | [189](dfl4/art_189.md) | Eliminado | Ley 20.402 (2009), Ley 21.194 (2019) | eliminado según el texto consolidado (el XML BCN no lo marca derogado; arista deroga inferida de Ley 21.194 de 2019, vigente hasta 2019-12-21) |
 | [190](dfl4/art_190.md) | — | Ley 20.402 (2009) | vigente |
-| [191](dfl4/art_191.md) | — | Ley 21.804 (2026) ⚠️ faltan 20.928 | vigente |
+| [191](dfl4/art_191.md) | — | Ley 20.928 (2016), Ley 21.804 (2026) | vigente |
 | [191 bis](dfl4/art_191_bis.md) | — | — ⚠️ faltan 21.657 | vigente |
 | [192](dfl4/art_192.md) | — | — | vigente |
 | [193](dfl4/art_193.md) | — | Ley 21.194 (2019) ⚠️ faltan 21.647 | vigente |
@@ -341,7 +341,7 @@ Texto consolidado: DFL 4, versión BCN 2026-07-31. Generado por `scripts/generar
 | [222](dfl4/art_222.md) | — | — | vigente |
 | [223](dfl4/art_223.md) | — | Ley 20.936 (2016) | vigente |
 | [224](dfl4/art_224.md) | — | — | vigente |
-| [225](dfl4/art_225.md) | — | Ley 20.257 (2008), Ley 20.936 (2016), Ley 21.194 (2019), Ley 21.505 (2022), Ley 21.804 (2026) ⚠️ faltan 20.928 | vigente |
+| [225](dfl4/art_225.md) | — | Ley 20.257 (2008), Ley 20.928 (2016), Ley 20.936 (2016), Ley 21.194 (2019), Ley 21.505 (2022), Ley 21.804 (2026) | vigente |
 | [1 transitorio](dfl4/art_1_transitorio.md) | — | — | vigente |
 | [2 transitorio](dfl4/art_2_transitorio.md) | — | — | vigente |
 | [3 transitorio](dfl4/art_3_transitorio.md) | — | — | vigente |
@@ -377,4 +377,4 @@ Texto consolidado: DFL 4, versión BCN 2026-07-31. Generado por `scripts/generar
 
 - Artículos sin texto: ninguno.
 - Artículos cuyo texto consolidado dice solo 'Eliminado/Suprimido' sin marca de derogación en el XML BCN: 188, 189.
-- Artículos con historia incompleta (20): 25 (faltan 20.220); 34 bis (faltan 20.897); 131 (faltan 20.928); 132 (faltan 20.928); 133 (faltan 20.220); 139 bis (faltan 21.076); 146 (faltan 20.220); 146 ter (faltan 20.220, 20.720); 149 (faltan 20.571); 149 bis (faltan 20.571); 149 quater (faltan 20.571); 149 quinquies (faltan 20.571); 157 (faltan 20.928); 184 (faltan 20.928); 191 (faltan 20.928); 191 bis (faltan 21.657); 193 (faltan 21.647); 213 (faltan 20.273); 214 (faltan 20.273); 225 (faltan 20.928).
+- Artículos con historia incompleta (14): 25 (faltan 20.220); 34 bis (faltan 20.897); 133 (faltan 20.220); 139 bis (faltan 21.076); 146 (faltan 20.220); 146 ter (faltan 20.220, 20.720); 149 (faltan 20.571); 149 bis (faltan 20.571); 149 quater (faltan 20.571); 149 quinquies (faltan 20.571); 191 bis (faltan 21.657); 193 (faltan 21.647); 213 (faltan 20.273); 214 (faltan 20.273).

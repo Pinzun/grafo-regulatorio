@@ -80,11 +80,13 @@ def recortar_pdf(cuerpo, txt, siguiente):
         return texto if E.solo_letras(texto).startswith(E.solo_letras(txt)) else None
 
 
-def texto_vigente(txt, siguiente, pdf_dfl4):
-    if E.texto_truncado(txt) and pdf_dfl4:
+def texto_vigente(txt, siguiente, pdf_dfl4, cortado_en_imagen=False):
+    if (E.texto_truncado(txt) or cortado_en_imagen) and pdf_dfl4:
         completo = recortar_pdf(pdf_dfl4["cuerpo"], txt, siguiente)
         if completo:
-            return completo, f"PDF oficial Ley Chile (sha256 {pdf_dfl4['sha256'][:12]}…): el XML BCN trunca este artículo"
+            motivo = ("el XML BCN incrusta una tabla como imagen y su texto se corta ahí; la tabla tampoco está "
+                      "como texto en el PDF" if cortado_en_imagen else "el XML BCN trunca este artículo")
+            return completo, f"PDF oficial Ley Chile (sha256 {pdf_dfl4['sha256'][:12]}…): {motivo}"
     return "\n\n".join(E.parrafos(txt)), "XML BCN del DFL 4 (servicio de exportación de Ley Chile)"
 
 
@@ -142,7 +144,7 @@ def main():
     for grupo, lista in (("bloque", validados), ("resto", resto)):
         for clave, txt, siguiente in lista:
             info, nodo, h, b = idx[clave], nodos.get(clave, {}), historia.get(clave, {}), bloque.get(clave)
-            texto, fuente_texto = texto_vigente(txt, siguiente, pdf_dfl4)
+            texto, fuente_texto = texto_vigente(txt, siguiente, pdf_dfl4, info.get("cortado_en_imagen", False))
             derogado = info["derogado"] == "derogado"
             # Texto consolidado reducido a "Eliminado / Suprimido / Derogado" aunque el XML no lo marque derogado
             eliminado_txt = bool(RE_ELIMINADO.match(E.norm_ws(texto))) and not derogado

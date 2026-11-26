@@ -1,0 +1,18 @@
+{
+  "id_norma": "1091871",
+  "fecha_version": "2016-06-22",
+  "nombre": "Ley 20928",
+  "url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=Ley-20928_22-JUN-2016&exportar_con_notas_bcn=True&exportar_con_notas_originales=True&exportar_con_notas_al_pie=True&hddResultadoExportar=1091871.2016-06-22.0.0%23",
+  "fecha_descarga": "2026-11-26",
+  "sha256_pdf": "bba816ce57e84ec6a5b6eb35c77393c3288e8bb0231f52053cc877072713d38b",
+  "bytes": 131681,
+  "con_notas_bcn": true,
+  "conversion": {
+    "texto": {
+      "parrafos": 39,
+      "notas_bcn": 0,
+      "pdf_ley_chile": true,
+      "salida": "datos/raw/pdf/ley_20928__idNorma_1091871__v2016-06-22.md"
+    }
+  }
+}
