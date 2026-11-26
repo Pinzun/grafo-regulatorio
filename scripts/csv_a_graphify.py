@@ -13,7 +13,8 @@ Uso: python3 -I scripts/csv_a_graphify.py [salida_json]
    fila a fila.
 
 Mapeo de confianza Graphify: verificada -> EXTRACTED (1.0); inferida con metodo=regla -> INFERRED (0.7);
-inferida con metodo=llm -> INFERRED (0.5 salvo que la fila traiga confidence_score). Los atributos
+inferida con metodo=llm -> INFERRED (0.5); metodo=manual siempre es verificada -> EXTRACTED (1.0).
+Cada norma lleva cobertura (completa/parcial), modificaciones_pendientes y articulos_truncados. Los atributos
 `estado` y `metodo` de la ontología se guardan en la arista y son los que mandan.
 """
 import csv
@@ -76,7 +77,8 @@ def cargar_ontologia():
             "metodos": set(lista(r["metodos"])), "estados": set(lista(r["estados"])),
             "requiere_fuente": r["requiere_fuente"].lower() == "si",
         }
-    return tipos, rel
+    coberturas = {r["cobertura"] for r in tabla_md(txt, "Valores de cobertura")}
+    return tipos, rel, coberturas
 
 
 def leer_csv(nombre):
@@ -93,7 +95,7 @@ def etiqueta_norma(n):
 
 def main():
     salida = sys.argv[1] if len(sys.argv) > 1 else "graphify-out/.graphify_extract.json"
-    tipos, reglas = cargar_ontologia()
+    tipos, reglas, coberturas = cargar_ontologia()
     normas, articulos, relaciones = leer_csv("nodos_normas.csv"), leer_csv("nodos_articulos.csv"), leer_csv("relaciones.csv")
     errores = []
 
@@ -103,8 +105,17 @@ def main():
     for n in normas:
         if n["tipo"] not in tipos:
             errores.append(f"nodo {n['id']}: tipo '{n['tipo']}' no está en la ontología")
+        cob, pend, trunc = n.get("cobertura", ""), n.get("modificaciones_pendientes", ""), n.get("articulos_truncados", "")
+        if cob not in coberturas:
+            errores.append(f"norma {n['id']}: cobertura '{cob}' no válida (válidas: {sorted(coberturas)})")
+        elif not pend.isdigit():
+            errores.append(f"norma {n['id']}: modificaciones_pendientes '{pend}' no es un entero")
+        elif (cob == "parcial") != (int(pend) > 0 or bool(trunc)):
+            errores.append(f"norma {n['id']}: cobertura '{cob}' incoherente con pendientes={pend}, truncados='{trunc}'")
         nodos[n["id"]] = {
             "id": n["id"], "label": etiquetas_norma[n["id"]], "file_type": "document",
+            "cobertura": cob, "modificaciones_pendientes": int(pend) if pend.isdigit() else pend,
+            "articulos_truncados": trunc,
             "source_file": "ontologia/nodos_normas.csv", "source_location": f"idNorma={n['id_bcn']}",
             "source_url": n["url_fuente"], "captured_at": None, "author": None, "contributor": None,
             "tipo": n["tipo"], "numero": n["numero"], "anio": n["anio"], "id_bcn": n["id_bcn"],
@@ -151,6 +162,11 @@ def main():
             errores.append(f"{donde}: estado '{r['estado']}' no permitido (válidos: {sorted(regla['estados'])})")
         if r.get("metodo") == "llm" and r["estado"] != "inferida":
             errores.append(f"{donde}: metodo llm exige estado inferida")
+        if r.get("metodo") == "manual":
+            if r["estado"] != "verificada":
+                errores.append(f"{donde}: metodo manual exige estado verificada")
+            if not re.search(r"revisado: .+ \d{4}-\d{2}-\d{2}", r.get("observaciones", "")):
+                errores.append(f"{donde}: metodo manual exige 'revisado: <persona> <AAAA-MM-DD>' en observaciones")
         if regla["requiere_fuente"] and not (r.get("fuente_url") and r.get("fuente_id_parte")):
             errores.append(f"{donde}: sin fuente (url e idParte)")
         if r["estado"] == "inferida" and not r.get("observaciones"):
@@ -205,7 +221,12 @@ def main():
         json.dump(extraccion, f, ensure_ascii=False, indent=1)
     from collections import Counter
     print(f"Validación OK contra ontologia.md: {len(nodos)} nodos, {len(relaciones)} filas -> {len(aristas)} aristas")
-    print("  aristas por (relacion, estado):", dict(Counter((a["relation"], a["estado"]) for a in aristas)))
+    print("  aristas por (relacion, estado, metodo):",
+          dict(Counter((a["relation"], a["estado"], a["metodo"]) for a in aristas)))
+    for n in normas:
+        if n["cobertura"] != "completa":
+            print(f"  ADVERTENCIA cobertura parcial: {etiquetas_norma[n['id']]} — {n['modificaciones_pendientes']} "
+                  f"modificaciones pendientes; artículos truncados: {n['articulos_truncados'] or 'ninguno'}")
 
 
 if __name__ == "__main__":
