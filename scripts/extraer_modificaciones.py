@@ -326,32 +326,45 @@ def modifica_lgse(txt):
     return True
 
 
-def extraer_ley(norma, dfl4, fecha_consulta):
+def texto_modificatorio(norma):
+    """Texto completo del artículo de `norma` que modifica la LGSE: el del XML, o el del PDF oficial si el
+    XML está truncado. Lo usan el extractor y scripts/generar_textos.py, para que ambos lean lo mismo."""
     root = cargar(norma)
-    meta = ident(root)
     todas = list(partes(root))
     k = next(n for n, (ef, txt, _) in enumerate(todas)
              if ef.attrib.get("tipoParte") == "Artículo" and modifica_lgse(txt))
     parte = todas[k][0]
     texto_xml = parte.findtext(NS + "Texto")
     texto_sig = todas[k + 1][1] if k + 1 < len(todas) else ""
+    meta = ident(root)
+    _, truncado_xml = numerales(texto_xml)
+    pdf = pdf_de(meta["id_bcn"]) if truncado_xml else None
+    texto = articulo_en_pdf(pdf["cuerpo"], texto_xml, texto_sig) if pdf else None
+    return {"root": root, "meta": meta, "parte": parte, "texto_xml": texto_xml, "truncado_xml": truncado_xml,
+            "pdf": pdf, "usa_pdf": texto is not None, "texto": texto or texto_xml}
+
+
+def fuente_numeral(it, tm):
+    """'xml' si el numeral está completo en el XML; si no, 'pdf'."""
+    bloque = " ".join([it["texto"]] + [l["texto"] for l in it["literales"]] + it["citado"])
+    return "pdf" if tm["usa_pdf"] and solo_letras(bloque) not in solo_letras(tm["texto_xml"]) else "xml"
+
+
+def extraer_ley(norma, dfl4, fecha_consulta):
+    tm = texto_modificatorio(norma)
+    root, meta, parte = tm["root"], tm["meta"], tm["parte"]
+    texto_xml, truncado_xml, pdf, usa_pdf, texto = (tm["texto_xml"], tm["truncado_xml"], tm["pdf"],
+                                                    tm["usa_pdf"], tm["texto"])
     id_parte = parte.attrib["idParte"]
     origen = f"{norma}__{MODIFICATORIAS[norma]}"
     url_xml = f"https://www.leychile.cl/Consulta/obtxml?opt=7&idNorma={meta['id_bcn']}"
     reglas = reglas_vigencia(root)
-    _, truncado_xml = numerales(texto_xml)
-    pdf = pdf_de(meta["id_bcn"]) if truncado_xml else None
-    texto = articulo_en_pdf(pdf["cuerpo"], texto_xml, texto_sig) if pdf else None
-    usa_pdf = texto is not None
-    texto = texto or texto_xml
-    xml_letras = solo_letras(texto_xml)
     items, truncado = numerales(texto)
     filas, arts = [], {}
 
     def fuente(it):
         """El numeral se cita al XML si está completo en él; si no, al PDF oficial."""
-        bloque = " ".join([it["texto"]] + [l["texto"] for l in it["literales"]] + it["citado"])
-        if not usa_pdf or solo_letras(bloque) in xml_letras:
+        if fuente_numeral(it, tm) == "xml":
             return url_xml, fecha_consulta, []
         return pdf["url"], pdf["fecha"], [f"texto del PDF oficial Ley Chile (sha256 {pdf['sha256'][:12]}…); "
                                           "el XML BCN está truncado en este punto"]
