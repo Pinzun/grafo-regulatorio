@@ -67,6 +67,19 @@ def test_dfl4_art_157_se_marca_cortado():
     assert E.indice_dfl4()["157"]["cortado_en_imagen"]
 
 
+def test_nodos_usan_texto_completo_con_transcripcion():
+    import csv
+    csv.field_size_limit(10**7)
+    with open("ontologia/nodos_articulos.csv", encoding="utf-8") as f:
+        nodos = {r["id"]: r for r in csv.DictReader(f)}
+    for nodo, despues in (("ley_dfl4_2006__art_157", "El Factor de Intensidad de cada comuna será calculado"),
+                          ("ley_20928_2016__art_unico", "Incorpóranse, en el artículo 225")):
+        t = nodos[nodo]["texto"]
+        assert t.count("[Tabla ") == 2 and "| Máximo | Mínimo |" in t, nodo
+        assert despues in t, f"{nodo}: falta el texto que sigue a la imagen"
+        assert nodos[nodo]["estado_extraccion"] == "xml_bcn_con_tablas_transcritas"
+
+
 if __name__ == "__main__":
     pruebas = [v for k, v in sorted(globals().items()) if k.startswith("test_")]
     for p in pruebas:

@@ -142,6 +142,8 @@ def indice_dfl4():
             "derogado": ef.attrib.get("derogado", PC),
             "fecha_derogacion": "; ".join(x.text for x in ef.iter(NS + "FechaDerogacion") if x.text),
             "cortado_en_imagen": cortado_en_imagen(ef),
+            # texto completo con las tablas transcritas en su lugar (solo si el <Texto> trae imágenes)
+            "texto_con_tablas": texto_con_transcripciones(ef, id_art("ley_dfl4_2006", n)) if cortado_en_imagen(ef) else None,
             "texto": norm_ws(txt),
         }
     return idx
@@ -626,7 +628,9 @@ def extraer_ley(norma, dfl4, fecha_consulta):
                "truncado_xml": truncado_xml, "texto_pdf": usa_pdf,
                "fecha_version_bcn": parte.attrib.get("fechaVersion", PC), "derogado": parte.attrib.get("derogado", PC),
                "ultimo_numeral": items[-1]["n"] if items else None}
-    return filas, list(arts), origen, id_parte, norm_ws(texto), resumen
+    texto_nodo = texto_con_transcripciones(parte, origen) if cortado_en_imagen(parte) else norm_ws(texto)
+    resumen["con_tablas"] = cortado_en_imagen(parte)
+    return filas, list(arts), origen, id_parte, texto_nodo, resumen
 
 
 def implementa_res156(fecha_consulta):
@@ -992,7 +996,8 @@ def main():
                       "url_fuente": f"https://www.bcn.cl/leychile/navegar?idNorma={ident(cargar(norma))['id_bcn']}&idParte={idp}",
                       "fecha_version_bcn": res["fecha_version_bcn"], "vigente_desde": PC, "vigente_hasta": "",
                       "derogado": res["derogado"],
-                      "estado_extraccion": ("pdf_bcn_texto_completo (xml truncado)" if res["texto_pdf"]
+                      "estado_extraccion": ("xml_bcn_con_tablas_transcritas" if res.get("con_tablas")
+                                            else "pdf_bcn_texto_completo (xml truncado)" if res["texto_pdf"]
                                             else "xml_bcn_truncado" if res["truncado"] else "xml_bcn"),
                       "texto": texto})
     for a in sorted(arts_dfl4, key=lambda k: [int(x) if x.isdigit() else x for x in re.split(r"[- ]", k)]):
@@ -1006,11 +1011,12 @@ def main():
             # vigente_hasta: fecha de vigencia de la arista deroga verificada; si no hay, la FechaDerogacion del XML
             "vigente_hasta": derogado_en.get(a) or (info["fecha_derogacion"] if info else PC),
             "derogado": info["derogado"] if info else PC,
-            "estado_extraccion": "xml_bcn_texto_vigente" if info else "no_encontrado_en_xml",
+            "estado_extraccion": ("xml_bcn_con_tablas_transcritas" if info and info["texto_con_tablas"]
+                                  else "xml_bcn_texto_vigente" if info else "no_encontrado_en_xml"),
             "cobertura_historia": historia[a]["cobertura_historia"] if a in historia else PC,
             "leyes_modificatorias_bcn": historia[a]["leyes_modificatorias_bcn"] if a in historia else PC,
             "leyes_faltantes": historia[a]["leyes_faltantes"] if a in historia else PC,
-            "texto": info["texto"] if info else PC,
+            "texto": (info["texto_con_tablas"] or info["texto"]) if info else PC,
         })
     with open(os.path.join(ONT, "nodos_articulos.csv"), "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=ca)
