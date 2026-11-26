@@ -15,7 +15,7 @@ Artículo 176 ter.- Proyecciones de demanda y deber de información en sistemas 
 
 ## Historia de modificaciones
 
-- 2026-02-13 · Ley 21.804 de 2026 (art. único) · N° 26 · agrega · verificada · regla · idParte 10583265
+- vigencia: 2026-02-13 · Ley 21.804 de 2026 (art. único) · N° 26 · agrega · verificada · regla · idParte 10583265
 
 ## Texto modificatorio
 

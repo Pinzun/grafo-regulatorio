@@ -29,7 +29,7 @@ Un reglamento del Ministerio de Energía regulará las materias necesarias para 
 
 ## Historia de modificaciones
 
-- 2026-07-31 · Ley 21.833 de 2026 (art. 1) · N° 5 · agrega · verificada · regla · idParte 10604103
+- vigencia: 2026-07-31 · Ley 21.833 de 2026 (art. 1) · N° 5 · agrega · verificada · regla · idParte 10604103
 
 ## Texto modificatorio
 

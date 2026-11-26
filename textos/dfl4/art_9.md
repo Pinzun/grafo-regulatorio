@@ -15,7 +15,7 @@ Artículo 9°.- La aplicación de la presente ley corresponderá a la Superinten
 
 ## Historia de modificaciones
 
-- 2009-12-03 · Ley 20.402 de 2009 (art. 13) · N° 1 · reemplaza · verificada · regla · idParte 8811980
+- vigencia: 2009-12-03 · Ley 20.402 de 2009 (art. 13) · N° 1 · reemplaza · verificada · regla · idParte 8811980
 
 ## Texto modificatorio
 

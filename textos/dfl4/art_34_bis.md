@@ -25,8 +25,8 @@ Los efectos de la orden de paralización y,o suspensión de las obras no podrán
 
 ## Historia de modificaciones
 
-- 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 13 · agrega · verificada · regla · idParte 9377764
-- 2016-02-05 · Ley 20.897 de 2016 (art. 2) · texto completo · agrega · verificada · regla · idParte 9673750
+- vigencia: 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 13 · agrega · verificada · regla · idParte 9377764
+- vigencia: 2016-02-05 · Ley 20.897 de 2016 (art. 2) · texto completo · agrega · verificada · regla · idParte 9673750
 
 ## Texto modificatorio
 

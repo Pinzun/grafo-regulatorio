@@ -33,9 +33,9 @@ Si de la revisión de los antecedentes la Superintendencia advirtiera el incumpl
 
 ## Historia de modificaciones
 
-- 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 2 letra a) · reemplaza · verificada · regla · idParte 9377764
-- 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 2 letra b) · reemplaza · verificada · regla · idParte 9377764
-- 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 2 letra c) · agrega · verificada · regla · idParte 9377764
+- vigencia: 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 2 letra a) · reemplaza · verificada · regla · idParte 9377764
+- vigencia: 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 2 letra b) · reemplaza · verificada · regla · idParte 9377764
+- vigencia: 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 2 letra c) · agrega · verificada · regla · idParte 9377764
 
 ## Texto modificatorio
 

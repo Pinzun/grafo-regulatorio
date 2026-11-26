@@ -17,7 +17,7 @@ Asimismo, las empresas deberán habilitar y mantener operativa una línea telef�
 
 ## Historia de modificaciones
 
-- 2026-02-05 · Ley 21.806 de 2026 (art. 101) · N° 2 · agrega · verificada · regla · idParte 10582354
+- vigencia: 2026-02-05 · Ley 21.806 de 2026 (art. 101) · N° 2 · agrega · verificada · regla · idParte 10582354
 
 ## Texto modificatorio
 

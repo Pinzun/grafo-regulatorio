@@ -293,8 +293,8 @@ Texto consolidado: DFL 4, versión BCN 2026-07-31. Generado por `scripts/generar
 | [185](dfl4/art_185.md) | — | Ley 21.194 (2019) | vigente | — |
 | [186](dfl4/art_186.md) | — | — | vigente | — |
 | [187](dfl4/art_187.md) | — | Ley 21.194 (2019) | vigente | — |
-| [188](dfl4/art_188.md) | Eliminado | Ley 21.194 (2019) | eliminado según el texto consolidado (el XML BCN no lo marca derogado; arista deroga inferida de Ley 21.194 de 2019, vigente hasta 2019-12-21) | — |
-| [189](dfl4/art_189.md) | Eliminado | Ley 20.402 (2009), Ley 21.194 (2019) | eliminado según el texto consolidado (el XML BCN no lo marca derogado; arista deroga inferida de Ley 21.194 de 2019, vigente hasta 2019-12-21) | — |
+| [188](dfl4/art_188.md) | Eliminado | Ley 21.194 (2019) | eliminado según el texto consolidado (el XML BCN no lo marca derogado; arista deroga verificada de Ley 21.194 de 2019, vigente hasta 2019-12-21) | — |
+| [189](dfl4/art_189.md) | Eliminado | Ley 20.402 (2009), Ley 21.194 (2019) | eliminado según el texto consolidado (el XML BCN no lo marca derogado; arista deroga verificada de Ley 21.194 de 2019, vigente hasta 2019-12-21) | — |
 | [190](dfl4/art_190.md) | — | Ley 20.402 (2009) | vigente | — |
 | [191](dfl4/art_191.md) | — | Ley 20.928 (2016), Ley 21.804 (2026) | vigente | — |
 | [191 bis](dfl4/art_191_bis.md) | — | Ley 21.657 (2024) | vigente | — |
@@ -372,6 +372,42 @@ Texto consolidado: DFL 4, versión BCN 2026-07-31. Generado por `scripts/generar
 | [28 transitorio](dfl4/art_28_transitorio.md) | En el plazo de 15 días a contar de la entrada en vigencia de la ley 20 | — | vigente | — |
 | [29 transitorio](dfl4/art_29_transitorio.md) | — | — | vigente | — |
 | [trigésimo](dfl4/art_trigésimo.md) | — | — | vigente | — |
+
+## Leyes
+
+Las 29 normas del grafo. *Artículo modificatorio*: el que modifica la LGSE. *Artículos del DFL 4*: los que reciben una arista `modifica` o `deroga` de la norma, incluidas las superadas.
+
+| Norma | Fecha de publicación | idNorma | Artículo modificatorio | Cobertura | Nota de cobertura | Artículos del DFL 4 |
+|---|---|---|---|---|---|---|
+| DFL 4 de 2006 (LGSE) | 2007-02-05 | 258171 | — | completa | — | 0 |
+| Ley 20.220 de 2007 | 2007-09-14 | 264650 | art. único | completa | — | 6: 25, 27, 133, 146 bis, 146 ter, 146 quater |
+| Ley 20.257 de 2008 | 2008-04-01 | 270212 | art. único | completa | — | 4: 79, 150 bis, 157, 225 |
+| Ley 20.273 de 2008 | 2008-06-28 | 273006 | art. 2 | completa | — | 2: 213, 214 |
+| Ley 20.402 de 2009 | 2009-12-03 | 1008692 | art. 13 | parcial | art. 2 modifica el DL 2.224, no la LGSE; su texto no está cargado | 43: 9, 11, 17, 25, 26, 29, 33, 47, 59, 63, 73, 74, 75, 83, 87, 92, 94, 97, 99, 112, 115, 135, 137, 146, 147, 150, 151, 152, 158, 163, 169, 170, 171, 178, 184, 189, 190, 203, 206, 210, 211, 212, 220 |
+| Ley 20.571 de 2012 | 2012-03-22 | 1038211 | art. único | completa | — | 5: 149, 149 bis, 149 ter, 149 quater, 149 quinquies |
+| Ley 20.701 de 2013 | 2013-10-14 | 1055073 | art. único | completa | — | 23: 11, 19, 20, 21, 22, 25, 27, 27 bis, 27 ter, 28, 29, 31 bis, 34 bis, 39, 54, 63, 63 bis, 63 ter, 64, 65, 66, 67, 68 |
+| Ley 20.698 de 2013 | 2013-10-22 | 1055402 | art. 1 | completa | — | 3: 150 bis, 150 ter, 174 bis |
+| Ley 20.720 de 2014 | 2014-01-09 | 1058072 | art. 391 | completa | — | 1: 146 ter |
+| Ley 20.805 de 2015 | 2015-01-29 | 1074277 | art. único | completa | — | 15: 108, 131, 131 bis, 131 ter, 132, 133, 134, 135, 135 bis, 135 ter, 135 quater, 135 quinquies, 146 bis, 147, 157 |
+| Ley 20.897 de 2016 | 2016-02-05 | 1087315 | art. 2 | completa | — | 1: 34 bis |
+| Ley 20.928 de 2016 | 2016-06-22 | 1091871 | art. único | completa | — | 6: 131, 132, 157, 184, 191, 225 |
+| Ley 20.936 de 2016 | 2016-07-20 | 1092695 | art. 1 | completa | — | 126: 7, 8 bis, 72-1, 72-2, 72-3, 72-4, 72-5, 72-6, 72-7, 72-8, 72-9, 72-10, 72-11, 72-12, 72-13, 72-14, 72-15, 72-16, 72-17, 72-18, 72-19, 72-20, 72-21, 72-22, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 99 bis, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 114 bis, 115, 116, 117, 118, 119, 120, 121, 122, 123, 128, 133, 134, 135 ter, 135 quinquies, 137, 138, 146 ter, 146 quater, 149, 149 quater, 150, 150 bis, 150 ter, 155, 157, 158, 160, 162, 163, 165, 166, 167, 169, 170, 171, 177, 181, 184, 208, 210, 211, 212, 212-1, 212-2, 212-3, 212-4, 212-5, 212-6, 212-7, 212-8, 212-9, 212-10, 212-11, 212-12, 212-13, 220, 223, 225 |
+| Ley 20.999 de 2017 | 2017-02-09 | 1099982 | art. 2 | completa | — | 2: 209, 210 |
+| Ley 21.076 de 2018 | 2018-02-27 | 1115627 | art. único | completa | — | 1: 139 bis |
+| Ley 21.118 de 2018 | 2018-11-17 | 1125560 | art. único | completa | — | 2: 149 bis, 149 ter |
+| Ley 21.194 de 2019 | 2019-12-21 | 1140301 | art. único | completa | — | 11: 8 ter, 182, 182 bis, 183, 183 bis, 185, 187, 188, 189, 193, 225 |
+| Ley 21.304 de 2021 | 2021-01-12 | 1154423 | art. único | completa | — | 7: 141, 207-1, 207-2, 207-3, 207-4, 207-5, 207-6 |
+| Ley 21.472 de 2022 | 2022-08-02 | 1179524 | art. 1 | completa | — | 2: 212-13, 212-14 |
+| Ley 21.505 de 2022 | 2022-11-21 | 1184572 | art. único | completa | — | 7: 72-2, 72-17, 72-18, 149, 149 bis, 149 ter, 225 |
+| Ley 21.582 de 2023 | 2023-07-07 | 1194043 | art. 10 | completa | — | 7: 20, 23, 29, 39, 62, 97, 98 |
+| Ley 21.647 de 2023 | 2023-12-23 | 1199483 | art. 88 | completa | — | 1: 193 |
+| Ley 21.657 de 2024 | 2024-02-19 | 1201175 | art. único | completa | — | 1: 191 bis |
+| Ley 21.667 de 2024 | 2024-04-30 | 1203005 | art. primero | completa | — | 2: 212-13, 212-14 |
+| Ley 21.721 de 2024 | 2024-12-27 | 1209692 | art. único | completa | — | 10: 77, 87, 91, 91 bis, 95, 96, 99, 102, 114, 115 |
+| Res. 156 exenta de 2025 | 2025-04-05 | 1212350 | — | completa | — | 0 |
+| Ley 21.806 de 2026 | 2026-02-05 | 1221118 | art. 101 | completa | — | 5: 133, 207-2 bis, 207-3, 207-7, 207-8 |
+| Ley 21.804 de 2026 | 2026-02-13 | 1221363 | art. único | completa | — | 57: 8 ter, 10-1, 10-2, 10-3, 10-4, 10-5, 10-6, 72-1, 72-10, 83, 84 bis, 85, 130, 147, 149 ter, 149 quater, 150 bis, 150 ter, 152, 155, 157, 158, 159, 163, 173, 173 bis, 174, 175, 176, 176 bis, 176 ter, 176 quater, 177, 177 bis, 177 ter, 177 quater, 177 quinquies, 178, 179, 180, 180-1, 180-2, 180-3, 180-4, 180-5, 180-6, 180-7, 180-8, 180-9, 180-10, 180-11, 180-12, 180-13, 191, 199, 199 bis, 225 |
+| Ley 21.833 de 2026 | 2026-07-31 | 1226550 | art. 1 | completa | — | 8: 72-9, 157, 163, 183, 183 ter, 207-2, 212-13, 212-14 |
 
 ## Avisos
 

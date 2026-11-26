@@ -25,7 +25,7 @@ El Ministerio de Energía y la Comisión deberán velar por la participación ci
 
 ## Historia de modificaciones
 
-- 2026-02-13 · Ley 21.804 de 2026 (art. único) · N° 26 · agrega · verificada · regla · idParte 10583265
+- vigencia: 2026-02-13 · Ley 21.804 de 2026 (art. único) · N° 26 · agrega · verificada · regla · idParte 10583265
 
 ## Texto modificatorio
 

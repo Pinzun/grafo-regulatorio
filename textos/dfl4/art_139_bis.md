@@ -15,7 +15,7 @@ Artículo 139 bis.- El empalme y el medidor son parte de la red de distribución
 
 ## Historia de modificaciones
 
-- 2018-02-27 · Ley 21.076 de 2018 (art. único) · texto completo · agrega · verificada · regla · idParte 9890706
+- vigencia: 2018-02-27 · Ley 21.076 de 2018 (art. único) · texto completo · agrega · verificada · regla · idParte 9890706
 
 ## Texto modificatorio
 

@@ -15,7 +15,7 @@ Artículo 135º quáter.- Las distribuidoras que dispongan excedentes de suminis
 
 ## Historia de modificaciones
 
-- 2015-01-29 · Ley 20.805 de 2015 (art. único) · N° 11 · agrega · verificada · regla · idParte 9555456
+- vigencia: 2015-01-29 · Ley 20.805 de 2015 (art. único) · N° 11 · agrega · verificada · regla · idParte 9555456
 
 ## Texto modificatorio
 

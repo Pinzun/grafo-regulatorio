@@ -15,7 +15,7 @@ Artículo 135º bis.- En los casos debidamente justificados en el informe final 
 
 ## Historia de modificaciones
 
-- 2015-01-29 · Ley 20.805 de 2015 (art. único) · N° 9 · agrega · verificada · regla · idParte 9555456
+- vigencia: 2015-01-29 · Ley 20.805 de 2015 (art. único) · N° 9 · agrega · verificada · regla · idParte 9555456
 
 ## Texto modificatorio
 

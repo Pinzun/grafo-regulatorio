@@ -25,8 +25,8 @@ El Presidente de la República podrá declarar la caducidad de una concesión po
 
 ## Historia de modificaciones
 
-- 2009-12-03 · Ley 20.402 de 2009 (art. 13) · N° 5 · reemplaza · verificada · regla · idParte 8811980
-- 2009-12-03 · Ley 20.402 de 2009 (art. 13) · N° 8 · reemplaza · verificada · regla · idParte 8811980
+- vigencia: 2009-12-03 · Ley 20.402 de 2009 (art. 13) · N° 5 · reemplaza · verificada · regla · idParte 8811980
+- vigencia: 2009-12-03 · Ley 20.402 de 2009 (art. 13) · N° 8 · reemplaza · verificada · regla · idParte 8811980
 
 ## Texto modificatorio
 

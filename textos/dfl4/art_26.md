@@ -15,7 +15,7 @@ Artículo 26°.- Si dos o más peticionarios sean o no concesionarios provisiona
 
 ## Historia de modificaciones
 
-- 2009-12-03 · Ley 20.402 de 2009 (art. 13) · N° 2 · reemplaza · verificada · regla · idParte 8811980
+- vigencia: 2009-12-03 · Ley 20.402 de 2009 (art. 13) · N° 2 · reemplaza · verificada · regla · idParte 8811980
 
 ## Texto modificatorio
 

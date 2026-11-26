@@ -15,8 +15,8 @@ Artículo 146º quáter.- Suprimido.
 
 ## Historia de modificaciones
 
-- 2007-09-14 · Ley 20.220 de 2007 (art. único) · N° 4 · agrega · verificada · regla · idParte 7353232
-- 2016-07-20 · Ley 20.936 de 2016 (art. 1) · N° 13 · deroga · verificada · regla · idParte 9716001
+- vigencia: 2007-09-14 · Ley 20.220 de 2007 (art. único) · N° 4 · agrega · verificada · regla · idParte 7353232
+- vigencia: 2016-07-20 · Ley 20.936 de 2016 (art. 1) · N° 13 · deroga · verificada · regla · idParte 9716001
 
 ## Texto modificatorio
 

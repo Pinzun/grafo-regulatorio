@@ -15,7 +15,7 @@ Artículo 173 bis.- De la obligación de coordinarse en los sistemas medianos. S
 
 ## Historia de modificaciones
 
-- 2026-02-13 · Ley 21.804 de 2026 (art. único) · N° 22 · agrega · verificada · regla · idParte 10583265
+- vigencia: 2026-02-13 · Ley 21.804 de 2026 (art. único) · N° 22 · agrega · verificada · regla · idParte 10583265
 
 ## Texto modificatorio
 

@@ -35,14 +35,14 @@ Los remanentes, debidamente reajustados de acuerdo al índice de precios al cons
 
 ## Historia de modificaciones
 
-- 2012-03-22 · Ley 20.571 de 2012 (art. único) · N° 2 · agrega · verificada · regla · idParte 9243750 · **superada** por Ley 21.118 de 2018 N° 2 (2018-11-17), que sustituyó el artículo completo
-- 2018-11-17 · Ley 21.118 de 2018 (art. único) · N° 2 · reemplaza · verificada · regla · idParte 9968877
-- 2022-11-21 · Ley 21.505 de 2022 (art. único) · N° 6 letra a) i) · agrega · verificada · regla · idParte 10380148
-- 2022-11-21 · Ley 21.505 de 2022 (art. único) · N° 6 letra a) ii) · agrega · verificada · regla · idParte 10380148
-- 2022-11-21 · Ley 21.505 de 2022 (art. único) · N° 6 letra a) iii) · agrega · verificada · regla · idParte 10380148
-- 2022-11-21 · Ley 21.505 de 2022 (art. único) · N° 6 letra b) · agrega · verificada · regla · idParte 10380148
-- 2022-11-21 · Ley 21.505 de 2022 (art. único) · N° 6 letra c) · agrega · verificada · regla · idParte 10380148
-- 2026-02-13 · Ley 21.804 de 2026 (art. único) · N° 10 · reemplaza · verificada · regla · idParte 10583265
+- vigencia: 2012-03-22 · Ley 20.571 de 2012 (art. único) · N° 2 · agrega · verificada · regla · idParte 9243750 · **superada** por Ley 21.118 de 2018 N° 2 (2018-11-17), que sustituyó el artículo completo
+- vigencia: 2018-11-17 · Ley 21.118 de 2018 (art. único) · N° 2 · reemplaza · verificada · regla · idParte 9968877
+- vigencia: 2022-11-21 · Ley 21.505 de 2022 (art. único) · N° 6 letra a) i) · agrega · verificada · regla · idParte 10380148
+- vigencia: 2022-11-21 · Ley 21.505 de 2022 (art. único) · N° 6 letra a) ii) · agrega · verificada · regla · idParte 10380148
+- vigencia: 2022-11-21 · Ley 21.505 de 2022 (art. único) · N° 6 letra a) iii) · agrega · verificada · regla · idParte 10380148
+- vigencia: 2022-11-21 · Ley 21.505 de 2022 (art. único) · N° 6 letra b) · agrega · verificada · regla · idParte 10380148
+- vigencia: 2022-11-21 · Ley 21.505 de 2022 (art. único) · N° 6 letra c) · agrega · verificada · regla · idParte 10380148
+- vigencia: 2026-02-13 · Ley 21.804 de 2026 (art. único) · N° 10 · reemplaza · verificada · regla · idParte 10583265
 
 ## Texto modificatorio
 

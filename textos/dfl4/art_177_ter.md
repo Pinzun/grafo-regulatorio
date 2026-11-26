@@ -15,7 +15,7 @@ Artículo 177 ter.- Financiamiento del estudio de planificación y tarificación
 
 ## Historia de modificaciones
 
-- 2026-02-13 · Ley 21.804 de 2026 (art. único) · N° 28 · agrega · verificada · regla · idParte 10583265
+- vigencia: 2026-02-13 · Ley 21.804 de 2026 (art. único) · N° 28 · agrega · verificada · regla · idParte 10583265
 
 ## Texto modificatorio
 

@@ -35,19 +35,19 @@ Lo dispuesto en este artículo se aplicará, asimismo, a aquellos casos en que e
 
 ## Historia de modificaciones
 
-- 2007-09-14 · Ley 20.220 de 2007 (art. único) · N° 4 · agrega · verificada · regla · idParte 7353232
-- 2014-01-09 · Ley 20.720 de 2014 (art. 391) · N° 1 · reemplaza · verificada · regla · idParte 9399130
-- 2014-01-09 · Ley 20.720 de 2014 (art. 391) · N° 2 · reemplaza · verificada · regla · idParte 9399130
-- 2014-01-09 · Ley 20.720 de 2014 (art. 391) · N° 3 · reemplaza · verificada · regla · idParte 9399130
-- 2014-01-09 · Ley 20.720 de 2014 (art. 391) · N° 4 · reemplaza · verificada · regla · idParte 9399130
-- 2014-01-09 · Ley 20.720 de 2014 (art. 391) · N° 5 · reemplaza · verificada · regla · idParte 9399130
-- 2014-01-09 · Ley 20.720 de 2014 (art. 391) · N° 6 letra a) · reemplaza · verificada · regla · idParte 9399130
-- 2014-01-09 · Ley 20.720 de 2014 (art. 391) · N° 6 letra b) · reemplaza · verificada · regla · idParte 9399130
-- 2014-01-09 · Ley 20.720 de 2014 (art. 391) · N° 6 letra c) · reemplaza · verificada · regla · idParte 9399130
-- 2014-01-09 · Ley 20.720 de 2014 (art. 391) · N° 7 letra a) · reemplaza · verificada · regla · idParte 9399130
-- 2014-01-09 · Ley 20.720 de 2014 (art. 391) · N° 7 letra b) · reemplaza · verificada · regla · idParte 9399130
-- 2014-01-09 · Ley 20.720 de 2014 (art. 391) · N° 8 · reemplaza · verificada · regla · idParte 9399130
-- 2016-07-20 · Ley 20.936 de 2016 (art. 1) · N° 12 · reemplaza · verificada · regla · idParte 9716001
+- vigencia: 2007-09-14 · Ley 20.220 de 2007 (art. único) · N° 4 · agrega · verificada · regla · idParte 7353232
+- vigencia: 2014-01-09 · Ley 20.720 de 2014 (art. 391) · N° 1 · reemplaza · verificada · regla · idParte 9399130
+- vigencia: 2014-01-09 · Ley 20.720 de 2014 (art. 391) · N° 2 · reemplaza · verificada · regla · idParte 9399130
+- vigencia: 2014-01-09 · Ley 20.720 de 2014 (art. 391) · N° 3 · reemplaza · verificada · regla · idParte 9399130
+- vigencia: 2014-01-09 · Ley 20.720 de 2014 (art. 391) · N° 4 · reemplaza · verificada · regla · idParte 9399130
+- vigencia: 2014-01-09 · Ley 20.720 de 2014 (art. 391) · N° 5 · reemplaza · verificada · regla · idParte 9399130
+- vigencia: 2014-01-09 · Ley 20.720 de 2014 (art. 391) · N° 6 letra a) · reemplaza · verificada · regla · idParte 9399130
+- vigencia: 2014-01-09 · Ley 20.720 de 2014 (art. 391) · N° 6 letra b) · reemplaza · verificada · regla · idParte 9399130
+- vigencia: 2014-01-09 · Ley 20.720 de 2014 (art. 391) · N° 6 letra c) · reemplaza · verificada · regla · idParte 9399130
+- vigencia: 2014-01-09 · Ley 20.720 de 2014 (art. 391) · N° 7 letra a) · reemplaza · verificada · regla · idParte 9399130
+- vigencia: 2014-01-09 · Ley 20.720 de 2014 (art. 391) · N° 7 letra b) · reemplaza · verificada · regla · idParte 9399130
+- vigencia: 2014-01-09 · Ley 20.720 de 2014 (art. 391) · N° 8 · reemplaza · verificada · regla · idParte 9399130
+- vigencia: 2016-07-20 · Ley 20.936 de 2016 (art. 1) · N° 12 · reemplaza · verificada · regla · idParte 9716001
 
 ## Texto modificatorio
 

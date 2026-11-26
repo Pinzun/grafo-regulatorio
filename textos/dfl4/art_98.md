@@ -17,8 +17,9 @@ Calificada favorablemente la modificación del proyecto, el Ministerio proceder�
 
 ## Historia de modificaciones
 
-- 2016-07-20 · Ley 20.936 de 2016 (art. 1) · N° 4 · reemplaza · verificada · manual · idParte 9716001
-- 2023-07-07 · Ley 21.582 de 2023 (art. 10) · N° 7 · reemplaza · verificada · regla · idParte 10442092
+- vigencia: 2016-07-20 · Ley 20.936 de 2016 (art. 1) · N° 4 · reemplaza · verificada · manual · idParte 9716001
+  - Revisión: confirmada (revisado: pinzunza 2026-11-25)
+- vigencia: 2023-07-07 · Ley 21.582 de 2023 (art. 10) · N° 7 · reemplaza · verificada · regla · idParte 10442092
 
 ## Texto modificatorio
 

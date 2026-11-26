@@ -21,7 +21,7 @@ El Servicio de Impuestos Internos establecerá mediante resolución, la forma y 
 
 ## Historia de modificaciones
 
-- 2012-03-22 · Ley 20.571 de 2012 (art. único) · N° 2 · agrega · verificada · regla · idParte 9243750
+- vigencia: 2012-03-22 · Ley 20.571 de 2012 (art. único) · N° 2 · agrega · verificada · regla · idParte 9243750
 
 ## Texto modificatorio
 

@@ -15,7 +15,8 @@ Artículo 81°.- Presunción de Uso de los Sistemas de Transmisión. Toda empres
 
 ## Historia de modificaciones
 
-- 2016-07-20 · Ley 20.936 de 2016 (art. 1) · N° 4 · reemplaza · verificada · manual · idParte 9716001
+- vigencia: 2016-07-20 · Ley 20.936 de 2016 (art. 1) · N° 4 · reemplaza · verificada · manual · idParte 9716001
+  - Revisión: confirmada (revisado: pinzunza 2026-11-25)
 
 ## Texto modificatorio
 

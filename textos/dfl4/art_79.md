@@ -27,9 +27,10 @@ Sin perjuicio de las atribuciones de los demás organismos contemplados en la le
 
 ## Historia de modificaciones
 
-- 2008-04-01 · Ley 20.257 de 2008 (art. único) · N° 1 · agrega · verificada · regla · idParte 8021629 · **superada** por Ley 20.936 de 2016 N° 4 (2016-07-20), que sustituyó el artículo completo
-- 2008-04-01 · Ley 20.257 de 2008 (art. único) · N° 1 · reemplaza · verificada · regla · idParte 8021629 · **superada** por Ley 20.936 de 2016 N° 4 (2016-07-20), que sustituyó el artículo completo
-- 2016-07-20 · Ley 20.936 de 2016 (art. 1) · N° 4 · reemplaza · verificada · manual · idParte 9716001
+- vigencia: 2008-04-01 · Ley 20.257 de 2008 (art. único) · N° 1 · agrega · verificada · regla · idParte 8021629 · **superada** por Ley 20.936 de 2016 N° 4 (2016-07-20), que sustituyó el artículo completo
+- vigencia: 2008-04-01 · Ley 20.257 de 2008 (art. único) · N° 1 · reemplaza · verificada · regla · idParte 8021629 · **superada** por Ley 20.936 de 2016 N° 4 (2016-07-20), que sustituyó el artículo completo
+- vigencia: 2016-07-20 · Ley 20.936 de 2016 (art. 1) · N° 4 · reemplaza · verificada · manual · idParte 9716001
+  - Revisión: confirmada (revisado: pinzunza 2026-11-25)
 
 ## Texto modificatorio
 

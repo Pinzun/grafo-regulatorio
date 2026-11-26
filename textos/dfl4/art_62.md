@@ -17,8 +17,8 @@ A efectos de la inscripción de las servidumbres indicadas en el inciso anterior
 
 ## Historia de modificaciones
 
-- 2023-07-07 · Ley 21.582 de 2023 (art. 10) · N° 5 letra a) · reemplaza · verificada · regla · idParte 10442092
-- 2023-07-07 · Ley 21.582 de 2023 (art. 10) · N° 5 letra b) · agrega · verificada · regla · idParte 10442092
+- vigencia: 2023-07-07 · Ley 21.582 de 2023 (art. 10) · N° 5 letra a) · reemplaza · verificada · regla · idParte 10442092
+- vigencia: 2023-07-07 · Ley 21.582 de 2023 (art. 10) · N° 5 letra b) · agrega · verificada · regla · idParte 10442092
 
 ## Texto modificatorio
 

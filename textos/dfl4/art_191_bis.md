@@ -17,7 +17,7 @@ Los referidos descuentos deberán ser contabilizados por la Comisión Nacional d
 
 ## Historia de modificaciones
 
-- 2024-02-19 · Ley 21.657 de 2024 (art. único) · texto completo · agrega · verificada · regla · idParte 10490290
+- vigencia: 2024-02-19 · Ley 21.657 de 2024 (art. único) · texto completo · agrega · verificada · regla · idParte 10490290
 
 ## Texto modificatorio
 

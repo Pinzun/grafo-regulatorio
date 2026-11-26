@@ -17,7 +17,7 @@ El reglamento establecerá uno o más períodos en el año para realizar los pro
 
 ## Historia de modificaciones
 
-- 2015-01-29 · Ley 20.805 de 2015 (art. único) · N° 3 · agrega · verificada · regla · idParte 9555456
+- vigencia: 2015-01-29 · Ley 20.805 de 2015 (art. único) · N° 3 · agrega · verificada · regla · idParte 9555456
 
 ## Texto modificatorio
 

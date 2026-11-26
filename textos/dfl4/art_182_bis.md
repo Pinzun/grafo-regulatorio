@@ -29,7 +29,7 @@ Finalizado el estudio señalado en el inciso anterior, la Comisión emitirá un 
 
 ## Historia de modificaciones
 
-- 2019-12-21 · Ley 21.194 de 2019 (art. único) · N° 3 · agrega · verificada · regla · idParte 10083975
+- vigencia: 2019-12-21 · Ley 21.194 de 2019 (art. único) · N° 3 · agrega · verificada · regla · idParte 10083975
 
 ## Texto modificatorio
 

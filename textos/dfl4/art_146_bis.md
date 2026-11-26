@@ -17,8 +17,8 @@ Asimismo, una vez iniciado cualquier tipo de juicio entre las partes de un contr
 
 ## Historia de modificaciones
 
-- 2007-09-14 · Ley 20.220 de 2007 (art. único) · N° 4 · agrega · verificada · regla · idParte 7353232
-- 2015-01-29 · Ley 20.805 de 2015 (art. único) · N° 13 · agrega · verificada · regla · idParte 9555456
+- vigencia: 2007-09-14 · Ley 20.220 de 2007 (art. único) · N° 4 · agrega · verificada · regla · idParte 7353232
+- vigencia: 2015-01-29 · Ley 20.805 de 2015 (art. único) · N° 13 · agrega · verificada · regla · idParte 9555456
 
 ## Texto modificatorio
 

@@ -75,7 +75,7 @@ El reglamento desarrollará las demás materias, requisitos, condiciones y proce
 
 ## Historia de modificaciones
 
-- 2024-12-27 · Ley 21.721 de 2024 (art. único) · N° 4 · agrega · verificada · regla · idParte 10530118
+- vigencia: 2024-12-27 · Ley 21.721 de 2024 (art. único) · N° 4 · agrega · verificada · regla · idParte 10530118
 
 - Otra relación: Res. 156 exenta de 2025 **implementa** este artículo (verificada, regla, idParte 10544467).
 

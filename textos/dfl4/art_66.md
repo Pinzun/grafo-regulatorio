@@ -15,7 +15,7 @@ Artículo 66º.- El valor fijado por la comisión tasadora, más el veinte por c
 
 ## Historia de modificaciones
 
-- 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 21 · reemplaza · verificada · regla · idParte 9377764
+- vigencia: 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 21 · reemplaza · verificada · regla · idParte 9377764
 
 ## Texto modificatorio
 

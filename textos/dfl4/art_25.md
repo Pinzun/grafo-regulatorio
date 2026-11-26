@@ -47,15 +47,15 @@ En aquellos casos en que otras leyes requieran la calidad de concesionario para 
 
 ## Historia de modificaciones
 
-- 2007-09-14 · Ley 20.220 de 2007 (art. único) · N° 1 · agrega · verificada · regla · idParte 7353232
-- 2009-12-03 · Ley 20.402 de 2009 (art. 13) · N° 2 · reemplaza · verificada · regla · idParte 8811980
-- 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 6 letra a) · reemplaza · verificada · regla · idParte 9377764
-- 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 6 letra b) · reemplaza · verificada · regla · idParte 9377764
-- 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 6 letra b) · reemplaza · verificada · regla · idParte 9377764
-- 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 6 letra c) · agrega · verificada · regla · idParte 9377764
-- 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 6 letra c) · reemplaza · verificada · regla · idParte 9377764
-- 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 6 letra d) · agrega · verificada · regla · idParte 9377764
-- 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 6 letra e) · agrega · verificada · regla · idParte 9377764
+- vigencia: 2007-09-14 · Ley 20.220 de 2007 (art. único) · N° 1 · agrega · verificada · regla · idParte 7353232
+- vigencia: 2009-12-03 · Ley 20.402 de 2009 (art. 13) · N° 2 · reemplaza · verificada · regla · idParte 8811980
+- vigencia: 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 6 letra a) · reemplaza · verificada · regla · idParte 9377764
+- vigencia: 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 6 letra b) · reemplaza · verificada · regla · idParte 9377764
+- vigencia: 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 6 letra b) · reemplaza · verificada · regla · idParte 9377764
+- vigencia: 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 6 letra c) · agrega · verificada · regla · idParte 9377764
+- vigencia: 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 6 letra c) · reemplaza · verificada · regla · idParte 9377764
+- vigencia: 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 6 letra d) · agrega · verificada · regla · idParte 9377764
+- vigencia: 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 6 letra e) · agrega · verificada · regla · idParte 9377764
 
 ## Texto modificatorio
 

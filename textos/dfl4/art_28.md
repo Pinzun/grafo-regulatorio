@@ -19,7 +19,7 @@ Una vez vencido el plazo para responder a todas las observaciones u oposiciones 
 
 ## Historia de modificaciones
 
-- 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 10 · reemplaza · verificada · regla · idParte 9377764
+- vigencia: 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 10 · reemplaza · verificada · regla · idParte 9377764
 
 ## Texto modificatorio
 

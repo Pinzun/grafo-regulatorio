@@ -27,7 +27,7 @@ La transferencia de recursos a la cual se refiere el presente artículo se reali
 
 ## Historia de modificaciones
 
-- 2026-02-13 · Ley 21.804 de 2026 (art. único) · N° 36 · agrega · verificada · regla · idParte 10583265
+- vigencia: 2026-02-13 · Ley 21.804 de 2026 (art. único) · N° 36 · agrega · verificada · regla · idParte 10583265
 
 ## Texto modificatorio
 

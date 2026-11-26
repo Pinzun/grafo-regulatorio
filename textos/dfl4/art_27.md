@@ -23,10 +23,10 @@ El solicitante deberá demostrar la circunstancia de haberse efectuado la notifi
 
 ## Historia de modificaciones
 
-- 2007-09-14 · Ley 20.220 de 2007 (art. único) · N° 2 letra a) a.1) · agrega · verificada · regla · idParte 7353232 · **superada** por Ley 20.701 de 2013 N° 7 (2013-10-14), que sustituyó el artículo completo
-- 2007-09-14 · Ley 20.220 de 2007 (art. único) · N° 2 letra a) a.2) · agrega · verificada · regla · idParte 7353232 · **superada** por Ley 20.701 de 2013 N° 7 (2013-10-14), que sustituyó el artículo completo
-- 2007-09-14 · Ley 20.220 de 2007 (art. único) · N° 2 letra b) · reemplaza · verificada · regla · idParte 7353232 · **superada** por Ley 20.701 de 2013 N° 7 (2013-10-14), que sustituyó el artículo completo
-- 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 7 · reemplaza · verificada · regla · idParte 9377764
+- vigencia: 2007-09-14 · Ley 20.220 de 2007 (art. único) · N° 2 letra a) a.1) · agrega · verificada · regla · idParte 7353232 · **superada** por Ley 20.701 de 2013 N° 7 (2013-10-14), que sustituyó el artículo completo
+- vigencia: 2007-09-14 · Ley 20.220 de 2007 (art. único) · N° 2 letra a) a.2) · agrega · verificada · regla · idParte 7353232 · **superada** por Ley 20.701 de 2013 N° 7 (2013-10-14), que sustituyó el artículo completo
+- vigencia: 2007-09-14 · Ley 20.220 de 2007 (art. único) · N° 2 letra b) · reemplaza · verificada · regla · idParte 7353232 · **superada** por Ley 20.701 de 2013 N° 7 (2013-10-14), que sustituyó el artículo completo
+- vigencia: 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 7 · reemplaza · verificada · regla · idParte 9377764
 
 ## Texto modificatorio
 

@@ -17,7 +17,7 @@ En todo caso, no constituirá un obstáculo para el otorgamiento y ejercicio de 
 
 ## Historia de modificaciones
 
-- 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 12 · agrega · verificada · regla · idParte 9377764
+- vigencia: 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 12 · agrega · verificada · regla · idParte 9377764
 
 ## Texto modificatorio
 

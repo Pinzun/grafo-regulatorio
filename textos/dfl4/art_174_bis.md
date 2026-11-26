@@ -15,7 +15,7 @@ Artículo 174 bis.- Los planes de expansión de las instalaciones de generación
 
 ## Historia de modificaciones
 
-- 2013-10-22 · Ley 20.698 de 2013 (art. 1) · N° 3 · agrega · verificada · regla · idParte 9380017
+- vigencia: 2013-10-22 · Ley 20.698 de 2013 (art. 1) · N° 3 · agrega · verificada · regla · idParte 9380017
 
 ## Texto modificatorio
 

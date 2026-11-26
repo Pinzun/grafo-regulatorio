@@ -19,10 +19,10 @@ El certificado de inyecciones leídas constituirá título suficiente para acred
 
 ## Historia de modificaciones
 
-- 2012-03-22 · Ley 20.571 de 2012 (art. único) · N° 2 · agrega · verificada · regla · idParte 9243750
-- 2016-07-20 · Ley 20.936 de 2016 (art. 1) · N° 15 · reemplaza · verificada · regla · idParte 9716001
-- 2026-02-13 · Ley 21.804 de 2026 (art. único) · N° 11 letra a) · reemplaza · verificada · regla · idParte 10583265
-- 2026-02-13 · Ley 21.804 de 2026 (art. único) · N° 11 letra b) · reemplaza · verificada · regla · idParte 10583265
+- vigencia: 2012-03-22 · Ley 20.571 de 2012 (art. único) · N° 2 · agrega · verificada · regla · idParte 9243750
+- vigencia: 2016-07-20 · Ley 20.936 de 2016 (art. 1) · N° 15 · reemplaza · verificada · regla · idParte 9716001
+- vigencia: 2026-02-13 · Ley 21.804 de 2026 (art. único) · N° 11 letra a) · reemplaza · verificada · regla · idParte 10583265
+- vigencia: 2026-02-13 · Ley 21.804 de 2026 (art. único) · N° 11 letra b) · reemplaza · verificada · regla · idParte 10583265
 
 ## Texto modificatorio
 

@@ -31,12 +31,12 @@ En todo caso, los propietarios de dichas instalaciones deberán constituir socie
 
 ## Historia de modificaciones
 
-- 2016-07-20 · Ley 20.936 de 2016 (art. 1) · N° 1 letra a) · reemplaza · verificada · regla · idParte 9716001
-- 2016-07-20 · Ley 20.936 de 2016 (art. 1) · N° 1 letra b) · agrega · verificada · regla · idParte 9716001
-- 2016-07-20 · Ley 20.936 de 2016 (art. 1) · N° 1 letra b) · reemplaza · verificada · regla · idParte 9716001
-- 2016-07-20 · Ley 20.936 de 2016 (art. 1) · N° 1 letra c) · reemplaza · verificada · regla · idParte 9716001
-- 2016-07-20 · Ley 20.936 de 2016 (art. 1) · N° 1 letra d) · reemplaza · verificada · regla · idParte 9716001
-- 2016-07-20 · Ley 20.936 de 2016 (art. 1) · N° 1 letra e) · reemplaza · verificada · regla · idParte 9716001
+- vigencia: 2016-07-20 · Ley 20.936 de 2016 (art. 1) · N° 1 letra a) · reemplaza · verificada · regla · idParte 9716001
+- vigencia: 2016-07-20 · Ley 20.936 de 2016 (art. 1) · N° 1 letra b) · agrega · verificada · regla · idParte 9716001
+- vigencia: 2016-07-20 · Ley 20.936 de 2016 (art. 1) · N° 1 letra b) · reemplaza · verificada · regla · idParte 9716001
+- vigencia: 2016-07-20 · Ley 20.936 de 2016 (art. 1) · N° 1 letra c) · reemplaza · verificada · regla · idParte 9716001
+- vigencia: 2016-07-20 · Ley 20.936 de 2016 (art. 1) · N° 1 letra d) · reemplaza · verificada · regla · idParte 9716001
+- vigencia: 2016-07-20 · Ley 20.936 de 2016 (art. 1) · N° 1 letra e) · reemplaza · verificada · regla · idParte 9716001
 
 ## Texto modificatorio
 

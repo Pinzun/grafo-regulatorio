@@ -23,8 +23,8 @@ El decreto supremo que rechace la solicitud de caducidad será expedido por el M
 
 ## Historia de modificaciones
 
-- 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 14 · reemplaza · verificada · regla · idParte 9377764
-- 2023-07-07 · Ley 21.582 de 2023 (art. 10) · N° 4 · elimina · verificada · regla · idParte 10442092
+- vigencia: 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 14 · reemplaza · verificada · regla · idParte 9377764
+- vigencia: 2023-07-07 · Ley 21.582 de 2023 (art. 10) · N° 4 · elimina · verificada · regla · idParte 10442092
 
 ## Texto modificatorio
 

@@ -25,8 +25,8 @@ En caso que el suministrador adjudicado y contratado vea retrasada la interconex
 
 ## Historia de modificaciones
 
-- 2015-01-29 · Ley 20.805 de 2015 (art. único) · N° 10 · agrega · verificada · regla · idParte 9555456
-- 2016-07-20 · Ley 20.936 de 2016 (art. 1) · N° 9 · reemplaza · verificada · regla · idParte 9716001
+- vigencia: 2015-01-29 · Ley 20.805 de 2015 (art. único) · N° 10 · agrega · verificada · regla · idParte 9555456
+- vigencia: 2016-07-20 · Ley 20.936 de 2016 (art. 1) · N° 9 · reemplaza · verificada · regla · idParte 9716001
 
 ## Texto modificatorio
 

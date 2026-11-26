@@ -15,7 +15,7 @@ Artículo 23°.- Derogado.
 
 ## Historia de modificaciones
 
-- 2023-07-07 · Ley 21.582 de 2023 (art. 10) · N° 2 · deroga · verificada · regla · idParte 10442092
+- vigencia: 2023-07-07 · Ley 21.582 de 2023 (art. 10) · N° 2 · deroga · verificada · regla · idParte 10442092
 
 ## Texto modificatorio
 

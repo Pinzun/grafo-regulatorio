@@ -21,7 +21,7 @@ La Superintendencia certificará la fecha en que el solicitante acredite haber e
 
 ## Historia de modificaciones
 
-- 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 8 · agrega · verificada · regla · idParte 9377764
+- vigencia: 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 8 · agrega · verificada · regla · idParte 9377764
 
 ## Texto modificatorio
 

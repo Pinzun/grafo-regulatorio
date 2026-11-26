@@ -21,7 +21,7 @@ En caso que por cualquiera causa deba efectuarse una nueva tasación y el monto 
 
 ## Historia de modificaciones
 
-- 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 18 · agrega · verificada · regla · idParte 9377764
+- vigencia: 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 18 · agrega · verificada · regla · idParte 9377764
 
 ## Texto modificatorio
 

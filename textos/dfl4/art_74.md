@@ -15,8 +15,9 @@ Artículo 74°.- Definición de Sistema de Transmisión Nacional. El sistema de 
 
 ## Historia de modificaciones
 
-- 2009-12-03 · Ley 20.402 de 2009 (art. 13) · N° 2 · reemplaza · verificada · regla · idParte 8811980 · **superada** por Ley 20.936 de 2016 N° 4 (2016-07-20), que sustituyó el artículo completo
-- 2016-07-20 · Ley 20.936 de 2016 (art. 1) · N° 4 · reemplaza · verificada · manual · idParte 9716001
+- vigencia: 2009-12-03 · Ley 20.402 de 2009 (art. 13) · N° 2 · reemplaza · verificada · regla · idParte 8811980 · **superada** por Ley 20.936 de 2016 N° 4 (2016-07-20), que sustituyó el artículo completo
+- vigencia: 2016-07-20 · Ley 20.936 de 2016 (art. 1) · N° 4 · reemplaza · verificada · manual · idParte 9716001
+  - Revisión: confirmada (revisado: pinzunza 2026-11-25)
 
 ## Texto modificatorio
 

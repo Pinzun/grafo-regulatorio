@@ -63,7 +63,7 @@ El reglamento establecerá las materias necesarias para la implementación de la
 
 ## Historia de modificaciones
 
-- 2019-12-21 · Ley 21.194 de 2019 (art. único) · N° 5 · agrega · verificada · regla · idParte 10083975
+- vigencia: 2019-12-21 · Ley 21.194 de 2019 (art. único) · N° 5 · agrega · verificada · regla · idParte 10083975
 
 ## Texto modificatorio
 

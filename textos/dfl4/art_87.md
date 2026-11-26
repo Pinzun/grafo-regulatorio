@@ -35,9 +35,10 @@ El reglamento podrá establecer criterios diferenciados para la consideración d
 
 ## Historia de modificaciones
 
-- 2009-12-03 · Ley 20.402 de 2009 (art. 13) · N° 9 · reemplaza · verificada · regla · idParte 8811980 · **superada** por Ley 20.936 de 2016 N° 4 (2016-07-20), que sustituyó el artículo completo
-- 2016-07-20 · Ley 20.936 de 2016 (art. 1) · N° 4 · reemplaza · verificada · manual · idParte 9716001
-- 2024-12-27 · Ley 21.721 de 2024 (art. único) · N° 2 · agrega · verificada · regla · idParte 10530118
+- vigencia: 2009-12-03 · Ley 20.402 de 2009 (art. 13) · N° 9 · reemplaza · verificada · regla · idParte 8811980 · **superada** por Ley 20.936 de 2016 N° 4 (2016-07-20), que sustituyó el artículo completo
+- vigencia: 2016-07-20 · Ley 20.936 de 2016 (art. 1) · N° 4 · reemplaza · verificada · manual · idParte 9716001
+  - Revisión: confirmada (revisado: pinzunza 2026-11-25)
+- vigencia: 2024-12-27 · Ley 21.721 de 2024 (art. único) · N° 2 · agrega · verificada · regla · idParte 10530118
 
 ## Texto modificatorio
 

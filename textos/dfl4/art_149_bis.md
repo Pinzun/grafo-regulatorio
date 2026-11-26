@@ -35,32 +35,32 @@ Las obras adicionales y adecuaciones que sean necesarias para permitir la conexi
 
 ## Historia de modificaciones
 
-- 2012-03-22 · Ley 20.571 de 2012 (art. único) · N° 2 · agrega · verificada · regla · idParte 9243750
-- 2018-11-17 · Ley 21.118 de 2018 (art. único) · N° 1 letra a) · agrega · verificada · regla · idParte 9968877
-- 2018-11-17 · Ley 21.118 de 2018 (art. único) · N° 1 letra b) · agrega · verificada · regla · idParte 9968877
-- 2018-11-17 · Ley 21.118 de 2018 (art. único) · N° 1 letra c) i) · agrega · verificada · regla · idParte 9968877
-- 2018-11-17 · Ley 21.118 de 2018 (art. único) · N° 1 letra c) ii) · elimina · verificada · regla · idParte 9968877
-- 2018-11-17 · Ley 21.118 de 2018 (art. único) · N° 1 letra d) · reemplaza · verificada · regla · idParte 9968877
-- 2018-11-17 · Ley 21.118 de 2018 (art. único) · N° 1 letra e) · agrega · verificada · regla · idParte 9968877
-- 2018-11-17 · Ley 21.118 de 2018 (art. único) · N° 1 letra f) i) · agrega · verificada · regla · idParte 9968877
-- 2018-11-17 · Ley 21.118 de 2018 (art. único) · N° 1 letra f) ii) · agrega · verificada · regla · idParte 9968877
-- 2018-11-17 · Ley 21.118 de 2018 (art. único) · N° 1 letra g) i) · agrega · verificada · regla · idParte 9968877
-- 2018-11-17 · Ley 21.118 de 2018 (art. único) · N° 1 letra g) ii) · reemplaza · verificada · regla · idParte 9968877
-- 2018-11-17 · Ley 21.118 de 2018 (art. único) · N° 1 letra g) iii) · agrega · verificada · regla · idParte 9968877
-- 2018-11-17 · Ley 21.118 de 2018 (art. único) · N° 1 letra g) iv) · agrega · verificada · regla · idParte 9968877
-- 2022-11-21 · Ley 21.505 de 2022 (art. único) · N° 5 letra a) i) · agrega · verificada · regla · idParte 10380148
-- 2022-11-21 · Ley 21.505 de 2022 (art. único) · N° 5 letra a) ii) · agrega · verificada · regla · idParte 10380148
-- 2022-11-21 · Ley 21.505 de 2022 (art. único) · N° 5 letra b) i) · agrega · verificada · regla · idParte 10380148
-- 2022-11-21 · Ley 21.505 de 2022 (art. único) · N° 5 letra b) ii) · agrega · verificada · regla · idParte 10380148
-- 2022-11-21 · Ley 21.505 de 2022 (art. único) · N° 5 letra c) · agrega · verificada · regla · idParte 10380148
-- 2022-11-21 · Ley 21.505 de 2022 (art. único) · N° 5 letra d) · agrega · verificada · regla · idParte 10380148
-- 2022-11-21 · Ley 21.505 de 2022 (art. único) · N° 5 letra e) i) · agrega · verificada · regla · idParte 10380148
-- 2022-11-21 · Ley 21.505 de 2022 (art. único) · N° 5 letra e) ii) · agrega · verificada · regla · idParte 10380148
-- 2022-11-21 · Ley 21.505 de 2022 (art. único) · N° 5 letra f) · agrega · verificada · regla · idParte 10380148
-- 2022-11-21 · Ley 21.505 de 2022 (art. único) · N° 5 letra g) · agrega · verificada · regla · idParte 10380148
-- 2022-11-21 · Ley 21.505 de 2022 (art. único) · N° 5 letra h) i) · agrega · verificada · regla · idParte 10380148
-- 2022-11-21 · Ley 21.505 de 2022 (art. único) · N° 5 letra h) ii) · agrega · verificada · regla · idParte 10380148
-- 2022-11-21 · Ley 21.505 de 2022 (art. único) · N° 5 letra h) iii) · agrega · verificada · regla · idParte 10380148
+- vigencia: 2012-03-22 · Ley 20.571 de 2012 (art. único) · N° 2 · agrega · verificada · regla · idParte 9243750
+- vigencia: 2018-11-17 · Ley 21.118 de 2018 (art. único) · N° 1 letra a) · agrega · verificada · regla · idParte 9968877
+- vigencia: 2018-11-17 · Ley 21.118 de 2018 (art. único) · N° 1 letra b) · agrega · verificada · regla · idParte 9968877
+- vigencia: 2018-11-17 · Ley 21.118 de 2018 (art. único) · N° 1 letra c) i) · agrega · verificada · regla · idParte 9968877
+- vigencia: 2018-11-17 · Ley 21.118 de 2018 (art. único) · N° 1 letra c) ii) · elimina · verificada · regla · idParte 9968877
+- vigencia: 2018-11-17 · Ley 21.118 de 2018 (art. único) · N° 1 letra d) · reemplaza · verificada · regla · idParte 9968877
+- vigencia: 2018-11-17 · Ley 21.118 de 2018 (art. único) · N° 1 letra e) · agrega · verificada · regla · idParte 9968877
+- vigencia: 2018-11-17 · Ley 21.118 de 2018 (art. único) · N° 1 letra f) i) · agrega · verificada · regla · idParte 9968877
+- vigencia: 2018-11-17 · Ley 21.118 de 2018 (art. único) · N° 1 letra f) ii) · agrega · verificada · regla · idParte 9968877
+- vigencia: 2018-11-17 · Ley 21.118 de 2018 (art. único) · N° 1 letra g) i) · agrega · verificada · regla · idParte 9968877
+- vigencia: 2018-11-17 · Ley 21.118 de 2018 (art. único) · N° 1 letra g) ii) · reemplaza · verificada · regla · idParte 9968877
+- vigencia: 2018-11-17 · Ley 21.118 de 2018 (art. único) · N° 1 letra g) iii) · agrega · verificada · regla · idParte 9968877
+- vigencia: 2018-11-17 · Ley 21.118 de 2018 (art. único) · N° 1 letra g) iv) · agrega · verificada · regla · idParte 9968877
+- vigencia: 2022-11-21 · Ley 21.505 de 2022 (art. único) · N° 5 letra a) i) · agrega · verificada · regla · idParte 10380148
+- vigencia: 2022-11-21 · Ley 21.505 de 2022 (art. único) · N° 5 letra a) ii) · agrega · verificada · regla · idParte 10380148
+- vigencia: 2022-11-21 · Ley 21.505 de 2022 (art. único) · N° 5 letra b) i) · agrega · verificada · regla · idParte 10380148
+- vigencia: 2022-11-21 · Ley 21.505 de 2022 (art. único) · N° 5 letra b) ii) · agrega · verificada · regla · idParte 10380148
+- vigencia: 2022-11-21 · Ley 21.505 de 2022 (art. único) · N° 5 letra c) · agrega · verificada · regla · idParte 10380148
+- vigencia: 2022-11-21 · Ley 21.505 de 2022 (art. único) · N° 5 letra d) · agrega · verificada · regla · idParte 10380148
+- vigencia: 2022-11-21 · Ley 21.505 de 2022 (art. único) · N° 5 letra e) i) · agrega · verificada · regla · idParte 10380148
+- vigencia: 2022-11-21 · Ley 21.505 de 2022 (art. único) · N° 5 letra e) ii) · agrega · verificada · regla · idParte 10380148
+- vigencia: 2022-11-21 · Ley 21.505 de 2022 (art. único) · N° 5 letra f) · agrega · verificada · regla · idParte 10380148
+- vigencia: 2022-11-21 · Ley 21.505 de 2022 (art. único) · N° 5 letra g) · agrega · verificada · regla · idParte 10380148
+- vigencia: 2022-11-21 · Ley 21.505 de 2022 (art. único) · N° 5 letra h) i) · agrega · verificada · regla · idParte 10380148
+- vigencia: 2022-11-21 · Ley 21.505 de 2022 (art. único) · N° 5 letra h) ii) · agrega · verificada · regla · idParte 10380148
+- vigencia: 2022-11-21 · Ley 21.505 de 2022 (art. único) · N° 5 letra h) iii) · agrega · verificada · regla · idParte 10380148
 
 ## Texto modificatorio
 

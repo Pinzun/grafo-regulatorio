@@ -21,13 +21,13 @@ La Superintendencia resolverá fundadamente acerca de las solicitudes de concesi
 
 ## Historia de modificaciones
 
-- 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 3 letra a) · reemplaza · verificada · regla · idParte 9377764
-- 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 3 letra b) i) · reemplaza · verificada · regla · idParte 9377764
-- 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 3 letra b) ii) · agrega · verificada · regla · idParte 9377764
-- 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 3 letra b) iii) · reemplaza · verificada · regla · idParte 9377764
-- 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 3 letra b) iv) · reemplaza · verificada · regla · idParte 9377764
-- 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 3 letra c) · reemplaza · verificada · regla · idParte 9377764
-- 2023-07-07 · Ley 21.582 de 2023 (art. 10) · N° 1 · elimina · verificada · regla · idParte 10442092
+- vigencia: 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 3 letra a) · reemplaza · verificada · regla · idParte 9377764
+- vigencia: 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 3 letra b) i) · reemplaza · verificada · regla · idParte 9377764
+- vigencia: 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 3 letra b) ii) · agrega · verificada · regla · idParte 9377764
+- vigencia: 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 3 letra b) iii) · reemplaza · verificada · regla · idParte 9377764
+- vigencia: 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 3 letra b) iv) · reemplaza · verificada · regla · idParte 9377764
+- vigencia: 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 3 letra c) · reemplaza · verificada · regla · idParte 9377764
+- vigencia: 2023-07-07 · Ley 21.582 de 2023 (art. 10) · N° 1 · elimina · verificada · regla · idParte 10442092
 
 ## Texto modificatorio
 

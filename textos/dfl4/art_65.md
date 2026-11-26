@@ -19,8 +19,8 @@ En caso de que el avalúo no pueda ser puesto en conocimiento de los propietario
 
 ## Historia de modificaciones
 
-- 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 20 letra a) · reemplaza · verificada · regla · idParte 9377764
-- 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 20 letra b) · agrega · verificada · regla · idParte 9377764
+- vigencia: 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 20 letra a) · reemplaza · verificada · regla · idParte 9377764
+- vigencia: 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 20 letra b) · agrega · verificada · regla · idParte 9377764
 
 ## Texto modificatorio
 

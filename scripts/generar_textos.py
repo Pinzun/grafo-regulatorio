@@ -6,9 +6,12 @@ Salidas:
   textos/dfl4/art_<número>.md  encabezado (norma, versión BCN, idParte, vigencia, cobertura, bloque),
                                "Texto vigente" (XML del DFL 4, o PDF oficial si el XML lo trunca),
                                "Historia de modificaciones" (una línea por fila de relaciones.csv que llega
-                               al artículo, ordenada por fecha de vigencia) y "Texto modificatorio" (numeral
-                               literal de cada ley, del mismo texto XML/PDF que usó el extractor).
-  textos/indice.md             una fila por artículo: bloque de transmisión validado primero, luego el resto.
+                               al artículo, ordenada y rotulada por "vigencia: AAAA-MM-DD"; si la arista fue
+                               inferida, una línea "Revisión: pendiente/confirmada/descartada" según
+                               ontologia/revisiones_manuales.csv) y "Texto modificatorio" (numeral literal de
+                               cada ley, del mismo texto XML/PDF que usó el extractor).
+  textos/indice.md             una fila por artículo (bloque de transmisión validado primero, luego el resto)
+                               y la sección "Leyes": una fila por norma del grafo.
 
 Fuentes: datos/raw (XML y PDF), ontologia/*.csv, datos/derivados/{historia_articulos,bloque_transmision}.csv.
 Solo artículos permanentes (los transitorios del DFL 4 repiten numeración y no tienen aristas).
@@ -31,6 +34,22 @@ DIR_ART = os.path.join(SALIDA, "dfl4")
 RE_ENCABEZADO = re.compile(r'^"?\s*Art[íi]culo\s+(\d+)\s*[°º]?\s*(?:-\s*(\d+))?\s*(' + E.SUFIJOS + r')?\s*[°º]?\s*\.\s*-', re.I)
 RE_ELIMINADO = re.compile(r'^"?\s*Art[íi]culo\s+[^.]*?\.\s*-\s*(Eliminado|Suprimido|Derogado)\.?$', re.I)
 RE_NUMERAL = re.compile(r"^(N° \d+(?: letra [a-zñ]\)(?: (?:[ivx]+|[a-zñ]\.\d+)\))?)?|letra [a-zñ]\)|texto completo)")
+# Nota de la columna "Nota de cobertura" de la tabla de leyes del índice (obligatoria si la norma es parcial)
+NOTAS_COBERTURA = {"ley_20402_2009": "art. 2 modifica el DL 2.224, no la LGSE; su texto no está cargado"}
+
+
+def estado_revision(r, revisiones):
+    """Línea 'Revisión: …' de una arista que fue inferida (tiene fila en revisiones_manuales.csv) o sigue
+    inferida; None si la arista nunca fue inferida."""
+    rev = revisiones.get((r["origen"], r["relacion"], r["destino"]))
+    accion = (rev or {}).get("accion", "").lower()
+    if accion == "confirmar":
+        return f"Revisión: confirmada ({rev['revision']})"
+    if accion == "descartar":
+        return f"Revisión: descartada ({rev['revision']})"
+    if rev is not None or r["estado"] == "inferida":
+        return "Revisión: pendiente"
+    return None
 
 
 def leer(path, **kw):
@@ -149,6 +168,29 @@ def bloque_articulo(it, clave):
     return None
 
 
+def seccion_leyes(normas, etiqueta, entrantes, orden_arts):
+    """Sección 'Leyes' del índice: una fila por norma de nodos_normas.csv, ordenadas por fecha de publicación,
+    con los artículos del DFL 4 a los que llega una arista modifica/deroga suya (incluidas las superadas)."""
+    pos = {k: i for i, k in enumerate(orden_arts)}
+    arts = defaultdict(set)
+    for clave, rs in entrantes.items():
+        for r in rs:
+            arts[r["origen"].split("__")[0]].add(clave)
+    md = ["## Leyes", "",
+          f"Las {len(normas)} normas del grafo. *Artículo modificatorio*: el que modifica la LGSE. *Artículos del "
+          "DFL 4*: los que reciben una arista `modifica` o `deroga` de la norma, incluidas las superadas.", "",
+          "| Norma | Fecha de publicación | idNorma | Artículo modificatorio | Cobertura | Nota de cobertura | "
+          "Artículos del DFL 4 |", "|---|---|---|---|---|---|---|"]
+    for nid, n in sorted(normas.items(), key=lambda kv: (kv[1]["fecha_publicacion"], kv[0])):
+        cob = n.get("cobertura") or "POR_COMPLETAR"
+        nota = NOTAS_COBERTURA.get(nid) or ("POR_COMPLETAR" if cob != "completa" else "—")
+        mod = art_ley(E.MODIFICATORIAS[nid]) if nid in E.MODIFICATORIAS else "—"
+        lista = sorted(arts.get(nid, ()), key=lambda k: pos.get(k, len(pos)))
+        md.append(f"| {etiqueta[nid]} | {n['fecha_publicacion'] or 'POR_COMPLETAR'} | {n['id_bcn'] or 'POR_COMPLETAR'} | "
+                  f"{mod} | {cob} | {nota} | {len(lista)}" + (f": {', '.join(lista)}" if lista else "") + " |")
+    return md + [""]
+
+
 def main():
     idx, orden = orden_xml()
     pdf_dfl4 = E.pdf_de("258171")
@@ -158,6 +200,7 @@ def main():
     nodos = {r["numero"]: r for r in leer("ontologia/nodos_articulos.csv") if r["norma_contenedora"] == "ley_dfl4_2006"}
     historia = {r["articulo"]: r for r in leer("datos/derivados/historia_articulos.csv")}
     bloque = {r["articulo"]: r for r in leer("datos/derivados/bloque_transmision.csv", encoding="utf-8-sig", delimiter=";")}
+    revisiones = {(v["origen"], v["relacion"], v["destino"]): v for v in E.leer_revisiones()}
     entrantes, otras = defaultdict(list), defaultdict(list)
     for r in leer("ontologia/relaciones.csv"):
         if not r["destino"].startswith("ley_dfl4_2006__art_"):
@@ -230,10 +273,13 @@ def main():
                     norma_o, art_o = r["origen"].split("__")
                     tipo = "deroga" if r["relacion"] == "deroga" else r["tipo_cambio"]
                     sup = re.search(r"superada: (\S+) (.+?) sustituyó el artículo completo \(([\d-]+)\)", r["observaciones"])
-                    md.append(f"- {r['fecha_vigencia']} · {etiqueta.get(norma_o, norma_o)} ({art_ley(art_o)}) · {num} · "
-                              f"{tipo} · {r['estado']} · {r['metodo']} · idParte {r['fuente_id_parte']}"
+                    md.append(f"- vigencia: {r['fecha_vigencia']} · {etiqueta.get(norma_o, norma_o)} ({art_ley(art_o)}) · "
+                              f"{num} · {tipo} · {r['estado']} · {r['metodo']} · idParte {r['fuente_id_parte']}"
                               + (f" · **superada** por {etiqueta.get(sup.group(1), sup.group(1))} {sup.group(2)} "
                                  f"({sup.group(3)}), que sustituyó el artículo completo" if sup else ""))
+                    rev = estado_revision(r, revisiones)
+                    if rev:
+                        md.append(f"  - {rev}")
             else:
                 md.append("*Sin modificaciones registradas en el grafo.*")
             if faltan:
@@ -307,6 +353,7 @@ def main():
                                              f"{len(estados) - val} automática(s), sin validar")
             ix.append(f"| [{clave}](dfl4/{nombre}) | {ep.replace('|', '/') or '—'} | {ley_txt} | {vig} | {tab} |")
         ix.append("")
+    ix += seccion_leyes(normas, etiqueta, entrantes, [o[0] for o in orden])
     ix += ["## Avisos", ""]
     ix.append(f"- Artículos con tablas incrustadas como imagen, transcritas (sección 'Tabla (transcripción)'): "
               f"{'; '.join(avisos['tablas']) or 'ninguno'}. Estado según ontologia/transcripciones_validadas.csv.")

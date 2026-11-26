@@ -17,8 +17,8 @@ Por su parte, las empresas concesionarias de distribución que operen únicament
 
 ## Historia de modificaciones
 
-- 2019-12-21 · Ley 21.194 de 2019 (art. único) · N° 1 · agrega · verificada · regla · idParte 10083975
-- 2026-02-13 · Ley 21.804 de 2026 (art. único) · N° 1 · agrega · verificada · regla · idParte 10583265
+- vigencia: 2019-12-21 · Ley 21.194 de 2019 (art. único) · N° 1 · agrega · verificada · regla · idParte 10083975
+- vigencia: 2026-02-13 · Ley 21.804 de 2026 (art. único) · N° 1 · agrega · verificada · regla · idParte 10583265
 
 ## Texto modificatorio
 

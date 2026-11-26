@@ -119,16 +119,16 @@ Las valorizaciones de energía mencionadas, así como la determinación de trans
 
 ## Historia de modificaciones
 
-- 2013-10-22 · Ley 20.698 de 2013 (art. 1) · N° 2 · agrega · verificada · regla · idParte 9380017
-- 2016-07-20 · Ley 20.936 de 2016 (art. 1) · N° 18 letra a) · reemplaza · verificada · regla · idParte 9716001
-- 2016-07-20 · Ley 20.936 de 2016 (art. 1) · N° 18 letra b) · reemplaza · verificada · regla · idParte 9716001
-- 2016-07-20 · Ley 20.936 de 2016 (art. 1) · N° 18 letra c) · reemplaza · verificada · regla · idParte 9716001
-- 2016-07-20 · Ley 20.936 de 2016 (art. 1) · N° 18 letra d) i) · reemplaza · verificada · regla · idParte 9716001
-- 2016-07-20 · Ley 20.936 de 2016 (art. 1) · N° 18 letra d) ii) · reemplaza · verificada · regla · idParte 9716001
-- 2016-07-20 · Ley 20.936 de 2016 (art. 1) · N° 18 letra e) · reemplaza · verificada · regla · idParte 9716001
-- 2026-02-13 · Ley 21.804 de 2026 (art. único) · N° 13 letra a) · reemplaza · verificada · regla · idParte 10583265
-- 2026-02-13 · Ley 21.804 de 2026 (art. único) · N° 13 letra b) · elimina · verificada · regla · idParte 10583265
-- 2026-02-13 · Ley 21.804 de 2026 (art. único) · N° 13 letra c) · reemplaza · verificada · regla · idParte 10583265
+- vigencia: 2013-10-22 · Ley 20.698 de 2013 (art. 1) · N° 2 · agrega · verificada · regla · idParte 9380017
+- vigencia: 2016-07-20 · Ley 20.936 de 2016 (art. 1) · N° 18 letra a) · reemplaza · verificada · regla · idParte 9716001
+- vigencia: 2016-07-20 · Ley 20.936 de 2016 (art. 1) · N° 18 letra b) · reemplaza · verificada · regla · idParte 9716001
+- vigencia: 2016-07-20 · Ley 20.936 de 2016 (art. 1) · N° 18 letra c) · reemplaza · verificada · regla · idParte 9716001
+- vigencia: 2016-07-20 · Ley 20.936 de 2016 (art. 1) · N° 18 letra d) i) · reemplaza · verificada · regla · idParte 9716001
+- vigencia: 2016-07-20 · Ley 20.936 de 2016 (art. 1) · N° 18 letra d) ii) · reemplaza · verificada · regla · idParte 9716001
+- vigencia: 2016-07-20 · Ley 20.936 de 2016 (art. 1) · N° 18 letra e) · reemplaza · verificada · regla · idParte 9716001
+- vigencia: 2026-02-13 · Ley 21.804 de 2026 (art. único) · N° 13 letra a) · reemplaza · verificada · regla · idParte 10583265
+- vigencia: 2026-02-13 · Ley 21.804 de 2026 (art. único) · N° 13 letra b) · elimina · verificada · regla · idParte 10583265
+- vigencia: 2026-02-13 · Ley 21.804 de 2026 (art. único) · N° 13 letra c) · reemplaza · verificada · regla · idParte 10583265
 
 ## Texto modificatorio
 

@@ -23,10 +23,10 @@ En caso de solicitarse la ampliación del área otorgada en una concesión provi
 
 ## Historia de modificaciones
 
-- 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 4 letra a) · agrega · verificada · regla · idParte 9377764
-- 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 4 letra b) · agrega · verificada · regla · idParte 9377764
-- 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 4 letra c) · reemplaza · verificada · regla · idParte 9377764
-- 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 4 letra d) · agrega · verificada · regla · idParte 9377764
+- vigencia: 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 4 letra a) · agrega · verificada · regla · idParte 9377764
+- vigencia: 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 4 letra b) · agrega · verificada · regla · idParte 9377764
+- vigencia: 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 4 letra c) · reemplaza · verificada · regla · idParte 9377764
+- vigencia: 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 4 letra d) · agrega · verificada · regla · idParte 9377764
 
 ## Texto modificatorio
 

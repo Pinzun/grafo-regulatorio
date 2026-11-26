@@ -17,8 +17,8 @@ El otorgamiento de las concesiones no eximirá al concesionario del cumplimiento
 
 ## Historia de modificaciones
 
-- 2009-12-03 · Ley 20.402 de 2009 (art. 13) · N° 2 · reemplaza · verificada · regla · idParte 8811980
-- 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 1 · agrega · verificada · regla · idParte 9377764
+- vigencia: 2009-12-03 · Ley 20.402 de 2009 (art. 13) · N° 2 · reemplaza · verificada · regla · idParte 8811980
+- vigencia: 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 1 · agrega · verificada · regla · idParte 9377764
 
 ## Texto modificatorio
 

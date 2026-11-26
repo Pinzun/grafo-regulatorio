@@ -49,15 +49,16 @@ h) Las fórmulas de indexación de los valores señalados en las letras e) y g) 
 
 ## Historia de modificaciones
 
-- 2016-07-20 · Ley 20.936 de 2016 (art. 1) · N° 4 · reemplaza · verificada · manual · idParte 9716001
-- 2024-12-27 · Ley 21.721 de 2024 (art. único) · N° 6 letra a) i) · agrega · verificada · regla · idParte 10530118
-- 2024-12-27 · Ley 21.721 de 2024 (art. único) · N° 6 letra a) ii) · reemplaza · verificada · regla · idParte 10530118
-- 2024-12-27 · Ley 21.721 de 2024 (art. único) · N° 6 letra a) iii) · reemplaza · verificada · regla · idParte 10530118
-- 2024-12-27 · Ley 21.721 de 2024 (art. único) · N° 6 letra a) iv) · agrega · verificada · regla · idParte 10530118
-- 2024-12-27 · Ley 21.721 de 2024 (art. único) · N° 6 letra a) v) · elimina · verificada · regla · idParte 10530118
-- 2024-12-27 · Ley 21.721 de 2024 (art. único) · N° 6 letra b) · agrega · verificada · regla · idParte 10530118
-- 2024-12-27 · Ley 21.721 de 2024 (art. único) · N° 6 letra c) · reemplaza · verificada · regla · idParte 10530118
-- 2024-12-27 · Ley 21.721 de 2024 (art. único) · N° 6 letra d) · reemplaza · verificada · regla · idParte 10530118
+- vigencia: 2016-07-20 · Ley 20.936 de 2016 (art. 1) · N° 4 · reemplaza · verificada · manual · idParte 9716001
+  - Revisión: confirmada (revisado: pinzunza 2026-11-25)
+- vigencia: 2024-12-27 · Ley 21.721 de 2024 (art. único) · N° 6 letra a) i) · agrega · verificada · regla · idParte 10530118
+- vigencia: 2024-12-27 · Ley 21.721 de 2024 (art. único) · N° 6 letra a) ii) · reemplaza · verificada · regla · idParte 10530118
+- vigencia: 2024-12-27 · Ley 21.721 de 2024 (art. único) · N° 6 letra a) iii) · reemplaza · verificada · regla · idParte 10530118
+- vigencia: 2024-12-27 · Ley 21.721 de 2024 (art. único) · N° 6 letra a) iv) · agrega · verificada · regla · idParte 10530118
+- vigencia: 2024-12-27 · Ley 21.721 de 2024 (art. único) · N° 6 letra a) v) · elimina · verificada · regla · idParte 10530118
+- vigencia: 2024-12-27 · Ley 21.721 de 2024 (art. único) · N° 6 letra b) · agrega · verificada · regla · idParte 10530118
+- vigencia: 2024-12-27 · Ley 21.721 de 2024 (art. único) · N° 6 letra c) · reemplaza · verificada · regla · idParte 10530118
+- vigencia: 2024-12-27 · Ley 21.721 de 2024 (art. único) · N° 6 letra d) · reemplaza · verificada · regla · idParte 10530118
 
 ## Texto modificatorio
 

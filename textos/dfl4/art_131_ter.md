@@ -21,7 +21,7 @@ El informe final contemplará, además, una proyección de los procesos de licit
 
 ## Historia de modificaciones
 
-- 2015-01-29 · Ley 20.805 de 2015 (art. único) · N° 4 · agrega · verificada · regla · idParte 9555456
+- vigencia: 2015-01-29 · Ley 20.805 de 2015 (art. único) · N° 4 · agrega · verificada · regla · idParte 9555456
 
 ## Texto modificatorio
 

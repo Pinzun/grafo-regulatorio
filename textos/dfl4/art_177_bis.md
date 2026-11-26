@@ -19,7 +19,7 @@ El estudio deberá identificar el plan de expansión de los segmentos de generac
 
 ## Historia de modificaciones
 
-- 2026-02-13 · Ley 21.804 de 2026 (art. único) · N° 28 · agrega · verificada · regla · idParte 10583265
+- vigencia: 2026-02-13 · Ley 21.804 de 2026 (art. único) · N° 28 · agrega · verificada · regla · idParte 10583265
 
 ## Texto modificatorio
 

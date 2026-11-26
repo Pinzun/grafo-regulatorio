@@ -21,7 +21,7 @@ El reglamento establecerá el procedimiento y las demás normas a que se sujetar
 
 ## Historia de modificaciones
 
-- 2026-02-13 · Ley 21.804 de 2026 (art. único) · N° 28 · agrega · verificada · regla · idParte 10583265
+- vigencia: 2026-02-13 · Ley 21.804 de 2026 (art. único) · N° 28 · agrega · verificada · regla · idParte 10583265
 
 ## Texto modificatorio
 
