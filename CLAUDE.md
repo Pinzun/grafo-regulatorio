@@ -12,8 +12,13 @@ PDF oficial (`datos/raw/pdf/`, ver `docs/diagnostico_truncamiento_bcn.md`), y ca
 nodo), **adviértelo siempre** al responder qué artículos modificó, y menciona los candidatos de
 `datos/derivados/candidatos_por_fechaversion.csv`, que no son aristas.
 
-Las 52 aristas `modifica` de la Ley 20.936 sobre los arts. 73-122 son `inferida`: el N° 4 sustituye el
-Título III completo y no dice qué artículo reemplaza a cuál. Dilo al citarlas.
+Los arts. 73-122 del DFL 4 tienen su texto base en la Ley 20.936 (el N° 4 sustituye el Título III
+completo); 52 aristas `metodo=manual`, revisadas por el usuario el 2026-11-25. Varios fueron modificados
+después por otras leyes (en el piloto, la Ley 21.721: arts. 77, 87, 91, 95, 96, 99, 102, 114 y 115; según las
+notas BCN también las leyes 21.804 y 21.582, que aún no están en el grafo).
+
+Un artículo puede tener varias aristas `modifica` entrantes, una por ley. Para su historia, ordénalas por
+el atributo `fecha_vigencia` de la arista (está en `graph.json`; `explain` no lo muestra).
 
 ## Cómo consultar el grafo (`graphify-out/graph.json`)
 
