@@ -89,6 +89,15 @@ Usa `.venv/bin/graphify` con los nombres de nodo exactos (etiquetas), por ejempl
 - Lee los atributos de la arista: `estado` (verificada/inferida), `metodo` (regla/llm/manual),
   `observaciones` (motivo si es inferida) y `source_location` (idParte en la BCN). Cita idParte al responder.
 
+## Obsidian (`graphify-out/obsidian/`)
+
+Bóveda con una nota por nodo del grafo y un enlace por arista (`graphify export obsidian`; 317 notas, más
+`graph.canvas`). `construir_grafo.py` la borra y la rehace en cada regeneración: no la edites a mano. Ábrela
+como bóveda para ver el grafo; si abres la raíz del repo, Obsidian muestra en cambio los enlaces entre
+archivos (`indice.md` en el centro, y los PDF convertidos y las transcripciones sueltos, porque no tienen
+enlaces). Los `textos/dfl4/art_<n>.md` enlazan a estas notas: la línea "Nodo en el grafo" del encabezado y,
+en la historia, la ley y su artículo modificatorio.
+
 ## Textos por artículo (`textos/`)
 
 `textos/dfl4/art_<número>.md` (p. ej. `art_91_bis.md`, `art_72-1.md`) trae, por artículo del DFL 4:
