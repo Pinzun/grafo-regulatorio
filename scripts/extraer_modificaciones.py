@@ -37,6 +37,7 @@ ARCHIVOS = {
     "ley_21472_2022": "ley_21472_2022__idNorma_1179524.xml",
     "ley_21667_2024": "ley_21667_2024__idNorma_1203005.xml",
     "ley_20701_2013": "ley_20701_2013__idNorma_1055073.xml",
+    "ley_20571_2012": "ley_20571_2012__idNorma_1038211.xml",
     "ley_20220_2007": "ley_20220_2007__idNorma_264650.xml",
     "ley_20928_2016": "ley_20928_2016__idNorma_1091871.xml",
     "ley_20999_2017": "ley_20999_2017__idNorma_1099982.xml",
@@ -53,7 +54,7 @@ ARCHIVOS = {
 MODIFICATORIAS = {"ley_21721_2024": "art_unico", "ley_20936_2016": "art_1", "ley_21804_2026": "art_unico",
                   "ley_21505_2022": "art_unico", "ley_21582_2023": "art_10", "ley_21833_2026": "art_1",
                   "ley_21472_2022": "art_1", "ley_21667_2024": "art_primero",
-                  "ley_20701_2013": "art_unico", "ley_20220_2007": "art_unico", "ley_20928_2016": "art_unico", "ley_20999_2017": "art_2", "ley_20257_2008": "art_unico", "ley_20698_2013": "art_1", "ley_21118_2018": "art_unico", "ley_21806_2026": "art_101", "ley_21304_2021": "art_unico", "ley_21194_2019": "art_unico", "ley_20805_2015": "art_unico", "ley_20402_2009": "art_13"}
+                  "ley_20701_2013": "art_unico", "ley_20571_2012": "art_unico", "ley_20220_2007": "art_unico", "ley_20928_2016": "art_unico", "ley_20999_2017": "art_2", "ley_20257_2008": "art_unico", "ley_20698_2013": "art_1", "ley_21118_2018": "art_unico", "ley_21806_2026": "art_101", "ley_21304_2021": "art_unico", "ley_21194_2019": "art_unico", "ley_20805_2015": "art_unico", "ley_20402_2009": "art_13"}
 
 VERBOS = {  # singular e impersonal plural ("Reemplázase" / "Reemplázanse")
     "reemplaza": r"reempl[aá]z(?:a|ase|anse|ese|ense)|sustit[uú]y(?:e|ese|ense)",
@@ -492,7 +493,9 @@ def extraer_ley(norma, dfl4, fecha_consulta):
                                 "tipo_cambio": tipo0 or PC, "texto": cab[:300]})
             continue
         # "los siguientes artículos X a Y" / "X y Y": inserción de varios artículos nuevos
-        plural = re.search(r"\blos\s+siguientes\s+art[íi]culos\b", sin_citas(cab), re.I)
+        # o "Incorpóranse, como artículos 149 bis, 149 ter, … y 149 quinquies, los siguientes:" (Ley 20.571)
+        plural = re.search(r"\blos\s+siguientes\s+art[íi]culos\b|\bcomo\s+art[íi]culos\s+\d.*\blos\s+siguientes\s*:",
+                           sin_citas(cab), re.I)
         if plural and not mt and tipo0 == "agrega":
             nuevos = []
             for p in it["todos"]:

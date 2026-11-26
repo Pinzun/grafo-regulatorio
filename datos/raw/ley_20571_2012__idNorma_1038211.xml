@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><Norma xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.leychile.cl/esquemas" xsi:schemaLocation="http://www.leychile.cl/esquemas http://www.leychile.cl/esquemas/EsquemaIntercambioNorma-v1-0.xsd" normaId="1038211" esTratado="no tratado" fechaVersion="2012-03-22" SchemaVersion="1.0" derogado="no derogado">
+  <Identificador fechaPromulgacion="2012-02-20" fechaPublicacion="2012-03-22">
+    <TiposNumeros>
+      <TipoNumero>
+        <Tipo>Ley</Tipo>
+        <Numero>20571</Numero>
+      </TipoNumero>
+    </TiposNumeros>
+    <Organismos>
+      <Organismo>MINISTERIO DE ENERG&#205;A</Organismo>
+    </Organismos>
+  </Identificador>
+  <Metadatos>
+    <TituloNorma>REGULA EL PAGO DE LAS TARIFAS EL&#201;CTRICAS DE LAS GENERADORAS RESIDENCIALES</TituloNorma>
+    <Materias>
+      <Materia>Tarifas El&#233;ctricas</Materia>
+      <Materia>Energ&#237;a El&#233;ctrica</Materia>
+      <Materia>Concesionaria</Materia>
+      <Materia>Concesiones</Materia>
+      <Materia>Generaci&#243;n Residencial de Energ&#237;a</Materia>
+      <Materia>D.F.L. no. 4, Ministerio de Econom&#237;a, Fomento y Reconstrucci&#243;n, 2007</Materia>
+      <Materia>Ley General de Servicios El&#233;ctricos</Materia>
+      <Materia>Ley no. 20.571</Materia>
+    </Materias>
+    
+    
+    <IdentificacionFuente>Diario Oficial</IdentificacionFuente>
+    <NumeroFuente>40219</NumeroFuente>
+  </Metadatos>
+  <Encabezado fechaVersion="2012-03-22" derogado="no derogado">
+    <Texto>
+LEY N&#218;M. 20.571
+
+REGULA EL PAGO DE LAS TARIFAS EL&#201;CTRICAS DE LAS GENERADORAS RESIDENCIALES
+
+     Teniendo presente que el H. Congreso Nacional ha dado su aprobaci&#243;n al siguiente proyecto de ley que tuvo su origen en una Moci&#243;n del Honorable Senador se&#241;or Antonio Horvath Kiss.
+
+     Proyecto de ley:</Texto>
+  </Encabezado>
+  <EstructurasFuncionales>
+    <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2012-03-22" derogado="no derogado" idParte="9243750">
+      <Texto>
+     "Art&#237;culo &#250;nico.- Introd&#250;cense las siguientes modificaciones en el decreto con fuerza de ley N&#176; 4, del Ministerio de Econom&#237;a, Fomento y Reconstrucci&#243;n, de 2007, que fija el texto refundido, coordinado y sistematizado del decreto con fuerza de ley N&#186; 1, del Ministerio de Miner&#237;a, de 1982, Ley General de Servicios El&#233;ctricos, en materia de energ&#237;a el&#233;ctrica:
+
+     1) Agr&#233;gase, en el inciso final del art&#237;culo 149, la siguiente oraci&#243;n final:
+
+     "No se aplicar&#225;n las disposiciones del presente inciso a aquellas instalaciones de generaci&#243;n que cumplan con las condiciones y caracter&#237;sticas indicadas en el art&#237;culo 149 bis, en cuyo caso deber&#225;n regirse por las disposiciones establecidas en &#233;l.".
+
+     2) Incorp&#243;ranse, como art&#237;culos 149 bis, 149 ter, 149 qu&#225;ter y 149 quinquies, los siguientes:
+
+     "Art&#237;culo 149 bis.- Los usuarios finales sujetos a fijaci&#243;n de precios, que dispongan para su propio consumo de equipamiento de generaci&#243;n de energ&#237;a el&#233;ctrica por medios renovables no convencionales o de instalaciones de cogeneraci&#243;n eficiente, tendr&#225;n derecho a inyectar la energ&#237;a que de esta forma generen a la red de distribuci&#243;n a trav&#233;s de los respectivos empalmes.
+
+     Se entender&#225; por energ&#237;as renovables no convencionales aquellas definidas como tales en la letra aa) del art&#237;culo 225 de la presente ley. Asimismo, se entender&#225; por instalaciones de cogeneraci&#243;n eficiente a aquellas definidas como tales en la letra ac) del mismo art&#237;culo.
+
+     Un reglamento determinar&#225; los requisitos que deber&#225;n cumplirse para conectar el medio de generaci&#243;n a las redes de distribuci&#243;n e inyectar los excedentes de energ&#237;a a &#233;stas. Asimismo, el reglamento contemplar&#225; las medidas que deber&#225;n adoptarse para los efectos de proteger la seguridad de las personas y de los bienes y la seguridad y continuidad del suministro; las especificaciones t&#233;cnicas y de seguridad que deber&#225; cumplir el equipamiento requerido para efectuar las inyecciones; el mecanismo para determinar los costos de las adecuaciones que deban realizarse a la red; y la capacidad instalada permitida por cada usuario final y por el conjunto de dichos usuarios en una misma red de distribuci&#243;n o en cierto sector de &#233;sta.
+
+     La capacidad instalada a que se refiere el inciso anterior se determinar&#225; tomando en cuenta la seguridad operacional y la configuraci&#243;n de la red de distribuci&#243;n o de ciertos sectores de &#233;sta, entre otros criterios que determine el reglamento. La capacidad instalada por cliente o usuario final no podr&#225; superar los 100 kilowatts.
+
+     La concesionaria de servicio p&#250;blico de distribuci&#243;n deber&#225; velar por que la habilitaci&#243;n de las instalaciones para inyectar los excedentes a la respectiva red de distribuci&#243;n, as&#237; como cualquier modificaci&#243;n realizada a las mismas que implique un cambio relevante en las magnitudes esperadas de inyecci&#243;n o en otras condiciones t&#233;cnicas, cumpla con las exigencias establecidas por el reglamento. En caso alguno podr&#225; la concesionaria de servicio p&#250;blico de distribuci&#243;n sujetar la habilitaci&#243;n o modificaci&#243;n de las instalaciones a exigencias distintas de las dispuestas por el reglamento o por la normativa vigente. Corresponder&#225; a la Superintendencia fiscalizar el cumplimiento de las disposiciones establecidas en el presente art&#237;culo y resolver fundadamente los reclamos y las controversias suscitadas entre la concesionaria de servicio p&#250;blico de distribuci&#243;n y los usuarios finales que hagan o quieran hacer uso del derecho de inyecci&#243;n de excedentes.
+
+     Las inyecciones de energ&#237;a que se realicen en conformidad a lo dispuesto en el presente art&#237;culo ser&#225;n valorizadas al precio que los concesionarios de servicio p&#250;blico de distribuci&#243;n traspasan a sus clientes regulados, de acuerdo a lo dispuesto en el art&#237;culo 158. Dicha valorizaci&#243;n deber&#225; incorporar, adem&#225;s, las menores p&#233;rdidas el&#233;ctricas de la concesionaria de servicio p&#250;blico de distribuci&#243;n asociadas a las inyecciones de energ&#237;a se&#241;aladas, las cuales deber&#225;n valorizarse del mismo modo que las p&#233;rdidas medias a que se refiere el numeral 2 del art&#237;culo 182 y ser reconocidas junto a la valorizaci&#243;n de estas inyecciones. El reglamento fijar&#225; los procedimientos para la valorizaci&#243;n de las inyecciones realizadas por los medios de generaci&#243;n a que se refiere este art&#237;culo, cuando ellos se conecten en los sistemas se&#241;alados en el art&#237;culo 173.
+
+     Las inyecciones de energ&#237;a valorizadas conforme al inciso precedente deber&#225;n ser descontadas de la facturaci&#243;n correspondiente al mes en el cual se realizaron dichas inyecciones. De existir un remanente a favor del cliente, el mismo se imputar&#225; y descontar&#225; en la o las facturas subsiguientes. Los remanentes a que se refiere este art&#237;culo, deber&#225;n ser reajustados de acuerdo al &#205;ndice de Precios del Consumidor, o el instrumento que lo reemplace, seg&#250;n las instrucciones que imparta la Superintendencia de Electricidad y Combustibles.
+
+     Para efectos de la aplicaci&#243;n de lo establecido en este art&#237;culo las concesionarias de servicio p&#250;blico de distribuci&#243;n deber&#225;n disponer un contrato con las menciones m&#237;nimas establecidas por el reglamento, entre las que se deber&#225;n considerar, al menos, el equipamiento de generaci&#243;n del usuario final y sus caracter&#237;sticas t&#233;cnicas esenciales, la capacidad instalada de generaci&#243;n, la opci&#243;n tarifaria, la propiedad del equipo medidor, el mecanismo de pago de los remanentes no descontados a que se refiere el art&#237;culo siguiente y su periodicidad, y dem&#225;s conceptos b&#225;sicos que establezca el reglamento.
+
+     Las obras adicionales y adecuaciones que sean necesarias para permitir la conexi&#243;n y la inyecci&#243;n de excedentes de los medios de generaci&#243;n a que se refiere este art&#237;culo, deber&#225;n ser solventadas por cada propietario de tales instalaciones y no podr&#225;n significar costos adicionales a los dem&#225;s clientes.
+
+     Art&#237;culo 149 ter.- Los remanentes de inyecciones de energ&#237;a valorizados conforme a lo indicado en el art&#237;culo precedente que, transcurrido el plazo se&#241;alado en el contrato, no hayan podido ser descontados de las facturaciones correspondientes, deber&#225;n ser pagados al cliente por la concesionaria de servicio p&#250;blico de distribuci&#243;n respectiva. Para tales efectos, la concesionaria deber&#225; remitir al titular un documento nominativo representativo de las obligaciones de dinero emanadas de las inyecciones no descontadas, salvo que el cliente haya optado por otro mecanismo de pago en el contrato respectivo.
+
+     Art&#237;culo 149 qu&#225;ter.- Sin perjuicio de lo establecido en los art&#237;culos anteriores, la energ&#237;a que los clientes finales inyecten por medios de generaci&#243;n renovables no convencionales de acuerdo al art&#237;culo 149 bis, podr&#225; ser considerada por las empresas el&#233;ctricas que efect&#250;en retiros de energ&#237;a desde los sistemas el&#233;ctricos con capacidad instalada superior a 200 megawatts, a objeto del cumplimiento de la obligaci&#243;n establecida en el art&#237;culo 150 bis.
+
+     Con dicho fin, anualmente, y cada vez que sea solicitado, la respectiva concesionaria de servicio p&#250;blico de distribuci&#243;n remitir&#225; al cliente un certificado que d&#233; cuenta de las inyecciones realizadas por el cliente a trav&#233;s de medios de generaci&#243;n renovables no convencionales. Copia de dicho certificado ser&#225; remitida a las Direcciones de Peajes de los CDEC para efectos de su incorporaci&#243;n al registro a que se refiere el inciso sexto del art&#237;culo 150 bis. Mensualmente, y conjuntamente con cada facturaci&#243;n, la concesionaria deber&#225; informar al cliente el monto agregado de inyecciones realizadas desde la &#250;ltima emisi&#243;n del certificado a que se refiere este inciso.
+
+     El certificado de inyecciones le&#237;das constituir&#225; t&#237;tulo suficiente para acreditar inyecciones para el cumplimiento de la obligaci&#243;n establecida en el inciso primero del art&#237;culo 150 bis, por los valores absolutos de las inyecciones indicadas en &#233;l. Para tales efectos, el cliente podr&#225; convenir, directamente, a trav&#233;s de la distribuidora o por otro tercero, el traspaso de tales inyecciones a cualquier empresa el&#233;ctrica que efect&#250;e retiros en ese u otro sistema el&#233;ctrico. El reglamento establecer&#225; los procedimientos que deber&#225;n seguirse para el traspaso de los certificados y la imputaci&#243;n de inyecciones pertinente.
+
+     Art&#237;culo 149 quinquies.- Los pagos, compensaciones o ingresos percibidos por los clientes finales en ejercicio de los derechos que les confieren los art&#237;culos 149 bis y 149 ter, no constituir&#225;n renta para todos los efectos legales y, por su parte, las operaciones que tengan lugar conforme a lo se&#241;alado en tales disposiciones no se encontrar&#225;n afectas a Impuesto al Valor Agregado.
+
+     No podr&#225;n acogerse a lo dispuesto en el inciso precedente, aquellos contribuyentes del impuesto de Primera Categor&#237;a obligados a declarar su renta efectiva seg&#250;n contabilidad completa, con excepci&#243;n de aquellos acogidos a los art&#237;culos 14 bis y 14 ter de la Ley sobre Impuesto a la Renta, contenida en el art&#237;culo 1&#176; del decreto ley N&#186; 824, de 1974.
+
+     Las concesionarias de servicio p&#250;blico de distribuci&#243;n deber&#225;n emitir las facturas que den cuenta de las inyecciones materializadas por aquellos clientes finales que gocen de la exenci&#243;n de Impuesto al Valor Agregado se&#241;alada en el inciso precedente, siempre que dichos clientes finales no sean contribuyentes acogidos a lo dispuesto en los art&#237;culos 14 bis y 14 ter de la Ley sobre Impuesto a la Renta, caso en el cual &#233;stos deber&#225;n emitir la correspondiente factura.
+
+     El Servicio de Impuestos Internos establecer&#225; mediante resoluci&#243;n, la forma y plazo en que las concesionarias deber&#225;n emitir las facturas a que se refiere el inciso precedente.".
+</Texto>
+      <Metadatos>
+        <NombreParte presente="si">&#218;NICO</NombreParte>
+        <TituloParte presente="no">&#160;</TituloParte>
+        
+      </Metadatos>
+    </EstructuraFuncional>
+    <EstructuraFuncional transitorio="transitorio" tipoParte="Art&#237;culo" fechaVersion="2012-03-22" derogado="no derogado" idParte="9243751">
+      <Texto>
+     Art&#237;culo transitorio.- Esta ley entrar&#225; en vigencia una vez publicado el reglamento a que se refiere el art&#237;culo 149 bis.
+
+     Durante el per&#237;odo comprendido entre la fecha de publicaci&#243;n del reglamento del art&#237;culo 149 bis y hasta la entrada en vigencia de la fijaci&#243;n de tarifas del valor agregado de distribuci&#243;n correspondiente al cuadrienio 2012-2015, los clientes que deseen inyectar sus excedentes de energ&#237;a a la red, de acuerdo a lo se&#241;alado en el art&#237;culo 149 bis, y para efectos del pago de sus retiros de energ&#237;a y potencia, podr&#225;n seguir adscritos a la opci&#243;n tarifaria contratada a esa fecha.".</Texto>
+      <Metadatos>
+        <NombreParte presente="no">&#160;</NombreParte>
+        <TituloParte presente="no">&#160;</TituloParte>
+        
+      </Metadatos>
+    </EstructuraFuncional>
+  </EstructurasFuncionales>
+  <Promulgacion fechaVersion="2012-03-22" derogado="no derogado">
+    <Texto>
+     Y por cuanto he tenido a bien aprobarlo y sancionarlo; por tanto prom&#250;lguese y ll&#233;vese a efecto como Ley de la Rep&#250;blica.
+
+     Santiago, 20 de febrero de 2012.- SEBASTI&#193;N PI&#209;ERA ECHENIQUE, Presidente de la Rep&#250;blica.- Rodrigo &#193;lvarez Zenteno, Ministro de Energ&#237;a.- Felipe Larra&#237;n Bascu&#241;&#225;n, Ministro de Hacienda.
+     Lo que transcribo a Ud. para su conocimiento.- Saluda Atte. a Ud., Sergio del Campo F., Subsecretario de Energ&#237;a.</Texto>
+  </Promulgacion>
+  
+</Norma>

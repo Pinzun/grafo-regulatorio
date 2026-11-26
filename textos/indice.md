@@ -223,11 +223,11 @@ Texto consolidado: DFL 4, versión BCN 2026-07-31. Generado por `scripts/generar
 | [146 quater](dfl4/art_146_quater.md) | Suprimido | Ley 20.220 (2007), Ley 20.936 (2016) | derogado (vigente hasta 2016-07-20) |
 | [147](dfl4/art_147.md) | — | Ley 20.402 (2009), Ley 20.805 (2015), Ley 21.804 (2026) | vigente |
 | [148](dfl4/art_148.md) | — | — | vigente |
-| [149](dfl4/art_149.md) | — | Ley 20.936 (2016), Ley 21.505 (2022) ⚠️ faltan 20.571 | vigente |
-| [149 bis](dfl4/art_149_bis.md) | — | Ley 21.118 (2018), Ley 21.505 (2022) ⚠️ faltan 20.571 | vigente |
-| [149 ter](dfl4/art_149_ter.md) | — | Ley 21.118 (2018), Ley 21.505 (2022), Ley 21.804 (2026) | vigente |
-| [149 quater](dfl4/art_149_quater.md) | — | Ley 20.936 (2016), Ley 21.804 (2026) ⚠️ faltan 20.571 | vigente |
-| [149 quinquies](dfl4/art_149_quinquies.md) | — | — ⚠️ faltan 20.571 | vigente |
+| [149](dfl4/art_149.md) | — | Ley 20.571 (2012), Ley 20.936 (2016), Ley 21.505 (2022) | vigente |
+| [149 bis](dfl4/art_149_bis.md) | — | Ley 20.571 (2012), Ley 21.118 (2018), Ley 21.505 (2022) | vigente |
+| [149 ter](dfl4/art_149_ter.md) | — | Ley 20.571 (2012), Ley 21.118 (2018), Ley 21.505 (2022), Ley 21.804 (2026) | vigente |
+| [149 quater](dfl4/art_149_quater.md) | — | Ley 20.571 (2012), Ley 20.936 (2016), Ley 21.804 (2026) | vigente |
+| [149 quinquies](dfl4/art_149_quinquies.md) | — | Ley 20.571 (2012) | vigente |
 | [150](dfl4/art_150.md) | Eliminado | Ley 20.402 (2009), Ley 20.936 (2016) | derogado (vigente hasta 2016-07-20) |
 | [150 bis](dfl4/art_150_bis.md) | — | Ley 20.257 (2008), Ley 20.698 (2013), Ley 20.936 (2016), Ley 21.804 (2026) | vigente |
 | [150 ter](dfl4/art_150_ter.md) | — | Ley 20.698 (2013), Ley 20.936 (2016), Ley 21.804 (2026) | vigente |
@@ -377,4 +377,4 @@ Texto consolidado: DFL 4, versión BCN 2026-07-31. Generado por `scripts/generar
 
 - Artículos sin texto: ninguno.
 - Artículos cuyo texto consolidado dice solo 'Eliminado/Suprimido' sin marca de derogación en el XML BCN: 188, 189.
-- Artículos con historia incompleta (11): 34 bis (faltan 20.897); 139 bis (faltan 21.076); 146 ter (faltan 20.720); 149 (faltan 20.571); 149 bis (faltan 20.571); 149 quater (faltan 20.571); 149 quinquies (faltan 20.571); 191 bis (faltan 21.657); 193 (faltan 21.647); 213 (faltan 20.273); 214 (faltan 20.273).
+- Artículos con historia incompleta (7): 34 bis (faltan 20.897); 139 bis (faltan 21.076); 146 ter (faltan 20.720); 191 bis (faltan 21.657); 193 (faltan 21.647); 213 (faltan 20.273); 214 (faltan 20.273).
