@@ -51,6 +51,10 @@ Usa `.venv/bin/graphify` con los nombres de nodo exactos (etiquetas), por ejempl
 - **Preguntas de intersección** ("artículos tocados por ambas leyes"): `path` muestra solo un camino
   aunque avise "N equal-length routes"; para la lista completa compara los `explain --all` de ambos artículos
   modificatorios.
+- **¿Sigue vigente un artículo?** Mira si tiene una arista `deroga` entrante y el atributo `vigente_hasta`
+  del nodo; `explain` lo muestra como `DEROGADO (vigente hasta AAAA-MM-DD)` en la línea Source. Las
+  supresiones parciales (inciso, frase) son `modifica` con `tipo_cambio = elimina` y no afectan la vigencia
+  del artículo.
 - Lee los atributos de la arista: `estado` (verificada/inferida), `metodo` (regla/llm/manual),
   `observaciones` (motivo si es inferida) y `source_location` (idParte en la BCN). Cita idParte al responder.
 
