@@ -1,7 +1,8 @@
-# Ontología del grafo de conocimiento regulatorio (versión 0.2, piloto)
+# Ontología del grafo de conocimiento regulatorio (versión 0.3, piloto)
 
 Dominio: normativa del sector eléctrico chileno. Fecha de la definición: 2026-11-25.
 Cambios v0.2 (2026-11-25): nueva relación `contiene`; redefinición de `inferida`; columna `metodo`; tablas legibles por máquina.
+Cambios v0.3 (2026-11-25): atributo `cobertura` de las normas; valor `manual` en `metodo`.
 
 ## Tipos de nodo
 
@@ -11,7 +12,13 @@ Cambios v0.2 (2026-11-25): nueva relación `contiene`; redefinición de `inferid
 - **norma_tecnica**: desarrolla un reglamento. Nivel inferior al reglamento.
 - **resolucion**: resoluciones (por ejemplo, resoluciones exentas). Tipo aparte, NO es norma técnica. Ejemplo: Resolución Exenta 156 de 2025.
 
-Atributos de una norma: tipo, número, año, órgano emisor, fecha de publicación, id BCN, url fuente, estado de vigencia.
+Atributos de una norma: tipo, número, año, órgano emisor, fecha de publicación, id BCN, url fuente, estado de vigencia, cobertura.
+
+**cobertura**: qué tan completo está el texto descargado para el grafo.
+- `completa`: sin modificaciones pendientes y sin artículos con texto truncado.
+- `parcial`: hay modificaciones pendientes de extraer (`modificaciones_pendientes` > 0) o artículos con texto truncado en la fuente (`articulos_truncados`).
+- `modificaciones_pendientes`: número de modificaciones que la norma hizo y que no se pudieron extraer (hoy, candidatos en `datos/derivados/candidatos_por_fechaversion.csv`).
+- `articulos_truncados`: idParte de los artículos de la norma cuyo texto llega cortado.
 
 ### Otros nodos
 - **articulo**: unidad de trabajo real. Las modificaciones se hacen a artículos, no a normas completas. Atributos: norma contenedora, número, texto, vigente_desde, vigente_hasta.
@@ -32,13 +39,14 @@ Atributos de una norma: tipo, número, año, órgano emisor, fecha de publicaci�
 ## Metadatos obligatorios en cada relación
 - **fuente**: de dónde salió (url BCN, id de norma, parte, fecha de consulta).
 - **estado**: `verificada` (consta literalmente en el texto de la norma o en su estructura, o fue revisada por una persona) o `inferida` (no consta literalmente en el texto; deducida por regla o LLM, pendiente de revisión; el motivo va en `observaciones`).
-- **metodo**: `regla` (parseo determinista del XML y expresiones regulares) o `llm` (propuesta de un modelo de lenguaje).
+- **metodo**: `regla` (parseo determinista del XML y expresiones regulares), `llm` (propuesta de un modelo de lenguaje) o `manual` (una persona revisó la arista contra el texto). Una arista `manual` queda `verificada` y en `observaciones` se anota quién la revisó, la fecha y el texto consultado.
 
 ## Reglas
-1. Las relaciones modifica, deroga, reglamenta, implementa y contiene deben tener `metodo` = `regla` (o revisión humana). Pueden quedar `inferida` solo con `metodo` = `regla` y motivo en `observaciones`, y requieren revisión humana antes de darse por ciertas.
+1. Las relaciones modifica, deroga, reglamenta, implementa y contiene deben tener `metodo` = `regla` o `manual`; nunca `llm`. Pueden quedar `inferida` solo con `metodo` = `regla` y motivo en `observaciones`, y requieren revisión humana antes de darse por ciertas. Al revisarlas, pasan a `metodo` = `manual` y `estado` = `verificada` (o se eliminan si la revisión las descarta).
 2. El LLM solo propone aristas `regula` y `cita`, siempre con estado `inferida` y `metodo` = `llm`.
 3. Toda arista lleva fuente.
 4. `contiene` es siempre `verificada`.
+5. Toda arista con `metodo` = `manual` debe estar `verificada` y tener `observaciones` con revisor y fecha (formato `revisado: <persona> <AAAA-MM-DD>`).
 
 ## Tablas para validación automática
 
@@ -63,12 +71,19 @@ El script `scripts/csv_a_graphify.py` lee estas tablas; cualquier tipo o extremo
 
 | relacion | origen | destino | metodos | estados | requiere_fuente |
 |---|---|---|---|---|---|
-| modifica | norma, articulo | articulo | regla | verificada, inferida | si |
-| deroga | norma, articulo | norma, articulo | regla | verificada, inferida | si |
-| reglamenta | reglamento, norma_tecnica | ley, reglamento | regla | verificada, inferida | si |
-| implementa | resolucion, articulo | norma, articulo | regla | verificada, inferida | si |
-| contiene | norma | articulo | regla | verificada | si |
-| cita | norma, articulo | norma, articulo | regla, llm | verificada, inferida | si |
-| regula | articulo | concepto | regla, llm | verificada, inferida | si |
+| modifica | norma, articulo | articulo | regla, manual | verificada, inferida | si |
+| deroga | norma, articulo | norma, articulo | regla, manual | verificada, inferida | si |
+| reglamenta | reglamento, norma_tecnica | ley, reglamento | regla, manual | verificada, inferida | si |
+| implementa | resolucion, articulo | norma, articulo | regla, manual | verificada, inferida | si |
+| contiene | norma | articulo | regla, manual | verificada | si |
+| cita | norma, articulo | norma, articulo | regla, llm, manual | verificada, inferida | si |
+| regula | articulo | concepto | regla, llm, manual | verificada, inferida | si |
 
-Restricciones adicionales: en `reglamenta`, reglamento -> ley y norma_tecnica -> reglamento (nivel inmediato superior). Toda fila con `metodo` = `llm` debe tener `estado` = `inferida`.
+Restricciones adicionales: en `reglamenta`, reglamento -> ley y norma_tecnica -> reglamento (nivel inmediato superior). Toda fila con `metodo` = `llm` debe tener `estado` = `inferida`. Toda fila con `metodo` = `manual` debe tener `estado` = `verificada` y revisor y fecha en `observaciones`.
+
+### Valores de cobertura
+
+| cobertura | condicion |
+|---|---|
+| completa | modificaciones_pendientes = 0 y sin articulos_truncados |
+| parcial | modificaciones_pendientes > 0 o con articulos_truncados |
