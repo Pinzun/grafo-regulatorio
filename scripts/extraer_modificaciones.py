@@ -679,7 +679,9 @@ def imagenes_por_parte():
 
 
 def transcripciones_validadas():
-    """{(artículo, imagen): 'revisado: <persona> <AAAA-MM-DD>'} de ontologia/transcripciones_validadas.csv
+    """{(artículo, imagen): 'revisado: <persona> <AAAA-MM-DD>'} de ontologia/transcripciones_validadas.csv.
+    Columnas: articulo (id del nodo, p. ej. ley_dfl4_2006__art_157), imagen (nombre en datos/raw/imagenes/)
+    y revisado
     (acepta ',' o ';' y BOM, como revisiones_manuales.csv). Una fila con 'revisado' mal escrito detiene."""
     if not os.path.exists(VALIDADAS):
         return {}
@@ -697,6 +699,11 @@ def transcripciones_validadas():
         if not RE_REVISADO.match(rev):
             raise SystemExit(f"{VALIDADAS}: 'revisado' debe ser 'revisado: <persona> <AAAA-MM-DD>': {r}")
         out[(r["articulo"].strip(), r["imagen"].strip())] = rev
+    conocidas = {(f"{r['norma']}__art_{r['articulo']}", r["archivo"])
+                 for rs in imagenes_por_parte().values() for r in rs}
+    desconocidas = sorted(set(out) - conocidas)
+    if desconocidas:
+        raise SystemExit(f"{VALIDADAS}: artículo/imagen que no están en {IMAGENES_CSV}: {desconocidas}")
     return out
 
 
