@@ -2,7 +2,8 @@
 
 Grafo de conocimiento de normativa eléctrica chilena: DFL 4 (LGSE), Ley 20.936, Ley 21.721,
 Ley 21.804 (2026, sistemas medianos), Ley 21.505 (2022, almacenamiento y electromovilidad),
-Ley 21.582 (2023, notarios; su art. 10 modifica la LGSE) y Ley 21.833 (2026, protección tarifaria),
+Ley 21.582 (2023, notarios; su art. 10 modifica la LGSE), Ley 21.833 (2026, protección tarifaria),
+Ley 21.472 (2022, Fondo de Estabilización de Tarifas), Ley 21.667 (2024, estabilización tarifaria)
 y Res. Ex. 156/2025. La fuente de verdad es `ontologia/ontologia.md`: no inventes tipos de nodo ni de
 relación; si hace falta uno nuevo, pregúntalo.
 
@@ -22,9 +23,10 @@ transmisión y gran parte del régimen de sistemas medianos (Título I bis, arts
 
 Cada artículo del DFL 4 tiene `cobertura_historia` (atributo del nodo, también visible en
 `source_location`, que muestra `graphify explain`): si dice **HISTORIA INCOMPLETA**, advierte qué leyes
-faltan al responder sobre la historia o vigencia de ese artículo. El bloque de transmisión propuesto
-(pendiente de validación del usuario) está en `datos/derivados/bloque_transmision.csv`; su núcleo
-(Título III) tiene historia completa.
+faltan al responder sobre la historia o vigencia de ese artículo. El **bloque de transmisión**, validado por el
+usuario el 2026-11-25, está en `datos/derivados/bloque_transmision.csv`: Título III (núcleo, 54 arts.) y
+Títulos II bis y VI bis (relacionados, 36 arts.), todos con historia completa. Los 7 artículos marcados
+`revisar` (7, 162, 174-178) no están validados como transmisión.
 
 Los cambios que no recaen en un artículo (p. ej. epígrafes de capítulos) no son aristas: están en
 `datos/derivados/modificaciones_no_articulo.csv`.
