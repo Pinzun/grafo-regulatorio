@@ -34,14 +34,15 @@ ARCHIVOS = {
 # Artículo de cada ley que contiene las modificaciones al DFL 4 (se valida por regex abajo).
 MODIFICATORIAS = {"ley_21721_2024": "art_unico", "ley_20936_2016": "art_1"}
 
-VERBOS = {
-    "reemplaza": r"reempl[aá]z(?:a|ase|ese)|sustit[uú]y(?:e|ese)",
-    "agrega": r"agr[eé]g(?:a|ase|uese)|incorp[oó]r(?:a|ase|ese)|interc[aá]l(?:a|ase|ese)|a[nñ][aá]d(?:e|ese)",
-    "elimina": r"elim[ií]n(?:a|ase|ese)|supr[ií]m(?:e|ese)|der[oó]g(?:a|ase|uese)",
-    "modifica_contenedor": r"modif[ií]c(?:a|ase|ese)",
+VERBOS = {  # singular e impersonal plural ("Reemplázase" / "Reemplázanse")
+    "reemplaza": r"reempl[aá]z(?:a|ase|anse|ese|ense)|sustit[uú]y(?:e|ese|ense)",
+    "agrega": r"agr[eé]g(?:a|ase|anse|uese|uense)|incorp[oó]r(?:a|ase|anse|ese|ense)|interc[aá]l(?:a|ase|anse|ese|ense)|a[nñ][aá]d(?:e|ese|ense)",
+    "elimina": r"elim[ií]n(?:a|ase|anse|ese|ense)|supr[ií]m(?:e|ese|ense)|der[oó]g(?:a|ase|anse|uese|uense)",
+    "modifica_contenedor": r"modif[ií]c(?:a|ase|anse|ese|ense)",
 }
 RE_VERBO = re.compile(r"\b(" + "|".join(VERBOS.values()) + r")\b", re.I)
-RE_ART = re.compile(r"art[íi]culos?\s+(\d+)\s*[°º]?\s*(?:-\s*(\d+))?\s*(bis|ter|qu[aá]ter)?\b", re.I)
+SUFIJOS = r"bis|ter|qu[aá]ter|quinquies|sexies|septies|octies|nonies|decies"
+RE_ART = re.compile(r"art[íi]culos?\s+(\d+)\s*[°º]?\s*(?:-\s*(\d+))?\s*(" + SUFIJOS + r")?\b", re.I)
 RE_ITEM = re.compile(r'^\s*(\d+)[\.\)]\s+(.*)', re.S)
 RE_LIT = re.compile(r'^\s*([a-zñ])\)\s+(.*)', re.S)
 
@@ -106,7 +107,7 @@ def indice_dfl4():
     for ef, txt, nombre in partes(root):
         if ef.attrib.get("tipoParte") != "Artículo" or ef.attrib.get("transitorio") == "transitorio":
             continue
-        n = nombre.lower().replace("º", "").replace("°", "")
+        n = nombre.lower().replace("º", "").replace("°", "").replace("á", "a")
         n = re.sub(r"\s*-\s*", "-", re.sub(r"\s+", " ", n)).strip()
         idx[n] = {
             "id_parte": ef.attrib["idParte"], "fecha_version_bcn": ef.attrib.get("fechaVersion", PC),
@@ -148,28 +149,88 @@ def vigencia_de(clave, reglas):
     return hits
 
 
+# ---------------------------------------------------------------- texto completo desde el PDF oficial
+PDF_DIR = "datos/raw/pdf"
+LETRAS = "abcdefghijklmnñopqrstuvwxyz"
+ROMANOS = ["i", "ii", "iii", "iv", "v", "vi", "vii", "viii", "ix", "x", "xi", "xii"]
+
+
+def solo_letras(s):
+    return re.sub(r"[^0-9a-záéíóúñü]+", "", s.lower())
+
+
+def pdf_de(id_bcn):
+    """Markdown (sin notas BCN), url, sha256 y fecha del PDF oficial registrado en descargas_pdf.csv."""
+    reg = os.path.join(PDF_DIR, "descargas_pdf.csv")
+    if not os.path.exists(reg):
+        return None
+    with open(reg, encoding="utf-8") as f:
+        fila = next((r for r in csv.DictReader(f) if r["id_norma"] == id_bcn), None)
+    if fila is None:
+        return None
+    md = os.path.join(PDF_DIR, fila["archivo"][:-4] + ".md")
+    texto = open(md, encoding="utf-8").read()
+    return {"md": texto, "cuerpo": re.sub(r"(?m)^> \[nota BCN\].*\n?", "", texto),
+            "url": fila["url"], "sha256": fila["sha256"], "fecha": fila["fecha_descarga"], "archivo": md}
+
+
+def articulo_en_pdf(cuerpo, texto_xml, texto_siguiente_xml):
+    """Texto completo del artículo cuyo comienzo es `texto_xml` (truncado): desde el párrafo que contiene
+    el inicio del XML hasta el párrafo donde empieza la parte siguiente del XML (`texto_siguiente_xml`).
+    No se usa la paridad de comillas porque el artículo viene entre comillas envolventes que no se
+    anidan con las de los textos que inserta. Exige que el XML sea prefijo exacto (solo letras)."""
+    def ini(t):
+        return solo_letras(t)[:80]
+    pars = [p.strip() for p in re.split(r"\n\s*\n", cuerpo) if p.strip()]
+    k = next((n for n, p in enumerate(pars) if solo_letras(p).startswith(ini(texto_xml))), None)
+    if k is None:
+        return None
+    fin = next((n for n in range(k + 1, len(pars)) if solo_letras(pars[n]).startswith(ini(texto_siguiente_xml))), None)
+    if fin is None:
+        raise SystemExit("No se encontró en el PDF el comienzo de la parte siguiente del XML")
+    texto = "\n\n".join(pars[k:fin])
+    if not solo_letras(texto).startswith(solo_letras(texto_xml)):
+        raise SystemExit("El texto del PDF no coincide con el XML (¿otra versión?): revise datos/raw/pdf")
+    return texto
+
+
 # ---------------------------------------------------------------- parser de numerales
 def numerales(texto):
-    """Devuelve numerales de primer nivel (fuera de texto citado, numeración correlativa)
-    con sus literales y el texto citado que insertan. Detecta truncamiento (comillas impares)."""
-    items, actual, comillas, esperado = [], None, 0, 1
-    # El artículo modificatorio suele venir entero entre comillas ("Artículo único.- ... ").
-    # Se quita esa comilla envolvente para que la paridad distinga texto citado de numerales.
-    texto = re.sub(r'^\s*"', "", texto, count=1)
+    """Árbol de numerales de primer nivel (fuera de texto citado, numeración correlativa), con literales
+    a), b)… y sub-literales romanos i), ii)…, y el texto citado que insertan. Un numeral sin verbo
+    ("En el artículo 96°:") es contenedor de sus literales."""
+    items, actual, lit, comillas, esperado = [], None, None, 0, 1
+    texto = re.sub(r'^\s*"', "", texto, count=1)  # comilla envolvente del artículo modificatorio
     truncado = not re.search(r'[.;:"”]\s*$', texto)
     for p in parrafos(texto):
         fuera = comillas % 2 == 0
         m = RE_ITEM.match(p) if fuera else None
-        if m and int(m.group(1)) == esperado and RE_VERBO.search(m.group(2)[:60]):
+        if m and int(m.group(1)) == esperado and (
+                RE_VERBO.search(sin_citas(m.group(2))[:90]) or re.match(r"En (el|los) art[íi]culos?\b", m.group(2))):
             actual = {"n": esperado, "texto": m.group(2), "literales": [], "citado": []}
             items.append(actual)
-            esperado += 1
-        elif actual is not None:
-            ml = RE_LIT.match(p) if fuera else None
-            if ml and RE_VERBO.search(ml.group(2)[:40]):
-                actual["literales"].append({"l": ml.group(1), "texto": ml.group(2)})
-            elif not fuera or p.startswith('"'):
-                actual["citado"].append(p)
+            lit, esperado = None, esperado + 1
+            comillas += p.count('"')
+            continue
+        # literal "a)"; sub-literal romano "i)" o "i." (las letras siempre llevan paréntesis)
+        ml = re.match(r"^\s*([a-zñ]\)|[ivx]+[.)])\s+(.*)", p, re.S) if (fuera and actual) else None
+        if ml and (RE_VERBO.search(sin_citas(ml.group(2))[:90]) or ml.group(2).rstrip().endswith(":")):
+            tok = ml.group(1)[:-1]
+            if ml.group(1).endswith(".") and tok not in ROMANOS:
+                tok = None
+            sig_letra = LETRAS[LETRAS.index(actual["literales"][-1]["l"]) + 1] if actual["literales"] else "a"
+            sig_romano = ROMANOS[len(lit["sub"])] if lit is not None and len(lit["sub"]) < len(ROMANOS) else None
+            if tok == sig_letra and not (lit is not None and lit["sub"] and tok == sig_romano):
+                lit = {"l": tok, "texto": ml.group(2), "sub": []}
+                actual["literales"].append(lit)
+                comillas += p.count('"')
+                continue
+            if lit is not None and tok == sig_romano:
+                lit["sub"].append({"l": tok, "texto": ml.group(2)})
+                comillas += p.count('"')
+                continue
+        if actual is not None and (not fuera or p.startswith('"')):
+            actual["citado"].append(p)
         comillas += p.count('"')
     return items, truncado
 
@@ -199,23 +260,51 @@ def destino_en(frase):
     return None, None
 
 
+def destinos_plurales(frase):
+    """'Suprímense los artículos 137° y 138°' -> ['137', '138']; None si no es plural."""
+    s = sin_citas(frase)
+    m = re.search(r"\bart[íi]culos\s+((?:\d+\s*[°º]?\s*(?:-\s*\d+)?\s*(?:" + SUFIJOS + r")?\s*(?:,|y)?\s*)+)", s, re.I)
+    if not m:
+        return None
+    return [clave_art(a, b, c) for a, b, c in re.findall(
+        r"(\d+)\s*[°º]?\s*(?:-\s*(\d+))?\s*(" + SUFIJOS + r")?", m.group(1), re.I)]
+
+
 # ---------------------------------------------------------------- extracción
 def extraer_ley(norma, dfl4, fecha_consulta):
     root = cargar(norma)
     meta = ident(root)
-    parte = next(ef for ef, txt, _ in partes(root)
-                 if re.search(r"Introd[uú]cense las siguientes modificaciones en el decreto con fuerza de ley N\s*°\s*4/20\.?018",
-                              norm_ws(txt)[:250]))
-    texto = parte.findtext(NS + "Texto")
+    todas = list(partes(root))
+    k = next(n for n, (ef, txt, _) in enumerate(todas)
+             if re.search(r"Introd[uú]cense las siguientes modificaciones en el decreto con fuerza de ley N\s*°\s*4/20\.?018",
+                          norm_ws(txt)[:250]))
+    parte = todas[k][0]
+    texto_xml = parte.findtext(NS + "Texto")
+    texto_sig = todas[k + 1][1] if k + 1 < len(todas) else ""
     id_parte = parte.attrib["idParte"]
     origen = f"{norma}__{MODIFICATORIAS[norma]}"
-    url = f"https://www.leychile.cl/Consulta/obtxml?opt=7&idNorma={meta['id_bcn']}"
+    url_xml = f"https://www.leychile.cl/Consulta/obtxml?opt=7&idNorma={meta['id_bcn']}"
     reglas = reglas_vigencia(root)
+    _, truncado_xml = numerales(texto_xml)
+    pdf = pdf_de(meta["id_bcn"]) if truncado_xml else None
+    texto = articulo_en_pdf(pdf["cuerpo"], texto_xml, texto_sig) if pdf else None
+    usa_pdf = texto is not None
+    texto = texto or texto_xml
+    xml_letras = solo_letras(texto_xml)
     items, truncado = numerales(texto)
     filas, arts = [], {}
 
-    def fila(destino, tipo, detalle, estado, obs):
-        obs = list(obs)
+    def fuente(it):
+        """El numeral se cita al XML si está completo en él; si no, al PDF oficial."""
+        bloque = " ".join([it["texto"]] + [l["texto"] for l in it["literales"]] + it["citado"])
+        if not usa_pdf or solo_letras(bloque) in xml_letras:
+            return url_xml, fecha_consulta, []
+        return pdf["url"], pdf["fecha"], [f"texto del PDF oficial Ley Chile (sha256 {pdf['sha256'][:12]}…); "
+                                          "el XML BCN está truncado en este punto"]
+
+    def fila(it, destino, tipo, detalle, estado, obs):
+        url, fecha, obs_f = fuente(it)
+        obs = list(obs) + obs_f
         info = dfl4.get(destino)
         if info is None:
             obs.append("artículo no encontrado en el XML vigente del DFL 4")
@@ -233,10 +322,31 @@ def extraer_ley(norma, dfl4, fecha_consulta):
             "origen": origen, "relacion": "modifica", "destino": id_art("ley_dfl4_2006", destino),
             "tipo_cambio": tipo, "detalle": detalle[:300],
             "fecha_vigencia": meta["fecha_publicacion"], "base_vigencia": base,
-            "fuente_url": url, "fuente_id_parte": id_parte, "fecha_consulta": fecha_consulta,
-            "estado": estado, "observaciones": " | ".join(obs),
+            "fuente_url": url, "fuente_id_parte": id_parte, "fecha_consulta": fecha,
+            "estado": estado, "observaciones": " | ".join(obs), "_numeral": it["n"],
         })
         arts[destino] = True
+
+    def sin_resolver(it, detalle):
+        url, fecha, obs_f = fuente(it)
+        filas.append({"origen": origen, "relacion": "modifica", "destino": PC, "tipo_cambio": PC,
+                      "detalle": detalle[:300], "fecha_vigencia": PC, "base_vigencia": PC,
+                      "fuente_url": url, "fuente_id_parte": id_parte, "fecha_consulta": fecha,
+                      "estado": "inferida", "_numeral": it["n"],
+                      "observaciones": " | ".join(["motivo: no se pudo determinar artículo o verbo"] + obs_f)})
+
+    def emitir(it, texto_hoja, etiqueta, dest_heredado):
+        d, kind = destino_en(texto_hoja)
+        d = d or dest_heredado
+        acc = [(t, v) for t, v in acciones(texto_hoja) if t != "modifica_contenedor"]
+        if not acc or not d:
+            sin_resolver(it, etiqueta + texto_hoja)
+            return
+        for tipo, verbo in acc:
+            plurales = destinos_plurales(texto_hoja) if tipo == "elimina" else None
+            for dd in plurales or [d]:
+                obs = ["artículo nuevo"] if kind == "nuevo" else []
+                fila(it, dd, tipo, f"{etiqueta}[{verbo}]: {texto_hoja}", "verificada", obs)
 
     for it in items:
         cab = it["texto"]
@@ -258,37 +368,30 @@ def extraer_ley(norma, dfl4, fecha_consulta):
                 if tipo0 == "agrega" and re.search(r"nuevo", sin_citas(cab), re.I):
                     obs = [f"artículo contenido en el {titulo} nuevo que se intercala"]
                     if ultimo:
-                        obs.append("texto del artículo truncado en el XML BCN")
-                    fila(a, "agrega", etiqueta + cab, "inferida" if ultimo else "verificada", obs)
+                        obs.append("texto del artículo truncado en la fuente")
+                    fila(it, a, "agrega", etiqueta + cab, "inferida" if ultimo else "verificada", obs)
                 else:
                     obs = [f"motivo: el N° {it['n']} sustituye el {titulo} completo; el texto no indica "
                            "correspondencia artículo a artículo (el artículo aparece en el texto sustituto)"]
                     if truncado and it is items[-1]:
-                        obs.append("XML BCN truncado dentro de este numeral: lista de artículos incompleta")
-                    if ultimo:
-                        obs.append("texto del artículo truncado en el XML BCN")
-                    fila(a, "reemplaza", etiqueta + cab, "inferida", obs)
+                        obs.append("fuente truncada dentro de este numeral: lista de artículos incompleta")
+                    fila(it, a, "reemplaza", etiqueta + cab, "inferida", obs)
             continue
-        if tipo0 == "modifica_contenedor" and it["literales"]:
+        if it["literales"]:
             for lit in it["literales"]:
-                d2, _ = destino_en(lit["texto"])
-                d2 = d2 or dest
-                for tipo, verbo in acciones(lit["texto"]):
-                    if tipo == "modifica_contenedor":
-                        continue
-                    fila(d2, tipo, f"N° {it['n']} letra {lit['l']}) [{verbo}]: {lit['texto']}", "verificada", [])
+                d_lit = destino_en(lit["texto"])[0] or dest
+                if lit["sub"]:
+                    for sub in lit["sub"]:
+                        emitir(it, sub["texto"], f"N° {it['n']} letra {lit['l']}) {sub['l']}) ", d_lit)
+                else:
+                    emitir(it, lit["texto"], f"N° {it['n']} letra {lit['l']}) ", dest)
             continue
         if dest and tipo0 in ("reemplaza", "agrega", "elimina"):
-            obs = []
-            if kind == "nuevo":
-                obs.append("artículo nuevo")
-            fila(dest, tipo0, etiqueta + cab, "verificada", obs)
+            emitir(it, cab, etiqueta, dest)
         else:
-            filas.append({"origen": origen, "relacion": "modifica", "destino": PC, "tipo_cambio": PC,
-                          "detalle": (etiqueta + cab)[:300], "fecha_vigencia": PC, "base_vigencia": PC,
-                          "fuente_url": url, "fuente_id_parte": id_parte, "fecha_consulta": fecha_consulta,
-                          "estado": "inferida", "observaciones": "motivo: no se pudo determinar artículo o verbo"})
+            sin_resolver(it, etiqueta + cab)
     resumen = {"norma": norma, "id_parte": id_parte, "numerales": len(items), "truncado": truncado,
+               "truncado_xml": truncado_xml, "texto_pdf": usa_pdf,
                "fecha_version_bcn": parte.attrib.get("fechaVersion", PC), "derogado": parte.attrib.get("derogado", PC),
                "ultimo_numeral": items[-1]["n"] if items else None}
     return filas, list(arts), origen, id_parte, norm_ws(texto), resumen
@@ -358,6 +461,83 @@ def aplicar_revisiones(filas):
     return out
 
 
+def notas_bcn_dfl4():
+    """Notas al margen de la BCN en el PDF del DFL 4, por artículo permanente:
+    ({clave_articulo: [nota, ...]}, [claves en orden del texto]). Se corta en 'Disposiciones Transitorias'."""
+    pdf = pdf_de("258171")
+    if pdf is None:
+        return {}, []
+    md = pdf["md"].split("\nDisposiciones Transitorias\n")[0]
+    notas, actual, orden = {}, None, []
+    for ln in md.splitlines():
+        m = re.match(r'^Art[íi]culo\s+(\d+)\s*[°º]?\s*(?:-\s*(\d+))?\s*(' + SUFIJOS + r')?\s*\.\s*-', ln, re.I)
+        if m:
+            actual = clave_art(*m.groups())
+            orden.append(actual)
+        elif ln.startswith("> [nota BCN] ") and actual:
+            notas.setdefault(actual, []).append(ln[len("> [nota BCN] "):].strip())
+    return notas, orden
+
+
+RE_NOTA = re.compile(r"Ley\s+(\d{5})\s+Art\.\s*(\S+?)\s+N[°º]\s*(\d+)", re.I)
+LEY_DE = {"ley_20936_2016": "20936", "ley_21721_2024": "21721"}
+
+
+def contrastar_notas(filas):
+    """Corrobora cada arista modifica con las notas BCN del DFL 4 (mismo artículo, ley y numeral) y
+    escribe datos/derivados/contraste_notas_bcn.csv con las diferencias en ambos sentidos.
+    Las notas son anotaciones de la BCN, no texto de la norma: corroboran, no crean aristas."""
+    notas, orden = notas_bcn_dfl4()
+    if not notas:
+        return
+    pos = {a: i for i, a in enumerate(orden)}
+
+    def vecinos(art):
+        i = pos.get(art)
+        return [] if i is None else [orden[j] for j in (i - 1, i + 1) if 0 <= j < len(orden)]
+    idx = {}  # (ley, articulo, numeral) -> nota
+    for art, ns in notas.items():
+        for n in ns:
+            for m in RE_NOTA.finditer(n):
+                idx.setdefault((m.group(1), art, int(m.group(3))), n)
+    vistos, usados, sin_nota = set(), set(), set()
+    for r in filas:
+        ley = LEY_DE.get(r["origen"].split("__")[0])
+        if r["relacion"] != "modifica" or not ley or r["destino"] == PC:
+            continue
+        art = r["destino"].split("__art_")[1].replace("_", " ")
+        k = (ley, art, r.get("_numeral"))
+        vistos.add(k)
+        if k in idx:
+            usados.add(k)
+            r["observaciones"] = " | ".join(x for x in (r["observaciones"], f"corroborado por nota BCN del DFL 4: '{idx[k]}'") if x)
+        else:
+            kv = next(((ley, v, k[2]) for v in vecinos(art) if (ley, v, k[2]) in idx), None)
+            if kv:
+                usados.add(kv)
+                r["observaciones"] = " | ".join(x for x in (r["observaciones"],
+                    f"corroborado por nota BCN del DFL 4 en artículo contiguo ({kv[1]}): '{idx[kv]}'") if x)
+            else:
+                sin_nota.add(k)
+    out = []
+    for (ley, art, num), n in sorted(idx.items(), key=lambda kv: (kv[0][0], kv[0][2], kv[0][1])):
+        if ley in LEY_DE.values() and (ley, art, num) not in usados:
+            out.append({"ley": ley, "articulo_dfl4": art, "numeral": num, "tipo": "nota_sin_arista",
+                        "nota_bcn": n, "comentario": "la BCN anota este cambio y no se extrajo arista; revisar"})
+    for (ley, art, num) in sorted(sin_nota, key=lambda k: (k[0], k[2] or 0, k[1])):
+        if True:
+            out.append({"ley": ley, "articulo_dfl4": art, "numeral": num, "tipo": "arista_sin_nota", "nota_bcn": "",
+                        "comentario": "sin nota BCN en el texto vigente (puede haberse reemplazado después)"})
+    with open("datos/derivados/contraste_notas_bcn.csv", "w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=["ley", "articulo_dfl4", "numeral", "tipo", "nota_bcn", "comentario"])
+        w.writeheader()
+        w.writerows(out)
+    from collections import Counter as C
+    print("contraste notas BCN:", dict(C((o["ley"], o["tipo"]) for o in out)),
+          "| corroboradas:", sum("corroborado por nota BCN" in r["observaciones"] for r in filas),
+          "(contiguas:", sum("artículo contiguo" in r["observaciones"] for r in filas), ")")
+
+
 def main():
     with open(os.path.join(RAW, "descargas.csv"), encoding="utf-8") as f:
         consultas = {r["nodo"]: r["fecha_consulta"] for r in csv.DictReader(f)}
@@ -384,7 +564,8 @@ def main():
                       "url_fuente": f"https://www.bcn.cl/leychile/navegar?idNorma={ident(cargar(norma))['id_bcn']}&idParte={idp}",
                       "fecha_version_bcn": res["fecha_version_bcn"], "vigente_desde": PC, "vigente_hasta": "",
                       "derogado": res["derogado"],
-                      "estado_extraccion": "xml_bcn_truncado" if res["truncado"] else "xml_bcn",
+                      "estado_extraccion": ("pdf_bcn_texto_completo (xml truncado)" if res["texto_pdf"]
+                                            else "xml_bcn_truncado" if res["truncado"] else "xml_bcn"),
                       "texto": texto})
     for a in sorted(arts_dfl4, key=lambda k: [int(x) if x.isdigit() else x for x in re.split(r"[- ]", k)]):
         info = dfl4.get(a)
@@ -421,11 +602,13 @@ def main():
     for r in filas:
         r["metodo"] = "regla"  # lo extraído por este script es determinista (XML + regex)
         assert r["fuente_url"] and r["fuente_id_parte"], f"relación sin fuente: {r}"
+    os.makedirs("datos/derivados", exist_ok=True)
+    contrastar_notas(filas)
     filas = aplicar_revisiones(filas)
     campos = ["origen", "relacion", "destino", "tipo_cambio", "detalle", "fecha_vigencia", "base_vigencia",
               "fuente_url", "fuente_id_parte", "fecha_consulta", "estado", "metodo", "observaciones"]
     with open(os.path.join(ONT, "relaciones.csv"), "w", newline="", encoding="utf-8") as f:
-        w = csv.DictWriter(f, fieldnames=campos)
+        w = csv.DictWriter(f, fieldnames=campos, extrasaction="ignore")
         w.writeheader()
         w.writerows(filas)
 
@@ -456,27 +639,35 @@ def main():
     with open(path, encoding="utf-8") as f:
         normas = list(csv.DictReader(f))
     extra = ["fecha_promulgacion", "fecha_publicacion", "estado_vigencia", "titulo", "organismo_bcn",
-             "tipo_numero_bcn", "cobertura", "modificaciones_pendientes", "articulos_truncados"]
+             "tipo_numero_bcn", "cobertura", "modificaciones_pendientes", "articulos_truncados",
+             "articulos_truncados_recuperados_pdf", "pdf_sha256"]
     cn = list(normas[0].keys()) + [c for c in extra if c not in normas[0]]
     for n in normas:
         root = cargar(n["id"])
         m = ident(root)
-        trunc = [ef.attrib["idParte"] for ef, txt, _ in partes(root)
-                 if ef.attrib.get("tipoParte") == "Artículo" and texto_truncado(txt)]
+        pdf = pdf_de(m["id_bcn"])
+        pdf_letras = solo_letras(pdf["cuerpo"]) if pdf else ""
+        trunc, recup = [], []
+        for ef, txt, _ in partes(root):
+            if ef.attrib.get("tipoParte") == "Artículo" and texto_truncado(txt):
+                # recuperado si el texto truncado del XML aparece en el PDF oficial (que lo continúa)
+                (recup if pdf and solo_letras(txt) in pdf_letras else trunc).append(ef.attrib["idParte"])
         pend = pendientes.get(n["id"], 0)
         n.update({"id_bcn": m["id_bcn"], "url_fuente": f"https://www.bcn.cl/leychile/navegar?idNorma={m['id_bcn']}",
                   "fecha_promulgacion": m["fecha_promulgacion"], "fecha_publicacion": m["fecha_publicacion"],
                   "estado_vigencia": m["derogado"], "titulo": m["titulo"], "organismo_bcn": m["organismo_bcn"],
                   "tipo_numero_bcn": m["tipo_numero_bcn"], "estado_extraccion": "id_bcn_verificado_en_xml",
                   "cobertura": "parcial" if pend or trunc else "completa",
-                  "modificaciones_pendientes": str(pend), "articulos_truncados": ";".join(trunc)})
+                  "modificaciones_pendientes": str(pend), "articulos_truncados": ";".join(trunc),
+                  "articulos_truncados_recuperados_pdf": ";".join(recup),
+                  "pdf_sha256": pdf["sha256"] if pdf else ""})
     with open(path, "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=cn)
         w.writeheader()
         w.writerows(normas)
     for n in normas:
         print(f"cobertura {n['id']}: {n['cobertura']} (pendientes={n['modificaciones_pendientes']}, "
-              f"truncados={n['articulos_truncados'] or '-'})")
+              f"truncados={n['articulos_truncados'] or '-'}, recuperados del PDF={n['articulos_truncados_recuperados_pdf'] or '-'})")
 
     for r in resumenes:
         print(r)
