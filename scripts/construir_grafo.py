@@ -4,6 +4,8 @@ Uso (desde la raíz del repo, con el Python del .venv donde está graphifyy):
     .venv/bin/python scripts/construir_grafo.py
     .venv/bin/graphify export html     # visualización graphify-out/graph.html
 
+Al final regenera datos/derivados/bloque_transmision.csv y textos/ (scripts/generar_textos.py).
+
 Pasos: valida y convierte con scripts/csv_a_graphify.py -> build_from_json(directed=True,
 dedup=False) -> comunidades -> graph.json + GRAPH_REPORT.md.
 
@@ -124,6 +126,13 @@ def main():
     print("Relaciones:", dict(Counter(d["relation"] for _, _, d in G.edges(data=True))))
     for cid, lab in labels.items():
         print(f"  comunidad {cid}: {lab} ({len(communities[cid])} nodos)")
+
+    # Textos por artículo: se regeneran junto con el grafo, desde los mismos CSV (primero el bloque,
+    # del que dependen). Sin LLM.
+    for script in ("bloque_transmision.py", "generar_textos.py"):
+        r = subprocess.run([sys.executable, "-I", str(RAIZ / "scripts" / script)], cwd=RAIZ)
+        if r.returncode:
+            raise SystemExit(f"{script} falló")
 
 
 if __name__ == "__main__":
