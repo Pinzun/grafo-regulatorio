@@ -76,6 +76,18 @@ Usa `.venv/bin/graphify` con los nombres de nodo exactos (etiquetas), por ejempl
 - Lee los atributos de la arista: `estado` (verificada/inferida), `metodo` (regla/llm/manual),
   `observaciones` (motivo si es inferida) y `source_location` (idParte en la BCN). Cita idParte al responder.
 
+## Textos por artículo (`textos/`)
+
+`textos/dfl4/art_<número>.md` (p. ej. `art_91_bis.md`, `art_72-1.md`) trae, por artículo del DFL 4:
+encabezado (versión BCN, idParte, vigencia, cobertura de la historia, bloque), **texto vigente íntegro**
+(indica si viene del XML o del PDF), historia de modificaciones ordenada por fecha y el **numeral literal**
+de cada ley modificatoria. `textos/indice.md` lista todos los artículos (primero el bloque validado) con
+avisos. Para citar el texto de un artículo o de una modificación, léelo de ahí en vez de resumir de memoria.
+Se regeneran solos con `construir_grafo.py`; no los edites a mano.
+
+Los arts. 188 y 189 dicen solo "Eliminado." en el texto consolidado (Ley 21.194, fuera del grafo) aunque el
+XML BCN no los marca derogados: trátalos como eliminados.
+
 ## No hacer
 
 - **No ejecutes `/graphify .` ni el pipeline completo de Graphify en este repo.** Extrae con LLM y
@@ -102,8 +114,7 @@ marker queda solo para documentos escaneados.
 ```bash
 python3 -I scripts/extraer_modificaciones.py   # XML/PDF -> relaciones.csv, nodos_*.csv, derivados
 python3 -I scripts/preparar_revision.py        # agrega aristas inferidas nuevas a revisiones_manuales.csv
-python3 -I scripts/bloque_transmision.py       # actualiza el bloque (conserva la validación del usuario)
-.venv/bin/python scripts/construir_grafo.py    # valida contra la ontología y construye el grafo
+.venv/bin/python scripts/construir_grafo.py    # valida, construye el grafo y regenera bloque y textos/
 .venv/bin/graphify export html                 # graphify-out/graph.html
 ```
 
