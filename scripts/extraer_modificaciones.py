@@ -34,14 +34,17 @@ ARCHIVOS = {
     "ley_21505_2022": "ley_21505_2022__idNorma_1184572.xml",
     "ley_21582_2023": "ley_21582_2023__idNorma_1194043.xml",
     "ley_21833_2026": "ley_21833_2026__idNorma_1226550.xml",
+    "ley_21472_2022": "ley_21472_2022__idNorma_1179524.xml",
+    "ley_21667_2024": "ley_21667_2024__idNorma_1203005.xml",
 }
 # Artículo de cada ley que contiene las modificaciones al DFL 4 (se valida por regex abajo).
 MODIFICATORIAS = {"ley_21721_2024": "art_unico", "ley_20936_2016": "art_1", "ley_21804_2026": "art_unico",
-                  "ley_21505_2022": "art_unico", "ley_21582_2023": "art_10", "ley_21833_2026": "art_1"}
+                  "ley_21505_2022": "art_unico", "ley_21582_2023": "art_10", "ley_21833_2026": "art_1",
+                  "ley_21472_2022": "art_1", "ley_21667_2024": "art_primero"}
 
 VERBOS = {  # singular e impersonal plural ("Reemplázase" / "Reemplázanse")
     "reemplaza": r"reempl[aá]z(?:a|ase|anse|ese|ense)|sustit[uú]y(?:e|ese|ense)",
-    "agrega": r"agr[eé]g(?:a|ase|anse|uese|uense)|incorp[oó]r(?:a|ase|anse|ese|ense)|interc[aá]l(?:a|ase|anse|ese|ense)|a[nñ][aá]d(?:e|ese|ense)",
+    "agrega": r"agr[eé]g(?:a|ase|anse|uese|uense)|incorp[oó]r(?:a|ase|anse|ese|ense)|interc[aá]l(?:a|ase|anse|ese|ense)|a[nñ][aá]d(?:e|ese|ense)|introd[uú]c(?:e|ese|ense)",
     "elimina": r"elim[ií]n(?:a|ase|anse|ese|ense)|supr[ií]m(?:e|ese|ense)|der[oó]g(?:a|ase|anse|uese|uense)",
     "modifica_contenedor": r"modif[ií]c(?:a|ase|anse|ese|ense)",
 }
@@ -231,22 +234,25 @@ def numerales(texto):
             continue
         if actual is not None:
             actual["todos"].append(p)
-        # literal "a)"; sub-literal romano "i)" o "i." (las letras siempre llevan paréntesis)
-        # tolera la errata "a )" (espacio antes del paréntesis) presente en el texto oficial
-        ml = re.match(r"^\s*([a-zñ]\s?\)|[ivx]+[.)])\s+(.*)", p, re.S) if (fuera and actual) else None
+        # Literales "a)" o "a." y sub-literales romanos "i)" o "i.". El primer literal del numeral fija el
+        # estilo de las letras (")" en casi todas las leyes, "." en la 21.667); un romano usa el otro estilo
+        # o sigue a otros romanos. Así "h) … i." (21.505) es romano y "a. b. c." (21.667) son letras.
+        # Tolera la errata "a )" (espacio antes del paréntesis) presente en el texto oficial.
+        ml = re.match(r"^\s*([a-zñ]\s?[.)]|[ivx]+[.)])\s+(.*)", p, re.S) if (fuera and actual) else None
         if ml and (RE_VERBO.search(sin_citas(ml.group(2))[:90]) or ml.group(2).rstrip().endswith(":")):
-            tok = ml.group(1)[:-1].strip()
-            if ml.group(1).endswith(".") and tok not in ROMANOS:
-                tok = None
+            tok, punt = ml.group(1)[:-1].strip(), ml.group(1)[-1]
+            estilo = actual["literales"][0]["estilo"] if actual["literales"] else None
             sig_letra = LETRAS[LETRAS.index(actual["literales"][-1]["l"]) + 1] if actual["literales"] else "a"
             sig_romano = ROMANOS[len(lit["sub"])] if lit is not None and len(lit["sub"]) < len(ROMANOS) else None
-            solo_romano = ml.group(1).endswith(".")  # "i." con punto siempre es romano (Ley 21.505 N° 5 h)
-            if tok == sig_letra and not solo_romano and not (lit is not None and lit["sub"] and tok == sig_romano):
-                lit = {"l": tok, "texto": ml.group(2), "sub": []}
+            es_letra = tok == sig_letra and (punt == estilo or (estilo is None and tok == "a"))
+            # romano si usa otro estilo, si ya hay romanos, o si no puede ser la letra siguiente ("a) … i)")
+            es_romano = lit is not None and tok == sig_romano and (punt != estilo or bool(lit["sub"]) or tok != sig_letra)
+            if es_letra and not (es_romano and lit["sub"]):
+                lit = {"l": tok, "texto": ml.group(2), "sub": [], "estilo": punt}
                 actual["literales"].append(lit)
                 comillas += p.count('"')
                 continue
-            if lit is not None and tok == sig_romano:
+            if es_romano:
                 lit["sub"].append({"l": tok, "texto": ml.group(2)})
                 comillas += p.count('"')
                 continue
@@ -263,6 +269,9 @@ def acciones(frase):
     for m in RE_VERBO.finditer(s):
         v = m.group(1).lower()
         tipo = next(t for t, rx in VERBOS.items() if re.fullmatch(rx, v, re.I))
+        # "Introdúcense las siguientes modificaciones…" es un encabezado contenedor, no una inserción
+        if v.startswith("introd") and re.match(r"\s+(?:en\s+\S+(?:\s+\S+){0,6}\s+)?las\s+siguientes\s+modificaciones", s[m.end():], re.I):
+            tipo = "modifica_contenedor"
         out.append((tipo, v))
     return out
 
