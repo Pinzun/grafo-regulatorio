@@ -1,7 +1,7 @@
 # Grafo regulatorio del sector eléctrico (piloto)
 
-Grafo de conocimiento de normativa eléctrica chilena: DFL 4 (LGSE), Ley 20.936, Ley 21.721 y
-Res. Ex. 156/2025. La fuente de verdad es `ontologia/ontologia.md`: no inventes tipos de nodo ni de
+Grafo de conocimiento de normativa eléctrica chilena: DFL 4 (LGSE), Ley 20.936, Ley 21.721,
+Ley 21.804 (2026, sistemas medianos) y Res. Ex. 156/2025. La fuente de verdad es `ontologia/ontologia.md`: no inventes tipos de nodo ni de
 relación; si hace falta uno nuevo, pregúntalo.
 
 ## Cobertura
@@ -15,7 +15,15 @@ nodo), **adviértelo siempre** al responder qué artículos modificó, y mencion
 Los arts. 73-122 del DFL 4 tienen su texto base en la Ley 20.936 (el N° 4 sustituye el Título III
 completo); 52 aristas `metodo=manual`, revisadas por el usuario el 2026-11-25. Varios fueron modificados
 después por otras leyes (en el piloto, la Ley 21.721: arts. 77, 87, 91, 95, 96, 99, 102, 114 y 115; según las
-notas BCN también las leyes 21.804 y 21.582, que aún no están en el grafo).
+notas BCN también otras leyes). La Ley 21.804 modifica los arts. 72-1, 72-10, 83, 84 bis y 85 de
+transmisión y gran parte del régimen de sistemas medianos (Título I bis, arts. 130-199 bis, 225).
+
+Fuera del grafo (según notas BCN del DFL 4) aún hay leyes que modifican artículos de transmisión:
+21.505 (arts. 72-2, 72-17, 72-18), 21.582 (arts. 97, 98) y 21.833 (art. 72-9). Si preguntan por esos
+artículos, advierte que su historia de modificaciones está incompleta.
+
+Los cambios que no recaen en un artículo (p. ej. epígrafes de capítulos) no son aristas: están en
+`datos/derivados/modificaciones_no_articulo.csv`.
 
 Un artículo puede tener varias aristas `modifica` entrantes, una por ley. Para su historia, ordénalas por
 el atributo `fecha_vigencia` de la arista (está en `graph.json`; `explain` no lo muestra).
