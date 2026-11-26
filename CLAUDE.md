@@ -1,15 +1,19 @@
 # Grafo regulatorio del sector eléctrico (piloto)
 
-Grafo de conocimiento de normativa eléctrica chilena: DFL 4 (LGSE), Ley 20.936, Ley 21.721,
-Ley 21.804 (2026, sistemas medianos), Ley 21.505 (2022, almacenamiento y electromovilidad),
-Ley 21.582 (2023, notarios; su art. 10 modifica la LGSE), Ley 21.833 (2026, protección tarifaria),
-Ley 21.472 (2022, Fondo de Estabilización de Tarifas), Ley 21.667 (2024, estabilización tarifaria)
-y Res. Ex. 156/2025. La fuente de verdad es `ontologia/ontologia.md`: no inventes tipos de nodo ni de
+Grafo de conocimiento de normativa eléctrica chilena: DFL 4 (LGSE), Ley 20.402 (2009, Ministerio de
+Energía; su art. 13 modifica la LGSE), Ley 20.701 (2013, concesiones), Ley 20.805 (2015, licitaciones de
+suministro), Ley 20.936, Ley 21.194 (2019, distribución), Ley 21.304 (2021, electrodependientes),
+Ley 21.472 (2022, Fondo de Estabilización de Tarifas), Ley 21.505 (2022, almacenamiento y electromovilidad),
+Ley 21.582 (2023, notarios; su art. 10 modifica la LGSE), Ley 21.667 (2024, estabilización tarifaria),
+Ley 21.721, Ley 21.804 (2026, sistemas medianos), Ley 21.833 (2026, protección tarifaria) y
+Res. Ex. 156/2025. La fuente de verdad es `ontologia/ontologia.md`: no inventes tipos de nodo ni de
 relación; si hace falta uno nuevo, pregúntalo.
 
 ## Cobertura
 
-Las 10 normas del grafo tienen hoy `cobertura` completa. Los artículos que el XML de la BCN trunca se toman del
+De las 15 normas del grafo, 14 tienen `cobertura` completa. La Ley 20.402 es parcial: el XML trunca su
+art. 2 (modifica el DL 2.224, no la LGSE) y el PDF de Ley Chile viene sin texto; su art. 13, el que modifica
+la LGSE, está completo. Los artículos que el XML de la BCN trunca se toman del
 PDF oficial (`datos/raw/pdf/`, ver `docs/diagnostico_truncamiento_bcn.md`), y cada arista indica en
 `fuente_url` si salió del XML o del PDF. Si una norma nueva queda `parcial` (atributo `cobertura` del
 nodo), **adviértelo siempre** al responder qué artículos modificó, y menciona los candidatos de
@@ -29,7 +33,9 @@ en el bloque de transmisión:
 | 21.804 (2026) | 72-1, 72-10, 83, 84 bis, 85 |
 | 21.833 (2026) | 72-9, 212-13, 212-14 |
 
-Varias de esas leyes modifican también artículos fuera del bloque (p. ej. la 21.804, el régimen de
+Las leyes anteriores a 2016 también tienen aristas hacia artículos del bloque (20.402: 73, 74, 75, 83, 87,
+92, 94, 97, 99, 112, 115; 20.805: 108), pero todas quedan `superada`: recaen en el Título III que la 20.936
+sustituyó completo. Varias de esas leyes modifican también artículos fuera del bloque (p. ej. la 21.804, el régimen de
 sistemas medianos; la 21.582, concesiones y servidumbres).
 
 Cada artículo del DFL 4 tiene `cobertura_historia` (atributo del nodo, también visible en
@@ -44,7 +50,9 @@ Los cambios que no recaen en un artículo (p. ej. epígrafes de capítulos) no s
 
 Un artículo puede tener varias aristas `modifica` (y a lo más una `deroga`) entrantes, una por ley. Para
 su historia, ordénalas por el atributo `fecha_vigencia` de la arista (está en `graph.json`; `explain` no lo
-muestra).
+muestra). Si `observaciones` dice **superada**, una ley posterior sustituyó el artículo completo (p. ej. la
+20.936 el Título III, arts. 73-122): la arista es cierta para el artículo que tenía ese número en su fecha,
+pero el texto vigente no proviene de ella. Afecta sobre todo a las leyes anteriores a 2016 (20.402).
 
 Otros archivos derivados útiles: `datos/derivados/historia_articulos.csv` (cobertura de la historia de
 todo el DFL 4) y `datos/derivados/contraste_notas_bcn.csv` (diferencias entre aristas y notas BCN; p. ej.
@@ -64,8 +72,9 @@ Usa `.venv/bin/graphify` con los nombres de nodo exactos (etiquetas), por ejempl
   palabras, y una pregunta amplia devuelve casi todo el grafo. No la uses para preguntas sobre relaciones.
 - Una norma llega a sus artículos por `contiene`, y sus artículos a los del DFL 4 por `modifica` o
   `deroga`. Para "qué modificó la Ley X", parte del nodo de su artículo modificatorio:
-  `art. único` (21.721, 21.804, 21.505), `art. 1` (20.936, 21.472, 21.833), `art. 10` (21.582) y
-  `art. primero` (21.667); por ejemplo `"Ley 21.667 de 2024 — art. primero"`.
+  `art. único` (20.701, 20.805, 21.194, 21.304, 21.505, 21.721, 21.804), `art. 1` (20.936, 21.472,
+  21.833), `art. 10` (21.582), `art. 13` (20.402) y `art. primero` (21.667); por ejemplo
+  `"Ley 21.667 de 2024 — art. primero"`.
 - **Preguntas de intersección** ("artículos tocados por ambas leyes"): `path` muestra solo un camino
   aunque avise "N equal-length routes"; para la lista completa compara los `explain --all` de ambos artículos
   modificatorios.
@@ -85,8 +94,9 @@ de cada ley modificatoria. `textos/indice.md` lista todos los artículos (primer
 avisos. Para citar el texto de un artículo o de una modificación, léelo de ahí en vez de resumir de memoria.
 Se regeneran solos con `construir_grafo.py`; no los edites a mano.
 
-Los arts. 188 y 189 dicen solo "Eliminado." en el texto consolidado (Ley 21.194, fuera del grafo) aunque el
-XML BCN no los marca derogados: trátalos como eliminados.
+Los arts. 188 y 189 dicen solo "Eliminado." en el texto consolidado: los suprimió la Ley 21.194 N° 8
+(2019-12-21). Como el XML BCN no los marca derogados, sus aristas `deroga` son `inferida` y están pendientes
+de revisión en `ontologia/revisiones_manuales.csv`; trátalos como eliminados.
 
 ## No hacer
 
@@ -128,6 +138,8 @@ fuente, cobertura de la norma o cobertura de la historia del artículo). Commits
 2. Agregarla a `NORMAS` en `scripts/descargar_bcn.py` y descargar solo esa:
    `python3 -I scripts/descargar_bcn.py datos/raw <idNorma>` (no vuelve a bajar las demás).
 3. PDF oficial: `doc2md bcn <idNorma> --fecha <fechaVersion> --nombre "Ley NNNNN" --salida datos/raw/pdf --registro datos/raw/pdf/descargas_pdf.csv`.
+   Algunas normas (20.402, 21.304) se exportan solo con la portada (1 página, ~100 bytes de Markdown): no
+   registres ese PDF; si el XML no está truncado no hace falta, y si lo está la norma queda `parcial`.
 4. En `scripts/extraer_modificaciones.py`: `ARCHIVOS` y `MODIFICATORIAS` (artículo que modifica la LGSE);
    agregar la fila en `ontologia/nodos_normas.csv` (el extractor completa el resto).
 5. Regenerar y revisar: numerales extraídos vs. notas BCN, filas sin resolver (deben ser 0) y **regresión**:
