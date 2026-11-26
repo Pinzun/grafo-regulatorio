@@ -8,10 +8,11 @@ relación implementa de la Res. Ex. 156. Regenera:
 Uso: python3 -I scripts/extraer_modificaciones.py
 
 Criterio de estado:
-  verificada  el texto de la norma modificatoria nombra literalmente el artículo y la operación.
-  inferida    la relación artículo->artículo se deduce (p. ej. sustitución de un Título completo)
-              o el texto fuente está truncado; el motivo va en `observaciones`. Según la regla 1
-              de la ontología, estas filas requieren revisión humana antes de usarse.
+  verificada  el texto de la norma modificatoria nombra literalmente el artículo y la operación
+              (o, para `contiene`, la estructura del XML lo establece).
+  inferida    no consta literalmente en el texto; se deduce por regla (p. ej. sustitución de un
+              Título completo, texto truncado). Motivo en `observaciones`. Requiere revisión humana.
+  metodo      siempre `regla` en este script (ontología v0.2).
 """
 import csv
 import os
@@ -331,15 +332,6 @@ def main():
     if "91 bis" not in arts_dfl4:
         arts_dfl4.append("91 bis")
 
-    campos = ["origen", "relacion", "destino", "tipo_cambio", "detalle", "fecha_vigencia", "base_vigencia",
-              "fuente_url", "fuente_id_parte", "fecha_consulta", "estado", "observaciones"]
-    for r in filas:
-        assert r["fuente_url"] and r["fuente_id_parte"], f"relación sin fuente: {r}"
-    with open(os.path.join(ONT, "relaciones.csv"), "w", newline="", encoding="utf-8") as f:
-        w = csv.DictWriter(f, fieldnames=campos)
-        w.writeheader()
-        w.writerows(filas)
-
     # nodos_articulos.csv
     ca = ["id", "tipo", "norma_contenedora", "numero", "id_parte", "url_fuente", "fecha_version_bcn",
           "vigente_desde", "vigente_hasta", "derogado", "estado_extraccion", "texto"]
@@ -368,6 +360,31 @@ def main():
         w = csv.DictWriter(f, fieldnames=ca)
         w.writeheader()
         w.writerows(nodos)
+
+    # contiene (norma -> articulo): sale de la estructura del XML (EstructuraFuncional/idParte)
+    ids_bcn = {n: ident(cargar(n))["id_bcn"] for n in ARCHIVOS}
+    for n in nodos:
+        if n["id_parte"] == PC:
+            continue
+        norma = n["norma_contenedora"]
+        filas.append({
+            "origen": norma, "relacion": "contiene", "destino": n["id"], "tipo_cambio": "",
+            "detalle": f"EstructuraFuncional tipoParte=Artículo idParte={n['id_parte']} (artículo {n['numero']})",
+            "fecha_vigencia": "", "base_vigencia": "",
+            "fuente_url": f"https://www.leychile.cl/Consulta/obtxml?opt=7&idNorma={ids_bcn[norma]}",
+            "fuente_id_parte": n["id_parte"], "fecha_consulta": consultas[norma],
+            "estado": "verificada", "observaciones": "",
+        })
+
+    campos = ["origen", "relacion", "destino", "tipo_cambio", "detalle", "fecha_vigencia", "base_vigencia",
+              "fuente_url", "fuente_id_parte", "fecha_consulta", "estado", "metodo", "observaciones"]
+    for r in filas:
+        r["metodo"] = "regla"  # todo este script es determinista (XML + regex)
+        assert r["fuente_url"] and r["fuente_id_parte"], f"relación sin fuente: {r}"
+    with open(os.path.join(ONT, "relaciones.csv"), "w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=campos)
+        w.writeheader()
+        w.writerows(filas)
 
     # nodos_normas.csv: completar desde el XML, conservando columnas existentes
     path = os.path.join(ONT, "nodos_normas.csv")
