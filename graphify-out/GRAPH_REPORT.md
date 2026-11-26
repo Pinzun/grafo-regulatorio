@@ -12,11 +12,11 @@
 | Ley 21.721 de 2024 | completa | 0 | — |
 | Res. 156 exenta de 2025 | completa | 0 | — |
 
-Aristas por relación, estado y método: contiene/verificada/regla: 129; implementa/verificada/regla: 1; modifica/inferida/regla: 52; modifica/verificada/regla: 84
+Aristas por relación, estado y método: contiene/verificada/regla: 129; implementa/verificada/regla: 1; modifica/verificada/manual: 52; modifica/verificada/regla: 84
 
 ## Summary
 - 133 nodes · 266 edges · 3 communities
-- Extraction: 80% EXTRACTED · 20% INFERRED · 0% AMBIGUOUS · INFERRED: 52 edges (avg confidence: 0.7)
+- Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Community Hubs (Navigation)
@@ -71,8 +71,6 @@ _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `Ley 20.936 de 2016 — art. 1` connect `Ley 20.936 de 2016 | DFL 4 de 2006 (LGSE): arts. 7…225` to `DFL 4 de 2006 (LGSE) | DFL 4 de 2006 (LGSE): arts. 8 bis…223`, `Ley 21.721 de 2024 + Res. 156 exenta de 2025 | DFL 4 de 2006 (LGSE): arts. 77…115`?**
   _High betweenness centrality (0.007) - this node is a cross-community bridge._
-- **Are the 52 inferred relationships involving `Ley 20.936 de 2016 — art. 1` (e.g. with `DFL 4 de 2006 (LGSE) — art. 100` and `DFL 4 de 2006 (LGSE) — art. 101`) actually correct?**
-  _`Ley 20.936 de 2016 — art. 1` has 52 INFERRED edges - model-reasoned connections that need verification._
 - **What connects `Ley 20.936 de 2016`, `Ley 21.721 de 2024`, `Res. 156 exenta de 2025` to the rest of the system?**
   _3 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `DFL 4 de 2006 (LGSE) | DFL 4 de 2006 (LGSE): arts. 8 bis…223` be split into smaller, more focused modules?**
