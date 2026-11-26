@@ -27,9 +27,17 @@ Sin perjuicio de las atribuciones de los demás organismos contemplados en la le
 
 ## Historia de modificaciones
 
+- 2008-04-01 · Ley 20.257 de 2008 (art. único) · N° 1 · agrega · verificada · regla · idParte 8021629 · **superada** por Ley 20.936 de 2016 N° 4 (2016-07-20), que sustituyó el artículo completo
+- 2008-04-01 · Ley 20.257 de 2008 (art. único) · N° 1 · reemplaza · verificada · regla · idParte 8021629 · **superada** por Ley 20.936 de 2016 N° 4 (2016-07-20), que sustituyó el artículo completo
 - 2016-07-20 · Ley 20.936 de 2016 (art. 1) · N° 4 · reemplaza · verificada · manual · idParte 9716001
 
 ## Texto modificatorio
+
+### Ley 20.257 de 2008 — art. único, N° 1
+
+*Fuente: XML (https://www.leychile.cl/Consulta/obtxml?opt=7&idNorma=270212).*
+
+N° 1. Intercálase en el inciso primero del artículo 79°, entre las expresiones "generación" y "conectados", las siguientes oraciones: "renovable no convencionales y de las instalaciones de cogeneración eficiente, definidos en las letras aa) y ac) del artículo 225° de esta ley, que se encuentren", y sustitúyense las oraciones "cuya fuente sea no convencional, tales como geotérmica, eólica, solar, biomasa, mareomotriz, pequeñas centrales hidroeléctricas, cogeneración y otras similares determinadas fundadamente por la Comisión,", por la expresión "y".
 
 ### Ley 20.936 de 2016 — art. 1, N° 4
 

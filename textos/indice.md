@@ -34,7 +34,7 @@ Texto consolidado: DFL 4, versión BCN 2026-07-31. Generado por `scripts/generar
 | [76](dfl4/art_76.md) | Definición de Sistemas de Transmisión Dedicados | Ley 20.936 (2016) | vigente |
 | [77](dfl4/art_77.md) | Definición de Sistema de Transmisión Zonal | Ley 20.936 (2016), Ley 21.721 (2024) | vigente |
 | [78](dfl4/art_78.md) | Definición de Sistema de Interconexión Internacional | Ley 20.936 (2016) | vigente |
-| [79](dfl4/art_79.md) | Definición de Acceso Abierto | Ley 20.936 (2016) | vigente |
+| [79](dfl4/art_79.md) | Definición de Acceso Abierto | Ley 20.257 (2008), Ley 20.936 (2016) | vigente |
 | [80](dfl4/art_80.md) | Acceso Abierto en los Sistemas de Transmisión Dedicados | Ley 20.936 (2016) | vigente |
 | [81](dfl4/art_81.md) | Presunción de Uso de los Sistemas de Transmisión | Ley 20.936 (2016) | vigente |
 | [82](dfl4/art_82.md) | Intercambio Internacional de Servicios Eléctricos | Ley 20.936 (2016) | vigente |
@@ -229,7 +229,7 @@ Texto consolidado: DFL 4, versión BCN 2026-07-31. Generado por `scripts/generar
 | [149 quater](dfl4/art_149_quater.md) | — | Ley 20.936 (2016), Ley 21.804 (2026) ⚠️ faltan 20.571 | vigente |
 | [149 quinquies](dfl4/art_149_quinquies.md) | — | — ⚠️ faltan 20.571 | vigente |
 | [150](dfl4/art_150.md) | Eliminado | Ley 20.402 (2009), Ley 20.936 (2016) | derogado (vigente hasta 2016-07-20) |
-| [150 bis](dfl4/art_150_bis.md) | — | Ley 20.698 (2013), Ley 20.936 (2016), Ley 21.804 (2026) ⚠️ faltan 20.257 | vigente |
+| [150 bis](dfl4/art_150_bis.md) | — | Ley 20.257 (2008), Ley 20.698 (2013), Ley 20.936 (2016), Ley 21.804 (2026) | vigente |
 | [150 ter](dfl4/art_150_ter.md) | — | Ley 20.698 (2013), Ley 20.936 (2016), Ley 21.804 (2026) | vigente |
 | [151](dfl4/art_151.md) | — | Ley 20.402 (2009) | vigente |
 | [152](dfl4/art_152.md) | — | Ley 20.402 (2009), Ley 21.804 (2026) | vigente |
@@ -237,7 +237,7 @@ Texto consolidado: DFL 4, versión BCN 2026-07-31. Generado por `scripts/generar
 | [154](dfl4/art_154.md) | — | — | vigente |
 | [155](dfl4/art_155.md) | En el sistema eléctrico nacional y en los sistemas medianos se distinguirán dos niveles de precios sujetos a fijación: 1 | Ley 20.936 (2016), Ley 21.804 (2026) | vigente |
 | [156](dfl4/art_156.md) | — | — | vigente |
-| [157](dfl4/art_157.md) | — | Ley 20.805 (2015), Ley 20.936 (2016), Ley 21.804 (2026), Ley 21.833 (2026) ⚠️ faltan 20.257, 20.928 | vigente |
+| [157](dfl4/art_157.md) | — | Ley 20.257 (2008), Ley 20.805 (2015), Ley 20.936 (2016), Ley 21.804 (2026), Ley 21.833 (2026) ⚠️ faltan 20.928 | vigente |
 | [158](dfl4/art_158.md) | — | Ley 20.402 (2009), Ley 20.936 (2016), Ley 21.804 (2026) | vigente |
 | [159](dfl4/art_159.md) | — | Ley 21.804 (2026) | vigente |
 | [160](dfl4/art_160.md) | Los precios de nudo de corto plazo definidos en el artículo 162º deberán ser fijados semestralmente | Ley 20.936 (2016) | vigente |
@@ -341,7 +341,7 @@ Texto consolidado: DFL 4, versión BCN 2026-07-31. Generado por `scripts/generar
 | [222](dfl4/art_222.md) | — | — | vigente |
 | [223](dfl4/art_223.md) | — | Ley 20.936 (2016) | vigente |
 | [224](dfl4/art_224.md) | — | — | vigente |
-| [225](dfl4/art_225.md) | — | Ley 20.936 (2016), Ley 21.194 (2019), Ley 21.505 (2022), Ley 21.804 (2026) ⚠️ faltan 20.928 | vigente |
+| [225](dfl4/art_225.md) | — | Ley 20.257 (2008), Ley 20.936 (2016), Ley 21.194 (2019), Ley 21.505 (2022), Ley 21.804 (2026) ⚠️ faltan 20.928 | vigente |
 | [1 transitorio](dfl4/art_1_transitorio.md) | — | — | vigente |
 | [2 transitorio](dfl4/art_2_transitorio.md) | — | — | vigente |
 | [3 transitorio](dfl4/art_3_transitorio.md) | — | — | vigente |
@@ -377,4 +377,4 @@ Texto consolidado: DFL 4, versión BCN 2026-07-31. Generado por `scripts/generar
 
 - Artículos sin texto: ninguno.
 - Artículos cuyo texto consolidado dice solo 'Eliminado/Suprimido' sin marca de derogación en el XML BCN: 188, 189.
-- Artículos con historia incompleta (23): 25 (faltan 20.220); 34 bis (faltan 20.897); 131 (faltan 20.928); 132 (faltan 20.928); 133 (faltan 20.220); 139 bis (faltan 21.076); 146 (faltan 20.220); 146 ter (faltan 20.220, 20.720); 149 (faltan 20.571); 149 bis (faltan 20.571); 149 quater (faltan 20.571); 149 quinquies (faltan 20.571); 150 bis (faltan 20.257); 157 (faltan 20.257, 20.928); 184 (faltan 20.928); 191 (faltan 20.928); 191 bis (faltan 21.657); 193 (faltan 21.647); 209 (faltan 20.999); 210 (faltan 20.999); 213 (faltan 20.273); 214 (faltan 20.273); 225 (faltan 20.928).
+- Artículos con historia incompleta (22): 25 (faltan 20.220); 34 bis (faltan 20.897); 131 (faltan 20.928); 132 (faltan 20.928); 133 (faltan 20.220); 139 bis (faltan 21.076); 146 (faltan 20.220); 146 ter (faltan 20.220, 20.720); 149 (faltan 20.571); 149 bis (faltan 20.571); 149 quater (faltan 20.571); 149 quinquies (faltan 20.571); 157 (faltan 20.928); 184 (faltan 20.928); 191 (faltan 20.928); 191 bis (faltan 21.657); 193 (faltan 21.647); 209 (faltan 20.999); 210 (faltan 20.999); 213 (faltan 20.273); 214 (faltan 20.273); 225 (faltan 20.928).

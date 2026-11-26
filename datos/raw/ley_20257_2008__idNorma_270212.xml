@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?><Norma xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.leychile.cl/esquemas" xsi:schemaLocation="http://www.leychile.cl/esquemas http://www.leychile.cl/esquemas/EsquemaIntercambioNorma-v1-0.xsd" normaId="270212" esTratado="no tratado" fechaVersion="2013-10-22" SchemaVersion="1.0" derogado="no derogado">
+  <Identificador fechaPromulgacion="2008-03-20" fechaPublicacion="2008-04-01">
+    <TiposNumeros>
+      <TipoNumero>
+        <Tipo>Ley</Tipo>
+        <Numero>20257</Numero>
+      </TipoNumero>
+    </TiposNumeros>
+    <Organismos>
+      <Organismo>MINISTERIO DE ECONOM&#205;A</Organismo>
+      <Organismo>FOMENTO Y RECONSTRUCCION</Organismo>
+      <Organismo>SUBSECRETARIA DE ECONOMIA</Organismo>
+      <Organismo>FOMENTO Y RECONSTRUCCION</Organismo>
+    </Organismos>
+  </Identificador>
+  <Metadatos>
+    <TituloNorma>INTRODUCE MODIFICACIONES A LA LEY GENERAL DE SERVICIOS EL&#201;CTRICOS RESPECTO DE LA GENERACI&#211;N DE ENERG&#205;A EL&#201;CTRICA CON FUENTES DE ENERG&#205;AS RENOVABLES NO CONVENCIONALES</TituloNorma>
+    <Materias>
+      <Materia>Energ&#237;a El&#233;ctrica</Materia>
+      <Materia>Recursos Energ&#233;ticos Renovables</Materia>
+      <Materia>Pol&#237;tica Energ&#233;tica</Materia>
+      <Materia>Ley no. 20.257</Materia>
+    </Materias>
+    
+    
+    <IdentificacionFuente>Diario Oficial</IdentificacionFuente>
+    <NumeroFuente>39025</NumeroFuente>
+  </Metadatos>
+  <Encabezado fechaVersion="2008-04-01" derogado="no derogado">
+    <Texto>LEY N&#218;M. 20.257
+
+INTRODUCE MODIFICACIONES A LA LEY GENERAL DE SERVICIOS
+EL&#201;CTRICOS RESPECTO DE LA GENERACI&#211;N DE ENERG&#205;A
+EL&#201;CTRICA CON FUENTES DE ENERG&#205;AS RENOVABLES NO
+CONVENCIONALES
+
+     Teniendo presente que el H. Congreso Nacional ha dado
+su aprobaci&#243;n al siguiente
+
+     Proyecto de ley:
+
+</Texto>
+  </Encabezado>
+  <EstructurasFuncionales>
+    <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2008-04-01" derogado="no derogado" idParte="8021629">
+      <Texto>     "Art&#237;culo &#250;nico.- Introd&#250;cense en el decreto con
+fuerza de ley N&#176; 4, de 2007, del Ministerio de Econom&#237;a,
+Fomento y Reconstrucci&#243;n, que fija el texto refundido,
+coordinado y sistematizado del decreto con fuerza de ley N&#176;
+1, de 1982, del Ministerio de Miner&#237;a, que contiene la Ley
+General de Servicios El&#233;ctricos, las siguientes
+modificaciones:
+
+     1) Interc&#225;lase en el inciso primero del art&#237;culo
+79&#176;, entre las expresiones "generaci&#243;n" y "conectados",
+las siguientes oraciones: "renovable no convencionales y de
+las instalaciones de cogeneraci&#243;n eficiente, definidos en
+las letras aa) y ac) del art&#237;culo 225&#176; de esta ley, que se
+encuentren", y sustit&#250;yense las oraciones "cuya fuente sea
+no convencional, tales como geot&#233;rmica, e&#243;lica, solar,
+biomasa, mareomotriz, peque&#241;as centrales hidroel&#233;ctricas,
+cogeneraci&#243;n y otras similares determinadas fundadamente
+por la Comisi&#243;n,", por la expresi&#243;n "y".
+
+     2) Agr&#233;gase, a continuaci&#243;n del art&#237;culo 150&#176;, el
+siguiente art&#237;culo 150&#176; bis:
+
+     "Art&#237;culo 150&#176; bis.- Cada empresa el&#233;ctrica que
+efect&#250;e retiros de energ&#237;a desde los sistemas el&#233;ctricos
+con capacidad instalada superior a 200 megawatts para
+comercializarla con distribuidoras o con clientes finales,
+est&#233;n o no sujetos a regulaci&#243;n de precios, deber&#225;
+acreditar ante la Direcci&#243;n de Peajes del CDEC respectivo,
+que una cantidad de energ&#237;a equivalente al 10% de sus
+retiros en cada a&#241;o calendario haya sido inyectada a
+cualquiera de dichos sistemas, por medios de generaci&#243;n
+renovables no convencionales, propios o contratados.
+
+     La empresa el&#233;ctrica podr&#225; tambi&#233;n acreditar el
+cumplimiento de la obligaci&#243;n se&#241;alada en el inciso
+primero, mediante inyecciones de energ&#237;a renovable no
+convencional realizadas a los sistemas el&#233;ctricos durante
+el a&#241;o calendario inmediatamente anterior, en la medida que
+dichas inyecciones no hayan sido acreditadas para el
+cumplimiento de la obligaci&#243;n que correspondi&#243; a ese a&#241;o.
+
+     Cualquier empresa el&#233;ctrica que exceda el porcentaje
+se&#241;alado en el inciso primero de inyecciones de energ&#237;a
+renovable no convencional dentro del a&#241;o en que se debe
+cumplir la obligaci&#243;n, con energ&#237;a propia o contratada y
+aunque no hubiese efectuado retiros, podr&#225; convenir el
+traspaso de sus excedentes a otra empresa el&#233;ctrica, los
+que podr&#225;n realizarse incluso entre empresas de diferentes
+sistemas el&#233;ctricos. Una copia autorizada del respectivo
+convenio deber&#225; entregarse a la Direcci&#243;n de Peajes del
+CDEC respectivo para que se imputen tales excedentes en la
+acreditaci&#243;n que corresponda.
+
+     La empresa el&#233;ctrica que no acredite el cumplimiento
+de la obligaci&#243;n a que se refiere este art&#237;culo al 1 de
+marzo siguiente al a&#241;o calendario correspondiente, deber&#225;
+pagar un cargo, cuyo monto ser&#225; de 0,4 UTM por cada
+megawatt/hora de d&#233;ficit respecto de su obligaci&#243;n. Si
+dentro de los tres a&#241;os siguientes incurriese nuevamente en
+incumplimiento de su obligaci&#243;n, el cargo ser&#225; de 0,6 UTM
+por cada megawatt/hora de d&#233;ficit.
+
+     Sin perjuicio de lo anterior, cualquier empresa
+el&#233;ctrica deficitaria podr&#225;, con un l&#237;mite de 50%,
+postergar hasta en un a&#241;o la acreditaci&#243;n de la
+obligaci&#243;n que le corresponda al t&#233;rmino de un a&#241;o
+calendario, siempre que lo haya comunicado a la
+Superintendencia antes del 1 de marzo siguiente al a&#241;o
+calendario referido.
+
+     Las Direcciones de Peajes de los CDEC de los sistemas
+el&#233;ctricos mayores a 200 megawatts deber&#225;n coordinarse y
+llevar un registro p&#250;blico &#250;nico de las obligaciones,
+inyecciones y traspasos de energ&#237;a renovable no
+convencional de cada empresa el&#233;ctrica, as&#237; como de toda
+la informaci&#243;n necesaria que permita acreditar el
+cumplimiento de las obligaciones y la aplicaci&#243;n de las
+disposiciones contenidas en este art&#237;culo.
+
+     Los cargos se&#241;alados en el inciso cuarto se
+destinar&#225;n a los clientes finales y a los clientes de las
+distribuidoras cuyos suministros hubieren cumplido la
+obligaci&#243;n prevista en el inciso primero de este art&#237;culo.
+
+     Las sumas de dinero que se recauden por estos cargos,
+se distribuir&#225;n a prorrata de la energ&#237;a consumida por los
+clientes indicados en el inciso anterior durante el a&#241;o
+calendario en que se incumpli&#243; la obligaci&#243;n del inciso
+primero.
+
+     La Direcci&#243;n de Peajes del CDEC respectivo calcular&#225;
+y dispondr&#225; tanto el pago de los cargos que cada empresa
+deber&#225; abonar para que se destinen a los clientes aludidos
+en base a los montos recaudados de las empresas que no
+hubiesen cumplido la obligaci&#243;n, as&#237; como las
+transferencias de dinero a que haya lugar entre ellas. La
+Superintendencia deber&#225; requerir a la Direcci&#243;n de Peajes
+y a las empresas concernidas la informaci&#243;n necesaria para
+fiscalizar el cumplimiento de las obligaciones que se les
+impone en este inciso.
+
+     Toda controversia que surja en la aplicaci&#243;n del
+inciso anterior con la Direcci&#243;n de Peajes del CDEC
+respectivo promovida por las empresas el&#233;ctricas sujetas a
+la obligaci&#243;n prevista en el inciso primero o por las
+distribuidoras y clientes finales, ser&#225; dictaminada por el
+panel de expertos, organismo que deber&#225; optar por uno de
+los valores propuestos por quien promueve la discrepancia o
+por la referida Direcci&#243;n, entendi&#233;ndose que &#233;sta se
+formaliza en las presentaciones que deber&#225;n realizar al
+panel, en sobre cerrado, dentro de los quince d&#237;as
+siguientes al c&#225;lculo efectuado por la Direcci&#243;n de
+Peajes. Para expedir el dictamen respectivo, el aludido
+Panel deber&#225; ce&#241;irse al procedimiento aplicable a las
+discrepancias previstas en el n&#250;mero 11 del art&#237;culo
+208&#176;.
+
+     S&#243;lo para los efectos de la acreditaci&#243;n de la
+obligaci&#243;n se&#241;alada en el inciso primero, se reconocer&#225;n
+tambi&#233;n las inyecciones provenientes de centrales
+hidroel&#233;ctricas cuya potencia m&#225;xima sea igual o inferior
+a 40.000 kilowatts, las que se corregir&#225;n por un factor
+proporcional igual a uno menos el cuociente entre el exceso
+sobre 20.000 kilowatts de la potencia m&#225;xima de la central
+y 20.000 kilowatts, lo que se expresa en la siguiente
+f&#243;rmula:
+
+         FP = 1 - ((PM - 20.000 kw)/20.000 kw) 
+     Donde FP es el factor proporcional antes se&#241;alado y PM
+es la potencia m&#225;xima de la central hidroel&#233;ctrica
+respectiva, expresada en kilowatts.".
+
+     3) Supr&#237;mese el inciso quinto del art&#237;culo 157&#176;.
+
+     4) Agr&#233;ganse, en el art&#237;culo 225&#176;, a continuaci&#243;n
+de la letra z), las siguientes letras aa), ab) y ac):
+
+     "aa) Medios de generaci&#243;n renovables no
+convencionales: los que presentan cualquiera de las
+siguientes caracter&#237;sticas:
+
+     1) Aquellos cuya fuente de energ&#237;a primaria sea la
+energ&#237;a de la biomasa, correspondiente a la obtenida de
+materia org&#225;nica y biodegradable, la que puede ser usada
+directamente como combustible o convertida en otros
+biocombustibles l&#237;quidos, s&#243;lidos o gaseosos. Se
+entender&#225; incluida la fracci&#243;n biodegradable de los
+residuos s&#243;lidos domiciliarios y no domiciliarios.
+
+     2) Aquellos cuya fuente de energ&#237;a primaria sea la
+energ&#237;a hidr&#225;ulica y cuya potencia m&#225;xima sea inferior a
+20.000 kilowatts.
+
+     3) Aquellos cuya fuente de energ&#237;a primaria sea la
+energ&#237;a geot&#233;rmica, entendi&#233;ndose por tal la que se
+obtiene del calor natural del interior de la tierra.
+
+     4) Aquellos cuya fuente de energ&#237;a primaria sea la
+energ&#237;a solar, obtenida de la radiaci&#243;n solar.
+
+     5) Aquellos cuya fuente de energ&#237;a primaria sea la
+energ&#237;a e&#243;lica, correspondiente a la energ&#237;a cin&#233;tica
+del viento.
+
+     6) Aquellos cuya fuente de energ&#237;a primaria sea la
+energ&#237;a de los mares, correspondiente a toda forma de
+energ&#237;a mec&#225;nica producida por el movimiento de las
+mareas, de las olas y de las corrientes, as&#237; como la
+obtenida del gradiente t&#233;rmico de los mares.
+
+     7) Otros medios de generaci&#243;n determinados
+fundadamente por la Comisi&#243;n, que utilicen energ&#237;as
+renovables para la generaci&#243;n de electricidad, contribuyan
+a diversificar las fuentes de abastecimiento de energ&#237;a en
+los sistemas el&#233;ctricos y causen un bajo impacto ambiental,
+conforme a los procedimientos que establezca el reglamento.
+
+     ab) Energ&#237;a renovable no convencional: aquella
+energ&#237;a el&#233;ctrica generada por medios de generaci&#243;n
+renovables no convencionales.
+
+     ac) Instalaci&#243;n de cogeneraci&#243;n eficiente:
+instalaci&#243;n en la que se genera energ&#237;a el&#233;ctrica y calor
+en un solo proceso de elevado rendimiento energ&#233;tico cuya
+potencia m&#225;xima suministrada al sistema sea inferior a
+20.000 kilowatts y que cumpla los requisitos establecidos en
+el reglamento.".
+</Texto>
+      <Metadatos>
+        <NombreParte presente="si">UNICO</NombreParte>
+        <TituloParte presente="no">&#160;</TituloParte>
+        
+      </Metadatos>
+    </EstructuraFuncional>
+    <EstructuraFuncional transitorio="transitorio" tipoParte="Disposici&#243;n Transitoria" fechaVersion="2008-04-01" derogado="no derogado" idParte="8021631">
+      <Texto>               DISPOSICIONES TRANSITORIAS
+</Texto>
+      <Metadatos>
+        <NombreParte presente="no">&#160;</NombreParte>
+        <TituloParte presente="si">DISPOSICIONES TRANSITORIAS</TituloParte>
+        
+      </Metadatos>
+      <EstructurasFuncionales>
+        <EstructuraFuncional transitorio="transitorio" tipoParte="Art&#237;culo" fechaVersion="2013-10-22" derogado="no derogado" idParte="8021630">
+          <Texto>     Art&#237;culo 1&#176; transitorio.- La obligaci&#243;n contemplada
+en el art&#237;culo 150&#176; bis que esta ley incorpora a la Ley
+General de Servicios El&#233;ctricos, regir&#225; a contar del 1 de
+enero del a&#241;o 2010, y se aplicar&#225; a todos los retiros de
+energ&#237;a para comercializarla con distribuidoras o con
+clientes finales cuyos contratos se suscriban a partir del
+31 de agosto de 2007, sean contratos nuevos, renovaciones,
+extensiones u otras convenciones de similar naturaleza.
+
+     El cumplimiento de la obligaci&#243;n referida deber&#225;
+efectuarse con medios de generaci&#243;n renovables no
+convencionales o con los se&#241;alados en el inciso final del
+art&#237;culo 150&#176; bis que introduce esta ley, propios o
+contratados, que se hayan interconectado a los sistemas
+el&#233;ctricos con posterioridad al 1 de enero de 2007.
+
+     Tambi&#233;n se podr&#225; cumplir la obligaci&#243;n referida con
+medios de generaci&#243;n renovables no convencionales, que
+encontr&#225;ndose interconectados a los sistemas el&#233;ctricos
+con anterioridad a la fecha se&#241;alada en el inciso
+precedente, ampl&#237;en su capacidad instalada de generaci&#243;n
+con posterioridad a dicha fecha y conserven su condici&#243;n de
+medio de generaci&#243;n renovable no convencional una vez
+ejecutada la ampliaci&#243;n. Para los efectos de la
+acreditaci&#243;n de la obligaci&#243;n se&#241;alada, las inyecciones
+provenientes de los medios de generaci&#243;n referidos en este
+inciso, se corregir&#225;n por un factor proporcional igual al
+cuociente entre la potencia adicionada con posterioridad al
+1 de enero del 2007 y la potencia m&#225;xima del medio de
+generaci&#243;n luego de la ampliaci&#243;n.
+
+     Con todo, la obligaci&#243;n aludida en el inciso primero
+ser&#225; del 5% para los a&#241;os 2010 a 2014, aument&#225;ndose en el
+0,5% anual a partir del a&#241;o 2015. Este aumento progresivo
+se aplicar&#225; de tal manera que los retiros afectos a la
+obligaci&#243;n al a&#241;o 2015 deber&#225;n cumplir con el 5,5%, los
+del a&#241;o 2016 con el 6% y as&#237; sucesivamente hasta alcanzar
+el a&#241;o 2024 el 10%, para los contratos celebrados con
+posterioridad al 31 agosto de 2007 y con anterioridad al 1
+de julio de 2013. Para los contratos firmados con
+posterioridad al 1 de julio de 2013, la obligaci&#243;n aludida
+ser&#225; del 5% al a&#241;o 2013, con incrementos del 1% a partir
+del a&#241;o 2014 hasta llegar al 12% el a&#241;o 2020, e
+incrementos del 1,5% a partir del a&#241;o 2021 hasta llegar al
+18% el a&#241;o 2024, y un incremento del 2% al a&#241;o 2025 para
+llegar al 20% el a&#241;o 2025. El mecanismo de licitaci&#243;n
+ser&#225; aplicable a contar del a&#241;o 2015. En caso que el
+reglamento no se encuentre vigente para dicho per&#237;odo, la
+licitaci&#243;n comenzar&#225; a regir a contar del a&#241;o siguiente y
+as&#237; sucesivamente. Para el per&#237;odo en que no hubiese
+comenzado a regir el mecanismo de licitaci&#243;n, la
+obligaci&#243;n ser&#225; &#237;ntegramente exigible para las empresas
+el&#233;ctricas que efect&#250;en retiros.
+
+     El aumento progresivo dispuesto en el inciso anterior,
+no ser&#225; exigible respecto de los retiros de energ&#237;a
+asociados al suministro de empresas concesionarias de
+servicio p&#250;blico de distribuci&#243;n el&#233;ctrica, para
+satisfacer consumos de clientes regulados, que hubieren
+iniciado el proceso de licitaci&#243;n que dispone el art&#237;culo
+131&#176; de la Ley General de Servicios El&#233;ctricos, con
+anterioridad a la publicaci&#243;n de esta ley.
+
+
+</Texto>
+          <Metadatos>
+            <NombreParte presente="si">1 TRANSITORIO</NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="transitorio" tipoParte="Art&#237;culo" fechaVersion="2008-04-01" derogado="no derogado" idParte="8021632">
+          <Texto>     Art&#237;culo 2&#176; transitorio.- La Comisi&#243;n Nacional de
+Energ&#237;a, mediante resoluci&#243;n exenta, establecer&#225; las
+disposiciones de car&#225;cter t&#233;cnico que sean necesarias para
+la adecuada implementaci&#243;n de las normas que esta ley
+introduce a la Ley General de Servicios El&#233;ctricos y para
+la aplicaci&#243;n de la disposici&#243;n transitoria precedente.</Texto>
+          <Metadatos>
+            <NombreParte presente="si">2 TRANSITORIO</NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="transitorio" tipoParte="Art&#237;culo" fechaVersion="2008-04-01" derogado="no derogado" idParte="8021633">
+          <Texto>     Art&#237;culo 3&#176; transitorio.- La obligaci&#243;n contemplada
+en el art&#237;culo 150&#176; bis que esta ley incorpora a la Ley
+General de Servicios El&#233;ctricos, regir&#225; por 25 a&#241;os a
+contar del 1 de enero del a&#241;o 2010.</Texto>
+          <Metadatos>
+            <NombreParte presente="si">3 TRANSITORIO</NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="transitorio" tipoParte="Art&#237;culo" fechaVersion="2008-04-01" derogado="no derogado" idParte="8021634">
+          <Texto>     Art&#237;culo 4&#176; transitorio.- Las empresas el&#233;ctricas
+deber&#225;n acreditar ante la Direcci&#243;n de Peajes del CDEC
+respectivo que, a lo menos el cincuenta por ciento del
+aumento progresivo de 0,5% anual de la obligaci&#243;n,
+contemplado en el inciso cuarto del art&#237;culo primero
+transitorio, ha sido cumplido con inyecciones de energ&#237;a de
+medios propios o contratados, elegidas mediante un proceso
+competitivo, transparente y que no implique una
+discriminaci&#243;n arbitraria.".</Texto>
+          <Metadatos>
+            <NombreParte presente="si">4 TRANSITORIO</NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+      </EstructurasFuncionales>
+    </EstructuraFuncional>
+  </EstructurasFuncionales>
+  <Promulgacion fechaVersion="2008-04-01" derogado="no derogado">
+    <Texto>     Y por cuanto he tenido a bien aprobarlo y sancionarlo;
+por tanto prom&#250;lguese y ll&#233;vese a efecto como Ley de la
+Rep&#250;blica.
+
+     Santiago, 20 de marzo de 2008.- MICHELLE BACHELET
+JERIA, Presidenta de la Rep&#250;blica.- Hugo Lavados Montes,
+Ministro de Econom&#237;a, Fomento y Reconstrucci&#243;n.- Marcelo
+Tokman Ramos, Ministro Presidente Comisi&#243;n Nacional de
+Energ&#237;a.- Santiago Gonz&#225;lez Larra&#237;n, Ministro de
+Miner&#237;a.
+     Lo que transcribo a Ud. para su conocimiento.- Saluda
+atentamente a Ud., Jean Jacques Duhart Saurel, Subsecretario
+de Econom&#237;a.</Texto>
+  </Promulgacion>
+  
+</Norma>

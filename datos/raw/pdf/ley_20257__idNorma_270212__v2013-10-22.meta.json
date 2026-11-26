@@ -1,0 +1,18 @@
+{
+  "id_norma": "270212",
+  "fecha_version": "2013-10-22",
+  "nombre": "Ley 20257",
+  "url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=Ley-20257_22-OCT-2013&exportar_con_notas_bcn=True&exportar_con_notas_originales=True&exportar_con_notas_al_pie=True&hddResultadoExportar=270212.2013-10-22.0.0%23",
+  "fecha_descarga": "2026-11-26",
+  "sha256_pdf": "cec22937e23f6948288088640806597a2ffe57d5e15d90210e15acd7c00bdf0d",
+  "bytes": 63428,
+  "con_notas_bcn": true,
+  "conversion": {
+    "texto": {
+      "parrafos": 43,
+      "notas_bcn": 1,
+      "pdf_ley_chile": true,
+      "salida": "datos/raw/pdf/ley_20257__idNorma_270212__v2013-10-22.md"
+    }
+  }
+}
