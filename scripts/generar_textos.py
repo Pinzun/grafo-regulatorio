@@ -215,6 +215,7 @@ def main():
                        f"*Fuente: {fuente} ({url}).*" + (" *Extracto: el numeral inserta o sustituye varios artículos; se "
                                                          "muestra solo el de este artículo.*" if extracto else ""), "",
                        (f"{it['etiqueta'].removeprefix('letra ')} {it['texto']}" if it.get("etiqueta", "").startswith("letra")
+                        else it["texto"] if it.get("etiqueta") == "texto completo"
                         else f"{E.etiqueta_item(it)}. {it['texto']}"), ""]
                 md += [p + "\n" for p in (extracto if extracto else it["todos"])]
             if not vistos:

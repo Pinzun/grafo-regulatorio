@@ -37,6 +37,7 @@ ARCHIVOS = {
     "ley_21472_2022": "ley_21472_2022__idNorma_1179524.xml",
     "ley_21667_2024": "ley_21667_2024__idNorma_1203005.xml",
     "ley_20701_2013": "ley_20701_2013__idNorma_1055073.xml",
+    "ley_21076_2018": "ley_21076_2018__idNorma_1115627.xml",
     "ley_20897_2016": "ley_20897_2016__idNorma_1087315.xml",
     "ley_20720_2014": "ley_20720_2014__idNorma_1058072.xml",
     "ley_20273_2008": "ley_20273_2008__idNorma_273006.xml",
@@ -57,7 +58,7 @@ ARCHIVOS = {
 MODIFICATORIAS = {"ley_21721_2024": "art_unico", "ley_20936_2016": "art_1", "ley_21804_2026": "art_unico",
                   "ley_21505_2022": "art_unico", "ley_21582_2023": "art_10", "ley_21833_2026": "art_1",
                   "ley_21472_2022": "art_1", "ley_21667_2024": "art_primero",
-                  "ley_20701_2013": "art_unico", "ley_20897_2016": "art_2", "ley_20720_2014": "art_391", "ley_20273_2008": "art_2", "ley_20571_2012": "art_unico", "ley_20220_2007": "art_unico", "ley_20928_2016": "art_unico", "ley_20999_2017": "art_2", "ley_20257_2008": "art_unico", "ley_20698_2013": "art_1", "ley_21118_2018": "art_unico", "ley_21806_2026": "art_101", "ley_21304_2021": "art_unico", "ley_21194_2019": "art_unico", "ley_20805_2015": "art_unico", "ley_20402_2009": "art_13"}
+                  "ley_20701_2013": "art_unico", "ley_21076_2018": "art_unico", "ley_20897_2016": "art_2", "ley_20720_2014": "art_391", "ley_20273_2008": "art_2", "ley_20571_2012": "art_unico", "ley_20220_2007": "art_unico", "ley_20928_2016": "art_unico", "ley_20999_2017": "art_2", "ley_20257_2008": "art_unico", "ley_20698_2013": "art_1", "ley_21118_2018": "art_unico", "ley_21806_2026": "art_101", "ley_21304_2021": "art_unico", "ley_21194_2019": "art_unico", "ley_20805_2015": "art_unico", "ley_20402_2009": "art_13"}
 
 VERBOS = {  # singular e impersonal plural ("Reemplázase" / "Reemplázanse")
     "reemplaza": r"reempl[aá]z(?:a|ase|anse|ese|ense)|sustit[uú]y(?:e|ese|ense)",
@@ -396,6 +397,7 @@ RE_MODIFICA_LGSE = re.compile(
     r"^\W*Art[íi]culo\s+\S+?\s*\.\s*-\s*(?:Introd[uú]cense las siguientes (?:modificaciones|enmiendas) en"
     r"|Introd[uú]cense,?\s+en"                                                              # Leyes 20.698, 20.257
     r"|Incorp[oó]ranse\s+al?"                                                               # Ley 20.220
+    r"|Incorp[oó]rase\s+en"                                                                 # Leyes 21.076, 21.657
     r"|(?:Introd[uú]|Incorp[oó]r)\w+ las siguientes modificaciones en el art[íi]culo [^,:]{1,25}? del"  # Ley 20.720
     r"|Agr[eé]g\w+ [^:]{1,120}?\bal art[íi]culo [^,:]{1,25}? del"                             # Ley 20.897
     r"|Modif[ií]case)\s+(?:el\s+|la\s+)?"
@@ -415,6 +417,7 @@ def modifica_lgse(txt):
       - 'Incorpóranse al DFL Nº 4, del Ministerio de Economía…, de 2007, … las siguientes modificaciones' (Ley 20.220);
       - 'Incorpóranse las siguientes modificaciones en el artículo 146 ter del DFL Nº 4, …' (Ley 20.720);
       - 'Agréganse los siguientes incisos … al artículo 34º bis del DFL Nº 4/20.018, …' (Ley 20.897);
+      - 'Incorpórase en el DFL N° 4/20.018, de 2006, … el siguiente artículo 139 bis' (Ley 21.076);
       - 'DFL N° 1, de 1982, … Ley General de Servicios Eléctricos, … cuyo texto refundido … fue fijado por
         el DFL N° 4, de 2006 / de 2007 / 4/20.018, de 2006' (Leyes 21.582, 20.701, 20.805);
       - 'ley General de Servicios Eléctricos' (Ley 21.505).

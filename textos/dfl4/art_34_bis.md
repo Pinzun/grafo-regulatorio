@@ -46,7 +46,7 @@ Si al fallar el incidente se determina que el monto de la caución sea mayor al 
 
 *Fuente: XML (https://www.leychile.cl/Consulta/obtxml?opt=7&idNorma=1087315).*
 
-texto completo. Agréganse los siguientes incisos cuarto, quinto y sexto al artículo 34º bis del decreto con fuerza de ley Nº 4/20.018, de 2006, del Ministerio de Economía, Fomento y Reconstrucción, que fija el texto refundido, coordinado y sistematizado de la ley General de Servicios Eléctricos:
+Agréganse los siguientes incisos cuarto, quinto y sexto al artículo 34º bis del decreto con fuerza de ley Nº 4/20.018, de 2006, del Ministerio de Economía, Fomento y Reconstrucción, que fija el texto refundido, coordinado y sistematizado de la ley General de Servicios Eléctricos:
 
 "Asimismo, los titulares o propietarios de las obras que se realicen para establecer medios de generación renovables no convencionales, sus líneas de transmisión, subestaciones y caminos de acceso, en bienes propios o de terceros, en virtud de contratos, servidumbres, concesiones otorgadas conforme al párrafo I del Título III del decreto ley Nº1.939, del Ministerio de Tierras y Colonización, de 1977, o a algún otro título, podrán consignar la caución en los términos señalados en los incisos precedentes, generando los mismos efectos de los juicios posesorios sumarios regulados en el Título IV del Libro III del Código de Procedimiento Civil, cuando la acción que da origen a tales juicios se funde en concesiones de carácter administrativo o judicial, para la exploración o explotación de recursos minerales o geotérmicos.
 

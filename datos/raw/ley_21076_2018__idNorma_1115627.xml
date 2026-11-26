@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><Norma xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.leychile.cl/esquemas" xsi:schemaLocation="http://www.leychile.cl/esquemas http://www.leychile.cl/esquemas/EsquemaIntercambioNorma-v1-0.xsd" normaId="1115627" esTratado="no tratado" fechaVersion="2018-02-27" SchemaVersion="1.0" derogado="no derogado">
+  <Identificador fechaPromulgacion="2018-02-19" fechaPublicacion="2018-02-27">
+    <TiposNumeros>
+      <TipoNumero>
+        <Tipo>Ley</Tipo>
+        <Numero>21076</Numero>
+      </TipoNumero>
+    </TiposNumeros>
+    <Organismos>
+      <Organismo>MINISTERIO DE ENERG&#205;A</Organismo>
+    </Organismos>
+  </Identificador>
+  <Metadatos>
+    <TituloNorma>MODIFICA LA LEY GENERAL DE SERVICIOS EL&#201;CTRICOS PARA IMPONER A LA EMPRESA DISTRIBUIDORA DE ENERG&#205;A LA OBLIGACI&#211;N DE SOLVENTAR EL RETIRO Y REPOSICI&#211;N DEL EMPALME Y MEDIDOR EN CASO DE INUTILIZACI&#211;N DE LAS INSTALACIONES POR FUERZA MAYOR</TituloNorma>
+    <Materias>
+      <Materia>Servicios El&#233;ctricos</Materia>
+      <Materia>Ley General de Servicios El&#233;ctricos</Materia>
+      <Materia>Empalme de Energ&#237;a El&#233;ctrica</Materia>
+    </Materias>
+    
+    
+    <IdentificacionFuente>Diario Oficial</IdentificacionFuente>
+    <NumeroFuente>41994</NumeroFuente>
+  </Metadatos>
+  <Encabezado fechaVersion="2018-02-27" derogado="no derogado">
+    <Texto>
+LEY N&#218;M. 21.076
+
+MODIFICA LA LEY GENERAL DE SERVICIOS EL&#201;CTRICOS PARA IMPONER A LA EMPRESA DISTRIBUIDORA DE ENERG&#205;A LA OBLIGACI&#211;N DE SOLVENTAR EL RETIRO Y REPOSICI&#211;N DEL EMPALME Y MEDIDOR EN CASO DE INUTILIZACI&#211;N DE LAS INSTALACIONES POR FUERZA MAYOR
+
+     Teniendo presente que el H. Congreso Nacional ha dado su aprobaci&#243;n al proyecto de ley iniciado en Moci&#243;n de los Honorables diputados se&#241;ores Sergio Gahona Salazar, Miguel &#193;ngel Alvarado Ram&#237;rez, Gustavo Hasb&#250;n Selume, Jos&#233; Antonio Kast Rist, Celso Morales Mu&#241;oz, Daniel N&#250;&#241;ez Arancibia, Renzo Trisotti Mart&#237;nez y Felipe Ward Edwards y de las Honorables diputadas se&#241;oras Andrea Molina Oliva y Claudia Nogueira Fern&#225;ndez,
+
+     Proyecto de ley:</Texto>
+  </Encabezado>
+  <EstructurasFuncionales>
+    <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2018-02-27" derogado="no derogado" idParte="9890706">
+      <Texto>
+     " Art&#237;culo &#250;nico .- Incorp&#243;rase en el decreto con fuerza de ley N&#176; 4/20.018, de 2006, del Ministerio de Econom&#237;a, Fomento y Reconstrucci&#243;n, que fija el texto refundido, coordinado y sistematizado de la Ley General de Servicios El&#233;ctricos, el siguiente art&#237;culo 139 bis:
+
+     "Art&#237;culo 139 bis.- El empalme y el medidor son parte de la red de distribuci&#243;n y, por tanto, de propiedad y responsabilidad de la concesionaria del servicio p&#250;blico de distribuci&#243;n o de aquel que preste el servicio de distribuci&#243;n. Los decretos tarifarios a que se refieren los art&#237;culos 120, 184 y 190, o el que los reemplace, determinar&#225;n la forma de incluir en sus f&#243;rmulas tarifarias la remuneraci&#243;n de estas instalaciones, as&#237; como las condiciones de aplicaci&#243;n de las tarifas asociadas a ellas.".</Texto>
+      <Metadatos>
+        <NombreParte presente="si">&#218;NICO</NombreParte>
+        <TituloParte presente="no">&#160;</TituloParte>
+        
+      </Metadatos>
+    </EstructuraFuncional>
+    <EstructuraFuncional transitorio="no transitorio" tipoParte="T&#237;tulo" fechaVersion="2018-02-27" derogado="no derogado" idParte="9890707">
+      <Texto>
+     DISPOSICIONES TRANSITORIAS
+
+
+</Texto>
+      <Metadatos>
+        <NombreParte presente="no">&#160;</NombreParte>
+        <TituloParte presente="si">DISPOSICIONES TRANSITORIAS</TituloParte>
+        
+      </Metadatos>
+      <EstructurasFuncionales>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2018-02-27" derogado="no derogado" idParte="9890708">
+          <Texto>
+     Art&#237;culo primero .- Para efectos de lo dispuesto en la presente ley, los usuarios que a la fecha de su publicaci&#243;n en el Diario Oficial sean propietarios de medidores o empalmes mantendr&#225;n dicha titularidad hasta que se produzca el cambio de alguna de estas instalaciones por parte de la concesionaria del servicio p&#250;blico de distribuci&#243;n o de aquel que preste el servicio de distribuci&#243;n, de acuerdo a los requerimientos de la red el&#233;ctrica para el debido cumplimiento de la normativa vigente o lo dispuesto en el inciso siguiente.
+     Respecto de usuarios que sean propietarios del medidor o empalme, la concesionaria del servicio p&#250;blico de distribuci&#243;n o aquel que preste el servicio de distribuci&#243;n, a partir de la publicaci&#243;n de la presente ley en el Diario Oficial, deber&#225; asumir &#237;ntegramente el costo del retiro o desmantelamiento del empalme y del medidor, as&#237; como la ejecuci&#243;n o instalaci&#243;n del empalme y del medidor cuando sea necesaria su reposici&#243;n, siempre que la inutilizaci&#243;n o destrucci&#243;n de dichas instalaciones se haya producido por fuerza mayor, como terremoto, salida de mar, temporal u otra calamidad, y que la autoridad competente haya decretado estado de cat&#225;strofe, de conformidad con la normativa vigente. El retiro o desmantelamiento y la ejecuci&#243;n o instalaci&#243;n del empalme y del medidor se&#241;alados en este inciso no estar&#225;n condicionados a la inexistencia de servicios impagos, ya sea total o parcialmente, al momento en que se produzca la fuerza mayor y se decrete estado de cat&#225;strofe por la autoridad competente.</Texto>
+          <Metadatos>
+            <NombreParte presente="si">PRIMERO</NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2018-02-27" derogado="no derogado" idParte="9890709">
+          <Texto>
+     Art&#237;culo segundo.- Los decretos tarifarios a que se refieren los art&#237;culos 120, 184, 187 y 190 de la Ley General de Servicios El&#233;ctricos podr&#225;n ser modificados para incorporar los mayores costos asociados a esta ley y a los est&#225;ndares y exigencias de calidad y seguridad de servicio y de suministro que establezca la normativa t&#233;cnica dictada por la Comisi&#243;n Nacional de Energ&#237;a, debiendo evitar en todo momento el doble pago de servicios o infraestructura. Las f&#243;rmulas resultantes tendr&#225;n una vigencia hasta completar el per&#237;odo tarifario del respectivo decreto modificado. Para la aplicaci&#243;n de lo dispuesto en este inciso, no regir&#225; lo prescrito en los art&#237;culos 120, inciso final; 183; 184, inciso final, y 187 de la Ley General de Servicios El&#233;ctricos.</Texto>
+          <Metadatos>
+            <NombreParte presente="si">SEGUNDO</NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2018-02-27" derogado="no derogado" idParte="9890710">
+          <Texto>
+     Art&#237;culo tercero.- Las obligaciones establecidas en la presente ley, salvo lo dispuesto en el inciso segundo del art&#237;culo primero transitorio, entrar&#225;n en vigencia a partir de la publicaci&#243;n y vigencia de los decretos tarifarios que incorporen los mayores costos en la prestaci&#243;n del servicio p&#250;blico el&#233;ctrico asociados a las exigencias de esta ley.".</Texto>
+          <Metadatos>
+            <NombreParte presente="si">TERCERO</NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+      </EstructurasFuncionales>
+    </EstructuraFuncional>
+  </EstructurasFuncionales>
+  <Promulgacion fechaVersion="2018-02-27" derogado="no derogado">
+    <Texto>
+     Y por cuanto he tenido a bien aprobarlo y sancionarlo; por tanto prom&#250;lguese y ll&#233;vese a efecto como Ley de la Rep&#250;blica.
+
+     Santiago, 19 de febrero de 2018.- MICHELLE BACHELET JERIA, Presidenta de la Rep&#250;blica.- Andr&#233;s Rebolledo Smitmans, Ministro de Energ&#237;a.
+     Lo que transcribo a Ud. para su conocimiento.- Atentamente, Jimena Jara Quilodr&#225;n, Subsecretaria de Energ&#237;a. </Texto>
+  </Promulgacion>
+  
+</Norma>
