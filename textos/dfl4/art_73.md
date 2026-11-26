@@ -21,9 +21,16 @@ El reglamento establecerá las materias necesarias para la debida y eficaz imple
 
 ## Historia de modificaciones
 
+- 2009-12-03 · Ley 20.402 de 2009 (art. 13) · N° 10 · reemplaza · verificada · regla · idParte 8811980 · **superada** por Ley 20.936 de 2016 N° 4 (2016-07-20), que sustituyó el artículo completo
 - 2016-07-20 · Ley 20.936 de 2016 (art. 1) · N° 4 · reemplaza · verificada · manual · idParte 9716001
 
 ## Texto modificatorio
+
+### Ley 20.402 de 2009 — art. 13, N° 10
+
+*Fuente: XML (https://www.leychile.cl/Consulta/obtxml?opt=7&idNorma=1008692).*
+
+N° 10. Sustitúyese, en el inciso primero del artículo 73º, la palabra "proponga" por la palabra "determine".
 
 ### Ley 20.936 de 2016 — art. 1, N° 4
 

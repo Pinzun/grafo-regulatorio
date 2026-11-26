@@ -4,7 +4,7 @@
 - **Versión del texto consolidado:** DFL 4 versión BCN 2026-07-31; última versión de este artículo según la BCN: 2009-12-03
 - **idParte:** 8721720 (https://www.bcn.cl/leychile/navegar?idNorma=258171&idParte=8721720)
 - **Vigencia:** vigente
-- **Cobertura de la historia:** parcial — faltan en el grafo las leyes 20.402
+- **Cobertura de la historia:** completa
 - **Bloque:** fuera del bloque de transmisión
 
 ## Texto vigente
@@ -25,10 +25,19 @@ El Presidente de la República podrá declarar la caducidad de una concesión po
 
 ## Historia de modificaciones
 
-*Sin modificaciones registradas en el grafo.*
-
-> ⚠️ Historia incompleta: la BCN anota modificaciones de las leyes 20.402, que no están en el grafo.
+- 2009-12-03 · Ley 20.402 de 2009 (art. 13) · N° 5 · reemplaza · verificada · regla · idParte 8811980
+- 2009-12-03 · Ley 20.402 de 2009 (art. 13) · N° 8 · reemplaza · verificada · regla · idParte 8811980
 
 ## Texto modificatorio
 
-*No hay texto modificatorio: el artículo no tiene modificaciones en el grafo.*
+### Ley 20.402 de 2009 — art. 13, N° 5
+
+*Fuente: XML (https://www.leychile.cl/Consulta/obtxml?opt=7&idNorma=1008692).*
+
+N° 5. Sustitúyese, en los artículos 47º, incisos segundo y cuarto; 83º; 94º, inciso quinto; 115º, inciso final; 147º, inciso final; 152º; 184º, inciso final, y 190º, la expresión "el Ministerio de Economía, Fomento y Reconstrucción" por "el Ministerio de Energía".
+
+### Ley 20.402 de 2009 — art. 13, N° 8
+
+*Fuente: XML (https://www.leychile.cl/Consulta/obtxml?opt=7&idNorma=1008692).*
+
+N° 8. Sustitúyese, en los artículos 47º, inciso primero; 112º, inciso final; 151º, incisos primero y segundo; 158º, y 178º, inciso final, la expresión "del Ministerio de Economía, Fomento y Reconstrucción" por "del Ministerio de Energía".

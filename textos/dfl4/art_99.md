@@ -31,6 +31,8 @@ Los pagos por el servicio de transporte o transmisión a la empresa propietaria 
 
 ## Historia de modificaciones
 
+- 2009-12-03 · Ley 20.402 de 2009 (art. 13) · N° 17 · agrega · verificada · regla · idParte 8811980 · **superada** por Ley 20.936 de 2016 N° 4 (2016-07-20), que sustituyó el artículo completo
+- 2009-12-03 · Ley 20.402 de 2009 (art. 13) · N° 6 · reemplaza · verificada · regla · idParte 8811980 · **superada** por Ley 20.936 de 2016 N° 4 (2016-07-20), que sustituyó el artículo completo
 - 2016-07-20 · Ley 20.936 de 2016 (art. 1) · N° 4 · reemplaza · verificada · manual · idParte 9716001
 - 2024-12-27 · Ley 21.721 de 2024 (art. único) · N° 7 letra a) i) · agrega · verificada · regla · idParte 10530118
 - 2024-12-27 · Ley 21.721 de 2024 (art. único) · N° 7 letra a) ii) · reemplaza · verificada · regla · idParte 10530118
@@ -38,6 +40,20 @@ Los pagos por el servicio de transporte o transmisión a la empresa propietaria 
 - 2024-12-27 · Ley 21.721 de 2024 (art. único) · N° 7 letra c) · agrega · verificada · regla · idParte 10530118
 
 ## Texto modificatorio
+
+### Ley 20.402 de 2009 — art. 13, N° 17
+
+*Fuente: XML (https://www.leychile.cl/Consulta/obtxml?opt=7&idNorma=1008692).*
+
+N° 17. Agrégase, en el artículo 99º, el siguiente inciso final, nuevo:
+
+"En caso que sea requerido por otras leyes, se entenderá que los obligados a ejecutar las obras de expansión del sistema de transmisión troncal que determine el decreto, cuentan con la calidad de concesionarios de los servicios eléctricos. Lo anterior es sin perjuicio de lo dispuesto en las leyes Nºs 19.300 y 20.283, y demás normas legales pertinentes.".
+
+### Ley 20.402 de 2009 — art. 13, N° 6
+
+*Fuente: XML (https://www.leychile.cl/Consulta/obtxml?opt=7&idNorma=1008692).*
+
+N° 6. Sustitúyese, en los artículos 92º, inciso segundo; 99º, inciso final, y 171º, la expresión "el Ministro de Economía, Fomento y Reconstrucción" por "el Ministro de Energía".
 
 ### Ley 20.936 de 2016 — art. 1, N° 4
 

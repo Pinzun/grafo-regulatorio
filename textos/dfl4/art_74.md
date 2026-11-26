@@ -15,9 +15,16 @@ Artículo 74°.- Definición de Sistema de Transmisión Nacional. El sistema de 
 
 ## Historia de modificaciones
 
+- 2009-12-03 · Ley 20.402 de 2009 (art. 13) · N° 2 · reemplaza · verificada · regla · idParte 8811980 · **superada** por Ley 20.936 de 2016 N° 4 (2016-07-20), que sustituyó el artículo completo
 - 2016-07-20 · Ley 20.936 de 2016 (art. 1) · N° 4 · reemplaza · verificada · manual · idParte 9716001
 
 ## Texto modificatorio
+
+### Ley 20.402 de 2009 — art. 13, N° 2
+
+*Fuente: XML (https://www.leychile.cl/Consulta/obtxml?opt=7&idNorma=1008692).*
+
+N° 2. Sustitúyense, en los artículos 11º, 17º, 25º, 26º, 29º, 33º, 59º, 63º, 74º, 75º, 137º, 146º, 163º, 210º; 212º, inciso final, y 220º, las expresiones "Economía, Fomento y Reconstrucción", por la expresión "Energía".
 
 ### Ley 20.936 de 2016 — art. 1, N° 4
 

@@ -19,10 +19,12 @@ Se constituirá esta servidumbre siguiendo los procedimientos indicados en esta 
 
 ## Historia de modificaciones
 
-*Sin modificaciones registradas en el grafo.*
-
-> Texto original del DFL 4: la BCN no anota modificaciones posteriores a su publicación (2007-02-05).
+- 2009-12-03 · Ley 20.402 de 2009 (art. 13) · N° 2 · reemplaza · verificada · regla · idParte 8811980
 
 ## Texto modificatorio
 
-*No hay texto modificatorio: el artículo no tiene modificaciones en el grafo.*
+### Ley 20.402 de 2009 — art. 13, N° 2
+
+*Fuente: XML (https://www.leychile.cl/Consulta/obtxml?opt=7&idNorma=1008692).*
+
+N° 2. Sustitúyense, en los artículos 11º, 17º, 25º, 26º, 29º, 33º, 59º, 63º, 74º, 75º, 137º, 146º, 163º, 210º; 212º, inciso final, y 220º, las expresiones "Economía, Fomento y Reconstrucción", por la expresión "Energía".

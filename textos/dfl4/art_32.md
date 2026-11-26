@@ -4,7 +4,7 @@
 - **Versión del texto consolidado:** DFL 4 versión BCN 2026-07-31; última versión de este artículo según la BCN: 2007-02-05
 - **idParte:** 8721703 (https://www.bcn.cl/leychile/navegar?idNorma=258171&idParte=8721703)
 - **Vigencia:** vigente
-- **Cobertura de la historia:** parcial — faltan en el grafo las leyes 20.402
+- **Cobertura de la historia:** completa
 - **Bloque:** fuera del bloque de transmisión
 
 ## Texto vigente
@@ -17,7 +17,7 @@ Artículo 32°.- Sin perjuicio de lo dispuesto en el artículo 30º, las concesi
 
 *Sin modificaciones registradas en el grafo.*
 
-> ⚠️ Historia incompleta: la BCN anota modificaciones de las leyes 20.402, que no están en el grafo.
+> Texto original del DFL 4: la BCN no anota modificaciones posteriores a su publicación (2007-02-05).
 
 ## Texto modificatorio
 

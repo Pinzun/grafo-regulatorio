@@ -4,7 +4,7 @@
 - **Versión del texto consolidado:** DFL 4 versión BCN 2026-07-31; última versión de este artículo según la BCN: 2013-10-14
 - **idParte:** 8721679 (https://www.bcn.cl/leychile/navegar?idNorma=258171&idParte=8721679)
 - **Vigencia:** vigente
-- **Cobertura de la historia:** parcial — faltan en el grafo las leyes 20.402
+- **Cobertura de la historia:** completa
 - **Bloque:** fuera del bloque de transmisión
 
 ## Texto vigente
@@ -17,11 +17,16 @@ El otorgamiento de las concesiones no eximirá al concesionario del cumplimiento
 
 ## Historia de modificaciones
 
+- 2009-12-03 · Ley 20.402 de 2009 (art. 13) · N° 2 · reemplaza · verificada · regla · idParte 8811980
 - 2013-10-14 · Ley 20.701 de 2013 (art. único) · N° 1 · agrega · verificada · regla · idParte 9377764
 
-> ⚠️ Historia incompleta: la BCN anota modificaciones de las leyes 20.402, que no están en el grafo.
-
 ## Texto modificatorio
+
+### Ley 20.402 de 2009 — art. 13, N° 2
+
+*Fuente: XML (https://www.leychile.cl/Consulta/obtxml?opt=7&idNorma=1008692).*
+
+N° 2. Sustitúyense, en los artículos 11º, 17º, 25º, 26º, 29º, 33º, 59º, 63º, 74º, 75º, 137º, 146º, 163º, 210º; 212º, inciso final, y 220º, las expresiones "Economía, Fomento y Reconstrucción", por la expresión "Energía".
 
 ### Ley 20.701 de 2013 — art. único, N° 1
 

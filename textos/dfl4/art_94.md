@@ -17,9 +17,30 @@ El gravamen establecido a través del decreto exento del Ministerio de Energía 
 
 ## Historia de modificaciones
 
+- 2009-12-03 · Ley 20.402 de 2009 (art. 13) · N° 3 · agrega · verificada · regla · idParte 8811980 · **superada** por Ley 20.936 de 2016 N° 4 (2016-07-20), que sustituyó el artículo completo
+- 2009-12-03 · Ley 20.402 de 2009 (art. 13) · N° 4 · reemplaza · verificada · regla · idParte 8811980 · **superada** por Ley 20.936 de 2016 N° 4 (2016-07-20), que sustituyó el artículo completo
+- 2009-12-03 · Ley 20.402 de 2009 (art. 13) · N° 5 · reemplaza · verificada · regla · idParte 8811980 · **superada** por Ley 20.936 de 2016 N° 4 (2016-07-20), que sustituyó el artículo completo
 - 2016-07-20 · Ley 20.936 de 2016 (art. 1) · N° 4 · reemplaza · verificada · manual · idParte 9716001
 
 ## Texto modificatorio
+
+### Ley 20.402 de 2009 — art. 13, N° 3
+
+*Fuente: XML (https://www.leychile.cl/Consulta/obtxml?opt=7&idNorma=1008692).*
+
+N° 3. Intercálase, en el inciso séptimo del artículo 94º, después de la palabra "Ministerio", las palabras "de Energía".
+
+### Ley 20.402 de 2009 — art. 13, N° 4
+
+*Fuente: XML (https://www.leychile.cl/Consulta/obtxml?opt=7&idNorma=1008692).*
+
+N° 4. Sustitúyese, en los artículos 92º, inciso primero; 94º, inciso sexto; 112º, inciso primero; 169º; 178º; 189º; 203º, y 206º, la expresión "al Ministerio de Economía, Fomento y Reconstrucción" por "al Ministerio de Energía".
+
+### Ley 20.402 de 2009 — art. 13, N° 5
+
+*Fuente: XML (https://www.leychile.cl/Consulta/obtxml?opt=7&idNorma=1008692).*
+
+N° 5. Sustitúyese, en los artículos 47º, incisos segundo y cuarto; 83º; 94º, inciso quinto; 115º, inciso final; 147º, inciso final; 152º; 184º, inciso final, y 190º, la expresión "el Ministerio de Economía, Fomento y Reconstrucción" por "el Ministerio de Energía".
 
 ### Ley 20.936 de 2016 — art. 1, N° 4
 

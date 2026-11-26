@@ -74,3 +74,12 @@ del DFL 4 (`datos/derivados/contraste_notas_bcn.csv`).
    `datos/raw/manual/descargas_manuales.csv` con url, fecha, sha256 y quién lo descargó. Con eso se
    puede adaptar el extractor para leer el texto manual cuando el XML esté truncado, sin mezclar fuentes:
    las aristas indicarán en `fuente_url` cuál se usó.
+
+## Caso sin PDF: Ley 20.402 (idNorma 1008692)
+
+El XML trunca el art. 2 de la Ley 20.402 (idParte 8811969, modifica el DL 2.224 y no la LGSE), y la
+exportación PDF de Ley Chile (`hddResultadoExportar=1008692.2009-12-03.0.0`) devuelve solo la portada
+(1 página, sin texto de la norma), también al reintentar el 2026-11-26. Por eso la norma queda con
+`cobertura = parcial` (`articulos_truncados = 8811969`) según la ontología. Su art. 13, que modifica la
+LGSE, está completo en el XML: las aristas de la 20.402 no dependen del texto truncado. Para cerrarlo,
+usar la vía 3 (descarga manual desde el Diario Oficial del 2009-12-03).

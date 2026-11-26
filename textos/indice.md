@@ -28,9 +28,9 @@ Texto consolidado: DFL 4, versión BCN 2026-07-31. Generado por `scripts/generar
 | [72-20](dfl4/art_72-20.md) | Compensaciones por indisponibilidad de suministro | Ley 20.936 (2016) | vigente |
 | [72-21](dfl4/art_72-21.md) | Decreto de Emergencia Energética | Ley 20.936 (2016) | vigente |
 | [72-22](dfl4/art_72-22.md) | Disposiciones Reglamentarias | Ley 20.936 (2016) | vigente |
-| [73](dfl4/art_73.md) | Definición de Sistema de Transmisión | Ley 20.936 (2016) | vigente |
-| [74](dfl4/art_74.md) | Definición de Sistema de Transmisión Nacional | Ley 20.936 (2016) | vigente |
-| [75](dfl4/art_75.md) | Definición de Sistema de Transmisión para Polos de Desarrollo | Ley 20.936 (2016) | vigente |
+| [73](dfl4/art_73.md) | Definición de Sistema de Transmisión | Ley 20.402 (2009), Ley 20.936 (2016) | vigente |
+| [74](dfl4/art_74.md) | Definición de Sistema de Transmisión Nacional | Ley 20.402 (2009), Ley 20.936 (2016) | vigente |
+| [75](dfl4/art_75.md) | Definición de Sistema de Transmisión para Polos de Desarrollo | Ley 20.402 (2009), Ley 20.936 (2016) | vigente |
 | [76](dfl4/art_76.md) | Definición de Sistemas de Transmisión Dedicados | Ley 20.936 (2016) | vigente |
 | [77](dfl4/art_77.md) | Definición de Sistema de Transmisión Zonal | Ley 20.936 (2016), Ley 21.721 (2024) | vigente |
 | [78](dfl4/art_78.md) | Definición de Sistema de Interconexión Internacional | Ley 20.936 (2016) | vigente |
@@ -38,25 +38,25 @@ Texto consolidado: DFL 4, versión BCN 2026-07-31. Generado por `scripts/generar
 | [80](dfl4/art_80.md) | Acceso Abierto en los Sistemas de Transmisión Dedicados | Ley 20.936 (2016) | vigente |
 | [81](dfl4/art_81.md) | Presunción de Uso de los Sistemas de Transmisión | Ley 20.936 (2016) | vigente |
 | [82](dfl4/art_82.md) | Intercambio Internacional de Servicios Eléctricos | Ley 20.936 (2016) | vigente |
-| [83](dfl4/art_83.md) | Planificación Energética | Ley 20.936 (2016), Ley 21.804 (2026) | vigente |
+| [83](dfl4/art_83.md) | Planificación Energética | Ley 20.402 (2009), Ley 20.936 (2016), Ley 21.804 (2026) | vigente |
 | [84](dfl4/art_84.md) | Procedimiento de Planificación Energética | Ley 20.936 (2016) | vigente |
 | [84 bis](dfl4/art_84_bis.md) | Planes estratégicos de energía en regiones | Ley 21.804 (2026) | vigente |
 | [85](dfl4/art_85.md) | Definición de Polos de Desarrollo de Generación Eléctrica | Ley 20.936 (2016), Ley 21.804 (2026) | vigente |
 | [86](dfl4/art_86.md) | Decreto de Planificación Energética | Ley 20.936 (2016) | vigente |
-| [87](dfl4/art_87.md) | Planificación de la Transmisión | Ley 20.936 (2016), Ley 21.721 (2024) | vigente |
+| [87](dfl4/art_87.md) | Planificación de la Transmisión | Ley 20.402 (2009), Ley 20.936 (2016), Ley 21.721 (2024) | vigente |
 | [88](dfl4/art_88.md) | Incorporación en el Plan de Expansión de Sistemas de Transmisión para Polos de Desarrollo | Ley 20.936 (2016) | vigente |
 | [89](dfl4/art_89.md) | Obras Nuevas y Obras de Ampliación de los Sistemas de Transmisión | Ley 20.936 (2016) | vigente |
 | [90](dfl4/art_90.md) | Participantes y Usuarios e Instituciones Interesadas | Ley 20.936 (2016) | vigente |
 | [91](dfl4/art_91.md) | Procedimiento de Planificación de la Transmisión | Ley 20.936 (2016), Ley 21.721 (2024) | vigente |
 | [91 bis](dfl4/art_91_bis.md) | De las obras necesarias y urgentes que se excluyen del proceso de planificación de la transmisión | Ley 21.721 (2024) | vigente |
-| [92](dfl4/art_92.md) | Decretos de Expansión de la Transmisión | Ley 20.936 (2016) | vigente |
+| [92](dfl4/art_92.md) | Decretos de Expansión de la Transmisión | Ley 20.402 (2009), Ley 20.936 (2016) | vigente |
 | [93](dfl4/art_93.md) | Procedimiento para la determinación de franjas | Ley 20.936 (2016) | vigente |
-| [94](dfl4/art_94.md) | Aprobación por el Consejo de Ministros para la Sustentabilidad | Ley 20.936 (2016) | vigente |
+| [94](dfl4/art_94.md) | Aprobación por el Consejo de Ministros para la Sustentabilidad | Ley 20.402 (2009), Ley 20.936 (2016) | vigente |
 | [95](dfl4/art_95.md) | Licitación de Obras Nuevas y de Ampliación | Ley 20.936 (2016), Ley 21.721 (2024) | vigente |
 | [96](dfl4/art_96.md) | — | Ley 20.936 (2016), Ley 21.721 (2024) | vigente |
-| [97](dfl4/art_97.md) | Procesos posteriores a la adjudicación para obras nuevas sometidas al procedimiento para la determinación de franjas | Ley 20.936 (2016), Ley 21.582 (2023) | vigente |
+| [97](dfl4/art_97.md) | Procesos posteriores a la adjudicación para obras nuevas sometidas al procedimiento para la determinación de franjas | Ley 20.402 (2009), Ley 20.936 (2016), Ley 21.582 (2023) | vigente |
 | [98](dfl4/art_98.md) | Situación excepcional de modificaciones de trazados | Ley 20.936 (2016), Ley 21.582 (2023) | vigente |
-| [99](dfl4/art_99.md) | Remuneración de las Obras de Expansión | Ley 20.936 (2016), Ley 21.721 (2024) | vigente |
+| [99](dfl4/art_99.md) | Remuneración de las Obras de Expansión | Ley 20.402 (2009), Ley 20.936 (2016), Ley 21.721 (2024) | vigente |
 | [99 bis](dfl4/art_99_bis.md) | De la expansión, desarrollo, remuneración y pago de los sistemas de interconexión internacional | Ley 20.936 (2016) | vigente |
 | [100](dfl4/art_100.md) | Calificación de las Instalaciones de los Sistemas de Transmisión | Ley 20.936 (2016) | vigente |
 | [101](dfl4/art_101.md) | Informe Técnico de Calificación de Instalaciones e instancias de Participación | Ley 20.936 (2016) | vigente |
@@ -70,11 +70,11 @@ Texto consolidado: DFL 4, versión BCN 2026-07-31. Generado por `scripts/generar
 | [109](dfl4/art_109.md) | Financiamiento del Estudio de Valorización | Ley 20.936 (2016) | vigente |
 | [110](dfl4/art_110.md) | Resultados del Estudio de Valorización | Ley 20.936 (2016) | vigente |
 | [111](dfl4/art_111.md) | Audiencia Pública | Ley 20.936 (2016) | vigente |
-| [112](dfl4/art_112.md) | Informe Técnico y Decreto de Valorización | Ley 20.936 (2016) | vigente |
+| [112](dfl4/art_112.md) | Informe Técnico y Decreto de Valorización | Ley 20.402 (2009), Ley 20.936 (2016) | vigente |
 | [113](dfl4/art_113.md) | Vigencia Decreto Tarifario | Ley 20.936 (2016) | vigente |
 | [114](dfl4/art_114.md) | Remuneración de la Transmisión | Ley 20.936 (2016), Ley 21.721 (2024) | vigente |
 | [114 bis](dfl4/art_114_bis.md) | — | Ley 20.936 (2016) | vigente |
-| [115](dfl4/art_115.md) | Pago de la Transmisión | Ley 20.936 (2016), Ley 21.721 (2024) | vigente |
+| [115](dfl4/art_115.md) | Pago de la Transmisión | Ley 20.402 (2009), Ley 20.936 (2016), Ley 21.721 (2024) | vigente |
 | [116](dfl4/art_116.md) | Pago por uso de los Sistemas para Polos de Desarrollo | Ley 20.936 (2016) | vigente |
 | [117](dfl4/art_117.md) | Repartición de Ingresos | Ley 20.936 (2016) | vigente |
 | [118](dfl4/art_118.md) | Tasa de Descuento | Ley 20.936 (2016) | vigente |
@@ -111,7 +111,7 @@ Texto consolidado: DFL 4, versión BCN 2026-07-31. Generado por `scripts/generar
 | [8](dfl4/art_8.md) | — | — | vigente |
 | [8 bis](dfl4/art_8_bis.md) | — | Ley 20.936 (2016) | vigente |
 | [8 ter](dfl4/art_8_ter.md) | — | Ley 21.804 (2026) ⚠️ faltan 21.194 | vigente |
-| [9](dfl4/art_9.md) | — | — ⚠️ faltan 20.402 | vigente |
+| [9](dfl4/art_9.md) | — | Ley 20.402 (2009) | vigente |
 | [10](dfl4/art_10.md) | — | — | vigente |
 | [10-1](dfl4/art_10-1.md) | Definición de sistema eléctrico nacional | Ley 21.804 (2026) | vigente |
 | [10-2](dfl4/art_10-2.md) | Definición de sistema mediano | Ley 21.804 (2026) | vigente |
@@ -119,13 +119,13 @@ Texto consolidado: DFL 4, versión BCN 2026-07-31. Generado por `scripts/generar
 | [10-4](dfl4/art_10-4.md) | Definición de sistema para procesos productivos | Ley 21.804 (2026) | vigente |
 | [10-5](dfl4/art_10-5.md) | Categorización de sistemas eléctricos | Ley 21.804 (2026) | vigente |
 | [10-6](dfl4/art_10-6.md) | Cambio de categorización de un sistema eléctrico | Ley 21.804 (2026) | vigente |
-| [11](dfl4/art_11.md) | — | Ley 20.701 (2013) ⚠️ faltan 20.402 | vigente |
+| [11](dfl4/art_11.md) | — | Ley 20.402 (2009), Ley 20.701 (2013) | vigente |
 | [12](dfl4/art_12.md) | — | — | vigente |
 | [13](dfl4/art_13.md) | — | — | vigente |
 | [14](dfl4/art_14.md) | — | — | vigente |
 | [15](dfl4/art_15.md) | — | — | vigente |
 | [16](dfl4/art_16.md) | — | — | vigente |
-| [17](dfl4/art_17.md) | — | — ⚠️ faltan 20.402 | vigente |
+| [17](dfl4/art_17.md) | — | Ley 20.402 (2009) | vigente |
 | [18](dfl4/art_18.md) | — | — | vigente |
 | [19](dfl4/art_19.md) | La solicitud de concesión provisional deberá presentarse a la Superintendencia | Ley 20.701 (2013) | vigente |
 | [20](dfl4/art_20.md) | — | Ley 20.701 (2013), Ley 21.582 (2023) | vigente |
@@ -133,18 +133,18 @@ Texto consolidado: DFL 4, versión BCN 2026-07-31. Generado por `scripts/generar
 | [22](dfl4/art_22.md) | — | Ley 20.701 (2013) | vigente |
 | [23](dfl4/art_23.md) | Derogado | Ley 21.582 (2023) | derogado (vigente hasta 2023-07-07) |
 | [24](dfl4/art_24.md) | — | — | vigente |
-| [25](dfl4/art_25.md) | La solicitud de concesión definitiva se presentará ante la Superintendencia con copia al D | Ley 20.701 (2013) ⚠️ faltan 20.220, 20.402 | vigente |
-| [26](dfl4/art_26.md) | — | — ⚠️ faltan 20.402 | vigente |
+| [25](dfl4/art_25.md) | La solicitud de concesión definitiva se presentará ante la Superintendencia con copia al D | Ley 20.402 (2009), Ley 20.701 (2013) ⚠️ faltan 20.220 | vigente |
+| [26](dfl4/art_26.md) | — | Ley 20.402 (2009) | vigente |
 | [27](dfl4/art_27.md) | — | Ley 20.701 (2013) | vigente |
 | [27 bis](dfl4/art_27_bis.md) | — | Ley 20.701 (2013) | vigente |
 | [27 ter](dfl4/art_27_ter.md) | — | Ley 20.701 (2013) | vigente |
 | [28](dfl4/art_28.md) | — | Ley 20.701 (2013) | vigente |
-| [29](dfl4/art_29.md) | — | Ley 20.701 (2013), Ley 21.582 (2023) | vigente |
+| [29](dfl4/art_29.md) | — | Ley 20.402 (2009), Ley 20.701 (2013), Ley 21.582 (2023) | vigente |
 | [30](dfl4/art_30.md) | — | — | vigente |
 | [31](dfl4/art_31.md) | Las concesiones definitivas se otorgarán por plazo indefinido | — | vigente |
 | [31 bis](dfl4/art_31_bis.md) | — | Ley 20.701 (2013) | vigente |
-| [32](dfl4/art_32.md) | — | — ⚠️ faltan 20.402 | vigente |
-| [33](dfl4/art_33.md) | — | — | vigente |
+| [32](dfl4/art_32.md) | — | — | vigente |
+| [33](dfl4/art_33.md) | — | Ley 20.402 (2009) | vigente |
 | [34](dfl4/art_34.md) | — | — | vigente |
 | [34 bis](dfl4/art_34_bis.md) | — | Ley 20.701 (2013) ⚠️ faltan 20.897 | vigente |
 | [35](dfl4/art_35.md) | — | — | vigente |
@@ -159,7 +159,7 @@ Texto consolidado: DFL 4, versión BCN 2026-07-31. Generado por `scripts/generar
 | [44](dfl4/art_44.md) | — | — | vigente |
 | [45](dfl4/art_45.md) | — | — | vigente |
 | [46](dfl4/art_46.md) | — | — | vigente |
-| [47](dfl4/art_47.md) | — | — ⚠️ faltan 20.402 | vigente |
+| [47](dfl4/art_47.md) | — | Ley 20.402 (2009) | vigente |
 | [48](dfl4/art_48.md) | — | — | vigente |
 | [49](dfl4/art_49.md) | — | — | vigente |
 | [50](dfl4/art_50.md) | Las servidumbres a que se refiere el artículo anterior otorgan los siguientes derechos: 1 | — | vigente |
@@ -170,12 +170,12 @@ Texto consolidado: DFL 4, versión BCN 2026-07-31. Generado por `scripts/generar
 | [55](dfl4/art_55.md) | — | — | vigente |
 | [56](dfl4/art_56.md) | — | — | vigente |
 | [57](dfl4/art_57.md) | — | — | vigente |
-| [58](dfl4/art_58.md) | — | — ⚠️ faltan 20.402 | vigente |
-| [59](dfl4/art_59.md) | — | — | vigente |
+| [58](dfl4/art_58.md) | — | — | vigente |
+| [59](dfl4/art_59.md) | — | Ley 20.402 (2009) | vigente |
 | [60](dfl4/art_60.md) | — | — | vigente |
 | [61](dfl4/art_61.md) | — | — | vigente |
 | [62](dfl4/art_62.md) | — | Ley 21.582 (2023) | vigente |
-| [63](dfl4/art_63.md) | — | Ley 20.701 (2013) | vigente |
+| [63](dfl4/art_63.md) | — | Ley 20.402 (2009), Ley 20.701 (2013) | vigente |
 | [63 bis](dfl4/art_63_bis.md) | — | Ley 20.701 (2013) | vigente |
 | [63 ter](dfl4/art_63_ter.md) | — | Ley 20.701 (2013) | vigente |
 | [64](dfl4/art_64.md) | — | Ley 20.701 (2013) | vigente |
@@ -201,13 +201,13 @@ Texto consolidado: DFL 4, versión BCN 2026-07-31. Generado por `scripts/generar
 | [132](dfl4/art_132.md) | — | — ⚠️ faltan 20.805, 20.928 | vigente |
 | [133](dfl4/art_133.md) | Las exigencias de seguridad y calidad D | Ley 20.936 (2016) ⚠️ faltan 20.220, 20.805, 21.806 | vigente |
 | [134](dfl4/art_134.md) | — | Ley 20.936 (2016) ⚠️ faltan 20.805 | vigente |
-| [135](dfl4/art_135.md) | — | — ⚠️ faltan 20.805 | vigente |
+| [135](dfl4/art_135.md) | — | Ley 20.402 (2009) ⚠️ faltan 20.805 | vigente |
 | [135 bis](dfl4/art_135_bis.md) | — | — ⚠️ faltan 20.805 | vigente |
 | [135 ter](dfl4/art_135_ter.md) | — | Ley 20.936 (2016) ⚠️ faltan 20.805 | vigente |
 | [135 quater](dfl4/art_135_quater.md) | — | — ⚠️ faltan 20.805 | vigente |
 | [135 quinquies](dfl4/art_135_quinquies.md) | — | Ley 20.936 (2016) ⚠️ faltan 20.805 | vigente |
 | [136](dfl4/art_136.md) | — | — | vigente |
-| [137](dfl4/art_137.md) | Suprimido | Ley 20.936 (2016) | derogado (vigente hasta 2016-07-20) |
+| [137](dfl4/art_137.md) | Suprimido | Ley 20.402 (2009), Ley 20.936 (2016) | derogado (vigente hasta 2016-07-20) |
 | [138](dfl4/art_138.md) | Suprimido | Ley 20.936 (2016) | derogado (vigente hasta 2016-07-20) |
 | [139](dfl4/art_139.md) | — | — | vigente |
 | [139 bis](dfl4/art_139_bis.md) | — | — ⚠️ faltan 21.076 | vigente |
@@ -217,41 +217,41 @@ Texto consolidado: DFL 4, versión BCN 2026-07-31. Generado por `scripts/generar
 | [143](dfl4/art_143.md) | — | — | vigente |
 | [144](dfl4/art_144.md) | — | — | vigente |
 | [145](dfl4/art_145.md) | — | — | vigente |
-| [146](dfl4/art_146.md) | — | — ⚠️ faltan 20.220, 20.402 | vigente |
+| [146](dfl4/art_146.md) | — | Ley 20.402 (2009) ⚠️ faltan 20.220 | vigente |
 | [146 bis](dfl4/art_146_bis.md) | — | — ⚠️ faltan 20.805 | vigente |
 | [146 ter](dfl4/art_146_ter.md) | — | Ley 20.936 (2016) ⚠️ faltan 20.220, 20.720 | vigente |
 | [146 quater](dfl4/art_146_quater.md) | Suprimido | Ley 20.936 (2016) | derogado (vigente hasta 2016-07-20) |
-| [147](dfl4/art_147.md) | — | Ley 21.804 (2026) ⚠️ faltan 20.402, 20.805 | vigente |
+| [147](dfl4/art_147.md) | — | Ley 20.402 (2009), Ley 21.804 (2026) ⚠️ faltan 20.805 | vigente |
 | [148](dfl4/art_148.md) | — | — | vigente |
 | [149](dfl4/art_149.md) | — | Ley 20.936 (2016), Ley 21.505 (2022) ⚠️ faltan 20.571 | vigente |
 | [149 bis](dfl4/art_149_bis.md) | — | Ley 21.505 (2022) ⚠️ faltan 20.571, 21.118 | vigente |
 | [149 ter](dfl4/art_149_ter.md) | — | Ley 21.505 (2022), Ley 21.804 (2026) ⚠️ faltan 21.118 | vigente |
 | [149 quater](dfl4/art_149_quater.md) | — | Ley 20.936 (2016), Ley 21.804 (2026) ⚠️ faltan 20.571 | vigente |
 | [149 quinquies](dfl4/art_149_quinquies.md) | — | — ⚠️ faltan 20.571 | vigente |
-| [150](dfl4/art_150.md) | Eliminado | Ley 20.936 (2016) | derogado (vigente hasta 2016-07-20) |
+| [150](dfl4/art_150.md) | Eliminado | Ley 20.402 (2009), Ley 20.936 (2016) | derogado (vigente hasta 2016-07-20) |
 | [150 bis](dfl4/art_150_bis.md) | — | Ley 20.936 (2016), Ley 21.804 (2026) ⚠️ faltan 20.257, 20.698 | vigente |
 | [150 ter](dfl4/art_150_ter.md) | — | Ley 20.936 (2016), Ley 21.804 (2026) ⚠️ faltan 20.698 | vigente |
-| [151](dfl4/art_151.md) | — | — ⚠️ faltan 20.402 | vigente |
-| [152](dfl4/art_152.md) | — | Ley 21.804 (2026) | vigente |
+| [151](dfl4/art_151.md) | — | Ley 20.402 (2009) | vigente |
+| [152](dfl4/art_152.md) | — | Ley 20.402 (2009), Ley 21.804 (2026) | vigente |
 | [153](dfl4/art_153.md) | — | — | vigente |
 | [154](dfl4/art_154.md) | — | — | vigente |
 | [155](dfl4/art_155.md) | En el sistema eléctrico nacional y en los sistemas medianos se distinguirán dos niveles de precios sujetos a fijación: 1 | Ley 20.936 (2016), Ley 21.804 (2026) | vigente |
 | [156](dfl4/art_156.md) | — | — | vigente |
 | [157](dfl4/art_157.md) | — | Ley 20.936 (2016), Ley 21.804 (2026), Ley 21.833 (2026) ⚠️ faltan 20.257, 20.805, 20.928 | vigente |
-| [158](dfl4/art_158.md) | — | Ley 20.936 (2016), Ley 21.804 (2026) | vigente |
+| [158](dfl4/art_158.md) | — | Ley 20.402 (2009), Ley 20.936 (2016), Ley 21.804 (2026) | vigente |
 | [159](dfl4/art_159.md) | — | Ley 21.804 (2026) | vigente |
 | [160](dfl4/art_160.md) | Los precios de nudo de corto plazo definidos en el artículo 162º deberán ser fijados semestralmente | Ley 20.936 (2016) | vigente |
 | [161](dfl4/art_161.md) | — | — | vigente |
 | [162](dfl4/art_162.md) | Para cada fijación semestral, los precios de nudo de corto plazo se calcularán de la siguiente forma: 1 | Ley 20.936 (2016) | vigente |
-| [163](dfl4/art_163.md) | — | Ley 20.936 (2016), Ley 21.804 (2026), Ley 21.833 (2026) ⚠️ faltan 20.402 | vigente |
+| [163](dfl4/art_163.md) | — | Ley 20.402 (2009), Ley 20.936 (2016), Ley 21.804 (2026), Ley 21.833 (2026) | vigente |
 | [164](dfl4/art_164.md) | — | — | vigente |
 | [165](dfl4/art_165.md) | — | Ley 20.936 (2016) | vigente |
 | [166](dfl4/art_166.md) | — | Ley 20.936 (2016) | vigente |
 | [167](dfl4/art_167.md) | — | Ley 20.936 (2016) | vigente |
 | [168](dfl4/art_168.md) | — | — | vigente |
-| [169](dfl4/art_169.md) | — | Ley 20.936 (2016) | vigente |
-| [170](dfl4/art_170.md) | — | Ley 20.936 (2016) ⚠️ faltan 20.402 | vigente |
-| [171](dfl4/art_171.md) | — | Ley 20.936 (2016) | vigente |
+| [169](dfl4/art_169.md) | — | Ley 20.402 (2009), Ley 20.936 (2016) | vigente |
+| [170](dfl4/art_170.md) | — | Ley 20.402 (2009), Ley 20.936 (2016) | vigente |
+| [171](dfl4/art_171.md) | — | Ley 20.402 (2009), Ley 20.936 (2016) | vigente |
 | [172](dfl4/art_172.md) | — | — | vigente |
 | [173](dfl4/art_173.md) | Planificación de los sistemas medianos | Ley 21.804 (2026) | vigente |
 | [173 bis](dfl4/art_173_bis.md) | De la obligación de coordinarse en los sistemas medianos | Ley 21.804 (2026) | vigente |
@@ -267,7 +267,7 @@ Texto consolidado: DFL 4, versión BCN 2026-07-31. Generado por `scripts/generar
 | [177 ter](dfl4/art_177_ter.md) | Financiamiento del estudio de planificación y tarificación de los sistemas medianos | Ley 21.804 (2026) | vigente |
 | [177 quater](dfl4/art_177_quater.md) | Resultados del estudio y audiencia pública | Ley 21.804 (2026) | vigente |
 | [177 quinquies](dfl4/art_177_quinquies.md) | Informe técnico preliminar | Ley 21.804 (2026) | vigente |
-| [178](dfl4/art_178.md) | Informe técnico definitivo y decreto tarifario | Ley 21.804 (2026) ⚠️ faltan 20.402 | vigente |
+| [178](dfl4/art_178.md) | Informe técnico definitivo y decreto tarifario | Ley 20.402 (2009), Ley 21.804 (2026) | vigente |
 | [179](dfl4/art_179.md) | Planes de expansión | Ley 21.804 (2026) | vigente |
 | [180](dfl4/art_180.md) | Actualización interperíodos | Ley 21.804 (2026) | vigente |
 | [180-1](dfl4/art_180-1.md) | Acceso abierto y procedimientos de conexión en sistemas medianos | Ley 21.804 (2026) | vigente |
@@ -289,13 +289,13 @@ Texto consolidado: DFL 4, versión BCN 2026-07-31. Generado por `scripts/generar
 | [183](dfl4/art_183.md) | — | Ley 21.833 (2026) ⚠️ faltan 21.194 | vigente |
 | [183 bis](dfl4/art_183_bis.md) | — | — ⚠️ faltan 21.194 | vigente |
 | [183 ter](dfl4/art_183_ter.md) | — | Ley 21.833 (2026) | vigente |
-| [184](dfl4/art_184.md) | — | Ley 20.936 (2016) ⚠️ faltan 20.402, 20.928 | vigente |
+| [184](dfl4/art_184.md) | — | Ley 20.402 (2009), Ley 20.936 (2016) ⚠️ faltan 20.928 | vigente |
 | [185](dfl4/art_185.md) | — | — ⚠️ faltan 21.194 | vigente |
 | [186](dfl4/art_186.md) | — | — | vigente |
 | [187](dfl4/art_187.md) | — | — | vigente |
 | [188](dfl4/art_188.md) | Eliminado | — ⚠️ faltan 21.194 | eliminado según el texto consolidado (el XML BCN no lo marca derogado; fecha no informada) |
-| [189](dfl4/art_189.md) | Eliminado | — ⚠️ faltan 21.194 | eliminado según el texto consolidado (el XML BCN no lo marca derogado; fecha no informada) |
-| [190](dfl4/art_190.md) | — | — ⚠️ faltan 20.402 | vigente |
+| [189](dfl4/art_189.md) | Eliminado | Ley 20.402 (2009) ⚠️ faltan 21.194 | eliminado según el texto consolidado (el XML BCN no lo marca derogado; fecha no informada) |
+| [190](dfl4/art_190.md) | — | Ley 20.402 (2009) | vigente |
 | [191](dfl4/art_191.md) | — | Ley 21.804 (2026) ⚠️ faltan 20.928 | vigente |
 | [191 bis](dfl4/art_191_bis.md) | — | — ⚠️ faltan 21.657 | vigente |
 | [192](dfl4/art_192.md) | — | — | vigente |
@@ -310,10 +310,10 @@ Texto consolidado: DFL 4, versión BCN 2026-07-31. Generado por `scripts/generar
 | [200](dfl4/art_200.md) | — | — | vigente |
 | [201](dfl4/art_201.md) | — | — | vigente |
 | [202](dfl4/art_202.md) | Los acuerdos tendrán una duración mínima de cuatro años | — | vigente |
-| [203](dfl4/art_203.md) | — | — ⚠️ faltan 20.402 | vigente |
+| [203](dfl4/art_203.md) | — | Ley 20.402 (2009) | vigente |
 | [204](dfl4/art_204.md) | — | — | vigente |
 | [205](dfl4/art_205.md) | — | — | vigente |
-| [206](dfl4/art_206.md) | — | — ⚠️ faltan 20.402 | vigente |
+| [206](dfl4/art_206.md) | — | Ley 20.402 (2009) | vigente |
 | [207](dfl4/art_207.md) | — | — ⚠️ faltan 21.304 | vigente |
 | [207-1](dfl4/art_207-1.md) | — | — ⚠️ faltan 21.304 | vigente |
 | [207-2](dfl4/art_207-2.md) | — | Ley 21.833 (2026) ⚠️ faltan 21.304 | vigente |
@@ -326,9 +326,9 @@ Texto consolidado: DFL 4, versión BCN 2026-07-31. Generado por `scripts/generar
 | [207-8](dfl4/art_207-8.md) | — | — ⚠️ faltan 21.806 | vigente |
 | [208](dfl4/art_208.md) | — | Ley 20.936 (2016) | vigente |
 | [209](dfl4/art_209.md) | — | — ⚠️ faltan 20.999 | vigente |
-| [210](dfl4/art_210.md) | — | Ley 20.936 (2016) ⚠️ faltan 20.999 | vigente |
-| [211](dfl4/art_211.md) | — | Ley 20.936 (2016) ⚠️ faltan 20.402 | vigente |
-| [212](dfl4/art_212.md) | — | Ley 20.936 (2016) ⚠️ faltan 20.402 | vigente |
+| [210](dfl4/art_210.md) | — | Ley 20.402 (2009), Ley 20.936 (2016) ⚠️ faltan 20.999 | vigente |
+| [211](dfl4/art_211.md) | — | Ley 20.402 (2009), Ley 20.936 (2016) | vigente |
+| [212](dfl4/art_212.md) | — | Ley 20.402 (2009), Ley 20.936 (2016) | vigente |
 | [213](dfl4/art_213.md) | — | — ⚠️ faltan 20.273 | vigente |
 | [214](dfl4/art_214.md) | — | — ⚠️ faltan 20.273 | vigente |
 | [215](dfl4/art_215.md) | — | — | vigente |
@@ -336,7 +336,7 @@ Texto consolidado: DFL 4, versión BCN 2026-07-31. Generado por `scripts/generar
 | [217](dfl4/art_217.md) | Derógase la facultad contenida en el decreto ley 1 | — | vigente |
 | [218](dfl4/art_218.md) | — | — | vigente |
 | [219](dfl4/art_219.md) | — | — | vigente |
-| [220](dfl4/art_220.md) | Suprimido | Ley 20.936 (2016) | derogado (vigente hasta 2016-07-20) |
+| [220](dfl4/art_220.md) | Suprimido | Ley 20.402 (2009), Ley 20.936 (2016) | derogado (vigente hasta 2016-07-20) |
 | [221](dfl4/art_221.md) | — | — | vigente |
 | [222](dfl4/art_222.md) | — | — | vigente |
 | [223](dfl4/art_223.md) | — | Ley 20.936 (2016) | vigente |
@@ -377,4 +377,4 @@ Texto consolidado: DFL 4, versión BCN 2026-07-31. Generado por `scripts/generar
 
 - Artículos sin texto: ninguno.
 - Artículos cuyo texto consolidado dice solo 'Eliminado/Suprimido' sin marca de derogación en el XML BCN: 188, 189.
-- Artículos con historia incompleta (70): 8 ter (faltan 21.194); 9 (faltan 20.402); 11 (faltan 20.402); 17 (faltan 20.402); 25 (faltan 20.220, 20.402); 26 (faltan 20.402); 32 (faltan 20.402); 34 bis (faltan 20.897); 47 (faltan 20.402); 58 (faltan 20.402); 131 (faltan 20.805, 20.928); 131 bis (faltan 20.805); 131 ter (faltan 20.805); 132 (faltan 20.805, 20.928); 133 (faltan 20.220, 20.805, 21.806); 134 (faltan 20.805); 135 (faltan 20.805); 135 bis (faltan 20.805); 135 ter (faltan 20.805); 135 quater (faltan 20.805); 135 quinquies (faltan 20.805); 139 bis (faltan 21.076); 141 (faltan 21.304); 146 (faltan 20.220, 20.402); 146 bis (faltan 20.805); 146 ter (faltan 20.220, 20.720); 147 (faltan 20.402, 20.805); 149 (faltan 20.571); 149 bis (faltan 20.571, 21.118); 149 ter (faltan 21.118); 149 quater (faltan 20.571); 149 quinquies (faltan 20.571); 150 bis (faltan 20.257, 20.698); 150 ter (faltan 20.698); 151 (faltan 20.402); 157 (faltan 20.257, 20.805, 20.928); 163 (faltan 20.402); 170 (faltan 20.402); 174 bis (faltan 20.698); 178 (faltan 20.402); 182 bis (faltan 21.194); 183 (faltan 21.194); 183 bis (faltan 21.194); 184 (faltan 20.402, 20.928); 185 (faltan 21.194); 188 (faltan 21.194); 189 (faltan 21.194); 190 (faltan 20.402); 191 (faltan 20.928); 191 bis (faltan 21.657); 193 (faltan 21.194, 21.647); 203 (faltan 20.402); 206 (faltan 20.402); 207 (faltan 21.304); 207-1 (faltan 21.304); 207-2 (faltan 21.304); 207-2 bis (faltan 21.806); 207-3 (faltan 21.304, 21.806); 207-4 (faltan 21.304); 207-5 (faltan 21.304); 207-6 (faltan 21.304); 207-7 (faltan 21.806); 207-8 (faltan 21.806); 209 (faltan 20.999); 210 (faltan 20.999); 211 (faltan 20.402); 212 (faltan 20.402); 213 (faltan 20.273); 214 (faltan 20.273); 225 (faltan 20.928, 21.194).
+- Artículos con historia incompleta (54): 8 ter (faltan 21.194); 25 (faltan 20.220); 34 bis (faltan 20.897); 131 (faltan 20.805, 20.928); 131 bis (faltan 20.805); 131 ter (faltan 20.805); 132 (faltan 20.805, 20.928); 133 (faltan 20.220, 20.805, 21.806); 134 (faltan 20.805); 135 (faltan 20.805); 135 bis (faltan 20.805); 135 ter (faltan 20.805); 135 quater (faltan 20.805); 135 quinquies (faltan 20.805); 139 bis (faltan 21.076); 141 (faltan 21.304); 146 (faltan 20.220); 146 bis (faltan 20.805); 146 ter (faltan 20.220, 20.720); 147 (faltan 20.805); 149 (faltan 20.571); 149 bis (faltan 20.571, 21.118); 149 ter (faltan 21.118); 149 quater (faltan 20.571); 149 quinquies (faltan 20.571); 150 bis (faltan 20.257, 20.698); 150 ter (faltan 20.698); 157 (faltan 20.257, 20.805, 20.928); 174 bis (faltan 20.698); 182 bis (faltan 21.194); 183 (faltan 21.194); 183 bis (faltan 21.194); 184 (faltan 20.928); 185 (faltan 21.194); 188 (faltan 21.194); 189 (faltan 21.194); 191 (faltan 20.928); 191 bis (faltan 21.657); 193 (faltan 21.194, 21.647); 207 (faltan 21.304); 207-1 (faltan 21.304); 207-2 (faltan 21.304); 207-2 bis (faltan 21.806); 207-3 (faltan 21.304, 21.806); 207-4 (faltan 21.304); 207-5 (faltan 21.304); 207-6 (faltan 21.304); 207-7 (faltan 21.806); 207-8 (faltan 21.806); 209 (faltan 20.999); 210 (faltan 20.999); 213 (faltan 20.273); 214 (faltan 20.273); 225 (faltan 20.928, 21.194).

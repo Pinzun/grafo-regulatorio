@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?><Norma xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.leychile.cl/esquemas" xsi:schemaLocation="http://www.leychile.cl/esquemas http://www.leychile.cl/esquemas/EsquemaIntercambioNorma-v1-0.xsd" normaId="1008692" esTratado="no tratado" fechaVersion="2009-12-03" SchemaVersion="1.0" derogado="no derogado">
+  <Identificador fechaPromulgacion="2009-11-25" fechaPublicacion="2009-12-03">
+    <TiposNumeros>
+      <TipoNumero>
+        <Tipo>Ley</Tipo>
+        <Numero>20402</Numero>
+      </TipoNumero>
+    </TiposNumeros>
+    <Organismos>
+      <Organismo>MINISTERIO DE MINER&#205;A</Organismo>
+      <Organismo>SUBSECRETAR&#205;A DE MINER&#205;A</Organismo>
+    </Organismos>
+  </Identificador>
+  <Metadatos>
+    <TituloNorma>CREA EL MINISTERIO DE ENERG&#205;A, ESTABLECIENDO MODIFICACIONES AL DL N&#186; 2.224, DE 1978 Y A OTROS CUERPOS LEGALES</TituloNorma>
+    <Materias>
+      <Materia>Ministerio de Energ&#237;a </Materia>
+      <Materia>D.L. no. 2.224, 1978 </Materia>
+      <Materia>Ley no. 20.402</Materia>
+    </Materias>
+    
+    
+    <IdentificacionFuente>Diario Oficial</IdentificacionFuente>
+    <NumeroFuente>39527</NumeroFuente>
+  </Metadatos>
+  <Encabezado fechaVersion="2009-12-03" derogado="no derogado">
+    <Texto>
+LEY N&#218;M. 20.402
+
+CREA EL MINISTERIO DE ENERG&#205;A, ESTABLECIENDO MODIFICACIONES AL DL N&#186; 2.224, DE 1978 Y A OTROS CUERPOS LEGALES
+
+     Teniendo presente que el H. Congreso Nacional ha dado su aprobaci&#243;n al siguiente
+
+     Proyecto de ley:</Texto>
+  </Encabezado>
+  <EstructurasFuncionales>
+    <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2009-12-03" derogado="no derogado" idParte="8811968">
+      <Texto>
+     Art&#237;culo 1&#186;.- Cr&#233;ase el Ministerio de Energ&#237;a, el que ser&#225; el &#243;rgano superior de colaboraci&#243;n del Presidente de la Rep&#250;blica en las funciones de gobierno y administraci&#243;n del sector de energ&#237;a.</Texto>
+      <Metadatos>
+        <NombreParte presente="si">1 </NombreParte>
+        <TituloParte presente="no">&#160;</TituloParte>
+        
+      </Metadatos>
+    </EstructuraFuncional>
+    <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2009-12-03" derogado="no derogado" idParte="8811969">
+      <Texto>
+     Art&#237;culo 2&#186;.- Modif&#237;case el decreto ley N&#186; 2.224, de 1978, de la siguiente manera:
+
+     1. Reempl&#225;zase el ep&#237;grafe del T&#237;tulo I por el siguiente: "Del Ministerio de Energ&#237;a".
+
+     2. Supr&#237;mese el art&#237;culo 1&#186;.
+
+     3. En el art&#237;culo 2&#186;:
+
+     a) Reempl&#225;zase la frase "a la Comisi&#243;n Nacional de Energ&#237;a" por la siguiente: "al Ministerio de Energ&#237;a".
+     b) Agr&#233;gase el siguiente inciso segundo: "Se relacionar&#225;n con el Presidente de la Rep&#250;blica por intermedio del Ministerio de Energ&#237;a, la Comisi&#243;n Nacional de Energ&#237;a, la Superintendencia de Electricidad y Combustibles y la Comisi&#243;n Chilena de Energ&#237;a Nuclear.".
+
+     4. En el art&#237;culo 3&#186;:
+
+     a) Reempl&#225;zase la frase "a la Comisi&#243;n Nacional de Energ&#237;a" por la siguiente: "al Ministerio de Energ&#237;a".
+     b) Agr&#233;gase, despu&#233;s de la palabra "distribuci&#243;n," las palabras: "consumo, uso eficiente,".
+
+     5. En el art&#237;culo 4&#186;:
+
+     i) Reempl&#225;zase, en el encabezamiento, la frase "a la Comisi&#243;n" por la siguiente: "al Ministerio".
+     ii) En la letra d), reempl&#225;zase la frase "y proponer al Gobierno las normas t&#233;cnicas" por la siguiente frase, precedida de una coma (,): "proponer y dictar, seg&#250;n corresponda, las normas"; sustit&#250;yese la locuci&#243;n "sea necesario dictar" por "sean necesarias", y agr&#233;gase antes de la frase "la seguridad y adecuado funcionamiento" la frase: "la eficiencia energ&#233;tica,".
+     iii) Reempl&#225;zase, en la letra e), la frase "t&#233;cnicas a que se refiere la letra anterior" por la palabra "sectoriales".
+     iv) Reempl&#225;zase la letra f) por la siguiente: "f) Proponer al Presidente de la Rep&#250;blica y evaluar las pol&#237;ticas, planes y normas relativas a los contratos especiales de operaci&#243;n a que se refiere el inciso d&#233;cimo del n&#250;mero 24&#186; del art&#237;</Texto>
+      <Metadatos>
+        <NombreParte presente="si">2 </NombreParte>
+        <TituloParte presente="no">&#160;</TituloParte>
+        
+      </Metadatos>
+    </EstructuraFuncional>
+    <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2009-12-03" derogado="no derogado" idParte="8811970">
+      <Texto>
+     Art&#237;culo 3&#186;.- Modif&#237;case el art&#237;culo 5&#186; del decreto con fuerza de ley N&#186; 302, del a&#241;o 1960, del Ministerio de Hacienda, Ley Org&#225;nica del Ministerio de Miner&#237;a, de la siguiente manera:
+
+     1. Supr&#237;mese la letra g).
+     2. Sustit&#250;yese la letra i), por la siguiente:
+
+     "i) Suscribir en representaci&#243;n del Estado, previo informe favorable del Consejo de la Comisi&#243;n Chilena del Cobre, con los requisitos y bajo las condiciones que el Presidente de la Rep&#250;blica fije por decreto supremo, los contratos especiales de operaci&#243;n a que se refiere el inciso d&#233;cimo del n&#250;mero 24&#186; del art&#237;culo 19 de la Constituci&#243;n Pol&#237;tica que tengan por objeto sustancias minerales met&#225;licas o no met&#225;licas no susceptibles de concesi&#243;n, con exclusi&#243;n de los hidrocarburos y los materiales at&#243;micos naturales; ejercer, directamente o por intermedio de un organismo o empresa del Estado, funciones y derechos que el decreto supremo y el correspondiente contrato especial de operaci&#243;n antes mencionado le se&#241;alen, y celebrar, en representaci&#243;n del Estado, previo informe favorable del Consejo de la Comisi&#243;n Chilena del Cobre, contratos de servicio que tengan por objeto la ejecuci&#243;n de determinados trabajos relacionados con la exploraci&#243;n de yacimientos que contengan sustancias no susceptibles de concesi&#243;n.".
+</Texto>
+      <Metadatos>
+        <NombreParte presente="si">3 </NombreParte>
+        <TituloParte presente="no">&#160;</TituloParte>
+        
+      </Metadatos>
+    </EstructuraFuncional>
+    <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2009-12-03" derogado="no derogado" idParte="8811971">
+      <Texto>
+     Art&#237;culo 4&#186;.- Modif&#237;case la ley N&#186; 16.319, Ley Org&#225;nica de la Comisi&#243;n Chilena de Energ&#237;a Nuclear, de la siguiente manera:
+
+     1. Sustit&#250;yese en el inciso tercero de su art&#237;culo 1&#186;, la palabra "Miner&#237;a" por "Energ&#237;a".
+     2. Sustit&#250;yese en la letra b) del inciso tercero del art&#237;culo 9&#186;, la palabra "Miner&#237;a" por "Energ&#237;a".
+</Texto>
+      <Metadatos>
+        <NombreParte presente="si">4 </NombreParte>
+        <TituloParte presente="no">&#160;</TituloParte>
+        
+      </Metadatos>
+    </EstructuraFuncional>
+    <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2009-12-03" derogado="no derogado" idParte="8811972">
+      <Texto>
+     Art&#237;culo 5&#186;.- Sustit&#250;yese en la ley N&#186; 18.302, Ley de Seguridad Nuclear, en todas las disposiciones en que se encuentra, la palabra "Miner&#237;a" por "Energ&#237;a".
+</Texto>
+      <Metadatos>
+        <NombreParte presente="si">5 </NombreParte>
+        <TituloParte presente="no">&#160;</TituloParte>
+        
+      </Metadatos>
+    </EstructuraFuncional>
+    <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2009-12-03" derogado="no derogado" idParte="8811973">
+      <Texto>
+     Art&#237;culo 6&#186;.- Modif&#237;case la ley N&#186; 19.657, Ley sobre Concesiones de Energ&#237;a Geot&#233;rmica, de la siguiente manera:
+
+     1. Sustit&#250;yese, en todas las disposiciones en que se encuentran, salvo en el art&#237;culo 9&#186;, las expresiones "Ministerio de Miner&#237;a" y "Ministro de Miner&#237;a", por las expresiones "Ministerio de Energ&#237;a" y "Ministro de Energ&#237;a", respectivamente.
+     2. En el inciso primero del art&#237;culo 8&#186;, reempl&#225;zase la frase "la Comisi&#243;n Nacional de Energ&#237;a y" por el art&#237;culo "los".
+     3. Supr&#237;mese en el inciso primero del art&#237;culo 19, la frase ", previo informe de la Comisi&#243;n Nacional de Energ&#237;a".
+     4. Supr&#237;mese, en el inciso segundo del art&#237;culo 36, la frase final ", y a la Comisi&#243;n Nacional de Energ&#237;a".
+     5. Supr&#237;mese en el inciso segundo del art&#237;culo 39, la frase final ", y a la Comisi&#243;n Nacional de Energ&#237;a".
+</Texto>
+      <Metadatos>
+        <NombreParte presente="si">6 </NombreParte>
+        <TituloParte presente="no">&#160;</TituloParte>
+        
+      </Metadatos>
+    </EstructuraFuncional>
+    <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2009-12-03" derogado="no derogado" idParte="8811974">
+      <Texto>
+     Art&#237;culo 7&#186;.- Sustit&#250;yese en el inciso primero del art&#237;culo 11&#186; del decreto con fuerza de ley N&#186; 2, de 1987, del Ministerio de Miner&#237;a, que establece normas sobre contratos especiales de operaci&#243;n para la exploraci&#243;n y explotaci&#243;n o beneficio de yacimientos de hidrocarburos, la palabra "Miner&#237;a" por "Energ&#237;a".
+</Texto>
+      <Metadatos>
+        <NombreParte presente="si">7 </NombreParte>
+        <TituloParte presente="no">&#160;</TituloParte>
+        
+      </Metadatos>
+    </EstructuraFuncional>
+    <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2009-12-03" derogado="no derogado" idParte="8811975">
+      <Texto>
+     Art&#237;culo 8&#186;.- Modif&#237;case la ley N&#186; 20.063, que Crea Fondos de Estabilizaci&#243;n de Precios de Combustibles Derivados del Petr&#243;leo, de la siguiente manera:
+
+     1. En el art&#237;culo 2&#186;:
+
+     a) Sustit&#250;yense en los incisos primero y segundo, la palabra "Miner&#237;a" por "Energ&#237;a".
+     b) Sustit&#250;yese en el inciso noveno la palabra "Miner&#237;a" por "Energ&#237;a".
+
+     2. En el art&#237;culo 6&#186;:
+
+     - Sustit&#250;yese en su inciso tercero la palabra "Miner&#237;a" por "Energ&#237;a".
+
+     3. En el art&#237;culo 8&#186;:
+
+     - Sustit&#250;yese en el inciso segundo, la palabra "Miner&#237;a" por "Energ&#237;a".
+</Texto>
+      <Metadatos>
+        <NombreParte presente="si">8 </NombreParte>
+        <TituloParte presente="no">&#160;</TituloParte>
+        
+      </Metadatos>
+    </EstructuraFuncional>
+    <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2009-12-03" derogado="no derogado" idParte="8811976">
+      <Texto>
+     Art&#237;culo 9&#186;.- Modif&#237;case la ley N&#186; 19.030, que Crea el Fondo de Estabilizaci&#243;n de Precios del Petr&#243;leo, de la siguiente manera:
+
+     1. Sustit&#250;yense en los incisos primero, quinto y noveno del art&#237;culo 2&#186;, la palabra "Miner&#237;a" por "Energ&#237;a".
+     2. Sustit&#250;yense en los incisos tercero y s&#233;ptimo del art&#237;culo 5&#186; la palabra "Miner&#237;a" por "Energ&#237;a".
+</Texto>
+      <Metadatos>
+        <NombreParte presente="si">9 </NombreParte>
+        <TituloParte presente="no">&#160;</TituloParte>
+        
+      </Metadatos>
+    </EstructuraFuncional>
+    <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2009-12-03" derogado="no derogado" idParte="8811977">
+      <Texto>
+     Art&#237;culo 10.- Modif&#237;case la ley N&#186; 18.410, que crea la Superintendencia de Electricidad y Combustibles, de la siguiente manera:
+
+     1. Sustit&#250;yese en el inciso primero del art&#237;culo 1&#186; las palabras "Econom&#237;a, Fomento y Reconstrucci&#243;n" por la palabra "Energ&#237;a".
+     2. Reempl&#225;zase en el art&#237;culo 3&#186;, el numeral 14 por el siguiente:
+     "14.- Autorizar a organismos de certificaci&#243;n, organismos de inspecci&#243;n, laboratorios de ensayos o entidades de control para que realicen o hagan realizar bajo su exclusiva responsabilidad las pruebas y ensayos que la Superintendencia estime necesarios, con el objeto de otorgar un certificado de aprobaci&#243;n a los productos, m&#225;quinas, instrumentos, equipos, artefactos, aparatos y materiales el&#233;ctricos, de gas y de combustibles l&#237;quidos, que acrediten que cumplen con las especificaciones de seguridad, eficiencia energ&#233;tica y, o calidad establecidas y no constituyen peligro para las personas o cosas. La Superintendencia fiscalizar&#225; el debido cumplimiento de las funciones asignadas a los organismos, laboratorios o entidades autorizadas de acuerdo a este n&#250;mero y mantendr&#225; un registro de las mismas.
+     Los productos, m&#225;quinas, instrumentos, equipos, artefactos, aparatos y materiales que, de conformidad con la normativa vigente, deban sujetarse a la certificaci&#243;n prevista en el p&#225;rrafo anterior, no podr&#225;n comercializarse en el pa&#237;s sin contar con el o los respectivos certificados de aprobaci&#243;n que acrediten el cumplimiento de los est&#225;ndares establecidos en materia de seguridad, calidad, y, o eficiencia energ&#233;tica y con la respectiva etiqueta de consumo energ&#233;tico, de ser &#233;sta exigible, de acuerdo con lo dispuesto en el art&#237;culo 4&#186; del decreto ley N&#186; 2.224, de 1978.
+     Cumplidos con los requisitos establecidos por la Superintendencia, deber&#225;n integrar el registro a que se refiere el inciso primero todos aquellos organismos de certificaci&#243;n, organismos de inspecci&#243;n, laboratorios de ensayos o entidades de control nacionales e internacionales. Dichos organismos, laboratorios o entidades se mantendr&#225;n en el registro s&#243;lo mientras cumplan con los referidos requisitos.
+     La Superintendencia podr&#225; retirar del comercio, con el auxilio de la fuerza p&#250;blica, la totalidad de los materiales o productos de cualquier procedencia que, estando obligados a obtener certificado de aprobaci&#243;n y la respectiva etiqueta, sean comercializados en el pa&#237;s sin contar con aquellos.
+     El certificado de aprobaci&#243;n dar&#225; derecho al uso de un distintivo en los productos respectivos. El uso indebido de &#233;ste ser&#225; sancionado de conformidad a esta ley.".
+
+     3. Interc&#225;lase, en el n&#250;mero 6) del inciso cuarto del art&#237;culo 15, despu&#233;s de la palabra "Superintendencia" las palabras "Ministerio de Energ&#237;a", precedidas por una coma (,).
+
+     4. Agreg&#225;se un art&#237;culo 17 bis, nuevo, del siguiente tenor:
+
+     "Art&#237;culo 17 bis.- La Superintendencia no podr&#225; aplicar sanciones luego de transcurridos tres a&#241;os desde la fecha en que hubiere terminado de cometerse la infracci&#243;n o de ocurrir la omisi&#243;n sancionada.".
+
+     5. Sustit&#250;yese en el inciso final del art&#237;culo 23, las palabras "Econom&#237;a, Fomento y Reconstrucci&#243;n" por la palabra "Energ&#237;a" las dos veces que aparece.
+</Texto>
+      <Metadatos>
+        <NombreParte presente="si">10 </NombreParte>
+        <TituloParte presente="no">&#160;</TituloParte>
+        
+      </Metadatos>
+    </EstructuraFuncional>
+    <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2009-12-03" derogado="no derogado" idParte="8811978">
+      <Texto>
+     Art&#237;culo 11.- Modif&#237;case el decreto con fuerza de ley N&#186;323, del a&#241;o 1931, del Ministerio del Interior, Ley de Servicios de Gas, de la siguiente manera:
+
+     1. Sustit&#250;yese, en todas las disposiciones en que se encuentran, las expresiones "Econom&#237;a, Fomento y Reconstrucci&#243;n", por la palabra "Energ&#237;a".
+     2. Supr&#237;mese, en el art&#237;culo 47&#186;, las expresiones ", bajo la dependencia del Ministerio de Econom&#237;a, Fomento y Reconstrucci&#243;n".
+</Texto>
+      <Metadatos>
+        <NombreParte presente="si">11 </NombreParte>
+        <TituloParte presente="no">&#160;</TituloParte>
+        
+      </Metadatos>
+    </EstructuraFuncional>
+    <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2009-12-03" derogado="no derogado" idParte="8811979">
+      <Texto>
+     Art&#237;culo 12.- Modif&#237;case el decreto con fuerza de ley N&#186;1, del a&#241;o 1979, del Ministerio de Miner&#237;a, de la siguiente manera:
+
+     1. Sustit&#250;yese, en todas las disposiciones en que se encuentran, las expresiones "Econom&#237;a, Fomento y Reconstrucci&#243;n", por la expresi&#243;n "Energ&#237;a".
+     2. Reempl&#225;zase, en el art&#237;culo sexto, las expresiones "conjunto del Ministerio de Econom&#237;a, Fomento y Reconstrucci&#243;n" por las expresiones "del Ministerio de Energ&#237;a".
+     3. Supr&#237;mese el art&#237;culo octavo.
+</Texto>
+      <Metadatos>
+        <NombreParte presente="si">12 </NombreParte>
+        <TituloParte presente="no">&#160;</TituloParte>
+        
+      </Metadatos>
+    </EstructuraFuncional>
+    <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2009-12-03" derogado="no derogado" idParte="8811980">
+      <Texto>
+     Art&#237;culo 13.- Modif&#237;case el decreto con fuerza de ley N&#186;4, del a&#241;o 2007, del Ministerio de Econom&#237;a, Fomento y Reconstrucci&#243;n, Ley General de Servicios El&#233;ctricos, de la siguiente manera:
+
+     1. Sustit&#250;yese, en el art&#237;culo 9&#186;, la expresi&#243;n "al Ministerio de Econom&#237;a, Fomento y Reconstrucci&#243;n" por la siguiente: "al Ministerio de Energ&#237;a".
+     2. Sustit&#250;yense, en los art&#237;culos 11&#186;, 17&#186;, 25&#186;, 26&#186;, 29&#186;, 33&#186;, 59&#186;, 63&#186;, 74&#186;, 75&#186;, 137&#186;, 146&#186;, 163&#186;, 210&#186;; 212&#186;, inciso final, y 220&#186;, las expresiones "Econom&#237;a, Fomento y Reconstrucci&#243;n", por la expresi&#243;n "Energ&#237;a".
+     3. Interc&#225;lase, en el inciso s&#233;ptimo del art&#237;culo 94&#186;, despu&#233;s de la palabra "Ministerio", las palabras "de Energ&#237;a".
+     4. Sustit&#250;yese, en los art&#237;culos 92&#186;, inciso primero; 94&#186;, inciso sexto; 112&#186;, inciso primero; 169&#186;; 178&#186;; 189&#186;; 203&#186;, y 206&#186;, la expresi&#243;n "al Ministerio de Econom&#237;a, Fomento y Reconstrucci&#243;n" por "al Ministerio de Energ&#237;a".
+     5. Sustit&#250;yese, en los art&#237;culos 47&#186;, incisos segundo y cuarto; 83&#186;; 94&#186;, inciso quinto; 115&#186;, inciso final; 147&#186;, inciso final; 152&#186;; 184&#186;, inciso final, y 190&#186;, la expresi&#243;n "el Ministerio de Econom&#237;a, Fomento y Reconstrucci&#243;n" por "el Ministerio de Energ&#237;a".
+     6. Sustit&#250;yese, en los art&#237;culos 92&#186;, inciso segundo; 99&#186;, inciso final, y 171&#186;, la expresi&#243;n "el Ministro de Econom&#237;a, Fomento y Reconstrucci&#243;n" por "el Ministro de Energ&#237;a".
+     7. Sustit&#250;yese, en el art&#237;culo 97&#186;, la expresi&#243;n "al Ministro de Econom&#237;a, Fomento y Reconstrucci&#243;n" por "al Ministro de Energ&#237;a".
+     8. Sustit&#250;yese, en los art&#237;culos 47&#186;, inciso primero; 112&#186;, inciso final; 151&#186;, incisos primero y segundo; 158&#186;, y 178&#186;, inciso final, la expresi&#243;n "del Ministerio de Econom&#237;a, Fomento y Reconstrucci&#243;n" por "del Ministerio de Energ&#237;a".
+     9. Sustit&#250;yese en el art&#237;culo 87&#186; la expresi&#243;n "Econom&#237;a, Fomento y Reconstrucci&#243;n" por "Energ&#237;a".
+     10. Sustit&#250;yese, en el inciso primero del art&#237;culo 73&#186;, la palabra "proponga" por la palabra "determine".
+     11. Sustit&#250;yese, en el inciso segundo del art&#237;culo 135&#186;, la frase "el Consejo Directivo de la Comisi&#243;n podr&#225; acordar" por "el Ministro de Energ&#237;a podr&#225; disponer".
+     12. Sustit&#250;yese, en el inciso tercero del art&#237;culo 137&#186;, la frase "de acuerdo a las normas y reglamentos que proponga la Comisi&#243;n" por la siguiente: "de acuerdo a las normas t&#233;cnicas que determine la Comisi&#243;n y la reglamentaci&#243;n pertinente".
+     13. Supr&#237;mese, en el inciso segundo del art&#237;culo 150&#186;, la frase "el Ministerio de Econom&#237;a, Fomento y Reconstrucci&#243;n, con informe de".
+     14. Sustit&#250;yese, en el inciso primero del art&#237;culo 170&#186;, la frase "la Comisi&#243;n, previo acuerdo de su Consejo Directivo" por "el Ministerio de Energ&#237;a, mediante resoluci&#243;n exenta fundada".
+     15. Supr&#237;mense, en el inciso cuarto del art&#237;culo 211&#186;, las frases "Presidente de la Comisi&#243;n Nacional" y ", con acuerdo del Consejo Directivo".
+     16. En el art&#237;culo 212&#186;:
+
+     a) Sustit&#250;yese en su inciso segundo las palabras "la Comisi&#243;n" por "la Subsecretar&#237;a de Energ&#237;a".
+     b) Sustit&#250;yese en su inciso sexto las palabras "a la Secretar&#237;a Ejecutiva de la Comisi&#243;n" por "a la Subsecretar&#237;a de Energ&#237;a".
+
+     17. Agr&#233;gase, en el art&#237;culo 99&#186;, el siguiente inciso final, nuevo:
+
+     "En caso que sea requerido por otras leyes, se entender&#225; que los obligados a ejecutar las obras de expansi&#243;n del sistema de transmisi&#243;n troncal que determine el decreto, cuentan con la calidad de concesionarios de los servicios el&#233;ctricos. Lo anterior es sin perjuicio de lo dispuesto en las leyes N&#186;s 19.300 y 20.283, y dem&#225;s normas legales pertinentes.".
+</Texto>
+      <Metadatos>
+        <NombreParte presente="si">13 </NombreParte>
+        <TituloParte presente="no">&#160;</TituloParte>
+        
+      </Metadatos>
+    </EstructuraFuncional>
+    <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2009-12-03" derogado="no derogado" idParte="8811981">
+      <Texto>
+     Art&#237;culo 14.- Incorp&#243;rase, en el inciso primero del art&#237;culo 71 de la ley N&#186; 19.300, Ley sobre Bases Generales del Medio Ambiente, antes de las palabras "y Bienes Nacionales", la palabra "Energ&#237;a".
+</Texto>
+      <Metadatos>
+        <NombreParte presente="si">14 </NombreParte>
+        <TituloParte presente="no">&#160;</TituloParte>
+        
+      </Metadatos>
+    </EstructuraFuncional>
+    <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2009-12-03" derogado="no derogado" idParte="8811982">
+      <Texto>
+     Art&#237;culo 15.- Las atribuciones que confieran las leyes y decretos supremos al Ministerio de Miner&#237;a, al Ministerio de Econom&#237;a, Fomento y Reconstrucci&#243;n, o a la Comisi&#243;n Nacional de Energ&#237;a, o al respectivo Ministro, en todas aquellas materias que son de la competencia del Ministerio de Energ&#237;a en virtud de la presente ley, se entender&#225;n conferidas al Ministerio o Ministro de Energ&#237;a, seg&#250;n corresponda, por el solo ministerio de la ley.
+     En especial, el Ministerio de Energ&#237;a ejercer&#225; todas las competencias que en el sector energ&#237;a tiene el Ministerio de Econom&#237;a, Fomento y Reconstrucci&#243;n, salvo en aquellas materias en las que expresamente la ley dispone la intervenci&#243;n de este &#250;ltimo Ministerio, as&#237; como las que previamente ten&#237;a el Ministerio del Interior, en las materias a que se refieren las siguientes disposiciones de rango legal: decreto con fuerza de ley N&#186; 323, de 1931; decreto con fuerza de ley N&#186; 1, de 1979, del Ministerio de Miner&#237;a, y el decreto con fuerza de ley N&#186; 4, de 2007, del Ministerio de Econom&#237;a, Fomento y Reconstrucci&#243;n, que fija el texto refundido, coordinado y sistematizado del decreto con fuerza de ley N&#186; 1, de 1982, del Ministerio de Miner&#237;a.</Texto>
+      <Metadatos>
+        <NombreParte presente="si">15 </NombreParte>
+        <TituloParte presente="no">&#160;</TituloParte>
+        
+      </Metadatos>
+    </EstructuraFuncional>
+    <EstructuraFuncional transitorio="no transitorio" tipoParte="P&#225;rrafo" fechaVersion="2009-12-03" derogado="no derogado" idParte="8811983">
+      <Texto>
+     Disposiciones transitorias</Texto>
+      <Metadatos>
+        <NombreParte presente="no">&#160;</NombreParte>
+        <TituloParte presente="si">Disposiciones transitorias</TituloParte>
+        
+      </Metadatos>
+      <EstructurasFuncionales>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2009-12-03" derogado="no derogado" idParte="8811984">
+          <Texto>
+     Art&#237;culo primero.- Fac&#250;ltase al Presidente de la Rep&#250;blica para que establezca, mediante uno o m&#225;s decretos con fuerza de ley expedidos por intermedio del Ministerio de Hacienda, las normas necesarias para regular las siguientes materias:
+
+     a) Fijar la planta de personal de la Subsecretar&#237;a de Energ&#237;a, el r&#233;gimen de remuneraciones que le ser&#225; aplicable, y las asignaciones, beneficios u otros emolumentos que se les asigne. El encasillamiento en esta planta incluir&#225; s&#243;lo a personal proveniente de la Comisi&#243;n Nacional de Energ&#237;a.
+     b) Modificar la planta de personal de la Comisi&#243;n Nacional de Energ&#237;a.
+     c) Para ordenar el traspaso de funcionarios titulares de planta y a contrata entre las instituciones se&#241;aladas en la letra a), sin alterar la calidad jur&#237;dica de la designaci&#243;n y sin soluci&#243;n de continuidad, y el traspaso de los recursos que se liberen por este hecho. El traspaso de los funcionarios de planta y contrata y de los cargos que sirven, se realizar&#225; en el grado cuya remuneraci&#243;n total sea la m&#225;s cercana a la que perciba el funcionario traspasado. A contar de esa misma fecha, el cargo del que era titular el funcionario traspasado se entender&#225; suprimido de pleno derecho en la planta de la instituci&#243;n de origen. En el respectivo decreto con fuerza de ley se determinar&#225; el n&#250;mero de funcionarios que ser&#225;n traspasados por estamento y calidad jur&#237;dica, estableci&#233;ndose, adem&#225;s, el plazo en que se llevar&#225; a cabo este proceso. En cambio, la individualizaci&#243;n del personal traspasado se llevar&#225; a cabo mediante decretos expedidos bajo la f&#243;rmula "Por orden del Presidente de la Rep&#250;blica", por intermedio del Ministerio de Hacienda.
+     d) Establecer las normas complementarias al art&#237;culo 15 de la ley N&#186; 18.834, respecto de los encasillamientos derivados de las plantas que fije de conformidad con las atribuciones establecidas en este art&#237;culo.
+     e) Establecer los requisitos para el desempe&#241;o de los cargos, sus denominaciones, los niveles jer&#225;rquicos para efectos de la aplicaci&#243;n de la ley N&#186; 19.882, si correspondiere, las fechas de vigencia de las plantas, las dotaciones m&#225;ximas de personal y todas las normas necesarias para la adecuada estructuraci&#243;n y operaci&#243;n de las plantas que fije y modifique de acuerdo a lo se&#241;alado en las letras a) y b).
+     f) El uso de las facultades se&#241;aladas en este art&#237;culo quedar&#225; sujeto a las siguientes restricciones, respecto del personal al que afecte:
+     i) No podr&#225; tener como consecuencia ni podr&#225;n ser considerados como causal de t&#233;rmino de servicios, supresi&#243;n de cargos, cese de funciones o t&#233;rmino de la relaci&#243;n laboral del personal traspasado y del que no se traspase.
+     ii) No podr&#225; significar p&#233;rdida del empleo, disminuci&#243;n de remuneraciones, modificaci&#243;n de los derechos estatutarios y previsionales del personal traspasado y del que no se traspase. Tampoco podr&#225; importar cambio de la residencia habitual de los funcionarios fuera de la Regi&#243;n en que est&#233;n prestando servicios, salvo con su consentimiento. Cualquier diferencia de remuneraciones deber&#225; ser pagada mediante planilla suplementaria, la que mantendr&#225; la misma imponibilidad que aquella de las remuneraciones que compensa y no se absorber&#225; por los futuros mejoramientos de remuneraciones que provengan de promociones que beneficien a los funcionarios traspasados o reajustes generales que se otorguen a los trabajadores del sector p&#250;blico.
+     iii) Los funcionarios encasillados conservar&#225;n la asignaci&#243;n de antig&#252;edad que tengan reconocida, como tambi&#233;n el tiempo computable para dicho reconocimiento.
+     iv) El mayor gasto que se derive de la nueva planta que se fije y del encasillamiento que se practique, considerando su efecto a&#241;o completo, no podr&#225; exceder de la cantidad de $881.185 miles.</Texto>
+          <Metadatos>
+            <NombreParte presente="si">PRIMERO</NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2009-12-03" derogado="no derogado" idParte="8811985">
+          <Texto>
+     Art&#237;culo segundo.- El Presidente de la Rep&#250;blica, por decreto expedido por intermedio del Ministerio de Hacienda, conformar&#225; el presupuesto de la Subsecretar&#237;a de Energ&#237;a y la Comisi&#243;n Nacional de Energ&#237;a y traspasar&#225; a la primera los fondos correspondientes al traspaso de personal y bienes para que cumpla sus funciones, pudiendo al efecto crear, suprimir o modificar las asignaciones, &#237;tems y glosas presupuestarias que sean pertinentes.
+     El Ministerio de Energ&#237;a se constituir&#225; para todos los efectos en el sucesor legal de la Comisi&#243;n Nacional de Energ&#237;a y del Ministerio de Miner&#237;a, respecto de actos administrativos, contratos, procesos licitatorios y otras actuaciones que se deriven del traspaso de funciones en materias de su competencia, de manera que las menciones que la legislaci&#243;n general o especial realice a las precitadas instituciones se entender&#225;n hechas al Ministerio de Energ&#237;a cuando correspondiese. Al presupuesto de la Subsecretar&#237;a de Energ&#237;a, conformado de la forma indicada en el presente art&#237;culo, deber&#225;n transferirse los recursos presupuestarios que se liberen por aplicaci&#243;n de las disposiciones de este inciso.
+     Todos los programas, proyectos de inversi&#243;n, de cooperaci&#243;n o asistencia internacional que a la fecha de vigencia de la presente ley se est&#233;n realizando con la participaci&#243;n de la Comisi&#243;n Nacional de Energ&#237;a y del Ministerio de Miner&#237;a, y que correspondan a funciones cuya competencia se traspasa al Ministerio de Energ&#237;a, seguir&#225;n ejecut&#225;ndose por la Subsecretar&#237;a de Energ&#237;a y los recursos y bienes destinados a tales programas, proyectos de inversi&#243;n, de cooperaci&#243;n o asistencia internacional, ingresar&#225;n a su patrimonio.</Texto>
+          <Metadatos>
+            <NombreParte presente="si">SEGUNDO</NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2009-12-03" derogado="no derogado" idParte="8811986">
+          <Texto>
+     Art&#237;culo tercero.- El mayor gasto que represente la aplicaci&#243;n de esta ley durante el presente a&#241;o se financiar&#225; con cargo a la partida presupuestaria de la Comisi&#243;n Nacional de Energ&#237;a. No obstante lo anterior, el Ministerio de Hacienda, con cargo a la partida presupuestaria del Tesoro P&#250;blico, podr&#225; suplementar dicho presupuesto en la parte del gasto que no se pudiere financiar con esos recursos.</Texto>
+          <Metadatos>
+            <NombreParte presente="si">TERCERO</NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2009-12-03" derogado="no derogado" idParte="8811987">
+          <Texto>
+     Art&#237;culo cuarto.- Fac&#250;ltase a la Comisi&#243;n Nacional de Energ&#237;a, representada para estos efectos por su Ministro Presidente, y al Ministerio de Hacienda, para que participen en la formaci&#243;n y constituci&#243;n de una persona jur&#237;dica de derecho privado, sin fines de lucro, regulada en el T&#237;tulo XXXIII del Libro Primero del C&#243;digo Civil, cuyo objetivo fundamental sea el estudio, evaluaci&#243;n, promoci&#243;n, informaci&#243;n y desarrollo de todo tipo de iniciativas relacionadas con la diversificaci&#243;n, ahorro y uso eficiente de la energ&#237;a.
+     Del mismo modo, estos organismos estar&#225;n facultados para participar en la disoluci&#243;n y liquidaci&#243;n de dicha entidad, con arreglo a sus estatutos.
+     La referida entidad se denominar&#225; "Agencia Chilena de Eficiencia Energ&#233;tica", la que, conforme a lo dispuesto en el art&#237;culo 6&#186; de la ley N&#186; 18.575, Org&#225;nica Constitucional de Bases Generales de la Administraci&#243;n del Estado, no podr&#225; ejercer potestades p&#250;blicas.
+     La entidad que se forme en ning&#250;n caso podr&#225; celebrar ninguna clase de operaci&#243;n que pueda comprometer en forma directa o indirecta el cr&#233;dito o la responsabilidad financiera del Estado o sus organismos.
+     Asimismo, la mencionada Agencia deber&#225;, anualmente, ilustrar a la C&#225;mara de Diputados respecto de las actividades que hubieren sido financiadas con recursos p&#250;blicos y que integren sus programas en ejecuci&#243;n, remiti&#233;ndole un informe que incluya una memoria respecto al cumplimiento de los objetivos y la inversi&#243;n de los recursos respectivos. Dicha memoria deber&#225; contemplar un desglose del gasto efectuado por cada programa, la normativa aplicable, su estructura org&#225;nica, su dotaci&#243;n de personal, los recursos recibidos por organismos p&#250;blicos, y las auditor&#237;as realizadas. Toda la informaci&#243;n que deba entregarse en virtud de lo dispuesto en este art&#237;culo ser&#225; p&#250;blica y deber&#225; encontrarse a disposici&#243;n permanente del p&#250;blico y en el sitio electr&#243;nico de la entidad.
+     En la persona jur&#237;dica se&#241;alada en los incisos anteriores deber&#225;n participar organismos privados representativos de amplios sectores de la econom&#237;a y la sociedad, tales como universidades, institutos de investigaci&#243;n u organizaciones empresariales transversales y representativas, en una proporci&#243;n no menor al 30% ni mayor al 50%. Los estatutos de la corporaci&#243;n o fundaci&#243;n deber&#225;n contemplar el mecanismo de reemplazo de los organismos privados participantes en caso que su participaci&#243;n sea inferior a la se&#241;alada. El directorio de la referida persona jur&#237;dica deber&#225; tener como m&#225;ximo nueve miembros.
+     Los ministros correspondientes, mediante resoluci&#243;n, nombrar&#225;n uno o m&#225;s representantes que estar&#225;n facultados para participar en los &#243;rganos de direcci&#243;n y administraci&#243;n, de conformidad con los estatutos de la entidad a que se refiere el presente art&#237;culo.
+     Las facultades conferidas en este art&#237;culo a la Comisi&#243;n Nacional de Energ&#237;a se entender&#225;n otorgadas al Ministerio de Energ&#237;a a contar de la fecha a que se refiere el inciso primero del art&#237;culo quinto transitorio. De constituirse la entidad a que se refiere el presente art&#237;culo con anterioridad a dicha fecha, el Ministerio de Energ&#237;a suceder&#225;, a contar de la misma data, por el solo ministerio de la ley, a la Comisi&#243;n Nacional de Energ&#237;a en la se&#241;alada entidad, resultando desde entonces plenamente aplicable al efecto lo dispuesto en la letra g) del inciso primero del art&#237;culo 4&#186; del decreto ley N&#186; 2.224, de 1978.
+     Por resoluci&#243;n del Ministerio correspondiente se autorizar&#225; formalmente la incorporaci&#243;n de los Ministerios mencionados y de la Comisi&#243;n Nacional de Energ&#237;a a dicha entidad. Mediante el acto administrativo que corresponda y encuadr&#225;ndose en los recursos que anualmente establezca la Ley de Presupuestos para estos fines, se autorizar&#225;n los aportes ordinarios que se har&#225;n a esa entidad.</Texto>
+          <Metadatos>
+            <NombreParte presente="si">CUARTO</NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2009-12-03" derogado="no derogado" idParte="8811988">
+          <Texto>
+     Art&#237;culo quinto.- La presente ley comenzar&#225; a regir a contar del primer d&#237;a del mes subsiguiente al de publicaci&#243;n del decreto con fuerza de ley que fije la planta de la Subsecretar&#237;a de Energ&#237;a.
+     Con todo, lo dispuesto en los art&#237;culos transitorios de la presente ley regir&#225; a contar de la fecha de su publicaci&#243;n.</Texto>
+          <Metadatos>
+            <NombreParte presente="si">QUINTO</NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+      </EstructurasFuncionales>
+    </EstructuraFuncional>
+  </EstructurasFuncionales>
+  <Promulgacion fechaVersion="2009-12-03" derogado="no derogado">
+    <Texto>
+     Y por cuanto he tenido a bien aprobarlo y sancionarlo; por tanto prom&#250;lguese y ll&#233;vese a efecto como Ley de la Rep&#250;blica.
+     Santiago, 25 de noviembre de 2009.- MICHELLE BACHELET JERIA, Presidenta de la Rep&#250;blica.- Santiago Gonz&#225;lez Larra&#237;n, Ministro de Miner&#237;a.- Andr&#233;s Velasco Bra&#241;es, Ministro de Hacienda.- Jean Jacques Duhart Saurel, Ministro de Econom&#237;a, Fomento y Reconstrucci&#243;n (S).- Marcelo Tokman Ramos, Ministro Presidente Comisi&#243;n Nacional de Energ&#237;a.
+     Lo que transcribo a usted para su conocimiento.- Saluda atentamente a usted, Jorge G&#243;mez Oyarzo, Subsecretario de Miner&#237;a (S).</Texto>
+  </Promulgacion>
+  
+</Norma>
