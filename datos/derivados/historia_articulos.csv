@@ -8,7 +8,7 @@ articulo,id_parte,en_grafo,cobertura_historia,leyes_modificatorias_bcn,leyes_fal
 7,8721675,si,completa,20936,
 8,8721676,no,completa,,
 8 bis,9718395,si,completa,20936,
-8 ter,10084727,si,parcial,21194;21804,21194
+8 ter,10084727,si,completa,21194;21804,
 9,8721677,si,completa,20402,
 10,8721678,no,completa,21804,
 10-1,10583369,si,completa,21804,
@@ -258,22 +258,22 @@ articulo,id_parte,en_grafo,cobertura_historia,leyes_modificatorias_bcn,leyes_fal
 180-12,10583407,si,completa,21804,
 180-13,10583408,si,completa,21804,
 181,8721860,si,completa,,
-182,8721861,no,completa,20936,
-182 bis,10084728,no,parcial,21194,21194
-183,8721862,si,parcial,21194;21833,21194
-183 bis,10084729,no,parcial,21194,21194
+182,8721861,si,completa,20936,
+182 bis,10084728,si,completa,21194,
+183,8721862,si,completa,21194;21833,
+183 bis,10084729,si,completa,21194,
 183 ter,10604197,si,completa,21833,
 184,8721863,si,parcial,20402;20928;20936,20928
-185,8721864,no,parcial,21194,21194
+185,8721864,si,completa,21194,
 186,8721865,no,completa,,
-187,8721866,no,completa,,
-188,8721867,no,parcial,21194,21194
-189,8721868,si,parcial,21194,21194
+187,8721866,si,completa,,
+188,8721867,si,completa,21194,
+189,8721868,si,completa,21194,
 190,8721869,si,completa,20402,
 191,8721870,si,parcial,20928;21804,20928
 191 bis,10490325,no,parcial,21657,21657
 192,8721871,no,completa,,
-193,8721872,no,parcial,21194;21647,21194;21647
+193,8721872,si,parcial,21194;21647,21647
 194,8721873,no,completa,,
 195,8721874,no,completa,,
 196,8721875,no,completa,,
@@ -329,7 +329,7 @@ articulo,id_parte,en_grafo,cobertura_historia,leyes_modificatorias_bcn,leyes_fal
 222,8721905,no,completa,,
 223,8721906,si,completa,20936,
 224,8721907,no,completa,,
-225,8721908,si,parcial,20928;20936;21194;21804,20928;21194
+225,8721908,si,parcial,20928;20936;21194;21804,20928
 1 transitorio,8721909,no,completa,,
 2 transitorio,8721911,no,completa,,
 3 transitorio,8721912,no,completa,,

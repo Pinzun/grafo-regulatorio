@@ -150,7 +150,10 @@ def main():
             if derogado:
                 vigencia = f"derogado (vigente hasta {hasta})" if hasta else "derogado (fecha no informada por la BCN)"
             elif eliminado_txt:
-                vigencia = "eliminado según el texto consolidado (el XML BCN no lo marca derogado; fecha no informada)"
+                d = next((r for r in entrantes.get(clave, []) if r["relacion"] == "deroga"), None)
+                vigencia = "eliminado según el texto consolidado (el XML BCN no lo marca derogado; " + (
+                    f"arista deroga {d['estado']} de {etiqueta.get(d['origen'].split('__')[0], d['origen'])}, "
+                    f"vigente hasta {d['fecha_vigencia']})" if d else "fecha no informada)")
             else:
                 vigencia = "vigente"
             cob = nodo.get("cobertura_historia") or h.get("cobertura_historia", "POR_COMPLETAR")

@@ -110,7 +110,7 @@ Texto consolidado: DFL 4, versión BCN 2026-07-31. Generado por `scripts/generar
 | [7](dfl4/art_7.md) | — | Ley 20.936 (2016) | vigente |
 | [8](dfl4/art_8.md) | — | — | vigente |
 | [8 bis](dfl4/art_8_bis.md) | — | Ley 20.936 (2016) | vigente |
-| [8 ter](dfl4/art_8_ter.md) | — | Ley 21.804 (2026) ⚠️ faltan 21.194 | vigente |
+| [8 ter](dfl4/art_8_ter.md) | — | Ley 21.194 (2019), Ley 21.804 (2026) | vigente |
 | [9](dfl4/art_9.md) | — | Ley 20.402 (2009) | vigente |
 | [10](dfl4/art_10.md) | — | — | vigente |
 | [10-1](dfl4/art_10-1.md) | Definición de sistema eléctrico nacional | Ley 21.804 (2026) | vigente |
@@ -284,22 +284,22 @@ Texto consolidado: DFL 4, versión BCN 2026-07-31. Generado por `scripts/generar
 | [180-12](dfl4/art_180-12.md) | Precio nudo promedio del sistema mediano | Ley 21.804 (2026) | vigente |
 | [180-13](dfl4/art_180-13.md) | Incorporación de nuevas plantas de generación | Ley 21.804 (2026) | vigente |
 | [181](dfl4/art_181.md) | — | Ley 20.936 (2016) | vigente |
-| [182](dfl4/art_182.md) | El valor agregado por concepto de costos de distribución se basará en empresas modelo y considerará: 1 | — | vigente |
-| [182 bis](dfl4/art_182_bis.md) | — | — ⚠️ faltan 21.194 | vigente |
-| [183](dfl4/art_183.md) | — | Ley 21.833 (2026) ⚠️ faltan 21.194 | vigente |
-| [183 bis](dfl4/art_183_bis.md) | — | — ⚠️ faltan 21.194 | vigente |
+| [182](dfl4/art_182.md) | El valor agregado por concepto de costos de distribución se basará en empresas modelo y considerará: 1 | Ley 21.194 (2019) | vigente |
+| [182 bis](dfl4/art_182_bis.md) | — | Ley 21.194 (2019) | vigente |
+| [183](dfl4/art_183.md) | — | Ley 21.194 (2019), Ley 21.833 (2026) | vigente |
+| [183 bis](dfl4/art_183_bis.md) | — | Ley 21.194 (2019) | vigente |
 | [183 ter](dfl4/art_183_ter.md) | — | Ley 21.833 (2026) | vigente |
 | [184](dfl4/art_184.md) | — | Ley 20.402 (2009), Ley 20.936 (2016) ⚠️ faltan 20.928 | vigente |
-| [185](dfl4/art_185.md) | — | — ⚠️ faltan 21.194 | vigente |
+| [185](dfl4/art_185.md) | — | Ley 21.194 (2019) | vigente |
 | [186](dfl4/art_186.md) | — | — | vigente |
-| [187](dfl4/art_187.md) | — | — | vigente |
-| [188](dfl4/art_188.md) | Eliminado | — ⚠️ faltan 21.194 | eliminado según el texto consolidado (el XML BCN no lo marca derogado; fecha no informada) |
-| [189](dfl4/art_189.md) | Eliminado | Ley 20.402 (2009) ⚠️ faltan 21.194 | eliminado según el texto consolidado (el XML BCN no lo marca derogado; fecha no informada) |
+| [187](dfl4/art_187.md) | — | Ley 21.194 (2019) | vigente |
+| [188](dfl4/art_188.md) | Eliminado | Ley 21.194 (2019) | eliminado según el texto consolidado (el XML BCN no lo marca derogado; arista deroga inferida de Ley 21.194 de 2019, vigente hasta 2019-12-21) |
+| [189](dfl4/art_189.md) | Eliminado | Ley 20.402 (2009), Ley 21.194 (2019) | eliminado según el texto consolidado (el XML BCN no lo marca derogado; arista deroga inferida de Ley 21.194 de 2019, vigente hasta 2019-12-21) |
 | [190](dfl4/art_190.md) | — | Ley 20.402 (2009) | vigente |
 | [191](dfl4/art_191.md) | — | Ley 21.804 (2026) ⚠️ faltan 20.928 | vigente |
 | [191 bis](dfl4/art_191_bis.md) | — | — ⚠️ faltan 21.657 | vigente |
 | [192](dfl4/art_192.md) | — | — | vigente |
-| [193](dfl4/art_193.md) | — | — ⚠️ faltan 21.194, 21.647 | vigente |
+| [193](dfl4/art_193.md) | — | Ley 21.194 (2019) ⚠️ faltan 21.647 | vigente |
 | [194](dfl4/art_194.md) | — | — | vigente |
 | [195](dfl4/art_195.md) | — | — | vigente |
 | [196](dfl4/art_196.md) | — | — | vigente |
@@ -341,7 +341,7 @@ Texto consolidado: DFL 4, versión BCN 2026-07-31. Generado por `scripts/generar
 | [222](dfl4/art_222.md) | — | — | vigente |
 | [223](dfl4/art_223.md) | — | Ley 20.936 (2016) | vigente |
 | [224](dfl4/art_224.md) | — | — | vigente |
-| [225](dfl4/art_225.md) | — | Ley 20.936 (2016), Ley 21.505 (2022), Ley 21.804 (2026) ⚠️ faltan 20.928, 21.194 | vigente |
+| [225](dfl4/art_225.md) | — | Ley 20.936 (2016), Ley 21.194 (2019), Ley 21.505 (2022), Ley 21.804 (2026) ⚠️ faltan 20.928 | vigente |
 | [1 transitorio](dfl4/art_1_transitorio.md) | — | — | vigente |
 | [2 transitorio](dfl4/art_2_transitorio.md) | — | — | vigente |
 | [3 transitorio](dfl4/art_3_transitorio.md) | — | — | vigente |
@@ -377,4 +377,4 @@ Texto consolidado: DFL 4, versión BCN 2026-07-31. Generado por `scripts/generar
 
 - Artículos sin texto: ninguno.
 - Artículos cuyo texto consolidado dice solo 'Eliminado/Suprimido' sin marca de derogación en el XML BCN: 188, 189.
-- Artículos con historia incompleta (44): 8 ter (faltan 21.194); 25 (faltan 20.220); 34 bis (faltan 20.897); 131 (faltan 20.928); 132 (faltan 20.928); 133 (faltan 20.220, 21.806); 139 bis (faltan 21.076); 141 (faltan 21.304); 146 (faltan 20.220); 146 ter (faltan 20.220, 20.720); 149 (faltan 20.571); 149 bis (faltan 20.571, 21.118); 149 ter (faltan 21.118); 149 quater (faltan 20.571); 149 quinquies (faltan 20.571); 150 bis (faltan 20.257, 20.698); 150 ter (faltan 20.698); 157 (faltan 20.257, 20.928); 174 bis (faltan 20.698); 182 bis (faltan 21.194); 183 (faltan 21.194); 183 bis (faltan 21.194); 184 (faltan 20.928); 185 (faltan 21.194); 188 (faltan 21.194); 189 (faltan 21.194); 191 (faltan 20.928); 191 bis (faltan 21.657); 193 (faltan 21.194, 21.647); 207 (faltan 21.304); 207-1 (faltan 21.304); 207-2 (faltan 21.304); 207-2 bis (faltan 21.806); 207-3 (faltan 21.304, 21.806); 207-4 (faltan 21.304); 207-5 (faltan 21.304); 207-6 (faltan 21.304); 207-7 (faltan 21.806); 207-8 (faltan 21.806); 209 (faltan 20.999); 210 (faltan 20.999); 213 (faltan 20.273); 214 (faltan 20.273); 225 (faltan 20.928, 21.194).
+- Artículos con historia incompleta (37): 25 (faltan 20.220); 34 bis (faltan 20.897); 131 (faltan 20.928); 132 (faltan 20.928); 133 (faltan 20.220, 21.806); 139 bis (faltan 21.076); 141 (faltan 21.304); 146 (faltan 20.220); 146 ter (faltan 20.220, 20.720); 149 (faltan 20.571); 149 bis (faltan 20.571, 21.118); 149 ter (faltan 21.118); 149 quater (faltan 20.571); 149 quinquies (faltan 20.571); 150 bis (faltan 20.257, 20.698); 150 ter (faltan 20.698); 157 (faltan 20.257, 20.928); 174 bis (faltan 20.698); 184 (faltan 20.928); 191 (faltan 20.928); 191 bis (faltan 21.657); 193 (faltan 21.647); 207 (faltan 21.304); 207-1 (faltan 21.304); 207-2 (faltan 21.304); 207-2 bis (faltan 21.806); 207-3 (faltan 21.304, 21.806); 207-4 (faltan 21.304); 207-5 (faltan 21.304); 207-6 (faltan 21.304); 207-7 (faltan 21.806); 207-8 (faltan 21.806); 209 (faltan 20.999); 210 (faltan 20.999); 213 (faltan 20.273); 214 (faltan 20.273); 225 (faltan 20.928).

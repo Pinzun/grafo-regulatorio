@@ -1,0 +1,18 @@
+{
+  "id_norma": "1140301",
+  "fecha_version": "2024-04-30",
+  "nombre": "Ley 21194",
+  "url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=Ley-21194_30-ABR-2024&exportar_con_notas_bcn=True&exportar_con_notas_originales=True&exportar_con_notas_al_pie=True&hddResultadoExportar=1140301.2024-04-30.0.0%23",
+  "fecha_descarga": "2026-11-26",
+  "sha256_pdf": "dfb4a6b0bbc7395ccbf457cfea224bba560a919ee8bb4c4695898d07ea8a9ae4",
+  "bytes": 83024,
+  "con_notas_bcn": true,
+  "conversion": {
+    "texto": {
+      "parrafos": 103,
+      "notas_bcn": 1,
+      "pdf_ley_chile": true,
+      "salida": "datos/raw/pdf/ley_21194__idNorma_1140301__v2024-04-30.md"
+    }
+  }
+}
