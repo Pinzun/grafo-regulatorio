@@ -3,3 +3,4 @@
 graphify-out/.graphify_*
 graphify-out/cache/
 __pycache__/
+dist/
