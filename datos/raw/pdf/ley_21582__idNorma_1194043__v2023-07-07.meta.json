@@ -1,0 +1,18 @@
+{
+  "id_norma": "1194043",
+  "fecha_version": "2023-07-07",
+  "nombre": "Ley 21582",
+  "url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=Ley-21582_07-JUL-2023&exportar_con_notas_bcn=True&exportar_con_notas_originales=True&exportar_con_notas_al_pie=True&hddResultadoExportar=1194043.2023-07-07.0.0%23",
+  "fecha_descarga": "2026-11-25",
+  "sha256_pdf": "833df1b616c2a679b0a9dfc3511583892916db686b43f12a401592fb642932ed",
+  "bytes": 60451,
+  "con_notas_bcn": true,
+  "conversion": {
+    "texto": {
+      "parrafos": 53,
+      "notas_bcn": 0,
+      "pdf_ley_chile": true,
+      "salida": "datos/raw/pdf/ley_21582__idNorma_1194043__v2023-07-07.md"
+    }
+  }
+}
