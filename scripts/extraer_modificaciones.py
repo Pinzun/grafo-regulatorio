@@ -316,6 +316,48 @@ def implementa_res156(fecha_consulta):
 
 
 # ---------------------------------------------------------------- escritura
+def texto_truncado(txt):
+    """Firma del corte observado en la BCN (docs/diagnostico_truncamiento_bcn.md): el texto termina
+    a mitad de palabra, sin puntuación final, justo después de una letra acentuada (p. ej. 'Energí')."""
+    t = txt.strip()
+    return bool(re.search(r"[A-Za-záéíóúñÁÉÍÓÚÑ][áéíóúñ]$", t))
+
+
+REVISIONES = os.path.join(ONT, "revisiones_manuales.csv")
+
+
+def aplicar_revisiones(filas):
+    """Aplica ontologia/revisiones_manuales.csv sobre lo extraído, para que la revisión humana
+    sobreviva a cada regeneración. Clave: (origen, relacion, destino); afecta a todas las filas del par.
+    accion = confirmar -> metodo manual, estado verificada, observaciones += revisión.
+    accion = descartar -> la fila se elimina de relaciones.csv."""
+    if not os.path.exists(REVISIONES):
+        return filas
+    with open(REVISIONES, encoding="utf-8") as f:
+        revs = list(csv.DictReader(f))
+    usadas, out = set(), []
+    for r in filas:
+        k = (r["origen"], r["relacion"], r["destino"])
+        rev = next((v for v in revs if (v["origen"], v["relacion"], v["destino"]) == k), None)
+        if rev is None:
+            out.append(r)
+            continue
+        usadas.add(k)
+        if not re.match(r"revisado: .+ \d{4}-\d{2}-\d{2}", rev["revision"]):
+            raise SystemExit(f"revisiones_manuales.csv: 'revision' debe ser 'revisado: <persona> <AAAA-MM-DD>': {rev}")
+        if rev["accion"] == "descartar":
+            continue
+        if rev["accion"] != "confirmar":
+            raise SystemExit(f"revisiones_manuales.csv: accion debe ser confirmar o descartar: {rev}")
+        r = dict(r, metodo="manual", estado="verificada",
+                 observaciones=" | ".join(x for x in (rev["revision"], rev.get("nota", ""), r["observaciones"]) if x))
+        out.append(r)
+    sobrantes = [v for v in revs if (v["origen"], v["relacion"], v["destino"]) not in usadas]
+    if sobrantes:
+        raise SystemExit(f"revisiones_manuales.csv: filas que no corresponden a ninguna relación extraída: {sobrantes}")
+    return out
+
+
 def main():
     with open(os.path.join(RAW, "descargas.csv"), encoding="utf-8") as f:
         consultas = {r["nodo"]: r["fecha_consulta"] for r in csv.DictReader(f)}
@@ -376,32 +418,16 @@ def main():
             "estado": "verificada", "observaciones": "",
         })
 
+    for r in filas:
+        r["metodo"] = "regla"  # lo extraído por este script es determinista (XML + regex)
+        assert r["fuente_url"] and r["fuente_id_parte"], f"relación sin fuente: {r}"
+    filas = aplicar_revisiones(filas)
     campos = ["origen", "relacion", "destino", "tipo_cambio", "detalle", "fecha_vigencia", "base_vigencia",
               "fuente_url", "fuente_id_parte", "fecha_consulta", "estado", "metodo", "observaciones"]
-    for r in filas:
-        r["metodo"] = "regla"  # todo este script es determinista (XML + regex)
-        assert r["fuente_url"] and r["fuente_id_parte"], f"relación sin fuente: {r}"
     with open(os.path.join(ONT, "relaciones.csv"), "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=campos)
         w.writeheader()
         w.writerows(filas)
-
-    # nodos_normas.csv: completar desde el XML, conservando columnas existentes
-    path = os.path.join(ONT, "nodos_normas.csv")
-    with open(path, encoding="utf-8") as f:
-        normas = list(csv.DictReader(f))
-    extra = ["fecha_promulgacion", "fecha_publicacion", "estado_vigencia", "titulo", "organismo_bcn", "tipo_numero_bcn"]
-    cn = list(normas[0].keys()) + [c for c in extra if c not in normas[0]]
-    for n in normas:
-        m = ident(cargar(n["id"]))
-        n.update({"id_bcn": m["id_bcn"], "url_fuente": f"https://www.bcn.cl/leychile/navegar?idNorma={m['id_bcn']}",
-                  "fecha_promulgacion": m["fecha_promulgacion"], "fecha_publicacion": m["fecha_publicacion"],
-                  "estado_vigencia": m["derogado"], "titulo": m["titulo"], "organismo_bcn": m["organismo_bcn"],
-                  "tipo_numero_bcn": m["tipo_numero_bcn"], "estado_extraccion": "id_bcn_verificado_en_xml"})
-    with open(path, "w", newline="", encoding="utf-8") as f:
-        w = csv.DictWriter(f, fieldnames=cn)
-        w.writeheader()
-        w.writerows(normas)
 
     # Candidatos (NO son aristas): artículos del DFL 4 cuya fechaVersion BCN coincide con la
     # publicación de la ley modificatoria y que el texto truncado no permitió extraer.
@@ -422,7 +448,35 @@ def main():
                                           "fecha_version_bcn", "motivo"])
         w.writeheader()
         w.writerows(cand)
-    print("candidatos por fechaVersion:", Counter(c["norma_modificatoria"] for c in cand))
+    pendientes = Counter(c["norma_modificatoria"] for c in cand)
+    print("candidatos por fechaVersion:", dict(pendientes))
+
+    # nodos_normas.csv: completar desde el XML, conservando columnas existentes
+    path = os.path.join(ONT, "nodos_normas.csv")
+    with open(path, encoding="utf-8") as f:
+        normas = list(csv.DictReader(f))
+    extra = ["fecha_promulgacion", "fecha_publicacion", "estado_vigencia", "titulo", "organismo_bcn",
+             "tipo_numero_bcn", "cobertura", "modificaciones_pendientes", "articulos_truncados"]
+    cn = list(normas[0].keys()) + [c for c in extra if c not in normas[0]]
+    for n in normas:
+        root = cargar(n["id"])
+        m = ident(root)
+        trunc = [ef.attrib["idParte"] for ef, txt, _ in partes(root)
+                 if ef.attrib.get("tipoParte") == "Artículo" and texto_truncado(txt)]
+        pend = pendientes.get(n["id"], 0)
+        n.update({"id_bcn": m["id_bcn"], "url_fuente": f"https://www.bcn.cl/leychile/navegar?idNorma={m['id_bcn']}",
+                  "fecha_promulgacion": m["fecha_promulgacion"], "fecha_publicacion": m["fecha_publicacion"],
+                  "estado_vigencia": m["derogado"], "titulo": m["titulo"], "organismo_bcn": m["organismo_bcn"],
+                  "tipo_numero_bcn": m["tipo_numero_bcn"], "estado_extraccion": "id_bcn_verificado_en_xml",
+                  "cobertura": "parcial" if pend or trunc else "completa",
+                  "modificaciones_pendientes": str(pend), "articulos_truncados": ";".join(trunc)})
+    with open(path, "w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=cn)
+        w.writeheader()
+        w.writerows(normas)
+    for n in normas:
+        print(f"cobertura {n['id']}: {n['cobertura']} (pendientes={n['modificaciones_pendientes']}, "
+              f"truncados={n['articulos_truncados'] or '-'})")
 
     for r in resumenes:
         print(r)
