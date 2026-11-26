@@ -4,7 +4,7 @@
 - **Versión del texto consolidado:** DFL 4 versión BCN 2026-07-31; última versión de este artículo según la BCN: 2015-01-29
 - **idParte:** 8721940 (https://www.bcn.cl/leychile/navegar?idNorma=258171&idParte=8721940)
 - **Vigencia:** vigente
-- **Cobertura de la historia:** parcial — faltan en el grafo las leyes 20.805
+- **Cobertura de la historia:** completa
 - **Bloque:** fuera del bloque de transmisión
 
 ## Texto vigente
@@ -17,10 +17,14 @@ Asimismo, una vez iniciado cualquier tipo de juicio entre las partes de un contr
 
 ## Historia de modificaciones
 
-*Sin modificaciones registradas en el grafo.*
-
-> ⚠️ Historia incompleta: la BCN anota modificaciones de las leyes 20.805, que no están en el grafo.
+- 2015-01-29 · Ley 20.805 de 2015 (art. único) · N° 13 · agrega · verificada · regla · idParte 9555456
 
 ## Texto modificatorio
 
-*No hay texto modificatorio: el artículo no tiene modificaciones en el grafo.*
+### Ley 20.805 de 2015 — art. único, N° 13
+
+*Fuente: XML (https://www.leychile.cl/Consulta/obtxml?opt=7&idNorma=1074277).*
+
+N° 13. Agrégase, en el artículo 146º bis, el siguiente inciso segundo:
+
+"Asimismo, una vez iniciado cualquier tipo de juicio entre las partes de un contrato de suministro eléctrico que haya sido suscrito entre una empresa generadora y una empresa concesionaria de servicio público de distribución para abastecer a clientes regulados del sistema respectivo, el juez o el árbitro deberá ordenar notificar dentro de las 24 horas siguientes a la interposición de la acción o recurso a la Superintendencia y a la Comisión, las que se entenderán autorizadas para todos los efectos legales a intervenir en cualquier etapa del juicio, según lo dispuesto en los incisos primero y segundo del artículo 23 del Código de Procedimiento Civil, cada vez que se deba resguardar el interés general de los clientes regulados.".

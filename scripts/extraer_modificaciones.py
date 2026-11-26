@@ -37,13 +37,14 @@ ARCHIVOS = {
     "ley_21472_2022": "ley_21472_2022__idNorma_1179524.xml",
     "ley_21667_2024": "ley_21667_2024__idNorma_1203005.xml",
     "ley_20701_2013": "ley_20701_2013__idNorma_1055073.xml",
+    "ley_20805_2015": "ley_20805_2015__idNorma_1074277.xml",
     "ley_20402_2009": "ley_20402_2009__idNorma_1008692.xml",
 }
 # Artículo de cada ley que contiene las modificaciones al DFL 4 (se valida por regex abajo).
 MODIFICATORIAS = {"ley_21721_2024": "art_unico", "ley_20936_2016": "art_1", "ley_21804_2026": "art_unico",
                   "ley_21505_2022": "art_unico", "ley_21582_2023": "art_10", "ley_21833_2026": "art_1",
                   "ley_21472_2022": "art_1", "ley_21667_2024": "art_primero",
-                  "ley_20701_2013": "art_unico", "ley_20402_2009": "art_13"}
+                  "ley_20701_2013": "art_unico", "ley_20805_2015": "art_unico", "ley_20402_2009": "art_13"}
 
 VERBOS = {  # singular e impersonal plural ("Reemplázase" / "Reemplázanse")
     "reemplaza": r"reempl[aá]z(?:a|ase|anse|ese|ense)|sustit[uú]y(?:e|ese|ense)",
@@ -216,6 +217,8 @@ def numerales(texto):
     truncado = not re.search(r'[.;:"”]\s*$', texto)
     previo = ""
     for p in parrafos(texto):
+        if esperado == 1 and re.match(r'^"\s*1[.)]\s', p):
+            p = p[1:]  # comilla suelta antes del primer numeral ('"1) Elimínase…', Ley 20.805)
         fuera = comillas % 2 == 0
         # Resincronización: algunos textos abren comillas en cada artículo insertado y cierran solo al
         # final (Ley 21.804 N° 32), lo que desbalancea la paridad. Si el párrafo trae exactamente el

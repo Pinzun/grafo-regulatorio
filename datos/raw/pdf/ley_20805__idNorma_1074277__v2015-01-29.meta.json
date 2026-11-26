@@ -1,0 +1,18 @@
+{
+  "id_norma": "1074277",
+  "fecha_version": "2015-01-29",
+  "nombre": "Ley 20805",
+  "url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=Ley-20805_29-ENE-2015&exportar_con_notas_bcn=True&exportar_con_notas_originales=True&exportar_con_notas_al_pie=True&hddResultadoExportar=1074277.2015-01-29.0.0%23",
+  "fecha_descarga": "2026-11-26",
+  "sha256_pdf": "62f270937de5f53c746ec029c06d7e511b65553df85b40fd574efd96890e86c6",
+  "bytes": 74515,
+  "con_notas_bcn": true,
+  "conversion": {
+    "texto": {
+      "parrafos": 92,
+      "notas_bcn": 0,
+      "pdf_ley_chile": true,
+      "salida": "datos/raw/pdf/ley_20805__idNorma_1074277__v2015-01-29.md"
+    }
+  }
+}

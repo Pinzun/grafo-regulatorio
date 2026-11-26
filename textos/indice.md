@@ -66,7 +66,7 @@ Texto consolidado: DFL 4, versión BCN 2026-07-31. Generado por `scripts/generar
 | [105](dfl4/art_105.md) | Del o los Estudios de Valorización de los Sistemas de Transmisión | Ley 20.936 (2016) | vigente |
 | [106](dfl4/art_106.md) | Participación Ciudadana | Ley 20.936 (2016) | vigente |
 | [107](dfl4/art_107.md) | Bases del o los Estudios Valorización | Ley 20.936 (2016) | vigente |
-| [108](dfl4/art_108.md) | Licitación y Supervisión del Estudio de Valorización | Ley 20.936 (2016) | vigente |
+| [108](dfl4/art_108.md) | Licitación y Supervisión del Estudio de Valorización | Ley 20.805 (2015), Ley 20.936 (2016) | vigente |
 | [109](dfl4/art_109.md) | Financiamiento del Estudio de Valorización | Ley 20.936 (2016) | vigente |
 | [110](dfl4/art_110.md) | Resultados del Estudio de Valorización | Ley 20.936 (2016) | vigente |
 | [111](dfl4/art_111.md) | Audiencia Pública | Ley 20.936 (2016) | vigente |
@@ -195,17 +195,17 @@ Texto consolidado: DFL 4, versión BCN 2026-07-31. Generado por `scripts/generar
 | [128](dfl4/art_128.md) | — | Ley 20.936 (2016) | vigente |
 | [129](dfl4/art_129.md) | — | — | vigente |
 | [130](dfl4/art_130.md) | — | Ley 21.804 (2026) | vigente |
-| [131](dfl4/art_131.md) | — | — ⚠️ faltan 20.805, 20.928 | vigente |
-| [131 bis](dfl4/art_131_bis.md) | — | — ⚠️ faltan 20.805 | vigente |
-| [131 ter](dfl4/art_131_ter.md) | — | — ⚠️ faltan 20.805 | vigente |
-| [132](dfl4/art_132.md) | — | — ⚠️ faltan 20.805, 20.928 | vigente |
-| [133](dfl4/art_133.md) | Las exigencias de seguridad y calidad D | Ley 20.936 (2016) ⚠️ faltan 20.220, 20.805, 21.806 | vigente |
-| [134](dfl4/art_134.md) | — | Ley 20.936 (2016) ⚠️ faltan 20.805 | vigente |
-| [135](dfl4/art_135.md) | — | Ley 20.402 (2009) ⚠️ faltan 20.805 | vigente |
-| [135 bis](dfl4/art_135_bis.md) | — | — ⚠️ faltan 20.805 | vigente |
-| [135 ter](dfl4/art_135_ter.md) | — | Ley 20.936 (2016) ⚠️ faltan 20.805 | vigente |
-| [135 quater](dfl4/art_135_quater.md) | — | — ⚠️ faltan 20.805 | vigente |
-| [135 quinquies](dfl4/art_135_quinquies.md) | — | Ley 20.936 (2016) ⚠️ faltan 20.805 | vigente |
+| [131](dfl4/art_131.md) | — | Ley 20.805 (2015) ⚠️ faltan 20.928 | vigente |
+| [131 bis](dfl4/art_131_bis.md) | — | Ley 20.805 (2015) | vigente |
+| [131 ter](dfl4/art_131_ter.md) | — | Ley 20.805 (2015) | vigente |
+| [132](dfl4/art_132.md) | — | Ley 20.805 (2015) ⚠️ faltan 20.928 | vigente |
+| [133](dfl4/art_133.md) | Las exigencias de seguridad y calidad D | Ley 20.805 (2015), Ley 20.936 (2016) ⚠️ faltan 20.220, 21.806 | vigente |
+| [134](dfl4/art_134.md) | — | Ley 20.805 (2015), Ley 20.936 (2016) | vigente |
+| [135](dfl4/art_135.md) | — | Ley 20.402 (2009), Ley 20.805 (2015) | vigente |
+| [135 bis](dfl4/art_135_bis.md) | — | Ley 20.805 (2015) | vigente |
+| [135 ter](dfl4/art_135_ter.md) | — | Ley 20.805 (2015), Ley 20.936 (2016) | vigente |
+| [135 quater](dfl4/art_135_quater.md) | — | Ley 20.805 (2015) | vigente |
+| [135 quinquies](dfl4/art_135_quinquies.md) | — | Ley 20.805 (2015), Ley 20.936 (2016) | vigente |
 | [136](dfl4/art_136.md) | — | — | vigente |
 | [137](dfl4/art_137.md) | Suprimido | Ley 20.402 (2009), Ley 20.936 (2016) | derogado (vigente hasta 2016-07-20) |
 | [138](dfl4/art_138.md) | Suprimido | Ley 20.936 (2016) | derogado (vigente hasta 2016-07-20) |
@@ -218,10 +218,10 @@ Texto consolidado: DFL 4, versión BCN 2026-07-31. Generado por `scripts/generar
 | [144](dfl4/art_144.md) | — | — | vigente |
 | [145](dfl4/art_145.md) | — | — | vigente |
 | [146](dfl4/art_146.md) | — | Ley 20.402 (2009) ⚠️ faltan 20.220 | vigente |
-| [146 bis](dfl4/art_146_bis.md) | — | — ⚠️ faltan 20.805 | vigente |
+| [146 bis](dfl4/art_146_bis.md) | — | Ley 20.805 (2015) | vigente |
 | [146 ter](dfl4/art_146_ter.md) | — | Ley 20.936 (2016) ⚠️ faltan 20.220, 20.720 | vigente |
 | [146 quater](dfl4/art_146_quater.md) | Suprimido | Ley 20.936 (2016) | derogado (vigente hasta 2016-07-20) |
-| [147](dfl4/art_147.md) | — | Ley 20.402 (2009), Ley 21.804 (2026) ⚠️ faltan 20.805 | vigente |
+| [147](dfl4/art_147.md) | — | Ley 20.402 (2009), Ley 20.805 (2015), Ley 21.804 (2026) | vigente |
 | [148](dfl4/art_148.md) | — | — | vigente |
 | [149](dfl4/art_149.md) | — | Ley 20.936 (2016), Ley 21.505 (2022) ⚠️ faltan 20.571 | vigente |
 | [149 bis](dfl4/art_149_bis.md) | — | Ley 21.505 (2022) ⚠️ faltan 20.571, 21.118 | vigente |
@@ -237,7 +237,7 @@ Texto consolidado: DFL 4, versión BCN 2026-07-31. Generado por `scripts/generar
 | [154](dfl4/art_154.md) | — | — | vigente |
 | [155](dfl4/art_155.md) | En el sistema eléctrico nacional y en los sistemas medianos se distinguirán dos niveles de precios sujetos a fijación: 1 | Ley 20.936 (2016), Ley 21.804 (2026) | vigente |
 | [156](dfl4/art_156.md) | — | — | vigente |
-| [157](dfl4/art_157.md) | — | Ley 20.936 (2016), Ley 21.804 (2026), Ley 21.833 (2026) ⚠️ faltan 20.257, 20.805, 20.928 | vigente |
+| [157](dfl4/art_157.md) | — | Ley 20.805 (2015), Ley 20.936 (2016), Ley 21.804 (2026), Ley 21.833 (2026) ⚠️ faltan 20.257, 20.928 | vigente |
 | [158](dfl4/art_158.md) | — | Ley 20.402 (2009), Ley 20.936 (2016), Ley 21.804 (2026) | vigente |
 | [159](dfl4/art_159.md) | — | Ley 21.804 (2026) | vigente |
 | [160](dfl4/art_160.md) | Los precios de nudo de corto plazo definidos en el artículo 162º deberán ser fijados semestralmente | Ley 20.936 (2016) | vigente |
@@ -377,4 +377,4 @@ Texto consolidado: DFL 4, versión BCN 2026-07-31. Generado por `scripts/generar
 
 - Artículos sin texto: ninguno.
 - Artículos cuyo texto consolidado dice solo 'Eliminado/Suprimido' sin marca de derogación en el XML BCN: 188, 189.
-- Artículos con historia incompleta (54): 8 ter (faltan 21.194); 25 (faltan 20.220); 34 bis (faltan 20.897); 131 (faltan 20.805, 20.928); 131 bis (faltan 20.805); 131 ter (faltan 20.805); 132 (faltan 20.805, 20.928); 133 (faltan 20.220, 20.805, 21.806); 134 (faltan 20.805); 135 (faltan 20.805); 135 bis (faltan 20.805); 135 ter (faltan 20.805); 135 quater (faltan 20.805); 135 quinquies (faltan 20.805); 139 bis (faltan 21.076); 141 (faltan 21.304); 146 (faltan 20.220); 146 bis (faltan 20.805); 146 ter (faltan 20.220, 20.720); 147 (faltan 20.805); 149 (faltan 20.571); 149 bis (faltan 20.571, 21.118); 149 ter (faltan 21.118); 149 quater (faltan 20.571); 149 quinquies (faltan 20.571); 150 bis (faltan 20.257, 20.698); 150 ter (faltan 20.698); 157 (faltan 20.257, 20.805, 20.928); 174 bis (faltan 20.698); 182 bis (faltan 21.194); 183 (faltan 21.194); 183 bis (faltan 21.194); 184 (faltan 20.928); 185 (faltan 21.194); 188 (faltan 21.194); 189 (faltan 21.194); 191 (faltan 20.928); 191 bis (faltan 21.657); 193 (faltan 21.194, 21.647); 207 (faltan 21.304); 207-1 (faltan 21.304); 207-2 (faltan 21.304); 207-2 bis (faltan 21.806); 207-3 (faltan 21.304, 21.806); 207-4 (faltan 21.304); 207-5 (faltan 21.304); 207-6 (faltan 21.304); 207-7 (faltan 21.806); 207-8 (faltan 21.806); 209 (faltan 20.999); 210 (faltan 20.999); 213 (faltan 20.273); 214 (faltan 20.273); 225 (faltan 20.928, 21.194).
+- Artículos con historia incompleta (44): 8 ter (faltan 21.194); 25 (faltan 20.220); 34 bis (faltan 20.897); 131 (faltan 20.928); 132 (faltan 20.928); 133 (faltan 20.220, 21.806); 139 bis (faltan 21.076); 141 (faltan 21.304); 146 (faltan 20.220); 146 ter (faltan 20.220, 20.720); 149 (faltan 20.571); 149 bis (faltan 20.571, 21.118); 149 ter (faltan 21.118); 149 quater (faltan 20.571); 149 quinquies (faltan 20.571); 150 bis (faltan 20.257, 20.698); 150 ter (faltan 20.698); 157 (faltan 20.257, 20.928); 174 bis (faltan 20.698); 182 bis (faltan 21.194); 183 (faltan 21.194); 183 bis (faltan 21.194); 184 (faltan 20.928); 185 (faltan 21.194); 188 (faltan 21.194); 189 (faltan 21.194); 191 (faltan 20.928); 191 bis (faltan 21.657); 193 (faltan 21.194, 21.647); 207 (faltan 21.304); 207-1 (faltan 21.304); 207-2 (faltan 21.304); 207-2 bis (faltan 21.806); 207-3 (faltan 21.304, 21.806); 207-4 (faltan 21.304); 207-5 (faltan 21.304); 207-6 (faltan 21.304); 207-7 (faltan 21.806); 207-8 (faltan 21.806); 209 (faltan 20.999); 210 (faltan 20.999); 213 (faltan 20.273); 214 (faltan 20.273); 225 (faltan 20.928, 21.194).
