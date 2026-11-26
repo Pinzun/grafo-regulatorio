@@ -1,17 +1,18 @@
 # Grafo regulatorio del sector eléctrico (piloto)
 
-Grafo de conocimiento de normativa eléctrica chilena: DFL 4 (LGSE), Ley 20.402 (2009, Ministerio de
-Energía; su art. 13 modifica la LGSE), Ley 20.701 (2013, concesiones), Ley 20.805 (2015, licitaciones de
-suministro), Ley 20.936, Ley 21.194 (2019, distribución), Ley 21.304 (2021, electrodependientes),
-Ley 21.472 (2022, Fondo de Estabilización de Tarifas), Ley 21.505 (2022, almacenamiento y electromovilidad),
-Ley 21.582 (2023, notarios; su art. 10 modifica la LGSE), Ley 21.667 (2024, estabilización tarifaria),
-Ley 21.721, Ley 21.804 (2026, sistemas medianos), Ley 21.833 (2026, protección tarifaria) y
-Res. Ex. 156/2025. La fuente de verdad es `ontologia/ontologia.md`: no inventes tipos de nodo ni de
+Grafo de conocimiento de normativa eléctrica chilena: el DFL 4 (LGSE), las 27 leyes posteriores a su
+publicación (2007-02-05) que lo modifican según las notas BCN, y la Res. Ex. 156/2025. Leyes, con el artículo
+que modifica la LGSE: 20.220 (2007), 20.257 (2008), 20.273 (2008, art. 2°), 20.402 (2009, art. 13), 20.571
+(2012), 20.698 (2013, art. 1), 20.701 (2013), 20.720 (2014, art. 391), 20.805 (2015), 20.897 (2016, art. 2),
+20.928 (2016), 20.936 (2016, art. 1), 20.999 (2017, art. 2), 21.076 (2018), 21.118 (2018), 21.194 (2019),
+21.304 (2021), 21.472 (2022, art. 1), 21.505 (2022), 21.582 (2023, art. 10), 21.647 (2023, art. 88),
+21.657 (2024), 21.667 (2024, art. primero), 21.721 (2024), 21.804 (2026), 21.806 (2026, art. 101) y
+21.833 (2026, art. 1); las demás, art. único. La fuente de verdad es `ontologia/ontologia.md`: no inventes tipos de nodo ni de
 relación; si hace falta uno nuevo, pregúntalo.
 
 ## Cobertura
 
-De las 15 normas del grafo, 14 tienen `cobertura` completa. La Ley 20.402 es parcial: el XML trunca su
+De las 29 normas del grafo, 28 tienen `cobertura` completa. La Ley 20.402 es parcial: el XML trunca su
 art. 2 (modifica el DL 2.224, no la LGSE) y el PDF de Ley Chile viene sin texto; su art. 13, el que modifica
 la LGSE, está completo. Los artículos que el XML de la BCN trunca se toman del
 PDF oficial (`datos/raw/pdf/`, ver `docs/diagnostico_truncamiento_bcn.md`), y cada arista indica en
@@ -72,9 +73,9 @@ Usa `.venv/bin/graphify` con los nombres de nodo exactos (etiquetas), por ejempl
   palabras, y una pregunta amplia devuelve casi todo el grafo. No la uses para preguntas sobre relaciones.
 - Una norma llega a sus artículos por `contiene`, y sus artículos a los del DFL 4 por `modifica` o
   `deroga`. Para "qué modificó la Ley X", parte del nodo de su artículo modificatorio:
-  `art. único` (20.701, 20.805, 21.194, 21.304, 21.505, 21.721, 21.804), `art. 1` (20.936, 21.472,
-  21.833), `art. 10` (21.582), `art. 13` (20.402) y `art. primero` (21.667); por ejemplo
-  `"Ley 21.667 de 2024 — art. primero"`.
+  el que indica la lista del comienzo (p. ej. `art. único`, `art. 1`, `art. 13`, `art. 391`, `art. primero`);
+  por ejemplo `"Ley 21.667 de 2024 — art. primero"` o `"Ley 20.720 de 2014 — art. 391"`. Las 361
+  aristas del DFL 4 tienen hoy historia completa.
 - **Preguntas de intersección** ("artículos tocados por ambas leyes"): `path` muestra solo un camino
   aunque avise "N equal-length routes"; para la lista completa compara los `explain --all` de ambos artículos
   modificatorios.
@@ -93,6 +94,16 @@ encabezado (versión BCN, idParte, vigencia, cobertura de la historia, bloque), 
 de cada ley modificatoria. `textos/indice.md` lista todos los artículos (primero el bloque validado) con
 avisos. Para citar el texto de un artículo o de una modificación, léelo de ahí en vez de resumir de memoria.
 Se regeneran solos con `construir_grafo.py`; no los edites a mano.
+
+La etiqueta de la modificación es `N° k` (numeral), `letra a)` (Ley 20.273, literales sin numerales) o
+`texto completo` (Leyes 20.897, 21.076, 21.657: el artículo modificatorio es un solo cambio).
+
+El XML BCN incrusta algunas tablas como imagen dentro de `<Texto>` (DFL 4 art. 157, Ley 20.928): el texto
+leído se corta ahí sin señal. `cortado_en_imagen()` lo detecta y el texto se toma del PDF (la tabla tampoco
+está como texto en el PDF). Prueba: `python3 -I tests/test_cortes_tabla.py`.
+
+El "artículo trigésimo" del DFL 4 es un transitorio que agregó la Ley 21.647 N° 2, aunque el XML BCN lo marca
+`no transitorio`: no es nodo y su inserción está en `modificaciones_no_articulo.csv`.
 
 Los arts. 188 y 189 dicen solo "Eliminado." en el texto consolidado: los suprimió la Ley 21.194 N° 8
 (2019-12-21). Como el XML BCN no los marca derogados, sus aristas `deroga` son `inferida` y están pendientes
@@ -138,10 +149,10 @@ fuente, cobertura de la norma o cobertura de la historia del artículo). Commits
 2. Agregarla a `NORMAS` en `scripts/descargar_bcn.py` y descargar solo esa:
    `python3 -I scripts/descargar_bcn.py datos/raw <idNorma>` (no vuelve a bajar las demás).
 3. PDF oficial: `doc2md bcn <idNorma> --fecha <fechaVersion> --nombre "Ley NNNNN" --salida datos/raw/pdf --registro datos/raw/pdf/descargas_pdf.csv`.
-   Algunas normas (20.402, 21.304) se exportan solo con la portada (1 página, ~100 bytes de Markdown): no
+   Algunas normas (20.402, 20.571, 21.076, 21.304) se exportan solo con la portada (1 página, ~100 bytes de Markdown): no
    registres ese PDF; si el XML no está truncado no hace falta, y si lo está la norma queda `parcial`.
 4. En `scripts/extraer_modificaciones.py`: `ARCHIVOS` y `MODIFICATORIAS` (artículo que modifica la LGSE);
    agregar la fila en `ontologia/nodos_normas.csv` (el extractor completa el resto).
 5. Regenerar y revisar: numerales extraídos vs. notas BCN, filas sin resolver (deben ser 0) y **regresión**:
    las aristas de las leyes anteriores deben quedar idénticas. Cada ley suele traer un patrón de redacción
-   nuevo; ajustarlo en el parser sin romper los anteriores.
+   nuevo; ajustarlo en el parser sin romper los anteriores. Correr también `python3 -I tests/test_cortes_tabla.py`.
