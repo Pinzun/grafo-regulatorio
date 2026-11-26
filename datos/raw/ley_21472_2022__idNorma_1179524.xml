@@ -1,0 +1,979 @@
+<?xml version="1.0" encoding="UTF-8"?><Norma xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.leychile.cl/esquemas" xsi:schemaLocation="http://www.leychile.cl/esquemas http://www.leychile.cl/esquemas/EsquemaIntercambioNorma-v1-0.xsd" normaId="1179524" esTratado="no tratado" fechaVersion="2026-07-31" SchemaVersion="1.0" derogado="no derogado">
+  <Identificador fechaPromulgacion="2022-07-19" fechaPublicacion="2022-08-02">
+    <TiposNumeros>
+      <TipoNumero>
+        <Tipo>Ley</Tipo>
+        <Numero>21472</Numero>
+      </TipoNumero>
+    </TiposNumeros>
+    <Organismos>
+      <Organismo>MINISTERIO DE ENERG&#205;A</Organismo>
+    </Organismos>
+  </Identificador>
+  <Metadatos>
+    <TituloNorma>CREA UN FONDO DE ESTABILIZACI&#211;N DE TARIFAS Y ESTABLECE UN NUEVO MECANISMO DE ESTABILIZACI&#211;N TRANSITORIO DE PRECIOS DE LA ELECTRICIDAD PARA CLIENTES SOMETIDOS A REGULACI&#211;N DE PRECIOS</TituloNorma>
+    <Materias>
+      <Materia>Fondo de Estabilizaci&#243;n de Tarifas</Materia>
+      <Materia>Estabilizaci&#243;n de Precios de Energ&#237;a El&#233;ctrica </Materia>
+      <Materia>Mecanismo Transitorio de Protecci&#243;n al Cliente</Materia>
+      <Materia>Energ&#237;a El&#233;ctrica</Materia>
+      <Materia>Tarifas El&#233;ctricas</Materia>
+    </Materias>
+    
+    
+    <IdentificacionFuente>Diario Oficial</IdentificacionFuente>
+    <NumeroFuente>43317</NumeroFuente>
+  </Metadatos>
+  <Encabezado fechaVersion="2022-08-02" derogado="no derogado">
+    <Texto>
+LEY N&#218;M. 21.472
+      
+CREA UN FONDO DE ESTABILIZACI&#211;N DE TARIFAS Y ESTABLECE UN
+NUEVO MECANISMO DE ESTABILIZACI&#211;N TRANSITORIO DE PRECIOS DE
+LA ELECTRICIDAD PARA CLIENTES SOMETIDOS A REGULACI&#211;N DE
+PRECIOS
+      
+     Teniendo presente que el H. Congreso Nacional ha dado
+su aprobaci&#243;n al siguiente
+      
+     Proyecto de ley:</Texto>
+  </Encabezado>
+  <EstructurasFuncionales>
+    <EstructuraFuncional transitorio="no transitorio" tipoParte="T&#237;tulo" fechaVersion="2022-08-02" derogado="no derogado" idParte="10353344">
+      <Texto>     "T&#205;TULO I
+     FONDO DE ESTABILIZACI&#211;N DE TARIFAS
+      </Texto>
+      <Metadatos>
+        <NombreParte presente="no">&#160;</NombreParte>
+        <TituloParte presente="si">T&#205;TULO I FONDO DE ESTABILIZACI&#211;N DE TARIFAS</TituloParte>
+        
+      </Metadatos>
+      <EstructurasFuncionales>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2022-08-02" derogado="no derogado" idParte="10353345">
+          <Texto>     Art&#237;culo 1.- Modif&#237;case el decreto con fuerza de ley
+N&#176; 4/20018, de 2006, del Ministerio de Econom&#237;a, Fomento y
+Reconstrucci&#243;n, que fija texto refundido, coordinado y
+sistematizado del decreto con fuerza de ley N&#176; 1, de
+Miner&#237;a, de 1982, Ley General de Servicios El&#233;ctricos, en
+materia de energ&#237;a el&#233;ctrica, en adelante "Ley General de
+Servicios El&#233;ctricos", de la siguiente forma:
+      
+     1. Introd&#250;cense en el art&#237;culo 212-13 los siguientes
+incisos sexto, s&#233;ptimo y octavo, nuevos, pasando el actual
+inciso sexto a ser inciso final:
+      
+     "Dentro del cargo por servicio p&#250;blico, se
+considerar&#225; un pago adicional m&#225;ximo, que tendr&#225; por
+objeto financiar el Fondo de Estabilizaci&#243;n de Tarifas a
+que se refiere el art&#237;culo 212-14, y que ser&#225; diferenciado
+por tramos de consumo de acuerdo con los siguientes
+par&#225;metros:
+      
+     a) Usuarios que registren un consumo mensual menor o
+igual a 350 kWh: exento del cargo.
+     b) Usuarios que registren un consumo mensual mayor a
+350 y menor o igual a 500 kWh: hasta 0,8 pesos por kWh.
+     c) Usuarios que registren un consumo mensual mayor a
+500 y menor o igual a 1.000 kWh: hasta 1,8 pesos por kWh.
+     d) Usuarios que registren un consumo mensual superior a
+1.000 y menor o igual a 5.000 kWh: hasta 2,5 pesos por kWh.
+     e) Usuarios que registren un consumo mensual superior a
+5.000 kWh: hasta 2,8 pesos por kWh.
+      
+     Los montos m&#225;ximos de cargos indicados en el inciso
+anterior ser&#225;n ajustados por la variaci&#243;n del &#205;ndice de
+Precios al Consumidor con ocasi&#243;n de la fijaci&#243;n anual a
+la que se refiere este art&#237;culo. Para determinar su
+cuant&#237;a, la Comisi&#243;n deber&#225; considerar las proyecciones
+que realiza semestralmente para la fijaci&#243;n tarifaria a la
+que se refiere el art&#237;culo 158, teniendo en cuenta que los
+recursos a los que se refiere el inciso anterior solo
+podr&#225;n ser utilizados para estabilizar las tarifas de los
+clientes regulados, en los t&#233;rminos que se&#241;ale el
+reglamento a que se refiere el inciso cuarto del art&#237;culo
+212-14. Con todo, si el Fondo de Estabilizaci&#243;n de Tarifas
+al que se refiere el art&#237;culo 212-14 alcanzara el monto
+equivalente en pesos de 500 millones de d&#243;lares de los
+Estados Unidos de Am&#233;rica, se suspender&#225; el cobro
+adicional al que se refiere el presente art&#237;culo y se
+reanudar&#225; una vez que el fondo disminuya del monto
+antedicho. Ambas situaciones ser&#225;n consideradas para
+efectos de la determinaci&#243;n anual que se realiza para fijar
+el cargo por servicio p&#250;blico al que se refiere este
+art&#237;culo.
+     Las empresas distribuidoras deber&#225;n informar en las
+cuentas f&#237;sicas y digitales la aplicaci&#243;n del pago
+adicional a que hace referencia el inciso sexto de este
+art&#237;culo, y se&#241;alar&#225;n expresamente y de forma legible el
+cargo por servicio, seg&#250;n los tramos de consumo que
+estar&#225;n afectos a dicho pago.".
+      
+     2. Incorp&#243;rase a continuaci&#243;n del art&#237;culo 212-13,
+el siguiente art&#237;culo 212-14:
+      
+     "Art&#237;culo 212-14.- Fondo de Estabilizaci&#243;n de
+Tarifas. Cr&#233;ase un Fondo de Estabilizaci&#243;n de Tarifas, el
+cual ser&#225; administrado por la Tesorer&#237;a General de la
+Rep&#250;blica, y cuyo objeto ser&#225; la estabilizaci&#243;n de las
+tarifas el&#233;ctricas para clientes regulados.
+     La inversi&#243;n de los recursos financieros de este fondo
+se realizar&#225; de conformidad a lo dispuesto en el art&#237;culo
+12 de la ley N&#176; 20.128.
+     Los aportes al fondo estar&#225;n constituidos por los
+se&#241;alados en el art&#237;culo 212-13, y los dem&#225;s aportes que
+contemple la ley.
+     Las normas que regulan la operaci&#243;n del Fondo de
+Estabilizaci&#243;n de Tarifas ser&#225;n establecidas en un
+reglamento que para dichos efectos dicte el Ministerio de
+Hacienda, suscrito adem&#225;s por el Ministro de Energ&#237;a.
+     El Fondo de Estabilizaci&#243;n de Tarifas, as&#237; como los
+cargos que lo financian, tendr&#225;n una vigencia &#250;nica que no
+podr&#225; exceder del 31 de diciembre de 2032, y no podr&#225;
+prorrogarse su funcionamiento m&#225;s all&#225; de ese periodo.".  
+   
+</Texto>
+          <Metadatos>
+            <NombreParte presente="si">1 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+      </EstructurasFuncionales>
+    </EstructuraFuncional>
+    <EstructuraFuncional transitorio="no transitorio" tipoParte="T&#237;tulo" fechaVersion="2022-08-02" derogado="no derogado" idParte="10353346">
+      <Texto>     T&#205;TULO II
+     MECANISMO TRANSITORIO DE PROTECCI&#211;N AL CLIENTE
+      </Texto>
+      <Metadatos>
+        <NombreParte presente="no">&#160;</NombreParte>
+        <TituloParte presente="si">T&#205;TULO II MECANISMO TRANSITORIO DE PROTECCI&#211;N AL CLIENTE</TituloParte>
+        
+      </Metadatos>
+      <EstructurasFuncionales>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-07-31" derogado="no derogado" idParte="10353347">
+          <Texto>     Art&#237;culo 2.- Mecanismo Transitorio de Protecci&#243;n al
+Cliente. Establ&#233;cese un mecanismo transitorio de
+protecci&#243;n al cliente, en adelante e indistintamente
+"Mecanismo de Protecci&#243;n al Cliente" o "MPC", que
+estabilizar&#225; los precios de energ&#237;a, para el Sistema
+El&#233;ctrico Nacional y los sistemas medianos complementario a
+aquel establecido en la ley N&#176; 21.185, para los clientes
+sujetos a regulaci&#243;n de precios suministrados por empresas
+concesionarias de servicio p&#250;blico de distribuci&#243;n
+regulados por la Ley General de Servicios El&#233;ctricos.
+     El MPC tendr&#225; por objeto pagar las diferencias que se
+produzcan entre la facturaci&#243;n de las empresas de
+distribuci&#243;n a los clientes finales por la componente de
+energ&#237;a y potencia, en raz&#243;n de lo establecido en el
+art&#237;culo siguiente, y el monto que corresponda pagar por el
+suministro el&#233;ctrico a las empresas de generaci&#243;n, de
+acuerdo con sus condiciones contractuales respectivas o con
+el decreto respectivo para el caso de los sistemas medianos.
+Asimismo, el MPC tambi&#233;n tendr&#225; por objeto el pago de la
+deuda con las empresas el&#233;ctricas producto de las
+reliquidaciones a que se refiere el art&#237;culo 212&#186;-14 de la
+Ley General de Servicios El&#233;ctricos.
+     Los recursos contabilizados en el Saldo Final Restante
+del MPC no podr&#225;n superar los 5.500 millones de d&#243;lares de
+los Estados Unidos de Am&#233;rica, y su vigencia se extender&#225;
+hasta que se extingan los saldos originados por aplicaci&#243;n
+de esta ley. A partir del a&#241;o 2024, la Comisi&#243;n Nacional
+de Energ&#237;a deber&#225; proyectar semestralmente el pago total
+del Saldo Final Restante definido en el art&#237;culo 5 para una
+fecha que no podr&#225; ser posterior al d&#237;a 31 de diciembre de
+2035. Asimismo, deber&#225; proyectar semestralmente el pago
+total del Saldo NT a que se refiere el art&#237;culo 5, para una
+fecha que no podr&#225; ser posterior al &#250;ltimo d&#237;a h&#225;bil del
+a&#241;o 2035.</Texto>
+          <Metadatos>
+            <NombreParte presente="si">2 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-02-05" derogado="no derogado" idParte="10353348">
+          <Texto>     Art&#237;culo 3.- Estabilizaci&#243;n de precios. Los precios
+de energ&#237;a y potencia que las concesionarias de servicio
+p&#250;blico de distribuci&#243;n podr&#225;n traspasar a sus clientes
+regulados ser&#225;n aquellos definidos en las fijaciones
+semestrales a que se refiere el art&#237;culo 158 de la Ley
+General de Servicios El&#233;ctricos, considerando las reglas
+que siguen:
+      
+     1. Desde el t&#233;rmino de la vigencia del decreto N&#176; 9T,
+de 30 de mayo de 2022, del Ministerio de Energ&#237;a, y hasta
+que comience a regir el primer periodo tarifario del a&#241;o
+2023, los precios de energ&#237;a se determinar&#225;n seg&#250;n las
+siguientes reglas:
+      
+     a) Para aquellos clientes cuyo consumo sea igual o
+inferior a 350 kWh promedio mensual, corresponder&#225; al
+precio de energ&#237;a y potencia del per&#237;odo tarifario
+anterior, ajustado por la variaci&#243;n que experimente el
+&#205;ndice de Precios al Consumidor respecto al &#250;ltimo
+per&#237;odo tarifario. Este valor se denominar&#225; "Precio
+preferente para peque&#241;os consumos 2022".
+     b) Para aquellos clientes cuyo consumo sea superior a
+350 kWh promedio mensual e igual o inferior a 500 kWh
+promedio mensual, corresponder&#225; al precio de nudo promedio
+de energ&#237;a del per&#237;odo tarifario anterior, ajustado por la
+variaci&#243;n que experimente el &#205;ndice de Precios al
+Consumidor respecto al &#250;ltimo per&#237;odo tarifario e
+incrementado en un 5%. Este valor se denominar&#225; "Precio
+preferente para consumos medianos 2022".
+     c) Para aquellos clientes cuyo consumo sea superior a
+500 kWh promedio mensual, corresponder&#225; al precio nudo
+promedio de energ&#237;a del per&#237;odo tarifario anterior
+ajustado por la variaci&#243;n que experimente el &#205;ndice de
+Precios al Consumidor respecto al &#250;ltimo per&#237;odo tarifario
+e incrementado en un 15%. Este valor se denominar&#225; "Precio
+de estabilizaci&#243;n 2022".
+
+     2. Para el primer y segundo per&#237;odo tarifario del a&#241;o
+2023, se mantendr&#225;n vigentes los precios de energ&#237;a y
+potencia establecidos conforme al decreto N&#176; 16T,
+promulgado en 2022 y publicado en 2023, del Ministerio de
+Energ&#237;a.
+      
+     3. Para el primer per&#237;odo tarifario del a&#241;o 2024, los
+precios de energ&#237;a y potencia que las concesionarias de
+servicio p&#250;blico de distribuci&#243;n podr&#225;n traspasar a sus
+clientes regulados ser&#225;n aquellos definidos en las
+fijaciones semestrales a que se refiere el art&#237;culo 158 de
+la Ley General de Servicios El&#233;ctricos, considerando las
+siguientes reglas:
+      
+     a) Para aquellos clientes cuyo consumo promedio mensual
+sea igual o inferior a 350 kWh, los precios de energ&#237;a y
+potencia corresponder&#225;n a los establecidos en el decreto
+N&#176; 16T, promulgado en 2022 y publicado en 2023, del
+Ministerio de Energ&#237;a, ajustado de acuerdo con la
+variaci&#243;n que experimente el &#205;ndice de Precios al
+Consumidor respecto a la &#250;ltima fijaci&#243;n de precio de nudo
+promedio. Este valor se denominar&#225; "Precio preferente
+2024-1".
+     b) Para aquellos clientes cuyo consumo promedio mensual
+sea superior a 350 kWh, los precios de energ&#237;a y potencia
+corresponder&#225;n a aquellos establecidos en la fijaci&#243;n de
+precio de nudo promedio respectiva.
+     c) Suprimido.
+
+     4. Desde que comience a regir el segundo per&#237;odo
+tarifario del a&#241;o 2024, los precios de energ&#237;a y potencia
+que las concesionarias de servicio p&#250;blico de distribuci&#243;n
+podr&#225;n traspasar a sus clientes regulados ser&#225;n aquellos
+definidos en las fijaciones semestrales a que se refiere el
+art&#237;culo 158 de la Ley General de Servicios El&#233;ctricos.   
+  
+     5. Para efectos de la segmentaci&#243;n de clientes a la
+que se refieren los numerales 1, 2 y 3, la distribuidora
+deber&#225; identificar el grupo correspondiente a cada cliente,
+considerando el promedio de sus consumos mensuales durante
+un periodo m&#243;vil de doce meses anteriores al periodo de
+facturaci&#243;n para el cual se efect&#250;a la medici&#243;n.
+Adicionalmente, para dar cumplimiento a lo dispuesto en
+dichos numerales se deja sin efecto lo establecido en los
+numerales 2 y 3 del art&#237;culo 1 de la ley N&#176; 21.185.
+     6. Para el caso de los sistemas medianos, la componente
+de energ&#237;a y potencia ser&#225; estabilizada y fijada
+semestralmente de acuerdo a las condiciones definidas en los
+numerales anteriores y las dem&#225;s disposiciones de la
+presente ley.
+     7. Los factores de intensidad para cada comuna y los
+descuentos seg&#250;n porcentaje de aporte, se recalcular&#225;n
+semestralmente, de conformidad a lo establecido en los
+incisos cuarto y quinto del art&#237;culo 157 de la Ley General
+de Servicios El&#233;ctricos, con excepci&#243;n de aquellas comunas
+que hayan sido declaradas zonas en transici&#243;n conforme a lo
+dispuesto en el art&#237;culo s&#233;ptimo transitorio de la ley N&#176;
+21.667, y que, en el primer per&#237;odo tarifario de 2025 hayan
+recibido descuentos, de conformidad a lo establecido en los
+incisos cuarto y quinto del art&#237;culo 157 de la Ley General
+de Servicios El&#233;ctricos, respecto de las cuales se
+mantendr&#225;n los factores de intensidad y los respectivos
+descuentos seg&#250;n el porcentaje de aporte, establecidos en
+el informe t&#233;cnico definitivo que dio origen al decreto 9T,
+de 30 de mayo de 2022, del Ministerio de Energ&#237;a, durante
+toda la vigencia del Mecanismo Transitorio de Protecci&#243;n al
+Cliente. Los descuentos aplicados de conformidad a lo
+establecido en el presente numeral deber&#225;n estar
+expl&#237;citamente reflejados en cada boleta o factura      </Texto>
+          <Metadatos>
+            <NombreParte presente="si">3 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2024-04-30" derogado="no derogado" idParte="10353349">
+          <Texto>     Art&#237;culo 4.- Determinaci&#243;n de beneficios. Respecto de
+cada cliente, la empresa de distribuci&#243;n deber&#225; determinar
+el Beneficio a Cliente Final, el que se calcular&#225; como la
+diferencia de valorizaci&#243;n de los respectivos consumos
+entre los precios de nudo promedio correspondientes o del
+decreto respectivo para el caso de los sistemas medianos y
+los precios preferentes del art&#237;culo 3, seg&#250;n corresponda,
+cobrados al cliente. Este c&#225;lculo ser&#225; fiscalizado por la
+Superintendencia de Electricidad y Combustibles, de acuerdo
+con lo que se establezca en la resoluci&#243;n a la que se
+refiere el art&#237;culo 13.
+     Asimismo, se adicionar&#225;, se podr&#225; adicionar a la
+contabilizaci&#243;n de los Beneficios a Cliente Final totales
+de la empresa distribuidora los d&#233;ficits de recaudaci&#243;n
+del balance de las concesionarias de distribuci&#243;n,
+determinados en el informe de precio de nudo promedio a que
+se refiere el art&#237;culo 158 de la Ley General de Servicios
+El&#233;ctricos.      
+</Texto>
+          <Metadatos>
+            <NombreParte presente="si">4 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-07-31" derogado="no derogado" idParte="10353350">
+          <Texto>     Art&#237;culo 5.- Saldo Final Restante. En el informe a que
+se refiere el art&#237;culo 158 de la Ley General de Servicios
+El&#233;ctricos, la Comisi&#243;n Nacional de Energ&#237;a
+contabilizar&#225; los Beneficios a Cliente Final aplicados por
+cada empresa distribuidora en las facturaciones mensuales
+del periodo semestral anterior. El valor acumulado de
+Beneficios a Cliente Final aplicado por las empresas
+distribuidoras m&#225;s los costos financieros indicados en el
+art&#237;culo siguiente ser&#225; denominado "Saldo Final Restante".
+Dicho saldo deber&#225; ser incorporado expl&#237;citamente en los
+decretos tarifarios semestrales respectivos, en su
+equivalente en d&#243;lares de los Estados Unidos de Am&#233;rica.
+     Por su parte, sin perjuicio de lo establecido en la ley
+N&#186; 21.667, la Superintendencia de Electricidad y
+Combustibles deber&#225; emitir un informe que determine los
+montos efectivamente adeudados a las empresas distribuidoras
+producto de las reliquidaciones se&#241;aladas en el art&#237;culo
+212&#186;-14 de la Ley General de Servicios El&#233;ctricos. El
+informe deber&#225; expresarse en pesos y deber&#225; incluir la
+desagregaci&#243;n del saldo adeudado a cada concesionaria del
+servicio p&#250;blico de distribuci&#243;n y para cada uno de los
+sistemas medianos, distinguiendo en este &#250;ltimo caso lo
+adeudado a cada empresa operadora. El saldo adeudado se
+denominar&#225; Saldo de Normalizaci&#243;n Tarifaria o "Saldo NT".
+El informe del que trata este inciso deber&#225; ser comunicado
+al Ministerio de Energ&#237;a, a la Comisi&#243;n Nacional de
+Energ&#237;a, al Ministerio de Hacienda y a la Tesorer&#237;a
+General de la Rep&#250;blica.
+      </Texto>
+          <Metadatos>
+            <NombreParte presente="si">5 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-07-31" derogado="no derogado" idParte="10353351">
+          <Texto>     Art&#237;culo 6.- Costos financieros. El Saldo Final
+Restante y el Saldo NT considerar&#225;n una tasa anual de
+reajuste que deber&#225; ser aprobada por el Ministerio de
+Hacienda de manera independiente. Podr&#225; ser fijada en
+pesos, unidades de fomento o en d&#243;lares de los Estados
+Unidos de Am&#233;rica, y podr&#225; tener como base una tasa de
+referencia seg&#250;n la moneda, la que podr&#225; ser la Tasa de
+Pol&#237;tica Monetaria vigente publicada por el Banco Central
+de Chile, m&#225;s 25 puntos base u otra tasa relevante. Dicha
+tasa deber&#225; ser ajustada por el Ministerio de Hacienda, de
+acuerdo con las condiciones de mercado vigentes en el
+momento de la emisi&#243;n del documento de pago y de los
+documentos de pago de normalizaci&#243;n tarifaria a que se
+refiere el art&#237;culo 8.</Texto>
+          <Metadatos>
+            <NombreParte presente="si">6 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2024-04-30" derogado="no derogado" idParte="10353352">
+          <Texto>     Art&#237;culo 7.- Pago al suministrador. A partir de la
+publicaci&#243;n de la pr&#243;xima fijaci&#243;n semestral a que se
+refiere el art&#237;culo 158 de la Ley General de Servicios
+El&#233;ctricos y hasta el t&#233;rmino de la vigencia del mecanismo
+de estabilizaci&#243;n establecido en esta ley, las
+concesionarias de servicio p&#250;blico de distribuci&#243;n
+pagar&#225;n a sus suministradores la cifra que resulte de
+descontar de los consumos mensuales de energ&#237;a, valorizados
+a los precios de los contratos o del decreto respectivo para
+el caso de los sistemas medianos, la totalidad de los
+Beneficios a Cliente Final contabilizados conforme a los
+numerales 1, 2 y 3 del art&#237;culo 3, seg&#250;n corresponda. Sin
+perjuicio de lo anterior, las distribuidoras informar&#225;n el
+valor neto del saldo restante al Coordinador Independiente
+del Sistema El&#233;ctrico Nacional, quien lo comunicar&#225; al
+Ministerio de Hacienda para su posterior imputaci&#243;n al MPC.
+     La diferencia que se produzca entre la facturaci&#243;n de
+la empresa distribuidora y el monto a pagar al suministrador
+ser&#225; parte del Saldo Final Restante a que se refiere el
+art&#237;culo 5, y deber&#225; ser pagada por la Tesorer&#237;a General
+de la Rep&#250;blica, con cargo a los recursos del Fondo de
+Estabilizaci&#243;n de Tarifas creado por el art&#237;culo 1, al
+suministrador o al portador del documento de pago que emita
+el Ministerio de Hacienda, de conformidad con lo establecido
+en el art&#237;culo 8.      
+</Texto>
+          <Metadatos>
+            <NombreParte presente="si">7 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-07-31" derogado="no derogado" idParte="10353353">
+          <Texto>     Art&#237;culo 8.- Documentos de cobro, pago y
+contabilizaci&#243;n. Para efectos de contabilizar y recaudar el
+pago total efectuado a las empresas suministradoras,
+respetando sus condiciones contractuales respectivas o las
+del decreto respectivo para el caso de los sistemas
+medianos, las empresas suministradoras deber&#225;n emitir los
+siguientes dos documentos de cobro:
+      
+     1. El primer documento ser&#225; emitido a la empresa
+distribuidora y corresponder&#225; al consumo mensual,
+valorizado al precio del contrato respectivo, de conformidad
+con el art&#237;culo 158 de la Ley General de Servicios
+El&#233;ctricos, descontada la proporci&#243;n del Beneficio a
+Cliente Final total. La proporci&#243;n de los Beneficios a
+Cliente Final ser&#225; asignada a cada contrato a prorrata de
+la energ&#237;a correspondiente a ese periodo de facturaci&#243;n,
+valorizados al precio del contrato.
+     2. El segundo documento ser&#225; emitido al Coordinador
+Independiente del Sistema El&#233;ctrico Nacional, y
+corresponder&#225; a la prorrata del Beneficio a Cliente Final
+asignado al suministrador respectivo, indicado en el numeral
+1 anterior.
+      
+     Una vez que el Coordinador verifique que los datos
+contenidos en el documento de cobro referido en el numeral 2
+del inciso anterior son correctos de conformidad con lo
+establecido en el balance de transferencias del periodo
+respectivo, informar&#225; mensualmente al Ministerio de
+Hacienda, quien instruir&#225; a la Tesorer&#237;a General de la
+Rep&#250;blica emitir un t&#237;tulo de cr&#233;dito transferible a la
+orden, en adelante documento de pago, que permitir&#225; a su
+portador cobrar la restituci&#243;n del monto adeudado
+reconocido en el referido documento en la fecha que en &#233;l
+se establezca, la cual no podr&#225; ser posterior al 31 de
+diciembre de 2035. Sin perjuicio de lo anterior, la fecha
+ser&#225; determinada por la Tesorer&#237;a General de la Rep&#250;blica
+en conjunto con la Comisi&#243;n Nacional de Energ&#237;a
+considerando las proyecciones de recaudaci&#243;n, los saldos
+proyectados y el periodo de pago restante. El documento de
+pago ser&#225; emitido, en su equivalente en d&#243;lares de los
+Estados Unidos de Am&#233;rica, por el Ministerio de Hacienda
+mensualmente, durante todos los a&#241;os en que opere el
+mecanismo, considerando la informaci&#243;n mensual remitida por
+el Coordinador Independiente del Sistema El&#233;ctrico
+Nacional, y la garant&#237;a a la que se refiere el art&#237;culo
+12.
+     Las caracter&#237;sticas del documento de pago y del
+documento de pago de normalizaci&#243;n tarifaria definido en
+los siguientes incisos ser&#225;n definidas en la resoluci&#243;n a
+la que se refiere el art&#237;culo 13 ajust&#225;ndose a lo
+establecido en la ley N&#176; 18.045, en lo que correspondiera.
+     El presente mecanismo s&#243;lo ser&#225; aplicable a aquellos
+contratos cuyo suministro haya iniciado antes del a&#241;o 2021.
+     Por su parte, para efectos del pago del Saldo NT de
+cada empresa el&#233;ctrica, el Ministerio de Hacienda, luego de
+recibido el informe de la Superintendencia de Electricidad y
+Combustibles a que hace referencia el art&#237;culo 5, deber&#225;
+instruir a la Tesorer&#237;a General de la Rep&#250;blica para que
+emita a la respectiva empresa el&#233;ctrica un documento de
+pago de normalizaci&#243;n tarifaria, consistente en un t&#237;tulo
+de cr&#233;dito transferible a la orden, sin responsabilidad
+alguna para el cedente, y custodiable en forma
+desmaterializada por empresas de dep&#243;sito de valores
+reguladas por la ley N&#186; 18.876. Dicho documento de pago
+permitir&#225; a su portador cobrar el monto adeudado reconocido
+en el correspondiente Saldo NT. Dichos documentos de pago de
+normalizaci&#243;n tarifaria ser&#225;n emitidos en pesos o unidades
+de fomento, y sus fechas de pago ser&#225;n determinadas por la
+Tesorer&#237;a General de la Rep&#250;blica en conjunto con la
+Comisi&#243;n Nacional de Energ&#237;a, considerando que el pago
+total de dichos documentos de pago no podr&#225; ser posterior
+al &#250;ltimo d&#237;a h&#225;bil del a&#241;o 2035.
+      </Texto>
+          <Metadatos>
+            <NombreParte presente="si">8 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-07-31" derogado="no derogado" idParte="10353354">
+          <Texto>     Art&#237;culo 9.- Cargo MPC. Para extinguir progresivamente
+los saldos originados por la implementaci&#243;n de la ley N&#186;
+21.185 y la presente ley, as&#237; como tambi&#233;n el Saldo NT, en
+las fijaciones a que se refiere el art&#237;culo 158&#186; de la Ley
+General de Servicios El&#233;ctricos se establecer&#225; un cargo,
+denominado "Cargo MPC". Este cargo estar&#225; compuesto por la
+suma de dos componentes: Componente Saldo Final Restante del
+Cargo MPC y Componente NT del Cargo MPC.
+     La Componente Saldo Final Restante del Cargo MPC est&#225;
+destinada a efectuar todos los pagos que emanen del FET
+distintos de los destinados a extinguir el Saldo NT, y ser&#225;
+equivalente a 22 pesos por kWh, para los per&#237;odos
+tarifarios de los a&#241;os 2024 a 2027, el que se reajustar&#225;
+semestralmente conforme a la variaci&#243;n que experimente el
+&#205;ndice de Precios al Consumidor, considerando como base el
+mes de enero de 2024; y de 9 pesos por kWh, para los
+per&#237;odos tarifarios de los a&#241;os 2028 a 2035, el que se
+reajustar&#225; semestralmente conforme a la variaci&#243;n que
+experimente el &#205;ndice de Precios al Consumidor,
+considerando como base el mes de enero de 2028.
+    La Componente NT del Cargo MPC que est&#225; destinada a
+pagar el Saldo NT corresponder&#225; a 5 pesos por kWh, el cual
+se reajustar&#225; semestralmente conforme a la variaci&#243;n que
+experimente el &#205;ndice de Precios al Consumidor,
+considerando como base el mes de julio de 2026. Dicha
+componente del Cargo MPC deber&#225; aplicarse a partir del 1 de
+enero de 2028, y se extender&#225; hasta la total extinci&#243;n del
+Saldo NT, lo que no podr&#225; ocurrir despu&#233;s del &#250;ltimo d&#237;a
+h&#225;bil del a&#241;o 2035.
+     El Cargo MPC deber&#225; ser financiado por los clientes
+sometidos a regulaci&#243;n de precios, conforme a las
+siguientes reglas:
+     
+     1. A partir del primer per&#237;odo tarifario del a&#241;o
+2024, el Cargo MPC ser&#225; financiado por aquellos clientes
+sometidos a regulaci&#243;n de precios cuyo consumo promedio
+mensual sea superior a 350 kWh.
+     2. A partir del primer per&#237;odo tarifario de 2025, el
+Cargo MPC ser&#225; financiado por todos los clientes sometidos
+a regulaci&#243;n de precios, independiente de su nivel de
+consumo.
+     
+     No obstante lo se&#241;alado, si el promedio del tipo de
+cambio observado del d&#243;lar de Estados Unidos de Am&#233;rica,
+que publica peri&#243;dicamente el Banco Central, en un per&#237;odo
+de doce meses anteriores al mes de inicio de la respectiva
+fijaci&#243;n tarifaria presenta fluctuaciones superiores al 10%
+de aumento o reducci&#243;n respecto del valor promedio del mes
+de diciembre de 2023, la Comisi&#243;n Nacional de Energ&#237;a
+podr&#225; ajustar la componente Saldo Final Restante del Cargo
+MPC de manera de extinguir los saldos originados por la
+implementaci&#243;n de la ley N&#186; 21.185 y por la presente ley.
+     De la misma manera, si durante el per&#237;odo que medie
+entre los a&#241;os 2026 y 2027, la Comisi&#243;n Nacional de
+Energ&#237;a proyectase que los saldos adeudados con ocasi&#243;n de
+la ley N&#176; 21.185 no logren ser extinguidos en su totalidad,
+&#233;sta determinar&#225; los ajustes transitorios a la componente
+Saldo Final Restante del Cargo MPC de manera de prever la
+extinci&#243;n total de los referidos saldos antes del 31 de
+diciembre de 2027.
+     El cargo se&#241;alado en este art&#237;culo ser&#225; incorporado
+en el informe t&#233;cnico para el c&#225;lculo del precio de nudo
+promedio que establece el art&#237;culo 158 de la Ley General de
+Servicios El&#233;ctricos.
+     Sin perjuicio de lo indicado en los incisos
+precedentes, si durante el per&#237;odo que medie entre los
+a&#241;os 2028 y 2035, la demanda el&#233;ctrica proyectada de
+clientes regulados para el Sistema El&#233;ctrico Nacional y los
+sistemas medianos para un semestre presenta fluctuaciones
+superiores al 10% de aumento o reducci&#243;n respecto del valor
+estimado en el "Informe Definitivo de Previsi&#243;n de Demanda
+2022-2042 Sistema El&#233;ctrico Nacional y Sistemas Medianos",
+de febrero de 2023, aprobado por la Resoluci&#243;n Exenta N&#176;
+83, de 2023, de la Comisi&#243;n Nacional de Energ&#237;a, &#233;sta
+deber&#225; ajustar la componente Saldo Final Restante del Cargo
+MPC de manera de extinguir oportunamente los saldos
+originados por la implementaci&#243;n de la presente ley.
+     En caso de que la Comisi&#243;n Nacional de Energ&#237;a prevea
+que los recursos del Fondo de Estabilizaci&#243;n de Tarifas no
+sean suficientes para cumplir con las obligaciones de pago
+de los documentos de pago de normalizaci&#243;n tarifaria, &#233;sta
+deber&#225; ajustar el valor de la Componente NT del Cargo MPC,
+con el objeto de asegurar la suficiencia financiera
+requerida para el pago de dichos documentos.</Texto>
+          <Metadatos>
+            <NombreParte presente="si">9 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-07-31" derogado="no derogado" idParte="10353355">
+          <Texto>     Art&#237;culo 10.- Obligaci&#243;n de las empresas de
+distribuci&#243;n y empresas operadoras de sistemas medianos.
+Las concesionarias de distribuci&#243;n y empresas operadoras de
+sistemas medianos deber&#225;n transferir el monto de dinero
+recaudado con ocasi&#243;n del cobro del Cargo MPC a la
+Tesorer&#237;a General de la Rep&#250;blica, m&#225;s el Impuesto al
+Valor Agregado, si corresponde, quien llevar&#225; un registro
+contable que permita identificar y llevar en detalle los
+recursos e informar&#225; mensualmente a la Comisi&#243;n Nacional
+de Energ&#237;a del monto recaudado, de manera separada por
+concepto de cada componente del Cargo MPC, para que esta lo
+incluya en el informe preliminar de precio de nudo promedio
+al que se refiere el art&#237;culo 158&#186; de la Ley General de
+Servicios El&#233;ctricos. La Tesorer&#237;a General de la
+Rep&#250;blica deber&#225; realizar los pagos correspondientes al
+portador del documento de pago o de documentos de pago de
+normalizaci&#243;n tarifaria emitidos de conformidad con lo
+establecido en el art&#237;culo 8 de la presente ley. Dichas
+transferencias se realizar&#225;n en la fecha que el documento
+de pago o documento de pago de normalizaci&#243;n tarifaria
+establezca, y ser&#225;n contabilizadas como descuentos al Saldo
+Final Restante y del Saldo NT, seg&#250;n corresponda, de
+acuerdo con lo dispuesto en el art&#237;culo 5 de la presente
+ley.
+     Si una vez efectuados los pagos a los portadores de los
+documentos de pago, en los t&#233;rminos del inciso precedente,
+quedaren fondos remanentes conforme a lo dispuesto en el
+inciso final del art&#237;culo 212-14 de la Ley General de
+Servicios El&#233;ctricos, &#233;stos deber&#225;n ser destinados a la
+extinci&#243;n de los saldos originados por la implementaci&#243;n
+de la ley N&#176; 21.185. Una vez extintos dichos saldos, los
+excedentes podr&#225;n destinarse a la extinci&#243;n de aquellos
+originados por la implementaci&#243;n de esta ley. Si, aplicadas
+las reglas anteriores, a&#250;n existen saldos, &#233;stos podr&#225;n
+ser destinados a aumentar los recursos para el otorgamiento
+del subsidio a que se refiere el art&#237;culo 151.      </Texto>
+          <Metadatos>
+            <NombreParte presente="si">10 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-07-31" derogado="no derogado" idParte="10353356">
+          <Texto>     Art&#237;culo 11.- Decretos tarifarios. Ser&#225; obligaci&#243;n
+del Ministerio de Energ&#237;a, previo informe de la Comisi&#243;n
+Nacional de Energ&#237;a, establecer en los decretos de
+fijaci&#243;n de precios semestrales a que se refiere el
+art&#237;culo 158 de la Ley General de Servicios El&#233;ctricos y
+en los decretos de peajes de distribuci&#243;n, el cargo al que
+se refiere el art&#237;culo 9, tal que permita extinguir los
+saldos originados por la aplicaci&#243;n de la ley N&#176; 21.185 y
+pagar las obligaciones del Fondo de Estabilizaci&#243;n de
+Tarifas y los documentos de pago y documentos de pago de
+normalizaci&#243;n tarifaria emitidos de acuerdo con la presente
+ley.      </Texto>
+          <Metadatos>
+            <NombreParte presente="si">11 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2024-04-30" derogado="no derogado" idParte="10353357">
+          <Texto>     Art&#237;culo 12.- Garant&#237;a para pago del Saldo Final
+Restante reconocido en los decretos tarifarios a los que se
+refiere el art&#237;culo 158 de la Ley General de Servicios
+El&#233;ctricos. La restituci&#243;n del Saldo Final Restante por
+parte de los clientes regulados al portador del documento de
+pago emitido por la Tesorer&#237;a General de la Rep&#250;blica de
+acuerdo a lo establecido en el art&#237;culo 8 contar&#225; con la
+garant&#237;a del Fisco, hasta por un total de 1.800 millones de
+d&#243;lares de los Estados Unidos de Am&#233;rica. Los documentos
+de pago emitidos por la Tesorer&#237;a General de la Rep&#250;blica,
+en tanto administradora del Fondo de Estabilizaci&#243;n de
+Tarifas, una vez superados los 1.800 millones de d&#243;lares de
+los Estados Unidos de Am&#233;rica del Saldo Final Restante,
+contar&#225;n con la garant&#237;a del Fisco hasta por un 30% del
+valor nominal m&#225;s intereses de los documentos de pago. Esta
+garant&#237;a ser&#225; determinada de manera semestral o anual por
+el Ministerio de Hacienda, mediante decreto dictado bajo la
+f&#243;rmula "por orden del Presidente de la Rep&#250;blica".
+     El procedimiento, fechas y monto de pago de la
+garant&#237;a indicada en el inciso anterior, y sus intereses,
+se establecer&#225;n en la resoluci&#243;n se&#241;alada en el art&#237;culo
+13 de la presente ley.      
+</Texto>
+          <Metadatos>
+            <NombreParte presente="si">12 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2022-08-02" derogado="no derogado" idParte="10353358">
+          <Texto>     Art&#237;culo 13.- Implementaci&#243;n del MPC. La Comisi&#243;n
+Nacional de Energ&#237;a mediante resoluci&#243;n exenta, que
+deber&#225; ser visada por la Direcci&#243;n de Presupuestos,
+establecer&#225; las reglas necesarias para la implementaci&#243;n
+del Mecanismo de Protecci&#243;n al Cliente, de manera
+coordinada y complementaria con el mecanismo de
+estabilizaci&#243;n establecido en la ley N&#176; 21.185 y en
+concordancia con los principios dispuestos en el art&#237;culo 2
+de la referida ley.
+     Asimismo, el Coordinador, en uso de las facultades
+establecidas en el art&#237;culo 72-4 de la Ley General de
+Servicios El&#233;ctricos, establecer&#225; un procedimiento interno
+que determine los requerimientos de detalle que sean
+necesarios para el adecuado cumplimiento y ejecuci&#243;n de las
+funciones establecidas en la presente ley, en concordancia
+con lo que establezca la resoluci&#243;n referida en el inciso
+anterior.
+      </Texto>
+          <Metadatos>
+            <NombreParte presente="si">13 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2022-08-02" derogado="no derogado" idParte="10353359">
+          <Texto>     Art&#237;culo 14.- Contabilizaci&#243;n de saldos. Las
+diferencias de facturaci&#243;n no recaudadas y que se originen
+con posterioridad a la acumulaci&#243;n del saldo no recaudado
+de 1.350 millones de d&#243;lares de los Estados Unidos de
+Am&#233;rica, conforme a lo establecido en el numeral 4 del
+art&#237;culo 1 de la ley N&#176; 21.185, ser&#225;n contabilizadas de
+manera separada, de conformidad a las disposiciones de la
+presente ley.
+      </Texto>
+          <Metadatos>
+            <NombreParte presente="si">14 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2026-07-31" derogado="no derogado" idParte="10353360">
+          <Texto>     Art&#237;culo 15.- Cambio de r&#233;gimen. Los clientes
+sometidos a regulaci&#243;n de precios que opten por cambiar al
+r&#233;gimen de precios libres, a partir de la vigencia de esta
+ley y hasta el t&#233;rmino del mecanismo de estabilizaci&#243;n en
+ella establecido, deber&#225;n participar de este mecanismo de
+estabilizaci&#243;n en igualdad de condiciones con el resto de
+los clientes regulados y en igualdad de condiciones entre
+tales clientes libres, a trav&#233;s del pago de la Componente
+Saldo Final Restante del Cargo MPC que se adicionar&#225; al
+peaje de distribuci&#243;n conforme lo determine la Comisi&#243;n
+Nacional de Energ&#237;a por resoluci&#243;n exenta.
+     Adicionalmente, la Componente NT del Cargo MPC ser&#225;
+financiada por los clientes libres sujetos a peajes de
+distribuci&#243;n, a trav&#233;s de una componente espec&#237;fica
+adicionada en los decretos de peajes de distribuci&#243;n,
+conforme lo determine la Comisi&#243;n Nacional de Energ&#237;a, en
+el informe al que se refiere el art&#237;culo 120&#186; de la Ley
+General de Servicios El&#233;ctricos. No obstante, aquellos
+clientes a los que las empresas el&#233;ctricas deban abonar
+como consecuencia de la aplicaci&#243;n de lo dispuesto en el
+art&#237;culo 192&#186; de la Ley General de Servicios El&#233;ctricos
+quedar&#225;n exceptuados de financiar la Componente NT del
+Cargo MPC, lo cual se materializar&#225; a trav&#233;s de un
+descuento en su boleta conforme las instrucciones de la
+Superintendencia.
+      </Texto>
+          <Metadatos>
+            <NombreParte presente="si">15 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2022-08-02" derogado="no derogado" idParte="10353361">
+          <Texto>     Art&#237;culo 16.- Exenciones. Estar&#225;n exentos de pagar el
+cargo al que se refiere el inciso sexto del art&#237;culo 212-13
+de la Ley General de Servicios El&#233;ctricos, aquellos
+clientes que acrediten ser micro y peque&#241;as empresas de
+acuerdo con lo establecido en el art&#237;culo segundo de la ley
+N&#176; 20.416 y tengan un promedio de consumo mensual, en los
+&#250;ltimos doce meses, de hasta 1.000 kWh.
+     Para impetrar la exenci&#243;n a que se refiere este
+art&#237;culo, las micro y peque&#241;as empresas deber&#225;n acreditar
+su condici&#243;n de tales y el nivel promedio de consumo, en la
+forma, plazo, y sujet&#225;ndose al procedimiento que se
+establezca mediante resoluci&#243;n exenta de la Comisi&#243;n
+Nacional de Energ&#237;a.
+     Acreditada la procedencia de los requisitos, en los
+t&#233;rminos que establezca la resoluci&#243;n a que se refiere el
+inciso precedente, la empresa de distribuci&#243;n deber&#225;
+exceptuar del cobro a que se refiere el inciso primero.
+     Dicha exenci&#243;n estar&#225; vigente mientras la empresa
+mantenga los requisitos exigidos en el presente art&#237;culo,
+correspondi&#233;ndole a la empresa distribuidora verificarlos,
+en la periodicidad que establezca la resoluci&#243;n de la
+Comisi&#243;n Nacional de Energ&#237;a, pudiendo solicitar la
+informaci&#243;n que dicho instrumento establezca de manera
+actualizada.
+     La Comisi&#243;n Nacional de Energ&#237;a llevar&#225; un catastro
+actualizado, semestralmente, de las micro y peque&#241;as
+empresas que hayan impetrado el beneficio en el referido
+per&#237;odo.
+      </Texto>
+          <Metadatos>
+            <NombreParte presente="si">16 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="no transitorio" tipoParte="Art&#237;culo" fechaVersion="2022-08-02" derogado="no derogado" idParte="10353362">
+          <Texto>     Art&#237;culo 17.- El Ministerio de Energ&#237;a deber&#225;
+presentar a las comisiones de Miner&#237;a y Energ&#237;a, y a la de
+Hacienda de la C&#225;mara de Diputados y del Senado, cada seis
+meses desde la publicaci&#243;n de esta ley, una evaluaci&#243;n
+detallada de la implementaci&#243;n del Fondo de Estabilizaci&#243;n
+de Tarifas, y del Mecanismo Transitorio de Protecci&#243;n del
+Cliente.
+      </Texto>
+          <Metadatos>
+            <NombreParte presente="si">17 </NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+      </EstructurasFuncionales>
+    </EstructuraFuncional>
+    <EstructuraFuncional transitorio="transitorio" tipoParte="T&#237;tulo" fechaVersion="2022-08-02" derogado="no derogado" idParte="10353363">
+      <Texto>     DISPOSICIONES TRANSITORIAS
+      </Texto>
+      <Metadatos>
+        <NombreParte presente="no">&#160;</NombreParte>
+        <TituloParte presente="si">DISPOSICIONES TRANSITORIAS</TituloParte>
+        
+      </Metadatos>
+      <EstructurasFuncionales>
+        <EstructuraFuncional transitorio="transitorio" tipoParte="Art&#237;culo" fechaVersion="2022-08-02" derogado="no derogado" idParte="10353364">
+          <Texto>     Art&#237;culo primero.- Dentro del plazo de seis meses
+contado desde la publicaci&#243;n de la presente ley en el
+Diario Oficial, el Ministerio de Hacienda deber&#225; dictar el
+reglamento a que se refiere el inciso cuarto del art&#237;culo
+212-14, incorporado por el art&#237;culo 1 de esta ley. Sin
+perjuicio de lo anterior, los montos recaudados con
+anterioridad a la dictaci&#243;n del reglamento ser&#225;n
+acumulados en una cuenta que dispondr&#225; la Tesorer&#237;a
+General de la Rep&#250;blica para estos efectos y podr&#225;n ser
+utilizados para pagar el Saldo Final Restante de conformidad
+a las reglas generales establecidas en la presente ley.
+      </Texto>
+          <Metadatos>
+            <NombreParte presente="si">primero</NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="transitorio" tipoParte="Art&#237;culo" fechaVersion="2022-08-02" derogado="no derogado" idParte="10353365">
+          <Texto>     Art&#237;culo segundo.- Increm&#233;ntase en dos cupos la
+dotaci&#243;n m&#225;xima de personal de la Comisi&#243;n Nacional de
+Energ&#237;a consignada en la Ley de Presupuestos del Sector
+P&#250;blico. El mayor gasto fiscal que signifique la
+aplicaci&#243;n de esta ley en su primer a&#241;o presupuestario de
+vigencia se financiar&#225; con cargo al presupuesto vigente de
+la Comisi&#243;n Nacional de Energ&#237;a. No obstante lo anterior,
+el Ministerio de Hacienda, con cargo a la partida
+presupuestaria Tesoro P&#250;blico, podr&#225; suplementar dicho
+presupuesto en la parte de gasto que no se pudiere financiar
+con tales recursos. Para los a&#241;os posteriores, el gasto se
+financiar&#225; con cargo a los recursos que se contemplen en
+las respectivas leyes de presupuestos del sector p&#250;blico.
+      </Texto>
+          <Metadatos>
+            <NombreParte presente="si">segundo</NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="transitorio" tipoParte="Art&#237;culo" fechaVersion="2024-04-30" derogado="no derogado" idParte="10353366">
+          <Texto>     Art&#237;culo tercero.- A partir del a&#241;o 2027 y mientras
+no se pague la totalidad del Saldo Final Restante del
+Mecanismo de Protecci&#243;n al Cliente, de conformidad con lo
+establecido en el inciso final del art&#237;culo 2, y siempre
+que se determinen alzas para las tarifas de los clientes
+regulados en el literal a) que incorpora el numeral 1 del
+art&#237;culo 1, o que de conformidad al art&#237;culo 9 se fije un
+cargo MPC superior a $0 para este tramo de clientes, el
+Ministerio de Hacienda realizar&#225; aportes anuales de hasta
+20 millones de d&#243;lares de los Estados Unidos de Am&#233;rica o
+su equivalente en moneda nacional, al Fondo de
+Estabilizaci&#243;n de Tarifas del art&#237;culo 1, mediante uno o
+m&#225;s decretos expedidos bajo la f&#243;rmula "por orden del
+Presidente de la Rep&#250;blica", recursos que complementar&#225;n
+el cargo que establece el n&#250;mero 1 del mismo art&#237;culo. En
+el cumplimiento del objeto del fondo, los recursos a que se
+refiere este art&#237;culo solo podr&#225;n ser utilizados para los
+objetivos antedichos.      
+</Texto>
+          <Metadatos>
+            <NombreParte presente="si">tercero</NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="transitorio" tipoParte="Art&#237;culo" fechaVersion="2022-08-02" derogado="no derogado" idParte="10353367">
+          <Texto>     Art&#237;culo cuarto.- Sin perjuicio de lo dispuesto en el
+art&#237;culo anterior, durante el a&#241;o 2022, el Ministerio de
+Hacienda, mediante uno o m&#225;s decretos expedidos bajo la
+f&#243;rmula "por orden del Presidente de la Rep&#250;blica",
+efectuar&#225; un aporte de hasta 15 millones de d&#243;lares de los
+Estados Unidos de Am&#233;rica o su equivalente en moneda
+nacional, al Fondo de Estabilizaci&#243;n de Tarifas creado por
+el art&#237;culo 1. Los recursos a que se refiere este art&#237;culo
+deber&#225;n ser utilizados para contener alzas que se
+determinen con ocasi&#243;n de la fijaci&#243;n tarifaria a que se
+refiere el art&#237;culo 158 de la Ley General de Servicios
+El&#233;ctricos, para las tarifas de los clientes regulados en
+el literal a) que incorpora el n&#250;mero 1 del art&#237;culo 1.
+      </Texto>
+          <Metadatos>
+            <NombreParte presente="si">cuarto</NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="transitorio" tipoParte="Art&#237;culo" fechaVersion="2022-08-02" derogado="no derogado" idParte="10353368">
+          <Texto>     Art&#237;culo quinto.- Los Ministerios de Energ&#237;a, de
+Hacienda, y de Desarrollo Social y Familia constituir&#225;n,
+junto a las y los integrantes de la Comisi&#243;n de Miner&#237;a y
+Energ&#237;a del Senado, dentro de los treinta d&#237;as siguientes
+a la publicaci&#243;n de la presente ley, una mesa de trabajo
+que tendr&#225; por objeto evaluar la implementaci&#243;n del
+beneficio a que se refiere el art&#237;culo tercero transitorio,
+as&#237; como otras pol&#237;ticas destinadas a enfrentar la pobreza
+energ&#233;tica y protecci&#243;n tarifaria el&#233;ctrica para los
+clientes regulados pertenecientes al 40% m&#225;s vulnerable. La
+mesa evacuar&#225; un informe con plazo m&#225;ximo al 31 de
+diciembre de 2022, debiendo ponerlo en conocimiento de las
+Comisiones de Miner&#237;a y Energ&#237;a de la C&#225;mara de Diputados
+y del Senado.
+      </Texto>
+          <Metadatos>
+            <NombreParte presente="si">quinto</NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="transitorio" tipoParte="Art&#237;culo" fechaVersion="2022-08-02" derogado="no derogado" idParte="10353369">
+          <Texto>     Art&#237;culo sexto.- Durante la vigencia del Mecanismo de
+Protecci&#243;n al Cliente establecido en el T&#237;tulo II de la
+presente ley, los recursos referidos en el art&#237;culo 1,
+n&#250;mero 1, y en el art&#237;culo tercero transitorio, se
+destinar&#225;n, en primer lugar, a la restituci&#243;n de los
+saldos adeudados con ocasi&#243;n de la ley N&#176; 21.185 y, luego,
+al pago del Saldo Final Restante definido en el art&#237;culo 5.
+      </Texto>
+          <Metadatos>
+            <NombreParte presente="si">sexto</NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+        <EstructuraFuncional transitorio="transitorio" tipoParte="Art&#237;culo" fechaVersion="2022-08-02" derogado="no derogado" idParte="10353370">
+          <Texto>     Art&#237;culo s&#233;ptimo.- Semestralmente, el Ministerio de
+Energ&#237;a y la Tesorer&#237;a General de la Rep&#250;blica remitir&#225;n
+a las Comisiones de Hacienda y de Miner&#237;a y Energ&#237;a de
+ambas C&#225;maras del Congreso Nacional, informaci&#243;n relativa
+a la recaudaci&#243;n en el periodo del Fondo de
+Estabilizaci&#243;n, desglos&#225;ndola por los tramos de cargos por
+servicio p&#250;blico que incorpora este proyecto; por tipo de
+clientes y la cuant&#237;a de los saldos remanentes en el fondo,
+si los hubiera.".</Texto>
+          <Metadatos>
+            <NombreParte presente="si">s&#233;ptimo</NombreParte>
+            <TituloParte presente="no">&#160;</TituloParte>
+            
+          </Metadatos>
+        </EstructuraFuncional>
+      </EstructurasFuncionales>
+    </EstructuraFuncional>
+  </EstructurasFuncionales>
+  <Promulgacion fechaVersion="2022-08-02" derogado="no derogado">
+    <Texto>     Y por cuanto he tenido a bien aprobarlo y sancionarlo;
+por tanto, prom&#250;lguese y ll&#233;vese a efecto como Ley de la
+Rep&#250;blica.
+      
+     Santiago, 19 de julio de 2022.- GABRIEL BORIC FONT,
+Presidente de la Rep&#250;blica.- Claudio Huepe Minoletti,
+Ministro de Energ&#237;a.- Mario Marcel Cullell, Ministro de
+Hacienda.
+     Lo que transcribo a Ud. para su conocimiento.- Saluda
+Atte. a Ud., Julio Andr&#233;s Esteban Maturana Franca,
+Subsecretario de Energ&#237;a.</Texto>
+  </Promulgacion>
+  
+</Norma>

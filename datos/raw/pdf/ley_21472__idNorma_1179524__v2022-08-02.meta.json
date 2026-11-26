@@ -1,0 +1,18 @@
+{
+  "id_norma": "1179524",
+  "fecha_version": "2022-08-02",
+  "nombre": "Ley 21472",
+  "url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=Ley-21472_02-AGO-2022&exportar_con_notas_bcn=True&exportar_con_notas_originales=True&exportar_con_notas_al_pie=True&hddResultadoExportar=1179524.2022-08-02.0.0%23",
+  "fecha_descarga": "2026-11-25",
+  "sha256_pdf": "edd9e12b866287e29efd371b8c6615e4c43815c2e69ac84b5206893764c2898d",
+  "bytes": 77815,
+  "con_notas_bcn": true,
+  "conversion": {
+    "texto": {
+      "parrafos": 82,
+      "notas_bcn": 0,
+      "pdf_ley_chile": true,
+      "salida": "datos/raw/pdf/ley_21472__idNorma_1179524__v2022-08-02.md"
+    }
+  }
+}
