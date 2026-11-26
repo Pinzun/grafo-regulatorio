@@ -74,8 +74,11 @@ Usa `.venv/bin/graphify` con los nombres de nodo exactos (etiquetas), por ejempl
 - Una norma llega a sus artículos por `contiene`, y sus artículos a los del DFL 4 por `modifica` o
   `deroga`. Para "qué modificó la Ley X", parte del nodo de su artículo modificatorio:
   el que indica la lista del comienzo (p. ej. `art. único`, `art. 1`, `art. 13`, `art. 391`, `art. primero`);
-  por ejemplo `"Ley 21.667 de 2024 — art. primero"` o `"Ley 20.720 de 2014 — art. 391"`. Las 361
-  aristas del DFL 4 tienen hoy historia completa.
+  por ejemplo `"Ley 21.667 de 2024 — art. primero"` o `"Ley 20.720 de 2014 — art. 391"`. El nodo de la
+  ley tiene una sola arista (`contiene` hacia ese artículo): en vistas como Obsidian la ley aparece como hoja
+  y sus modificaciones cuelgan del nodo del artículo. No es un faltante: así lo fija la ontología (la norma
+  contiene artículos; los artículos modifican artículos). Los 361 artículos del DFL 4 tienen hoy historia
+  completa; solo los 244 que alguna ley modificó son nodos (los demás están en `textos/`).
 - **Preguntas de intersección** ("artículos tocados por ambas leyes"): `path` muestra solo un camino
   aunque avise "N equal-length routes"; para la lista completa compara los `explain --all` de ambos artículos
   modificatorios.
@@ -90,9 +93,12 @@ Usa `.venv/bin/graphify` con los nombres de nodo exactos (etiquetas), por ejempl
 
 `textos/dfl4/art_<número>.md` (p. ej. `art_91_bis.md`, `art_72-1.md`) trae, por artículo del DFL 4:
 encabezado (versión BCN, idParte, vigencia, cobertura de la historia, bloque), **texto vigente íntegro**
-(indica si viene del XML o del PDF), historia de modificaciones ordenada por fecha y el **numeral literal**
-de cada ley modificatoria. `textos/indice.md` lista todos los artículos (primero el bloque validado) con
-avisos. Para citar el texto de un artículo o de una modificación, léelo de ahí en vez de resumir de memoria.
+(indica si viene del XML o del PDF), historia de modificaciones ordenada por fecha (cada línea empieza con
+`vigencia: AAAA-MM-DD`; bajo las aristas que fueron inferidas, una línea `Revisión: pendiente / confirmada
+(revisado: …) / descartada (…)` según `revisiones_manuales.csv`) y el **numeral literal** de cada ley
+modificatoria. `textos/indice.md` lista todos los artículos (primero el bloque validado), una sección
+**Leyes** (las 29 normas: fecha de publicación, idNorma, artículo modificatorio, cobertura con nota, y los
+artículos del DFL 4 que modifica, incluidas las aristas superadas) y avisos. No hay archivos por ley. Para citar el texto de un artículo o de una modificación, léelo de ahí en vez de resumir de memoria.
 Se regeneran solos con `construir_grafo.py`; no los edites a mano.
 
 La etiqueta de la modificación es `N° k` (numeral), `letra a)` (Ley 20.273, literales sin numerales) o
@@ -118,8 +124,9 @@ El "artículo trigésimo" del DFL 4 es un transitorio que agregó la Ley 21.647 
 `no transitorio`: no es nodo y su inserción está en `modificaciones_no_articulo.csv`.
 
 Los arts. 188 y 189 dicen solo "Eliminado." en el texto consolidado: los suprimió la Ley 21.194 N° 8
-(2019-12-21). Como el XML BCN no los marca derogados, sus aristas `deroga` son `inferida` y están pendientes
-de revisión en `ontologia/revisiones_manuales.csv`; trátalos como eliminados.
+(2019-12-21). El XML BCN no los marca derogados, así que el extractor deja sus aristas `deroga` como
+`inferida`; el usuario las confirmó en `ontologia/revisiones_manuales.csv` (revisado: pinzun 2026-11-26) y
+quedan `verificada`/`manual`. Hoy no hay aristas inferidas en el grafo.
 
 ## No hacer
 
